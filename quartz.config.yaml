@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: 知識庫
+  pageTitle: Orange的知識庫
   pageTitleSuffix: ""
   enableSPA: false
   enablePopovers: true
