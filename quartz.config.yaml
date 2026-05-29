@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: 百科全書
+  pageTitle: 道詞
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
@@ -200,10 +200,10 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/timoranjes/quartz-wiki
+        GitHub: https://github.com/timoranjes/ministry-wiki
   - source: github:quartz-community/recent-notes
     enabled: false
-  - source: github:quartz-community/space
+  - source: github:quartz-community/spacer
     enabled: true
     options: {}
     order: 25
