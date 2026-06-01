@@ -1,10 +1,10 @@
 ---
 title: AI Supply Chain Bottlenecks
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-05-31
 type: concept
 tags: [bottleneck, overview, supply-demand]
-sources: [raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md]
+sources: [raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/memory-chip-shortage-makes-bare-metal-cloud-cheaper-than-on--edfcd0c4ac8be553.md, raw/articles/铜价奔向105万背后-新能源吃铜铜也正在改变新能源的胃口-ed818e409ba9c630.md, raw/articles/nikon-weaponizes-lower-prices-to-break-asmls-lithography-mon-d80faf94d9d9f30e.md]
 confidence: high
 ---
 
@@ -29,8 +29,8 @@ TSMC 3nm demand is approximately three times the company's available capacity. E
 ## Root Causes
 
 - **Concentration risk:** TSMC controls ~70% of advanced chip manufacturing and ~85% of advanced AI processors
-- **Upstream material dependencies:** China controls 79% of tungsten production, prices surged 557%
-- **Equipment lead times:** ASML EUV lithography systems face a 2-year backlog
+- **Upstream material dependencies:** China controls 79% of tungsten production, prices surged 557%; copper prices surging toward ¥105,000/tonne (~$14,500) driven by new energy sector demand, forcing downstream PCB/CCL industry adjustments
+- **Equipment lead times:** ASML EUV lithography systems face a 2-year backlog; however, Nikon is now undercutting ASML on ArF lithography tool pricing, leveraging in-house manufacturing to offer lower-cost alternatives to American chipmakers — a potential second source emerging
 - **Workforce shortages:** Global shortfall of 300,000 skilled semiconductor professionals by 2026
 
 ## The Pattern: 2024 GPUs → 2025 Memory → 2026 Optical Components
@@ -40,6 +40,19 @@ The bottleneck narrative tracks in precise sequence across the supply chain. Eac
 ## Industry Outlook
 
 Combined capex from major players is expected to exceed $150 billion in 2026, with government subsidies adding over $100 billion. These investments will take years to translate into increased capacity, meaning supply chain constraints are likely to persist through at least 2027.
+
+## Memory Shortage Impact on Infrastructure (May 2026)
+
+Nutanix CEO Rajiv Ramaswami reported that the ongoing memory chip shortage is driving more enterprises to bare metal cloud rather than on-premises deployment. This creates a secondary effect: the memory bottleneck not only constrains AI training but also reshapes the broader infrastructure market, favoring cloud providers who can aggregate and allocate scarce memory resources more efficiently.
+
+## Data Center Network Innovation
+
+- **Amazon RNG (May 2026):** AWS unveiled "Resilient Network Graphs" — a random-graph-based data center network architecture that delivers 33% higher throughput, cuts network power consumption by 40%, uses 69% fewer devices, and is already the default for most AWS workloads. This represents a significant optimization in data center networking topology, reducing hardware dependency at scale.
+
+## Data Center Energy Infrastructure
+
+- **Anthropic expanding DC energy team (May 2026):** Meta's Andrew Rudersdorf joined Anthropic's data center energy team, signaling that AI companies are prioritizing dedicated energy infrastructure expertise as compute demand grows.
+- **NOV + TerraFlow partnership (May 2026):** National Oilwell Varco partnering with TerraFlow on fiberglass solutions for AI data center long-duration energy storage. Reflects the growing intersection of materials science (fiberglass) and AI infrastructure energy needs.
 
 ## Related
 

@@ -1,96 +1,82 @@
 ---
-title: Single-Agent vs Multi-Agent Architectures
-created: 2026-05-28
-updated: '2026-05-28'
+title: Single vs Multi-Agent
+created: 2026-05-29
+updated: 2026-05-29
 type: comparison
-tags:
-- comparison
-- single-agent
-- multi-agent
-- orchestrator-workers
-- tutorial
-sources: [https://openai.github.io/openai-agents-python/, https://microsoft.github.io/autogen/stable/, https://langchain-ai.github.io/langgraph/]
+tags: [comparison, agent-architecture, multi-agent]
+sources: []
 confidence: high
 ---
 
-# Single-Agent vs Multi-Agent Architectures
+# Single vs Multi-Agent: When to Choose Which
 
-## What Is Being Compared
+## Definition
 
-This page compares two fundamental approaches to designing AI agent systems: **single-agent architectures** (one agent handles the entire task) versus **multi-agent architectures** (multiple specialized agents collaborate). The comparison covers performance, complexity, reliability, and suitability for different problem domains.
+Comparing single-agent execution vs multi-agent delegation for task completion. This is the most common architecture decision in agent work.
 
-**Why compare them**: This is the foundational architectural decision when building any agentic system. The choice affects everything from development effort and debugging complexity to cost, latency, and the types of problems the system can handle effectively.
+## Comparison
 
-## Comparison Table
+| Dimension | Single Agent | Multi-Agent (Orchestrator-Workers) |
+|-----------|-------------|-----------------------------------|
+| Context | Shared, grows over time | Isolated per worker |
+| Parallelism | Sequential | Parallel (up to N workers) |
+| Complexity handling | Limited by context window | Scales with worker count |
+| Cost | Lower (no orchestration overhead) | Higher (N+1 agents) |
+| Wall time | Sequential sum | Max of individual tasks |
+| State sharing | Natural (in-context) | Requires explicit passing |
+| Error isolation | None (one error = all lost) | Per-worker (one fails, others continue) |
+| Debugging | Simpler (one trace) | Harder (N traces + synthesis) |
+| Best for | Simple tasks, exploration | Complex projects, parallel work |
 
-| Dimension | Single-Agent | Multi-Agent |
-|-----------|-------------|-------------|
-| **Architecture** | One LLM instance with tools and context | Multiple agents with specialized roles |
-| **Complexity** | Low; simpler to build and debug | High; coordination, communication, state management |
-| **Cost** | Lower per request; fewer API calls | Higher; multiple agents = multiple LLM calls |
-| **Latency** | Lower; single execution path | Higher; sequential or parallel agent coordination |
-| **Scalability** | Limited by context window and tool overload | Horizontally scalable; agents can run in parallel |
-| **Reliability** | Single point of failure | Resilient through specialization and redundancy |
-| **Context Management** | All context in one window | Distributed; each agent has focused context |
-| **Debugging** | Easier; linear execution trace | Harder; non-deterministic interactions |
-| **Specialization** | Generalist; may be mediocre at many things | Specialist; each agent optimized for its role |
-| **Best For** | Simple tasks, well-defined workflows | Complex tasks requiring diverse expertise |
+## Decision Tree
 
-## Detailed Analysis
+```
+Task has >3 independent subtasks?
+  Yes -> Multi-Agent
+  No -> Can it be done in <5 tool calls?
+    Yes -> Single Agent
+    No -> Does it need parallel execution?
+      Yes -> Multi-Agent
+      No -> Single Agent (Plan-and-Execute)
+```
 
-### When Single-Agent Excels
+## Real Examples
 
-Single-agent architectures work best when:
-- The task is **well-scoped** and fits within a single context window
-- **Latency matters** — each additional agent adds round-trip time
-- **Cost sensitivity** is high — fewer API calls means lower cost
-- The problem doesn't naturally decompose into specialized subtasks
+### Single Agent is Better
+- "Search for the latest news on NVIDIA earnings"
+- "Read this file and summarize it"
+- "Fix the typo in line 42"
+- "What is the weather in Hong Kong?"
 
-**Frameworks**: [[openai-agents-sdk]], basic [[langchain]] agents, simple ReAct loops
+### Multi-Agent is Better
+- "Research these 5 companies and write a comparison"
+- "Build the frontend, backend, and tests for this feature"
+- "Review these 3 PRs and summarize findings"
+- "Process 100 files and extract specific patterns"
 
-### When Multi-Agent Excels
+## Cost Breakdown (Example: Research 3 Topics)
 
-Multi-agent architectures shine when:
-- Tasks require **diverse expertise** (e.g., research + coding + review)
-- **Parallelism** can reduce wall-clock time despite higher cost
-- **Quality** benefits from specialization and peer review
-- The problem has **natural decomposition** into independent subtasks
-- **Fault tolerance** is important — one agent's failure shouldn't block everything
+### Single Agent (Sequential)
+- 3 research sessions x 15K tokens = 45K input + 30K output
+- Total: ~75K tokens
+- Wall time: ~90 seconds
 
-**Sub-patterns**:
-- **orchestrator-workers**: One agent coordinates, others execute
-- **hierarchical**: Multi-level agent organization
-- **swarm**: Decentralized, peer-to-peer agent collaboration
+### Multi-Agent (Parallel, 3 workers)
+- Orchestrator: 5K input + 3K output (delegation + synthesis)
+- Workers: 3 x (15K input + 10K output) = 45K + 30K
+- Total: ~83K tokens
+- Wall time: ~35 seconds
 
-**Frameworks**: [[crewai]], [[autogen]], [[langgraph]] (state-machine multi-agent)
+**Trade-off:** 11% more tokens for 61% less wall time.
 
-### Trade-Off Synthesis
+## Pitfalls
 
-| Factor | Single-Agent Advantage | Multi-Agent Advantage |
-|--------|----------------------|----------------------|
-| Development speed | Faster to prototype | Faster to iterate on individual roles |
-| Maintenance | Simpler | More complex but modular |
-| Quality ceiling | Lower; one model's capability limits output | Higher; can combine best models for each role |
-| Operational overhead | Minimal | Requires monitoring, coordination logic |
+1. **Over-delegating** — Using multi-agent for simple tasks wastes tokens on orchestration.
+2. **Under-delegating** — Using single agent for complex tasks leads to context overflow and quality loss.
+3. **Wrong worker count** — Too few workers = no speedup. Too many = diminishing returns + parallelism limits.
+4. **Missing context** — Workers do not know what each other are doing. Orchestrator must synthesize.
 
-## Verdict
-
-The choice between single-agent and multi-agent is not binary but a **spectrum**. Most production systems start with a single-agent architecture and evolve toward multi-agent as requirements grow.
-
-**Rule of thumb**:
-- Start with a **single agent** for well-defined, bounded tasks
-- Evolve to **multi-agent** when you hit context limits, quality ceilings, or when tasks naturally decompose
-- Use **orchestrator-workers** as the first multi-agent pattern — it's the simplest step up from single-agent
-- Reserve full **swarm** or **hierarchical** architectures for problems that genuinely require decentralized coordination
-
-The [[openai-agents-sdk]] makes it easy to start single-agent and add handoffs (a lightweight multi-agent pattern) when needed. For heavier multi-agent needs, [[crewai]] and [[autogen]] provide more structured collaboration models.
-
-## Related Concepts
-
-[[crewai]], [[autogen]], [[langgraph]], [[planning-pattern]]
-
-## Sources
-
-- OpenAI Agents SDK documentation
-- AutoGen documentation
-- LangGraph documentation
+## Related
+- [[orchestrator-workers]] — multi-agent implementation details
+- [[react-pattern]] — single-agent execution pattern
+- [[cost-optimization]] — when the cost trade-off makes sense
