@@ -1,10 +1,10 @@
 ---
 title: Cost Optimization
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-06-02
 type: concept
 tags: [cost-optimization, workflow]
-sources: [raw/papers/unknown-a-policy-driven-runtime-layer-for-agentic-llm-serving.md]
+sources: [raw/papers/unknown-a-policy-driven-runtime-layer-for-agentic-llm-serving.md, raw/papers/unknown-slat-segment-level-adaptive-trimming-for-efficient-cot-reasoning.md]
 confidence: high
 ---
 
@@ -65,6 +65,21 @@ Research on agentic LLM serving reveals that inserting a runtime layer between t
 **For self-hosted agents:** If you run local models, cache agent session states between turns — the agent's next action is predictable from its current state, enabling prefetch.
 
 **Savings:** 12-29% latency reduction, 6-14% throughput increase.
+
+### 8. CoT Reasoning Trimming (SLAT)
+
+**SLAT** (Segment-Level Adaptive Trimming, 2026-05) addresses the "overthinking" problem in reasoning models — where generated reasoning chains contain structural redundancy that incurs high computational overhead without improving answer correctness.
+
+**Key findings:**
+- Inefficiency concentrates in high-probability segments with low marginal utility (not uniformly across the chain)
+- SLAT uses theoretically grounded segment-aware trimming to selectively suppress redundant segments
+- **Result:** 50% reasoning length reduction while maintaining competitive accuracy
+- Superior to token-uniform length penalties, which can inadvertently suppress useful reasoning alongside redundancy
+
+**For agent users:** When using reasoning models (R1, o-series, etc.) for agent tasks:
+- Not all "thinking" tokens are equally valuable — prune low-utility segments
+- If you control the model, segment-aware trimming beats blanket length penalties
+- For API users: set max_tokens conservatively; models often over-generate CoT beyond what's needed
 
 ## My Current Cost Stack
 

@@ -1,10 +1,10 @@
 ---
 title: Agent Architectures
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-06-02
 type: concept
 tags: [agent-architecture, orchestration]
-sources: [raw/papers/unknown-anticipate-and-learn-unleashing-idle-time-compute-in-proactive-agents.md]
+sources: [raw/papers/unknown-anticipate-and-learn-unleashing-idle-time-compute-in-proactive-agents.md, raw/papers/unknown-autosci-a-memory-centric-agentic-system-for-the-full-scientific-research-lifecyc.md]
 confidence: high
 ---
 
@@ -69,6 +69,16 @@ Structural patterns for organizing AI agent behavior. The architecture determine
 - **When to use:** Repetitive workflows where next steps are predictable from context
 - **Limitation:** Wasted compute if predictions are wrong; requires persistent memory
 - **See:** [[planning-pattern]] — planning is the reactive version of this
+
+### 8. Memory-Centric Persistent Agent (AutoSci)
+**Pattern:** Schema-governed persistent memory + lifecycle execution + self-evolution
+- **SciMem:** Dual-layer memory — Long-Term Knowledge Memory (reusable scientific knowledge) + Active Research Memory (project-level artifacts: ideas, experiments, manuscripts, reviews)
+- **SciFlow:** Five-stage lifecycle execution (literature understanding → rebuttal) with state/context/verification/feedback orchestration
+- **SciDAG:** DAG-shaped multi-agent operators for difficult skills with reusable stage-specific templates
+- **SciEvolve:** Converts feedback from users, experiments, reviews, and external environments into versioned updates to memory organization, skills, and templates
+- **Key insight:** Agents that persist across projects need structured memory, not just context windows. Schema-governed memory prevents knowledge drift.
+- **When to use:** Long-running research projects, knowledge accumulation across sessions, agents that need to "remember and evolve"
+- **Limitation:** Requires schema design overhead; memory quality degrades without curation
 
 ## Selection Matrix
 
