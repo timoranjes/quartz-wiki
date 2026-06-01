@@ -1,10 +1,10 @@
 ---
 title: HBM Memory
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-05-31
 type: concept
 tags: [hbm, memory, bottleneck, supply-demand]
-sources: [raw/articles/bytedive-hbm-market-hbm4-hbf.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md]
+sources: [raw/articles/bytedive-hbm-market-hbm4-hbf.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/供应商变股东存储芯片三巨头联手入股anthropicai供应链的权力结构正在重组-80b0813c97de5a7c.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md]
 confidence: high
 ---
 
@@ -47,6 +47,15 @@ SK Hynix unveiled a hybrid architecture called "H3" that integrates both HBM and
 - [[micron]]: 21%
 
 SK Hynix surpassed Samsung in annual profits for the first time in 2025, a symbolic event showcasing the tectonic shift HBM has brought to the industry.
+
+## Supply Chain Restructuring: Memory Suppliers Become AI Lab Shareholders (May 2026)
+
+In a landmark shift in AI supply chain power dynamics, the three HBM suppliers — [[sk-hynix]] (57% share), [[samsung]] (22%), and [[micron]] (21%) — jointly invested in Anthropic as part of its $65 billion funding round (post-money valuation exceeding OpenAI). This marks the first time upstream component suppliers have taken equity positions in downstream AI labs, fundamentally restructuring the traditional supplier-customer relationship:
+
+- **Demand security:** Equity stakes lock in long-term HBM purchase commitments, reducing revenue volatility for memory makers
+- **Design influence:** Shareholder positions give memory suppliers direct influence over Anthropic's hardware architecture decisions
+- **Competitive moat:** Competing AI labs without memory supplier backing face structural disadvantage in securing HBM allocation
+- **Industry precedent:** If successful, this model could spread to other bottleneck layers (e.g., [[tsmc]] taking equity in AI labs, or [[lumentum]] in optical component suppliers)
 
 ## HBF Corporate Strategies
 
