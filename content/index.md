@@ -1,54 +1,51 @@
 ---
-title: 首頁
-description: 統一百科全書 — 職事書報、AI 代理、供應鏈知識庫
+title: Home
+description: Unified encyclopedia — AI Agents, Supply Chain, LLM Providers
 tags: [index]
 ---
 
-# 百科全書
+# Knowledge Base
 
-歡迎來到統一知識庫。本網站整合三個獨立領域的百科內容，提供統一的搜尋、圖譜導航與跨域連結。
-
----
-
-## 📖 職事書報百科
-
-主恢復職事書報全書 — 涵蓋聖經書卷、神學概念、職事話語、人物與出版物。
-
-- **內容:** 63 卷聖經書卷、數百神學概念、職事話語精選
-- **語言:** 繁體中文
-- **特色:** 納夫金配色、Noto Serif/Sans TC 字體、經文tap-to-reveal
-
-→ [進入職事書報百科](ministry/)
+Welcome to the unified knowledge base. This site integrates content from three independent domains with unified search, graph navigation, and cross-domain linking.
 
 ---
 
-## 🤖 AI 代理知識庫
+## 🤖 AI Agents
 
-AI Agent 架構、工具鏈、部署模式、多代理協作系統知識庫。
+AI Agent architecture, toolchains, deployment patterns, and multi-agent collaboration systems.
 
-- **內容:** 框架對比、部署指南、MCP 協議、RAG 架構
-- **語言:** 繁體中文
-- **特色:** 技術文檔、架構圖、代碼示例
+- **Content:** Framework comparisons, deployment guides, MCP protocol, RAG architecture
+- **Language:** English
 
-→ [進入 AI 代理知識庫](ai-agents/)
-
----
-
-## 🔗 AI 供應鏈百科
-
-AI 上游瓶頸材料、設備、製造商、產能數據知識庫。
-
-- **內容:** 半導體材料、光刻設備、HBM 供應鏈、地緣分析
-- **語言:** 繁體中文 / English
-- **特色:** 產業鏈圖譜、供應商數據、產能追蹤
-
-→ [進入供應鏈百科](supply-chain/)
+→ [Explore AI Agents](ai-agents/)
 
 ---
 
-## 使用說明
+## 🔗 AI Supply Chain
 
-- **搜尋:** 使用左側搜尋欄跨三個領域檢索
-- **圖譜:** 右側圖譜顯示全域知識關聯
-- **導航:** 左側目錄按領域分層瀏覽
-- **跨域連結:** 不同領域的條目可互相連結
+Upstream bottleneck materials, equipment, manufacturers, and capacity data for the AI semiconductor industry.
+
+- **Content:** Semiconductor materials, lithography equipment, HBM supply chain, geopolitical analysis
+- **Language:** English
+
+→ [Explore Supply Chain](supply-chain/)
+
+---
+
+## 🧠 LLM Providers
+
+Intelligence on LLM providers, model capabilities, pricing, API endpoints, and performance benchmarks.
+
+- **Content:** Provider profiles, model comparisons, API docs, benchmark data
+- **Language:** English
+
+→ [Explore LLM Providers](llm-providers/)
+
+---
+
+## Usage
+
+- **Search:** Use the left sidebar to search across all domains
+- **Graph:** The right panel shows global knowledge connections
+- **Navigation:** Browse by domain using the Explorer panel
+- **Cross-domain links:** Entries from different domains are interlinked
