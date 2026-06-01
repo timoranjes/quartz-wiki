@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Orange的知識庫
+  pageTitle: Orange's Knowledge Base
   pageTitleSuffix: ""
   enableSPA: false
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: zh-TW
+  locale: en-US
   baseUrl: timoranjes.github.io/quartz-wiki
   ignorePatterns:
     - private
@@ -17,8 +17,8 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Noto Serif TC
-      body: Noto Sans TC
+      header: Inter
+      body: Inter
       code: IBM Plex Mono
     colors:
       lightMode:
@@ -126,7 +126,7 @@ plugins:
     enabled: true
   - source: github:quartz-community/explorer
     enabled: true
-    title: "目錄"
+    title: "Explorer"
     layout:
       position: left
       priority: 50
@@ -183,7 +183,7 @@ plugins:
   - source: github:quartz-community/breadcrumbs
     enabled: true
     options:
-      rootName: 首頁
+      rootName: Home
     layout:
       position: beforeBody
       priority: 5
