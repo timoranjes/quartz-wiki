@@ -1,10 +1,10 @@
 ---
 title: Model Selection for Agent Tasks
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-06-02
 type: concept
 tags: [model, reasoning, coding, agentic]
-sources: []
+sources: [raw/papers/unknown-harness-updating-is-not-harness-benefit-disentangling-evolution-capabilities-in.md]
 confidence: medium
 ---
 
@@ -80,3 +80,19 @@ Choosing the right model for the right agent task is the single highest-leverage
 - [[architectures]] — architecture influences model choice
 - [[cost-optimization]] — saving money with smart routing
 - [[orchestrator-workers]] — different models for orchestrator vs workers
+
+## Harness Evolution: Which Models Benefit from Self-Improvement?
+
+Research on harness self-evolution (2026-05) reveals counterintuitive findings about how different model tiers benefit from updating their external harnesses (prompts, skills, memories, tools) based on execution evidence.
+
+**Key findings:**
+- **Harness-updating is flat in base capability:** Models from different capability tiers produce harness updates that lead to surprisingly similar gains. Even Qwen3.5-9B's updates yield gains comparable to Claude Opus 4.6's updates.
+- **Harness-benefit is non-monotonic in base capability:** Weak-tier models benefit little (fail to activate relevant harness artifacts or fail to follow them faithfully), mid-tier models benefit MOST, and strong-tier models benefit less than mid-tier.
+- **Investment implication:** Invest capability budget in the task-solving agent rather than the evolver. A mid-tier model with updated harnesses outperforms expectations; a strong model's incremental gains from self-evolution are smaller.
+- **Training implication:** Target harness invocation and long-horizon instruction following in agent training — these are the bottlenecks, not the ability to generate updates.
+
+**For agent users:**
+- Don't assume you need the strongest model to self-improve — mid-tier models may actually gain more from iterative prompt/memory refinement
+- If your agents accumulate experience (memory, skill libraries, refined prompts), mid-tier models are the sweet spot for leveraging that accumulated knowledge
+- Strong models are less dependent on harness quality — they compensate with raw capability
+- Weak models can't effectively use harness artifacts even when they're good

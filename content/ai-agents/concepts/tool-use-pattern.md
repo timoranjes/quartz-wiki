@@ -1,10 +1,10 @@
 ---
 title: Tool Use Patterns
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-06-02
 type: concept
 tags: [tool-use, pattern, agent-architecture]
-sources: []
+sources: [raw/papers/unknown-maven-improving-generalization-in-agentic-tool-calling.md]
 confidence: high
 ---
 
@@ -51,6 +51,20 @@ When a primary tool fails, the agent tries alternatives. Example: `web_extract` 
 - Return specific error context (status codes, error messages, constraints)
 - Set output size limits and implement pagination for large results
 - Use tool profiles — dynamically load tool sets based on task type
+
+---
+
+## Verification-Centered Tool Orchestration (MAVEN)
+
+**MAVEN** (Modular Agentic Verification and Execution Network, 2026-05) introduces a lightweight symbolic reasoning scaffold for structured decomposition, adaptive tool orchestration, and intermediate verification.
+
+**Key findings:**
+- **Verification gap:** There is a substantial gap between partial reasoning quality and end-to-end task success in multi-step tool-calling tasks
+- **Lightweight verification scaffold:** MAVEN improves GPT-OSS-120b from 48% to 71% accuracy on MAVEN-Bench (multi-step mathematical/physical reasoning with adversarial task composition) without additional training
+- **Cost efficiency:** Competitive with frontier proprietary baselines while using an open-weight backbone at ~1/10 the cost
+- **Implication:** Adding explicit verification steps between tool calls is more effective than scaling model size for complex tool-calling workflows
+
+**For agent users:** When building agents that chain multiple tool calls, insert explicit verification checkpoints between steps rather than relying on the model to "get it right" in one pass.
 
 ---
 

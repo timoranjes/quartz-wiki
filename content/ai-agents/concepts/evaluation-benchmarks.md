@@ -4,8 +4,8 @@ type: concept
 category: AI Agents
 created: 2026-05-29
 tags: [evaluation, benchmarks, agent-selection, SWE-bench, LiveCodeBench]
-sources: []
-updated: 2026-05-29
+sources: [raw/papers/unknown-tracegraph-shared-decision-landscapes-for-diagnosing-and-improving-agent-traject.md]
+updated: 2026-06-02
 confidence: high
 ---
 
@@ -108,3 +108,20 @@ Use benchmarks as a **first filter**, not a final answer. After narrowing candid
 
 - [[agent-anti-patterns]]
 - [[model-selection-for-agents]]
+
+## Process-Level Evaluation (TraceGraph)
+
+**TraceGraph** (2026-05) introduces a graph-based framework that turns released multi-model agent trajectories into shared decision landscapes, enabling diagnosis of where models diverge beyond aggregate pass rates.
+
+**Key methodology:**
+- For each task, builds a graph over observable action-observation states from pooled rollouts across models
+- Overlays outcome-informed **productive cores** and **trap regions**
+- Summarizes each rollout with three events: **Access** (reached productive core), **Trap exposure** (entered trap region), **Repair** (recovered from trap)
+- Reveals navigation differences hidden by aggregate scores — some splits reward avoiding traps, others reward recovering from them
+
+**Real-world impact:** Applied to SWE-bench, a trap-aware recovery pipeline raises official resolved rate from 40.4% to 43.5% on fired instances by detecting trap states and applying lightweight continuation policies.
+
+**For agent users:** When evaluating agent performance:
+- Aggregate pass rates hide *where* and *why* agents fail
+- Trap region analysis reveals whether your agent needs better avoidance (planning) or better recovery (debugging)
+- Process-level evaluation is more actionable than score-level evaluation

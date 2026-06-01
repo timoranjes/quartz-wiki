@@ -1,10 +1,10 @@
 ---
 title: Planning Pattern
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-06-02
 type: pattern
 tags: [planning, agent-architecture]
-sources: []
+sources: [raw/papers/unknown-planner-centric-reinforcement-learning-for-deep-research-with-structure-aware-re.md, raw/papers/unknown-lintree-improving-llm-reasoning-with-explicitly-structured-search-histories.md]
 confidence: high
 ---
 
@@ -78,6 +78,37 @@ Execute the plan step by step, marking each as done.
 | Verification | Built-in | Ad-hoc |
 | Cost | Higher (planning overhead) | Lower |
 | Flexibility | Lower | Higher |
+
+## Planner-Centric RL (DecomposeR)
+
+**DecomposeR** (2026-05) introduces a planner-centric deep research framework that represents research plans as typed directed acyclic graphs (DAGs), enabling explicit, structured, and rewardable planning.
+
+**Key findings:**
+- **DAG-structured planning:** Research plans as typed DAGs allow planning to be explicit and rewardable, rather than buried in monolithic trajectories
+- **Two-stage RL:** First, planner RL learns graph structure and query decomposition. Then, answerer RL learns branch-level execution and synthesis conditioned on the plan
+- **Structured rewards:** Assigning rewards to explicit planner tokens and structured components enables finer-grained optimization than flat trajectory rewards
+- **Result:** DecomposeR-8B improves over comparable open baselines by 5.1-8.0 points on long-form benchmarks
+- **Implication:** Explicit plan structure (not just "make a plan") enables better credit assignment and training signal
+
+**For agent users:** When agents perform deep research or multi-branch investigation:
+- Structure the plan as a DAG with typed nodes (not just a numbered list)
+- Separate planning from execution with clear handoff points
+- Evaluate plan quality separately from execution quality
+
+## Explicit Search History Structure (LinTree)
+
+**LinTree** (2026-05) shows that LLMs' ability to utilize search history depends on making the underlying tree structure explicit.
+
+**Key findings:**
+- Raw access to search history alone is NOT enough to reliably outperform heuristic search
+- In LLM reasoning traces, the underlying search tree is only implicitly represented — when the model backtracks, the trace doesn't explicitly identify which earlier state is being revisited
+- Adding simple parent pointers to explicitly represent the linearized tree structure improves both task performance and search efficiency
+- **Implication:** When agents backtrack or branch, explicitly mark which prior state they're returning to
+
+**For agent users:** When prompting agents that explore alternatives:
+- Don't just let the agent "go back and try again" — explicitly reference which branch/decision point
+- Use structured markers: "Returning to Step 2, alternative B" vs "Let me try something else"
+- Structured search history improves both reasoning quality and efficiency
 
 ## Related Patterns
 - [[react-pattern]] — when the path is not known
