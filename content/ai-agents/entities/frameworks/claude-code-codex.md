@@ -1,10 +1,10 @@
 ---
 title: Claude Code & OpenAI Codex
 created: 2026-05-29
-updated: 2026-06-02
+updated: 2026-06-03
 type: entity
 tags: [framework, sdk, coding]
-sources: [raw/articles/2026-05-29-how-braintrust-turns-customer-requests-into-code-with-codex.md, raw/articles/2026-05-30-how-we-contain-claude-across-products.md, raw/articles/2026-06-01-openai-frontier-models-and-codex-are-now-available-on-aws.md]
+sources: [raw/articles/2026-05-29-how-braintrust-turns-customer-requests-into-code-with-codex.md, raw/articles/2026-05-30-how-we-contain-claude-across-products.md, raw/articles/2026-06-01-openai-frontier-models-and-codex-are-now-available-on-aws.md, raw/articles/2026-06-02-codex-for-every-role-tool-and-workflow.md, raw/articles/2026-06-02-codex-is-becoming-a-productivity-tool-for-everyone.md]
 confidence: high
 ---
 
@@ -56,6 +56,7 @@ OpenAI's coding agent, powered by GPT-4o-Codex. Similar concept to Claude Code b
 ### Real-World Usage
 - **Braintrust** (2026-05): Uses Codex with GPT-5.5 to turn customer requests into code and run engineering experiments. Demonstrates Codex's viability for production coding workflows beyond internal testing.
 - **AWS Availability** (2026-06): OpenAI frontier models and Codex are now generally available on AWS, giving enterprises a path to build with OpenAI through AWS environments, controls, and procurement workflows. Moves from evaluation to production via existing AWS infrastructure.
+- **Codex Beyond Coding Roles** (2026-06): OpenAI is expanding Codex beyond developers — new plugins, sites, and annotations target analysts, marketers, designers, and investors. Codex is being positioned as a general knowledge-work productivity tool covering AI-powered research, data analysis, workflow automation, and content creation. Signal that coding-agent architectures (file read/write, tool execution, context awareness) generalize to broader knowledge work.
 
 ### My Setup
 - Currently not actively configured (Claude Code is primary)

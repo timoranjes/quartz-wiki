@@ -1,10 +1,10 @@
 ---
 title: Tool Use Patterns
 created: 2026-05-29
-updated: 2026-06-02
+updated: 2026-06-03
 type: concept
 tags: [tool-use, pattern, agent-architecture]
-sources: [raw/papers/unknown-maven-improving-generalization-in-agentic-tool-calling.md]
+sources: [raw/papers/unknown-maven-improving-generalization-in-agentic-tool-calling.md, raw/papers/unknown-atomix-timely-transactional-tool-use-for-reliable-agentic-workflows.md]
 confidence: high
 ---
 
@@ -65,6 +65,33 @@ When a primary tool fails, the agent tries alternatives. Example: `web_extract` 
 - **Implication:** Adding explicit verification steps between tool calls is more effective than scaling model size for complex tool-calling workflows
 
 **For agent users:** When building agents that chain multiple tool calls, insert explicit verification checkpoints between steps rather than relying on the model to "get it right" in one pass.
+
+---
+
+## Transactional Tool Use (Atomix)
+
+**Atomix** (arXiv 2602.14849, 2026-06) addresses a critical gap in agentic tool execution: **fault isolation and clean recovery** when LLM agents execute multi-step workflows that mutate external state through tools.
+
+**Problem:** Common orchestrators treat tool return as the settlement trigger, so faults, speculation, and concurrent agents can leave partial effects — losing-branch residue, stale writes, or irreversible sends. Retries, checkpoint replay, locks, and compensation each conflate two separate concerns: (1) which effects must settle together, and (2) when earlier conflicting work is exhausted.
+
+**Atomix solution — progress-aware transactions:**
+- **Record phase:** Runtime records reads and effects during execution
+- **Seal phase:** Transaction seals when its footprint is complete
+- **Commit phase:** Commits only after per-resource frontiers show no earlier conflicting work can still arrive
+- **Abort phase:** Suppresses unreleased effects, compensates externalized reversible effects where possible
+
+**Key properties:**
+- Commit is **final settlement**: releases bufferable effects, accepts reversible external effects as final, lets irreversible effects leave the gate
+- Abort **suppresses** unreleased effects and compensates reversible ones
+- Microsecond-scale wrapper overhead relative to tool latency
+
+**For agent users building reliable workflows:**
+- When your agents perform multi-step tool operations that modify state (file writes, database updates, API calls), consider transactional semantics rather than simple retry loops
+- Separate "what should settle together" from "when is it safe to commit" — conflating these is the root cause of many agent workflow bugs
+- Irreversible actions (sending emails, executing trades) need special handling — Atomix's gate mechanism prevents correctly classified irreversible actions from leaking during abort
+
+[[debugging-agents]] — transactional semantics prevent partial-state corruption from being a debugging nightmare
+[[multi-agent-orchestration]] — Atomix isolates contending and speculative work across concurrent agents
 
 ---
 

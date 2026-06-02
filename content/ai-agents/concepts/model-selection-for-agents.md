@@ -1,10 +1,10 @@
 ---
 title: Model Selection for Agent Tasks
 created: 2026-05-29
-updated: 2026-06-02
+updated: 2026-06-03
 type: concept
 tags: [model, reasoning, coding, agentic]
-sources: [raw/papers/unknown-harness-updating-is-not-harness-benefit-disentangling-evolution-capabilities-in.md]
+sources: [raw/papers/unknown-harness-updating-is-not-harness-benefit-disentangling-evolution-capabilities-in.md, raw/articles/2026-06-02-microsofts-new-mai-models.md]
 confidence: medium
 ---
 
@@ -80,6 +80,18 @@ Choosing the right model for the right agent task is the single highest-leverage
 - [[architectures]] — architecture influences model choice
 - [[cost-optimization]] — saving money with smart routing
 - [[orchestrator-workers]] — different models for orchestrator vs workers
+
+## Microsoft MAI Models: Small-Parameter Contenders
+
+**MAI-Thinking-1** (2026-06) — Microsoft's 35B-parameter reasoning model, claiming preference over Sonnet 4.6 in blind human side-by-side evaluations. Trained from scratch on enterprise-grade, clean, commercially licensed data without distillation from third-party models. Available to select early partners.
+
+**MAI-Code-1-Flash** (2026-06) — 5B-parameter code-specialist model purpose-built for GitHub Copilot and VS Code. Rolling out to Copilot individual users in VS Code. Also trained end-to-end by Microsoft on clean and appropriately licensed data.
+
+**Significance:**
+- If MAI-Thinking-1's 35B-vs-Sonnet-4.6 claim holds, it suggests small-parameter models with clean training data can compete with much larger proprietary models on reasoning tasks
+- Both models emphasize clean/licensed training data — a differentiator in an era where most models train on unlicensed web dumps
+- MAI-Code-1-Flash at 5B suggests efficient code models can be deployed at low cost for IDE integration
+- **For agent users:** Small-parameter models with strong reasoning could reduce costs significantly for mid-complexity agent tasks. Monitor benchmarks as these models become generally available.
 
 ## Harness Evolution: Which Models Benefit from Self-Improvement?
 
