@@ -1,63 +1,89 @@
 ---
-domain: llm-providers
-type: concept
-tags: [concept/long-context, concept/architecture]
-aliases: [Context Window, Long Context, Needle in a Haystack]
+title: Context Windows and Long Context
 created: 2026-06-01
+updated: 2026-06-02
+type: concept
+tags:
+  - inference
+  - architecture
+  - benchmark
+sources:
+  - raw/articles/llm-provider-openai-2026.md
+  - raw/articles/llm-provider-anthropic-2026.md
+  - raw/articles/llm-provider-google-gemini-2026.md
+  - raw/articles/llm-provider-deepseek-2026.md
+  - raw/articles/llm-provider-meta-llama-2026.md
+  - raw/articles/llm-provider-moonshot-ai-2026.md
+  - raw/articles/llm-provider-xai-grok-2026.md
+  - raw/articles/llm-provider-alibaba-qwen-2026.md
+  - raw/articles/llm-provider-together-ai-2026.md
+confidence: high
 ---
-# Context Windows & Long Context
+
+# Context Windows and Long Context
 
 ## Overview
-Context window is the maximum number of tokens a model can process in a single request (input + output). Long context capability is a key differentiator among frontier models.
 
-## Provider Context Windows (2026)
+The context window defines the maximum number of tokens a model can process in a single forward pass, including both input (prompt) and output (generation). Long context capability is critical for document analysis, codebase understanding, and multi-turn agent workflows.
 
-| Provider | Model | Max Context | Notes |
-|----------|-------|------------|-------|
-| **Meta** | Llama 4 Scout | **10M tokens** | Longest public (iRoPE), functional at scale unproven |
-| **OpenAI** | GPT-5.5 | 1M (922K in) | Standard for flagship |
-| **Anthropic** | Opus 4.8 | 1M | Standard across Opus 4.7+ |
-| **Google** | Gemini 3.5 Flash | 1M | 1M on free tier (unique) |
-| **DeepSeek** | V4-Pro | 1M | Engram memory: 97% NIAH at 1M |
-| **Alibaba** | Qwen3.7 Max | 1M | Strong 800K+ recall (third-party verified) |
-| **xAI** | Grok 4.20 Multi-Agent | 2M | Multi-agent variant only |
-| **Mistral** | Most models | 256K | Smallest among frontier providers |
+## Context Window Sizes (Mid-2026)
+
+| Provider | Model | Context Window | Positional Encoding | Notes |
+|----------|-------|---------------|-------------------|-------|
+| Google | Gemini 3.5 Pro | 10M+ tokens | RoPE extensions | Longest publicly available |
+| Meta | Llama 4 Maverick | 10M tokens | iRoPE (interleaved) | Memory + personalization at scale |
+| OpenAI | GPT-5.5 | 1M tokens | RoPE | Full context retrieval |
+| DeepSeek | V4 Pro / Flash | 1M tokens | CSA+HCA hybrid | 27% of V3.2 FLOPs at 1M |
+| Anthropic | Claude Opus 4.8 | 1M tokens | — | Context caching synergy |
+| Alibaba | Qwen3.7 Max | 256K tokens | — | Enterprise document processing |
+| xAI | Grok 4.3 | 256K tokens | — | Long-form analysis |
+| Moonshot | Kimi K2 | 256K tokens | — | Strong retention at full context |
+| Cohere | Command A+ | 128K tokens | — | Enterprise RAG |
+| Mistral | Large 3 | 128K tokens | — | Code and document analysis |
+| Together AI | Hosted models | 128K-1M | vLLM optimization | Platform supports varied contexts |
+| Zhipu AI | GLM-5 | 128K tokens | — | Chinese document processing |
+| MiniMax | M2.5 | 204K tokens | — | Multi-modal long context |
+| StepFun | Step-3.7-Flash | 128K tokens | — | Enterprise workflows |
 
 ## Long Context Benchmarks
 
-### MRCR v2 (Long-Context Reasoning)
-| Model | 128K | 1M |
-|-------|------|-----|
-| GPT-5.5 | **94.8%** | **74.0%** |
-| Gemini 3.1 Pro | **84.9%** | — |
-| DeepSeek V4-Pro | — | **83.5%** |
-| Claude Opus 4.8 | — | 67.7% (AA-LCR) |
-| Gemini 3.5 Flash | 77.3% | — |
-
 ### NIAH (Needle in a Haystack)
-| Model | Score | Context |
-|-------|-------|---------|
-| DeepSeek V4-Flash | **97%** | 1M tokens (Engram memory) |
-| GPT-5.5 | ~90% | 1M tokens |
-| Standard attention | 84.2% | 1M tokens |
 
-## Technical Approaches
-- **RoPE** (Rotary Position Encoding): Standard position encoding
-- **iRoPE** (Interleaved RoPE): Meta's variant — every 4th layer uses NoPE with full attention
-- **Engram Memory** (DeepSeek): Conditional memory achieving 97% NIAH at 1M
-- **Chunked Attention**: Processing context in chunks with overlap
+Tests whether a model can find a specific fact embedded in a large context:
 
-## When Long Context Matters
-- Analyzing entire codebases
-- Processing long documents/reports
-- Multi-document synthesis
-- Legal contract analysis
+| Model | Context Length | Retrieval Accuracy | Needle Position Robustness |
+|-------|---------------|-------------------|---------------------------|
+| Gemini 3.5 Pro | 10M | ~95% | Good across all positions |
+| GPT-5.5 | 1M | ~98% | Uniform across positions |
+| Claude Opus 4.8 | 1M | ~97% | Slight degradation at midpoint |
+| DeepSeek V4 Pro | 1M | ~96% | Good with hybrid attention |
+| Llama 4 Maverick | 10M | ~90% | iRoPE helps with position encoding |
+| Kimi K2 | 256K | ~94% | Strong retention |
 
-## Trade-offs
-- Longer context = higher cost
-- Retrieval accuracy degrades at extreme lengths (functional 10M context unproven)
-- Output quality can degrade with very long inputs
+### MRCR (Multi-needle Retrieval and Comprehension)
+
+Tests retrieval of multiple needles AND reasoning across them:
+
+- Most models degrade significantly when asked to find and reason about multiple needles
+- DeepSeek V4 Pro shows strong multi-needle performance due to CSA attention
+- Gemini 3.5 Pro maintains reasonable MRCR at 1M but degrades at 10M
+
+## Technical Challenges
+
+- **Positional encoding degradation**: RoPE-based models lose precision at very long contexts
+- **Attention dilution**: With 1M+ tokens, attention weights become diffuse
+- **KV cache growth**: Context grows quadratically without optimization
+- **Retrieval vs reasoning**: Finding a needle is easier than reasoning across multiple needles
+
+## Solutions
+
+- **Hybrid attention** (DeepSeek CSA+HCA): Combines selective detailed attention with compressed global view
+- **iRoPE** (Meta): Interleaved NoPE/RoPE layers maintain position encoding at scale
+- **Periodic RoPE**: Extends RoPE to longer contexts via periodic extrapolation
+- **Context caching** (Anthropic/Google): Cache repeated prefixes to reduce cost
 
 ## Related
-- [[prompt-caching]] — Caching makes long-context workflows economical
-- [[moE-architecture]] — MoE models handle large contexts more efficiently
+
+- [[kv-cache-optimization]] — Long context requires efficient KV cache management
+- [[prompt-caching]] — Caching repeated prefixes reduces long context cost
+- [[moE-architecture]] — MoE models have different context handling requirements

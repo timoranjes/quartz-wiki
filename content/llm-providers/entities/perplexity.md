@@ -1,8 +1,14 @@
 ---
 domain: llm-providers
 type: provider
-tags: [provider/llm-lab, provider/us, provider/search]
-aliases: [Perplexity AI, Sonar, Perplexity Search]
+title: Perplexity AI (Sonar)
+sources:
+  - raw/articles/llm-provider-perplexity-2026.md
+tags:
+  - provider/llm-lab
+  - provider/us
+  - provider/search
+aliases: Perplexity
 created: 2026-06-01
 updated: 2026-06-02
 ---

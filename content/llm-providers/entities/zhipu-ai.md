@@ -1,8 +1,14 @@
 ---
 domain: llm-providers
 type: provider
-tags: [provider/llm-lab, provider/china, model/open-weight]
-aliases: [Zhipu AI, Z.ai, 智谱AI, GLM, ChatGLM]
+title: Zhipu AI (GLM)
+sources:
+  - raw/articles/llm-provider-zhipu-ai-2026.md
+tags:
+  - provider/china
+  - provider/generative-ai
+  - open-source
+aliases: Zhipu Ai
 created: 2026-06-01
 updated: 2026-06-02
 ---

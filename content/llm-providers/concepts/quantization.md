@@ -1,70 +1,80 @@
 ---
-domain: llm-providers
-type: concept
-tags: [concept/optimization, concept/quantization, concept/inference]
-aliases: [Quantization, Q4, Q8, GGUF, GPTQ, AWQ]
+title: Quantization
 created: 2026-06-01
+updated: 2026-06-02
+type: concept
+tags:
+  - optimization
+  - inference
+  - training
+sources:
+  - raw/articles/llm-provider-deepseek-2026.md
+  - raw/articles/llm-provider-nvidia-2026.md
+  - raw/articles/llm-provider-meta-llama-2026.md
+  - raw/articles/llm-provider-microsoft-phi-2026.md
+  - raw/articles/llm-provider-moonshot-ai-2026.md
+  - raw/articles/llm-provider-together-ai-2026.md
+  - raw/articles/llm-provider-zhipu-ai-2026.md
+confidence: high
 ---
+
 # Quantization
 
 ## Overview
-Quantization reduces model precision from FP16/BF16 to lower-bit representations (INT8, INT4, etc.), dramatically reducing memory requirements with minimal quality loss. Essential for running large models on consumer hardware.
+
+Quantization reduces the numerical precision of model weights and activations from FP32 (32-bit floating point) to lower bit depths (FP8, INT8, INT4, or even lower). This dramatically reduces memory requirements and can improve inference speed with minimal quality loss.
 
 ## Quantization Formats
 
-### GGUF (GGML Unified Format)
-- **Used by**: llama.cpp, Ollama, LM Studio
-- **Types**: Q2_K, Q3_K_M, Q4_0, Q4_K_M, Q5_K_M, Q6_K, Q8_0
-- **Trade-off**: Q4_K_M ≈ 95% quality at 50% size; Q8_0 ≈ 99% at 75% size
-- **Hardware**: CPU + GPU, runs on Apple Silicon efficiently
+| Format | Bits | Use Case | Quality Impact | Hardware Support |
+|--------|------|----------|---------------|-----------------|
+| FP32 | 32 | Training reference | None | All GPUs |
+| FP16/BF16 | 16 | Standard inference/training | Minimal | All modern GPUs |
+| FP8 | 8 | Training + inference | <1% perplexity increase | Hopper (H100), Blackwell (B200) |
+| INT8 | 8 | Inference-only | 1-2% degradation | All GPUs |
+| INT4/GPTQ | 4 | Local deployment, mobile | 2-5% degradation | Consumer GPUs, edge |
+| GGUF (Q4/Q5/Q8) | 4-8 | Local (llama.cpp, Ollama) | Varies by level | CPU + GPU |
+| AWQ | 4 | GPU inference | <2% with smart scaling | NVIDIA GPUs |
+| NF4 | 4 | QLoRA fine-tuning | Minimal with proper calibration | Consumer GPUs |
 
-### GPTQ
-- **Used by**: AutoGPTQ, vLLM, ExLlama
-- **Per-channel quantization** — better quality than GGUF at same bit depth
-- **GPU-optimized** — requires CUDA
-- **Types**: 3-bit, 4-bit, 8-bit
+## Provider Adoption (2026)
 
-### AWQ (Activation-Aware Weight Quantization)
-- **Used by**: vLLM, SGLang
-- Preserves salient weights at higher precision
-- Better quality than GPTQ at 4-bit for some models
-- **Hardware**: CUDA only
+- **DeepSeek V4**: FP4 Quantization-Aware Training (QAT) on MoE expert weights and QK path — reduces memory with no post-training quality loss
+- **NVIDIA**: FP8 training and inference on Hopper/Blackwell; NVFP4 QAT recipes for deployment; TensorRT-LLM optimized kernels
+- **Meta Llama 4**: Supports GGUF conversion for local deployment; INT8 and INT4 variants via llama.cpp
+- **Microsoft Phi**: Designed for INT4 quantization on edge devices; Phi-4 runs on consumer hardware
+- **Moonshot Kimi K2**: Quantization-aware training for efficient serving at scale
+- **Together AI**: Offers quantized model variants (INT8, INT4) across their hosting platform
+- **Zhipu AI**: Quantized GLM models for enterprise on-premise deployment
 
-### FP8
-- **Used by**: NVIDIA H100, cloud inference
-- New standard for cloud providers
-- Near-FP16 quality with 50% memory reduction
+## Quantization-Aware Training (QAT)
 
-## Impact on Model Quality
+Rather than quantizing after training (post-training quantization, PTQ), QAT simulates quantization during training:
+- Model learns to compensate for precision loss during optimization
+- DeepSeek V4 uses FP4 QAT on MoE expert weights
+- NVIDIA provides QAT tooling in TensorRT-LLM
+- Results in near-lossless quantization vs PTQ
 
-| Quantization | Size Reduction | Quality Retention | Use Case |
-|-------------|---------------|------------------|----------|
-| FP16/BF16 | 1× (baseline) | 100% | Training, maximum quality |
-| Q8_0 | ~50% | 99% | Near-lossless inference |
-| Q6_K | ~40% | 98% | High-quality local inference |
-| Q5_K_M | ~33% | 97% | Balanced local inference |
-| Q4_K_M | ~25% | 95% | Most popular local format |
-| Q3_K_M | ~20% | 90% | Resource-constrained |
-| Q2_K | ~15% | 80% | Extreme compression |
+## Key Libraries and Tools
 
-## Hardware Requirements Examples (70B model)
+| Tool | Purpose | Supported Formats |
+|------|---------|------------------|
+| llama.cpp | Local inference | GGUF (Q2-Q8) |
+| GPTQ/ExLlamaV2 | GPU-optimized quantized inference | GPTQ (INT4) |
+| AWQ | Activation-aware quantization | INT4 with smart scaling |
+| BitsAndBytes | QLoRA fine-tuning | NF4, INT8 |
+| TensorRT-LLM | NVIDIA optimized serving | FP8, FP4, INT8 |
+| HuggingFace Optimum | Multi-format conversion | All major formats |
 
-| Format | VRAM/RAM | Hardware |
-|--------|----------|----------|
-| FP16 | 140 GB | 2× A100 80GB |
-| Q8_0 | 70 GB | 1× A100 80GB |
-| Q4_K_M | 35 GB | 1× RTX 4090 48GB / Mac Studio 64GB |
-| Q3_K_M | 26 GB | 1× RTX 3090 24GB + offload |
+## Trade-offs
 
-## Provider Support
-
-| Provider | Self-Host Quantization | Cloud Quantization |
-|----------|----------------------|-------------------|
-| Meta Llama 4 | GGUF community releases | — |
-| Alibaba Qwen | Official GPTQ + AWQ + GGUF | FP8 on DashScope |
-| Mistral | Official GPTQ + AWQ | — |
-| DeepSeek | Official GGUF (V3/R1) | Internal FP8 |
+- **Speed**: INT4 can achieve 2-4× speedup over FP16 on compatible hardware
+- **Memory**: INT4 reduces a 70B model from ~140GB (FP16) to ~35GB
+- **Quality**: QAT models show <1% perplexity degradation; PTQ can lose 5-10%
+- **Fine-tuning**: QLoRA enables fine-tuning of 70B+ models on 24GB GPUs
 
 ## Related
-- [[moE-architecture]] — MoE models are harder to quantize (experts need separate quantization)
-- [[open-weight-licensing]] — Quantization requires open-weight access
+
+- [[kv-cache-optimization]] — Quantized KV cache further reduces memory pressure
+- [[moE-architecture]] — MoE expert weights are primary quantization targets
+- [[speculative-decoding]] — Draft models often quantized to minimize overhead
