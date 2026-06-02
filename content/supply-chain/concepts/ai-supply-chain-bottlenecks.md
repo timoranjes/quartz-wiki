@@ -1,10 +1,10 @@
 ---
 title: AI Supply Chain Bottlenecks
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-02
 type: concept
 tags: [bottleneck, overview, supply-demand]
-sources: [raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/memory-chip-shortage-makes-bare-metal-cloud-cheaper-than-on--edfcd0c4ac8be553.md, raw/articles/铜价奔向105万背后-新能源吃铜铜也正在改变新能源的胃口-ed818e409ba9c630.md, raw/articles/nikon-weaponizes-lower-prices-to-break-asmls-lithography-mon-d80faf94d9d9f30e.md]
+sources: [raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/memory-chip-shortage-makes-bare-metal-cloud-cheaper-than-on--edfcd0c4ac8be553.md, raw/articles/铜价奔向105万背后-新能源吃铜铜也正在改变新能源的胃口-ed818e409ba9c630.md, raw/articles/nikon-weaponizes-lower-prices-to-break-asmls-lithography-mon-d80faf94d9d9f30e.md, raw/articles/nikon-leveraging-arf-scanner-price-to-challenge-asml-860597fb09228073.md]
 confidence: high
 ---
 
@@ -30,7 +30,7 @@ TSMC 3nm demand is approximately three times the company's available capacity. E
 
 - **Concentration risk:** TSMC controls ~70% of advanced chip manufacturing and ~85% of advanced AI processors
 - **Upstream material dependencies:** China controls 79% of tungsten production, prices surged 557%; copper prices surging toward ¥105,000/tonne (~$14,500) driven by new energy sector demand, forcing downstream PCB/CCL industry adjustments
-- **Equipment lead times:** ASML EUV lithography systems face a 2-year backlog; however, Nikon is now undercutting ASML on ArF lithography tool pricing, leveraging in-house manufacturing to offer lower-cost alternatives to American chipmakers — a potential second source emerging
+- **Equipment lead times:** ASML EUV lithography systems face a 2-year backlog; however, Nikon is now undercutting ASML on ArF lithography tool pricing, leveraging in-house manufacturing to offer lower-cost alternatives to American chipmakers — and launching a brand-new immersion platform by 2028. This signals Nikon's aggressive push to reclaim market share in the lithography equipment segment.
 - **Workforce shortages:** Global shortfall of 300,000 skilled semiconductor professionals by 2026
 
 ## The Pattern: 2024 GPUs → 2025 Memory → 2026 Optical Components
