@@ -1,57 +1,75 @@
 ---
-domain: llm-providers
-type: concept
-tags: [concept/optimization, concept/caching]
-aliases: [KV Cache, Context Caching]
+title: Prompt Caching
 created: 2026-06-01
+updated: 2026-06-02
+type: concept
+tags:
+  - inference
+  - cost-optimization
+  - latency
+sources:
+  - raw/articles/llm-provider-anthropic-2026.md
+  - raw/articles/llm-provider-openai-2026.md
+  - raw/articles/llm-provider-google-gemini-2026.md
+  - raw/articles/llm-provider-deepseek-2026.md
+  - raw/articles/llm-provider-mistral-2026.md
+confidence: high
 ---
+
 # Prompt Caching
 
 ## Overview
-Prompt caching allows providers to reuse previously computed key-value (KV) pairs for repeated prompt prefixes, dramatically reducing cost and latency for repeated context.
+
+Prompt caching reuses previously computed KV states when the input prefix matches a prior request. Since most tokens in an API call are in the input (not output), caching repeated prefixes can reduce costs by 80-95% for the cached portion.
 
 ## Provider Implementations
 
-### Anthropic (Industry Leader)
-- **Savings**: Up to **90%** on repeated prefixes
-- **Cache Read**: $0.50/M (vs $5.00/M input) for Opus 4.8
-- **Cache Write**: $6.25/M (one-time cost to cache)
-- **Mechanism**: Automatic prefix matching across requests
+### Anthropic Context Caching
+- Prefix-based KV cache reuse
+- **Cache hit pricing**: ~80-90% discount on cached prefix tokens
+- **TTL**: Cached prefixes available for minutes to hours depending on system load
+- **Use case**: System prompts, few-shot examples, repeated instructions
+- **Integration**: Automatic in Claude API — no special parameters needed
 
-### OpenAI
-- **Cache Read**: $0.50/M (10× discount) for GPT-5.5
-- **Cache Write**: Implicit in pricing
-- **Mechanism**: Automatic for repeated prefixes
+### OpenAI Prompt Caching
+- **Automatic**: Caches repeated prefixes automatically
+- **Pricing**: Cache hits at $0.00125/M tokens (GPT-5.4) vs $2.50/M for cache miss
+- **Granularity**: Works at prefix boundaries
+- **Best practice**: Put reusable content (system prompts, examples) at the start
 
-### Google
-- **Semantic Caching**: $0.15/1M tokens for 3.5 Flash
-- **Mechanism**: Content-aware caching (not just prefix matching)
+### Google Gemini Context Caching
+- **Context caching**: Pin and reuse KV states for static prefixes
+- **Pricing**: Significant discount for cached tokens
+- **Use case**: RAG pipelines with static system prompts + document corpus
 
-### DeepSeek
-- **Auto-caching**: No opt-in needed
-- **Cache Hit**: $0.0028/M (1/50th of cache-miss for Flash)
-- **Threshold**: ≥1,024 token prefix match
-- **Savings**: 98%+ discount on cache hits
-
-### xAI
-- **Cached Input**: $0.20/M (vs $1.25/M) for Grok 4.3
-- **Mechanism**: Automatic for repeated prefixes
-
-### Alibaba Qwen
-- **KV Cache**: ~80-90% discount on cache reads via DashScope
+### DeepSeek Cache Hit Reduction
+- **April 26, 2026**: Input cache hit prices reduced to 1/10 of launch price
+- **V4 Flash cache hit**: $0.0028/M tokens (extremely low)
+- **V4 Pro cache hit**: $0.003625/M tokens (with 75% promo)
 
 ## Cost Impact Example
-For a workflow with 80% cache hit rate on 1M token inputs:
-- Anthropic Opus 4.8: ~$1.25/M effective (vs $5.00)
-- DeepSeek V4-Flash: ~$0.028/M effective (vs $0.14)
-- **Caching makes long-context workflows economically viable**
 
-## When Caching Works Best
-- System prompts + long context documents
-- Repeated codebase analysis
-- Multi-turn conversations with stable context
-- Batch processing with shared prefixes
+For a request with 49K input + 1K output tokens:
+- **GPT-5.4 without cache**: 49K × $2.50 + 1K × $15.00 = $0.1375 + $0.015 = **$0.15**
+- **GPT-5.4 with cache hit**: 49K × $0.00125 + 1K × $15.00 = $0.00006 + $0.015 = **$0.015**
+- **Savings**: ~90% reduction on input portion
+
+## Best Practices
+
+- Place reusable content at the **beginning** of the prompt (prefix matching)
+- Use for RAG systems with static retrieval templates
+- Use for few-shot prompting with fixed examples
+- Not useful for one-off queries with unique inputs
+
+## Trade-offs
+
+- **TTL uncertainty**: Cache eviction depends on system load
+- **Cold start**: First request always full price
+- **Prefix requirement**: Only exact prefix matches benefit
+- **Latency**: Cache lookup adds minimal latency; hit reduces overall latency
 
 ## Related
-- [[moE-architecture]] — Complementary cost optimization
-- [[context-windows]] — Caching becomes more valuable with larger contexts
+
+- [[kv-cache-optimization]] — Caching reuses KV states; optimization improves cache efficiency
+- [[context-windows]] — Caching most beneficial for long-context prompts
+- [[mcp-protocol]] — Repeated tool definitions benefit from caching

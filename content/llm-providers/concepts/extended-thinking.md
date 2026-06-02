@@ -1,66 +1,86 @@
 ---
-domain: llm-providers
-type: concept
-tags: [concept/reasoning, concept/thinking]
-aliases: [Extended Thinking, Reasoning Mode, Chain of Thought, o-series]
+title: Extended Thinking / Reasoning Mode
 created: 2026-06-01
+updated: 2026-06-02
+type: concept
+tags:
+  - reasoning
+  - inference
+sources:
+  - raw/articles/llm-provider-openai-2026.md
+  - raw/articles/llm-provider-anthropic-2026.md
+  - raw/articles/llm-provider-deepseek-2026.md
+  - raw/articles/llm-provider-google-gemini-2026.md
+  - raw/articles/llm-provider-xai-grok-2026.md
+  - raw/articles/llm-provider-stepfun-2026.md
+  - raw/articles/llm-provider-minimax-2026.md
+  - raw/articles/llm-provider-perplexity-2026.md
+  - raw/articles/llm-provider-cohere-2026.md
+  - raw/articles/llm-provider-nvidia-2026.md
+  - raw/articles/llm-provider-microsoft-phi-2026.md
+confidence: high
 ---
+
 # Extended Thinking / Reasoning Mode
 
 ## Overview
-Extended thinking allows models to perform internal reasoning (chain-of-thought) before producing a final answer, improving accuracy on complex tasks at the cost of higher latency and token usage.
+
+Extended thinking (also called reasoning mode, thinking mode, or chain-of-thought mode) allows LLMs to generate internal reasoning traces before producing a final answer. This significantly improves performance on complex reasoning tasks including mathematics, coding, logical analysis, and multi-step planning.
 
 ## Provider Implementations
 
-### Anthropic — Extended Thinking (Most Granular)
-- **Effort levels**: low → medium → high → xhigh → max
-- **Available on**: Opus 4.7+ (added xhigh in Opus 4.7)
-- **Control**: Developer trades latency for quality per request
-- **Output**: Thinking tokens + final answer
-- **Best for**: Complex reasoning, debugging, multi-step analysis
+| Provider | Feature Name | Control Method | Best For |
+|----------|-------------|----------------|----------|
+| OpenAI | Reasoning Effort | `effort` parameter (low/medium/high) | Math, science, analysis |
+| Anthropic | Extended Thinking | `thinking` parameter with token budget | Complex reasoning, analysis |
+| DeepSeek | Thinking Mode | `thinking` parameter (true/false) | Math, coding, logic |
+| Google | Gemini Thinking | Built-in reasoning with adjustable depth | Research, analysis |
+| xAI | Grok Thinking | Reasoning toggle for complex queries | Analysis, debate |
+| Mistral | Codestral Thinking | Extended reasoning for code tasks | Code generation, debugging |
+| MiniMax | Thinking Mode | Reasoning parameter | Math, multi-modal reasoning |
+| StepFun | Advisor Mode | Step-3.7-Flash reasoning mode | Enterprise analysis |
+| Perplexity | Research Mode | Deep research with citations | Fact-checking, research |
+| Cohere | Command Reasoning | Reasoning-optimized variant | Enterprise logic |
+| Microsoft | Phi Reasoning | Extended thinking for Phi-4 | On-device reasoning |
+| NVIDIA | Nemotron Reasoning | Reasoning-optimized Nemotron variants | Enterprise logic |
 
-### OpenAI — o-series (Reasoning Models)
-- **Models**: o3 ($10/$40), o4-mini ($1.10/$4.40)
-- **Approach**: Dedicated reasoning model family (separate from GPT line)
-- **GPT-5.5**: Has reasoning capability but not a separate model
+## Performance Impact
 
-### Google — Thinking Mode
-- **Available on**: Gemini 3.5 Flash
-- **Native thinking**: Similar to extended thinking
-- **Integrated**: Part of the standard model, not a separate line
+### Benchmarks with Extended Thinking
 
-### DeepSeek — Hybrid Thinking
-- **Modes**: Non-thinking, Think High, Think Max
-- **Switchable**: Per request via `reasoning_effort` parameter
-- **Pricing**: Thinking tokens billed at same rate
-- **R1**: Pure RL reasoning model (671B/37B MoE)
+| Model | Reasoning Mode | AIME 2025 | GPQA Diamond | Codeforces |
+|-------|---------------|-----------|-------------|------------|
+| DeepSeek V4 Pro Max | Thinking ON | — | — | 3206 (Grandmaster) |
+| Claude Opus 4.6 | Thinking ON | — | — | — |
+| GPT-5.5 | High effort | Leading | Leading | — |
+| Gemini 3.5 Pro | Thinking ON | — | — | — |
+| Grok 4.3 | Thinking ON | Competitive | Competitive | — |
+| Kimi K2 | Reasoning ON | — | — | — |
 
-### xAI — Configurable Reasoning
-- **Levels**: None → Low → Medium → High
-- **Available on**: Grok 4.3
-- **Approach**: Configurable per request
+### Token Overhead
 
-### Mistral — Magistral
-- **Models**: Magistral Medium (chain-of-thought, $2.00/$5.00)
-- **Magistral Small 1.2**: Multimodal reasoning ($0.50/$1.50)
-- **Medium 3.5**: Configurable reasoning effort built-in
+- Extended thinking typically adds 2-10× more tokens to each response
+- DeepSeek V4 Flash: thinking mode costs $0.28/M output tokens (same as regular)
+- OpenAI: reasoning effort high costs significantly more per output token
+- Anthropic: thinking budget controlled by user (e.g., 1024, 4096 tokens)
 
-## Benchmarks Impact
-Extended thinking significantly improves scores on reasoning benchmarks:
-- SWE-bench Pro, GPQA Diamond, AIME, ARC-AGI-2 all benefit
-- Trade-off: 30-60 minutes per task for deepest reasoning (DeepSeek R1)
+## Use Cases
 
-## When to Use
-- Complex multi-step reasoning
-- Code debugging and analysis
-- Math and scientific problems
-- Planning and strategy tasks
+- **Mathematics**: AIME, Putnam, IMO-level problems require extended reasoning
+- **Coding**: Complex debugging, architecture design, algorithm optimization
+- **Research**: Multi-step analysis, hypothesis generation, literature synthesis
+- **Planning**: Multi-objective optimization, constraint satisfaction
+- **Legal/Financial**: Contract analysis, risk assessment, compliance checking
 
-## When NOT to Use
-- Simple classification/extraction
-- Real-time/low-latency requirements
-- Cost-sensitive high-volume tasks
+## Open Debates
+
+- **CoT leakage**: Should reasoning traces be exposed to users or hidden? Security implications of leaked reasoning
+- **Over-reliance**: Does extended thinking mask fundamental model weaknesses?
+- **Cost vs benefit**: When is the token overhead justified? For simple queries, thinking mode wastes tokens
+- **Alignment interference**: Does alignment training conflict with honest reasoning traces?
 
 ## Related
-- [[moE-architecture]] — Reasoning models often use MoE
-- [[prompt-caching]] — Caching can reduce repeated reasoning costs
+
+- [[rlhf-training]] — Reasoning modes require specialized alignment techniques
+- [[context-windows]] — Extended thinking consumes context budget rapidly
+- [[distillation]] — Reasoning capabilities are distilled from large models into smaller ones

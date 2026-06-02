@@ -1,69 +1,78 @@
 ---
-domain: llm-providers
-type: concept
-tags: [concept/optimization, concept/kv-cache, concept/inference]
-aliases: [KV Cache, Key-Value Cache, Paged Attention, vLLM]
+title: KV Cache Optimization
 created: 2026-06-01
+updated: 2026-06-02
+type: concept
+tags:
+  - optimization
+  - inference
+sources:
+  - raw/articles/llm-provider-deepseek-2026.md
+  - raw/articles/llm-provider-nvidia-2026.md
+  - raw/articles/llm-provider-meta-llama-2026.md
+  - raw/articles/llm-provider-together-ai-2026.md
+  - raw/articles/llm-provider-microsoft-phi-2026.md
+  - raw/articles/llm-provider-moonshot-ai-2026.md
+  - raw/articles/llm-provider-mistral-2026.md
+confidence: high
 ---
+
 # KV Cache Optimization
 
 ## Overview
-The KV cache stores key and value tensors from previous tokens during autoregressive generation. It's the dominant memory consumer during inference for long sequences and is the target of multiple optimization techniques.
 
-## The Problem
-- For a 70B model with 128K context, KV cache can exceed **50GB**
-- Limits batch size and throughput
-- Wastes memory on tokens that aren't attended to
+The KV (Key-Value) cache stores intermediate attention states during autoregressive generation, avoiding recomputation of previous tokens. At long context lengths, the KV cache becomes the primary memory bottleneck — often larger than model weights.
 
-## Key Optimization Techniques
+## Key Techniques
 
 ### Paged Attention (vLLM)
-- **Concept**: Treat KV cache like virtual memory — pages allocated on demand
-- **Benefit**: Eliminates memory fragmentation, 2-4× throughput improvement
-- **Adoption**: Industry standard for open-source serving
+- Manages KV cache like OS page tables — non-contiguous memory blocks
+- Eliminates memory fragmentation in multi-request batching
+- 2-4× throughput improvement over naive contiguous allocation
+- Standard across most open-weight serving platforms
 
-### Prefix Caching
-- **Concept**: Reuse KV cache for shared prefixes across requests
-- **Benefit**: Dramatic cost savings for repeated system prompts
-- **See**: [[prompt-caching]]
+### Flash Attention 4
+- Block-sparse attention patterns for Blackwell architecture
+- 3× speedup over Flash Attention 2 on H100/B200
+- FP4 support for reduced memory bandwidth
+- Kernel fusion eliminates redundant memory reads
 
 ### KV Cache Compression
-- **Quantization**: INT8/INT4 KV cache with minimal quality loss
-- **Eviction**: Remove less-important tokens from cache
-- **Sliding Window**: Only keep recent tokens in cache (Mistral, Llama)
+- Quantized KV cache: INT8 or FP8 representation of K/V states
+- Lossy compression with <1% quality degradation at 50% memory reduction
+- Combined with Paged Attention for maximum throughput
 
-### Flash Attention
-- **Concept**: IO-aware attention computation that minimizes memory reads
-- **Benefit**: 2-3× faster attention, lower memory usage
-- **Versions**: FlashAttention-1, -2, -3 (each ~2× faster than previous)
-- **Adoption**: Universal across modern inference frameworks
+### Multi-Query Attention (MQA) / Grouped-Query Attention (GQA)
+- Shares KV heads across multiple query heads
+- Reduces KV cache size by 4-8× compared to multi-head attention
+- Llama 4, Mistral, and most 2026 models use GQA by default
 
-### Sparse Attention
-- **Concept**: Only compute attention over a subset of tokens
-- **Benefit**: Linear rather than quadratic complexity
-- **Trade-off**: Some quality degradation
+### DeepSeek Hybrid Attention (CSA+HCA)
+- CSA: 4× compression with top-1024 selection + sliding window
+- HCA: 128× compression with dense attention over compressed tokens
+- Achieves 27% of V3.2 FLOPs at 1M context, 10% of KV cache size
 
 ## Provider Implementations
 
-| Provider | KV Cache Technique | Notes |
-|----------|-------------------|-------|
-| **OpenAI** | Internal paged attention + prefix caching | Production serving stack |
-| **Anthropic** | Prefix caching (90% savings) | Industry-leading cache efficiency |
-| **Google** | Paged attention + semantic caching | Vertex AI optimized |
-| **DeepSeek** | Engram memory (conditional KV cache) | 97% NIAH at 1M tokens |
-| **Meta** | Standard paged attention | Open-source serving stack |
-| **Mistral** | Sliding window attention | 256K context, efficient |
+| Provider | Technique | Impact |
+|----------|-----------|--------|
+| Together AI | Custom vLLM fork + KV cache sharing | 4× throughput claims |
+| NVIDIA | cuDNN Flash Attention + TensorRT-LLM | 3× FA2 speedup |
+| DeepSeek | CSA+HCA hybrid attention | 90% KV cache reduction at 1M |
+| Meta Llama 4 | iRoPE + GQA + chunked prefill | Efficient 10M context |
+| Moonshot | Mooncake serving platform | Optimized KV cache distribution |
+| Mistral | vLLM integration with PagedAttention | Standard serving |
 
-## Memory Footprint Comparison (70B model, 128K context)
+## Memory Impact
 
-| Technique | KV Cache Size | Throughput |
-|-----------|--------------|------------|
-| Naive FP16 | ~50 GB | 1× |
-| Paged Attention FP16 | ~50 GB | 2-4× |
-| Paged Attention INT8 | ~25 GB | 4-6× |
-| Paged Attention INT4 | ~12.5 GB | 6-8× |
+For a 70B model at 128K context:
+- **Naive KV cache**: ~64GB (FP16)
+- **With GQA**: ~16GB (4× reduction)
+- **With PagedAttention + INT8**: ~8GB (8× total reduction)
+- **With DeepSeek CSA+HCA**: ~3GB (20× total reduction)
 
 ## Related
-- [[prompt-caching]] — Prefix caching is a KV cache optimization
-- [[context-windows]] — KV cache limits practical context window size
-- [[quantization]] — KV cache can be quantized independently of model weights
+
+- [[context-windows]] — KV cache is the limiting factor for long context
+- [[prompt-caching]] — Caching reuses KV cache across requests
+- [[quantization]] — Quantized KV cache further reduces memory

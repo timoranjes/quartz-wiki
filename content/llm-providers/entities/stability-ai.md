@@ -1,8 +1,14 @@
 ---
 domain: llm-providers
 type: provider
-tags: [provider/llm-lab, provider/uk, model/open-weight, model/multimodal]
-aliases: [Stability AI, Stable Diffusion, Stable LM]
+title: Stability AI
+sources:
+  - raw/articles/llm-provider-stability-ai-2026.md
+tags:
+  - provider/text-to-image
+  - provider/uk
+  - open-source
+aliases: Stability Ai
 created: 2026-06-01
 updated: 2026-06-02
 ---
