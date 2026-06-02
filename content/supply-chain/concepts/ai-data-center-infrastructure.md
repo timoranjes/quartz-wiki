@@ -1,10 +1,10 @@
 ---
 title: AI Data Center Infrastructure
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-02
 type: concept
 tags: [compute, capex-cycle, bottleneck]
-sources: [raw/articles/softbank-to-spend-up-to-87-billion-on-french-ai-data-centers-fa26f7623145398e.md, raw/articles/lead-or-be-regulated-future-proofing-data-centers-through-re-87b8cf7e9fce73a6.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md]
+sources: [raw/articles/softbank-to-spend-up-to-87-billion-on-french-ai-data-centers-fa26f7623145398e.md, raw/articles/lead-or-be-regulated-future-proofing-data-centers-through-re-87b8cf7e9fce73a6.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/coreweave-claims-to-have-first-nvidia-vera-rubin-nvl72-up-an-a9e2366701f46bad.md, raw/articles/supermicro-shows-off-vera-rubin-nvl72-rack-with-all-new-type-32aecf9e2098109e.md, raw/articles/siemens-nvidia-and-fluence-develop-reference-electrical-and--acc011b090d04fc8.md, raw/articles/how-we-used-gemini-to-build-google-io-2026-8558fcd3b2b6a033.md, raw/articles/ai-data-center-demand-larger-than-were-prepared-for-despite--5a3098734e2904a8.md, raw/articles/qts-looking-to-build-temporary-power-plant-to-support-test-o-e11044d4b97056fc.md]
 confidence: medium
 ---
 
@@ -20,6 +20,7 @@ AI data center capital expenditure is reaching unprecedented scales:
 - SoftBank carries $130B+ in debt and took a $40B bridge loan (March 2026) to fund OpenAI-related investments
 - **China "算力高铁" (Compute High-Speed Rail):** National initiative to make AI compute as accessible as utilities (water, electricity), with 140 trillion tokens consumed as a baseline metric
 - Hyperscalers (Microsoft, Google, Meta, Amazon) each committing $50-100B+ annually to AI infrastructure
+- **Google/Alphabet (June 2026):** Raised $80 billion in equity financing, with Berkshire Hathaway contributing $10 billion — one of the largest single investments in AI infrastructure, signaling massive capex commitments across data centers, networking, and power systems
 
 ## Power as a Bottleneck
 
@@ -39,6 +40,21 @@ AI data center capital expenditure is reaching unprecedented scales:
 - "算力高铁" aims to commoditize AI compute — making it cheap and ubiquitous like utilities
 - This strategy reduces reliance on individual chip suppliers by making compute a public good
 - Implications for [[china-semiconductor-localization]]: domestic chip production benefits from guaranteed compute demand
+
+## Vera Rubin NVL72 Deployment (June 2026)
+
+NVIDIA's next-generation Vera Rubin NVL72 platform is entering production deployment:
+
+- **CoreWeave** (delivered by Dell Technologies): Claims to have first Vera Rubin NVL72 system up and running — marking the transition from announcement to operational deployment
+- **Supermicro:** Showcasing Vera Rubin NVL72 rack with a new coolant type featuring 1,000x higher electrical impedance than conventional dielectric fluid — critical for thermal management of 72-chip systems
+- **Siemens + NVIDIA + Fluence:** Jointly developed a reference electrical architecture for Vera Rubin NVL72 data center deployments — standardizes power distribution and electrical design for hyperscalers building out Gen 7 infrastructure
+- **QTS:** Building temporary power plant to support testing of Vera Rubin systems — underscores the power infrastructure challenge for next-gen AI deployments
+
+## Demand Gap
+
+- **Gartner (June 2026):** AI data center demand is "larger than we're prepared for" — an estimated 250GW of additional capacity needed globally, far exceeding current construction pipelines
+- The gap spans power generation, grid interconnection, cooling infrastructure, and land availability
+- This demand gap is creating a secondary market for temporary power solutions and accelerating site development timelines
 
 ## Supply Chain Implications
 
