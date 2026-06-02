@@ -1,69 +1,95 @@
 ---
-domain: llm-providers
-type: provider
-tags: [provider/llm-lab, provider/us, provider/open-weight]
-aliases: [Llama, Meta AI, Meta Platforms]
+title: Meta (Llama)
 created: 2026-06-01
+updated: 2026-06-02
+type: provider
+tags: [provider, open-weight, model, architecture, multimodal, pricing, api, licensing, benchmark, controversy]
+sources: [raw/articles/llm-provider-meta-llama-2026.md]
+confidence: high
 ---
 # Meta (Llama)
 
 ## Overview
-- **Parent:** Meta Platforms (formerly Facebook)
-- **Strategy:** "Android strategy for AI" — open-source to become de facto standard
-- **Infrastructure:** Colossus supercomputer cluster; AWS Bedrock, Azure, GCP hosting
-- **Consumer Products:** Meta AI across WhatsApp, Instagram, Messenger (40+ countries)
 
-## Model Lineup (Llama 4, April 2025)
+Meta (formerly Facebook) develops and releases the Llama family of open-weight large language models through its Meta Superintelligence Labs division. Headquartered in Menlo Park, California, Meta's AI strategy has been described as the "Android strategy for AI" — releasing open-weight models to become the de facto standard and drive engagement across its platforms (Facebook, Instagram, WhatsApp, Threads).
 
-| Model | Active | Total | Context | Status |
-|-------|--------|-------|---------|--------|
-| **Llama 4 Scout** | 17B | 109B | **10M tokens** (iRoPE) | Released |
-| **Llama 4 Maverick** | 17B | 400B | 1M tokens | Released |
-| **Llama 4 Behemoth** | 288B | ~2T | 16K tokens | **Delayed** (not released) |
+Llama is the most widely deployed open-weight LLM family globally, with hundreds of derivative models and fine-tunes. The company also operates the Meta AI assistant, a consumer product powered by Llama across its social platforms.
 
-## Architecture
-- MoE with iRoPE (Interleaved Rotary Position Encoding)
-- Native early-fusion multimodal (text+image+video, no audio)
-- Codistillation: Behemoth (unreleased teacher) distilled into Scout/Maverick
-- 200+ languages, <2% refusal rate
-- Inference: Scout ~143 tok/s, Maverick ~109 tok/s
+## Model Lineup (Mid-2026)
+
+### Llama 4 Family (April 2025)
+
+Llama 4 introduced native multimodality via early fusion of text and vision data, with a massive 10M token context window.
+
+| Model | Architecture | Active / Total Params | Context | Key Features |
+|-------|-------------|----------------------|---------|-------------|
+| **Llama 4 Maverick** | 128-expert MoE | 17B / ~400B | 10M tokens | Memory, personalization, complex reasoning |
+| **Llama 4 Scout** | 16-expert MoE | 17B / ~109B | 10M tokens | Long documents, single-H100 efficiency |
+
+**Maverick Benchmarks:** MMLU Pro 80.5, GPQA Diamond 69.8, LiveCodeBench 43.4, MMMU 73.4, LMArena ELO 1417. SWE-bench Verified ~65-70%.
+
+### Llama 3 Family (Production-Tested)
+
+| Model | Parameters | Notes |
+|-------|-----------|-------|
+| Llama 3.1 (8B / 70B / 405B) | Multiple | Tool use, 128K context, multilingual |
+| Llama 3.2 (1B / 3B / 11B Vision / 90B Vision) | Multiple | Edge-optimized, image + text reasoning |
+| Llama 3.3 (70B) | 70B | 405B-quality at lower cost |
+
+### Llama Guard (Safety Models)
+
+Llama Guard 3 is available in 1B and 8B variants for content safety classification of LLM inputs and responses.
 
 ## Licensing
-- Llama 4 Community License (NOT OSI open source)
-- Free commercial use under 700M MAU
-- >700M MAU requires separate license from Meta
 
-## Benchmarks (Maverick)
-| Benchmark | Maverick | GPT-4o | Gemini 2.5 Pro |
-|-----------|----------|--------|----------------|
-| MMLU | 85.5 | ~87.2 | 91.0 |
-| MMLU Pro | 80.5 | ~74.4 | 86.5 |
-| GPQA Diamond | 69.8 | ~53.6 | 86.4 |
-| MMMU (vision) | 73.4 | 69.1 | 81.7 |
-| AA Intelligence Index | 18/100 | — | 35/100 |
+The Llama License is a custom permissive license (NOT OSI open source):
+- Permitted: research, commercial use, modification, distribution
+- Restricted: using outputs to improve other LLMs; entities with >700M MAU need separate written permission
+- Requires: attribution and implementation of Llama Guard or equivalent safety measures
 
 ## API & Availability
-- Weights on Hugging Face, llama.com
-- Self-hosting: Scout on single H100 (INT4), Maverick needs 8× H100 DGX
-- Third-party APIs: DeepInfra ($0.15/$0.60), OpenRouter ($0.10/$0.60), Together AI ($0.20/$0.60)
-- Available on Ollama, Bedrock, Replicate, Groq
 
-## Strengths
-- Most widely deployed open-weight model family
-- 10M-token context (longest public)
-- Privacy-first (self-hosting)
-- No vendor lock-in
-- ~15× cheaper than GPT-4o via third parties
+Meta does not offer a direct hosted API. Access is available through:
 
-## Weaknesses
-- EU gap (blocked by regulation)
-- Behemoth delayed (benchLM 12/100)
-- LMArena benchmark controversy (April 2025)
-- Maverick AA Index 18/100 (27/43) — behind Gemini 2.5 Pro
+| Channel | Notes |
+|---------|-------|
+| **Open weights** | Hugging Face, llama.com (registration required) |
+| **Cloud platforms** | AWS Bedrock, Google Cloud Vertex AI, Azure AI |
+| **Inference providers** | Together AI, Groq (sub-100ms TTFT), OpenRouter, DeepInfra |
+| **Local deployment** | Ollama, vLLM, llama.cpp, LM Studio, TensorRT-LLM |
+
+**Cost efficiency:** Distributed inference ~$0.19/M tokens (3:1 blended), single H100 ~$0.30-$0.49/M tokens — significantly lower than closed-source alternatives.
+
+## Muse Spark (April 2026)
+
+Meta Superintelligence Labs launched Muse Spark, the company's first proprietary closed-weight AI model. This represents a strategic shift toward competing directly with [[openai]] and [[anthropic]], creating tension with Meta's open-source positioning.
+
+## Strengths / Weaknesses
+
+**Strengths:**
+- Most deployed open-weight LLM family with massive community ecosystem
+- 10M token context window — among the largest available
+- Dramatically lower inference costs than closed-source models
+- Full deployment flexibility: self-hosting, edge, cloud-agnostic
+- Customization allowed: fine-tuning, distillation, modification
+- Native multimodality in Llama 4 with early fusion
+
+**Weaknesses:**
+- Open-weight models can be used without safety guardrails
+- License restrictions prevent true OSI open-source classification
+- Capability gap on hardest benchmarks vs. top closed-source models
+- No direct Meta-hosted API
+- LMArena benchmark controversy (April 2025): Meta submitted an "experimental chat version" that differed from the public release
+- Muse Spark's closed-weight release creates tension with open-source positioning
 
 ## Recent Developments
-- Apr 2025: Llama 4 Scout + Maverick released
-- Apr 2025: LMArena controversy
-- May 2026: Llama 4 Search integration (Instagram, Facebook)
 
-[[openai]] · [[anthropic]] · [[google-gemini]] · [[xai-grok]] · [[mistral]] · [[alibaba-qwen]] · [[deepseek]]
+**April 2025:** Llama 4 released (Maverick + Scout) with native multimodality and 10M context window.
+
+**December 2024:** Llama 3.3 70B released, matching Llama 3.1 405B performance at lower cost.
+
+**April 2026:** Muse Spark launched — Meta's first closed-weight proprietary model.
+
+**Case studies:** Stoque achieved 50% reduction in repetitive support queries; Shopify reported +76% token throughput and 33% compute cost savings.
+
+[[openai]] · [[anthropic]] · [[google-gemini]] · [[xai-grok]] · [[mistral]] · [[alibaba-qwen]] · [[deepseek]] · [[open-weight-licensing]]
