@@ -1,10 +1,10 @@
 ---
 title: China Semiconductor Localization
 created: 2026-05-29
-updated: 2026-06-02
+updated: 2026-06-03
 type: concept
 tags: [localization, export-controls, bottleneck]
-sources: [raw/articles/wikipedia-china-semiconductor-industry.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/tiktok-owner-bytedance-is-reportedly-developing-its-own-cust-13089b2d7ddab835.md, raw/articles/华为发布韬τ定律重构后摩尔时代的中国技术路径-9653afbd1253c669.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/edge-ai-daily-早报6月1日-abe98024bd263e34.md, raw/articles/us-closes-loophole-that-allowed-chinese-owned-subsidiaries-l-2baccdec109451b3.md]
+sources: [raw/articles/wikipedia-china-semiconductor-industry.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/tiktok-owner-bytedance-is-reportedly-developing-its-own-cust-13089b2d7ddab835.md, raw/articles/华为发布韬τ定律重构后摩尔时代的中国技术路径-9653afbd1253c669.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/edge-ai-daily-早报6月1日-abe98024bd263e34.md, raw/articles/us-closes-loophole-that-allowed-chinese-owned-subsidiaries-l-2baccdec109451b3.md, raw/articles/mainland-chinese-exhibitors-reportedly-locked-out-of-compute-fabcc678cf012315.md]
 confidence: medium
 ---
 
@@ -44,8 +44,9 @@ China is the world's largest semiconductor market (53.7% of worldwide chip sales
 - **December 2023:** China banned Intel/AMD CPUs for government PCs, approved 18 domestic processors
 - **September 2024:** China announced two new DUV lithography machines (193nm at <65nm resolution)
 - **December 2025:** China reportedly completed EUV lithography prototype in Shenzhen (expected working chips 2028–2030)
-- **May 2026:** US approved 10 Chinese companies (Alibaba, Tencent, ByteDance, JD.com) for NVIDIA H200 purchases
+- **May 2026:** US approved 10 Chinese companies (Alibaba, Tencent, ByteDange, JD.com) for NVIDIA H200 purchases
 - **June 2026:** BIS closed loophole allowing Chinese-owned subsidiaries outside China to purchase advanced AI chips under US-entity legal guise. Hundreds of thousands of chips had already been acquired through this channel. New regulation explicitly covers Chinese-owned subsidiaries regardless of incorporation jurisdiction.
+- **June 2026: Computex 2026 — Mainland Chinese exhibitors locked out.** 219 mainland Chinese companies listed as exhibitors were kept off the show floor due to stalled Taiwan entry permit applications. Applications left pending or hit with last-minute documentation requests. This is a de facto restriction on Chinese semiconductor industry participation at the world's largest Asian computer trade show, escalating tech decoupling beyond export controls into exhibition access.
 
 ## Hyperscaler Custom Silicon
 
