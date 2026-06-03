@@ -1,10 +1,10 @@
 ---
 title: Optical Transceivers
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-06-03
 type: concept
 tags: [optical, bottleneck, cpo, supply-demand]
-sources: [raw/articles/techtimes-optical-component-shortage-2026.md]
+sources: [raw/articles/techtimes-optical-component-shortage-2026.md, raw/articles/华泰证券光模块功耗提升驱动液冷加速渗透-d4d1cddddd863554.md]
 confidence: high
 ---
 
@@ -50,6 +50,15 @@ At the heart of the crisis is the **electro-absorption modulated laser (EML)**:
 - 7 of the top 10 global optical module suppliers in 2024 were Chinese companies
 - However, export controls restrict access to epitaxial growth equipment (MOCVD, MBE) needed for EMLs and DSP chips
 - Critical components remain concentrated among Western and Japanese suppliers with significant pricing power
+
+## Liquid Cooling for Optical Modules (June 2026)
+
+- **Huatai Securities (June 2026):** AI compute expansion drives surging demand for 800G/1.6T optical transceivers, but power consumption is escalating rapidly with each generation
+- Liquid cooling is becoming **mandatory** for high-speed optical modules, creating a new market for liquid-cooled optical module cages (液冷Cage)
+- Global production of optical module cages is concentrated in Chinese manufacturers
+- Traditional cage makers are actively developing liquid-cooled variants and expanding配套 production capacity
+- Leveraging existing customer relationships to accelerate product testing and certification for liquid-cooled cages
+- This represents a new sub-segment of the optical supply chain: thermal management for optical components, parallel to the broader data center liquid cooling trend
 
 ## Timeline
 
