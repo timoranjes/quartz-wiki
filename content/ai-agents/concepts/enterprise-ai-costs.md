@@ -43,5 +43,5 @@ As AI coding agents (Claude Code, Cursor, etc.) see rapid enterprise adoption, c
 ## Related
 
 - [[model-selection-for-agents]]
-- [[coding-agents]]
 - [[evaluation-benchmarks]]
+- [[single-vs-multi-agent]]
