@@ -9,14 +9,14 @@ status: drafted
 
 # Anthropic Claude Code
 
-Anthropic's autonomous coding agent, available as a CLI tool and integrated into the Claude web interface.
+Anthropic's autonomous coding agent, available as a CLI tool and integrated into the Claude web interface. Powered by Claude Opus 4.8 (May 2026) for deepest reasoning.
 
 ## Overview
 
 - **Developer**: Anthropic
-- **Backend Model**: Claude Sonnet 4, Claude Opus 4
+- **Backend Model**: Claude Opus 4.8 (default), Claude Sonnet 4.6 (cheaper turns)
 - **Interface**: CLI (`claude`), claude.ai web interface
-- **Pricing**: API usage-based + Claude Pro/Team/Enterprise tiers
+- **Pricing**: Base (~$20/mo, Claude Pro), Max ($200/mo, 20× limits), Teams (custom)
 - **Open Source**: SDK and core are open source
 
 ## Key Capabilities
@@ -26,13 +26,18 @@ Anthropic's autonomous coding agent, available as a CLI tool and integrated into
 - Built-in terminal, file editing, and web search
 - 200K+ context window for large codebase understanding
 - Permission model for tool use control
+- **Dynamic Workflows**: Adaptive task decomposition and execution
+- **Subagents**: Parallel task execution for independent work items
 
-## Workflow
+## Recent Updates (May–June 2026)
 
-1. User provides task description in natural language
-2. Agent reads codebase, plans approach
-3. Executes edits, runs tests, iterates
-4. Provides summary and asks for feedback
+- **Claude Opus 4.8 (May 28, 2026)**: New default model — SOTA reasoning (GPQA 92%), coding (SWE-bench Verified 87.6%), 1M context
+- **Dynamic Workflows**: Adaptive task decomposition for complex multi-step work
+- **Limits doubled (May 6, 2026)**: Increased usage limits for Pro and Max tiers
+- **Anthropic S-1 filing (June 1, 2026)**: Confidentially submitted draft S-1 to SEC — IPO preparation
+- **$65B Series H (May 28, 2026)**: Raised at $965B post-money valuation
+- **Project Glasswing expanded (June 2, 2026)**: AI security initiative with AWS, Apple, Broadcom, Cisco, CrowdStrike, Google, JPMorganChase, Linux Foundation, Microsoft, NVIDIA, Palo Alto Networks
+- **Claude Partner Network (June 3, 2026)**: New Services Track and Partner Hub launched
 
 ## Notable Features
 
@@ -40,13 +45,16 @@ Anthropic's autonomous coding agent, available as a CLI tool and integrated into
 - **CLAUDE.md**: Project-level instructions file for custom behavior
 - **Slash commands**: `/help`, `/clear`, `/compact`, `/cost`
 - **Multi-file editing**: Can modify many files in a single turn
+- **MCP support**: Model Context Protocol for third-party tool integrations
 
 ## Competitive Positioning
 
 - Strong in code quality and safety consciousness
-- Claude Sonnet 4 offers competitive pricing for coding tasks
+- Claude Opus 4.8 is current #1 by AA Intelligence Index (61.4)
+- Best for architectural refactors and multi-file reasoning
 - Direct competitor to OpenAI Codex
 - Known for more cautious, thorough approach vs. faster but riskier agents
+- Supports ACP protocol — can run inside ACP-compatible editors (Devin Desktop, JetBrains)
 
 ## Related
 
@@ -54,3 +62,4 @@ Anthropic's autonomous coding agent, available as a CLI tool and integrated into
 - [[openai-codex]] — Competitor
 - [[cursor]] — Uses Claude as one of its model backends
 - [[model-selection-for-agents]] — Model selection for agent workloads
+- [[acp-protocol]] — Supported protocol for editor integration
