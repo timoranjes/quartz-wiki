@@ -1,4 +1,12 @@
 ---
+title: NVIDIA
+created: 2026-06-02
+updated: 2026-06-02
+type: provider
+tags: [provider, infrastructure, model, reasoning, agentic, tool-use, open-weight, token-cost, multimodal, nvidia-gpu, nemotron, nim]
+sources: [raw/articles/llm-provider-nvidia-2026.md]
+confidence: 0.95
+---
 
 <div class="entity-header">
   <div class="entity-badges">
@@ -12,14 +20,6 @@
   </div>
 </div>
 
-title: NVIDIA
-created: 2026-06-02
-updated: 2026-06-02
-type: provider
-tags: [provider, infrastructure, model, reasoning, agentic, tool-use, open-weight, token-cost, multimodal, nvidia-gpu, nemotron, nim]
-sources: [raw/articles/llm-provider-nvidia-2026.md]
-confidence: 0.95
----
 # NVIDIA
 
 ## Overview

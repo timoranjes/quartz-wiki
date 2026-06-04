@@ -1,4 +1,12 @@
 ---
+title: Mistral AI
+created: 2026-06-01
+updated: 2026-06-02
+type: provider
+tags: [provider, lab, model, open-weight, reasoning, coding, multimodal, agentic, pricing, api, licensing, token-cost, timeline]
+sources: [raw/articles/llm-provider-mistral-2026.md]
+confidence: high
+---
 
 <div class="entity-header">
   <div class="entity-badges">
@@ -14,14 +22,6 @@
   </div>
 </div>
 
-title: Mistral AI
-created: 2026-06-01
-updated: 2026-06-02
-type: provider
-tags: [provider, lab, model, open-weight, reasoning, coding, multimodal, agentic, pricing, api, licensing, token-cost, timeline]
-sources: [raw/articles/llm-provider-mistral-2026.md]
-confidence: high
----
 # Mistral AI
 
 ## Overview

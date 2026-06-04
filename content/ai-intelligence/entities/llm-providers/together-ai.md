@@ -1,4 +1,12 @@
 ---
+title: Together AI
+created: 2026-06-02
+updated: 2026-06-02
+type: provider
+tags: [provider, lab, cloud-platform, us, inference, fine-tuning, open-weight, pricing, api, token-cost, timeline, agentic]
+sources: [raw/articles/llm-provider-together-ai-2026.md]
+confidence: 0.95
+---
 
 <div class="entity-header">
   <div class="entity-badges">
@@ -11,14 +19,6 @@
   </div>
 </div>
 
-title: Together AI
-created: 2026-06-02
-updated: 2026-06-02
-type: provider
-tags: [provider, lab, cloud-platform, us, inference, fine-tuning, open-weight, pricing, api, token-cost, timeline, agentic]
-sources: [raw/articles/llm-provider-together-ai-2026.md]
-confidence: 0.95
----
 # Together AI
 
 ## Overview

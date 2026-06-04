@@ -1,4 +1,16 @@
 ---
+domain: llm-providers
+type: provider
+title: Zhipu AI (GLM)
+sources: [raw/articles/llm-provider-zhipu-ai-2026.md]
+tags:
+  - provider/china
+  - provider/generative-ai
+  - open-source
+aliases: Zhipu Ai
+created: 2026-06-01
+updated: 2026-06-02
+---
 
 <div class="entity-header">
   <div class="entity-badges">
@@ -13,18 +25,6 @@
   </div>
 </div>
 
-domain: llm-providers
-type: provider
-title: Zhipu AI (GLM)
-sources: [raw/articles/llm-provider-zhipu-ai-2026.md]
-tags:
-  - provider/china
-  - provider/generative-ai
-  - open-source
-aliases: Zhipu Ai
-created: 2026-06-01
-updated: 2026-06-02
----
 # Zhipu AI (Z.ai)
 
 ## Overview

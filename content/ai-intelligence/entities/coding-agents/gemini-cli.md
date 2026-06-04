@@ -1,4 +1,12 @@
 ---
+title: "Google Antigravity"
+type: entity
+tags: [coding-agent, google-gemini, llm-provider, multi-agent]
+created: "2026-06-04"
+updated: "2026-06-04"
+status: drafted
+sources: [raw/articles/coding-agent-gemini-cli-2026.md]
+---
 
 <div class="entity-header">
   <div class="entity-badges">
@@ -13,14 +21,6 @@
   </div>
 </div>
 
-title: "Google Antigravity"
-type: entity
-tags: [coding-agent, google-gemini, llm-provider, multi-agent]
-created: "2026-06-04"
-updated: "2026-06-04"
-status: drafted
-sources: [raw/articles/coding-agent-gemini-cli-2026.md]
----
 
 # Google Antigravity
 

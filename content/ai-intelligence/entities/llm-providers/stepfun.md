@@ -1,4 +1,12 @@
 ---
+title: StepFun
+created: 2026-06-02
+updated: 2026-06-02
+type: provider
+tags: [provider, lab, china, model, multimodal, reasoning, coding, open-weight, pricing, api, token-cost, timeline, agentic]
+sources: [raw/articles/llm-provider-stepfun-2026.md]
+confidence: 0.9
+---
 
 <div class="entity-header">
   <div class="entity-badges">
@@ -12,14 +20,6 @@
   </div>
 </div>
 
-title: StepFun
-created: 2026-06-02
-updated: 2026-06-02
-type: provider
-tags: [provider, lab, china, model, multimodal, reasoning, coding, open-weight, pricing, api, token-cost, timeline, agentic]
-sources: [raw/articles/llm-provider-stepfun-2026.md]
-confidence: 0.9
----
 # StepFun
 
 ## Overview

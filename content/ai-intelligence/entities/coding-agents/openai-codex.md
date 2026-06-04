@@ -1,4 +1,16 @@
 ---
+title: OpenAI Codex
+type: entity
+tags:
+  - coding-agent
+  - openai
+  - llm-provider
+created: '2026-06-04'
+updated: '2026-06-04'
+status: published
+confidence: high
+sources: [raw/articles/coding-agent-openai-codex-2026.md]
+---
 
 <div class="entity-header">
   <div class="entity-badges">
@@ -13,18 +25,6 @@
   </div>
 </div>
 
-title: OpenAI Codex
-type: entity
-tags:
-  - coding-agent
-  - openai
-  - llm-provider
-created: '2026-06-04'
-updated: '2026-06-04'
-status: published
-confidence: high
-sources: [raw/articles/coding-agent-openai-codex-2026.md]
----
 
 # OpenAI Codex
 

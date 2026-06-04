@@ -1,4 +1,12 @@
 ---
+title: MiniMax
+created: 2026-06-02
+updated: 2026-06-02
+type: provider
+tags: [provider, lab, model, reasoning, coding, agentic, tool-use, pricing, api, open-weight, token-cost, timeline, china, multimodal]
+sources: [raw/articles/llm-provider-minimax-2026.md]
+confidence: 0.95
+---
 
 <div class="entity-header">
   <div class="entity-badges">
@@ -13,14 +21,6 @@
   </div>
 </div>
 
-title: MiniMax
-created: 2026-06-02
-updated: 2026-06-02
-type: provider
-tags: [provider, lab, model, reasoning, coding, agentic, tool-use, pricing, api, open-weight, token-cost, timeline, china, multimodal]
-sources: [raw/articles/llm-provider-minimax-2026.md]
-confidence: 0.95
----
 # MiniMax
 
 ## Overview

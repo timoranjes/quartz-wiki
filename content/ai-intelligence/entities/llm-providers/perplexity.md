@@ -1,16 +1,4 @@
 ---
-
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="pricing-badge premium">Premium</span>
-    <span class="provider-badge us">🇺🇸 San Francisco</span>
-  </div>
-  <div class="capability-badges">
-    <span class="capability-badge agentic"><span class="cap-icon">🤖</span> Agentic</span>
-    <span class="capability-badge tool-use"><span class="cap-icon">🔧</span> Tool Use</span>
-  </div>
-</div>
-
 domain: llm-providers
 type: provider
 title: Perplexity AI (Sonar)
@@ -23,6 +11,18 @@ aliases: Perplexity
 created: 2026-06-01
 updated: 2026-06-02
 ---
+
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="pricing-badge premium">Premium</span>
+    <span class="provider-badge us">🇺🇸 San Francisco</span>
+  </div>
+  <div class="capability-badges">
+    <span class="capability-badge agentic"><span class="cap-icon">🤖</span> Agentic</span>
+    <span class="capability-badge tool-use"><span class="cap-icon">🔧</span> Tool Use</span>
+  </div>
+</div>
+
 # Perplexity AI (Sonar)
 
 ## Overview

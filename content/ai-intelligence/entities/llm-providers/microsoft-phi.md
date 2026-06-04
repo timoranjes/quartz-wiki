@@ -1,4 +1,12 @@
 ---
+title: Microsoft Phi
+created: 2026-06-02
+updated: 2026-06-02
+type: provider
+tags: [provider, lab, model, reasoning, coding, vision, audio, multimodal, open-weight, pricing, edge, token-cost, timeline]
+sources: [raw/articles/llm-provider-microsoft-phi-2026.md]
+confidence: 0.95
+---
 
 <div class="entity-header">
   <div class="entity-badges">
@@ -14,14 +22,6 @@
   </div>
 </div>
 
-title: Microsoft Phi
-created: 2026-06-02
-updated: 2026-06-02
-type: provider
-tags: [provider, lab, model, reasoning, coding, vision, audio, multimodal, open-weight, pricing, edge, token-cost, timeline]
-sources: [raw/articles/llm-provider-microsoft-phi-2026.md]
-confidence: 0.95
----
 # Microsoft Phi
 
 ## Overview
