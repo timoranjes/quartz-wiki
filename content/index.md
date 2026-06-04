@@ -1,51 +1,60 @@
 ---
-title: Home
-description: Unified encyclopedia — AI Agents, Supply Chain, LLM Providers
+title: Orange's Knowledge Base
+description: Unified encyclopedia — AI Intelligence, Supply Chain, Ministry Words
 tags: [index]
 ---
 
-# Knowledge Base
+# Orange's Knowledge Base
 
-Welcome to the unified knowledge base. This site integrates content from three independent domains with unified search, graph navigation, and cross-domain linking.
-
----
-
-## 🤖 AI Agents
-
-AI Agent architecture, toolchains, deployment patterns, and multi-agent collaboration systems.
-
-- **Content:** Framework comparisons, deployment guides, MCP protocol, RAG architecture
-- **Language:** English
-
-→ [Explore AI Agents](ai-agents/)
+A curated intelligence stack tracking frontier AI models, autonomous coding agents, semiconductor supply chains, and ministry study resources. Updated continuously via Obsidian sync.
 
 ---
 
-## 🔗 AI Supply Chain
+## AI Intelligence
 
-Upstream bottleneck materials, equipment, manufacturers, and capacity data for the AI semiconductor industry.
+Frontier LLMs, autonomous coding agents, agent frameworks, and AI applications in finance.
 
-- **Content:** Semiconductor materials, lithography equipment, HBM supply chain, geopolitical analysis
-- **Language:** English
+- **Coverage:** 18 LLM providers · 7 coding agents · 7 agent frameworks · 4 finance apps · 3 open-source projects
+- **Latest:** Alibaba Qwen, Anthropic Claude, Google Gemini, xAI Grok, DeepSeek
+- **Structure:** Provider profiles, capability comparisons, pricing tables, architecture concepts
+
+→ [Explore AI Intelligence](ai-intelligence/)
+
+---
+
+## AI Supply Chain
+
+Upstream bottleneck materials, lithography equipment, HBM supply chain, and semiconductor manufacturing capacity.
+
+- **Coverage:** Semiconductor materials, CoWoS packaging, data center infrastructure
+- **Focus:** Hardware constraints that drive AI infrastructure investment decisions
 
 → [Explore Supply Chain](supply-chain/)
 
 ---
 
-## 🧠 LLM Providers
+## Quick Reference
 
-Intelligence on LLM providers, model capabilities, pricing, API endpoints, and performance benchmarks.
+### Frontier Models
+A side-by-side comparison of the latest models from OpenAI, Anthropic, Google, xAI, Alibaba, DeepSeek, and more — context windows, reasoning capabilities, coding benchmarks, and pricing.
 
-- **Content:** Provider profiles, model comparisons, API docs, benchmark data
-- **Language:** English
+→ [Frontier Model Comparison](ai-intelligence/frontier-models/)
 
-→ [Explore LLM Providers](llm-providers/)
+### Coding Agents
+Which autonomous coding tool is right for your workflow — Devin, Codex, Claude Code, OpenHands, Cursor, Aider, and more.
+
+→ [Coding Agent Matrix](ai-intelligence/coding-agents/)
 
 ---
 
-## Usage
+## Cross-References
 
-- **Search:** Use the left sidebar to search across all domains
-- **Graph:** The right panel shows global knowledge connections
-- **Navigation:** Browse by domain using the Explorer panel
-- **Cross-domain links:** Entries from different domains are interlinked
+| Domain | Purpose | Deployed |
+|--------|---------|----------|
+| AI Intelligence | LLMs, agents, frameworks, finance | This site |
+| AI Supply Chain | Semiconductor hardware & infrastructure | This site |
+| Ministry Words | Lord's Recovery study content | [timoranjes.github.io/ministry-wiki](https://timoranjes.github.io/ministry-wiki) |
+
+---
+
+*Last sync: via cron every 15 minutes from local Obsidian vaults*
