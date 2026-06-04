@@ -96,13 +96,21 @@ Prompt caching is available with 5-minute (1.25x) and 1-hour (2x) write windows,
 
 ## Recent Developments
 
-**Model releases (2025-2026):** Claude 4 (May 2025, new architecture), Claude 4.1 Opus, Claude 4.5 series, Claude 4.6 Sonnet (introduced dateless ID format), Claude 4.7 Opus, Claude Opus 4.8 (May 2026, current flagship with adaptive thinking).
+**Model releases (2025-2026):** Claude 4 (May 2025, new architecture), Claude 4.1 Opus, Claude 4.5 series, Claude 4.6 Sonnet (introduced dateless ID format), Claude 4.7 Opus, **Claude Opus 4.8 (May 28, 2026, current flagship)** — adaptive thinking, SOTA reasoning (GPQA 92%), coding (SWE-bench Verified 87.6%), 1M context, AA Intelligence Index 61.4 (#1).
 
-**Business milestones:** Hit $4.7B revenue run rate and ~$96.5B+ valuation (May 2026). Andrej Karpathy joined Anthropic. Acquired Stainless API framework company.
+**Business milestones:**
+- **$65B Series H (May 28, 2026)**: Raised at $965B post-money valuation
+- **S-1 filing (June 1, 2026)**: Confidentially submitted draft S-1 to SEC — IPO preparation underway
+- Hit $4.7B revenue run rate and ~3,000+ employees
+- Andrej Karpathy joined Anthropic; acquired Stainless API framework company
+- **Milan office (May 27, 2026)**: Opened to support Italian enterprise, research, and developers
+- **Korea office (May 26, 2026)**: KiYoung Choi appointed as Representative Director
 
 **Research:** Containment framework published (May 2026), self-improving agents research, ProgramBench evaluation framework, joint safety evaluation with OpenAI (August 2025).
 
-**Product:** Claude Code at Scale for enterprise deployment, extended output beta (up to 300K tokens via batch API), fast mode research preview for Opus models, Project Glasswing (invitation-only cybersecurity initiative with Claude Mythos).
+**Product:** Claude Code at Scale for enterprise deployment, extended output beta (up to 300K tokens via batch API), fast mode research preview for Opus models, Project Glasswing (cybersecurity initiative expanded June 2, 2026 with 12 partners), **Claude Partner Network (June 3, 2026)**: New Services Track and Partner Hub launched.
+
+**AI-enabled cyber threats mapping (June 3, 2026)**: Published findings from mapping a year's worth of AI-enabled cyber threats using MITRE ATT&CK framework.
 
 ## Coding Agents Using Anthropic Models
 

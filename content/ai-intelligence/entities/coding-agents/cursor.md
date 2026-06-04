@@ -9,14 +9,14 @@ status: drafted
 
 # Cursor IDE
 
-AI-first IDE forked from VS Code, with built-in codebase-aware AI agent capabilities.
+AI-first IDE forked from VS Code, with built-in codebase-aware AI agent capabilities. By mid-2026, the largest user base among AI coding IDEs with Composer 2.5 and Bugbot.
 
 ## Overview
 
 - **Developer**: Anysphere
-- **Backend Models**: Claude Sonnet 4, GPT-4o, Claude Opus, Gemini, and custom models
+- **Backend Models**: Claude Sonnet 4.6, Claude Opus 4.7/4.8, GPT-5.4/5.5, Gemini, Composer 2 (first-party model)
 - **Interface**: Desktop IDE (macOS, Windows, Linux)
-- **Pricing**: Free tier, Pro ($20/mo), Business ($40/mo/seat)
+- **Pricing**: Hobby (limited), Pro ($20/mo, credit-based), Teams Standard ($32/seat/mo annual, $40/mo monthly), Teams Premium ($96/seat/mo annual, $120/mo monthly, 5× usage), Ultra ($200/mo)
 - **Open Source**: Based on open-source VS Code
 
 ## Key Capabilities
@@ -26,27 +26,25 @@ AI-first IDE forked from VS Code, with built-in codebase-aware AI agent capabili
 - Agent mode: autonomous multi-file editing
 - Chat with codebase context
 - Multi-model support: switch between providers
+- **Composer 2.5**: Multi-file editing with enhanced AI agent (May 2026)
+- **Build in Parallel**: Fan-out to multiple parallel agents for concurrent task execution
+- **Bugbot**: In-editor agent that triages and fixes bugs autonomously (~78% self-resolution rate, v3.3 May 2026)
+- **Durable Canvases**: Persist multi-step plans across sessions
 
-## Workflow
+## Recent Updates (May–June 2026)
 
-- **Composer mode**: Multi-file editing with AI agent
-- **Chat mode**: Conversational code assistance
-- **Tab autocomplete**: Inline code predictions
-- **Apply**: One-click apply AI suggestions to codebase
-
-## Notable Features
-
-- **Model marketplace**: Choose from Claude, GPT, Gemini, or custom
-- **Codebase indexing**: Semantic search across entire project
-- **Privacy mode**: Code not sent to model providers (local processing)
-- **VS Code compatibility**: Works with VS Code extensions
+- **v3.3 (May 2026)**: Added durable canvases for multi-step plans and Bugbot
+- **Teams Repricing (June 2026)**: Restructured into Standard ($32/seat/mo annual) and Premium ($96/seat/mo annual) tiers for usage predictability
+- **Composer 2.5**: Enhanced multi-file editing capabilities
+- **Build in Parallel**: Support for fan-out to multiple parallel agents
 
 ## Competitive Positioning
 
-- Best-in-class IDE experience for AI coding
+- Best-in-class IDE experience for AI coding; largest user base
 - Strong for developers who prefer IDE over CLI
 - More integrated than standalone CLI agents
-- Faces competition from Claude Code and Copilot
+- Faces competition from Claude Code, Devin Desktop, and Copilot
+- Model-agnostic approach avoids vendor lock-in
 
 ## Related
 
@@ -55,3 +53,4 @@ AI-first IDE forked from VS Code, with built-in codebase-aware AI agent capabili
 - [[google-gemini]] — Alternative model backend
 - [[claude-code]] — Competitor (CLI)
 - [[github-copilot]] — Competitor (IDE extension)
+- [[devin-desktop]] — Competitor (agent-first IDE)
