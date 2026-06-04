@@ -4,107 +4,179 @@ description: Frontier LLMs, coding agents, agent frameworks, and AI applications
 tags: [index, overview]
 ---
 
-# AI Intelligence
+# AI Intelligence Dashboard
 
 A living reference of the latest AI models, autonomous coding tools, and agent frameworks — maintained for rapid capability evaluation and operational decisions.
 
 ---
 
-## Quick Reference
-
-### Frontier Models
-
-Side-by-side comparison of 18 LLM providers — context windows, reasoning capabilities, coding benchmarks, pricing tiers, and open-weight status.
-
-→ [Frontier Model Comparison](frontier-models)
-
-### Coding Agents
-
-7 autonomous and semi-autonomous coding tools compared across repo access, test execution, PR creation, and pricing.
-
-→ [Coding Agent Matrix](coding-agents)
+<div class="dashboard-grid">
+  <div class="stat-card cyan">
+    <span class="stat-card-icon">🧠</span>
+    <div class="stat-card-value">18</div>
+    <div class="stat-card-label">Frontier Models</div>
+    <div class="stat-card-sublabel">LLM providers tracked</div>
+  </div>
+  <div class="stat-card green">
+    <span class="stat-card-icon">⚡</span>
+    <div class="stat-card-value">7</div>
+    <div class="stat-card-label">Coding Agents</div>
+    <div class="stat-card-sublabel">Autonomous dev tools</div>
+  </div>
+  <div class="stat-card purple">
+    <span class="stat-card-icon">🔗</span>
+    <div class="stat-card-value">7</div>
+    <div class="stat-card-label">Agent Frameworks</div>
+    <div class="stat-card-sublabel">Multi-agent orchestration</div>
+  </div>
+  <div class="stat-card amber">
+    <span class="stat-card-icon">📊</span>
+    <div class="stat-card-value">57</div>
+    <div class="stat-card-label">Total Pages</div>
+    <div class="stat-card-sublabel">Knowledge base size</div>
+  </div>
+</div>
 
 ---
 
-## LLM Providers (18)
+## Frontier Models
 
-Model labs building foundation models.
+Side-by-side comparison of 18 LLM providers — context windows, reasoning capabilities, coding benchmarks, pricing tiers, and open-weight status.
 
-| Provider | Latest Model | Key Strength |
-|----------|-------------|--------------|
-| [[openai]] | GPT-5 | Reasoning, tool use, agentic workflows |
-| [[anthropic]] | Claude 4 | Coding, safety, long-context reasoning |
-| [[google-gemini]] | Gemini 2.5 Pro | Multimodal, 1M context |
-| [[xai-grok]] | Grok 4 | Real-time data access |
-| [[alibaba-qwen]] | Qwen 3.5 | CJK multilingual, coding, open-weight |
-| [[deepseek]] | DeepSeek-V4 | MoE efficiency, lowest cost |
-| [[meta-llama]] | Llama 4 | Open-weight leader |
-| [[mistral]] | Mistral Large 3 | European sovereign |
-| [[cohere]] | Command R+ | RAG, enterprise search |
-| [[minimax]] | MiniMax M2.5 | Long-context Chinese |
-| [[moonshot-ai]] | Kimi k2.5 | Agentic search |
-| [[zhipu-ai]] | GLM-5 | Chinese reasoning |
-| [[stepfun]] | Step 3 | Chinese multimodal |
-| [[nvidia]] | Nemotron | Enterprise fine-tuning |
-| [[perplexity]] | Sonar | Search-augmented reasoning |
-| [[stability-ai]] | Stable Diffusion 3.5 | Image generation |
-| [[together-ai]] | Multiple | Open-model inference |
-| [[microsoft-phi]] | Phi-4 | Small-model efficiency |
+<div class="section-card">
+  <div class="section-card-header">
+    <span class="section-card-title">🏢 Provider Landscape</span>
+    <span class="section-card-count">18 providers</span>
+  </div>
+  <p>US Labs: OpenAI, Anthropic, Google, xAI, Meta, NVIDIA, Microsoft, Cohere, Stability AI, Perplexity, Together AI</p>
+  <p>China: Alibaba Qwen, DeepSeek, MiniMax, Moonshot Kimi, Zhipu GLM, StepFun</p>
+  <p>Europe: Mistral (France)</p>
+  <div style="margin-top: 16px;">
+    <a href="frontier-models" class="section-card-link">View full comparison →</a>
+  </div>
+</div>
 
-## Coding Agents (7)
+<div class="section-card">
+  <div class="section-card-header">
+    <span class="section-card-title">⚖️ Model Comparisons</span>
+  </div>
+  <div class="tag-cloud">
+    <a href="architecture-comparison">Architecture Comparison</a>
+    <a href="capabilities-comparison">Capabilities Comparison</a>
+    <a href="open-source-comparison">Open Source Comparison</a>
+    <a href="pricing-comparison">Pricing Comparison</a>
+    <a href="llm-release-tracker">Release Tracker</a>
+  </div>
+</div>
 
-Autonomous and semi-autonomous tools for software development.
+---
 
-| Agent | Developer | Autonomy | Pricing |
-|-------|-----------|:--------:|---------|
-| [[openai-codex]] | OpenAI | Semi | Subscription |
-| [[claude-code]] | Anthropic | Semi | API pay-per-use |
-| [[cursor]] | Anysphere | No | $20/mo |
-| [[aider]] | Paul Gauthier | Semi | Free |
-| [[opencode]] | OpenCode | Semi | Free |
-| [[github-copilot]] | GitHub | No | $19/mo |
-| [[gemini-cli]] | Google | Semi | API pay-per-use |
+## Coding Agents
 
-## Agent Frameworks (7)
+Autonomous and semi-autonomous tools for software development — from pair-programming assistants to full repo-scale agents.
 
-Multi-agent orchestration platforms.
+<div class="section-card">
+  <div class="section-card-header">
+    <span class="section-card-title">🛠️ Agent Matrix</span>
+    <span class="section-card-count">7 agents</span>
+  </div>
+  <p><strong>OpenAI Codex</strong> — Semi-autonomous, subscription-based</p>
+  <p><strong>Claude Code</strong> — Anthropic's agentic CLI, API pay-per-use</p>
+  <p><strong>Cursor</strong> — IDE-integrated, $20/mo</p>
+  <p><strong>Aider</strong> — Terminal-based, free & open-source</p>
+  <p><strong>OpenCode</strong> — Hermes' preferred agent, free</p>
+  <p><strong>GitHub Copilot</strong> — IDE autocomplete, $19/mo</p>
+  <p><strong>Gemini CLI</strong> — Google's agent, API pay-per-use</p>
+  <div style="margin-top: 16px;">
+    <a href="coding-agents" class="section-card-link">View agent matrix →</a>
+  </div>
+</div>
 
-| Framework | Developer | Approach |
-|-----------|-----------|----------|
-| [[langchain]] | LangChain | Chain + graph-based |
-| [[crewai]] | CrewAI | Role-based teams |
-| [[autogen]] | Microsoft Research | Conversational multi-agent |
-| [[llamaindex]] | LlamaIndex | Retrieval-centric RAG |
-| [[smolagents]] | Hugging Face | Code-first, lightweight |
-| [[openai-agents-sdk]] | OpenAI | Typed SDK with handoffs |
-| [[semantic-kernel]] | Microsoft | Enterprise, Azure-native |
+---
 
-## Concepts
+## Agent Frameworks
 
-### LLM Architecture (11)
-[[context-windows]] · [[distillation]] · [[extended-thinking]] · [[kv-cache-optimization]] · [[mcp-protocol]] · [[moe-architecture]] · [[open-weight-licensing]] · [[prompt-caching]] · [[quantization]] · [[rlhf-training]] · [[speculative-decoding]]
+Multi-agent orchestration platforms for building complex AI workflows.
 
-### Agent Patterns (8)
-[[agent-safety]] · [[architectures]] · [[enterprise-ai-costs]] · [[evaluation-benchmarks]] · [[model-selection-for-agents]] · [[multi-agent-orchestration]] · [[single-vs-multi-agent]] · [[tool-use-pattern]]
+<div class="section-card">
+  <div class="section-card-header">
+    <span class="section-card-title">🌐 Frameworks</span>
+    <span class="section-card-count">7 frameworks</span>
+  </div>
+  <div class="tag-cloud">
+    <a href="langchain">LangChain</a>
+    <a href="crewai">CrewAI</a>
+    <a href="autogen">AutoGen</a>
+    <a href="llamaindex">LlamaIndex</a>
+    <a href="smolagents">SmolAgents</a>
+    <a href="openai-agents-sdk">OpenAI Agents SDK</a>
+    <a href="semantic-kernel">Semantic Kernel</a>
+  </div>
+</div>
 
-## Comparisons
+---
 
-### LLM Providers
-[[architecture-comparison]] · [[capabilities-comparison]] · [[open-source-comparison]] · [[pricing-comparison]] · [[llm-release-tracker]]
+## LLM Concepts
 
-### Coding Agents
-[[coding-agent-feature-matrix]]
+<div class="section-card">
+  <div class="section-card-header">
+    <span class="section-card-title">🧬 Architecture & Training</span>
+    <span class="section-card-count">11 concepts</span>
+  </div>
+  <div class="tag-cloud">
+    <a href="context-windows">Context Windows</a>
+    <a href="distillation">Distillation</a>
+    <a href="extended-thinking">Extended Thinking</a>
+    <a href="kv-cache-optimization">KV Cache</a>
+    <a href="mcp-protocol">MCP Protocol</a>
+    <a href="moe-architecture">MoE Architecture</a>
+    <a href="open-weight-licensing">Open Weight</a>
+    <a href="prompt-caching">Prompt Caching</a>
+    <a href="quantization">Quantization</a>
+    <a href="rlhf-training">RLHF</a>
+    <a href="speculative-decoding">Speculative Decoding</a>
+  </div>
+</div>
 
-### Agent Frameworks
-[[agent-framework-feature-matrix]]
+<div class="section-card">
+  <div class="section-card-header">
+    <span class="section-card-title">🤖 Agent Patterns</span>
+    <span class="section-card-count">8 patterns</span>
+  </div>
+  <div class="tag-cloud">
+    <a href="agent-safety">Agent Safety</a>
+    <a href="architectures">Architectures</a>
+    <a href="enterprise-ai-costs">Enterprise Costs</a>
+    <a href="evaluation-benchmarks">Evaluation</a>
+    <a href="model-selection-for-agents">Model Selection</a>
+    <a href="multi-agent-orchestration">Multi-Agent</a>
+    <a href="single-vs-multi-agent">Single vs Multi</a>
+    <a href="tool-use-pattern">Tool Use</a>
+  </div>
+</div>
 
-## AI in Finance (4)
+---
 
-[[ai-alpha-generation]] · [[bloomberg-gpt]] · [[financial-reasoning-benchmarks]] · [[sentiment-analysis-finance]]
+## AI in Finance
 
-## Open-Source Ecosystem (3)
+<div class="section-card">
+  <div class="tag-cloud">
+    <a href="ai-alpha-generation">Alpha Generation</a>
+    <a href="bloomberg-gpt">Bloomberg GPT</a>
+    <a href="financial-reasoning-benchmarks">Financial Reasoning</a>
+    <a href="sentiment-analysis-finance">Sentiment Analysis</a>
+  </div>
+</div>
 
-[[hugging-face]] · [[ollama]] · [[model-commoditization]]
+## Open-Source Ecosystem
+
+<div class="section-card">
+  <div class="tag-cloud">
+    <a href="hugging-face">Hugging Face</a>
+    <a href="ollama">Ollama</a>
+    <a href="model-commoditization">Model Commoditization</a>
+  </div>
+</div>
 
 ---
 
