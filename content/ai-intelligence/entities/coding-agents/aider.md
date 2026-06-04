@@ -7,16 +7,6 @@ updated: "2026-06-04"
 status: drafted
 ---
 
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="provider-badge global">🌐 GLOBAL</span>
-    <span class="pricing-badge free">Free</span>
-    <span class="open-weight-yes">● Open weights</span>
-  </div>
-  <div class="entity-meta">
-    <span class="entity-meta-key">Type</span>Coding Agent (CLI)<span class="entity-meta-key">HQ</span>Open Source<span class="entity-meta-key">Key Models</span>Any OpenAI-compatible API
-  </div>
-</div>
 # Aider
 
 Open-source AI pair programming tool for terminal-based coding. Works with any OpenAI-compatible API.

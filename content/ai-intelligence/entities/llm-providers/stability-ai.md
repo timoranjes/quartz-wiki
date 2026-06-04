@@ -12,16 +12,6 @@ aliases: Stability Ai
 created: 2026-06-01
 updated: 2026-06-02
 ---
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="provider-badge eu">🇪🇺 EU</span>
-    <span class="pricing-badge competitive">Competitive</span>
-    <span class="open-weight-yes">● Open weights</span>
-  </div>
-  <div class="entity-meta">
-    <span class="entity-meta-key">Type</span>LLM Provider<span class="entity-meta-key">HQ</span>London, UK<span class="entity-meta-key">Valuation</span>Stability AI<span class="entity-meta-key">Key Models</span>Stable Diffusion 3.5, Stable LM
-  </div>
-</div>
 # Stability AI
 
 ## Overview

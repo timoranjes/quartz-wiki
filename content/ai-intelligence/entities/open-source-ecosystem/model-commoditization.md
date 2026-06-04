@@ -8,16 +8,6 @@ tags: ["open-source/trend", "market-analysis", "risk"]
 sources: []
 ---
 
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="provider-badge global">🌐 GLOBAL</span>
-    <span class="pricing-badge free">Free</span>
-    <span class="open-weight-yes">● Open weights</span>
-  </div>
-  <div class="entity-meta">
-    <span class="entity-meta-key">Type</span>Concept
-  </div>
-</div>
 # Model Commoditization Risk
 
 ## Overview

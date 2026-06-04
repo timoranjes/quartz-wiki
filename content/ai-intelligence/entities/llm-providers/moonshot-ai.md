@@ -7,16 +7,6 @@ tags: [provider, lab, china, model, reasoning, coding, open-weight, long-context
 sources: [raw/articles/llm-provider-moonshot-2026.md]
 confidence: 0.9
 ---
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="provider-badge cn">🇨🇳 CN</span>
-    <span class="pricing-badge low-cost">Low-cost</span>
-    <span class="open-weight-no">● Closed weights</span>
-  </div>
-  <div class="entity-meta">
-    <span class="entity-meta-key">Type</span>LLM Provider<span class="entity-meta-key">HQ</span>Beijing, CN<span class="entity-meta-key">Valuation</span>Moonshot AI<span class="entity-meta-key">Key Models</span>Kimi K2.6, Kimi Dev
-  </div>
-</div>
 # Moonshot AI
 
 ## Overview

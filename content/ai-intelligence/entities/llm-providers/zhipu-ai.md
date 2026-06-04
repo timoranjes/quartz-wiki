@@ -12,16 +12,6 @@ aliases: Zhipu Ai
 created: 2026-06-01
 updated: 2026-06-02
 ---
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="provider-badge cn">🇨🇳 CN</span>
-    <span class="pricing-badge low-cost">Low-cost</span>
-    <span class="open-weight-yes">● Open weights</span>
-  </div>
-  <div class="entity-meta">
-    <span class="entity-meta-key">Type</span>LLM Provider<span class="entity-meta-key">HQ</span>Beijing, CN<span class="entity-meta-key">Valuation</span>GLM / Zhipu AI<span class="entity-meta-key">Key Models</span>GLM-5.1, GLM-4, CogView
-  </div>
-</div>
 # Zhipu AI (Z.ai)
 
 ## Overview
