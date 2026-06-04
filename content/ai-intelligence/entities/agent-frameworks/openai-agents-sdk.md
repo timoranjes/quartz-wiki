@@ -2,7 +2,6 @@
 title: "OpenAI Agents SDK"
 type: entity
 tags: [agent-framework, framework, openai, orchestration, sdk, python, typescript]
-sources: [raw/articles/agent-framework-openai-agents-sdk-2026.md]
 created: "2026-06-04"
 updated: "2026-06-04"
 status: drafted
