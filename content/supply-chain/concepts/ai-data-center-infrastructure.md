@@ -1,10 +1,10 @@
 ---
 title: AI Data Center Infrastructure
 created: 2026-06-01
-updated: 2026-06-03
+updated: 2026-06-04
 type: concept
 tags: [compute, capex-cycle, bottleneck]
-sources: [raw/articles/softbank-to-spend-up-to-87-billion-on-french-ai-data-centers-fa26f7623145398e.md, raw/articles/lead-or-be-regulated-future-proofing-data-centers-through-re-87b8cf7e9fce73a6.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/coreweave-claims-to-have-first-nvidia-vera-rubin-nvl72-up-an-a9e2366701f46bad.md, raw/articles/supermicro-shows-off-vera-rubin-nvl72-rack-with-all-new-type-32aecf9e2098109e.md, raw/articles/siemens-nvidia-and-fluence-develop-reference-electrical-and--acc011b090d04fc8.md, raw/articles/how-we-used-gemini-to-build-google-io-2026-8558fcd3b2b6a033.md, raw/articles/ai-data-center-demand-larger-than-were-prepared-for-despite--5a3098734e2904a8.md, raw/articles/qts-looking-to-build-temporary-power-plant-to-support-test-o-e11044d4b97056fc.md, raw/articles/brookfield-ups-french-data-center-investment-by-10-billion-7337d711ae3a496a.md, raw/articles/豆包6月下旬正式付费并加速打通抖音电商丨36氪独家-e30eb205e0c9bb34.md]
+sources: [raw/articles/softbank-to-spend-up-to-87-billion-on-french-ai-data-centers-fa26f7623145398e.md, raw/articles/lead-or-be-regulated-future-proofing-data-centers-through-re-87b8cf7e9fce73a6.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/coreweave-claims-to-have-first-nvidia-vera-rubin-nvl72-up-an-a9e2366701f46bad.md, raw/articles/supermicro-shows-off-vera-rubin-nvl72-rack-with-all-new-type-32aecf9e2098109e.md, raw/articles/siemens-nvidia-and-fluence-develop-reference-electrical-and--acc011b090d04fc8.md, raw/articles/how-we-used-gemini-to-build-google-io-2026-8558fcd3b2b6a033.md, raw/articles/ai-data-center-demand-larger-than-were-prepared-for-despite--5a3098734e2904a8.md, raw/articles/qts-looking-to-build-temporary-power-plant-to-support-test-o-e11044d4b97056fc.md, raw/articles/brookfield-ups-french-data-center-investment-by-10-billion-7337d711ae3a496a.md, raw/articles/豆包6月下旬正式付费并加速打通抖音电商丨36氪独家-e30eb205e0c9bb34.md, raw/articles/1-megawatt-racks-in-data-centers-f0cc6b7935adc4b5.md, raw/articles/coolit-designs-15kw-coldplate-to-future-proof-liquid-cooling-4c012ad8c3937390.md]
 confidence: medium
 ---
 
@@ -63,6 +63,14 @@ NVIDIA's next-generation Vera Rubin NVL72 platform is entering production deploy
 - Data center capex drives demand for: [[nvidia]] GPUs, [[hbm-memory]], optical transceivers, power systems, cooling
 - Power constraints may shift workload distribution to regions with abundant cheap energy (France, Middle East, parts of China)
 - If power bottlenecks ease, GPU/CoWoS become the binding constraint again; if GPU supply eases, power becomes the bottleneck
+
+## Rack-Scale Power Evolution (June 2026)
+
+- **1 Megawatt racks** becoming the next-generation AI server rack standard — a 10x increase over traditional data center rack power (typically ~10kW)
+- **[[nvidia]]** GPU power density continues to drive rack-level thermal and power infrastructure redesign
+- **CoolIT** designed a **15kW coldplate** for future-proof liquid cooling of GPUs — follows and improves on their 4kW coldplate from the prior year, signaling rapid escalation in per-component cooling requirements
+- The combination of 1MW racks and 15kW coldplates confirms that liquid cooling is no longer optional for next-gen AI deployments; it is the baseline infrastructure requirement
+- Power delivery, busbar design, and electrical architecture at the rack level are becoming critical supply chain nodes in their own right
 
 ## Related
 

@@ -1,10 +1,10 @@
 ---
 title: China Semiconductor Localization
 created: 2026-05-29
-updated: 2026-06-03
+updated: 2026-06-04
 type: concept
 tags: [localization, export-controls, bottleneck]
-sources: [raw/articles/wikipedia-china-semiconductor-industry.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/tiktok-owner-bytedance-is-reportedly-developing-its-own-cust-13089b2d7ddab835.md, raw/articles/华为发布韬τ定律重构后摩尔时代的中国技术路径-9653afbd1253c669.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/edge-ai-daily-早报6月1日-abe98024bd263e34.md, raw/articles/us-closes-loophole-that-allowed-chinese-owned-subsidiaries-l-2baccdec109451b3.md, raw/articles/mainland-chinese-exhibitors-reportedly-locked-out-of-compute-fabcc678cf012315.md]
+sources: [raw/articles/wikipedia-china-semiconductor-industry.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/tiktok-owner-bytedance-is-reportedly-developing-its-own-cust-13089b2d7ddab835.md, raw/articles/华为发布韬τ定律重构后摩尔时代的中国技术路径-9653afbd1253c669.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/edge-ai-daily-早报6月1日-abe98024bd263e34.md, raw/articles/us-closes-loophole-that-allowed-chinese-owned-subsidiaries-l-2baccdec109451b3.md, raw/articles/mainland-chinese-exhibitors-reportedly-locked-out-of-compute-fabcc678cf012315.md, raw/articles/36氪独家-火山引擎提升maas营收目标至全年150亿元seedance-20单月营收已超10亿元-6ecf7e73eb3e01e8.md, raw/articles/投资长鑫科技与宇树科技-险资耐心资本布棋新质生产力-babf6169ac95ef7d.md]
 confidence: medium
 ---
 
@@ -64,6 +64,21 @@ Beyond government-led localization, Chinese tech giants are developing custom AI
 - Baseline: 140 trillion tokens consumed, indicating massive scale of AI training and inference workloads
 - Strategy: commoditize compute capacity to reduce AI cost barriers and accelerate domestic AI application development
 - Implications: if compute becomes cheap and abundant domestically, demand for localized chips (even at lower performance nodes) increases, supporting the localization thesis
+
+## China's MaaS Market Surge (June 2026)
+
+- **火山引擎 (Volcano Engine / ByteDance):** Raised MaaS revenue target to **150B RMB/year** (up from 100B RMB at end of 2025); 2025 actual revenue was only ~15B RMB, implying a 10x growth target
+- **Seedance 2.0** video model generating **10B+ RMB/month** in revenue; penetration rate in short drama (短剧) industry reached ~95%; ranked #2 globally in video generation market share behind Google Veo
+- **Token consumption** growing ~40% month-over-month; coding and video generation are the two most profitable MaaS segments
+- **智谱 (Zhipu AI):** Leading in coding MaaS — GLM-5.1 pricing now comparable to Claude Sonnet 4.6; Q1 2026 API volume grew 400% despite 83% price increases
+- **阿里云:** Forming new MaaS sales teams to push enterprise Agent adoption and increase token consumption
+- Signal: China's AI compute demand is accelerating independently of US chip supply — domestic model providers are generating substantial revenue and driving compute consumption, which supports the thesis that compute demand will continue to push for localized silicon
+
+## CXMT Insurance Capital Investment (June 2026)
+
+- **CXMT (长鑫科技)** — China's leading domestic DRAM manufacturer — receiving direct investment from insurance capital (和谐健康, 阳光人寿), with IPO process accelerating
+- Insurance "patient capital" (耐心资本) is being deployed into hard tech companies (CXMT, Unitree/宇树科技) as part of national strategy
+- Significance: CXMT is the DRAM localization play; insurance capital backing signals state-aligned long-term commitment, and DRAM self-sufficiency is a critical gap in China's semiconductor supply chain
 
 ## ARM-Based Edge AI in China
 
