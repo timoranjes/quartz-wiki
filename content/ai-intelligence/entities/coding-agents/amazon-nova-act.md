@@ -5,7 +5,7 @@ tags: ["coding-agent", "cloud", "aws", "amazon", "agent-orchestration"]
 created: "2026-06-04"
 updated: "2026-06-04"
 status: drafted
-sources: [raw/articles/coding-agent-amazon-nova-act-2026.md]
+sources: ["raw/sources/proactive-amazon-nova-act-agent-launch-20260604T050952Z.md"]
 ---
 
 # Amazon Nova Act

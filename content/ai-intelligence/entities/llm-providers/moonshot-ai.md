@@ -4,7 +4,7 @@ created: 2026-06-02
 updated: 2026-06-02
 type: provider
 tags: [provider, lab, china, model, reasoning, coding, open-weight, long-context, multimodal, agentic, pricing, api, token-cost, timeline]
-sources: [raw/articles/llm-provider-moonshot-ai-2026.md]
+sources: [raw/articles/llm-provider-moonshot-2026.md]
 confidence: 0.9
 ---
 # Moonshot AI

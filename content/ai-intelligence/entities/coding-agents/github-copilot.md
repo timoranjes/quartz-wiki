@@ -5,7 +5,6 @@ tags: [coding-agent, github, openai, llm-provider]
 created: "2026-06-04"
 updated: "2026-06-04"
 status: drafted
-sources: [raw/articles/coding-agent-github-copilot-2026.md]
 ---
 
 # GitHub Copilot
