@@ -5,8 +5,6 @@ tags: [coding-agent, ide, llm-provider]
 created: "2026-06-04"
 updated: "2026-06-04"
 status: drafted
-sources:
-  - raw/articles/coding-agent-cursor-2026.md
 ---
 
 <div class="entity-header">
