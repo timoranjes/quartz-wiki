@@ -7,6 +7,26 @@ updated: "2026-06-04"
 status: drafted
 ---
 
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="provider-badge us">🇺🇸 US</span>
+    <span class="pricing-badge mid-tier">$20/mo</span>
+    <span class="provider-badge open">IDE-integrated</span>
+  </div>
+  <div class="entity-meta">
+    <span class="entity-meta-key">Type</span>
+    <span class="entity-meta-value">AI-powered IDE</span>
+    <span class="entity-meta-key">HQ</span>
+    <span class="entity-meta-value">San Francisco, CA (Anysphere)</span>
+    <span class="entity-meta-key">Key Features</span>
+    <span class="entity-meta-value">Composer 2.5, Bugbot, Codebase indexing</span>
+    <span class="entity-meta-key">Pricing</span>
+    <span class="entity-meta-value">Pro $20/mo, Business $40/mo</span>
+  </div>
+</div>
+
+
+
 # Cursor IDE
 
 AI-first IDE forked from VS Code, with built-in codebase-aware AI agent capabilities. By mid-2026, the largest user base among AI coding IDEs with Composer 2.5 and Bugbot.
