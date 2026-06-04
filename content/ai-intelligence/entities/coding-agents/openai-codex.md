@@ -12,20 +12,6 @@ confidence: high
 sources: [raw/articles/coding-agent-openai-codex-2026.md]
 ---
 
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="pricing-badge competitive">Subscription</span>
-    <span class="provider-badge us">🇺🇸 OpenAI</span>
-  </div>
-  <div class="capability-badges">
-    <span class="capability-badge autonomous"><span class="cap-icon">🤖</span> Autonomous</span>
-    <span class="capability-badge multi-file"><span class="cap-icon">📁</span> Multi-File</span>
-    <span class="capability-badge code-review"><span class="cap-icon">🔍</span> Code Review</span>
-    <span class="capability-badge testing"><span class="cap-icon">🧪</span> Testing</span>
-  </div>
-</div>
-
-
 # OpenAI Codex
 
 OpenAI's autonomous coding agent, launched as a CLI tool. Now powered primarily by `gpt-5.5` (released April 2026), with support for multiple model tiers.

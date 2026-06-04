@@ -7,19 +7,6 @@ tags: [provider, infrastructure, model, reasoning, agentic, tool-use, open-weigh
 sources: [raw/articles/llm-provider-nvidia-2026.md]
 confidence: 0.95
 ---
-
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="pricing-badge enterprise">NIM Cloud</span>
-    <span class="provider-badge us">🇺🇸 Santa Clara</span>
-  </div>
-  <div class="capability-badges">
-    <span class="capability-badge vision"><span class="cap-icon">👁️</span> Vision</span>
-    <span class="capability-badge multimodal"><span class="cap-icon">🔀</span> Multimodal</span>
-    <span class="capability-badge tool-use"><span class="cap-icon">🔧</span> GPU/NIM</span>
-  </div>
-</div>
-
 # NVIDIA
 
 ## Overview

@@ -7,20 +7,6 @@ tags: [provider, lab, model, reasoning, coding, agentic, tool-use, pricing, api,
 sources: [raw/articles/llm-provider-minimax-2026.md]
 confidence: 0.95
 ---
-
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="pricing-badge low-cost">Low Cost</span>
-    <span class="provider-badge cn">🇨🇳 Shanghai</span>
-  </div>
-  <div class="capability-badges">
-    <span class="capability-badge reasoning"><span class="cap-icon">🧠</span> Reasoning</span>
-    <span class="capability-badge coding"><span class="cap-icon">💻</span> Coding</span>
-    <span class="capability-badge multimodal"><span class="cap-icon">🔀</span> Multimodal</span>
-    <span class="capability-badge audio"><span class="cap-icon">🎙️</span> Audio</span>
-  </div>
-</div>
-
 # MiniMax
 
 ## Overview

@@ -8,18 +8,6 @@ status: drafted
 sources: [raw/articles/coding-agent-grok-build-2026.md]
 ---
 
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="pricing-badge competitive">Competitive</span>
-    <span class="provider-badge us">🇺🇸 xAI</span>
-  </div>
-  <div class="capability-badges">
-    <span class="capability-badge autonomous"><span class="cap-icon">🤖</span> Autonomous</span>
-    <span class="capability-badge multi-file"><span class="cap-icon">📁</span> Multi-File</span>
-  </div>
-</div>
-
-
 # Grok Build
 
 xAI's terminal-native coding agent, launched May 2026. Features local-first execution with aggressive pricing and 8× parallel subagent support through Arena Mode.

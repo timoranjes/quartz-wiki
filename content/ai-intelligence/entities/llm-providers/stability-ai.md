@@ -11,18 +11,6 @@ aliases: Stability Ai
 created: 2026-06-01
 updated: 2026-06-02
 ---
-
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="pricing-badge competitive">Competitive</span>
-    <span class="provider-badge eu">🇬🇧 London</span>
-  </div>
-  <div class="capability-badges">
-    <span class="capability-badge vision"><span class="cap-icon">👁️</span> Vision</span>
-    <span class="capability-badge multimodal"><span class="cap-icon">🔀</span> Multimodal</span>
-  </div>
-</div>
-
 # Stability AI
 
 ## Overview

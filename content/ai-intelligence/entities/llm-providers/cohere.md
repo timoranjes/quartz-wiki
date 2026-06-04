@@ -7,20 +7,6 @@ tags: [provider, lab, model, rag, embeddings, reranking, multilingual, tool-use,
 sources: [raw/articles/llm-provider-cohere-2026.md]
 confidence: 0.95
 ---
-
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="pricing-badge enterprise">Enterprise</span>
-    <span class="provider-badge ca">🇨🇦 Toronto</span>
-  </div>
-  <div class="capability-badges">
-    <span class="capability-badge rag"><span class="cap-icon">📚</span> RAG</span>
-    <span class="capability-badge reranking"><span class="cap-icon">📊</span> Reranking</span>
-    <span class="capability-badge tool-use"><span class="cap-icon">🔧</span> Tool Use</span>
-    <span class="capability-badge multilingual"><span class="cap-icon">🌐</span> Multilingual</span>
-  </div>
-</div>
-
 # Cohere
 
 ## Overview

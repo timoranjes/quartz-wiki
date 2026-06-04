@@ -7,19 +7,6 @@ tags: [provider, lab, china, model, multimodal, reasoning, coding, open-weight, 
 sources: [raw/articles/llm-provider-stepfun-2026.md]
 confidence: 0.9
 ---
-
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="pricing-badge low-cost">Low Cost</span>
-    <span class="provider-badge cn">🇨🇳 Beijing</span>
-  </div>
-  <div class="capability-badges">
-    <span class="capability-badge reasoning"><span class="cap-icon">🧠</span> Reasoning</span>
-    <span class="capability-badge coding"><span class="cap-icon">💻</span> Coding</span>
-    <span class="capability-badge vision"><span class="cap-icon">👁️</span> Vision</span>
-  </div>
-</div>
-
 # StepFun
 
 ## Overview

@@ -11,20 +11,6 @@ aliases: Zhipu Ai
 created: 2026-06-01
 updated: 2026-06-02
 ---
-
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="pricing-badge low-cost">Low Cost</span>
-    <span class="provider-badge cn">🇨🇳 Beijing</span>
-  </div>
-  <div class="capability-badges">
-    <span class="capability-badge reasoning"><span class="cap-icon">🧠</span> Reasoning</span>
-    <span class="capability-badge coding"><span class="cap-icon">💻</span> Coding</span>
-    <span class="capability-badge vision"><span class="cap-icon">👁️</span> Vision</span>
-    <span class="capability-badge multimodal"><span class="cap-icon">🔀</span> Multimodal</span>
-  </div>
-</div>
-
 # Zhipu AI (Z.ai)
 
 ## Overview
