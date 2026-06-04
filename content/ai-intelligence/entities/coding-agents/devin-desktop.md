@@ -5,6 +5,7 @@ tags: [coding-agent, ide, acp, multi-agent]
 created: "2026-06-04"
 updated: "2026-06-04"
 status: drafted
+sources: [raw/articles/coding-agent-devin-2026.md]
 ---
 
 # Devin Desktop
