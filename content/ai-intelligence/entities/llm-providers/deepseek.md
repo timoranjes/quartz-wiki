@@ -7,6 +7,32 @@ tags: [provider, lab, model, reasoning, coding, open-weight, pricing, api, token
 sources: [raw/articles/llm-provider-deepseek-2026.md]
 confidence: 0.95
 ---
+
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="provider-badge cn">🇨🇳 CN</span>
+    <span class="pricing-badge low-cost">Low-cost</span>
+    <span class="open-weight-yes">● Open weights (MIT)</span>
+    <span class="provider-badge">🚀 Coding #1</span>
+  </div>
+  <div class="entity-meta">
+    <span class="entity-meta-key">Type</span>
+    <span class="entity-meta-value">AI Lab (High-Flyer / 幻方量化 backed)</span>
+    <span class="entity-meta-key">HQ</span>
+    <span class="entity-meta-value">Hangzhou, China</span>
+    <span class="entity-meta-key">Founder</span>
+    <span class="entity-meta-value">Liang Wenfeng (梁文锋)</span>
+    <span class="entity-meta-key">Key Models</span>
+    <span class="entity-meta-value">DeepSeek V4 Pro, V4 Flash, V4 Pro Max</span>
+    <span class="entity-meta-key">API</span>
+    <span class="entity-meta-value">$0.14 / $0.28 per 1M tokens (V4 Flash) — 10-50× cheaper than Western competitors</span>
+    <span class="entity-meta-key">Architecture</span>
+    <span class="entity-meta-value">CSA+HCA hybrid attention, Muon optimizer, FP4 QAT, 1.6T params / 49B active</span>
+    <span class="entity-meta-key">Benchmarks</span>
+    <span class="entity-meta-value">LiveCodeBench 93.5 (#1), Codeforces 3206, Putnam 2025 120/120</span>
+  </div>
+</div>
+
 # DeepSeek
 
 ## Overview

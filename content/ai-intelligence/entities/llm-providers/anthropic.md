@@ -7,6 +7,34 @@ tags: [provider, lab, model, reasoning, coding, agentic, tool-use, pricing, api,
 sources: [raw/articles/llm-provider-anthropic-2026.md]
 confidence: 0.95
 ---
+
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="provider-badge us">🇺🇸 US</span>
+    <span class="pricing-badge premium">Premium</span>
+    <span class="open-weight-no">Closed weights</span>
+    <span class="provider-badge">🛡️ Safety-first</span>
+  </div>
+  <div class="entity-meta">
+    <span class="entity-meta-key">Type</span>
+    <span class="entity-meta-value">AI Safety Research Lab</span>
+    <span class="entity-meta-key">HQ</span>
+    <span class="entity-meta-value">San Francisco, CA</span>
+    <span class="entity-meta-key">Valuation</span>
+    <span class="entity-meta-value">$96.5B+ (Series H, May 2026)</span>
+    <span class="entity-meta-key">Revenue</span>
+    <span class="entity-meta-value">$4.7B run rate (mid-2026)</span>
+    <span class="entity-meta-key">Employees</span>
+    <span class="entity-meta-value">~3,000+</span>
+    <span class="entity-meta-key">Key Models</span>
+    <span class="entity-meta-value">Claude Opus 4.8, Claude Sonnet 4.6, Claude Haiku 4.5</span>
+    <span class="entity-meta-key">API</span>
+    <span class="entity-meta-value">$5.00 / $25.00 per 1M tokens (Opus 4.8)</span>
+    <span class="entity-meta-key">Notable</span>
+    <span class="entity-meta-value">S-1 filed June 2026, IPO prep; Andrej Karpathy joined May 2026</span>
+  </div>
+</div>
+
 # Anthropic
 
 ## Overview
