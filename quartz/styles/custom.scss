@@ -1,3 +1,548 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+/* ============================================================
+   Obsidian Vault Theme — Quartz custom.scss
+   Tokens from ui-ux-pro-max (colors.csv, typography.csv)
+   
+   Dark Mode (Primary):  #0F172A bg + #059669 accent
+   Light Mode:           #F8FAFC bg + #059669 accent
+   Fonts: Poppins (headings) / Open Sans (body) / IBM Plex Mono (code)
+   ============================================================ */
+
+/* ---------- Google Fonts Import ---------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap');
+
+/* ---------- Global Typography ---------- */
+:root {
+  --font-header: 'Poppins', system-ui, -apple-system, sans-serif;
+  --font-body: 'Open Sans', system-ui, -apple-system, sans-serif;
+  --font-code: 'IBM Plex Mono', 'Fira Code', 'JetBrains Mono', monospace;
+}
+
+body {
+  font-family: var(--font-body);
+  letter-spacing: 0.01em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-header);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+h1 { font-weight: 700; }
+h2 { font-weight: 600; }
+h3 { font-weight: 600; }
+
+/* ---------- Dark Mode Page Background ---------- */
+html[data-theme="dark"] body {
+  background-color: #0F172A;
+}
+
+/* ---------- Page Title ---------- */
+.page-title {
+  font-family: var(--font-header);
+}
+
+.page-title h1 {
+  font-weight: 700;
+  letter-spacing: -0.03em;
+}
+
+/* ---------- Breadcrumbs ---------- */
+.breadcrumb-container {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+.breadcrumb-container a {
+  color: #94A3B8;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.breadcrumb-container a:hover {
+  color: #059669;
+}
+
+/* ---------- Explorer Panel (Left Sidebar) ---------- */
+.explorer {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.explorer .section-header {
+  font-family: var(--font-header);
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #94A3B8;
+  padding: 12px 16px 8px;
+}
+
+.explorer a {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  border-radius: 4px;
+  padding: 4px 8px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.explorer a:hover {
+  background: rgba(5, 150, 105, 0.1);
+  color: #059669;
+}
+
+.explorer .folder-title {
+  font-family: var(--font-header);
+  font-weight: 500;
+}
+
+/* ---------- Content Cards ---------- */
+.card {
+  background: #192134;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  border-color: rgba(5, 150, 105, 0.3);
+  box-shadow: 0 2px 12px rgba(5, 150, 105, 0.08);
+}
+
+/* ---------- Callout / Admonition Blocks ---------- */
+.callout {
+  border-radius: 8px;
+  border-left: 4px solid #1E3A5F;
+  background: #192134;
+}
+
+.callout[data-callout="tip"],
+.callout[data-callout="info"] {
+  border-left-color: #059669;
+}
+
+.callout[data-callout="warning"],
+.callout[data-callout="caution"] {
+  border-left-color: #EA580C;
+}
+
+.callout[data-callout="danger"],
+.callout[data-callout="error"] {
+  border-left-color: #DC2626;
+}
+
+.callout-title {
+  font-family: var(--font-header);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+/* ---------- Links ---------- */
+a {
+  color: #3B82F6;
+  transition: color 0.15s ease;
+}
+
+a:hover {
+  color: #059669;
+}
+
+.internal-link {
+  color: #059669;
+  border-bottom: 1px solid rgba(5, 150, 105, 0.3);
+}
+
+.internal-link:hover {
+  color: #34D399;
+  border-bottom-color: #059669;
+}
+
+/* ---------- Tags ---------- */
+.tags a {
+  background: rgba(5, 150, 105, 0.15);
+  color: #34D399;
+  border-radius: 20px;
+  padding: 3px 12px;
+  font-size: 0.75rem;
+  font-family: var(--font-body);
+  font-weight: 500;
+  border: 1px solid rgba(5, 150, 105, 0.2);
+  transition: background 0.15s ease, border-color 0.15s ease;
+  text-decoration: none;
+}
+
+.tags a:hover {
+  background: rgba(5, 150, 105, 0.25);
+  border-color: #059669;
+  color: #6EE7B7;
+}
+
+/* ---------- Table of Contents (Right Sidebar) ---------- */
+#toc {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  border-radius: 8px;
+}
+
+#toc .toc-header {
+  font-family: var(--font-header);
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #94A3B8;
+}
+
+#toc a {
+  color: #94A3B8;
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+#toc a:hover,
+#toc a.active {
+  color: #059669;
+}
+
+/* ---------- Graph View ---------- */
+.graph {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.graph svg {
+  border-radius: 8px;
+}
+
+/* ---------- Search Bar ---------- */
+.search {
+  border-radius: 8px;
+}
+
+.search input {
+  font-family: var(--font-body);
+  background: #192134;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 6px;
+  padding: 8px 12px;
+  color: #FFFFFF;
+  font-size: 0.85rem;
+  transition: border-color 0.2s ease;
+}
+
+.search input:focus {
+  border-color: #059669;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(5, 150, 105, 0.2);
+}
+
+.search input::placeholder {
+  color: #475569;
+}
+
+/* ---------- Search Results ---------- */
+.search-results {
+  background: #192134;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 8px;
+}
+
+.search-results .result {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  transition: background 0.15s ease;
+}
+
+.search-results .result:hover {
+  background: rgba(5, 150, 105, 0.05);
+}
+
+.search-results .result-title {
+  font-family: var(--font-header);
+  font-weight: 500;
+}
+
+/* ---------- Code Blocks ---------- */
+code {
+  font-family: var(--font-code);
+  font-size: 0.85em;
+  background: #10192E;
+  border-radius: 4px;
+  padding: 2px 6px;
+  color: #34D399;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+pre {
+  background: #10192E;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  color: #CBD5E1;
+  font-size: 0.82rem;
+  line-height: 1.6;
+}
+
+pre[data-language]::before {
+  content: attr(data-language);
+  display: block;
+  background: #1E3A5F;
+  color: #94A3B8;
+  font-family: var(--font-header);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 6px 16px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* ---------- Tables ---------- */
+table {
+  border-collapse: collapse;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+thead {
+  background: #1E3A5F;
+}
+
+thead th {
+  font-family: var(--font-header);
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: #E2E8F0;
+  padding: 10px 16px;
+  letter-spacing: 0.02em;
+}
+
+tbody td {
+  padding: 8px 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+  font-size: 0.85rem;
+  color: #CBD5E1;
+}
+
+tbody tr:hover {
+  background: rgba(5, 150, 105, 0.04);
+}
+
+/* ---------- Footer ---------- */
+footer {
+  font-family: var(--font-body);
+  font-size: 0.8rem;
+  color: #475569;
+  border-top: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+footer a {
+  color: #64748B;
+  transition: color 0.15s ease;
+}
+
+footer a:hover {
+  color: #059669;
+}
+
+/* ---------- Backlinks ---------- */
+.backlinks {
+  border-radius: 8px;
+}
+
+.backlinks h3 {
+  font-family: var(--font-header);
+  font-weight: 600;
+  font-size: 0.85rem;
+  color: #94A3B8;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.backlinks a {
+  font-family: var(--font-body);
+  color: #3B82F6;
+  transition: color 0.15s ease;
+}
+
+.backlinks a:hover {
+  color: #059669;
+}
+
+/* ---------- Note Properties ---------- */
+.properties {
+  background: #192134;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+}
+
+.properties dt {
+  font-family: var(--font-header);
+  font-weight: 500;
+  font-size: 0.75rem;
+  color: #94A3B8;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.properties dd {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  color: #CBD5E1;
+}
+
+/* ---------- Darkmode Toggle ---------- */
+.darkmode-toggle {
+  border-radius: 6px;
+  transition: background 0.15s ease;
+}
+
+.darkmode-toggle:hover {
+  background: rgba(5, 150, 105, 0.1);
+}
+
+/* ---------- Scrollbar ---------- */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* ---------- Selection ---------- */
+::selection {
+  background: rgba(5, 150, 105, 0.3);
+  color: #FFFFFF;
+}
+
+/* ---------- Light Mode Overrides ---------- */
+html[data-theme="light"] {
+  .card {
+    background: #FFFFFF;
+    border-color: #E2E8F0;
+  }
+
+  .card:hover {
+    border-color: #059669;
+    box-shadow: 0 2px 12px rgba(5, 150, 105, 0.1);
+  }
+
+  .callout {
+    background: #F8FAFC;
+  }
+
+  code {
+    background: #F1F5F9;
+    color: #059669;
+    border-color: #E2E8F0;
+  }
+
+  pre {
+    background: #F8FAFC;
+    border-color: #E2E8F0;
+  }
+
+  pre code {
+    color: #334155;
+  }
+
+  pre[data-language]::before {
+    background: #E2E8F0;
+    color: #64748B;
+  }
+
+  thead {
+    background: #1E3A5F;
+  }
+
+  thead th {
+    color: #FFFFFF;
+  }
+
+  tbody td {
+    color: #334155;
+  }
+
+  tbody tr:hover {
+    background: rgba(5, 150, 105, 0.05);
+  }
+
+  .search input {
+    background: #FFFFFF;
+    border-color: #E2E8F0;
+    color: #1E293B;
+  }
+
+  .search-results {
+    background: #FFFFFF;
+    border-color: #E2E8F0;
+  }
+
+  .properties {
+    background: #FFFFFF;
+    border-color: #E2E8F0;
+  }
+
+  .properties dt {
+    color: #64748B;
+  }
+
+  .properties dd {
+    color: #334155;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #CBD5E1;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #94A3B8;
+  }
+}
+
+/* ---------- Responsive: Mobile ---------- */
+@media screen and (max-width: 800px) {
+  .page-title h1 {
+    font-size: 1.6rem;
+  }
+
+  .explorer, #toc, .graph {
+    border-radius: 0;
+  }
+
+  table {
+    font-size: 0.8rem;
+  }
+
+  thead th {
+    padding: 8px 10px;
+    font-size: 0.75rem;
+  }
+
+  tbody td {
+    padding: 6px 10px;
+  }
+}
