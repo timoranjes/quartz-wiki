@@ -7,31 +7,6 @@ updated: "2026-06-04"
 status: drafted
 ---
 
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="provider-badge us">🇺🇸 US</span>
-    <span class="pricing-badge premium">Premium ($20–$200/mo)</span>
-    <span class="open-weight-no">Closed (Anthropic)</span>
-    <span class="provider-badge">🖥️ CLI + Web</span>
-  </div>
-  <div class="entity-meta">
-    <span class="entity-meta-key">Type</span>
-    <span class="entity-meta-value">Autonomous Coding Agent</span>
-    <span class="entity-meta-key">Developer</span>
-    <span class="entity-meta-value">Anthropic</span>
-    <span class="entity-meta-key">Backend Model</span>
-    <span class="entity-meta-value">Claude Opus 4.8 (default), Claude Sonnet 4.6 (cheaper turns)</span>
-    <span class="entity-meta-key">Key Features</span>
-    <span class="entity-meta-value">Dynamic Workflows, Subagents, LSP Support, Ultrathink, MCP, Slack Handover</span>
-    <span class="entity-meta-key">Context</span>
-    <span class="entity-meta-value">200K+ (up to 300K via batch API)</span>
-    <span class="entity-meta-key">Benchmarks</span>
-    <span class="entity-meta-value">SWE-bench Verified 87.6% (Opus 4.8), AA Intelligence Index 61.4 (#1)</span>
-    <span class="entity-meta-key">Protocol</span>
-    <span class="entity-meta-value">ACP — runs in Devin Desktop, JetBrains, and other ACP editors</span>
-  </div>
-</div>
-
 # Anthropic Claude Code
 
 Anthropic's autonomous coding agent, available as a CLI tool and integrated into the Claude web interface. Powered by Claude Opus 4.8 (May 2026) for deepest reasoning.

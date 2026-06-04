@@ -7,30 +7,6 @@ tags: [provider, lab, cloud-platform, model, reasoning, coding, vision, audio, m
 sources: [raw/articles/llm-provider-openai-2026.md]
 confidence: 0.95
 ---
-
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="provider-badge us">🇺🇸 US</span>
-    <span class="pricing-badge premium">Premium</span>
-    <span class="open-weight-no">Closed weights</span>
-    <span class="provider-badge open">🏢 Lab → Platform</span>
-  </div>
-  <div class="entity-meta">
-    <span class="entity-meta-key">Type</span>
-    <span class="entity-meta-value">AI Research Lab / Cloud Platform</span>
-    <span class="entity-meta-key">HQ</span>
-    <span class="entity-meta-value">San Francisco, CA</span>
-    <span class="entity-meta-key">Valuation</span>
-    <span class="entity-meta-value">$500B+ (2026)</span>
-    <span class="entity-meta-key">Employees</span>
-    <span class="entity-meta-value">~8,000+</span>
-    <span class="entity-meta-key">Key Models</span>
-    <span class="entity-meta-value">GPT-5.5, GPT-5.4 family, GPT-oss (12B/20B)</span>
-    <span class="entity-meta-key">API</span>
-    <span class="entity-meta-value">$5.00 / $30.00 per 1M tokens (GPT-5.5)</span>
-  </div>
-</div>
-
 # OpenAI
 
 ## Overview
