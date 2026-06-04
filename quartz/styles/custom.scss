@@ -1754,3 +1754,311 @@ html[data-theme="light"] {
     box-shadow: 0 0 6px var(--color-primary-glow);
   }
 }
+
+/* ==========================================================================
+   RESPONSIVE: TABLET (601px–800px)
+   ========================================================================== */
+@media screen and (min-width: 601px) and (max-width: 800px) {
+  .dashboard-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .section-card {
+    padding: 20px 18px;
+  }
+}
+
+/* ==========================================================================
+   RESPONSIVE: TABLET PORTRAIT (≤600px)
+   ========================================================================== */
+@media screen and (max-width: 600px) {
+  /* --- Entity header: stack badges vertically --- */
+  .entity-badges {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .entity-badges .provider-badge,
+  .entity-badges .pricing-badge,
+  .entity-badges .open-weight-yes,
+  .entity-badges .open-weight-no {
+    font-size: 0.72rem;
+    padding: 4px 10px;
+  }
+
+  .entity-meta {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .entity-meta-key {
+    font-size: 0.7rem;
+    min-width: auto;
+    margin-bottom: 2px;
+  }
+
+  .entity-meta-value {
+    font-size: 0.82rem;
+    padding-left: 0;
+  }
+
+  /* --- Provider cards: single column --- */
+  .provider-grid {
+    grid-template-columns: 1fr !important;
+    gap: 12px;
+  }
+
+  /* --- Touch-friendly tap targets (min 44px) --- */
+  .tag-cloud a {
+    min-height: 32px;
+    display: inline-flex;
+    align-items: center;
+    padding: 6px 14px;
+  }
+
+  .section-card-link {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* --- Backlinks mobile --- */
+  .backlinks h2 {
+    font-size: 0.95rem;
+  }
+
+  .backlinks ul {
+    padding-left: 16px;
+  }
+
+  .backlinks a {
+    font-size: 0.82rem;
+    line-height: 1.5;
+    padding: 6px 0;
+    display: block;
+  }
+}
+
+/* ==========================================================================
+   RESPONSIVE: COMPACT MOBILE (≤480px) — tighter spacing
+   ========================================================================== */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 0.85rem;
+  }
+
+  article {
+    padding: 0 2px;
+  }
+
+  .page-title h1,
+  article h1 {
+    font-size: 1.2rem;
+    padding-right: 36px;
+  }
+
+  article h2 {
+    font-size: 1rem;
+    margin-top: 1.2em;
+  }
+
+  article h3 {
+    font-size: 0.88rem;
+  }
+
+  /* --- Dashboard: single column stat cards --- */
+  .dashboard-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+  }
+
+  .stat-card {
+    padding: 12px 10px;
+    text-align: center;
+  }
+
+  .stat-card-value {
+    font-size: 1.3rem;
+  }
+
+  .stat-card-label {
+    font-size: 0.68rem;
+  }
+
+  .stat-card-sublabel {
+    font-size: 0.62rem;
+  }
+
+  .stat-card-icon {
+    font-size: 1rem;
+  }
+
+  /* --- Section cards: full bleed --- */
+  .section-card {
+    padding: 14px 12px;
+    margin: 1em -2px;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
+
+  .section-card-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .section-card-count {
+    font-size: 0.7rem;
+  }
+
+  .section-card-title {
+    font-size: 0.9rem;
+  }
+
+  /* --- Tag cloud: wrap tightly --- */
+  .tag-cloud {
+    gap: 5px;
+  }
+
+  .tag-cloud a {
+    padding: 4px 8px;
+    font-size: 0.65rem;
+    border-radius: 4px;
+  }
+
+  /* --- Table cards: stack rows instead of horizontal scroll --- */
+  .table-container {
+    margin: 1em -2px;
+    padding: 0 2px;
+    border-radius: 0;
+    border-left: none;
+    border-right: none;
+  }
+
+  table {
+    font-size: 0.72rem;
+  }
+
+  /* --- Explorer toggle: smaller on small screens --- */
+  .explorer-toggle {
+    width: 36px;
+    height: 36px;
+    top: 10px;
+    left: 10px;
+  }
+
+  .explorer-toggle svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  /* --- Entity header: tighter on small screens --- */
+  .entity-header {
+    padding: 10px 12px;
+    margin: 0.5em -2px 0.75em;
+  }
+
+  .entity-meta-key {
+    font-size: 0.65rem;
+  }
+
+  .entity-meta-value {
+    font-size: 0.78rem;
+  }
+
+  /* --- Code blocks --- */
+  pre code {
+    padding: 10px;
+    font-size: 0.68rem;
+  }
+
+  /* --- Callouts --- */
+  .callout {
+    padding: 10px 12px;
+    margin: 1em -2px;
+  }
+
+  .callout-title {
+    font-size: 0.82rem;
+  }
+
+  .callout-content {
+    font-size: 0.82rem;
+  }
+
+  /* --- Breadcrumbs --- */
+  .breadcrumb-container {
+    font-size: 0.62rem;
+    padding: 6px 0 2px;
+  }
+
+  /* --- Footer --- */
+  footer {
+    padding: 12px;
+    font-size: 0.75rem;
+  }
+}
+
+/* ==========================================================================
+   MOBILE: HORIZONTAL TABLET (landscape phones, small tablets)
+   ========================================================================== */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+  .left-sidebar {
+    height: auto;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+
+  .page-header {
+    padding: 8px 16px;
+  }
+
+  .explorer-toggle {
+    top: 8px;
+  }
+
+  article {
+    padding-top: 8px;
+  }
+}
+
+/* ==========================================================================
+   PRINT STYLES
+   ========================================================================== */
+@media print {
+  .left-sidebar,
+  .explorer-toggle,
+  .sidebar-overlay,
+  .graph,
+  .backlinks,
+  footer {
+    display: none !important;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 11pt;
+  }
+
+  article {
+    max-width: 100%;
+  }
+
+  a {
+    color: black !important;
+    text-decoration: underline;
+  }
+
+  .entity-header {
+    border: 1px solid #ccc;
+  }
+
+  pre, code {
+    border: 1px solid #ddd;
+  }
+}

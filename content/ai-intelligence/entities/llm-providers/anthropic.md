@@ -7,6 +7,28 @@ tags: [provider, lab, model, reasoning, coding, agentic, tool-use, pricing, api,
 sources: [raw/articles/llm-provider-anthropic-2026.md]
 confidence: 0.95
 ---
+
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="provider-badge us">🇺🇸 US</span>
+    <span class="pricing-badge premium">Premium</span>
+    <span class="open-weight-no">Closed weights</span>
+  </div>
+  <div class="entity-meta">
+    <span class="entity-meta-key">Type</span>
+    <span class="entity-meta-value">AI Research Lab</span>
+    <span class="entity-meta-key">HQ</span>
+    <span class="entity-meta-value">San Francisco, CA</span>
+    <span class="entity-meta-key">Valuation</span>
+    <span class="entity-meta-value">$60B+ (2026)</span>
+    <span class="entity-meta-key">Key Models</span>
+    <span class="entity-meta-value">Claude Opus 4.5, Sonnet 4.5, Haiku 4</span>
+    <span class="entity-meta-key">S-1 Filed</span>
+    <span class="entity-meta-value">2026, targeting IPO</span>
+  </div>
+</div>
+
+
 # Anthropic
 
 ## Overview
