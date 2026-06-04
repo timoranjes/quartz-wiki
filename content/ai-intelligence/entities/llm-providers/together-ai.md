@@ -1,4 +1,16 @@
 ---
+
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="pricing-badge competitive">Competitive</span>
+    <span class="provider-badge us">🇺🇸 San Francisco</span>
+  </div>
+  <div class="capability-badges">
+    <span class="capability-badge multimodal"><span class="cap-icon">🔀</span> Multimodal</span>
+    <span class="capability-badge tool-use"><span class="cap-icon">🔧</span> Tool Use</span>
+  </div>
+</div>
+
 title: Together AI
 created: 2026-06-02
 updated: 2026-06-02

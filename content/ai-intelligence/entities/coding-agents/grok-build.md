@@ -1,4 +1,16 @@
 ---
+
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="pricing-badge competitive">Competitive</span>
+    <span class="provider-badge us">🇺🇸 xAI</span>
+  </div>
+  <div class="capability-badges">
+    <span class="capability-badge autonomous"><span class="cap-icon">🤖</span> Autonomous</span>
+    <span class="capability-badge multi-file"><span class="cap-icon">📁</span> Multi-File</span>
+  </div>
+</div>
+
 title: "Grok Build"
 type: entity
 tags: [coding-agent, xai, local-first, parallel-agents]

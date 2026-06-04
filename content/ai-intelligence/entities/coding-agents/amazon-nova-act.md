@@ -1,4 +1,16 @@
 ---
+
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="pricing-badge competitive">AWS Pay-per-use</span>
+    <span class="provider-badge us">🇺🇸 AWS</span>
+  </div>
+  <div class="capability-badges">
+    <span class="capability-badge autonomous"><span class="cap-icon">🤖</span> Autonomous</span>
+    <span class="capability-badge multi-file"><span class="cap-icon">📁</span> Multi-File</span>
+  </div>
+</div>
+
 title: "Amazon Nova Act"
 type: entity
 tags: ["coding-agent", "cloud", "aws", "amazon", "agent-orchestration"]

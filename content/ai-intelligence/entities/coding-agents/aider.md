@@ -1,4 +1,17 @@
 ---
+
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="pricing-badge free">Free/OSS</span>
+    <span class="provider-badge open">📦 Open Source</span>
+  </div>
+  <div class="capability-badges">
+    <span class="capability-badge cli"><span class="cap-icon">⌨️</span> CLI</span>
+    <span class="capability-badge multi-file"><span class="cap-icon">📁</span> Multi-File</span>
+    <span class="capability-badge testing"><span class="cap-icon">🧪</span> Testing</span>
+  </div>
+</div>
+
 title: "Aider"
 type: entity
 tags: [coding-agent, open-source, llm-provider]
