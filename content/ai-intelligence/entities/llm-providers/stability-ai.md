@@ -3,7 +3,6 @@ domain: llm-providers
 type: provider
 title: Stability AI
 sources: [raw/articles/llm-provider-stability-ai-2026.md]
-  - raw/articles/llm-provider-stability-ai-2026.md
 tags:
   - provider/text-to-image
   - provider/uk

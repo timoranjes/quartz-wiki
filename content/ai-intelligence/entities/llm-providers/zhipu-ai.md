@@ -3,7 +3,6 @@ domain: llm-providers
 type: provider
 title: Zhipu AI (GLM)
 sources: [raw/articles/llm-provider-zhipu-ai-2026.md]
-  - raw/articles/llm-provider-zhipu-ai-2026.md
 tags:
   - provider/china
   - provider/generative-ai
