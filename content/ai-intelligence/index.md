@@ -19,7 +19,7 @@ A living reference of the latest AI models, autonomous coding tools, and agent f
   </div>
   <div class="stat-card green">
     <span class="stat-card-icon">⚡</span>
-    <div class="stat-card-value">7</div>
+    <div class="stat-card-value">10</div>
     <div class="stat-card-label">Coding Agents</div>
     <div class="stat-card-sublabel">Autonomous dev tools</div>
   </div>
@@ -31,7 +31,7 @@ A living reference of the latest AI models, autonomous coding tools, and agent f
   </div>
   <div class="stat-card amber">
     <span class="stat-card-icon">📊</span>
-    <div class="stat-card-value">57</div>
+    <div class="stat-card-value">126</div>
     <div class="stat-card-label">Total Pages</div>
     <div class="stat-card-sublabel">Knowledge base size</div>
   </div>
@@ -78,15 +78,18 @@ Autonomous and semi-autonomous tools for software development — from pair-prog
 <div class="section-card">
   <div class="section-card-header">
     <span class="section-card-title">🛠️ Agent Matrix</span>
-    <span class="section-card-count">7 agents</span>
+    <span class="section-card-count">10 agents</span>
   </div>
-  <p><strong>OpenAI Codex</strong> — Semi-autonomous, subscription-based</p>
-  <p><strong>Claude Code</strong> — Anthropic's agentic CLI, API pay-per-use</p>
-  <p><strong>Cursor</strong> — IDE-integrated, $20/mo</p>
-  <p><strong>Aider</strong> — Terminal-based, free & open-source</p>
-  <p><strong>OpenCode</strong> — Hermes' preferred agent, free</p>
-  <p><strong>GitHub Copilot</strong> — IDE autocomplete, $19/mo</p>
+  <p><strong>Claude Code</strong> — Anthropic's agentic CLI, SWE-bench 87.6%</p>
+  <p><strong>Cursor</strong> — IDE-integrated, multi-file editing, $20/mo</p>
+  <p><strong>OpenAI Codex</strong> — Autonomous agent, full repo operations</p>
+  <p><strong>GitHub Copilot</strong> — IDE autocomplete + agent mode, $19/mo</p>
   <p><strong>Gemini CLI</strong> — Google's agent, API pay-per-use</p>
+  <p><strong>Devin</strong> — Cognition's autonomous engineer, premium</p>
+  <p><strong>Amazon Nova Act</strong> — AWS autonomous agent, pay-per-use</p>
+  <p><strong>Grok Build</strong> — xAI's coding agent, competitive</p>
+  <p><strong>Aider</strong> — Terminal-based, free & open-source</p>
+  <p><strong>OpenCode</strong> — Hermes' preferred CLI agent, free</p>
   <div style="margin-top: 16px;">
     <a href="coding-agents" class="section-card-link">View agent matrix →</a>
   </div>
@@ -180,4 +183,4 @@ Multi-agent orchestration platforms for building complex AI workflows.
 
 ---
 
-*Last updated: 2026-06-04 · 57 pages · Synced from Obsidian vault every 15 minutes*
+*Last updated: 2026-06-05 · 126 pages · 18 providers + 10 coding agents + 7 frameworks*

@@ -558,6 +558,151 @@ article h4 {
 }
 
 /* ==========================================================================
+   CAPABILITY ICON BADGES — Skills/Modality tags on entity headers
+   ========================================================================== */
+
+.capability-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.capability-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.62rem;
+  font-family: var(--font-mono-label);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  padding: 2px 8px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.capability-badge .cap-icon {
+  font-size: 0.7rem;
+  line-height: 1;
+}
+
+.capability-badge.reasoning {
+  background: rgba(139, 92, 246, 0.12);
+  color: #A78BFA;
+  border: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.capability-badge.coding {
+  background: rgba(16, 185, 129, 0.12);
+  color: #6EE7B7;
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.capability-badge.vision {
+  background: rgba(59, 130, 246, 0.12);
+  color: #93C5FD;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.capability-badge.audio {
+  background: rgba(236, 72, 153, 0.12);
+  color: #F9A8D4;
+  border: 1px solid rgba(236, 72, 153, 0.2);
+}
+
+.capability-badge.multimodal {
+  background: rgba(245, 158, 11, 0.12);
+  color: #FCD34D;
+  border: 1px solid rgba(245, 158, 11, 0.2);
+}
+
+.capability-badge.agentic {
+  background: rgba(239, 68, 68, 0.12);
+  color: #FCA5A5;
+  border: 1px solid rgba(239, 68, 68, 0.2);
+}
+
+.capability-badge.tool-use {
+  background: rgba(6, 182, 212, 0.12);
+  color: #67E8F9;
+  border: 1px solid rgba(6, 182, 212, 0.2);
+}
+
+.capability-badge.rag {
+  background: rgba(107, 114, 128, 0.12);
+  color: #D1D5DB;
+  border: 1px solid rgba(107, 114, 128, 0.2);
+}
+
+.capability-badge.safety {
+  background: rgba(34, 197, 94, 0.12);
+  color: #86EFAC;
+  border: 1px solid rgba(34, 197, 94, 0.2);
+}
+
+.capability-badge.reranking {
+  background: rgba(168, 85, 247, 0.12);
+  color: #D8B4FE;
+  border: 1px solid rgba(168, 85, 247, 0.2);
+}
+
+
+.capability-badge.ide {
+  background: rgba(59, 130, 246, 0.12);
+  color: #93C5FD;
+  border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.capability-badge.cli {
+  background: rgba(107, 114, 128, 0.12);
+  color: #D1D5DB;
+  border: 1px solid rgba(107, 114, 128, 0.2);
+}
+
+.capability-badge.autonomous {
+  background: rgba(239, 68, 68, 0.12);
+  color: #FCA5A5;
+  border: 1px solid rgba(239, 68, 68, 0.2);
+}
+
+.capability-badge.code-review {
+  background: rgba(139, 92, 246, 0.12);
+  color: #D8B4FE;
+  border: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.capability-badge.testing {
+  background: rgba(16, 185, 129, 0.12);
+  color: #6EE7B7;
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.capability-badge.multi-file {
+  background: rgba(245, 158, 11, 0.12);
+  color: #FCD34D;
+  border: 1px solid rgba(245, 158, 11, 0.2);
+}
+
+.capability-badge.open-source {
+  background: rgba(34, 197, 94, 0.12);
+  color: #86EFAC;
+  border: 1px solid rgba(34, 197, 94, 0.2);
+}
+
+.capability-badge.free {
+  background: rgba(139, 92, 246, 0.12);
+  color: #C4B5FD;
+  border: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.capability-badge.multilingual {
+  background: rgba(6, 182, 212, 0.12);
+  color: #67E8F9;
+  border: 1px solid rgba(6, 182, 212, 0.2);
+}
+
+/* ==========================================================================
    ENTITY HEADER — Provider/Agent Info Card
    ========================================================================== */
 
@@ -1514,6 +1659,21 @@ blockquote {
   .entity-meta-key {
     display: inline;
     margin-right: 6px;
+  }
+
+  /* --- Capability badges mobile --- */
+  .capability-badges {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .capability-badge {
+    padding: 3px 8px;
+    font-size: 0.65rem;
+  }
+
+  .capability-badge .cap-icon {
+    font-size: 0.65rem;
   }
 }
 
