@@ -10,24 +10,15 @@ confidence: 0.95
 
 <div class="entity-header">
   <div class="entity-badges">
-    <span class="provider-badge cn">🇨🇳 CN</span>
-    <span class="pricing-badge low-cost">Low-cost</span>
-    <span class="open-weight-yes">Open weights</span>
+    <span class="pricing-badge budget">Low Cost</span>
+    <span class="provider-badge cn">🇨🇳 Hangzhou</span>
   </div>
   <div class="entity-meta">
-    <span class="entity-meta-key">Type</span>
-    <span class="entity-meta-value">AI Research Lab</span>
-    <span class="entity-meta-key">HQ</span>
-    <span class="entity-meta-value">Hangzhou, China</span>
-    <span class="entity-meta-key">Parent</span>
-    <span class="entity-meta-value">High-Flyer (幻方量化)</span>
-    <span class="entity-meta-key">Key Models</span>
-    <span class="entity-meta-value">DeepSeek-V3.2, DeepSeek-R1, DeepSeek-Coder</span>
-    <span class="entity-meta-key">Notable</span>
-    <span class="entity-meta-value">LiveCodeBench leaderboard leader</span>
+    <div><span class="entity-meta-key">Latest Model</span><span class="entity-meta-value">DeepSeek-V3.2</span></div>
+    <div><span class="entity-meta-key">Strength</span><span class="entity-meta-value">LiveCodeBench Top-3</span></div>
+    <div><span class="entity-meta-key">Pricing</span><span class="entity-meta-value">~1/10 of GPT-4</span></div>
   </div>
 </div>
-
 
 # DeepSeek
 
