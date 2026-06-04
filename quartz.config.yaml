@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Orange's Knowledge Base
+  pageTitle: AI Intelligence Wiki
   pageTitleSuffix: ""
   enableSPA: false
   enablePopovers: true
@@ -17,29 +17,29 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Poppins
-      body: Open Sans
-      code: IBM Plex Mono
+      header: "Plus Jakarta Sans"
+      body: Inter
+      code: "JetBrains Mono"
     colors:
       lightMode:
         light: "#F8FAFC"
         lightgray: "#E2E8F0"
         gray: "#94A3B8"
         darkgray: "#475569"
-        dark: "#1E3A5F"
-        secondary: "#1E3A5F"
-        tertiary: "#059669"
-        highlight: rgba(5, 150, 105, 0.12)
+        dark: "#0F172A"
+        secondary: "#0891B2"
+        tertiary: "#06B6D4"
+        highlight: rgba(6, 182, 212, 0.08)
         textHighlight: "#b3aa0288"
       darkMode:
-        light: "#0F172A"
-        lightgray: "#192134"
-        gray: "#334155"
+        light: "#0B1120"
+        lightgray: "#151F32"
+        gray: "#64748B"
         darkgray: "#94A3B8"
-        dark: "#FFFFFF"
-        secondary: "#1E3A5F"
-        tertiary: "#059669"
-        highlight: rgba(5, 150, 105, 0.15)
+        dark: "#F1F5F9"
+        secondary: "#1E293B"
+        tertiary: "#06B6D4"
+        highlight: rgba(6, 182, 212, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
   - source: github:quartz-community/created-modified-date
