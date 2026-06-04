@@ -9,22 +9,15 @@ status: drafted
 
 <div class="entity-header">
   <div class="entity-badges">
-    <span class="provider-badge us">🇺🇸 US</span>
-    <span class="pricing-badge mid-tier">$20/mo</span>
-    <span class="provider-badge open">IDE-integrated</span>
+    <span class="pricing-badge pro">Pro</span>
+    <span class="provider-badge us">🇺🇸 San Francisco (Anysphere)</span>
   </div>
   <div class="entity-meta">
-    <span class="entity-meta-key">Type</span>
-    <span class="entity-meta-value">AI-powered IDE</span>
-    <span class="entity-meta-key">HQ</span>
-    <span class="entity-meta-value">San Francisco, CA (Anysphere)</span>
-    <span class="entity-meta-key">Key Features</span>
-    <span class="entity-meta-value">Composer 2.5, Bugbot, Codebase indexing</span>
-    <span class="entity-meta-key">Pricing</span>
-    <span class="entity-meta-value">Pro $20/mo, Business $40/mo</span>
+    <div><span class="entity-meta-key">Latest</span><span class="entity-meta-value">Cursor Composer 2.5</span></div>
+    <div><span class="entity-meta-key">Features</span><span class="entity-meta-value">Agent Mode, Bugbot</span></div>
+    <div><span class="entity-meta-key">Users</span><span class="entity-meta-value">8M+ developers</span></div>
   </div>
 </div>
-
 
 
 # Cursor IDE

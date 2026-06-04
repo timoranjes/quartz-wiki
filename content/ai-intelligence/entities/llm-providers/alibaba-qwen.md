@@ -10,24 +10,15 @@ confidence: 0.95
 
 <div class="entity-header">
   <div class="entity-badges">
-    <span class="provider-badge cn">🇨🇳 CN</span>
-    <span class="pricing-badge low-cost">Low-cost / Free tier</span>
-    <span class="open-weight-yes">Open weights</span>
+    <span class="pricing-badge budget">Free Tier</span>
+    <span class="provider-badge cn">🇨🇳 Hangzhou</span>
   </div>
   <div class="entity-meta">
-    <span class="entity-meta-key">Type</span>
-    <span class="entity-meta-value">Cloud Platform / AI Lab</span>
-    <span class="entity-meta-key">HQ</span>
-    <span class="entity-meta-value">Hangzhou, China</span>
-    <span class="entity-meta-key">Platform</span>
-    <span class="entity-meta-value">Alibaba Cloud Model Studio (百炼)</span>
-    <span class="entity-meta-key">Key Models</span>
-    <span class="entity-meta-value">Qwen3-Max, Qwen3-Plus, Qwen-Coder</span>
-    <span class="entity-meta-key">Free Tier</span>
-    <span class="entity-meta-value">70M tokens free per day</span>
+    <div><span class="entity-meta-key">Latest Model</span><span class="entity-meta-value">Qwen3.5 / Qwen-Max</span></div>
+    <div><span class="entity-meta-key">Free Tokens</span><span class="entity-meta-value">70M via Model Studio</span></div>
+    <div><span class="entity-meta-key">Strength</span><span class="entity-meta-value">Best Chinese LLM</span></div>
   </div>
 </div>
-
 
 # Alibaba Qwen
 

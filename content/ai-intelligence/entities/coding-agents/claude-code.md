@@ -9,24 +9,15 @@ status: drafted
 
 <div class="entity-header">
   <div class="entity-badges">
-    <span class="provider-badge us">🇺🇸 US</span>
-    <span class="pricing-badge mid-tier">Pay-per-use</span>
-    <span class="provider-badge open">Agentic CLI</span>
+    <span class="pricing-badge premium">Premium</span>
+    <span class="provider-badge us">🇺🇸 San Francisco (Anthropic)</span>
   </div>
   <div class="entity-meta">
-    <span class="entity-meta-key">Type</span>
-    <span class="entity-meta-value">Autonomous Coding Agent</span>
-    <span class="entity-meta-key">HQ</span>
-    <span class="entity-meta-value">San Francisco, CA (Anthropic)</span>
-    <span class="entity-meta-key">Model</span>
-    <span class="entity-meta-value">Claude Opus 4.8</span>
-    <span class="entity-meta-key">Key Features</span>
-    <span class="entity-meta-value">Dynamic Workflows, background subagents, 200K context</span>
-    <span class="entity-meta-key">Benchmark</span>
-    <span class="entity-meta-value">SWE-bench Verified 87.6%</span>
+    <div><span class="entity-meta-key">Model</span><span class="entity-meta-value">Opus 4.5 / Sonnet 4.5</span></div>
+    <div><span class="entity-meta-key">Capability</span><span class="entity-meta-value">Dynamic Workflows</span></div>
+    <div><span class="entity-meta-key">SWE-bench</span><span class="entity-meta-value">Verified 87.6%</span></div>
   </div>
 </div>
-
 
 
 # Anthropic Claude Code

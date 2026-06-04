@@ -10,24 +10,15 @@ confidence: 0.95
 
 <div class="entity-header">
   <div class="entity-badges">
-    <span class="provider-badge us">🇺🇸 US</span>
-    <span class="pricing-badge premium">Premium</span>
-    <span class="open-weight-no">Closed weights</span>
+    <span class="pricing-badge premium">S-1 Filing</span>
+    <span class="provider-badge us">🇺🇸 San Francisco, CA</span>
   </div>
   <div class="entity-meta">
-    <span class="entity-meta-key">Type</span>
-    <span class="entity-meta-value">AI Research Lab</span>
-    <span class="entity-meta-key">HQ</span>
-    <span class="entity-meta-value">San Francisco, CA</span>
-    <span class="entity-meta-key">Valuation</span>
-    <span class="entity-meta-value">$60B+ (2026)</span>
-    <span class="entity-meta-key">Key Models</span>
-    <span class="entity-meta-value">Claude Opus 4.5, Sonnet 4.5, Haiku 4</span>
-    <span class="entity-meta-key">S-1 Filed</span>
-    <span class="entity-meta-value">2026, targeting IPO</span>
+    <div><span class="entity-meta-key">Flagship Models</span><span class="entity-meta-value">Opus 4.5 / Sonnet 4.5</span></div>
+    <div><span class="entity-meta-key">Revenue</span><span class="entity-meta-value">$7.3B (2025)</span></div>
+    <div><span class="entity-meta-key">Status</span><span class="entity-meta-value">S-1 Filed</span></div>
   </div>
 </div>
-
 
 # Anthropic
 
