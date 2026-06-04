@@ -8,6 +8,16 @@ status: drafted
 sources: ["raw/sources/proactive-amazon-nova-act-agent-launch-20260604T050952Z.md"]
 ---
 
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="provider-badge us">🇺🇸 US</span>
+    <span class="pricing-badge competitive">Competitive</span>
+    <span class="open-weight-no">● Closed weights</span>
+  </div>
+  <div class="entity-meta">
+    <span class="entity-meta-key">Type</span>Coding Agent (Cloud)<span class="entity-meta-key">HQ</span>Seattle, US<span class="entity-meta-key">Valuation</span>Amazon/AWS<span class="entity-meta-key">Key Models</span>Amazon Nova
+  </div>
+</div>
 # Amazon Nova Act
 
 AWS service for building and managing fleets of AI agents to automate production UI workflows.

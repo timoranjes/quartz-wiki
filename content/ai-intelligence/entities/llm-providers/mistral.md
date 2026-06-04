@@ -7,6 +7,16 @@ tags: [provider, lab, model, open-weight, reasoning, coding, multimodal, agentic
 sources: [raw/articles/llm-provider-mistral-2026.md]
 confidence: high
 ---
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="provider-badge eu">🇪🇺 EU</span>
+    <span class="pricing-badge competitive">Competitive</span>
+    <span class="open-weight-yes">● Open weights</span>
+  </div>
+  <div class="entity-meta">
+    <span class="entity-meta-key">Type</span>LLM Provider<span class="entity-meta-key">HQ</span>Paris, FR<span class="entity-meta-key">Valuation</span>€6B<span class="entity-meta-key">Key Models</span>Mistral Large, Mixtral, Codestral
+  </div>
+</div>
 # Mistral AI
 
 ## Overview

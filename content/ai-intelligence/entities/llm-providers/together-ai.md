@@ -7,6 +7,16 @@ tags: [provider, lab, cloud-platform, us, inference, fine-tuning, open-weight, p
 sources: [raw/articles/llm-provider-together-ai-2026.md]
 confidence: 0.95
 ---
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="provider-badge us">🇺🇸 US</span>
+    <span class="pricing-badge low-cost">Low-cost</span>
+    <span class="open-weight-yes">● Open weights</span>
+  </div>
+  <div class="entity-meta">
+    <span class="entity-meta-key">Type</span>Cloud Platform<span class="entity-meta-key">HQ</span>San Francisco, US<span class="entity-meta-key">Valuation</span>Together AI<span class="entity-meta-key">Key Models</span>Hosts 200+ open-source models
+  </div>
+</div>
 # Together AI
 
 ## Overview

@@ -10,6 +10,16 @@ related_entities:
   - [[../coding-agents/openai-codex]]
 ---
 
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="provider-badge us">🇺🇸 US</span>
+    <span class="pricing-badge free">Free</span>
+    <span class="open-weight-no">● Closed weights</span>
+  </div>
+  <div class="entity-meta">
+    <span class="entity-meta-key">Type</span>Agent Framework<span class="entity-meta-key">HQ</span>San Francisco, US<span class="entity-meta-key">Valuation</span>OpenAI<span class="entity-meta-key">Key Models</span>OpenAI models only
+  </div>
+</div>
 # OpenAI Agents SDK
 
 ## Overview

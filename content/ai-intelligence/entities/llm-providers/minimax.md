@@ -7,6 +7,16 @@ tags: [provider, lab, model, reasoning, coding, agentic, tool-use, pricing, api,
 sources: [raw/articles/llm-provider-minimax-2026.md]
 confidence: 0.95
 ---
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="provider-badge cn">🇨🇳 CN</span>
+    <span class="pricing-badge low-cost">Low-cost</span>
+    <span class="open-weight-no">● Closed weights</span>
+  </div>
+  <div class="entity-meta">
+    <span class="entity-meta-key">Type</span>LLM Provider<span class="entity-meta-key">HQ</span>Shanghai, CN<span class="entity-meta-key">Valuation</span>MiniMax AI<span class="entity-meta-key">Key Models</span>MiniMax M2.7, Speech-02
+  </div>
+</div>
 # MiniMax
 
 ## Overview

@@ -7,6 +7,16 @@ tags: [provider, lab, model, reasoning, coding, open-weight, pricing, api, token
 sources: [raw/articles/llm-provider-deepseek-2026.md]
 confidence: 0.95
 ---
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="provider-badge cn">🇨🇳 CN</span>
+    <span class="pricing-badge low-cost">Low-cost</span>
+    <span class="open-weight-yes">● Open weights</span>
+  </div>
+  <div class="entity-meta">
+    <span class="entity-meta-key">Type</span>LLM Provider<span class="entity-meta-key">HQ</span>Beijing, CN<span class="entity-meta-key">Valuation</span>DeepSeek AI<span class="entity-meta-key">Key Models</span>DeepSeek-V4 Pro, R1, V3
+  </div>
+</div>
 # DeepSeek
 
 ## Overview

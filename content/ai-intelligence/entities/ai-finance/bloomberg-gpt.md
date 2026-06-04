@@ -8,6 +8,16 @@ tags: ["finance/platform", "llm/specialized", "bloomberg"]
 sources: []
 ---
 
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="provider-badge us">🇺🇸 US</span>
+    <span class="pricing-badge enterprise">Enterprise</span>
+    <span class="open-weight-no">● Closed weights</span>
+  </div>
+  <div class="entity-meta">
+    <span class="entity-meta-key">Type</span>AI Finance Product<span class="entity-meta-key">HQ</span>New York, US<span class="entity-meta-key">Valuation</span>Bloomberg LP<span class="entity-meta-key">Key Models</span>BloombergGPT 50B
+  </div>
+</div>
 # BloombergGPT
 
 ## Overview

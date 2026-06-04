@@ -7,6 +7,16 @@ updated: "2026-06-04"
 status: drafted
 ---
 
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="provider-badge us">🇺🇸 US</span>
+    <span class="pricing-badge competitive">Competitive</span>
+    <span class="open-weight-partial">● Partial weights</span>
+  </div>
+  <div class="entity-meta">
+    <span class="entity-meta-key">Type</span>Coding Agent (CLI)<span class="entity-meta-key">HQ</span>San Francisco, US<span class="entity-meta-key">Valuation</span>xAI<span class="entity-meta-key">Key Models</span>Grok Code Fast 1
+  </div>
+</div>
 # Grok Build
 
 xAI's terminal-native coding agent, launched May 2026. Features local-first execution with aggressive pricing and 8× parallel subagent support through Arena Mode.

@@ -7,6 +7,16 @@ updated: "2026-06-04"
 status: drafted
 ---
 
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="provider-badge us">🇺🇸 US</span>
+    <span class="pricing-badge free">Free</span>
+    <span class="open-weight-no">● Closed weights</span>
+  </div>
+  <div class="entity-meta">
+    <span class="entity-meta-key">Type</span>Coding Agent (CLI)<span class="entity-meta-key">HQ</span>Mountain View, US<span class="entity-meta-key">Valuation</span>Google/Alphabet<span class="entity-meta-key">Key Models</span>Gemini 2.5 Pro
+  </div>
+</div>
 # Google Antigravity
 
 Google's agentic coding platform, evolved from Gemini CLI. At Google I/O 2026 (May 19), announced as a full agent development and management platform with multi-agent orchestration, CLI, SDK, and standalone desktop app.

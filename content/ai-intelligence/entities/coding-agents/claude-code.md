@@ -7,6 +7,16 @@ updated: "2026-06-04"
 status: drafted
 ---
 
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="provider-badge us">🇺🇸 US</span>
+    <span class="pricing-badge competitive">Competitive</span>
+    <span class="open-weight-no">● Closed weights</span>
+  </div>
+  <div class="entity-meta">
+    <span class="entity-meta-key">Type</span>Coding Agent (CLI)<span class="entity-meta-key">HQ</span>San Francisco, US<span class="entity-meta-key">Valuation</span>Anthropic<span class="entity-meta-key">Key Models</span>Claude Sonnet 4.6, Opus 4.8
+  </div>
+</div>
 # Anthropic Claude Code
 
 Anthropic's autonomous coding agent, available as a CLI tool and integrated into the Claude web interface. Powered by Claude Opus 4.8 (May 2026) for deepest reasoning.

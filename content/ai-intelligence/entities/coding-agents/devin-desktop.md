@@ -7,6 +7,16 @@ updated: "2026-06-04"
 status: drafted
 ---
 
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="provider-badge us">🇺🇸 US</span>
+    <span class="pricing-badge premium">Premium</span>
+    <span class="open-weight-no">● Closed weights</span>
+  </div>
+  <div class="entity-meta">
+    <span class="entity-meta-key">Type</span>Coding Agent (Desktop)<span class="entity-meta-key">HQ</span>San Francisco, US<span class="entity-meta-key">Valuation</span>Cognition AI<span class="entity-meta-key">Key Models</span>Cognition proprietary + Claude
+  </div>
+</div>
 # Devin Desktop
 
 Agent-first IDE developed by Cognition, rebranded from Windsurf on June 2, 2026. Features the Agent Command Center as its default surface, supporting multiple coding agents via the open Agent Client Protocol (ACP).
