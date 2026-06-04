@@ -1,17 +1,5 @@
 @use "./variables.scss" as *;
 
-/* ============================================================
-   Obsidian Vault Theme — Quartz custom.scss
-   Tokens from ui-ux-pro-max (colors.csv, typography.csv)
-   
-   Dark Mode (Primary):  #0F172A bg + #059669 accent
-   Light Mode:           #F8FAFC bg + #059669 accent
-   Fonts: Poppins (headings) / Open Sans (body) / IBM Plex Mono (code)
-   ============================================================ */
-
-/* ---------- Google Fonts Import ---------- */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap');
-
 /* ---------- Global Typography ---------- */
 :root {
   --font-header: 'Poppins', system-ui, -apple-system, sans-serif;
