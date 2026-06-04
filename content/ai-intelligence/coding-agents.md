@@ -20,6 +20,7 @@ Which autonomous coding tool fits your workflow — from full repo access to inl
 | [[opencode\|OpenCode]] | OpenCode | Multi | Full | Yes | Yes | Semi | Free / Open |
 | [[github-copilot\|Copilot]] | GitHub | Multi | Partial | No | No | No | $19/mo |
 | [[gemini-cli\|Gemini CLI]] | Google | Multi | Full | Yes | Yes | Semi | API pay-per-use |
+| [[amazon-nova-act\|Nova Act]] | Amazon AWS | Multi | Full | Yes | Yes | Yes | AWS pricing |
 
 ## Capability Breakdown
 
@@ -39,6 +40,7 @@ Agents that work inside your editor with human-in-the-loop.
 
 ### Emerging Players
 - [[gemini-cli\|Gemini CLI]] — Google's CLI agent, tight integration with Gemini models
+- [[amazon-nova-act\|Nova Act]] — AWS agent fleet management service for production UI workflows (GA Dec 2025)
 
 ## Quick Picks
 

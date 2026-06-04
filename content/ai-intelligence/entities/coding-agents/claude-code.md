@@ -28,6 +28,11 @@ Anthropic's autonomous coding agent, available as a CLI tool and integrated into
 - Permission model for tool use control
 - **Dynamic Workflows**: Adaptive task decomposition and execution
 - **Subagents**: Parallel task execution for independent work items
+- **LSP Support**: Language Server Protocol integration for real-time code analysis
+- **Async Sub Agents**: Background task execution for parallel processing
+- **Ultrathink**: Enhanced deep reasoning mode for complex tasks
+- **Slack Handover**: Ability to hand off tasks via Slack integration
+- **AutoCloud**: Cloud-based execution support
 
 ## Recent Updates (May–June 2026)
 

@@ -41,6 +41,11 @@ A living reference of the latest model releases across major providers. Updated 
 - **Best value:** [[deepseek\|DeepSeek-V4]], [[alibaba-qwen\|Qwen 3.5]]
 - **Best for Chinese:** [[alibaba-qwen\|Qwen 3.5]], [[zhipu-ai\|GLM-5]], [[moonshot-ai\|Kimi]]
 
+## Benchmark Notes
+
+- **MMLU-ProX**: New multilingual benchmark evaluating LLMs across 29 typologically diverse languages with challenging reasoning tasks (mmluprox.github.io)
+- MMLU is considered obsolete (memorization-based); GPQA Diamond is the preferred replacement for expert reasoning evaluation
+
 ---
 
 *Last updated: 2026-06-04*
