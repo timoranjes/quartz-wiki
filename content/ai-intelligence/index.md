@@ -61,11 +61,11 @@ Side-by-side comparison of 18 LLM providers — context windows, reasoning capab
     <span class="section-card-title">⚖️ Model Comparisons</span>
   </div>
   <div class="tag-cloud">
-    <a href="architecture-comparison">Architecture Comparison</a>
-    <a href="capabilities-comparison">Capabilities Comparison</a>
-    <a href="open-source-comparison">Open Source Comparison</a>
-    <a href="pricing-comparison">Pricing Comparison</a>
-    <a href="llm-release-tracker">Release Tracker</a>
+    <a href="comparisons/llm-providers/architecture-comparison">Architecture Comparison</a>
+    <a href="comparisons/llm-providers/capabilities-comparison">Capabilities Comparison</a>
+    <a href="comparisons/llm-providers/open-source-comparison">Open Source Comparison</a>
+    <a href="comparisons/llm-providers/pricing-comparison">Pricing Comparison</a>
+    <a href="comparisons/llm-release-tracker">Release Tracker</a>
   </div>
 </div>
 
@@ -104,13 +104,13 @@ Multi-agent orchestration platforms for building complex AI workflows.
     <span class="section-card-count">7 frameworks</span>
   </div>
   <div class="tag-cloud">
-    <a href="langchain">LangChain</a>
-    <a href="crewai">CrewAI</a>
-    <a href="autogen">AutoGen</a>
-    <a href="llamaindex">LlamaIndex</a>
-    <a href="smolagents">SmolAgents</a>
-    <a href="openai-agents-sdk">OpenAI Agents SDK</a>
-    <a href="semantic-kernel">Semantic Kernel</a>
+    <a href="entities/agent-frameworks/langchain">LangChain</a>
+    <a href="entities/agent-frameworks/crewai">CrewAI</a>
+    <a href="entities/agent-frameworks/autogen">AutoGen</a>
+    <a href="entities/agent-frameworks/llamaindex">LlamaIndex</a>
+    <a href="entities/agent-frameworks/smolagents">SmolAgents</a>
+    <a href="entities/agent-frameworks/openai-agents-sdk">OpenAI Agents SDK</a>
+    <a href="entities/agent-frameworks/semantic-kernel">Semantic Kernel</a>
   </div>
 </div>
 
@@ -124,17 +124,17 @@ Multi-agent orchestration platforms for building complex AI workflows.
     <span class="section-card-count">11 concepts</span>
   </div>
   <div class="tag-cloud">
-    <a href="context-windows">Context Windows</a>
-    <a href="distillation">Distillation</a>
-    <a href="extended-thinking">Extended Thinking</a>
-    <a href="kv-cache-optimization">KV Cache</a>
-    <a href="mcp-protocol">MCP Protocol</a>
-    <a href="moe-architecture">MoE Architecture</a>
-    <a href="open-weight-licensing">Open Weight</a>
-    <a href="prompt-caching">Prompt Caching</a>
-    <a href="quantization">Quantization</a>
-    <a href="rlhf-training">RLHF</a>
-    <a href="speculative-decoding">Speculative Decoding</a>
+    <a href="concepts/llm-architecture/context-windows">Context Windows</a>
+    <a href="concepts/llm-architecture/distillation">Distillation</a>
+    <a href="concepts/llm-architecture/extended-thinking">Extended Thinking</a>
+    <a href="concepts/llm-architecture/kv-cache-optimization">KV Cache</a>
+    <a href="concepts/llm-architecture/mcp-protocol">MCP Protocol</a>
+    <a href="concepts/llm-architecture/moe-architecture">MoE Architecture</a>
+    <a href="concepts/llm-architecture/open-weight-licensing">Open Weight</a>
+    <a href="concepts/llm-architecture/prompt-caching">Prompt Caching</a>
+    <a href="concepts/llm-architecture/quantization">Quantization</a>
+    <a href="concepts/llm-architecture/rlhf-training">RLHF</a>
+    <a href="concepts/llm-architecture/speculative-decoding">Speculative Decoding</a>
   </div>
 </div>
 
@@ -144,14 +144,14 @@ Multi-agent orchestration platforms for building complex AI workflows.
     <span class="section-card-count">8 patterns</span>
   </div>
   <div class="tag-cloud">
-    <a href="agent-safety">Agent Safety</a>
-    <a href="architectures">Architectures</a>
-    <a href="enterprise-ai-costs">Enterprise Costs</a>
-    <a href="evaluation-benchmarks">Evaluation</a>
-    <a href="model-selection-for-agents">Model Selection</a>
-    <a href="multi-agent-orchestration">Multi-Agent</a>
-    <a href="single-vs-multi-agent">Single vs Multi</a>
-    <a href="tool-use-pattern">Tool Use</a>
+    <a href="concepts/agent-patterns/agent-safety">Agent Safety</a>
+    <a href="concepts/agent-patterns/architectures">Architectures</a>
+    <a href="concepts/agent-patterns/enterprise-ai-costs">Enterprise Costs</a>
+    <a href="concepts/agent-patterns/evaluation-benchmarks">Evaluation</a>
+    <a href="concepts/agent-patterns/model-selection-for-agents">Model Selection</a>
+    <a href="concepts/agent-patterns/multi-agent-orchestration">Multi-Agent</a>
+    <a href="concepts/agent-patterns/single-vs-multi-agent">Single vs Multi</a>
+    <a href="concepts/agent-patterns/tool-use-pattern">Tool Use</a>
   </div>
 </div>
 
@@ -161,10 +161,10 @@ Multi-agent orchestration platforms for building complex AI workflows.
 
 <div class="section-card">
   <div class="tag-cloud">
-    <a href="ai-alpha-generation">Alpha Generation</a>
-    <a href="bloomberg-gpt">Bloomberg GPT</a>
-    <a href="financial-reasoning-benchmarks">Financial Reasoning</a>
-    <a href="sentiment-analysis-finance">Sentiment Analysis</a>
+    <a href="entities/ai-finance/ai-alpha-generation">Alpha Generation</a>
+    <a href="entities/ai-finance/bloomberg-gpt">Bloomberg GPT</a>
+    <a href="entities/ai-finance/financial-reasoning-benchmarks">Financial Reasoning</a>
+    <a href="entities/ai-finance/sentiment-analysis-finance">Sentiment Analysis</a>
   </div>
 </div>
 
@@ -172,9 +172,9 @@ Multi-agent orchestration platforms for building complex AI workflows.
 
 <div class="section-card">
   <div class="tag-cloud">
-    <a href="hugging-face">Hugging Face</a>
-    <a href="ollama">Ollama</a>
-    <a href="model-commoditization">Model Commoditization</a>
+    <a href="entities/open-source-ecosystem/hugging-face">Hugging Face</a>
+    <a href="entities/open-source-ecosystem/ollama">Ollama</a>
+    <a href="entities/open-source-ecosystem/model-commoditization">Model Commoditization</a>
   </div>
 </div>
 
