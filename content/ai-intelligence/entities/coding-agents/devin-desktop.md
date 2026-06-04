@@ -1,4 +1,17 @@
 ---
+
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="pricing-badge premium">Premium</span>
+    <span class="provider-badge us">🇺🇸 Cognition</span>
+  </div>
+  <div class="capability-badges">
+    <span class="capability-badge autonomous"><span class="cap-icon">🤖</span> Autonomous</span>
+    <span class="capability-badge multi-file"><span class="cap-icon">📁</span> Multi-File</span>
+    <span class="capability-badge code-review"><span class="cap-icon">🔍</span> Code Review</span>
+  </div>
+</div>
+
 title: "Devin Desktop"
 type: entity
 tags: [coding-agent, ide, acp, multi-agent]

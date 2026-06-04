@@ -1,4 +1,17 @@
 ---
+
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="pricing-badge competitive">$19/mo</span>
+    <span class="provider-badge us">🇺🇸 GitHub</span>
+  </div>
+  <div class="capability-badges">
+    <span class="capability-badge ide"><span class="cap-icon">🖥️</span> IDE</span>
+    <span class="capability-badge multi-file"><span class="cap-icon">📁</span> Multi-File</span>
+    <span class="capability-badge code-review"><span class="cap-icon">🔍</span> Code Review</span>
+  </div>
+</div>
+
 title: "GitHub Copilot"
 type: entity
 tags: [coding-agent, github, openai, llm-provider]
