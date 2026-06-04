@@ -28,8 +28,8 @@
 
   /* Text */
   --color-text-primary: #F1F5F9;
-  --color-text-secondary: #94A3B8;
-  --color-text-muted: #64748B;
+  --color-text-secondary: #B0BEC5;
+  --color-text-muted: #8899B4;
   --color-text-link: #38BDF8;
   --color-text-link-hover: #7DD3FC;
 
@@ -778,7 +778,7 @@ article {
 }
 
 article p {
-  color: var(--color-text-secondary);
+  color: var(--color-text-primary);
   line-height: 1.7;
   margin-bottom: 1.25em;
 }
@@ -1183,175 +1183,6 @@ blockquote {
 }
 
 /* ==========================================================================
-   LIGHT MODE OVERRIDES
-   ========================================================================== */
-html[data-theme="light"] {
-  --color-bg-deep: #F8FAFC;
-  --color-bg-primary: #FFFFFF;
-  --color-bg-surface: #F1F5F9;
-  --color-bg-surface-hover: #E2E8F0;
-  --color-bg-elevated: #FFFFFF;
-  --color-text-primary: #0F172A;
-  --color-text-secondary: #475569;
-  --color-text-muted: #94A3B8;
-  --color-text-link: #0284C7;
-  --color-text-link-hover: #0369A1;
-  --color-border: rgba(0, 0, 0, 0.08);
-  --color-border-subtle: rgba(0, 0, 0, 0.04);
-  --color-primary-soft: rgba(6, 182, 212, 0.08);
-  --color-primary-glow: rgba(6, 182, 212, 0.15);
-
-  body {
-    background-color: var(--color-bg-deep);
-  }
-
-  .left-sidebar {
-    background: var(--color-bg-primary);
-    border-right-color: var(--color-border);
-  }
-
-  .siteTitle {
-    background: linear-gradient(135deg, #0891B2 0%, #059669 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-  }
-
-  .explorer .folder-title:hover {
-    background: rgba(0, 0, 0, 0.03);
-  }
-
-  .search input {
-    background: var(--color-bg-surface);
-    border-color: var(--color-border);
-    color: var(--color-text-primary);
-  }
-
-  .search input:focus {
-    background: var(--color-bg-primary);
-  }
-
-  .search input::placeholder {
-    color: var(--color-text-muted);
-  }
-
-  .search-results {
-    background: var(--color-bg-elevated);
-    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
-  }
-
-  .properties {
-    background: var(--color-bg-surface);
-    border-color: var(--color-border);
-  }
-
-  .properties::before {
-    background: linear-gradient(90deg, #0891B2, #059669, transparent);
-  }
-
-  .properties .property-key {
-    color: var(--color-text-muted);
-  }
-
-  .properties .property-value {
-    color: var(--color-text-secondary);
-  }
-
-  .tags a, .properties .tag {
-    background: rgba(6, 182, 212, 0.08);
-    color: #0891B2;
-    border-color: rgba(6, 182, 212, 0.15);
-  }
-
-  .tags a:hover {
-    background: rgba(6, 182, 212, 0.15);
-    border-color: #0891B2;
-  }
-
-  article p {
-    color: var(--color-text-secondary);
-  }
-
-  code {
-    background: var(--color-bg-surface);
-    border-color: var(--color-border-subtle);
-    color: #059669;
-  }
-
-  pre {
-    background: var(--color-bg-surface);
-    border-color: var(--color-border);
-  }
-
-  pre code {
-    color: var(--color-text-secondary);
-  }
-
-  pre[data-language]::before {
-    background: var(--color-bg-elevated);
-    color: var(--color-text-muted);
-  }
-
-  table {
-    background: var(--color-bg-surface);
-    border-color: var(--color-border);
-  }
-
-  thead {
-    background: linear-gradient(180deg, var(--color-bg-elevated) 0%, var(--color-bg-surface) 100%);
-  }
-
-  thead th {
-    color: var(--color-text-muted);
-    border-bottom-color: var(--color-border);
-  }
-
-  tbody td {
-    color: var(--color-text-secondary);
-    border-top-color: var(--color-border-subtle);
-  }
-
-  tbody tr:nth-child(even) {
-    background: rgba(0, 0, 0, 0.015);
-  }
-
-  tbody tr:hover td {
-    background: rgba(6, 182, 212, 0.06);
-  }
-
-  .callout {
-    background: var(--color-bg-surface);
-    border-color: var(--color-border);
-  }
-
-  .backlinks {
-    background: var(--color-bg-surface);
-    border-color: var(--color-border);
-  }
-
-  .backlinks h3 {
-    border-bottom-color: var(--color-border-subtle);
-  }
-
-  footer {
-    background: var(--color-bg-primary);
-    border-top-color: var(--color-border);
-  }
-
-  .graph {
-    background: var(--color-bg-surface);
-    border-color: var(--color-border);
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.12);
-  }
-
-  ::-webkit-scrollbar-thumb:hover {
-    background: rgba(0, 0, 0, 0.2);
-  }
-}
-
-/* ==========================================================================
    RESPONSIVE: TABLET (801px – 1200px)
    ========================================================================== */
 @media screen and (min-width: 801px) and (max-width: 1200px) {
@@ -1640,20 +1471,6 @@ html[data-theme="light"] {
   /* --- Section headers --- */
   article h2 {
     padding-right: 0;
-  }
-
-  /* --- Light mode mobile overrides --- */
-  html[data-theme="light"] .left-sidebar {
-    box-shadow: none;
-  }
-
-  html[data-theme="light"] .left-sidebar.open {
-    box-shadow: 8px 0 32px rgba(0, 0, 0, 0.1);
-  }
-
-  html[data-theme="light"] .explorer-toggle {
-    background: var(--color-bg-surface);
-    border-color: var(--color-border);
   }
 
   /* --- Entity header mobile --- */
