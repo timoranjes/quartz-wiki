@@ -5,7 +5,7 @@ updated: 2026-06-04
 type: entity
 status: drafted
 tags: ["finance/platform", "llm/specialized", "bloomberg"]
-sources: []
+sources: [raw/articles/ai-finance-bloomberg-gpt-2026.md]
 ---
 
 # BloombergGPT

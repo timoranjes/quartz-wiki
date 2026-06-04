@@ -5,7 +5,7 @@ updated: 2026-06-04
 type: entity
 status: drafted
 tags: ["open-source/platform", "model-hub", "community"]
-sources: []
+sources: [raw/articles/oss-huggingface-2026.md]
 ---
 
 # Hugging Face

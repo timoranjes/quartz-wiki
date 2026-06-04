@@ -2,6 +2,7 @@
 title: "LangChain / LangGraph"
 type: entity
 tags: [agent-framework, framework, orchestrator, tool-use]
+sources: [raw/articles/agent-framework-langchain-2026.md]
 created: "2026-06-04"
 updated: "2026-06-04"
 status: drafted

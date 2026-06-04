@@ -2,6 +2,7 @@
 title: "Semantic Kernel"
 type: entity
 tags: [agent-framework, framework, microsoft, enterprise, csharp, python, java]
+sources: [raw/articles/agent-framework-semantic-kernel-2026.md]
 created: "2026-06-04"
 updated: "2026-06-04"
 status: drafted

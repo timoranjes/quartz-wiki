@@ -5,7 +5,7 @@ updated: 2026-06-04
 type: entity
 status: drafted
 tags: ["open-source/tool", "local-inference", "deployment"]
-sources: []
+sources: [raw/articles/oss-ollama-2026.md]
 ---
 
 # Ollama

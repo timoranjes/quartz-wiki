@@ -5,7 +5,7 @@ updated: 2026-06-04
 type: entity
 status: drafted
 tags: ["open-source/trend", "market-analysis", "risk"]
-sources: []
+sources: [raw/articles/oss-model-commoditization-2026.md]
 ---
 
 # Model Commoditization Risk

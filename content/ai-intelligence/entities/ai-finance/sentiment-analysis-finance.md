@@ -5,7 +5,7 @@ updated: 2026-06-04
 type: entity
 status: drafted
 tags: ["finance/application", "nlp", "sentiment"]
-sources: []
+sources: [raw/articles/ai-finance-sentiment-analysis-2026.md]
 ---
 
 # Sentiment Analysis for Markets
