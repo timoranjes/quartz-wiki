@@ -2,6 +2,7 @@
 title: "LlamaIndex"
 type: entity
 tags: [agent-framework, framework, retrieval, memory]
+sources: [raw/articles/agent-framework-llamaindex-2026.md]
 created: "2026-06-04"
 updated: "2026-06-04"
 status: drafted

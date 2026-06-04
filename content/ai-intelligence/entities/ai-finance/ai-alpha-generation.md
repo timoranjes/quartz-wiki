@@ -5,7 +5,7 @@ updated: 2026-06-04
 type: entity
 status: drafted
 tags: ["finance/alpha", "ai/application", "quantitative"]
-sources: []
+sources: [raw/articles/ai-finance-ai-alpha-2026.md]
 ---
 
 # AI for Alpha Generation

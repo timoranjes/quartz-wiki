@@ -2,6 +2,7 @@
 title: "AutoGen"
 type: entity
 tags: [agent-framework, multi-agent, orchestrator, microsoft]
+sources: [raw/articles/agent-framework-autogen-2026.md]
 created: "2026-06-04"
 updated: "2026-06-04"
 status: drafted

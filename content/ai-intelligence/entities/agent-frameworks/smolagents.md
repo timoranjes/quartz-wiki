@@ -2,6 +2,7 @@
 title: "smolagents"
 type: entity
 tags: [agent-framework, framework, python, code-agent, huggingface]
+sources: [raw/articles/agent-framework-smolagents-2026.md]
 created: "2026-06-04"
 updated: "2026-06-04"
 status: drafted

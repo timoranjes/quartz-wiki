@@ -5,7 +5,7 @@ updated: 2026-06-04
 type: entity
 status: drafted
 tags: ["finance/benchmark", "evaluation", "reasoning"]
-sources: []
+sources: [raw/articles/ai-finance-financial-reasoning-2026.md]
 ---
 
 # Financial Reasoning Benchmarks
