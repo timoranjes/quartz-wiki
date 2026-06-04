@@ -7,29 +7,6 @@ updated: "2026-06-04"
 status: drafted
 ---
 
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="provider-badge us">🇺🇸 US</span>
-    <span class="pricing-badge premium">Premium ($20–$200/mo)</span>
-    <span class="provider-badge open">Multi-model</span>
-    <span class="provider-badge">💻 IDE (VS Code fork)</span>
-  </div>
-  <div class="entity-meta">
-    <span class="entity-meta-key">Type</span>
-    <span class="entity-meta-value">AI-first IDE</span>
-    <span class="entity-meta-key">Developer</span>
-    <span class="entity-meta-value">Anysphere</span>
-    <span class="entity-meta-key">HQ</span>
-    <span class="entity-meta-value">San Francisco, CA</span>
-    <span class="entity-meta-key">Backend Models</span>
-    <span class="entity-meta-value">Claude Sonnet 4.6, Claude Opus 4.8, GPT-5.4/5.5, Gemini, Composer 2</span>
-    <span class="entity-meta-key">Key Features</span>
-    <span class="entity-meta-value">Composer 2.5, Bugbot (~78% self-resolution), Build in Parallel, Durable Canvases</span>
-    <span class="entity-meta-key">Platform</span>
-    <span class="entity-meta-value">macOS, Windows, Linux (desktop IDE)</span>
-  </div>
-</div>
-
 # Cursor IDE
 
 AI-first IDE forked from VS Code, with built-in codebase-aware AI agent capabilities. By mid-2026, the largest user base among AI coding IDEs with Composer 2.5 and Bugbot.
