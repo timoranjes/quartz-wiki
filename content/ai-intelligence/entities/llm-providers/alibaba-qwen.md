@@ -7,6 +7,30 @@ tags: [provider, lab, cloud-platform, model, reasoning, coding, vision, audio, m
 sources: [raw/articles/llm-provider-alibaba-qwen-2026.md]
 confidence: 0.95
 ---
+
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="provider-badge cn">🇨🇳 CN</span>
+    <span class="pricing-badge low-cost">Low-cost</span>
+    <span class="open-weight-yes">● Open weights (Apache 2.0)</span>
+    <span class="provider-badge">🏆 China #1</span>
+  </div>
+  <div class="entity-meta">
+    <span class="entity-meta-key">Type</span>
+    <span class="entity-meta-value">AI Lab / Cloud Platform (Alibaba Tongyi Lab)</span>
+    <span class="entity-meta-key">HQ</span>
+    <span class="entity-meta-value">Hangzhou, China</span>
+    <span class="entity-meta-key">Key Models</span>
+    <span class="entity-meta-value">Qwen 3.7 Max, Qwen 3.7 Plus, Qwen 3.5 Omni Plus</span>
+    <span class="entity-meta-key">API</span>
+    <span class="entity-meta-value">Pay-as-you-go via DashScope; 50% off promo on Qwen 3.7 Max; 70M free tokens for new users</span>
+    <span class="entity-meta-key">Platform</span>
+    <span class="entity-meta-value">Model Studio (百炼) — hosts Qwen + DeepSeek, MiniMax, Kimi, GLM</span>
+    <span class="entity-meta-key">Specialized</span>
+    <span class="entity-meta-value">Wan 2.7 (image), HappyHorse 1.0 (video), CosyVoice V3.5 (TTS), Fun-Music (music)</span>
+  </div>
+</div>
+
 # Alibaba Qwen
 
 ## Overview
