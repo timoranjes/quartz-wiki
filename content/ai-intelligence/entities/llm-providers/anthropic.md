@@ -7,6 +7,16 @@ tags: [provider, lab, model, reasoning, coding, agentic, tool-use, pricing, api,
 sources: [raw/articles/llm-provider-anthropic-2026.md]
 confidence: 0.95
 ---
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="provider-badge us">🇺🇸 US</span>
+    <span class="pricing-badge premium">Premium</span>
+    <span class="open-weight-no">● Closed weights</span>
+  </div>
+  <div class="entity-meta">
+    <span class="entity-meta-key">Type</span>LLM Provider<span class="entity-meta-key">HQ</span>San Francisco, US<span class="entity-meta-key">Valuation</span>$96.5B+<span class="entity-meta-key">Key Models</span>Claude Opus 4.8, Sonnet 4.6, Haiku 4.5
+  </div>
+</div>
 # Anthropic
 
 ## Overview

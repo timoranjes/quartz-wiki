@@ -7,6 +7,16 @@ updated: "2026-06-04"
 status: drafted
 ---
 
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="provider-badge us">🇺🇸 US</span>
+    <span class="pricing-badge competitive">Competitive</span>
+    <span class="open-weight-no">● Closed weights</span>
+  </div>
+  <div class="entity-meta">
+    <span class="entity-meta-key">Type</span>Coding Agent (IDE)<span class="entity-meta-key">HQ</span>San Francisco, US<span class="entity-meta-key">Valuation</span>Anysphere<span class="entity-meta-key">Key Models</span>Claude Sonnet 4.6, GPT-5.5, Composer 2.5
+  </div>
+</div>
 # Cursor IDE
 
 AI-first IDE forked from VS Code, with built-in codebase-aware AI agent capabilities. By mid-2026, the largest user base among AI coding IDEs with Composer 2.5 and Bugbot.

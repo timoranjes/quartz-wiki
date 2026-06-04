@@ -8,6 +8,16 @@ tags: ["finance/application", "nlp", "sentiment"]
 sources: []
 ---
 
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="provider-badge global">🌐 GLOBAL</span>
+    <span class="pricing-badge enterprise">Enterprise</span>
+    <span class="open-weight-partial">● Partial weights</span>
+  </div>
+  <div class="entity-meta">
+    <span class="entity-meta-key">Type</span>AI Finance Concept<span class="entity-meta-key">Key Models</span>FinBERT, LLMs
+  </div>
+</div>
 # Sentiment Analysis for Markets
 
 ## Overview

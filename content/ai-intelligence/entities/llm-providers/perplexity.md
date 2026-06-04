@@ -12,6 +12,16 @@ aliases: Perplexity
 created: 2026-06-01
 updated: 2026-06-02
 ---
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="provider-badge us">🇺🇸 US</span>
+    <span class="pricing-badge competitive">Competitive</span>
+    <span class="open-weight-no">● Closed weights</span>
+  </div>
+  <div class="entity-meta">
+    <span class="entity-meta-key">Type</span>Search Engine<span class="entity-meta-key">HQ</span>San Francisco, US<span class="entity-meta-key">Valuation</span>$14B<span class="entity-meta-key">Key Models</span>Sonar Pro, Sonar Reasoning
+  </div>
+</div>
 # Perplexity AI (Sonar)
 
 ## Overview

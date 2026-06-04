@@ -7,6 +7,16 @@ tags: [provider, open-weight, model, architecture, multimodal, pricing, api, lic
 sources: [raw/articles/llm-provider-meta-llama-2026.md]
 confidence: high
 ---
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="provider-badge us">🇺🇸 US</span>
+    <span class="pricing-badge free">Free</span>
+    <span class="open-weight-yes">● Open weights</span>
+  </div>
+  <div class="entity-meta">
+    <span class="entity-meta-key">Type</span>LLM Provider<span class="entity-meta-key">HQ</span>Menlo Park, US<span class="entity-meta-key">Valuation</span>Meta Platforms<span class="entity-meta-key">Key Models</span>Llama 4 Scout/Maverick, Code Llama
+  </div>
+</div>
 # Meta (Llama)
 
 ## Overview

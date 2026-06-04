@@ -7,6 +7,16 @@ tags: [provider, lab, model, reasoning, coding, multimodal, agentic, tool-use, p
 sources: [raw/articles/llm-provider-xai-grok-2026.md]
 confidence: high
 ---
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="provider-badge us">🇺🇸 US</span>
+    <span class="pricing-badge competitive">Competitive</span>
+    <span class="open-weight-partial">● Partial weights</span>
+  </div>
+  <div class="entity-meta">
+    <span class="entity-meta-key">Type</span>LLM Provider<span class="entity-meta-key">HQ</span>San Francisco, US<span class="entity-meta-key">Valuation</span>$80B<span class="entity-meta-key">Key Models</span>Grok 4, Grok Code Fast 1
+  </div>
+</div>
 # xAI (Grok)
 
 ## Overview

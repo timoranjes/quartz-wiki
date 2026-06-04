@@ -8,6 +8,16 @@ tags: ["open-source/platform", "model-hub", "community"]
 sources: []
 ---
 
+<div class="entity-header">
+  <div class="entity-badges">
+    <span class="provider-badge us">🇺🇸 US</span>
+    <span class="pricing-badge free">Free</span>
+    <span class="open-weight-yes">● Open weights</span>
+  </div>
+  <div class="entity-meta">
+    <span class="entity-meta-key">Type</span>Platform<span class="entity-meta-key">HQ</span>New York, US<span class="entity-meta-key">Valuation</span>$4.5B<span class="entity-meta-key">Key Models</span>500K+ models
+  </div>
+</div>
 # Hugging Face
 
 ## Overview
