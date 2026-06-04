@@ -7,16 +7,6 @@ tags: [provider, lab, model, rag, embeddings, reranking, multilingual, tool-use,
 sources: [raw/articles/llm-provider-cohere-2026.md]
 confidence: 0.95
 ---
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="provider-badge us">🇺🇸 US</span>
-    <span class="pricing-badge enterprise">Enterprise</span>
-    <span class="open-weight-partial">● Partial weights</span>
-  </div>
-  <div class="entity-meta">
-    <span class="entity-meta-key">Type</span>LLM Provider<span class="entity-meta-key">HQ</span>Toronto, CA<span class="entity-meta-key">Valuation</span>$5.8B<span class="entity-meta-key">Key Models</span>Command A, Rerank, Embed
-  </div>
-</div>
 # Cohere
 
 ## Overview

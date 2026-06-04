@@ -7,16 +7,6 @@ tags: [provider, lab, cloud-platform, model, reasoning, coding, vision, audio, m
 sources: [raw/articles/llm-provider-google-gemini-2026.md]
 confidence: 0.95
 ---
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="provider-badge us">🇺🇸 US</span>
-    <span class="pricing-badge competitive">Competitive</span>
-    <span class="open-weight-partial">● Partial weights</span>
-  </div>
-  <div class="entity-meta">
-    <span class="entity-meta-key">Type</span>LLM Provider<span class="entity-meta-key">HQ</span>Mountain View, US<span class="entity-meta-key">Valuation</span>Alphabet<span class="entity-meta-key">Key Models</span>Gemini 2.5 Pro/Flash, Veo, Imagen
-  </div>
-</div>
 # Google Gemini
 
 ## Overview

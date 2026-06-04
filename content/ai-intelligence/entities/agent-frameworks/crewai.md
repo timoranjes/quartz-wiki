@@ -12,16 +12,6 @@ related_entities:
 used_by: []
 ---
 
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="provider-badge us">🇺🇸 US</span>
-    <span class="pricing-badge free">Free</span>
-    <span class="open-weight-yes">● Open weights</span>
-  </div>
-  <div class="entity-meta">
-    <span class="entity-meta-key">Type</span>Agent Framework<span class="entity-meta-key">HQ</span>Open Source<span class="entity-meta-key">Key Models</span>Any LLM
-  </div>
-</div>
 # CrewAI
 
 ## Overview

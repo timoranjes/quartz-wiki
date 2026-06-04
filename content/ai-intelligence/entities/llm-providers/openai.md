@@ -7,16 +7,6 @@ tags: [provider, lab, cloud-platform, model, reasoning, coding, vision, audio, m
 sources: [raw/articles/llm-provider-openai-2026.md]
 confidence: 0.95
 ---
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="provider-badge us">🇺🇸 US</span>
-    <span class="pricing-badge enterprise">Enterprise</span>
-    <span class="open-weight-no">● Closed weights</span>
-  </div>
-  <div class="entity-meta">
-    <span class="entity-meta-key">Type</span>LLM Provider<span class="entity-meta-key">HQ</span>San Francisco, US<span class="entity-meta-key">Valuation</span>$500B+<span class="entity-meta-key">Key Models</span>GPT-5.5, GPT-oss, Sora 2
-  </div>
-</div>
 # OpenAI
 
 ## Overview

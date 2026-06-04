@@ -14,16 +14,6 @@ sources:
   - 'https://codersera.com/blog/openai-may-2026-updates-roundup/amp/'
 ---
 
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="provider-badge us">🇺🇸 US</span>
-    <span class="pricing-badge competitive">Competitive</span>
-    <span class="open-weight-no">● Closed weights</span>
-  </div>
-  <div class="entity-meta">
-    <span class="entity-meta-key">Type</span>Coding Agent (CLI)<span class="entity-meta-key">HQ</span>San Francisco, US<span class="entity-meta-key">Valuation</span>OpenAI<span class="entity-meta-key">Key Models</span>GPT-5.3 Codex, o3
-  </div>
-</div>
 # OpenAI Codex
 
 OpenAI's autonomous coding agent, launched as a CLI tool. Now powered primarily by `gpt-5.5` (released April 2026), with support for multiple model tiers.

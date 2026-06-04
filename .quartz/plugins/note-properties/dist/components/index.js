@@ -109,7 +109,7 @@ function splitAnchor(link) {
 }
 function slugifyPath(s2) {
   return s2.split("/").map(
-    (segment) => segment.replace(/\s/g, "-").replace(/&/g, "-and-").replace(/%/g, "-percent").replace(/\?/g, "").replace(/#/g, "").toLowerCase()
+    (segment) => segment.replace(/\s/g, "-").replace(/&/g, "-and-").replace(/%/g, "-percent").replace(/\?/g, "").replace(/#/g, "").replace(/[<>:"|*]/g, "").toLowerCase()
   ).join("/").replace(/\/$/, "");
 }
 function _sluggify(s2) {

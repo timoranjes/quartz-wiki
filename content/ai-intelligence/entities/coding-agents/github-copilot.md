@@ -7,16 +7,6 @@ updated: "2026-06-04"
 status: drafted
 ---
 
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="provider-badge us">🇺🇸 US</span>
-    <span class="pricing-badge competitive">Competitive</span>
-    <span class="open-weight-no">● Closed weights</span>
-  </div>
-  <div class="entity-meta">
-    <span class="entity-meta-key">Type</span>Coding Agent (IDE)<span class="entity-meta-key">HQ</span>San Francisco, US<span class="entity-meta-key">Valuation</span>Microsoft<span class="entity-meta-key">Key Models</span>GPT-4o, Claude, Gemini
-  </div>
-</div>
 # GitHub Copilot
 
 GitHub's AI coding assistant, evolved from autocomplete to full agent capabilities with Copilot Workspace. Moved to usage-based billing on June 1, 2026.

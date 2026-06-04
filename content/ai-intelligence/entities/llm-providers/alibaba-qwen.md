@@ -7,16 +7,6 @@ tags: [provider, lab, cloud-platform, model, reasoning, coding, vision, audio, m
 sources: [raw/articles/llm-provider-alibaba-qwen-2026.md]
 confidence: 0.95
 ---
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="provider-badge cn">🇨🇳 CN</span>
-    <span class="pricing-badge competitive">Competitive</span>
-    <span class="open-weight-yes">● Open weights</span>
-  </div>
-  <div class="entity-meta">
-    <span class="entity-meta-key">Type</span>LLM Provider<span class="entity-meta-key">HQ</span>Hangzhou, CN<span class="entity-meta-key">Valuation</span>Alibaba Group<span class="entity-meta-key">Key Models</span>Qwen 3.7 Max/Plus, Omni, Wan 2.7
-  </div>
-</div>
 # Alibaba Qwen
 
 ## Overview

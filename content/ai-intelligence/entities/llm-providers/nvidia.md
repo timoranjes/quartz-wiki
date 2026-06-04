@@ -7,16 +7,6 @@ tags: [provider, infrastructure, model, reasoning, agentic, tool-use, open-weigh
 sources: [raw/articles/llm-provider-nvidia-2026.md]
 confidence: 0.95
 ---
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="provider-badge us">🇺🇸 US</span>
-    <span class="pricing-badge enterprise">Enterprise</span>
-    <span class="open-weight-partial">● Partial weights</span>
-  </div>
-  <div class="entity-meta">
-    <span class="entity-meta-key">Type</span>Infrastructure<span class="entity-meta-key">HQ</span>Santa Clara, US<span class="entity-meta-key">Valuation</span>NVIDIA Corp<span class="entity-meta-key">Key Models</span>Nemotron, Llama Nemotron
-  </div>
-</div>
 # NVIDIA
 
 ## Overview

@@ -7,16 +7,6 @@ tags: [provider, lab, china, model, multimodal, reasoning, coding, open-weight, 
 sources: [raw/articles/llm-provider-stepfun-2026.md]
 confidence: 0.9
 ---
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="provider-badge cn">🇨🇳 CN</span>
-    <span class="pricing-badge low-cost">Low-cost</span>
-    <span class="open-weight-partial">● Partial weights</span>
-  </div>
-  <div class="entity-meta">
-    <span class="entity-meta-key">Type</span>LLM Provider<span class="entity-meta-key">HQ</span>Beijing, CN<span class="entity-meta-key">Valuation</span>StepFun AI<span class="entity-meta-key">Key Models</span>Step 3, Step 2
-  </div>
-</div>
 # StepFun
 
 ## Overview
