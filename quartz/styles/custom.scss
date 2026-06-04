@@ -1312,7 +1312,24 @@ blockquote {
     display: none;
   }
 
+  /* --- Right sidebar: hide graph and backlinks on mobile --- */
+  .graph,
+  .backlinks,
+  .page-header + .graph-container,
+  .graph-container {
+    display: none !important;
+  }
+
   /* --- Tables: horizontal scroll + card mode --- */
+  article table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    min-width: 600px;
+    border-collapse: collapse;
+  }
+
   .table-container {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
@@ -1324,7 +1341,6 @@ blockquote {
 
   table {
     font-size: 0.75rem;
-    min-width: 600px;
   }
 
   thead th {
@@ -1747,17 +1763,22 @@ blockquote {
     border-radius: 4px;
   }
 
-  /* --- Table cards: stack rows instead of horizontal scroll --- */
+  /* --- Table cards: convert rows to stacked cards on small screens --- */
+  article table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    width: 100%;
+    min-width: 500px;
+    font-size: 0.72rem;
+  }
+
   .table-container {
     margin: 1em -2px;
     padding: 0 2px;
     border-radius: 0;
     border-left: none;
     border-right: none;
-  }
-
-  table {
-    font-size: 0.72rem;
   }
 
   /* --- Explorer toggle: smaller on small screens --- */
