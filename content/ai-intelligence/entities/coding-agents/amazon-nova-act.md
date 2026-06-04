@@ -1,4 +1,12 @@
 ---
+title: "Amazon Nova Act"
+type: entity
+tags: ["coding-agent", "cloud", "aws", "amazon", "agent-orchestration"]
+created: "2026-06-04"
+updated: "2026-06-04"
+status: drafted
+sources: [raw/articles/coding-agent-amazon-nova-act-2026.md]
+---
 
 <div class="entity-header">
   <div class="entity-badges">
@@ -11,14 +19,6 @@
   </div>
 </div>
 
-title: "Amazon Nova Act"
-type: entity
-tags: ["coding-agent", "cloud", "aws", "amazon", "agent-orchestration"]
-created: "2026-06-04"
-updated: "2026-06-04"
-status: drafted
-sources: [raw/articles/coding-agent-amazon-nova-act-2026.md]
----
 
 # Amazon Nova Act
 

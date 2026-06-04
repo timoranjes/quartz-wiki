@@ -1,4 +1,12 @@
 ---
+title: "OpenCode"
+type: entity
+tags: [coding-agent, open-source, llm-provider]
+created: "2026-06-04"
+updated: "2026-06-04"
+status: drafted
+sources: [raw/articles/coding-agent-opencode-2026.md]
+---
 
 <div class="entity-header">
   <div class="entity-badges">
@@ -12,14 +20,6 @@
   </div>
 </div>
 
-title: "OpenCode"
-type: entity
-tags: [coding-agent, open-source, llm-provider]
-created: "2026-06-04"
-updated: "2026-06-04"
-status: drafted
-sources: [raw/articles/coding-agent-opencode-2026.md]
----
 
 # OpenCode
 

@@ -1,4 +1,12 @@
 ---
+title: "Grok Build"
+type: entity
+tags: [coding-agent, xai, local-first, parallel-agents]
+created: "2026-06-04"
+updated: "2026-06-04"
+status: drafted
+sources: [raw/articles/coding-agent-grok-build-2026.md]
+---
 
 <div class="entity-header">
   <div class="entity-badges">
@@ -11,14 +19,6 @@
   </div>
 </div>
 
-title: "Grok Build"
-type: entity
-tags: [coding-agent, xai, local-first, parallel-agents]
-created: "2026-06-04"
-updated: "2026-06-04"
-status: drafted
-sources: [raw/articles/coding-agent-grok-build-2026.md]
----
 
 # Grok Build
 

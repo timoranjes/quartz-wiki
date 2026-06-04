@@ -1,4 +1,12 @@
 ---
+title: xAI (Grok)
+created: 2026-06-01
+updated: 2026-06-02
+type: provider
+tags: [provider, lab, model, reasoning, coding, multimodal, agentic, tool-use, pricing, api, closed, token-cost, timeline]
+sources: [raw/articles/llm-provider-xai-grok-2026.md]
+confidence: high
+---
 
 <div class="entity-header">
   <div class="entity-badges">
@@ -14,14 +22,6 @@
   </div>
 </div>
 
-title: xAI (Grok)
-created: 2026-06-01
-updated: 2026-06-02
-type: provider
-tags: [provider, lab, model, reasoning, coding, multimodal, agentic, tool-use, pricing, api, closed, token-cost, timeline]
-sources: [raw/articles/llm-provider-xai-grok-2026.md]
-confidence: high
----
 # xAI (Grok)
 
 ## Overview

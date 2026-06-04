@@ -1,4 +1,12 @@
 ---
+title: Cohere
+created: 2026-06-02
+updated: 2026-06-02
+type: provider
+tags: [provider, lab, model, rag, embeddings, reranking, multilingual, tool-use, pricing, api, closed, enterprise, cloud-platform]
+sources: [raw/articles/llm-provider-cohere-2026.md]
+confidence: 0.95
+---
 
 <div class="entity-header">
   <div class="entity-badges">
@@ -13,14 +21,6 @@
   </div>
 </div>
 
-title: Cohere
-created: 2026-06-02
-updated: 2026-06-02
-type: provider
-tags: [provider, lab, model, rag, embeddings, reranking, multilingual, tool-use, pricing, api, closed, enterprise, cloud-platform]
-sources: [raw/articles/llm-provider-cohere-2026.md]
-confidence: 0.95
----
 # Cohere
 
 ## Overview

@@ -1,4 +1,12 @@
 ---
+title: Meta (Llama)
+created: 2026-06-01
+updated: 2026-06-02
+type: provider
+tags: [provider, open-weight, model, architecture, multimodal, pricing, api, licensing, benchmark, controversy]
+sources: [raw/articles/llm-provider-meta-llama-2026.md]
+confidence: high
+---
 
 <div class="entity-header">
   <div class="entity-badges">
@@ -14,14 +22,6 @@
   </div>
 </div>
 
-title: Meta (Llama)
-created: 2026-06-01
-updated: 2026-06-02
-type: provider
-tags: [provider, open-weight, model, architecture, multimodal, pricing, api, licensing, benchmark, controversy]
-sources: [raw/articles/llm-provider-meta-llama-2026.md]
-confidence: high
----
 # Meta (Llama)
 
 ## Overview
