@@ -112,6 +112,7 @@ Tracking frontier and notable model launches, benchmark rankings, and capability
 | Old Metric | Status | Replacement |
 |------------|--------|-------------|
 | MMLU | **Obsolete** — memorization-based | GPQA Diamond (expert reasoning) |
+| MMLU-ProX | **Emerging** — multilingual benchmark across 29 languages | — |
 | HumanEval | **Weakened** — model contamination | LiveCodeBench (live coding challenges) |
 | Simple QA | **Irrelevant** | Humanity's Last Exam (HLE) |
 | Synthetic benchmarks | **Declining** | Terminal-Bench, SWE-Bench Pro |

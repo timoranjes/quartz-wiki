@@ -26,6 +26,7 @@ GitHub's AI coding assistant, evolved from autocomplete to full agent capabiliti
 - Copilot Workspace for task-level autonomous work
 - PR summarization and code review
 - GitHub ecosystem integration (issues, PRs, Actions)
+- **Agent Mode**: Autonomous coding assistant that automates repetitive coding tasks, resolves runtime errors autonomously, and includes self-healing capabilities. Elevates Copilot from pair programmer to autonomous coding assistant.
 
 ## Recent Updates (May–June 2026)
 
