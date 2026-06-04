@@ -9,8 +9,7 @@ created: '2026-06-04'
 updated: '2026-06-04'
 status: published
 confidence: high
-sources:
-  - 'https://developers.openai.com/codex/models'
+sources: [raw/articles/coding-agent-openai-codex-2026.md]
   - 'https://codersera.com/blog/openai-may-2026-updates-roundup/amp/'
 ---
 
