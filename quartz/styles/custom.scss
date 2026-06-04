@@ -1312,12 +1312,16 @@ blockquote {
     display: none;
   }
 
-  /* --- Right sidebar: hide graph and backlinks on mobile --- */
-  .graph,
-  .backlinks,
-  .page-header + .graph-container,
+  /* --- Graph: keep visible but compact on mobile --- */
+  .graph {
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    margin: 1.25em -4px;
+  }
+
   .graph-container {
-    display: none !important;
+    min-height: 200px;
   }
 
   /* --- Tables: horizontal scroll + card mode --- */
