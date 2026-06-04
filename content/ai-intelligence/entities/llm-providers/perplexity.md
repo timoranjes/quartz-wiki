@@ -3,7 +3,6 @@ domain: llm-providers
 type: provider
 title: Perplexity AI (Sonar)
 sources: [raw/articles/llm-provider-perplexity-2026.md]
-  - raw/articles/llm-provider-perplexity-2026.md
 tags:
   - provider/llm-lab
   - provider/us
