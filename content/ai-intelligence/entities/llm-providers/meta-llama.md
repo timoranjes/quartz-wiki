@@ -7,21 +7,6 @@ tags: [provider, open-weight, model, architecture, multimodal, pricing, api, lic
 sources: [raw/articles/llm-provider-meta-llama-2026.md]
 confidence: high
 ---
-
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="pricing-badge free">Open Weight</span>
-    <span class="provider-badge us">🇺🇸 Menlo Park</span>
-  </div>
-  <div class="capability-badges">
-    <span class="capability-badge coding"><span class="cap-icon">💻</span> Coding</span>
-    <span class="capability-badge vision"><span class="cap-icon">👁️</span> Vision</span>
-    <span class="capability-badge multimodal"><span class="cap-icon">🔀</span> Multimodal</span>
-    <span class="capability-badge agentic"><span class="cap-icon">🤖</span> Agentic</span>
-    <span class="capability-badge tool-use"><span class="cap-icon">🔧</span> Tool Use</span>
-  </div>
-</div>
-
 # Meta (Llama)
 
 ## Overview

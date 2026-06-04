@@ -8,18 +8,6 @@ status: drafted
 sources: [raw/articles/coding-agent-amazon-nova-act-2026.md]
 ---
 
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="pricing-badge competitive">AWS Pay-per-use</span>
-    <span class="provider-badge us">🇺🇸 AWS</span>
-  </div>
-  <div class="capability-badges">
-    <span class="capability-badge autonomous"><span class="cap-icon">🤖</span> Autonomous</span>
-    <span class="capability-badge multi-file"><span class="cap-icon">📁</span> Multi-File</span>
-  </div>
-</div>
-
-
 # Amazon Nova Act
 
 AWS service for building and managing fleets of AI agents to automate production UI workflows.

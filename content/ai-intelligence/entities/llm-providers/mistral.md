@@ -7,21 +7,6 @@ tags: [provider, lab, model, open-weight, reasoning, coding, multimodal, agentic
 sources: [raw/articles/llm-provider-mistral-2026.md]
 confidence: high
 ---
-
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="pricing-badge open-source">Open Source</span>
-    <span class="provider-badge eu">🇫🇷 Paris</span>
-  </div>
-  <div class="capability-badges">
-    <span class="capability-badge reasoning"><span class="cap-icon">🧠</span> Reasoning</span>
-    <span class="capability-badge coding"><span class="cap-icon">💻</span> Coding</span>
-    <span class="capability-badge vision"><span class="cap-icon">👁️</span> Vision</span>
-    <span class="capability-badge agentic"><span class="cap-icon">🤖</span> Agentic</span>
-    <span class="capability-badge tool-use"><span class="cap-icon">🔧</span> Tool Use</span>
-  </div>
-</div>
-
 # Mistral AI
 
 ## Overview

@@ -7,18 +7,6 @@ tags: [provider, lab, china, model, reasoning, coding, open-weight, long-context
 sources: [raw/articles/llm-provider-moonshot-ai-2026.md]
 confidence: 0.9
 ---
-
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="pricing-badge low-cost">Low Cost</span>
-    <span class="provider-badge cn">🇨🇳 Beijing</span>
-  </div>
-  <div class="capability-badges">
-    <span class="capability-badge reasoning"><span class="cap-icon">🧠</span> Reasoning</span>
-    <span class="capability-badge coding"><span class="cap-icon">💻</span> Coding</span>
-  </div>
-</div>
-
 # Moonshot AI
 
 ## Overview

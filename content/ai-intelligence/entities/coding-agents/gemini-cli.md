@@ -8,20 +8,6 @@ status: drafted
 sources: [raw/articles/coding-agent-gemini-cli-2026.md]
 ---
 
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="pricing-badge competitive">API Pay-per-use</span>
-    <span class="provider-badge us">🇺🇸 DeepMind</span>
-  </div>
-  <div class="capability-badges">
-    <span class="capability-badge autonomous"><span class="cap-icon">🤖</span> Autonomous</span>
-    <span class="capability-badge multi-file"><span class="cap-icon">📁</span> Multi-File</span>
-    <span class="capability-badge code-review"><span class="cap-icon">🔍</span> Code Review</span>
-    <span class="capability-badge testing"><span class="cap-icon">🧪</span> Testing</span>
-  </div>
-</div>
-
-
 # Google Antigravity
 
 Google's agentic coding platform, evolved from Gemini CLI. At Google I/O 2026 (May 19), announced as a full agent development and management platform with multi-agent orchestration, CLI, SDK, and standalone desktop app.

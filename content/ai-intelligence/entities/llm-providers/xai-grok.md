@@ -7,21 +7,6 @@ tags: [provider, lab, model, reasoning, coding, multimodal, agentic, tool-use, p
 sources: [raw/articles/llm-provider-xai-grok-2026.md]
 confidence: high
 ---
-
-<div class="entity-header">
-  <div class="entity-badges">
-    <span class="pricing-badge competitive">Competitive</span>
-    <span class="provider-badge us">🇺🇸 San Francisco</span>
-  </div>
-  <div class="capability-badges">
-    <span class="capability-badge reasoning"><span class="cap-icon">🧠</span> Reasoning</span>
-    <span class="capability-badge coding"><span class="cap-icon">💻</span> Coding</span>
-    <span class="capability-badge vision"><span class="cap-icon">👁️</span> Vision</span>
-    <span class="capability-badge agentic"><span class="cap-icon">🤖</span> Agentic</span>
-    <span class="capability-badge tool-use"><span class="cap-icon">🔧</span> Tool Use</span>
-  </div>
-</div>
-
 # xAI (Grok)
 
 ## Overview
