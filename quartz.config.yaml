@@ -17,29 +17,29 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Inter
-      body: Inter
+      header: Poppins
+      body: Open Sans
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#faf8f5"
-        lightgray: "#d4c9a8"
-        gray: "#8a7d6b"
-        darkgray: "#4a4035"
-        dark: "#1a1a2e"
-        secondary: "#1b3a5c"
-        tertiary: "#c9a84c"
-        highlight: rgba(201, 168, 76, 0.15)
-        textHighlight: "#fff23688"
+        light: "#F8FAFC"
+        lightgray: "#E2E8F0"
+        gray: "#94A3B8"
+        darkgray: "#475569"
+        dark: "#1E3A5F"
+        secondary: "#1E3A5F"
+        tertiary: "#059669"
+        highlight: rgba(5, 150, 105, 0.12)
+        textHighlight: "#b3aa0288"
       darkMode:
-        light: "#1a1a2e"
-        lightgray: "#2d2d44"
-        gray: "#6a6a8a"
-        darkgray: "#c9a84c"
-        dark: "#f5f0e8"
-        secondary: "#4a6fa5"
-        tertiary: "#c9a84c"
-        highlight: rgba(201, 168, 76, 0.15)
+        light: "#0F172A"
+        lightgray: "#192134"
+        gray: "#334155"
+        darkgray: "#94A3B8"
+        dark: "#FFFFFF"
+        secondary: "#1E3A5F"
+        tertiary: "#059669"
+        highlight: rgba(5, 150, 105, 0.15)
         textHighlight: "#b3aa0288"
 plugins:
   - source: github:quartz-community/created-modified-date
