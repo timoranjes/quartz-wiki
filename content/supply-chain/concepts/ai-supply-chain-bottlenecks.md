@@ -1,10 +1,10 @@
 ---
 title: AI Supply Chain Bottlenecks
 created: 2026-05-29
-updated: 2026-06-02
+updated: 2026-06-04
 type: concept
 tags: [bottleneck, overview, supply-demand]
-sources: [raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/memory-chip-shortage-makes-bare-metal-cloud-cheaper-than-on--edfcd0c4ac8be553.md, raw/articles/铜价奔向105万背后-新能源吃铜铜也正在改变新能源的胃口-ed818e409ba9c630.md, raw/articles/nikon-weaponizes-lower-prices-to-break-asmls-lithography-mon-d80faf94d9d9f30e.md, raw/articles/nikon-leveraging-arf-scanner-price-to-challenge-asml-860597fb09228073.md]
+sources: [raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/memory-chip-shortage-makes-bare-metal-cloud-cheaper-than-on--edfcd0c4ac8be554.md, raw/articles/铜价奔向105万背后-新能源吃铜铜也正在改变新能源的胃口-ed818e409ba9c630.md, raw/articles/nikon-weaponizes-lower-prices-to-break-asmls-lithography-mon-d80faf94d9d9f30e.md, raw/articles/nikon-leveraging-arf-scanner-price-to-challenge-asml-860597fb09228073.md, raw/articles/32gb-of-ddr5-now-costs-375-minimum-ai-shortage-continues-to--330314b0df8fea84.md, raw/articles/counterfeit-gskill-and-v-color-ddr5-modules-hit-chinese-mark-cf70114c03127ac0.md]
 confidence: high
 ---
 
@@ -44,6 +44,12 @@ Combined capex from major players is expected to exceed $150 billion in 2026, wi
 ## Memory Shortage Impact on Infrastructure (May 2026)
 
 Nutanix CEO Rajiv Ramaswami reported that the ongoing memory chip shortage is driving more enterprises to bare metal cloud rather than on-premises deployment. This creates a secondary effect: the memory bottleneck not only constrains AI training but also reshapes the broader infrastructure market, favoring cloud providers who can aggregate and allocate scarce memory resources more efficiently.
+
+## Memory Market Spillover — DDR5 Pricing (June 2026)
+
+- **DDR5 pricing surge:** 32GB DDR5 modules now cost **$375 minimum** — no sub-$375 options available, confirming that AI-driven memory demand is spilling over from HBM into mainstream DRAM
+- **Counterfeit DDR5 modules** hitting Chinese marketplaces — G.Skill and V-Color brands being counterfeited with identical PCBs and heat spreaders, nearly impossible to spot; indicates extreme supply pressure driving buyers to gray market
+- This extends the memory bottleneck narrative beyond HBM into the broader DRAM market, with implications for PC builders, enterprise servers, and AI inference hardware
 
 ## Data Center Network Innovation
 

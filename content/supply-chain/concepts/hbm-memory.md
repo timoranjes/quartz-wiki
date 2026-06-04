@@ -1,10 +1,10 @@
 ---
 title: HBM Memory
 created: 2026-05-29
-updated: 2026-06-03
+updated: 2026-06-04
 type: concept
 tags: [hbm, memory, bottleneck, supply-demand]
-sources: [raw/articles/bytedive-hbm-market-hbm4-hbf.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/供应商变股东存储芯片三巨头联手入股anthropicai供应链的权力结构正在重组-80b0813c97de5a7c.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md]
+sources: [raw/articles/bytedive-hbm-market-hbm4-hbf.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/供应商变股东存储芯片三巨头联手入股anthropicai供应链的权力结构正在重组-80b0813c97de5a7c.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/samsung-shows-first-hbm5-mockup-with-heat-path-block-cooling-33fafbe1ddad8412.md]
 confidence: high
 ---
 
@@ -68,6 +68,12 @@ In a landmark shift in AI supply chain power dynamics, the three HBM suppliers �
 - US banned HBM exports to China in December 2024; China retaliated with gallium/germanium export bans
 - South Korea's strategic mineral reserves average just 56.8 days (Japan: up to 180 days)
 - **Capacity expansion race (June 2026):** [[sk-hynix]] announced plan to double memory wafer capacity within 5 years, signaling structural shortage expected to persist through the decade. [[samsung]] targeting 30%+ HBM share. [[micron]] expanding as alternative supplier. Combined expansion could ease bottleneck by 2028–2029 but also risks overcapacity if AI demand slows.
+
+## HBM5 — Next Generation (Computex 2026)
+
+- **[[samsung]]** displayed the first physical HBM5 mockup at Computex 2026, pairing it with a new **Heat Path Block** in-package cooling structure — thermal management becoming a differentiator as HBM density increases
+- Thermal race between [[samsung]] and [[sk-hynix]] shaping up for HBM5 era; cooling-in-package design signals that thermal constraints are now a first-order design consideration, not an afterthought
+- HBM5 expected to further increase bandwidth and capacity per stack, but heat dissipation at higher densities is a growing challenge that may favor vendors with proprietary cooling solutions
 
 ## Related
 

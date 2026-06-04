@@ -1,10 +1,10 @@
 ---
 title: Optical Transceivers
 created: 2026-05-29
-updated: 2026-06-03
+updated: 2026-06-04
 type: concept
 tags: [optical, bottleneck, cpo, supply-demand]
-sources: [raw/articles/techtimes-optical-component-shortage-2026.md, raw/articles/华泰证券光模块功耗提升驱动液冷加速渗透-d4d1cddddd863554.md]
+sources: [raw/articles/techtimes-optical-component-shortage-2026.md, raw/articles/华泰证券光模块功耗提升驱动液冷加速渗透-d4d1cddddd863554.md, raw/articles/lambda-offers-glimpse-into-nvidias-cpo-switch-enabling-more--af33bef83d3dc68c.md]
 confidence: high
 ---
 
@@ -59,6 +59,13 @@ At the heart of the crisis is the **electro-absorption modulated laser (EML)**:
 - Traditional cage makers are actively developing liquid-cooled variants and expanding配套 production capacity
 - Leveraging existing customer relationships to accelerate product testing and certification for liquid-cooled cages
 - This represents a new sub-segment of the optical supply chain: thermal management for optical components, parallel to the broader data center liquid cooling trend
+
+## CPO Progress — Lambda Showcases NVIDIA CPO Switch (June 2026)
+
+- **Lambda** (Microsoft-backed neocloud) showcased NVIDIA's **Quantum-X Q3450-LD** CPO (co-packaged optics) switch with liquid cooling, highlighting **substantial power savings** vs. traditional pluggable transceiver architectures
+- Key advantage: CPO switches eliminate the need for traditional transceivers entirely, reducing power consumption per port and enabling "more tokens" per watt of compute
+- Confirms CPO is moving from R&D to production deployment; neoclouds are early adopters as power constraints tighten
+- This validates the [[optical-transceivers]] bottleneck thesis: CPO is the structural solution to the EML laser/transceiver shortage, but adoption timeline remains uncertain
 
 ## Timeline
 
