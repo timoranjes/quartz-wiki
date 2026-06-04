@@ -2,7 +2,6 @@
 title: "CrewAI"
 type: entity
 tags: [agent-framework, multi-agent, orchestrator, role-based]
-sources: [raw/articles/agent-framework-crewai-2026.md]
 created: "2026-06-04"
 updated: "2026-06-04"
 status: drafted
