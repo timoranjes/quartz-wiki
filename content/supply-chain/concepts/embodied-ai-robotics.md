@@ -1,10 +1,10 @@
 ---
 title: Embodied AI Robotics
 created: 2026-06-04
-updated: 2026-06-04
+updated: 2026-06-05
 type: concept
 tags: [components, bottleneck]
-sources: [raw/articles/深圳具身公司星尘智能完成超10亿b轮融资估值破百亿硬氪首发-a979f6a6b5ece892.md, raw/articles/36氪首发-浙大教授团队获财通商汤投资做高危场景具身机器人大脑-7e0eba9ec8abf818.md, raw/articles/机器人先挣钱还是先追求agi具身智能路线之争摆上台面-3487bc7ead04e0c2.md]
+sources: [raw/articles/深圳具身公司星尘智能完成超10亿b轮融资估值破百亿硬氪首发-a979f6a6b5ece892.md, raw/articles/36氪首发-浙大教授团队获财通商汤投资做高危场景具身机器人大脑-7e0eba9ec8abf818.md, raw/articles/机器人先挣钱还是先追求agi具身智能路线之争摆上台面-3487bc7ead04e0c0.md, raw/articles/硬氪独家-唐文斌原力灵机并购物流机器人公司并获智谱商汤阶跃等投资-c9807cc2067fbb87.md]
 confidence: medium
 ---
 
@@ -41,6 +41,14 @@ Embodied AI — robots powered by AI models that interact with the physical worl
 - Pre-A round funded by 财通资本 and 商汤国香; founder 舒江鹏 is Zhejiang University researcher with 15+ years of industry negative-sample data accumulation
 - Product: Engineering brain "KX" + embodied intelligence full-solution suite
 - Represents the "vertical scenario first" approach vs. Astribot's general-purpose strategy
+
+### 原力灵机 (Yuanli Lingji / ForceSpirit)
+
+- **Founded March 2025** by 唐文斌 (ex-旷视/ Megavii co-founder & CTO); core team from 旷视 original roster
+- **DM0** general embodied foundation model: industry-first "three-class data fusion" combining internet semantics, autonomous driving physical rules, and robot operational data for cross-domain training. 2.4B parameter model achieves sub-millimeter precision in long-sequence continuous tasks; extends chain-of-thought reasoning to physical space. Hardware-agnostic — can migrate across different robot configurations.
+- **Merged with Atomix (原力聚合)** logistics robot company via equity acquisition — Atomix has 500+ served projects across 20+ countries, nearly ¥1B annual revenue, #2 global pallet 4-way shuttle sales. The merger creates a data flywheel: Atomix's real-world deployment data fuels 原力灵机 model training, while 原力灵机's models enable Atomix robots' intelligent upgrades.
+- **Funding:** Backed by 智谱, 阶跃星辰, 商汤科技 (first time all four major Chinese LLM companies invested in same embodied AI startup), plus 华勤, 上汽恒旭 as strategic investors
+- Signals: embodied AI industry transitioning from "data deadlock" to closed-loop data-model-scenario integration; M&A consolidation accelerating (Skild AI also acquired Zebra Robotics around same time)
 
 ## Supply Chain Implications
 
