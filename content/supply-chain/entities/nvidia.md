@@ -1,10 +1,10 @@
 ---
 title: NVIDIA
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-06-03
 type: entity
 tags: [compute, bottleneck, capex-cycle]
-sources: [raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/techtimes-optical-component-shortage-2026.md]
+sources: [raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/techtimes-optical-component-shortage-2026.md, raw/articles/nvidias-long-awaited-n1n1x-soc-specs-leak-ahead-of-computex--f031d4fe18bbb91f.md, raw/articles/watch-nvidias-computex-2026-keynote-here-jensen-huang-takes--dc4884e078c91e98.md, raw/articles/microsoft-veteran-recalls-the-last-time-nvidia-and-arm-was-t-734413c22bff300e.md, raw/articles/computex-2026-day-zero-wrap-up-nvidia-launches-rtx-spark-sup-82b25ca627331cf5.md, raw/articles/nvidias-rtx-spark-could-caplitalize-where-qualcomms-arm-base-6ad137f86ca41c6f.md, raw/articles/nvidia-says-rtx-spark-chip-will-support-all-major-anti-cheat-6da85bf15ff0fcd3.md, raw/articles/8点1氪丨腾讯股价暴涨创2021年后单日最高涨幅预计今年安排约1100亿育儿补贴英伟达与微软合作推出统一技术栈-6a23307599ec2fe8.md, raw/articles/abb-expands-partnership-with-nvidia-db6f863f5cb83c10.md]
 confidence: high
 ---
 
@@ -14,7 +14,7 @@ NVIDIA is the dominant designer of AI GPUs and the primary driver of demand acro
 
 ## Supply Chain Position
 
-- Designs GPUs manufactured primarily by [[tsmc]] on 3nm/advanced nodes
+- Designs GPUs manufactured primarily by [[tsmc]] on advanced nodes
 - Requires [[cowos-packaging]] for all AI accelerators
 - Major consumer of [[hbm-memory]] (HBM3E for current generation, HBM4 for Rubin)
 
@@ -32,6 +32,16 @@ NVIDIA has taken aggressive steps to secure supply across multiple bottlenecks:
 - **Rubin:** Next-generation platform, will use HBM4 (SK Hynix set to supply ~70% of HBM4 units)
 - **Vera CPU:** Next-generation CPU platform
 
+## N1/N1X ARM-Based SoC (Computex 2026)
+
+NVIDIA unveiled its long-awaited N1/N1X ARM-based SoC family at Computex/GTC Taipei (May 31, 2026), marking a strategic expansion into edge AI and PC markets:
+
+- **N1X:** Top-end 20 Arm CPU cores + 6,144 CUDA cores (matching desktop RTX 5070 GPU); cut-down 18-core variant with 5,120 CUDA cores
+- **N1:** 12-core CPU + 2,560 CUDA cores, or 10-core + 2,048 CUDA core configs
+- Edge AI compute capability: ~200 TOPS
+- Historical context: Microsoft veteran Steven Sinofsky noted this echoes NVIDIA's 2010 Tegra/ARM push for Windows (culminating in the Surface RT). The new attempt benefits from stronger AI demand drivers and ARM ecosystem maturity.
+- Significance: Expands NVIDIA beyond data center GPUs into on-device AI inference, potentially creating new demand for ARM ecosystem partners and edge AI workloads
+
 ## Supply Constraints Confirmed by NVIDIA
 
 - "Ongoing limitations in component supply, such as HBM memory, pose short-term challenges"
@@ -43,6 +53,29 @@ NVIDIA's supply lockup strategy has created cascading effects:
 - EML lead times stretched beyond 2027 for any buyer who is not NVIDIA
 - Forces competitors and hyperscalers to seek secondary suppliers and alternative designs
 - Demonstrates the strategic value of securing supply at bottleneck nodes
+
+## RTX Spark Superchip (Computex 2026)
+
+NVIDIA launched the RTX Spark superchip at Computex 2026, targeting Windows PC and laptop markets:
+
+- **Architecture:** Grace CPU (20 Arm cores) + Blackwell GPU on single package
+- **Target market:** Windows on Arm laptops and desktops — a strategic push to break Intel/AMD x86 dominance in PC
+- **Anti-cheat/DRM support:** Full compatibility with Fortnite, Valorant, Denuvo, and all major anti-cheat engines — addressing a critical gap that previously limited Arm-based Windows gaming
+- **Microsoft partnership:** Collaboration on anti-cheat and DRM ensures full Windows ecosystem compatibility
+- **Strategic significance:** Positions NVIDIA to capitalize where Qualcomm's Arm-based Windows chips struggled due to software/game compatibility issues
+- **Relationship to N1/N1X:** N1X targets edge AI (200 TOPS), RTX Spark targets PC/laptop compute + graphics
+
+## Emerging Competitive Threat: Meta Cloud (May 2026)
+
+Meta is positioning to compete directly with NVIDIA's cloud/AI infrastructure business ("做云的'云'"). As the largest single buyer of NVIDIA GPUs, Meta's move to build its own cloud services layer represents a potential demand-side threat — if hyperscalers shift from buying NVIDIA hardware to building competitive cloud offerings using alternative chips or in-house designs, NVIDIA's dominant position could face pressure from both its largest customers and emerging cloud competitors.
+
+## NVIDIA + Microsoft Unified Tech Stack for Agentic AI (June 2026)
+
+- At Microsoft Build 2026, NVIDIA and Microsoft announced a unified technology stack for deploying Agentic AI
+- Covers the full deployment spectrum: Windows devices (edge) → cloud → on-premise
+- Complements the RTX Spark partnership (Grace+Blackwell superchip for Windows on Arm)
+- Microsoft also launched Mai-Thinking-1, its first AI reasoning model (35B active parameters)
+- Tencent Cloud simultaneously cut DeepSeek-V4 series model pricing by up to 97.5%, signaling intense compute cost competition in Chinese AI market
 
 ## Relationships
 
@@ -58,3 +91,4 @@ NVIDIA's supply lockup strategy has created cascading effects:
 - [[cowos-packaging]]
 - [[optical-transceivers]]
 - [[lumentum]]
+- [[anthropic]]
