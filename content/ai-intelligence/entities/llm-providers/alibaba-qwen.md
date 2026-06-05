@@ -34,6 +34,7 @@ As of mid-2026, the latest generation is Qwen 3.7 (Max, Plus, Flash variants), w
 |-------|--------|---------|------|
 | **Qwen 3.7 Max** | `qwen3.7-max` | 131K tokens | Flagship text generation |
 | **Qwen 3.7 Plus** | `qwen3.7-plus` | 131K tokens | Multimodal enhanced |
+| **Qwen 3.6-Plus** | `qwen3.6-plus` | 1M tokens | MoE, 72B params (18B active), Terminal-Bench 61.6 |
 | **Qwen 3.6 Flash** | `qwen3.6-flash` | 131K tokens | Lightweight, cost-efficient |
 | **Qwen 3.5 Omni Plus** | `qwen3.5-omni-plus` | 32K tokens | Text + image + audio + video |
 | **Qwen 3.5 Omni Realtime** | `qwen3.5-omni-plus-realtime` | 32K tokens | Real-time voice dialogue |
