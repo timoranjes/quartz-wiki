@@ -1,10 +1,10 @@
 ---
 title: China Semiconductor Localization
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-06
 type: concept
 tags: [localization, export-controls, bottleneck]
-sources: [raw/articles/wikipedia-china-semiconductor-industry.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/tiktok-owner-bytedance-is-reportedly-developing-its-own-cust-13089b2d7ddab835.md, raw/articles/华为发布韬τ定律重构后摩尔时代的中国技术路径-9653afbd1253c669.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/edge-ai-daily-早报6月1日-abe98024bd263e34.md, raw/articles/us-closes-loophole-that-allowed-chinese-owned-subsidiaries-l-2baccdec109451b3.md, raw/articles/mainland-chinese-exhibitors-reportedly-locked-out-of-compute-fabcc678cf012315.md, raw/articles/36氪独家-火山引擎提升maas营收目标至全年150亿元seedance-20单月营收已超10亿元-6ecf7e73eb3e01e8.md, raw/articles/投资长鑫科技与宇树科技-险资耐心资本布棋新质生产力-babf6169ac95ef7d.md, raw/articles/36氪独家2026-年字节-ai-的四个关键命题-15b041f70c816c83.md]
+sources: [raw/articles/wikipedia-china-semiconductor-industry.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/tiktok-owner-bytedance-is-reportedly-developing-its-own-cust-13089b2d7ddab835.md, raw/articles/华为发布韬τ定律重构后摩尔时代的中国技术路径-9653afbd1253c669.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/edge-ai-daily-早报6月1日-abe98024bd263e34.md, raw/articles/us-closes-loophole-that-allowed-chinese-owned-subsidiaries-l-2baccdec109451b3.md, raw/articles/mainland-chinese-exhibitors-reportedly-locked-out-of-compute-fabcc678cf012315.md, raw/articles/36氪独家-火山引擎提升maas营收目标至全年150亿元seedance-20单月营收已超10亿元-6ecf7e73eb3e01e8.md, raw/articles/投资长鑫科技与宇树科技-险资耐心资本布棋新质生产力-babf6169ac95ef7d.md, raw/articles/36氪独家2026-年字节-ai-的四个关键命题-15b041f70c816c83.md, raw/articles/token大战中华为云选择了第三条路最前线-11bb6cc5c8b5d54c.md]
 confidence: medium
 ---
 
@@ -57,6 +57,21 @@ Beyond government-led localization, Chinese tech giants are developing custom AI
 ## Post-Moore's Law Strategy
 
 - **Huawei 韬(τ)定律 (May 2026):** Huawei announced its "Tau (τ) Law" — a time-miniaturization theory for reconstructing China's technology path in the post-Moore's era. Huawei chairman publicly thanked US export restrictions for "supercharging" China's semiconductor industry, noting the LogicFolding chip architecture was developed in direct response to the bans. **Specific target: equivalent 1.4nm process within 5 years**, combining chip architecture innovation (LogicFolding), advanced packaging, and domestic equipment to achieve performance parity with restricted nodes.
+
+## Huawei Cloud Agentic Infra (June 2026)
+
+At INSPIRE 创想者大会 (Shanghai, June 5, 2026), Huawei Cloud CEO 周跃峰 unveiled "Agentic Infra" — a domestic computing paradigm built entirely on 昇腾 hardware, deliberately avoiding the Token price war in favor of "Token health" and productivity impact:
+
+- **AICS 灵衢智算集群:** 10万卡 cluster, 200 EFLOPS, <10ms Token latency, 5M Token/sec at 1,000-card scale, 99.95% SLA
+- **CCE Volcano Next:** Training + inference co-pooling; 30%+ resource utilization improvement
+- **AMS Memory Storage:** PB-scale memory with NPU-direct hardware access
+- **ModelArts Next:** MaaS model routing with 15+ SOTA models, 95% routing accuracy, 20% cost reduction
+- **RLaaS:** Enterprise-grade reinforcement learning as a service with confidential inference
+- **CloudRobo:** Shared compute/data platform for China's 300+ embodied AI startups
+- **百模千态 Partnership:** 20+ model providers (智谱, DeepSeek, Kimi, 阶跃星辰, 百度) on 昇腾 platform
+- **昇腾 CloudMatrix 384:** DeepSeek-R1/V3 inference performance matches NVIDIA H800 (validated early 2026)
+
+Strategic significance: Huawei is building the full domestic AI stack from silicon (昇腾) to cloud platform to model ecosystem — the most comprehensive Chinese alternative to the NVIDIA + hyperscaler model.
 
 ## Compute Infrastructure: "算力高铁" (Compute High-Speed Rail)
 
