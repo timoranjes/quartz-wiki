@@ -3,7 +3,7 @@ title: "LLM Release Tracker"
 type: tracking
 tags: [llm, models, releases, benchmarks, frontier]
 created: "2026-06-04"
-updated: "2026-06-04"
+updated: "2026-06-05"
 status: drafted
 ---
 
@@ -14,7 +14,7 @@ Tracking frontier and notable model launches, benchmark rankings, and capability
 > **Data Sources**: [AI Flash Report Model Timeline](https://aiflashreport.com/model-releases.html), [AI/ML API Top Models 2026](https://aimlapi.com/blog/top-llm-models-in-2026-the-best-ai-models-for-reasoning-coding-multimodal-tasks), [Vellum LLM Leaderboard](https://www.vellum.ai/llm-leaderboard)
 >
 > **Release Cadence**: ~1 model every 3 days (59 models in last 90 days as of June 2026)
-> **Last Automated Update**: 2026-06-04 (weekly update)
+> **Last Automated Update**: 2026-06-05
 
 ## Latest Releases (Recent)
 
@@ -112,7 +112,6 @@ Tracking frontier and notable model launches, benchmark rankings, and capability
 | Old Metric | Status | Replacement |
 |------------|--------|-------------|
 | MMLU | **Obsolete** — memorization-based | GPQA Diamond (expert reasoning) |
-| MMLU-ProX | **Emerging** — multilingual benchmark across 29 languages | — |
 | HumanEval | **Weakened** — model contamination | LiveCodeBench (live coding challenges) |
 | Simple QA | **Irrelevant** | Humanity's Last Exam (HLE) |
 | Synthetic benchmarks | **Declining** | Terminal-Bench, SWE-Bench Pro |
@@ -134,44 +133,3 @@ Tracking frontier and notable model launches, benchmark rankings, and capability
 - [AI/ML API: Top LLM Models in 2026](https://aimlapi.com/blog/top-llm-models-in-2026-the-best-ai-models-for-reasoning-coding-multimodal-tasks)
 - [Vellum: LLM Leaderboard 2026](https://www.vellum.ai/llm-leaderboard)
 - [LLM Gateway: Model Timeline](https://llmgateway.io/timeline)
-
-## Industry Developments (May–June 2026)
-
-### Anthropic
-- **$65B Series H (May 28)**: Record raise at $965B post-money valuation
-- **S-1 filing (June 1)**: Confidentially submitted to SEC — IPO preparation
-- **Claude Opus 4.8 (May 28)**: Current #1 by AA Intelligence Index (61.4)
-- **Project Glasswing expanded (June 2)**: 12-partner AI security initiative
-- **Claude Partner Network (June 3)**: Services Track + Partner Hub launched
-
-### OpenAI
-- **"Intelligence at Work" event (June 2)**: Codex business showcase
-- **Codex Sites (June 2)**: Web app deployment plugin
-- **6 role-specific plugins (June 2)**: Sales, Marketing, Finance, HR, Product, Ops
-- **Amazon Bedrock integration (June 1)**: OpenAI models on AWS
-- **Codex v0.137.0 (June 4)**: Multi-Agent v2, enterprise features
-- **5M+ weekly developers** (late May)
-
-### Google
-- **Google I/O 2026 (May 19)**: "Agentic Gemini era"
-- **Gemini 3.5 Flash (May 19)**: 4× faster, <50% cost of peers, GA
-- **Gemini Omni Flash (May 19)**: "Create anything from anything"
-- **Antigravity 2.0 (May 19)**: Multi-agent desktop platform
-- **Gemini CLI → Antigravity transition**: Free tier cutoff June 18
-- **CapEx guidance**: $180B–$190B for FY2026
-- **AI Mode**: >1B monthly users
-
-### xAI
-- **Grok Build (May 2026)**: Terminal-native agent, local-first, 8× parallel subagents
-- Included in SuperGrok/X Premium Plus
-
-### Cognition
-- **Windsurf → Devin Desktop (June 2)**: Rebrand with Agent Command Center
-- **Devin Local**: Rust rewrite, 30% more token-efficient, subagent support
-- **ACP adoption**: Largest single adoption event (Codex, Claude Agent, OpenCode supported)
-- **Cascade EOL**: July 1, 2026
-
-### GitHub/Microsoft
-- **Copilot usage-based billing (June 1)**: Migrated to AI Credits — significant user concern
-- **Copilot Code Review**: Now counts against Actions minutes
-- **GPT-4.5 retirement**: June 27, 2026
