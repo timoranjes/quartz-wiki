@@ -1,10 +1,10 @@
 ---
 title: China Semiconductor Localization
 created: 2026-05-29
-updated: 2026-06-04
+updated: 2026-06-05
 type: concept
 tags: [localization, export-controls, bottleneck]
-sources: [raw/articles/wikipedia-china-semiconductor-industry.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/tiktok-owner-bytedance-is-reportedly-developing-its-own-cust-13089b2d7ddab835.md, raw/articles/华为发布韬τ定律重构后摩尔时代的中国技术路径-9653afbd1253c669.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/edge-ai-daily-早报6月1日-abe98024bd263e34.md, raw/articles/us-closes-loophole-that-allowed-chinese-owned-subsidiaries-l-2baccdec109451b3.md, raw/articles/mainland-chinese-exhibitors-reportedly-locked-out-of-compute-fabcc678cf012315.md, raw/articles/36氪独家-火山引擎提升maas营收目标至全年150亿元seedance-20单月营收已超10亿元-6ecf7e73eb3e01e8.md, raw/articles/投资长鑫科技与宇树科技-险资耐心资本布棋新质生产力-babf6169ac95ef7d.md]
+sources: [raw/articles/wikipedia-china-semiconductor-industry.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/tiktok-owner-bytedance-is-reportedly-developing-its-own-cust-13089b2d7ddab835.md, raw/articles/华为发布韬τ定律重构后摩尔时代的中国技术路径-9653afbd1253c669.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/edge-ai-daily-早报6月1日-abe98024bd263e34.md, raw/articles/us-closes-loophole-that-allowed-chinese-owned-subsidiaries-l-2baccdec109451b3.md, raw/articles/mainland-chinese-exhibitors-reportedly-locked-out-of-compute-fabcc678cf012315.md, raw/articles/36氪独家-火山引擎提升maas营收目标至全年150亿元seedance-20单月营收已超10亿元-6ecf7e73eb3e01e8.md, raw/articles/投资长鑫科技与宇树科技-险资耐心资本布棋新质生产力-babf6169ac95ef7d.md, raw/articles/36氪独家2026-年字节-ai-的四个关键命题-15b041f70c816c83.md]
 confidence: medium
 ---
 
@@ -94,6 +94,17 @@ Beyond government-led localization, Chinese tech giants are developing custom AI
 ## Geopolitical Fragmentation
 
 The industry is bifurcating into distinct ecosystems: US/Taiwan/Japan alliance controlling advanced nodes, while China builds domestic capacity for mature nodes. This adds complexity to supply chain management and creates new dynamics where government policy increasingly overrides market economics.
+
+## ByteDance AI Strategy (June 2026)
+
+ByteDance's 2026 AI roadmap encompasses four key pillars:
+
+- **World Model:** Target to reach global SOTA (Google Genie 3 level) by end of 2026. Currently ~10% behind global SOTA per internal evaluation. Two VLA (Vision-Language-Action) research tracks merged under 周畅's leadership: (a) 李航/王文千 team focused on real-world/simulation VLA for embodied AI, (b) new team led by ex-Meta FAIR Lab researcher 范浩奇 focused on 3D simulation for entertainment/gaming. World model training data budget is the highest across all modalities at ByteDance (tens of millions RMB), 3-4x what other vendors invest. AI Lab (including Robotics team) merged into Seed in April 2025 to improve model-application coordination for embodied AI. ByteDance is also actively recruiting embodied AI technical leaders, targeting heads from leading startups.
+- **Video Model:** Seedance 2.0 maintains world-leading position; exploring "dynamic generation" as next frontier.
+- **Coding:** Heavy investment in coding foundations and dogfooding (data feedback loop, evaluation, flywheel formation) to boost Agent capabilities.
+- **豆包 Commercialization:** DAU reached 200M after Spring Festival 2026; focus on "office" as key commercialization scenario.
+
+Supply chain implication: ByteDance's massive AI compute spend ($30-70B capex) combined with world model investment (data-heavy, compute-intensive) and embodied AI push signals sustained hyperscaler demand for AI accelerators. Their late entry into world models but aggressive resource allocation mirrors their successful catch-up pattern in video models.
 
 ## Related
 
