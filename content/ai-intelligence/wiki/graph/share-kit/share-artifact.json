@@ -1,0 +1,131 @@
+{
+  "generatedAt": "2026-06-06T21:08:51.053Z",
+  "vaultName": "wiki-ai-intelligence",
+  "tagline": "A local-first map of wiki-ai-intelligence: 18 sources compiled into 160 graph nodes and 169 wiki pages.",
+  "overview": {
+    "sources": 18,
+    "nodes": 160,
+    "edges": 343,
+    "pages": 169,
+    "communities": 7
+  },
+  "firstPartyOverview": {
+    "nodes": 160,
+    "edges": 343,
+    "pages": 160,
+    "communities": 7
+  },
+  "highlights": {
+    "topHubs": [
+      {
+        "nodeId": "concept:model",
+        "label": "model",
+        "degree": 134
+      },
+      {
+        "nodeId": "concept:with",
+        "label": "with",
+        "degree": 81
+      },
+      {
+        "nodeId": "concept:models",
+        "label": "models",
+        "degree": 60
+      },
+      {
+        "nodeId": "entity:provider-research-report",
+        "label": "Provider Research Report",
+        "degree": 50
+      },
+      {
+        "nodeId": "entity:comprehensive-research-report",
+        "label": "Comprehensive Research Report",
+        "degree": 45
+      }
+    ],
+    "bridgeNodes": [
+      {
+        "nodeId": "source:llm-provider-research-report-mistral-ai-b1dc6738",
+        "label": "LLM Provider Research Report: Mistral AI",
+        "bridgeScore": 6
+      },
+      {
+        "nodeId": "source:openai-llm-provider-research-report-mid-2026-8b4a47c7",
+        "label": "OpenAI — LLM Provider Research Report (Mid-2026)",
+        "bridgeScore": 6
+      },
+      {
+        "nodeId": "concept:model",
+        "label": "model",
+        "bridgeScore": 6
+      }
+    ],
+    "surprisingConnections": [
+      {
+        "sourceLabel": "Meta Llama — LLM Provider Research Report (Mid-2026)",
+        "targetLabel": "OpenAI — LLM Provider Research Report (Mid-2026)",
+        "relation": "semantically_similar_to",
+        "why": "it crosses communities community:with-4 and community:pricing-6; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, share..."
+      },
+      {
+        "sourceLabel": "Anthropic — LLM Provider Research Report (Mid-2026)",
+        "targetLabel": "OpenAI — LLM Provider Research Report (Mid-2026)",
+        "relation": "semantically_similar_to",
+        "why": "it crosses communities community:claude-3 and community:pricing-6; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, sha..."
+      },
+      {
+        "sourceLabel": "DeepSeek — LLM Provider Research Report (Mid-2026)",
+        "targetLabel": "Google Gemini — LLM Provider Research Report (Mid-2026)",
+        "relation": "semantically_similar_to",
+        "why": "it crosses communities community:claude-3 and community:model-1; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, share..."
+      }
+    ],
+    "suggestedQuestions": [
+      "Why does LLM Provider Research Report: Mistral AI connect multiple communities in the vault?",
+      "Why does OpenAI — LLM Provider Research Report (Mid-2026) connect multiple communities in the vault?",
+      "Why does model connect multiple communities in the vault?",
+      "What is the exact relationship between Alibaba Qwen — LLM Provider Research Report (Mid-2026) and Anthropic — LLM Provider Research Report (Mid-2026)?",
+      "What is the exact relationship between Alibaba Qwen — LLM Provider Research Report (Mid-2026) and Together AI: Comprehensive Research Report (2026)?"
+    ]
+  },
+  "knowledgeGaps": [],
+  "shortPost": "I scanned wiki-ai-intelligence with SwarmVault: 18 sources -> 169 wiki pages, 160 graph nodes, 343 edges.\nTop hubs: model, with, and models.\nMost surprising link: Meta Llama — LLM Provider Research Report (Mid-2026) semantically_similar_to OpenAI — LLM Provider Research Report (Mid-2026).\nEverything stays local. Try: npm install -g @swarmvaultai/cli && swarmvault scan ./your-repo",
+  "relatedNodeIds": [
+    "concept:model",
+    "concept:with",
+    "concept:models",
+    "entity:provider-research-report",
+    "entity:comprehensive-research-report",
+    "source:llm-provider-research-report-mistral-ai-b1dc6738",
+    "source:openai-llm-provider-research-report-mid-2026-8b4a47c7"
+  ],
+  "relatedPageIds": [
+    "concept:model",
+    "concept:with",
+    "concept:models",
+    "entity:provider-research-report",
+    "entity:comprehensive-research-report",
+    "source:llm-provider-research-report-mistral-ai-b1dc6738",
+    "source:openai-llm-provider-research-report-mid-2026-8b4a47c7"
+  ],
+  "relatedSourceIds": [
+    "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151",
+    "anthropic-llm-provider-research-report-mid-2026-85c1ae51",
+    "deepseek-llm-provider-research-report-mid-2026-06d7b24d",
+    "google-gemini-llm-provider-research-report-mid-2026-c1315c99",
+    "llm-provider-research-report-cohere-a2489c1d",
+    "llm-provider-research-report-mistral-ai-b1dc6738",
+    "llm-provider-research-report-moonshot-ai-821a1010",
+    "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40",
+    "llm-provider-research-report-xai-grok-27723302",
+    "meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
+    "microsoft-phi-family-comprehensive-research-report-2026-2daf1835",
+    "minimax-comprehensive-research-report-2026-db6828bc",
+    "openai-llm-provider-research-report-mid-2026-8b4a47c7",
+    "perplexity-ai-comprehensive-research-report-2026-28e3c1cb",
+    "stability-ai-comprehensive-research-report-2026-82ef3427",
+    "stepfun-comprehensive-research-report-2026-517799aa",
+    "together-ai-comprehensive-research-report-2026-b5bf5b1e",
+    "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+  ]
+}

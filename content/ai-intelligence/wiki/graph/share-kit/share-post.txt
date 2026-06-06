@@ -1,0 +1,4 @@
+I scanned wiki-ai-intelligence with SwarmVault: 18 sources -> 169 wiki pages, 160 graph nodes, 343 edges.
+Top hubs: model, with, and models.
+Most surprising link: Meta Llama — LLM Provider Research Report (Mid-2026) semantically_similar_to OpenAI — LLM Provider Research Report (Mid-2026).
+Everything stays local. Try: npm install -g @swarmvaultai/cli && swarmvault scan ./your-repo

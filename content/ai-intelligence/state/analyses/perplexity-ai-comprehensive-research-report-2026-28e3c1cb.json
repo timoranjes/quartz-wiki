@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "perplexity-ai-comprehensive-research-report-2026-28e3c1cb",
+  "sourceHash": "28e3c1cb956b30059ff9a2e35a181676e037aef2f11717039dd257a4c34a7f69",
+  "semanticHash": "f61a91a9f35a2e95aa4343357cf5d8ec90696fa206871c2cf8fd7bb95b6716b8",
+  "extractionHash": "d05f65122ba3254d247d7ba5a64034d33100928a3e77f2a681ff0291deab5fea",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Perplexity AI: Comprehensive Research Report (2026)",
+  "summary": "Perplexity AI: Comprehensive Research Report (2026) ## Executive Summary Perplexity AI is a San Francisco-based artificial intelligence company founded in August 2022 that has pioneered the retrieval-augmented generation (RAG) approach to AI-powered search and answer engines. Unlike traditional large language models that rely on parametric knowledge from training data, Perplexity's Sonar models ground their responses in real-time web search results, providing cited, up-to-date answers to user queries. As of mid-2026, Perplexity holds a valuation of approximately $21.21 billion following its Series E-6 funding round, with estimated annual recurring revenue (ARR) between $148 million and $200 million, and a target of $656 million by end of 2026.",
+  "concepts": [
+    {
+      "id": "concept:perplexity",
+      "name": "perplexity",
+      "description": "Frequently referenced concept in Perplexity AI: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "concept:search",
+      "name": "search",
+      "description": "Frequently referenced concept in Perplexity AI: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in Perplexity AI: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "concept:sonar",
+      "name": "sonar",
+      "description": "Frequently referenced concept in Perplexity AI: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "concept:research",
+      "name": "research",
+      "description": "Frequently referenced concept in Perplexity AI: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "concept:with",
+      "name": "with",
+      "description": "Frequently referenced concept in Perplexity AI: Comprehensive Research Report (2026)."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:comprehensive-research-report",
+      "name": "Comprehensive Research Report",
+      "description": "Named entity mentioned in Perplexity AI: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "entity:executive-summary-perplexity",
+      "name": "Executive Summary Perplexity",
+      "description": "Named entity mentioned in Perplexity AI: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "entity:san-francisco",
+      "name": "San Francisco-",
+      "description": "Named entity mentioned in Perplexity AI: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "entity:perplexity-s-sonar",
+      "name": "Perplexity's Sonar",
+      "description": "Named entity mentioned in Perplexity AI: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "entity:perplexity",
+      "name": "Perplexity",
+      "description": "Named entity mentioned in Perplexity AI: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "entity:series",
+      "name": "Series",
+      "description": "Named entity mentioned in Perplexity AI: Comprehensive Research Report (2026)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:perplexity-ai-comprehensive-research-report-2026-28e3c1cb:1",
+      "text": "Perplexity AI: Comprehensive Research Report (2026) ## Executive Summary Perplexity AI is a San Francisco-based artificial intelligence company founded in August 2022 that has pioneered the retrieval-augmented generation (RAG) approach to AI-powered search and answer engines.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
+    },
+    {
+      "id": "claim:perplexity-ai-comprehensive-research-report-2026-28e3c1cb:2",
+      "text": "Unlike traditional large language models that rely on parametric knowledge from training data, Perplexity's Sonar models ground their responses in real-time web search results, providing cited, up-to-date answers to user queries.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
+    },
+    {
+      "id": "claim:perplexity-ai-comprehensive-research-report-2026-28e3c1cb:3",
+      "text": "As of mid-2026, Perplexity holds a valuation of approximately $21.21 billion following its Series E-6 funding round, with estimated annual recurring revenue (ARR) between $148 million and $200 million, and a target of $656 million by end of 2026.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
+    },
+    {
+      "id": "claim:perplexity-ai-comprehensive-research-report-2026-28e3c1cb:4",
+      "text": "The company serves 45 million monthly active users, processes over 780 million queries per month (~30 million per day), and operates a dual-surface architecture serving both consumer search (perplexity.ai) and developer APIs (Sonar API, Search API, Agent API).",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
+    }
+  ],
+  "questions": [
+    "How does perplexity relate to Perplexity AI: Comprehensive Research Report (2026)?",
+    "How does search relate to Perplexity AI: Comprehensive Research Report (2026)?",
+    "How does model relate to Perplexity AI: Comprehensive Research Report (2026)?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:08:49.548Z"
+}

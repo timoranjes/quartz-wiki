@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "microsoft-phi-family-comprehensive-research-report-2026-2daf1835",
+  "sourceHash": "2daf1835307682823c892ca0a4af1409b422d38e656c5571bc8d0d1dadb66ef5",
+  "semanticHash": "cf8495570d24117e84179109f793395480e3baa573cf842bf0549a5fecee9a34",
+  "extractionHash": "c576e06a9c8c42c5eeefc0a9845b675dfee48a06fbaa35bcb4b5c32fca2b1d79",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Microsoft Phi Family: Comprehensive Research Report (2026)",
+  "summary": "Microsoft Phi Family: Comprehensive Research Report (2026) ## Executive Summary Microsoft's Phi family of small language models (SLMs) represents a paradigm shift in AI model development, demonstrating that carefully curated training data and efficient architectures can produce models that rival systems orders of magnitude larger. The Phi series, developed by Microsoft Research, has evolved from the original Phi-1 (1.3B parameters) through to Phi-4 (14B parameters), Phi-4-reasoning-vision-15B (March 2026), with multimodal and mini variants expanding the family's capabilities across text, vision, and audio domains. As of mid-2026, the Phi family includes Phi-4 (14B dense), Phi-4-mini (3.8B), Phi-4-multimodal (5.6B), Phi-4-reasoning (14B), and Phi-4-reasoning-vision-15B (15B).",
+  "concepts": [
+    {
+      "id": "concept:reasoning",
+      "name": "reasoning",
+      "description": "Frequently referenced concept in Microsoft Phi Family: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "concept:models",
+      "name": "models",
+      "description": "Frequently referenced concept in Microsoft Phi Family: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "concept:with",
+      "name": "with",
+      "description": "Frequently referenced concept in Microsoft Phi Family: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "concept:data",
+      "name": "data",
+      "description": "Frequently referenced concept in Microsoft Phi Family: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "concept:microsoft",
+      "name": "microsoft",
+      "description": "Frequently referenced concept in Microsoft Phi Family: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "concept:mini",
+      "name": "mini",
+      "description": "Frequently referenced concept in Microsoft Phi Family: Comprehensive Research Report (2026)."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:microsoft-phi-family-comprehensive-research-report",
+      "name": "Microsoft Phi Family: Comprehensive Research Report",
+      "description": "Named entity mentioned in Microsoft Phi Family: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "entity:executive-summary-microsoft-s-phi",
+      "name": "Executive Summary Microsoft's Phi",
+      "description": "Named entity mentioned in Microsoft Phi Family: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "entity:phi",
+      "name": "Phi",
+      "description": "Named entity mentioned in Microsoft Phi Family: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "entity:microsoft-research",
+      "name": "Microsoft Research,",
+      "description": "Named entity mentioned in Microsoft Phi Family: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "entity:phi",
+      "name": "Phi-",
+      "description": "Named entity mentioned in Microsoft Phi Family: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "entity:march",
+      "name": "(March",
+      "description": "Named entity mentioned in Microsoft Phi Family: Comprehensive Research Report (2026)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:microsoft-phi-family-comprehensive-research-report-2026-2daf1835:1",
+      "text": "Microsoft Phi Family: Comprehensive Research Report (2026) ## Executive Summary Microsoft's Phi family of small language models (SLMs) represents a paradigm shift in AI model development, demonstrating that carefully curated training data and efficient architectures can produce models that rival systems orders of magnitude larger.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
+    },
+    {
+      "id": "claim:microsoft-phi-family-comprehensive-research-report-2026-2daf1835:2",
+      "text": "The Phi series, developed by Microsoft Research, has evolved from the original Phi-1 (1.3B parameters) through to Phi-4 (14B parameters), Phi-4-reasoning-vision-15B (March 2026), with multimodal and mini variants expanding the family's capabilities across text, vision, and audio domains.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
+    },
+    {
+      "id": "claim:microsoft-phi-family-comprehensive-research-report-2026-2daf1835:3",
+      "text": "As of mid-2026, the Phi family includes Phi-4 (14B dense), Phi-4-mini (3.8B), Phi-4-multimodal (5.6B), Phi-4-reasoning (14B), and Phi-4-reasoning-vision-15B (15B).",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
+    },
+    {
+      "id": "claim:microsoft-phi-family-comprehensive-research-report-2026-2daf1835:4",
+      "text": "These models are available through Azure AI Foundry, Hugging Face, the NVIDIA API Catalog, Ollama, and various third-party inference providers.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
+    }
+  ],
+  "questions": [
+    "How does reasoning relate to Microsoft Phi Family: Comprehensive Research Report (2026)?",
+    "How does models relate to Microsoft Phi Family: Comprehensive Research Report (2026)?",
+    "How does with relate to Microsoft Phi Family: Comprehensive Research Report (2026)?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:08:48.607Z"
+}
