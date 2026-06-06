@@ -1,10 +1,10 @@
 ---
 title: HBM Memory
 created: 2026-05-29
-updated: 2026-06-04
+updated: 2026-06-07
 type: concept
 tags: [hbm, memory, bottleneck, supply-demand]
-sources: [raw/articles/bytedive-hbm-market-hbm4-hbf.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/供应商变股东存储芯片三巨头联手入股anthropicai供应链的权力结构正在重组-80b0813c97de5a7c.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/samsung-shows-first-hbm5-mockup-with-heat-path-block-cooling-33fafbe1ddad8412.md]
+sources: [raw/articles/bytedive-hbm-market-hbm4-hbf.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/供应商变股东存储芯片三巨头联手入股anthropicai供应链的权力结构正在重组-80b0813c97de5a7c.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/samsung-shows-first-hbm5-mockup-with-heat-path-block-cooling-33fafbe1ddad8412.md, raw/articles/9点1氪豆包推出付费后月活减少610万anthropic呼吁全球放缓ai开发警告ai自我改进风险罗永浩卸任锤子软件公司执-6957f1cc76adc611.md]
 confidence: high
 ---
 
@@ -32,6 +32,13 @@ HBM is memory that sits directly adjacent to GPUs, dramatically increasing data 
 - Base operating speed: 11.7Gbps, 46% faster than JEDEC standard of 8Gbps
 - Wafer thickness decreased to 20–30 micrometers, requiring femtosecond laser grooving technology
 - SK Hynix adopted femtosecond (one-quadrillionth of a second) laser technology for wafer thinning
+
+## HBM4 Mass Production Status (June 2026)
+
+- **All three suppliers certified:** [[nvidia]] CEO Jensen Huang confirmed at Seoul visit (Jun 2026) that [[sk-hynix]], [[samsung]], and [[micron]] have all passed certification and begun mass production of HBM4 for NVIDIA AI accelerators
+- This marks the transition from development/ramp phase to full-scale production — all three memory makers are now actively supplying HBM4
+- Huang stated: "三家供应商均已通过认证" (all three suppliers have been certified) and "三家企业都已投产，都在竞相支持Vera Rubin" (all three have started production, all competing to support Vera Rubin)
+- Vera Rubin is NVIDIA's latest AI chip platform, and HBM4 supply from all three vendors simultaneously reduces single-supplier risk for NVIDIA
 
 ## HBF — The Next Generation
 
