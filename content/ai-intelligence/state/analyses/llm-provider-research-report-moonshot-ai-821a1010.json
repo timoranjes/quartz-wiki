@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "llm-provider-research-report-moonshot-ai-821a1010",
+  "sourceHash": "821a10105c7ec4bcfa10ada5c1a892bec050ffb48da7d29aa68b2b015868ddd3",
+  "semanticHash": "8a6779edbd273293e22e130155fcc6c28910d908762577a1de22d25871c7155a",
+  "extractionHash": "b08adc8163552fa7ed626648cbad82c3dd60f59eb9ccf3a70479b775c9ffc762",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "LLM Provider Research Report: Moonshot AI (月之暗面)",
+  "summary": "LLM Provider Research Report: Moonshot AI (月之暗面) > Research Date: June 2026 > Scope: Company overview, Kimi model family, capabilities, pricing, API, benchmarks, competitive positioning, recent developments --- ## 1. Company Overview & Backing | Attribute | Detail | |-----------|--------| | Legal Name | Beijing Moonshot AI Technology Co., Ltd. (北京月之暗面科技有限公司) | | Trade Name | Moonshot AI (月之暗面 / Yuè Zhī Ànmiàn) | | Founded | March 2023 (3 years old as of 2026) | | Founders | Yang Zhilin (CEO), Zhou Xinyu, Wu Yuxin — all Tsinghua University classmates | | Headquarters | Beijing, China | | CEO | Yang Zhilin | | Employees | ~200 (2024); estimated 400–500+ (2026) | | Website | moonshot.ai | | Industry | Artificial Intelligence — large language models (LLMs), AGI research | | Status | Privately held; considered one of China's \"Six AI Tigers\" | | Key Products | Kimi chatbot, Kimi K2 series, Mooncake serving platform, Muon optimizer | Moonshot AI is one of China's fastest-growing AI startups, founded in March 2023 by Yang Zhilin, a Tsinghua University graduate with prior experience at Meta AI Research (FAIR) and Tsinghua's IIIS (Institute for Interdisciplinary Information Sciences).",
+  "concepts": [
+    {
+      "id": "concept:kimi",
+      "name": "kimi",
+      "description": "Frequently referenced concept in LLM Provider Research Report: Moonshot AI (月之暗面)."
+    },
+    {
+      "id": "concept:moonshot",
+      "name": "moonshot",
+      "description": "Frequently referenced concept in LLM Provider Research Report: Moonshot AI (月之暗面)."
+    },
+    {
+      "id": "concept:with",
+      "name": "with",
+      "description": "Frequently referenced concept in LLM Provider Research Report: Moonshot AI (月之暗面)."
+    },
+    {
+      "id": "concept:reasoning",
+      "name": "reasoning",
+      "description": "Frequently referenced concept in LLM Provider Research Report: Moonshot AI (月之暗面)."
+    },
+    {
+      "id": "concept:2025",
+      "name": "2025",
+      "description": "Frequently referenced concept in LLM Provider Research Report: Moonshot AI (月之暗面)."
+    },
+    {
+      "id": "concept:agent",
+      "name": "agent",
+      "description": "Frequently referenced concept in LLM Provider Research Report: Moonshot AI (月之暗面)."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:company",
+      "name": "Company",
+      "description": "Named entity mentioned in LLM Provider Research Report: Moonshot AI (月之暗面)."
+    },
+    {
+      "id": "entity:kimi",
+      "name": "Kimi",
+      "description": "Named entity mentioned in LLM Provider Research Report: Moonshot AI (月之暗面)."
+    },
+    {
+      "id": "entity:beijing",
+      "name": "Beijing",
+      "description": "Named entity mentioned in LLM Provider Research Report: Moonshot AI (月之暗面)."
+    },
+    {
+      "id": "entity:co-ltd",
+      "name": "Co., Ltd.",
+      "description": "Named entity mentioned in LLM Provider Research Report: Moonshot AI (月之暗面)."
+    },
+    {
+      "id": "entity:trade-name",
+      "name": "Trade Name",
+      "description": "Named entity mentioned in LLM Provider Research Report: Moonshot AI (月之暗面)."
+    },
+    {
+      "id": "entity:moonshot",
+      "name": "Moonshot",
+      "description": "Named entity mentioned in LLM Provider Research Report: Moonshot AI (月之暗面)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:llm-provider-research-report-moonshot-ai-821a1010:1",
+      "text": "LLM Provider Research Report: Moonshot AI (月之暗面) > Research Date: June 2026 > Scope: Company overview, Kimi model family, capabilities, pricing, API, benchmarks, competitive positioning, recent developments --- ## 1.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "llm-provider-research-report-moonshot-ai-821a1010"
+    },
+    {
+      "id": "claim:llm-provider-research-report-moonshot-ai-821a1010:2",
+      "text": "Company Overview & Backing | Attribute | Detail | |-----------|--------| | Legal Name | Beijing Moonshot AI Technology Co., Ltd.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "llm-provider-research-report-moonshot-ai-821a1010"
+    },
+    {
+      "id": "claim:llm-provider-research-report-moonshot-ai-821a1010:3",
+      "text": "(北京月之暗面科技有限公司) | | Trade Name | Moonshot AI (月之暗面 / Yuè Zhī Ànmiàn) | | Founded | March 2023 (3 years old as of 2026) | | Founders | Yang Zhilin (CEO), Zhou Xinyu, Wu Yuxin — all Tsinghua University classmates | | Headquarters | Beijing, China | | CEO | Yang Zhilin | | Employees | ~200 (2024); estimated 400–500+ (2026) | | Website | moonshot.ai | | Industry | Artificial Intelligence — large language models (LLMs), AGI research | | Status | Privately held; considered one of China's \"Six AI Tigers\" | | Key Products | Kimi chatbot, Kimi K2 series, Mooncake serving platform, Muon optimizer | Moonshot AI is one of China's fastest-growing AI startups, founded in March 2023 by Yang Zhilin, a Tsinghua University graduate with prior experience at Meta AI Research (FAIR) and Tsinghua's IIIS (Institute for Interdisciplinary Information Sciences).",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "llm-provider-research-report-moonshot-ai-821a1010"
+    },
+    {
+      "id": "claim:llm-provider-research-report-moonshot-ai-821a1010:4",
+      "text": "The company name is inspired by Pink Floyd's album The Dark Side of the Moon , released 50 years prior in 1973, which is Yang's favorite album.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "llm-provider-research-report-moonshot-ai-821a1010"
+    }
+  ],
+  "questions": [
+    "How does kimi relate to LLM Provider Research Report: Moonshot AI (月之暗面)?",
+    "How does moonshot relate to LLM Provider Research Report: Moonshot AI (月之暗面)?",
+    "How does with relate to LLM Provider Research Report: Moonshot AI (月之暗面)?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:08:47.659Z"
+}

@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "stepfun-comprehensive-research-report-2026-517799aa",
+  "sourceHash": "517799aaa830bdd309600bcc286215c63684de08e8f69ee84ebda0309d17b0ae",
+  "semanticHash": "517799aaa830bdd309600bcc286215c63684de08e8f69ee84ebda0309d17b0ae",
+  "extractionHash": "df9a67251313d88b867be16a52fd76d2ede6b57504e5cec006621aac4bd87b90",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "StepFun: Comprehensive Research Report (2026)",
+  "summary": "StepFun: Comprehensive Research Report (2026) ## Executive Summary StepFun (阶跃星辰) is a Shanghai-based artificial intelligence startup founded in April 2023 by Jiang Daxin , former Microsoft executive and Chief Scientist of Microsoft Software Technology Center Asia. The company specializes in multimodal AI foundation models capable of processing and generating text, audio, image, and video content, and has rapidly emerged as one of China's leading AI startups. StepFun is a member of China's prestigious \"Six AI Tigers\" (大模型六小虎) — the collective designation for the six most prominent Chinese AI startups building large language models to compete globally.",
+  "concepts": [
+    {
+      "id": "concept:stepfun",
+      "name": "stepfun",
+      "description": "Frequently referenced concept in StepFun: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "concept:step",
+      "name": "step",
+      "description": "Frequently referenced concept in StepFun: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "concept:flash",
+      "name": "flash",
+      "description": "Frequently referenced concept in StepFun: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in StepFun: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "concept:models",
+      "name": "models",
+      "description": "Frequently referenced concept in StepFun: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in StepFun: Comprehensive Research Report (2026)."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:comprehensive-research-report",
+      "name": "Comprehensive Research Report",
+      "description": "Named entity mentioned in StepFun: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "entity:executive-summary-stepfun",
+      "name": "Executive Summary StepFun",
+      "description": "Named entity mentioned in StepFun: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "entity:shanghai",
+      "name": "Shanghai-",
+      "description": "Named entity mentioned in StepFun: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "entity:jiang-daxin",
+      "name": "Jiang Daxin",
+      "description": "Named entity mentioned in StepFun: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "entity:microsoft",
+      "name": "Microsoft",
+      "description": "Named entity mentioned in StepFun: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "entity:chief-scientist",
+      "name": "Chief Scientist",
+      "description": "Named entity mentioned in StepFun: Comprehensive Research Report (2026)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:stepfun-comprehensive-research-report-2026-517799aa:1",
+      "text": "StepFun: Comprehensive Research Report (2026) ## Executive Summary StepFun (阶跃星辰) is a Shanghai-based artificial intelligence startup founded in April 2023 by Jiang Daxin , former Microsoft executive and Chief Scientist of Microsoft Software Technology Center Asia.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "stepfun-comprehensive-research-report-2026-517799aa"
+    },
+    {
+      "id": "claim:stepfun-comprehensive-research-report-2026-517799aa:2",
+      "text": "The company specializes in multimodal AI foundation models capable of processing and generating text, audio, image, and video content, and has rapidly emerged as one of China's leading AI startups.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "stepfun-comprehensive-research-report-2026-517799aa"
+    },
+    {
+      "id": "claim:stepfun-comprehensive-research-report-2026-517799aa:3",
+      "text": "StepFun is a member of China's prestigious \"Six AI Tigers\" (大模型六小虎) — the collective designation for the six most prominent Chinese AI startups building large language models to compete globally.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "stepfun-comprehensive-research-report-2026-517799aa"
+    },
+    {
+      "id": "claim:stepfun-comprehensive-research-report-2026-517799aa:4",
+      "text": "The company achieved unicorn status in December 2024 with a reported $2 billion valuation and has raised over $718 million in total funding, including significant backing from Shanghai state-owned capital.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "stepfun-comprehensive-research-report-2026-517799aa"
+    }
+  ],
+  "questions": [
+    "How does stepfun relate to StepFun: Comprehensive Research Report (2026)?",
+    "How does step relate to StepFun: Comprehensive Research Report (2026)?",
+    "How does flash relate to StepFun: Comprehensive Research Report (2026)?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:08:49.988Z"
+}

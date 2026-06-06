@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "llm-provider-research-report-mistral-ai-b1dc6738",
+  "sourceHash": "b1dc6738525aa343ba1550bcc8bdb0a559e11a02c97c9737bdbc1c8f2aa0448c",
+  "semanticHash": "20e86f9ab33774f895e9e5cd0740a10b8f0196178bf3978c6d86483bcdf7af68",
+  "extractionHash": "8bee63e089110c34f697bca890fdc36e0461cf75a088754bdc521b67ddf3669e",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "LLM Provider Research Report: Mistral AI",
+  "summary": "LLM Provider Research Report: Mistral AI > Research date: June 2026. Covers Mistral AI company overview, model lineup, API pricing, benchmarks, capabilities, competitive positioning, and recent developments. --- ## 1.",
+  "concepts": [
+    {
+      "id": "concept:pricing",
+      "name": "pricing",
+      "description": "Frequently referenced concept in LLM Provider Research Report: Mistral AI."
+    },
+    {
+      "id": "concept:mistral",
+      "name": "mistral",
+      "description": "Frequently referenced concept in LLM Provider Research Report: Mistral AI."
+    },
+    {
+      "id": "concept:models",
+      "name": "models",
+      "description": "Frequently referenced concept in LLM Provider Research Report: Mistral AI."
+    },
+    {
+      "id": "concept:open",
+      "name": "open",
+      "description": "Frequently referenced concept in LLM Provider Research Report: Mistral AI."
+    },
+    {
+      "id": "concept:tokens",
+      "name": "tokens",
+      "description": "Frequently referenced concept in LLM Provider Research Report: Mistral AI."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in LLM Provider Research Report: Mistral AI."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:mistral",
+      "name": "Mistral",
+      "description": "Named entity mentioned in LLM Provider Research Report: Mistral AI."
+    },
+    {
+      "id": "entity:research",
+      "name": "Research",
+      "description": "Named entity mentioned in LLM Provider Research Report: Mistral AI."
+    },
+    {
+      "id": "entity:mistral-ai-company",
+      "name": "Mistral AI company",
+      "description": "Named entity mentioned in LLM Provider Research Report: Mistral AI."
+    },
+    {
+      "id": "entity:mistral-ai-company-overview",
+      "name": "Mistral AI Company Overview",
+      "description": "Named entity mentioned in LLM Provider Research Report: Mistral AI."
+    },
+    {
+      "id": "entity:founding",
+      "name": "Founding",
+      "description": "Named entity mentioned in LLM Provider Research Report: Mistral AI."
+    },
+    {
+      "id": "entity:mission-mistral",
+      "name": "Mission Mistral",
+      "description": "Named entity mentioned in LLM Provider Research Report: Mistral AI."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:llm-provider-research-report-mistral-ai-b1dc6738:1",
+      "text": "LLM Provider Research Report: Mistral AI > Research date: June 2026.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "llm-provider-research-report-mistral-ai-b1dc6738"
+    },
+    {
+      "id": "claim:llm-provider-research-report-mistral-ai-b1dc6738:2",
+      "text": "Covers Mistral AI company overview, model lineup, API pricing, benchmarks, capabilities, competitive positioning, and recent developments.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "llm-provider-research-report-mistral-ai-b1dc6738"
+    },
+    {
+      "id": "claim:llm-provider-research-report-mistral-ai-b1dc6738:3",
+      "text": "--- ## 1.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "llm-provider-research-report-mistral-ai-b1dc6738"
+    },
+    {
+      "id": "claim:llm-provider-research-report-mistral-ai-b1dc6738:4",
+      "text": "Mistral AI Company Overview ### 1.1 Founding and Mission Mistral AI is a French artificial intelligence company founded in April 2023 by former Meta and DeepMind researchers: - Arthur Mensch (CEO): Formerly at DeepMind and Cerebras - Timothée Lacroix : Formerly at Meta AI Research - Guillaume Lample : Formerly at Meta AI Research and Cerebras The company emerged from the European AI research community with a clear mission: build open, sovereign AI that competes with American and Chinese giants while maintaining European values of transparency, privacy, and openness.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "llm-provider-research-report-mistral-ai-b1dc6738"
+    }
+  ],
+  "questions": [
+    "How does pricing relate to LLM Provider Research Report: Mistral AI?",
+    "How does mistral relate to LLM Provider Research Report: Mistral AI?",
+    "How does models relate to LLM Provider Research Report: Mistral AI?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:08:47.123Z"
+}

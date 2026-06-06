@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "llm-provider-research-report-xai-grok-27723302",
+  "sourceHash": "27723302080a8215e7c3d59ea2b37e7ff5f7cb8d48ec0ba306b14469927287ef",
+  "semanticHash": "f45e4164b9c595fbf6c557e85c08ceed179bbae1d499220ca4253f69321e8c9d",
+  "extractionHash": "93895a10d9b5c454c87faef7e117952360e19063f7dc104036ae8e522b04ffb2",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "LLM Provider Research Report: xAI (Grok)",
+  "summary": "LLM Provider Research Report: xAI (Grok) > Research date: June 2026. Covers xAI company overview, Grok model lineup, API pricing, benchmarks, capabilities, competitive positioning, and recent developments. --- ## 1.",
+  "concepts": [
+    {
+      "id": "concept:grok",
+      "name": "grok",
+      "description": "Frequently referenced concept in LLM Provider Research Report: xAI (Grok)."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in LLM Provider Research Report: xAI (Grok)."
+    },
+    {
+      "id": "concept:openai",
+      "name": "openai",
+      "description": "Frequently referenced concept in LLM Provider Research Report: xAI (Grok)."
+    },
+    {
+      "id": "concept:search",
+      "name": "search",
+      "description": "Frequently referenced concept in LLM Provider Research Report: xAI (Grok)."
+    },
+    {
+      "id": "concept:reasoning",
+      "name": "reasoning",
+      "description": "Frequently referenced concept in LLM Provider Research Report: xAI (Grok)."
+    },
+    {
+      "id": "concept:with",
+      "name": "with",
+      "description": "Frequently referenced concept in LLM Provider Research Report: xAI (Grok)."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:grok",
+      "name": "(Grok)",
+      "description": "Named entity mentioned in LLM Provider Research Report: xAI (Grok)."
+    },
+    {
+      "id": "entity:research",
+      "name": "Research",
+      "description": "Named entity mentioned in LLM Provider Research Report: xAI (Grok)."
+    },
+    {
+      "id": "entity:grok",
+      "name": "Grok",
+      "description": "Named entity mentioned in LLM Provider Research Report: xAI (Grok)."
+    },
+    {
+      "id": "entity:company-overview",
+      "name": "Company Overview",
+      "description": "Named entity mentioned in LLM Provider Research Report: xAI (Grok)."
+    },
+    {
+      "id": "entity:founding",
+      "name": "Founding",
+      "description": "Named entity mentioned in LLM Provider Research Report: xAI (Grok)."
+    },
+    {
+      "id": "entity:mission",
+      "name": "Mission",
+      "description": "Named entity mentioned in LLM Provider Research Report: xAI (Grok)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:llm-provider-research-report-xai-grok-27723302:1",
+      "text": "LLM Provider Research Report: xAI (Grok) > Research date: June 2026.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "llm-provider-research-report-xai-grok-27723302"
+    },
+    {
+      "id": "claim:llm-provider-research-report-xai-grok-27723302:2",
+      "text": "Covers xAI company overview, Grok model lineup, API pricing, benchmarks, capabilities, competitive positioning, and recent developments.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "llm-provider-research-report-xai-grok-27723302"
+    },
+    {
+      "id": "claim:llm-provider-research-report-xai-grok-27723302:3",
+      "text": "--- ## 1.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "llm-provider-research-report-xai-grok-27723302"
+    },
+    {
+      "id": "claim:llm-provider-research-report-xai-grok-27723302:4",
+      "text": "xAI Company Overview ### 1.1 Founding and Mission xAI is an artificial intelligence company founded by Elon Musk in March 2023.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "llm-provider-research-report-xai-grok-27723302"
+    }
+  ],
+  "questions": [
+    "How does grok relate to LLM Provider Research Report: xAI (Grok)?",
+    "How does model relate to LLM Provider Research Report: xAI (Grok)?",
+    "How does openai relate to LLM Provider Research Report: xAI (Grok)?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:08:48.153Z"
+}

@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "llm-provider-research-report-cohere-a2489c1d",
+  "sourceHash": "a2489c1d0f8e64d681d971cccd03aa70216998037e0924469534eb5fb9190e86",
+  "semanticHash": "96590418876c911ba5a7ab1826c29b9d7be27a743af205ec73375915fb3a1034",
+  "extractionHash": "f3902577abb9f638f8e91153a84eda05c653cd95a6f9c0a0252cd0f8639d8f46",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "LLM Provider Research Report: Cohere",
+  "summary": "LLM Provider Research Report: Cohere > Research date: June 2026. Covers Cohere company overview, model lineup, API pricing, benchmarks, capabilities, competitive positioning, and recent developments. --- ## 1.",
+  "concepts": [
+    {
+      "id": "concept:command",
+      "name": "command",
+      "description": "Frequently referenced concept in LLM Provider Research Report: Cohere."
+    },
+    {
+      "id": "concept:cohere",
+      "name": "cohere",
+      "description": "Frequently referenced concept in LLM Provider Research Report: Cohere."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in LLM Provider Research Report: Cohere."
+    },
+    {
+      "id": "concept:models",
+      "name": "models",
+      "description": "Frequently referenced concept in LLM Provider Research Report: Cohere."
+    },
+    {
+      "id": "concept:pricing",
+      "name": "pricing",
+      "description": "Frequently referenced concept in LLM Provider Research Report: Cohere."
+    },
+    {
+      "id": "concept:enterprise",
+      "name": "enterprise",
+      "description": "Frequently referenced concept in LLM Provider Research Report: Cohere."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:cohere",
+      "name": "Cohere",
+      "description": "Named entity mentioned in LLM Provider Research Report: Cohere."
+    },
+    {
+      "id": "entity:research",
+      "name": "Research",
+      "description": "Named entity mentioned in LLM Provider Research Report: Cohere."
+    },
+    {
+      "id": "entity:cohere-company",
+      "name": "Cohere company",
+      "description": "Named entity mentioned in LLM Provider Research Report: Cohere."
+    },
+    {
+      "id": "entity:cohere-company-overview",
+      "name": "Cohere Company Overview",
+      "description": "Named entity mentioned in LLM Provider Research Report: Cohere."
+    },
+    {
+      "id": "entity:founding",
+      "name": "Founding",
+      "description": "Named entity mentioned in LLM Provider Research Report: Cohere."
+    },
+    {
+      "id": "entity:mission-cohere",
+      "name": "Mission Cohere",
+      "description": "Named entity mentioned in LLM Provider Research Report: Cohere."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:llm-provider-research-report-cohere-a2489c1d:1",
+      "text": "LLM Provider Research Report: Cohere > Research date: June 2026.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "llm-provider-research-report-cohere-a2489c1d"
+    },
+    {
+      "id": "claim:llm-provider-research-report-cohere-a2489c1d:2",
+      "text": "Covers Cohere company overview, model lineup, API pricing, benchmarks, capabilities, competitive positioning, and recent developments.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "llm-provider-research-report-cohere-a2489c1d"
+    },
+    {
+      "id": "claim:llm-provider-research-report-cohere-a2489c1d:3",
+      "text": "--- ## 1.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "llm-provider-research-report-cohere-a2489c1d"
+    },
+    {
+      "id": "claim:llm-provider-research-report-cohere-a2489c1d:4",
+      "text": "Cohere Company Overview ### 1.1 Founding and Mission Cohere is a Canadian artificial intelligence company founded in 2019 by: - Aidan Gomez (CEO): Co-author of the original \"Attention Is All You Need\" transformer paper, former Google Brain researcher - Nick Frosst : Former Google Brain researcher - Ivan Zhang : Former Google Brain researcher The company emerged from the University of Toronto and Google Brain research ecosystem with a clear enterprise-first focus.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "llm-provider-research-report-cohere-a2489c1d"
+    }
+  ],
+  "questions": [
+    "How does command relate to LLM Provider Research Report: Cohere?",
+    "How does cohere relate to LLM Provider Research Report: Cohere?",
+    "How does model relate to LLM Provider Research Report: Cohere?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:08:49.041Z"
+}

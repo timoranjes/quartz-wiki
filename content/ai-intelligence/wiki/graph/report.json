@@ -1,0 +1,784 @@
+{
+  "generatedAt": "2026-06-06T21:08:51.052Z",
+  "graphHash": "306e193a484bf420b2f65c4a7953faf0f7d1296dc11a6d530bb724a069b3b7ad",
+  "overview": {
+    "nodes": 160,
+    "edges": 343,
+    "pages": 169,
+    "communities": 7
+  },
+  "firstPartyOverview": {
+    "nodes": 160,
+    "edges": 343,
+    "pages": 160,
+    "communities": 7
+  },
+  "sourceClassBreakdown": {
+    "first_party": {
+      "sources": 18,
+      "pages": 160,
+      "nodes": 160
+    },
+    "third_party": {
+      "sources": 0,
+      "pages": 0,
+      "nodes": 0
+    },
+    "resource": {
+      "sources": 0,
+      "pages": 0,
+      "nodes": 0
+    },
+    "generated": {
+      "sources": 0,
+      "pages": 0,
+      "nodes": 0
+    }
+  },
+  "warnings": [],
+  "benchmark": {
+    "generatedAt": "2026-06-06T21:08:50.882Z",
+    "stale": false,
+    "summary": {
+      "questionCount": 3,
+      "uniqueVisitedNodes": 33,
+      "finalContextTokens": 2852,
+      "naiveCorpusTokens": 99809,
+      "avgReduction": 0.971,
+      "reductionRatio": 0.971
+    },
+    "questionCount": 3,
+    "byClass": {
+      "first_party": {
+        "sourceCount": 18,
+        "pageCount": 160,
+        "nodeCount": 160,
+        "godNodeCount": 14,
+        "finalContextTokens": 2852,
+        "naiveCorpusTokens": 99809,
+        "reductionRatio": 0.971
+      },
+      "third_party": {
+        "sourceCount": 0,
+        "pageCount": 0,
+        "nodeCount": 0,
+        "godNodeCount": 0,
+        "finalContextTokens": 0,
+        "naiveCorpusTokens": 0,
+        "reductionRatio": 0
+      },
+      "resource": {
+        "sourceCount": 0,
+        "pageCount": 0,
+        "nodeCount": 0,
+        "godNodeCount": 0,
+        "finalContextTokens": 0,
+        "naiveCorpusTokens": 0,
+        "reductionRatio": 0
+      },
+      "generated": {
+        "sourceCount": 0,
+        "pageCount": 0,
+        "nodeCount": 0,
+        "godNodeCount": 0,
+        "finalContextTokens": 0,
+        "naiveCorpusTokens": 0,
+        "reductionRatio": 0
+      }
+    }
+  },
+  "godNodes": [
+    {
+      "nodeId": "concept:model",
+      "label": "model",
+      "pageId": "concept:model",
+      "degree": 134,
+      "bridgeScore": 6,
+      "surpriseReason": "degree 134, across 7 communities, 8.4σ above mean"
+    },
+    {
+      "nodeId": "concept:with",
+      "label": "with",
+      "pageId": "concept:with",
+      "degree": 81,
+      "bridgeScore": 6,
+      "surpriseReason": "degree 81, across 7 communities, 4.6σ above mean"
+    },
+    {
+      "nodeId": "concept:models",
+      "label": "models",
+      "pageId": "concept:models",
+      "degree": 60,
+      "bridgeScore": 6,
+      "surpriseReason": "degree 60, across 7 communities, 3.1σ above mean"
+    },
+    {
+      "nodeId": "entity:provider-research-report",
+      "label": "Provider Research Report",
+      "pageId": "entity:provider-research-report",
+      "degree": 50,
+      "bridgeScore": 6,
+      "surpriseReason": "degree 50, across 7 communities, 2.4σ above mean"
+    },
+    {
+      "nodeId": "entity:comprehensive-research-report",
+      "label": "Comprehensive Research Report",
+      "pageId": "entity:comprehensive-research-report",
+      "degree": 45,
+      "bridgeScore": 5,
+      "surpriseReason": "degree 45, across 6 communities, 2.0σ above mean"
+    },
+    {
+      "nodeId": "concept:open",
+      "label": "open",
+      "pageId": "concept:open",
+      "degree": 41,
+      "bridgeScore": 6,
+      "surpriseReason": "degree 41, across 7 communities, 1.8σ above mean"
+    },
+    {
+      "nodeId": "entity:research",
+      "label": "Research",
+      "pageId": "entity:research",
+      "degree": 39,
+      "bridgeScore": 5,
+      "surpriseReason": "degree 39, across 6 communities, 1.6σ above mean"
+    },
+    {
+      "nodeId": "concept:image",
+      "label": "image",
+      "pageId": "concept:image",
+      "degree": 34,
+      "bridgeScore": 2,
+      "surpriseReason": "degree 34, across 3 communities"
+    },
+    {
+      "nodeId": "concept:flash",
+      "label": "flash",
+      "pageId": "concept:flash",
+      "degree": 33,
+      "bridgeScore": 4,
+      "surpriseReason": "degree 33, across 5 communities"
+    },
+    {
+      "nodeId": "concept:reasoning",
+      "label": "reasoning",
+      "pageId": "concept:reasoning",
+      "degree": 32,
+      "bridgeScore": 4,
+      "surpriseReason": "degree 32, across 5 communities"
+    },
+    {
+      "nodeId": "concept:data",
+      "label": "data",
+      "pageId": "concept:data",
+      "degree": 32,
+      "bridgeScore": 6,
+      "surpriseReason": "degree 32, across 7 communities"
+    },
+    {
+      "nodeId": "concept:content",
+      "label": "content",
+      "pageId": "concept:content",
+      "degree": 31,
+      "bridgeScore": 5,
+      "surpriseReason": "degree 31, across 6 communities"
+    },
+    {
+      "nodeId": "concept:pricing",
+      "label": "pricing",
+      "pageId": "concept:pricing",
+      "degree": 31,
+      "bridgeScore": 5,
+      "surpriseReason": "degree 31, across 6 communities"
+    },
+    {
+      "nodeId": "entity:founding",
+      "label": "Founding",
+      "pageId": "entity:founding",
+      "degree": 29,
+      "bridgeScore": 5,
+      "surpriseReason": "degree 29, across 6 communities"
+    }
+  ],
+  "bridgeNodes": [
+    {
+      "nodeId": "source:llm-provider-research-report-mistral-ai-b1dc6738",
+      "label": "LLM Provider Research Report: Mistral AI",
+      "pageId": "source:llm-provider-research-report-mistral-ai-b1dc6738",
+      "degree": 27,
+      "bridgeScore": 6
+    },
+    {
+      "nodeId": "source:openai-llm-provider-research-report-mid-2026-8b4a47c7",
+      "label": "OpenAI — LLM Provider Research Report (Mid-2026)",
+      "pageId": "source:openai-llm-provider-research-report-mid-2026-8b4a47c7",
+      "degree": 28,
+      "bridgeScore": 6
+    },
+    {
+      "nodeId": "concept:model",
+      "label": "model",
+      "pageId": "concept:model",
+      "degree": 134,
+      "bridgeScore": 6
+    },
+    {
+      "nodeId": "concept:with",
+      "label": "with",
+      "pageId": "concept:with",
+      "degree": 81,
+      "bridgeScore": 6
+    },
+    {
+      "nodeId": "concept:models",
+      "label": "models",
+      "pageId": "concept:models",
+      "degree": 60,
+      "bridgeScore": 6
+    },
+    {
+      "nodeId": "concept:open",
+      "label": "open",
+      "pageId": "concept:open",
+      "degree": 41,
+      "bridgeScore": 6
+    },
+    {
+      "nodeId": "concept:data",
+      "label": "data",
+      "pageId": "concept:data",
+      "degree": 32,
+      "bridgeScore": 6
+    },
+    {
+      "nodeId": "entity:provider-research-report",
+      "label": "Provider Research Report",
+      "pageId": "entity:provider-research-report",
+      "degree": 50,
+      "bridgeScore": 6
+    }
+  ],
+  "thinCommunities": [],
+  "surprisingConnections": [
+    {
+      "id": "similar:05bbfca8704dbd17",
+      "sourceNodeId": "source:meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
+      "sourceLabel": "Meta Llama — LLM Provider Research Report (Mid-2026)",
+      "targetNodeId": "source:openai-llm-provider-research-report-mid-2026-8b4a47c7",
+      "targetLabel": "OpenAI — LLM Provider Research Report (Mid-2026)",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
+        "source:openai-llm-provider-research-report-mid-2026-8b4a47c7"
+      ],
+      "pathEdgeIds": [
+        "similar:05bbfca8704dbd17"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "Meta Llama — LLM Provider Research Report (Mid-2026) -> OpenAI — LLM Provider Research Report (Mid-2026)",
+      "why": "it crosses communities community:with-4 and community:pricing-6; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 3 group patterns",
+      "explanation": "Meta Llama — LLM Provider Research Report (Mid-2026) connects to OpenAI — LLM Provider Research Report (Mid-2026) because it crosses communities community:with-4 and community:pricing-6; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 3 group patterns."
+    },
+    {
+      "id": "similar:0b2cde27003df3a4",
+      "sourceNodeId": "source:anthropic-llm-provider-research-report-mid-2026-85c1ae51",
+      "sourceLabel": "Anthropic — LLM Provider Research Report (Mid-2026)",
+      "targetNodeId": "source:openai-llm-provider-research-report-mid-2026-8b4a47c7",
+      "targetLabel": "OpenAI — LLM Provider Research Report (Mid-2026)",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:anthropic-llm-provider-research-report-mid-2026-85c1ae51",
+        "source:openai-llm-provider-research-report-mid-2026-8b4a47c7"
+      ],
+      "pathEdgeIds": [
+        "similar:0b2cde27003df3a4"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "Anthropic — LLM Provider Research Report (Mid-2026) -> OpenAI — LLM Provider Research Report (Mid-2026)",
+      "why": "it crosses communities community:claude-3 and community:pricing-6; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 2 group patterns",
+      "explanation": "Anthropic — LLM Provider Research Report (Mid-2026) connects to OpenAI — LLM Provider Research Report (Mid-2026) because it crosses communities community:claude-3 and community:pricing-6; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 2 group patterns."
+    },
+    {
+      "id": "similar:13266d3dbe801fed",
+      "sourceNodeId": "source:deepseek-llm-provider-research-report-mid-2026-06d7b24d",
+      "sourceLabel": "DeepSeek — LLM Provider Research Report (Mid-2026)",
+      "targetNodeId": "source:google-gemini-llm-provider-research-report-mid-2026-c1315c99",
+      "targetLabel": "Google Gemini — LLM Provider Research Report (Mid-2026)",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:deepseek-llm-provider-research-report-mid-2026-06d7b24d",
+        "source:google-gemini-llm-provider-research-report-mid-2026-c1315c99"
+      ],
+      "pathEdgeIds": [
+        "similar:13266d3dbe801fed"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "DeepSeek — LLM Provider Research Report (Mid-2026) -> Google Gemini — LLM Provider Research Report (Mid-2026)",
+      "why": "it crosses communities community:claude-3 and community:model-1; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 3 group patterns",
+      "explanation": "DeepSeek — LLM Provider Research Report (Mid-2026) connects to Google Gemini — LLM Provider Research Report (Mid-2026) because it crosses communities community:claude-3 and community:model-1; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 3 group patterns."
+    },
+    {
+      "id": "similar:30b2a12789bf422c",
+      "sourceNodeId": "source:openai-llm-provider-research-report-mid-2026-8b4a47c7",
+      "sourceLabel": "OpenAI — LLM Provider Research Report (Mid-2026)",
+      "targetNodeId": "source:perplexity-ai-comprehensive-research-report-2026-28e3c1cb",
+      "targetLabel": "Perplexity AI: Comprehensive Research Report (2026)",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:openai-llm-provider-research-report-mid-2026-8b4a47c7",
+        "source:perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
+      ],
+      "pathEdgeIds": [
+        "similar:30b2a12789bf422c"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "OpenAI — LLM Provider Research Report (Mid-2026) -> Perplexity AI: Comprehensive Research Report (2026)",
+      "why": "it crosses communities community:pricing-6 and community:model-1; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 2 group patterns",
+      "explanation": "OpenAI — LLM Provider Research Report (Mid-2026) connects to Perplexity AI: Comprehensive Research Report (2026) because it crosses communities community:pricing-6 and community:model-1; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 2 group patterns."
+    },
+    {
+      "id": "similar:3fa617fa34b0f267",
+      "sourceNodeId": "source:perplexity-ai-comprehensive-research-report-2026-28e3c1cb",
+      "sourceLabel": "Perplexity AI: Comprehensive Research Report (2026)",
+      "targetNodeId": "source:stepfun-comprehensive-research-report-2026-517799aa",
+      "targetLabel": "StepFun: Comprehensive Research Report (2026)",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:perplexity-ai-comprehensive-research-report-2026-28e3c1cb",
+        "source:stepfun-comprehensive-research-report-2026-517799aa"
+      ],
+      "pathEdgeIds": [
+        "similar:3fa617fa34b0f267"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "Perplexity AI: Comprehensive Research Report (2026) -> StepFun: Comprehensive Research Report (2026)",
+      "why": "it crosses communities community:model-1 and community:pricing-6; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 2 group patterns",
+      "explanation": "Perplexity AI: Comprehensive Research Report (2026) connects to StepFun: Comprehensive Research Report (2026) because it crosses communities community:model-1 and community:pricing-6; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 2 group patterns."
+    },
+    {
+      "id": "similar:5418bce9d2f094a4",
+      "sourceNodeId": "source:llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40",
+      "sourceLabel": "LLM Provider Research Report: NVIDIA (Nemotron/NIM)",
+      "targetNodeId": "source:llm-provider-research-report-xai-grok-27723302",
+      "targetLabel": "LLM Provider Research Report: xAI (Grok)",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40",
+        "source:llm-provider-research-report-xai-grok-27723302"
+      ],
+      "pathEdgeIds": [
+        "similar:5418bce9d2f094a4"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "LLM Provider Research Report: NVIDIA (Nemotron/NIM) -> LLM Provider Research Report: xAI (Grok)",
+      "why": "it crosses communities community:command-5 and community:with-4; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 2 group patterns",
+      "explanation": "LLM Provider Research Report: NVIDIA (Nemotron/NIM) connects to LLM Provider Research Report: xAI (Grok) because it crosses communities community:command-5 and community:with-4; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 2 group patterns."
+    },
+    {
+      "id": "similar:60c160bfaa59d792",
+      "sourceNodeId": "source:google-gemini-llm-provider-research-report-mid-2026-c1315c99",
+      "sourceLabel": "Google Gemini — LLM Provider Research Report (Mid-2026)",
+      "targetNodeId": "source:openai-llm-provider-research-report-mid-2026-8b4a47c7",
+      "targetLabel": "OpenAI — LLM Provider Research Report (Mid-2026)",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:google-gemini-llm-provider-research-report-mid-2026-c1315c99",
+        "source:openai-llm-provider-research-report-mid-2026-8b4a47c7"
+      ],
+      "pathEdgeIds": [
+        "similar:60c160bfaa59d792"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "Google Gemini — LLM Provider Research Report (Mid-2026) -> OpenAI — LLM Provider Research Report (Mid-2026)",
+      "why": "it crosses communities community:model-1 and community:pricing-6; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 2 group patterns",
+      "explanation": "Google Gemini — LLM Provider Research Report (Mid-2026) connects to OpenAI — LLM Provider Research Report (Mid-2026) because it crosses communities community:model-1 and community:pricing-6; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 2 group patterns."
+    },
+    {
+      "id": "similar:671d5a66e6219d0f",
+      "sourceNodeId": "source:deepseek-llm-provider-research-report-mid-2026-06d7b24d",
+      "sourceLabel": "DeepSeek — LLM Provider Research Report (Mid-2026)",
+      "targetNodeId": "source:openai-llm-provider-research-report-mid-2026-8b4a47c7",
+      "targetLabel": "OpenAI — LLM Provider Research Report (Mid-2026)",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:deepseek-llm-provider-research-report-mid-2026-06d7b24d",
+        "source:openai-llm-provider-research-report-mid-2026-8b4a47c7"
+      ],
+      "pathEdgeIds": [
+        "similar:671d5a66e6219d0f"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "DeepSeek — LLM Provider Research Report (Mid-2026) -> OpenAI — LLM Provider Research Report (Mid-2026)",
+      "why": "it crosses communities community:claude-3 and community:pricing-6; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 4 group patterns",
+      "explanation": "DeepSeek — LLM Provider Research Report (Mid-2026) connects to OpenAI — LLM Provider Research Report (Mid-2026) because it crosses communities community:claude-3 and community:pricing-6; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 4 group patterns."
+    }
+  ],
+  "groupPatterns": [
+    {
+      "id": "hyper:da392bc155c44b05",
+      "label": "model",
+      "relation": "participate_in",
+      "nodeIds": [
+        "concept:model",
+        "source:alibaba-qwen-llm-provider-research-report-mid-2026-c954f151",
+        "source:anthropic-llm-provider-research-report-mid-2026-85c1ae51",
+        "source:deepseek-llm-provider-research-report-mid-2026-06d7b24d",
+        "source:google-gemini-llm-provider-research-report-mid-2026-c1315c99",
+        "source:llm-provider-research-report-cohere-a2489c1d",
+        "source:llm-provider-research-report-mistral-ai-b1dc6738",
+        "source:llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40",
+        "source:llm-provider-research-report-xai-grok-27723302",
+        "source:meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
+        "source:minimax-comprehensive-research-report-2026-db6828bc",
+        "source:openai-llm-provider-research-report-mid-2026-8b4a47c7",
+        "source:perplexity-ai-comprehensive-research-report-2026-28e3c1cb",
+        "source:stepfun-comprehensive-research-report-2026-517799aa",
+        "source:together-ai-comprehensive-research-report-2026-b5bf5b1e",
+        "source:zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.96,
+      "sourcePageIds": [
+        "concept:model",
+        "source:alibaba-qwen-llm-provider-research-report-mid-2026-c954f151",
+        "source:anthropic-llm-provider-research-report-mid-2026-85c1ae51",
+        "source:deepseek-llm-provider-research-report-mid-2026-06d7b24d",
+        "source:google-gemini-llm-provider-research-report-mid-2026-c1315c99",
+        "source:llm-provider-research-report-cohere-a2489c1d",
+        "source:llm-provider-research-report-mistral-ai-b1dc6738",
+        "source:llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40",
+        "source:llm-provider-research-report-xai-grok-27723302",
+        "source:meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
+        "source:minimax-comprehensive-research-report-2026-db6828bc",
+        "source:openai-llm-provider-research-report-mid-2026-8b4a47c7",
+        "source:perplexity-ai-comprehensive-research-report-2026-28e3c1cb",
+        "source:stepfun-comprehensive-research-report-2026-517799aa",
+        "source:together-ai-comprehensive-research-report-2026-b5bf5b1e",
+        "source:zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "why": "15 source nodes converge on model through extracted mention edges."
+    },
+    {
+      "id": "hyper:15bcd7e7ff91ceb2",
+      "label": "with",
+      "relation": "participate_in",
+      "nodeIds": [
+        "concept:with",
+        "source:deepseek-llm-provider-research-report-mid-2026-06d7b24d",
+        "source:llm-provider-research-report-moonshot-ai-821a1010",
+        "source:llm-provider-research-report-xai-grok-27723302",
+        "source:meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
+        "source:microsoft-phi-family-comprehensive-research-report-2026-2daf1835",
+        "source:minimax-comprehensive-research-report-2026-db6828bc",
+        "source:openai-llm-provider-research-report-mid-2026-8b4a47c7",
+        "source:perplexity-ai-comprehensive-research-report-2026-28e3c1cb",
+        "source:zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.96,
+      "sourcePageIds": [
+        "concept:with",
+        "source:deepseek-llm-provider-research-report-mid-2026-06d7b24d",
+        "source:llm-provider-research-report-moonshot-ai-821a1010",
+        "source:llm-provider-research-report-xai-grok-27723302",
+        "source:meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
+        "source:microsoft-phi-family-comprehensive-research-report-2026-2daf1835",
+        "source:minimax-comprehensive-research-report-2026-db6828bc",
+        "source:openai-llm-provider-research-report-mid-2026-8b4a47c7",
+        "source:perplexity-ai-comprehensive-research-report-2026-28e3c1cb",
+        "source:zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "why": "9 source nodes converge on with through extracted mention edges."
+    },
+    {
+      "id": "hyper:4cfa3f33cf77761b",
+      "label": "models",
+      "relation": "participate_in",
+      "nodeIds": [
+        "concept:models",
+        "source:llm-provider-research-report-cohere-a2489c1d",
+        "source:llm-provider-research-report-mistral-ai-b1dc6738",
+        "source:llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40",
+        "source:meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
+        "source:microsoft-phi-family-comprehensive-research-report-2026-2daf1835",
+        "source:stepfun-comprehensive-research-report-2026-517799aa"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.96,
+      "sourcePageIds": [
+        "concept:models",
+        "source:llm-provider-research-report-cohere-a2489c1d",
+        "source:llm-provider-research-report-mistral-ai-b1dc6738",
+        "source:llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40",
+        "source:meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
+        "source:microsoft-phi-family-comprehensive-research-report-2026-2daf1835",
+        "source:stepfun-comprehensive-research-report-2026-517799aa"
+      ],
+      "why": "6 source nodes converge on models through extracted mention edges."
+    },
+    {
+      "id": "hyper:334fd77b52e54c99",
+      "label": "Provider Research Report",
+      "relation": "participate_in",
+      "nodeIds": [
+        "entity:provider-research-report",
+        "source:anthropic-llm-provider-research-report-mid-2026-85c1ae51",
+        "source:deepseek-llm-provider-research-report-mid-2026-06d7b24d",
+        "source:google-gemini-llm-provider-research-report-mid-2026-c1315c99",
+        "source:meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
+        "source:openai-llm-provider-research-report-mid-2026-8b4a47c7"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.96,
+      "sourcePageIds": [
+        "entity:provider-research-report",
+        "source:anthropic-llm-provider-research-report-mid-2026-85c1ae51",
+        "source:deepseek-llm-provider-research-report-mid-2026-06d7b24d",
+        "source:google-gemini-llm-provider-research-report-mid-2026-c1315c99",
+        "source:meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
+        "source:openai-llm-provider-research-report-mid-2026-8b4a47c7"
+      ],
+      "why": "5 source nodes converge on Provider Research Report through extracted mention edges."
+    },
+    {
+      "id": "hyper:fd96dc3aca17d596",
+      "label": "Comprehensive Research Report",
+      "relation": "participate_in",
+      "nodeIds": [
+        "entity:comprehensive-research-report",
+        "source:perplexity-ai-comprehensive-research-report-2026-28e3c1cb",
+        "source:stability-ai-comprehensive-research-report-2026-82ef3427",
+        "source:stepfun-comprehensive-research-report-2026-517799aa",
+        "source:together-ai-comprehensive-research-report-2026-b5bf5b1e"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.96,
+      "sourcePageIds": [
+        "entity:comprehensive-research-report",
+        "source:perplexity-ai-comprehensive-research-report-2026-28e3c1cb",
+        "source:stability-ai-comprehensive-research-report-2026-82ef3427",
+        "source:stepfun-comprehensive-research-report-2026-517799aa",
+        "source:together-ai-comprehensive-research-report-2026-b5bf5b1e"
+      ],
+      "why": "4 source nodes converge on Comprehensive Research Report through extracted mention edges."
+    },
+    {
+      "id": "hyper:e5030514e34edfbe",
+      "label": "open",
+      "relation": "participate_in",
+      "nodeIds": [
+        "concept:open",
+        "source:llm-provider-research-report-mistral-ai-b1dc6738",
+        "source:meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
+        "source:together-ai-comprehensive-research-report-2026-b5bf5b1e",
+        "source:zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.96,
+      "sourcePageIds": [
+        "concept:open",
+        "source:llm-provider-research-report-mistral-ai-b1dc6738",
+        "source:meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
+        "source:together-ai-comprehensive-research-report-2026-b5bf5b1e",
+        "source:zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "why": "4 source nodes converge on open through extracted mention edges."
+    },
+    {
+      "id": "hyper:9b76209bdf706295",
+      "label": "Research",
+      "relation": "participate_in",
+      "nodeIds": [
+        "entity:research",
+        "source:llm-provider-research-report-cohere-a2489c1d",
+        "source:llm-provider-research-report-mistral-ai-b1dc6738",
+        "source:llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40",
+        "source:llm-provider-research-report-xai-grok-27723302"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.96,
+      "sourcePageIds": [
+        "entity:research",
+        "source:llm-provider-research-report-cohere-a2489c1d",
+        "source:llm-provider-research-report-mistral-ai-b1dc6738",
+        "source:llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40",
+        "source:llm-provider-research-report-xai-grok-27723302"
+      ],
+      "why": "4 source nodes converge on Research through extracted mention edges."
+    },
+    {
+      "id": "hyper:80a9b362385085ae",
+      "label": "content",
+      "relation": "participate_in",
+      "nodeIds": [
+        "concept:content",
+        "source:deepseek-llm-provider-research-report-mid-2026-06d7b24d",
+        "source:openai-llm-provider-research-report-mid-2026-8b4a47c7",
+        "source:zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.8999999999999999,
+      "sourcePageIds": [
+        "concept:content",
+        "source:deepseek-llm-provider-research-report-mid-2026-06d7b24d",
+        "source:openai-llm-provider-research-report-mid-2026-8b4a47c7",
+        "source:zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "why": "3 source nodes converge on content through extracted mention edges."
+    }
+  ],
+  "suggestedQuestions": [
+    "Why does LLM Provider Research Report: Mistral AI connect multiple communities in the vault?",
+    "Why does OpenAI — LLM Provider Research Report (Mid-2026) connect multiple communities in the vault?",
+    "Why does model connect multiple communities in the vault?",
+    "What is the exact relationship between Alibaba Qwen — LLM Provider Research Report (Mid-2026) and Anthropic — LLM Provider Research Report (Mid-2026)?",
+    "What is the exact relationship between Alibaba Qwen — LLM Provider Research Report (Mid-2026) and Together AI: Comprehensive Research Report (2026)?",
+    "What is the exact relationship between DeepSeek — LLM Provider Research Report (Mid-2026) and Anthropic — LLM Provider Research Report (Mid-2026)?"
+  ],
+  "communityPages": [
+    {
+      "id": "graph:community:model-1",
+      "path": "graph/communities/model-1.md",
+      "title": "Community: model"
+    },
+    {
+      "id": "graph:community:qwen-2",
+      "path": "graph/communities/qwen-2.md",
+      "title": "Community: qwen"
+    },
+    {
+      "id": "graph:community:claude-3",
+      "path": "graph/communities/claude-3.md",
+      "title": "Community: claude"
+    },
+    {
+      "id": "graph:community:with-4",
+      "path": "graph/communities/with-4.md",
+      "title": "Community: with"
+    },
+    {
+      "id": "graph:community:command-5",
+      "path": "graph/communities/command-5.md",
+      "title": "Community: command"
+    },
+    {
+      "id": "graph:community:pricing-6",
+      "path": "graph/communities/pricing-6.md",
+      "title": "Community: pricing"
+    },
+    {
+      "id": "graph:community:open-7",
+      "path": "graph/communities/open-7.md",
+      "title": "Community: open"
+    }
+  ],
+  "recentResearchSources": [],
+  "contradictions": [],
+  "communityCohesion": [
+    {
+      "id": "community:model-1",
+      "label": "model",
+      "nodeCount": 16,
+      "cohesion": 0
+    },
+    {
+      "id": "community:qwen-2",
+      "label": "qwen",
+      "nodeCount": 21,
+      "cohesion": 0
+    },
+    {
+      "id": "community:claude-3",
+      "label": "claude",
+      "nodeCount": 22,
+      "cohesion": 0
+    },
+    {
+      "id": "community:with-4",
+      "label": "with",
+      "nodeCount": 21,
+      "cohesion": 0
+    },
+    {
+      "id": "community:command-5",
+      "label": "command",
+      "nodeCount": 23,
+      "cohesion": 0
+    },
+    {
+      "id": "community:pricing-6",
+      "label": "pricing",
+      "nodeCount": 22,
+      "cohesion": 0
+    },
+    {
+      "id": "community:open-7",
+      "label": "open",
+      "nodeCount": 17,
+      "cohesion": 0
+    }
+  ],
+  "knowledgeGaps": {
+    "isolatedNodes": [],
+    "thinCommunityCount": 0,
+    "ambiguousEdgeRatio": 0.037900874635568516,
+    "warnings": []
+  }
+}

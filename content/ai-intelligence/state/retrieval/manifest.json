@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "backend": "sqlite",
+  "generatedAt": "2026-06-06T21:08:51.115Z",
+  "graphGeneratedAt": "2026-06-06T21:08:50.506Z",
+  "graphHash": "531ef5cbe209c199edf3c9e0f4ad756995d5ccb256b108e64253a6080b68d8b8",
+  "shardCount": 1,
+  "shards": [
+    {
+      "id": "fts-000",
+      "path": "retrieval/fts-000.sqlite",
+      "pageCount": 178
+    }
+  ]
+}

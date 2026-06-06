@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40",
+  "sourceHash": "6f9fdc40fb6c648040f76ddbc9bd966610f49ee5f7b651b34e76a365cd0e66e2",
+  "semanticHash": "6f9fdc40fb6c648040f76ddbc9bd966610f49ee5f7b651b34e76a365cd0e66e2",
+  "extractionHash": "42f9a8eb19cab7620a30491ef57356812111e672f5c9a350e3d6fe110b7bcea1",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "LLM Provider Research Report: NVIDIA (Nemotron/NIM)",
+  "summary": "LLM Provider Research Report: NVIDIA (Nemotron/NIM) > Research date: June 2026. Covers NVIDIA AI company overview, Nemotron model lineup, NIM API pricing, benchmarks, capabilities, competitive positioning, and recent developments. --- ## 1.",
+  "concepts": [
+    {
+      "id": "concept:nvidia",
+      "name": "nvidia",
+      "description": "Frequently referenced concept in LLM Provider Research Report: NVIDIA (Nemotron/NIM)."
+    },
+    {
+      "id": "concept:nemotron",
+      "name": "nemotron",
+      "description": "Frequently referenced concept in LLM Provider Research Report: NVIDIA (Nemotron/NIM)."
+    },
+    {
+      "id": "concept:models",
+      "name": "models",
+      "description": "Frequently referenced concept in LLM Provider Research Report: NVIDIA (Nemotron/NIM)."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in LLM Provider Research Report: NVIDIA (Nemotron/NIM)."
+    },
+    {
+      "id": "concept:inference",
+      "name": "inference",
+      "description": "Frequently referenced concept in LLM Provider Research Report: NVIDIA (Nemotron/NIM)."
+    },
+    {
+      "id": "concept:training",
+      "name": "training",
+      "description": "Frequently referenced concept in LLM Provider Research Report: NVIDIA (Nemotron/NIM)."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:nvidia-nemotron-nim",
+      "name": "NVIDIA (Nemotron/NIM)",
+      "description": "Named entity mentioned in LLM Provider Research Report: NVIDIA (Nemotron/NIM)."
+    },
+    {
+      "id": "entity:research",
+      "name": "Research",
+      "description": "Named entity mentioned in LLM Provider Research Report: NVIDIA (Nemotron/NIM)."
+    },
+    {
+      "id": "entity:nvidia-ai-company",
+      "name": "NVIDIA AI company",
+      "description": "Named entity mentioned in LLM Provider Research Report: NVIDIA (Nemotron/NIM)."
+    },
+    {
+      "id": "entity:nemotron",
+      "name": "Nemotron",
+      "description": "Named entity mentioned in LLM Provider Research Report: NVIDIA (Nemotron/NIM)."
+    },
+    {
+      "id": "entity:nvidia-ai-company-overview",
+      "name": "NVIDIA AI Company Overview",
+      "description": "Named entity mentioned in LLM Provider Research Report: NVIDIA (Nemotron/NIM)."
+    },
+    {
+      "id": "entity:company-background-nvidia-corporation",
+      "name": "Company Background NVIDIA Corporation",
+      "description": "Named entity mentioned in LLM Provider Research Report: NVIDIA (Nemotron/NIM)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40:1",
+      "text": "LLM Provider Research Report: NVIDIA (Nemotron/NIM) > Research date: June 2026.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40"
+    },
+    {
+      "id": "claim:llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40:2",
+      "text": "Covers NVIDIA AI company overview, Nemotron model lineup, NIM API pricing, benchmarks, capabilities, competitive positioning, and recent developments.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40"
+    },
+    {
+      "id": "claim:llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40:3",
+      "text": "--- ## 1.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40"
+    },
+    {
+      "id": "claim:llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40:4",
+      "text": "NVIDIA AI Company Overview ### 1.1 Company Background NVIDIA Corporation is the world's leading AI computing company, founded in 1993 by Jensen Huang, Chris Malachowsky, and Curtis Priem.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40"
+    }
+  ],
+  "questions": [
+    "How does nvidia relate to LLM Provider Research Report: NVIDIA (Nemotron/NIM)?",
+    "How does nemotron relate to LLM Provider Research Report: NVIDIA (Nemotron/NIM)?",
+    "How does models relate to LLM Provider Research Report: NVIDIA (Nemotron/NIM)?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:08:47.883Z"
+}

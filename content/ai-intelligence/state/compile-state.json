@@ -1,0 +1,1018 @@
+{
+  "generatedAt": "2026-06-06T21:08:50.506Z",
+  "rootSchemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "projectSchemaHashes": {},
+  "effectiveSchemaHashes": {
+    "global": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+    "projects": {}
+  },
+  "projectConfigHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "analyses": {
+    "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151": "a2c74564e93edecdce8c9d13c101dad1263dc8b899354fd2a16dae87a43afae9",
+    "anthropic-llm-provider-research-report-mid-2026-85c1ae51": "b5aedae050417117ea1a3736229187c83b5f03f24d99a9178491d21f8a592ad9",
+    "deepseek-llm-provider-research-report-mid-2026-06d7b24d": "437e53471ac532d62b8c3c9e4ea512a774b471df2cdb4cbf02e894746b221a28",
+    "google-gemini-llm-provider-research-report-mid-2026-c1315c99": "472e08ffca09281ab14440dc281569e8e750cca9a265054e696250db0c8af02a",
+    "llm-provider-research-report-cohere-a2489c1d": "6746c893756eab876c9e99cab6b9eed7d6d41773f009185f53fa69f33f53fae6",
+    "llm-provider-research-report-mistral-ai-b1dc6738": "7421680ddc2b436c6e6493b7dab8a0e4d432b6acf47293f59c46c69eed24b638",
+    "llm-provider-research-report-moonshot-ai-821a1010": "c93a26940e8128eeca2dc02bfe62c96de43448e93edbbfeb2b9bcc84dff3f61d",
+    "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40": "2a6abe0c2419fc9aaac476ba2ebd4bae4c64a183b9b02fd9cc5d527b7cf8c37d",
+    "llm-provider-research-report-xai-grok-27723302": "bf4e60d1227691fcaf7605e4d80fc29f531c3089aa65349c3a93bfe9df3f8317",
+    "meta-llama-llm-provider-research-report-mid-2026-ea1881e6": "9ab3f524238250ade84fcd2a3cf3c4f33c3c2e9fe5f39cafc7f1c892f00fec9f",
+    "microsoft-phi-family-comprehensive-research-report-2026-2daf1835": "69547851c828a6a9a5cdcf64a2877230550884ea5acaf76a0778e323e6875ab5",
+    "minimax-comprehensive-research-report-2026-db6828bc": "b2e64aa76c68912e1421883ffac9bab3f62561545712d33a868f7d6538e6388b",
+    "openai-llm-provider-research-report-mid-2026-8b4a47c7": "31b606febdd836eae74e675acc72869f09df0ec6cfe966a257839e3141f602e4",
+    "perplexity-ai-comprehensive-research-report-2026-28e3c1cb": "39e150f46841c657c9eac8cb0a838048eedcb352ec507cfcddef23b5c6b3e776",
+    "stability-ai-comprehensive-research-report-2026-82ef3427": "871159ce1420cf47bf0cdf4b00b79b511c40f37fa2737b26ca3c72f7175aed2d",
+    "stepfun-comprehensive-research-report-2026-517799aa": "736ecbe9ccea64214a83ab3ca888ef4d0a100ac3b1994c259af02735938e5f64",
+    "together-ai-comprehensive-research-report-2026-b5bf5b1e": "3e686398642bc8924613b79289ad4a26c927dc2eb330008b60a340b1ea7e0e2e",
+    "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161": "79268f03e9c786bf0caa0bb401386b8d14621861fa7ed300976e86e670c6e028"
+  },
+  "sourceHashes": {
+    "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151": "c954f1519a782b809320d45227ecbfadedeec4c368ebb516b88c15407bf58678",
+    "anthropic-llm-provider-research-report-mid-2026-85c1ae51": "85c1ae51b031b2df490b1e51b90a8879d97322ef52b341b54a1d0678cb1a64a1",
+    "deepseek-llm-provider-research-report-mid-2026-06d7b24d": "06d7b24de128f82e65224f90b1fc05fccd7a9df91c6c1fe4aea4ff5b8205de0b",
+    "google-gemini-llm-provider-research-report-mid-2026-c1315c99": "c1315c99dab36b947228c000a0f5edf9d5e86442c55bdccbab77179d2cd0528c",
+    "llm-provider-research-report-cohere-a2489c1d": "a2489c1d0f8e64d681d971cccd03aa70216998037e0924469534eb5fb9190e86",
+    "llm-provider-research-report-mistral-ai-b1dc6738": "b1dc6738525aa343ba1550bcc8bdb0a559e11a02c97c9737bdbc1c8f2aa0448c",
+    "llm-provider-research-report-moonshot-ai-821a1010": "821a10105c7ec4bcfa10ada5c1a892bec050ffb48da7d29aa68b2b015868ddd3",
+    "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40": "6f9fdc40fb6c648040f76ddbc9bd966610f49ee5f7b651b34e76a365cd0e66e2",
+    "llm-provider-research-report-xai-grok-27723302": "27723302080a8215e7c3d59ea2b37e7ff5f7cb8d48ec0ba306b14469927287ef",
+    "meta-llama-llm-provider-research-report-mid-2026-ea1881e6": "ea1881e628f43a449fb9031cd901e92f41fbe26569d8dc057b82e25cf66e5175",
+    "microsoft-phi-family-comprehensive-research-report-2026-2daf1835": "2daf1835307682823c892ca0a4af1409b422d38e656c5571bc8d0d1dadb66ef5",
+    "minimax-comprehensive-research-report-2026-db6828bc": "db6828bcd9cd1dc7e3ef9cccfebf1ebbf2fd3f40df2964fa883eaf521543cb91",
+    "openai-llm-provider-research-report-mid-2026-8b4a47c7": "8b4a47c7c53f172e2cc80400a4a897900703b5ba105a828ee59f2bca9f7bfda3",
+    "perplexity-ai-comprehensive-research-report-2026-28e3c1cb": "28e3c1cb956b30059ff9a2e35a181676e037aef2f11717039dd257a4c34a7f69",
+    "stability-ai-comprehensive-research-report-2026-82ef3427": "82ef3427c9f4098a6a4b5be5f7b2aa832ab19f092a5fb244689f392badb0c630",
+    "stepfun-comprehensive-research-report-2026-517799aa": "517799aaa830bdd309600bcc286215c63684de08e8f69ee84ebda0309d17b0ae",
+    "together-ai-comprehensive-research-report-2026-b5bf5b1e": "b5bf5b1e7934a84993d5ce2c6eca149d42f1b515050773a105ef008ba6c6a401",
+    "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161": "827d5161b4a4a9ac3849adabff1b7bacf9b41c97da5b3828695e52b83132f61e"
+  },
+  "sourceSemanticHashes": {
+    "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151": "80f20268c943a47f7be1833bd038e83298fc552aa962124de6d82c4319102742",
+    "anthropic-llm-provider-research-report-mid-2026-85c1ae51": "9ec56e7b42e10fffc9453e41cd4aaee3547cc035a8024a566f9c7c681bc2fa11",
+    "deepseek-llm-provider-research-report-mid-2026-06d7b24d": "6eeaea0d1cfae376a44ee754f2cd5ffb957d100c391ce6dd5dac6b69f133a267",
+    "google-gemini-llm-provider-research-report-mid-2026-c1315c99": "1c4348f2afd41dd4512dc12728b877fac07b62d39f939f31d14d42c8cafb69f7",
+    "llm-provider-research-report-cohere-a2489c1d": "96590418876c911ba5a7ab1826c29b9d7be27a743af205ec73375915fb3a1034",
+    "llm-provider-research-report-mistral-ai-b1dc6738": "20e86f9ab33774f895e9e5cd0740a10b8f0196178bf3978c6d86483bcdf7af68",
+    "llm-provider-research-report-moonshot-ai-821a1010": "8a6779edbd273293e22e130155fcc6c28910d908762577a1de22d25871c7155a",
+    "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40": "6f9fdc40fb6c648040f76ddbc9bd966610f49ee5f7b651b34e76a365cd0e66e2",
+    "llm-provider-research-report-xai-grok-27723302": "f45e4164b9c595fbf6c557e85c08ceed179bbae1d499220ca4253f69321e8c9d",
+    "meta-llama-llm-provider-research-report-mid-2026-ea1881e6": "b90fd7070e694e09be978f2144024b0425e4ee06307b0d4ab0d5b55cb2e2f9e9",
+    "microsoft-phi-family-comprehensive-research-report-2026-2daf1835": "cf8495570d24117e84179109f793395480e3baa573cf842bf0549a5fecee9a34",
+    "minimax-comprehensive-research-report-2026-db6828bc": "88de3be67ad15ae699cd834827d813536cc9d6a3d286b2948940f9e95733578b",
+    "openai-llm-provider-research-report-mid-2026-8b4a47c7": "04dbe8923dc1ae25090ded5614098f2e91158eb4a2edcb40f6a77f87a914c683",
+    "perplexity-ai-comprehensive-research-report-2026-28e3c1cb": "f61a91a9f35a2e95aa4343357cf5d8ec90696fa206871c2cf8fd7bb95b6716b8",
+    "stability-ai-comprehensive-research-report-2026-82ef3427": "82ef3427c9f4098a6a4b5be5f7b2aa832ab19f092a5fb244689f392badb0c630",
+    "stepfun-comprehensive-research-report-2026-517799aa": "517799aaa830bdd309600bcc286215c63684de08e8f69ee84ebda0309d17b0ae",
+    "together-ai-comprehensive-research-report-2026-b5bf5b1e": "8cd973fadd26021d7428272271ffd9eb6bd35769cd5d7629981b849f326bfa2a",
+    "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161": "1b0e5dbc3a99b35653bce7ec0342434fccc03f402e0b21220ffcfbf99b9a31a9"
+  },
+  "sourceProjects": {
+    "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151": null,
+    "anthropic-llm-provider-research-report-mid-2026-85c1ae51": null,
+    "deepseek-llm-provider-research-report-mid-2026-06d7b24d": null,
+    "google-gemini-llm-provider-research-report-mid-2026-c1315c99": null,
+    "llm-provider-research-report-cohere-a2489c1d": null,
+    "llm-provider-research-report-mistral-ai-b1dc6738": null,
+    "llm-provider-research-report-moonshot-ai-821a1010": null,
+    "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40": null,
+    "llm-provider-research-report-xai-grok-27723302": null,
+    "meta-llama-llm-provider-research-report-mid-2026-ea1881e6": null,
+    "microsoft-phi-family-comprehensive-research-report-2026-2daf1835": null,
+    "minimax-comprehensive-research-report-2026-db6828bc": null,
+    "openai-llm-provider-research-report-mid-2026-8b4a47c7": null,
+    "perplexity-ai-comprehensive-research-report-2026-28e3c1cb": null,
+    "stability-ai-comprehensive-research-report-2026-82ef3427": null,
+    "stepfun-comprehensive-research-report-2026-517799aa": null,
+    "together-ai-comprehensive-research-report-2026-b5bf5b1e": null,
+    "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161": null
+  },
+  "outputHashes": {},
+  "insightHashes": {},
+  "memoryHashes": {},
+  "candidateHistory": {
+    "concept:model": {
+      "sourceIds": [
+        "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151",
+        "anthropic-llm-provider-research-report-mid-2026-85c1ae51",
+        "deepseek-llm-provider-research-report-mid-2026-06d7b24d",
+        "google-gemini-llm-provider-research-report-mid-2026-c1315c99",
+        "llm-provider-research-report-cohere-a2489c1d",
+        "llm-provider-research-report-mistral-ai-b1dc6738",
+        "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40",
+        "llm-provider-research-report-xai-grok-27723302",
+        "meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
+        "minimax-comprehensive-research-report-2026-db6828bc",
+        "openai-llm-provider-research-report-mid-2026-8b4a47c7",
+        "perplexity-ai-comprehensive-research-report-2026-28e3c1cb",
+        "stepfun-comprehensive-research-report-2026-517799aa",
+        "together-ai-comprehensive-research-report-2026-b5bf5b1e",
+        "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "status": "candidate"
+    },
+    "concept:qwen": {
+      "sourceIds": [
+        "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151"
+      ],
+      "status": "candidate"
+    },
+    "concept:alibaba": {
+      "sourceIds": [
+        "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151"
+      ],
+      "status": "candidate"
+    },
+    "concept:image": {
+      "sourceIds": [
+        "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151",
+        "google-gemini-llm-provider-research-report-mid-2026-c1315c99",
+        "stability-ai-comprehensive-research-report-2026-82ef3427"
+      ],
+      "status": "candidate"
+    },
+    "concept:generation": {
+      "sourceIds": [
+        "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151",
+        "stability-ai-comprehensive-research-report-2026-82ef3427"
+      ],
+      "status": "candidate"
+    },
+    "concept:dashscope": {
+      "sourceIds": [
+        "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151"
+      ],
+      "status": "candidate"
+    },
+    "concept:claude": {
+      "sourceIds": [
+        "anthropic-llm-provider-research-report-mid-2026-85c1ae51"
+      ],
+      "status": "candidate"
+    },
+    "concept:opus": {
+      "sourceIds": [
+        "anthropic-llm-provider-research-report-mid-2026-85c1ae51"
+      ],
+      "status": "candidate"
+    },
+    "concept:anthropic": {
+      "sourceIds": [
+        "anthropic-llm-provider-research-report-mid-2026-85c1ae51"
+      ],
+      "status": "candidate"
+    },
+    "concept:tokens": {
+      "sourceIds": [
+        "anthropic-llm-provider-research-report-mid-2026-85c1ae51",
+        "llm-provider-research-report-mistral-ai-b1dc6738"
+      ],
+      "status": "candidate"
+    },
+    "concept:sonnet": {
+      "sourceIds": [
+        "anthropic-llm-provider-research-report-mid-2026-85c1ae51"
+      ],
+      "status": "candidate"
+    },
+    "concept:deepseek": {
+      "sourceIds": [
+        "deepseek-llm-provider-research-report-mid-2026-06d7b24d"
+      ],
+      "status": "candidate"
+    },
+    "concept:with": {
+      "sourceIds": [
+        "deepseek-llm-provider-research-report-mid-2026-06d7b24d",
+        "llm-provider-research-report-moonshot-ai-821a1010",
+        "llm-provider-research-report-xai-grok-27723302",
+        "meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
+        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835",
+        "minimax-comprehensive-research-report-2026-db6828bc",
+        "openai-llm-provider-research-report-mid-2026-8b4a47c7",
+        "perplexity-ai-comprehensive-research-report-2026-28e3c1cb",
+        "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "status": "candidate"
+    },
+    "concept:flash": {
+      "sourceIds": [
+        "deepseek-llm-provider-research-report-mid-2026-06d7b24d",
+        "google-gemini-llm-provider-research-report-mid-2026-c1315c99",
+        "stepfun-comprehensive-research-report-2026-517799aa"
+      ],
+      "status": "candidate"
+    },
+    "concept:content": {
+      "sourceIds": [
+        "deepseek-llm-provider-research-report-mid-2026-06d7b24d",
+        "openai-llm-provider-research-report-mid-2026-8b4a47c7",
+        "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "status": "candidate"
+    },
+    "concept:coding": {
+      "sourceIds": [
+        "deepseek-llm-provider-research-report-mid-2026-06d7b24d"
+      ],
+      "status": "candidate"
+    },
+    "concept:gemini": {
+      "sourceIds": [
+        "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
+      ],
+      "status": "candidate"
+    },
+    "concept:google": {
+      "sourceIds": [
+        "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
+      ],
+      "status": "candidate"
+    },
+    "concept:text": {
+      "sourceIds": [
+        "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
+      ],
+      "status": "candidate"
+    },
+    "concept:command": {
+      "sourceIds": [
+        "llm-provider-research-report-cohere-a2489c1d"
+      ],
+      "status": "candidate"
+    },
+    "concept:cohere": {
+      "sourceIds": [
+        "llm-provider-research-report-cohere-a2489c1d"
+      ],
+      "status": "candidate"
+    },
+    "concept:models": {
+      "sourceIds": [
+        "llm-provider-research-report-cohere-a2489c1d",
+        "llm-provider-research-report-mistral-ai-b1dc6738",
+        "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40",
+        "meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
+        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835",
+        "stepfun-comprehensive-research-report-2026-517799aa"
+      ],
+      "status": "candidate"
+    },
+    "concept:pricing": {
+      "sourceIds": [
+        "llm-provider-research-report-cohere-a2489c1d",
+        "llm-provider-research-report-mistral-ai-b1dc6738",
+        "minimax-comprehensive-research-report-2026-db6828bc"
+      ],
+      "status": "candidate"
+    },
+    "concept:enterprise": {
+      "sourceIds": [
+        "llm-provider-research-report-cohere-a2489c1d",
+        "openai-llm-provider-research-report-mid-2026-8b4a47c7"
+      ],
+      "status": "candidate"
+    },
+    "concept:mistral": {
+      "sourceIds": [
+        "llm-provider-research-report-mistral-ai-b1dc6738"
+      ],
+      "status": "candidate"
+    },
+    "concept:open": {
+      "sourceIds": [
+        "llm-provider-research-report-mistral-ai-b1dc6738",
+        "meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
+        "together-ai-comprehensive-research-report-2026-b5bf5b1e",
+        "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "status": "candidate"
+    },
+    "concept:kimi": {
+      "sourceIds": [
+        "llm-provider-research-report-moonshot-ai-821a1010"
+      ],
+      "status": "candidate"
+    },
+    "concept:moonshot": {
+      "sourceIds": [
+        "llm-provider-research-report-moonshot-ai-821a1010"
+      ],
+      "status": "candidate"
+    },
+    "concept:reasoning": {
+      "sourceIds": [
+        "llm-provider-research-report-moonshot-ai-821a1010",
+        "llm-provider-research-report-xai-grok-27723302",
+        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
+      ],
+      "status": "candidate"
+    },
+    "concept:2025": {
+      "sourceIds": [
+        "llm-provider-research-report-moonshot-ai-821a1010",
+        "openai-llm-provider-research-report-mid-2026-8b4a47c7"
+      ],
+      "status": "candidate"
+    },
+    "concept:agent": {
+      "sourceIds": [
+        "llm-provider-research-report-moonshot-ai-821a1010",
+        "minimax-comprehensive-research-report-2026-db6828bc"
+      ],
+      "status": "candidate"
+    },
+    "concept:nvidia": {
+      "sourceIds": [
+        "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40"
+      ],
+      "status": "candidate"
+    },
+    "concept:nemotron": {
+      "sourceIds": [
+        "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40"
+      ],
+      "status": "candidate"
+    },
+    "concept:inference": {
+      "sourceIds": [
+        "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40",
+        "together-ai-comprehensive-research-report-2026-b5bf5b1e"
+      ],
+      "status": "candidate"
+    },
+    "concept:training": {
+      "sourceIds": [
+        "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40"
+      ],
+      "status": "candidate"
+    },
+    "concept:grok": {
+      "sourceIds": [
+        "llm-provider-research-report-xai-grok-27723302"
+      ],
+      "status": "candidate"
+    },
+    "concept:openai": {
+      "sourceIds": [
+        "llm-provider-research-report-xai-grok-27723302",
+        "openai-llm-provider-research-report-mid-2026-8b4a47c7"
+      ],
+      "status": "candidate"
+    },
+    "concept:search": {
+      "sourceIds": [
+        "llm-provider-research-report-xai-grok-27723302",
+        "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
+      ],
+      "status": "candidate"
+    },
+    "concept:llama": {
+      "sourceIds": [
+        "meta-llama-llm-provider-research-report-mid-2026-ea1881e6"
+      ],
+      "status": "candidate"
+    },
+    "concept:meta": {
+      "sourceIds": [
+        "meta-llama-llm-provider-research-report-mid-2026-ea1881e6"
+      ],
+      "status": "candidate"
+    },
+    "concept:data": {
+      "sourceIds": [
+        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835",
+        "together-ai-comprehensive-research-report-2026-b5bf5b1e",
+        "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "status": "candidate"
+    },
+    "concept:microsoft": {
+      "sourceIds": [
+        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
+      ],
+      "status": "candidate"
+    },
+    "concept:mini": {
+      "sourceIds": [
+        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
+      ],
+      "status": "candidate"
+    },
+    "concept:minimax": {
+      "sourceIds": [
+        "minimax-comprehensive-research-report-2026-db6828bc"
+      ],
+      "status": "candidate"
+    },
+    "concept:2026": {
+      "sourceIds": [
+        "minimax-comprehensive-research-report-2026-db6828bc",
+        "stepfun-comprehensive-research-report-2026-517799aa"
+      ],
+      "status": "candidate"
+    },
+    "concept:perplexity": {
+      "sourceIds": [
+        "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
+      ],
+      "status": "candidate"
+    },
+    "concept:sonar": {
+      "sourceIds": [
+        "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
+      ],
+      "status": "candidate"
+    },
+    "concept:research": {
+      "sourceIds": [
+        "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
+      ],
+      "status": "candidate"
+    },
+    "concept:stable": {
+      "sourceIds": [
+        "stability-ai-comprehensive-research-report-2026-82ef3427"
+      ],
+      "status": "candidate"
+    },
+    "concept:stability": {
+      "sourceIds": [
+        "stability-ai-comprehensive-research-report-2026-82ef3427"
+      ],
+      "status": "candidate"
+    },
+    "concept:diffusion": {
+      "sourceIds": [
+        "stability-ai-comprehensive-research-report-2026-82ef3427"
+      ],
+      "status": "candidate"
+    },
+    "concept:2024": {
+      "sourceIds": [
+        "stability-ai-comprehensive-research-report-2026-82ef3427"
+      ],
+      "status": "candidate"
+    },
+    "concept:stepfun": {
+      "sourceIds": [
+        "stepfun-comprehensive-research-report-2026-517799aa"
+      ],
+      "status": "candidate"
+    },
+    "concept:step": {
+      "sourceIds": [
+        "stepfun-comprehensive-research-report-2026-517799aa"
+      ],
+      "status": "candidate"
+    },
+    "concept:together": {
+      "sourceIds": [
+        "together-ai-comprehensive-research-report-2026-b5bf5b1e"
+      ],
+      "status": "candidate"
+    },
+    "concept:source": {
+      "sourceIds": [
+        "together-ai-comprehensive-research-report-2026-b5bf5b1e"
+      ],
+      "status": "candidate"
+    },
+    "concept:china": {
+      "sourceIds": [
+        "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "status": "candidate"
+    },
+    "entity:alibaba-group-s-tongyi-lab": {
+      "sourceIds": [
+        "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151"
+      ],
+      "status": "candidate"
+    },
+    "entity:alibaba-s": {
+      "sourceIds": [
+        "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151"
+      ],
+      "status": "candidate"
+    },
+    "entity:alibaba": {
+      "sourceIds": [
+        "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151"
+      ],
+      "status": "candidate"
+    },
+    "entity:alibaba-cloud": {
+      "sourceIds": [
+        "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151"
+      ],
+      "status": "candidate"
+    },
+    "entity:alibaba-group": {
+      "sourceIds": [
+        "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151"
+      ],
+      "status": "candidate"
+    },
+    "entity:hangzhou-china-alibaba-group": {
+      "sourceIds": [
+        "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151"
+      ],
+      "status": "candidate"
+    },
+    "entity:provider-research-report": {
+      "sourceIds": [
+        "anthropic-llm-provider-research-report-mid-2026-85c1ae51",
+        "deepseek-llm-provider-research-report-mid-2026-06d7b24d",
+        "google-gemini-llm-provider-research-report-mid-2026-c1315c99",
+        "meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
+        "openai-llm-provider-research-report-mid-2026-8b4a47c7"
+      ],
+      "status": "candidate"
+    },
+    "entity:company-overview-anthropic": {
+      "sourceIds": [
+        "anthropic-llm-provider-research-report-mid-2026-85c1ae51"
+      ],
+      "status": "candidate"
+    },
+    "entity:dario-amodei-daniela-amodei": {
+      "sourceIds": [
+        "anthropic-llm-provider-research-report-mid-2026-85c1ae51"
+      ],
+      "status": "candidate"
+    },
+    "entity:openai": {
+      "sourceIds": [
+        "anthropic-llm-provider-research-report-mid-2026-85c1ae51",
+        "openai-llm-provider-research-report-mid-2026-8b4a47c7"
+      ],
+      "status": "candidate"
+    },
+    "entity:ai-systems": {
+      "sourceIds": [
+        "anthropic-llm-provider-research-report-mid-2026-85c1ae51"
+      ],
+      "status": "candidate"
+    },
+    "entity:ai-development": {
+      "sourceIds": [
+        "anthropic-llm-provider-research-report-mid-2026-85c1ae51"
+      ],
+      "status": "candidate"
+    },
+    "entity:company-overview-deepseek": {
+      "sourceIds": [
+        "deepseek-llm-provider-research-report-mid-2026-06d7b24d"
+      ],
+      "status": "candidate"
+    },
+    "entity:chinese-ai-company": {
+      "sourceIds": [
+        "deepseek-llm-provider-research-report-mid-2026-06d7b24d"
+      ],
+      "status": "candidate"
+    },
+    "entity:deepseek": {
+      "sourceIds": [
+        "deepseek-llm-provider-research-report-mid-2026-06d7b24d"
+      ],
+      "status": "candidate"
+    },
+    "entity:founded": {
+      "sourceIds": [
+        "deepseek-llm-provider-research-report-mid-2026-06d7b24d"
+      ],
+      "status": "candidate"
+    },
+    "entity:headquarters-beijing-china-parent-company-high-flyer": {
+      "sourceIds": [
+        "deepseek-llm-provider-research-report-mid-2026-06d7b24d"
+      ],
+      "status": "candidate"
+    },
+    "entity:google-gemini": {
+      "sourceIds": [
+        "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
+      ],
+      "status": "candidate"
+    },
+    "entity:company-overview-google-s-gemini": {
+      "sourceIds": [
+        "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
+      ],
+      "status": "candidate"
+    },
+    "entity:bard": {
+      "sourceIds": [
+        "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
+      ],
+      "status": "candidate"
+    },
+    "entity:gemini": {
+      "sourceIds": [
+        "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
+      ],
+      "status": "candidate"
+    },
+    "entity:google-s": {
+      "sourceIds": [
+        "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
+      ],
+      "status": "candidate"
+    },
+    "entity:cohere": {
+      "sourceIds": [
+        "llm-provider-research-report-cohere-a2489c1d"
+      ],
+      "status": "candidate"
+    },
+    "entity:research": {
+      "sourceIds": [
+        "llm-provider-research-report-cohere-a2489c1d",
+        "llm-provider-research-report-mistral-ai-b1dc6738",
+        "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40",
+        "llm-provider-research-report-xai-grok-27723302"
+      ],
+      "status": "candidate"
+    },
+    "entity:cohere-company": {
+      "sourceIds": [
+        "llm-provider-research-report-cohere-a2489c1d"
+      ],
+      "status": "candidate"
+    },
+    "entity:cohere-company-overview": {
+      "sourceIds": [
+        "llm-provider-research-report-cohere-a2489c1d"
+      ],
+      "status": "candidate"
+    },
+    "entity:founding": {
+      "sourceIds": [
+        "llm-provider-research-report-cohere-a2489c1d",
+        "llm-provider-research-report-mistral-ai-b1dc6738",
+        "llm-provider-research-report-xai-grok-27723302"
+      ],
+      "status": "candidate"
+    },
+    "entity:mission-cohere": {
+      "sourceIds": [
+        "llm-provider-research-report-cohere-a2489c1d"
+      ],
+      "status": "candidate"
+    },
+    "entity:mistral": {
+      "sourceIds": [
+        "llm-provider-research-report-mistral-ai-b1dc6738"
+      ],
+      "status": "candidate"
+    },
+    "entity:mistral-ai-company": {
+      "sourceIds": [
+        "llm-provider-research-report-mistral-ai-b1dc6738"
+      ],
+      "status": "candidate"
+    },
+    "entity:mistral-ai-company-overview": {
+      "sourceIds": [
+        "llm-provider-research-report-mistral-ai-b1dc6738"
+      ],
+      "status": "candidate"
+    },
+    "entity:mission-mistral": {
+      "sourceIds": [
+        "llm-provider-research-report-mistral-ai-b1dc6738"
+      ],
+      "status": "candidate"
+    },
+    "entity:company": {
+      "sourceIds": [
+        "llm-provider-research-report-moonshot-ai-821a1010"
+      ],
+      "status": "candidate"
+    },
+    "entity:kimi": {
+      "sourceIds": [
+        "llm-provider-research-report-moonshot-ai-821a1010"
+      ],
+      "status": "candidate"
+    },
+    "entity:beijing": {
+      "sourceIds": [
+        "llm-provider-research-report-moonshot-ai-821a1010",
+        "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "status": "candidate"
+    },
+    "entity:co-ltd": {
+      "sourceIds": [
+        "llm-provider-research-report-moonshot-ai-821a1010"
+      ],
+      "status": "candidate"
+    },
+    "entity:trade-name": {
+      "sourceIds": [
+        "llm-provider-research-report-moonshot-ai-821a1010"
+      ],
+      "status": "candidate"
+    },
+    "entity:moonshot": {
+      "sourceIds": [
+        "llm-provider-research-report-moonshot-ai-821a1010",
+        "minimax-comprehensive-research-report-2026-db6828bc"
+      ],
+      "status": "candidate"
+    },
+    "entity:nvidia-nemotron-nim": {
+      "sourceIds": [
+        "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40"
+      ],
+      "status": "candidate"
+    },
+    "entity:nvidia-ai-company": {
+      "sourceIds": [
+        "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40"
+      ],
+      "status": "candidate"
+    },
+    "entity:nemotron": {
+      "sourceIds": [
+        "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40"
+      ],
+      "status": "candidate"
+    },
+    "entity:nvidia-ai-company-overview": {
+      "sourceIds": [
+        "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40"
+      ],
+      "status": "candidate"
+    },
+    "entity:company-background-nvidia-corporation": {
+      "sourceIds": [
+        "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40"
+      ],
+      "status": "candidate"
+    },
+    "entity:grok": {
+      "sourceIds": [
+        "llm-provider-research-report-xai-grok-27723302"
+      ],
+      "status": "candidate"
+    },
+    "entity:company-overview": {
+      "sourceIds": [
+        "llm-provider-research-report-xai-grok-27723302"
+      ],
+      "status": "candidate"
+    },
+    "entity:mission": {
+      "sourceIds": [
+        "llm-provider-research-report-xai-grok-27723302"
+      ],
+      "status": "candidate"
+    },
+    "entity:llama": {
+      "sourceIds": [
+        "meta-llama-llm-provider-research-report-mid-2026-ea1881e6"
+      ],
+      "status": "candidate"
+    },
+    "entity:company-overview-meta": {
+      "sourceIds": [
+        "meta-llama-llm-provider-research-report-mid-2026-ea1881e6"
+      ],
+      "status": "candidate"
+    },
+    "entity:facebook": {
+      "sourceIds": [
+        "meta-llama-llm-provider-research-report-mid-2026-ea1881e6"
+      ],
+      "status": "candidate"
+    },
+    "entity:large-language-model-meta": {
+      "sourceIds": [
+        "meta-llama-llm-provider-research-report-mid-2026-ea1881e6"
+      ],
+      "status": "candidate"
+    },
+    "entity:microsoft-phi-family-comprehensive-research-report": {
+      "sourceIds": [
+        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
+      ],
+      "status": "candidate"
+    },
+    "entity:executive-summary-microsoft-s-phi": {
+      "sourceIds": [
+        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
+      ],
+      "status": "candidate"
+    },
+    "entity:phi": {
+      "sourceIds": [
+        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
+      ],
+      "status": "candidate"
+    },
+    "entity:microsoft-research": {
+      "sourceIds": [
+        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
+      ],
+      "status": "candidate"
+    },
+    "entity:march": {
+      "sourceIds": [
+        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
+      ],
+      "status": "candidate"
+    },
+    "entity:chinese": {
+      "sourceIds": [
+        "minimax-comprehensive-research-report-2026-db6828bc",
+        "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "status": "candidate"
+    },
+    "entity:x-y-k-j": {
+      "sourceIds": [
+        "minimax-comprehensive-research-report-2026-db6828bc"
+      ],
+      "status": "candidate"
+    },
+    "entity:shanghai": {
+      "sourceIds": [
+        "minimax-comprehensive-research-report-2026-db6828bc",
+        "stepfun-comprehensive-research-report-2026-517799aa"
+      ],
+      "status": "candidate"
+    },
+    "entity:china-s": {
+      "sourceIds": [
+        "minimax-comprehensive-research-report-2026-db6828bc",
+        "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "status": "candidate"
+    },
+    "entity:ai-tigers": {
+      "sourceIds": [
+        "minimax-comprehensive-research-report-2026-db6828bc"
+      ],
+      "status": "candidate"
+    },
+    "entity:company-overview-openai": {
+      "sourceIds": [
+        "openai-llm-provider-research-report-mid-2026-8b4a47c7"
+      ],
+      "status": "candidate"
+    },
+    "entity:san-francisco": {
+      "sourceIds": [
+        "openai-llm-provider-research-report-mid-2026-8b4a47c7",
+        "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
+      ],
+      "status": "candidate"
+    },
+    "entity:openai-global-llc": {
+      "sourceIds": [
+        "openai-llm-provider-research-report-mid-2026-8b4a47c7"
+      ],
+      "status": "candidate"
+    },
+    "entity:openai-inc": {
+      "sourceIds": [
+        "openai-llm-provider-research-report-mid-2026-8b4a47c7"
+      ],
+      "status": "candidate"
+    },
+    "entity:comprehensive-research-report": {
+      "sourceIds": [
+        "perplexity-ai-comprehensive-research-report-2026-28e3c1cb",
+        "stability-ai-comprehensive-research-report-2026-82ef3427",
+        "stepfun-comprehensive-research-report-2026-517799aa",
+        "together-ai-comprehensive-research-report-2026-b5bf5b1e"
+      ],
+      "status": "candidate"
+    },
+    "entity:executive-summary-perplexity": {
+      "sourceIds": [
+        "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
+      ],
+      "status": "candidate"
+    },
+    "entity:perplexity-s-sonar": {
+      "sourceIds": [
+        "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
+      ],
+      "status": "candidate"
+    },
+    "entity:perplexity": {
+      "sourceIds": [
+        "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
+      ],
+      "status": "candidate"
+    },
+    "entity:series": {
+      "sourceIds": [
+        "perplexity-ai-comprehensive-research-report-2026-28e3c1cb",
+        "together-ai-comprehensive-research-report-2026-b5bf5b1e"
+      ],
+      "status": "candidate"
+    },
+    "entity:executive-summary-stability": {
+      "sourceIds": [
+        "stability-ai-comprehensive-research-report-2026-82ef3427"
+      ],
+      "status": "candidate"
+    },
+    "entity:london": {
+      "sourceIds": [
+        "stability-ai-comprehensive-research-report-2026-82ef3427"
+      ],
+      "status": "candidate"
+    },
+    "entity:ai-company": {
+      "sourceIds": [
+        "stability-ai-comprehensive-research-report-2026-82ef3427"
+      ],
+      "status": "candidate"
+    },
+    "entity:stable-diffusion": {
+      "sourceIds": [
+        "stability-ai-comprehensive-research-report-2026-82ef3427"
+      ],
+      "status": "candidate"
+    },
+    "entity:ai": {
+      "sourceIds": [
+        "stability-ai-comprehensive-research-report-2026-82ef3427"
+      ],
+      "status": "candidate"
+    },
+    "entity:executive-summary-stepfun": {
+      "sourceIds": [
+        "stepfun-comprehensive-research-report-2026-517799aa"
+      ],
+      "status": "candidate"
+    },
+    "entity:jiang-daxin": {
+      "sourceIds": [
+        "stepfun-comprehensive-research-report-2026-517799aa"
+      ],
+      "status": "candidate"
+    },
+    "entity:microsoft": {
+      "sourceIds": [
+        "stepfun-comprehensive-research-report-2026-517799aa"
+      ],
+      "status": "candidate"
+    },
+    "entity:chief-scientist": {
+      "sourceIds": [
+        "stepfun-comprehensive-research-report-2026-517799aa"
+      ],
+      "status": "candidate"
+    },
+    "entity:executive-summary-together": {
+      "sourceIds": [
+        "together-ai-comprehensive-research-report-2026-b5bf5b1e"
+      ],
+      "status": "candidate"
+    },
+    "entity:stanford": {
+      "sourceIds": [
+        "together-ai-comprehensive-research-report-2026-b5bf5b1e"
+      ],
+      "status": "candidate"
+    },
+    "entity:azure": {
+      "sourceIds": [
+        "together-ai-comprehensive-research-report-2026-b5bf5b1e"
+      ],
+      "status": "candidate"
+    },
+    "entity:together": {
+      "sourceIds": [
+        "together-ai-comprehensive-research-report-2026-b5bf5b1e"
+      ],
+      "status": "candidate"
+    },
+    "entity:tsinghua-university": {
+      "sourceIds": [
+        "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "status": "candidate"
+    },
+    "entity:glm-general-language-model": {
+      "sourceIds": [
+        "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "status": "candidate"
+    },
+    "entity:tigers": {
+      "sourceIds": [
+        "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "status": "candidate"
+    }
+  }
+}

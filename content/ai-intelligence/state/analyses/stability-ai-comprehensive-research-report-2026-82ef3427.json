@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "stability-ai-comprehensive-research-report-2026-82ef3427",
+  "sourceHash": "82ef3427c9f4098a6a4b5be5f7b2aa832ab19f092a5fb244689f392badb0c630",
+  "semanticHash": "82ef3427c9f4098a6a4b5be5f7b2aa832ab19f092a5fb244689f392badb0c630",
+  "extractionHash": "6c4a11a3802372ea3c0cea725238a8ec7505fafcf4e040ccc0d7d8daf3eb396c",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Stability AI: Comprehensive Research Report (2026)",
+  "summary": "Stability AI: Comprehensive Research Report (2026) ## Executive Summary Stability AI is a London-based generative AI company founded in 2019, best known as the creator of Stable Diffusion — one of the most influential open-weight image generation models in the AI industry. The company has undergone significant turbulence, including founder disputes, executive departures, copyright lawsuits, and near-collapse, before being rescued through a recapitalization in June 2024 and the appointment of new CEO Prem Akkaraju in December 2024. As of mid-2026, Stability AI has stabilized under new leadership, growing revenue from approximately $1.5M (2022) to an estimated $50M (2024), with triple-digit growth rates reported and debt eliminated.",
+  "concepts": [
+    {
+      "id": "concept:stable",
+      "name": "stable",
+      "description": "Frequently referenced concept in Stability AI: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "concept:stability",
+      "name": "stability",
+      "description": "Frequently referenced concept in Stability AI: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "concept:generation",
+      "name": "generation",
+      "description": "Frequently referenced concept in Stability AI: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "concept:diffusion",
+      "name": "diffusion",
+      "description": "Frequently referenced concept in Stability AI: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "concept:2024",
+      "name": "2024",
+      "description": "Frequently referenced concept in Stability AI: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "concept:image",
+      "name": "image",
+      "description": "Frequently referenced concept in Stability AI: Comprehensive Research Report (2026)."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:comprehensive-research-report",
+      "name": "Comprehensive Research Report",
+      "description": "Named entity mentioned in Stability AI: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "entity:executive-summary-stability",
+      "name": "Executive Summary Stability",
+      "description": "Named entity mentioned in Stability AI: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "entity:london",
+      "name": "London-",
+      "description": "Named entity mentioned in Stability AI: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "entity:ai-company",
+      "name": "AI company",
+      "description": "Named entity mentioned in Stability AI: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "entity:stable-diffusion",
+      "name": "Stable Diffusion —",
+      "description": "Named entity mentioned in Stability AI: Comprehensive Research Report (2026)."
+    },
+    {
+      "id": "entity:ai",
+      "name": "AI",
+      "description": "Named entity mentioned in Stability AI: Comprehensive Research Report (2026)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:stability-ai-comprehensive-research-report-2026-82ef3427:1",
+      "text": "Stability AI: Comprehensive Research Report (2026) ## Executive Summary Stability AI is a London-based generative AI company founded in 2019, best known as the creator of Stable Diffusion — one of the most influential open-weight image generation models in the AI industry.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "stability-ai-comprehensive-research-report-2026-82ef3427"
+    },
+    {
+      "id": "claim:stability-ai-comprehensive-research-report-2026-82ef3427:2",
+      "text": "The company has undergone significant turbulence, including founder disputes, executive departures, copyright lawsuits, and near-collapse, before being rescued through a recapitalization in June 2024 and the appointment of new CEO Prem Akkaraju in December 2024.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "stability-ai-comprehensive-research-report-2026-82ef3427"
+    },
+    {
+      "id": "claim:stability-ai-comprehensive-research-report-2026-82ef3427:3",
+      "text": "As of mid-2026, Stability AI has stabilized under new leadership, growing revenue from approximately $1.5M (2022) to an estimated $50M (2024), with triple-digit growth rates reported and debt eliminated.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "stability-ai-comprehensive-research-report-2026-82ef3427"
+    },
+    {
+      "id": "claim:stability-ai-comprehensive-research-report-2026-82ef3427:4",
+      "text": "The company's product portfolio has expanded beyond image generation to include video (Stable Video 4D), audio (Stable Audio 2.5), 3D (SPAR3D, Fast 3D), and language models (Stable LM 2, Stable Code).",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "stability-ai-comprehensive-research-report-2026-82ef3427"
+    }
+  ],
+  "questions": [
+    "How does stable relate to Stability AI: Comprehensive Research Report (2026)?",
+    "How does stability relate to Stability AI: Comprehensive Research Report (2026)?",
+    "How does generation relate to Stability AI: Comprehensive Research Report (2026)?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:08:48.365Z"
+}

@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "google-gemini-llm-provider-research-report-mid-2026-c1315c99",
+  "sourceHash": "c1315c99dab36b947228c000a0f5edf9d5e86442c55bdccbab77179d2cd0528c",
+  "semanticHash": "1c4348f2afd41dd4512dc12728b877fac07b62d39f939f31d14d42c8cafb69f7",
+  "extractionHash": "975c02cd52b426b29ca3bf41c29d2bb3492d90d70562bee9ec4ab4b8e6d77324",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Google Gemini — LLM Provider Research Report (Mid-2026)",
+  "summary": "Google Gemini — LLM Provider Research Report (Mid-2026) ## Company Overview Google's Gemini (formerly known as Bard initially, then Gemini) is Google's family of large language models developed by Google DeepMind. Gemini represents Google's unified AI strategy, combining research from Google Brain and DeepMind into a single model family designed for multimodal understanding, reasoning, and generation. ### Key Facts - Developed by: Google DeepMind (merger of Google Brain and DeepMind) - First Release: December 2023 (Gemini 1.0) - Latest Family: Gemini 3.x (2026) - API Platform: Google AI for Developers (ai.google.dev) and Google Cloud Vertex AI - Consumer Product: Gemini (formerly Bard), integrated into Google Search, Workspace, Android - Revenue Model: Gemini Developer API (free/paid/enterprise tiers), Google Cloud AI services, Gemini subscriptions - Compute Infrastructure: Custom TPU (Tensor Processing Unit) hardware, Google Cloud data centers ### Strategic Initiatives (2025-2026) - Gemini Spark: Major AI initiative announced at Google I/O 2026 - Antigravity Agent: Autonomous agent framework for complex task completion - TPU Sales: Google began selling TPUs to external customers (April 2026) - Google Cloud AI: Enterprise AI platform with Gemini at the core - Gemini Enterprise Agent Platform: Enterprise-grade agentic workflows - Integration with Google Ecosystem: Deep integration with Search, Workspace, Android, Chrome - Model Garden: Google Cloud's model marketplace featuring Gemini and third-party models ## Model Lineup (Mid-2026) ### Gemini 3 Family | Model | ID | Status | Description | |-------|----|--------|-------------| | Gemini 3.1 Pro | gemini-3.1-pro-preview | Preview | Advanced intelligence, complex problem-solving, agentic & vibe coding | | Gemini 3.5 Flash | gemini-3.5-flash | Stable | Most intelligent model for sustained frontier performance on agentic & coding | | Gemini 3 Flash | — | Preview | Frontier-class performance rivaling larger models at lower cost | | Gemini 3.1 Flash-Lite | gemini-3.1-flash-lite | Stable | Frontier-class performance at low cost and high efficiency | | Gemini 3.1 Flash Live | gemini-3.1-flash-live-preview | Preview | Low-latency Live API for real-time voice-first dialogue (audio-to-audio) | | Gemini 3.1 Flash TTS | gemini-3.1-flash-tts-preview | Preview | Low-latency, expressive speech generation with steerable prompts | ### Gemini 2.5 Family | Model | ID | Status | Description | |-------|----|--------|-------------| | Gemini 2.5 Pro | — | Stable | Most advanced model for complex reasoning & coding | | Gemini 2.5 Flash | — | Stable | Best price-performance for low-latency, high-volume reasoning | | Gemini 2.5 Flash-Lite | — | Stable | Fastest & most budget-friendly multimodal model | | Gemini 2.5 Flash Live | — | Preview | Bidirectional voice/video agent with sub-second audio streaming | | Gemini 2.5 Flash TTS | — | Preview | Fast, controllable TTS for real-time assistants | | Gemini 2.5 Pro TTS | — | Preview | High-fidelity TTS for structured workflows | ### Generative Media Models | Model | Status | Description | |-------|--------|-------------| | Nano Banana 2 | Stable | High-efficiency image generation & editing, optimized for speed & volume | | Nano Banana Pro | Stable | SOTA native image generation for studio-quality visuals | | Nano Banana | Stable | Fast, creative image generation & editing | | Imagen 4 | Stable | Text-to-image model with ultra-fast generation, up to 2K clarity | | Veo 3.1 | Preview | SOTA cinematic video generation with native audio sync | | Veo 3.1 Lite | Preview | Low-cost, dev-first video generation & editing | ### Music Generation | Model | Status | Description | |-------|--------|-------------| | Lyria 3 Pro | Preview | Flagship full-length song generation with structural coherence | | Lyria 3 Clip | Preview | Short clips, loops, previews up to 30s | | Lyria RealTime | Experimental | High-fidelity, real-time streaming music generation | ### Tool & Agent Models | Model | Status | Description | |-------|--------|-------------| | Computer Use | Preview | UI automation: sees screen, clicks, types, navigates | | Gemini Deep Research | Preview | Autonomous multi-step research across 100s of sources | | Gemini Deep Research Max | Preview | Maximum comprehensiveness for context gathering | | Antigravity Agent | Preview | Autonomous agent for complex multi-step tasks | ### Gemini 3.5 Flash — Current Flagship Gemini 3.5 Flash is Google's current flagship model for production use, offering: - Frontier-class reasoning and coding capabilities - Sustained high performance on agentic tasks - Strong multimodal understanding (text, image, audio, video) - Native image generation capabilities - Integration with Google Search for grounding - Cost-effective pricing compared to competitor flagships Key capabilities: - Advanced reasoning with extended thinking - Coding and software engineering - Multimodal input (text, images, audio, video) - Grounding with Google Search and Maps - Function calling and tool use - Long context window processing - Multilingual support ### Gemini 3.1 Pro Preview The premium preview model targeting the highest capabilities: - Best-in-class multimodal understanding - Agentic capabilities for complex task completion - Vibe coding support (natural language to code) - Extended context window - Higher cost but superior performance on hardest tasks ### Gemini 3.1 Flash-Lite The cost-optimized model for high-volume tasks: - Frontier-class performance at lowest cost - Efficient for classification, extraction, simple Q&A - Audio and multimodal input support - Ideal for batch processing and high-throughput applications ## API Pricing (Mid-2026) ### Gemini 3.5 Flash | Pricing Type | Input (per 1M) | Output (per 1M) | Cache (per 1M/hr) | |-------------|----------------|-----------------|-------------------| | Standard | $1.50 | $9.00 | $0.15 + $1.00/hr | | Batch | $0.75 | $4.50 | $0.075 + $1.00/hr | | Flex | $0.75 | $4.50 | $0.08 + $1.00/hr | | Priority | $2.70 | $16.20 | $0.27 + $1.00/hr | Grounding: 5,000 free/month, then $14/1,000 queries.",
+  "concepts": [
+    {
+      "id": "concept:gemini",
+      "name": "gemini",
+      "description": "Frequently referenced concept in Google Gemini — LLM Provider Research Report (Mid-2026)."
+    },
+    {
+      "id": "concept:google",
+      "name": "google",
+      "description": "Frequently referenced concept in Google Gemini — LLM Provider Research Report (Mid-2026)."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in Google Gemini — LLM Provider Research Report (Mid-2026)."
+    },
+    {
+      "id": "concept:flash",
+      "name": "flash",
+      "description": "Frequently referenced concept in Google Gemini — LLM Provider Research Report (Mid-2026)."
+    },
+    {
+      "id": "concept:image",
+      "name": "image",
+      "description": "Frequently referenced concept in Google Gemini — LLM Provider Research Report (Mid-2026)."
+    },
+    {
+      "id": "concept:text",
+      "name": "text",
+      "description": "Frequently referenced concept in Google Gemini — LLM Provider Research Report (Mid-2026)."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:google-gemini",
+      "name": "Google Gemini —",
+      "description": "Named entity mentioned in Google Gemini — LLM Provider Research Report (Mid-2026)."
+    },
+    {
+      "id": "entity:provider-research-report",
+      "name": "Provider Research Report",
+      "description": "Named entity mentioned in Google Gemini — LLM Provider Research Report (Mid-2026)."
+    },
+    {
+      "id": "entity:company-overview-google-s-gemini",
+      "name": "Company Overview Google's Gemini",
+      "description": "Named entity mentioned in Google Gemini — LLM Provider Research Report (Mid-2026)."
+    },
+    {
+      "id": "entity:bard",
+      "name": "Bard",
+      "description": "Named entity mentioned in Google Gemini — LLM Provider Research Report (Mid-2026)."
+    },
+    {
+      "id": "entity:gemini",
+      "name": "Gemini)",
+      "description": "Named entity mentioned in Google Gemini — LLM Provider Research Report (Mid-2026)."
+    },
+    {
+      "id": "entity:google-s",
+      "name": "Google's",
+      "description": "Named entity mentioned in Google Gemini — LLM Provider Research Report (Mid-2026)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:google-gemini-llm-provider-research-report-mid-2026-c1315c99:1",
+      "text": "Google Gemini — LLM Provider Research Report (Mid-2026) ## Company Overview Google's Gemini (formerly known as Bard initially, then Gemini) is Google's family of large language models developed by Google DeepMind.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
+    },
+    {
+      "id": "claim:google-gemini-llm-provider-research-report-mid-2026-c1315c99:2",
+      "text": "Gemini represents Google's unified AI strategy, combining research from Google Brain and DeepMind into a single model family designed for multimodal understanding, reasoning, and generation.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
+    },
+    {
+      "id": "claim:google-gemini-llm-provider-research-report-mid-2026-c1315c99:3",
+      "text": "### Key Facts - Developed by: Google DeepMind (merger of Google Brain and DeepMind) - First Release: December 2023 (Gemini 1.0) - Latest Family: Gemini 3.x (2026) - API Platform: Google AI for Developers (ai.google.dev) and Google Cloud Vertex AI - Consumer Product: Gemini (formerly Bard), integrated into Google Search, Workspace, Android - Revenue Model: Gemini Developer API (free/paid/enterprise tiers), Google Cloud AI services, Gemini subscriptions - Compute Infrastructure: Custom TPU (Tensor Processing Unit) hardware, Google Cloud data centers ### Strategic Initiatives (2025-2026) - Gemini Spark: Major AI initiative announced at Google I/O 2026 - Antigravity Agent: Autonomous agent framework for complex task completion - TPU Sales: Google began selling TPUs to external customers (April 2026) - Google Cloud AI: Enterprise AI platform with Gemini at the core - Gemini Enterprise Agent Platform: Enterprise-grade agentic workflows - Integration with Google Ecosystem: Deep integration with Search, Workspace, Android, Chrome - Model Garden: Google Cloud's model marketplace featuring Gemini and third-party models ## Model Lineup (Mid-2026) ### Gemini 3 Family | Model | ID | Status | Description | |-------|----|--------|-------------| | Gemini 3.1 Pro | gemini-3.1-pro-preview | Preview | Advanced intelligence, complex problem-solving, agentic & vibe coding | | Gemini 3.5 Flash | gemini-3.5-flash | Stable | Most intelligent model for sustained frontier performance on agentic & coding | | Gemini 3 Flash | — | Preview | Frontier-class performance rivaling larger models at lower cost | | Gemini 3.1 Flash-Lite | gemini-3.1-flash-lite | Stable | Frontier-class performance at low cost and high efficiency | | Gemini 3.1 Flash Live | gemini-3.1-flash-live-preview | Preview | Low-latency Live API for real-time voice-first dialogue (audio-to-audio) | | Gemini 3.1 Flash TTS | gemini-3.1-flash-tts-preview | Preview | Low-latency, expressive speech generation with steerable prompts | ### Gemini 2.5 Family | Model | ID | Status | Description | |-------|----|--------|-------------| | Gemini 2.5 Pro | — | Stable | Most advanced model for complex reasoning & coding | | Gemini 2.5 Flash | — | Stable | Best price-performance for low-latency, high-volume reasoning | | Gemini 2.5 Flash-Lite | — | Stable | Fastest & most budget-friendly multimodal model | | Gemini 2.5 Flash Live | — | Preview | Bidirectional voice/video agent with sub-second audio streaming | | Gemini 2.5 Flash TTS | — | Preview | Fast, controllable TTS for real-time assistants | | Gemini 2.5 Pro TTS | — | Preview | High-fidelity TTS for structured workflows | ### Generative Media Models | Model | Status | Description | |-------|--------|-------------| | Nano Banana 2 | Stable | High-efficiency image generation & editing, optimized for speed & volume | | Nano Banana Pro | Stable | SOTA native image generation for studio-quality visuals | | Nano Banana | Stable | Fast, creative image generation & editing | | Imagen 4 | Stable | Text-to-image model with ultra-fast generation, up to 2K clarity | | Veo 3.1 | Preview | SOTA cinematic video generation with native audio sync | | Veo 3.1 Lite | Preview | Low-cost, dev-first video generation & editing | ### Music Generation | Model | Status | Description | |-------|--------|-------------| | Lyria 3 Pro | Preview | Flagship full-length song generation with structural coherence | | Lyria 3 Clip | Preview | Short clips, loops, previews up to 30s | | Lyria RealTime | Experimental | High-fidelity, real-time streaming music generation | ### Tool & Agent Models | Model | Status | Description | |-------|--------|-------------| | Computer Use | Preview | UI automation: sees screen, clicks, types, navigates | | Gemini Deep Research | Preview | Autonomous multi-step research across 100s of sources | | Gemini Deep Research Max | Preview | Maximum comprehensiveness for context gathering | | Antigravity Agent | Preview | Autonomous agent for complex multi-step tasks | ### Gemini 3.5 Flash — Current Flagship Gemini 3.5 Flash is Google's current flagship model for production use, offering: - Frontier-class reasoning and coding capabilities - Sustained high performance on agentic tasks - Strong multimodal understanding (text, image, audio, video) - Native image generation capabilities - Integration with Google Search for grounding - Cost-effective pricing compared to competitor flagships Key capabilities: - Advanced reasoning with extended thinking - Coding and software engineering - Multimodal input (text, images, audio, video) - Grounding with Google Search and Maps - Function calling and tool use - Long context window processing - Multilingual support ### Gemini 3.1 Pro Preview The premium preview model targeting the highest capabilities: - Best-in-class multimodal understanding - Agentic capabilities for complex task completion - Vibe coding support (natural language to code) - Extended context window - Higher cost but superior performance on hardest tasks ### Gemini 3.1 Flash-Lite The cost-optimized model for high-volume tasks: - Frontier-class performance at lowest cost - Efficient for classification, extraction, simple Q&A - Audio and multimodal input support - Ideal for batch processing and high-throughput applications ## API Pricing (Mid-2026) ### Gemini 3.5 Flash | Pricing Type | Input (per 1M) | Output (per 1M) | Cache (per 1M/hr) | |-------------|----------------|-----------------|-------------------| | Standard | $1.50 | $9.00 | $0.15 + $1.00/hr | | Batch | $0.75 | $4.50 | $0.075 + $1.00/hr | | Flex | $0.75 | $4.50 | $0.08 + $1.00/hr | | Priority | $2.70 | $16.20 | $0.27 + $1.00/hr | Grounding: 5,000 free/month, then $14/1,000 queries.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
+    },
+    {
+      "id": "claim:google-gemini-llm-provider-research-report-mid-2026-c1315c99:4",
+      "text": "### Gemini 3.1 Flash-Lite | Pricing Type | Input (text/image/video) | Input (audio) | Output (per 1M) | |-------------|-------------------------|---------------|-----------------| | Standard | $0.25 | $0.50 | $1.50 | | Batch/Flex | $0.125 | $0.25 | $0.75 | | Priority | $0.45 | $0.90 | $2.70 | ### Gemini 3.1 Pro Preview | Prompt Length | Input (per 1M) | Output (per 1M) | Cache (per 1M) | |--------------|----------------|-----------------|----------------| | ≤ 200K tokens | $2.00 | $12.00 | $0.20 + $4.50/hr | | > 200K tokens | $4.00 | $18.00 | $0.40 + $4.50/hr | ### Gemini 3.1 Flash Live Preview (Audio-to-Audio) | Input | Output | |-------|--------| | Text: $0.75 | Text: $4.50 | | Audio: $3.00 or $0.005/min | Audio: $12.00 or $0.018/min | | Image/Video: $1.00 or $0.002/min | — | ### Gemini 3.1 Flash Image | Output Type | Price | |------------|-------| | Text/Thinking | $3.00 (Standard), $1.50 (Batch) | | Images | $60.00 per 1M tokens ($0.045-0.151 per image) | ### Gemini 3.1 Flash TTS Preview | Input | Output | |-------|--------| | Text: $1.00 | Audio: $20.00 (Standard), $10.00 (Batch) | Audio tokens = 25 tokens/sec.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
+    }
+  ],
+  "questions": [
+    "How does gemini relate to Google Gemini — LLM Provider Research Report (Mid-2026)?",
+    "How does google relate to Google Gemini — LLM Provider Research Report (Mid-2026)?",
+    "How does model relate to Google Gemini — LLM Provider Research Report (Mid-2026)?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:08:47.303Z"
+}
