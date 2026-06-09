@@ -1,7 +1,7 @@
 ---
 title: AI Supply Chain Bottlenecks
 created: 2026-05-29
-updated: 2026-06-08
+updated: 2026-06-09
 type: concept
 tags: [bottleneck, overview, supply-demand]
 sources: [raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/memory-chip-shortage-makes-bare-metal-cloud-cheaper-than-on--edfcd0c4ac8be554.md, raw/articles/铜价奔向105万背后-新能源吃铜铜也正在改变新能源的胃口-ed818e409ba9c630.md, raw/articles/nikon-weaponizes-lower-prices-to-break-asmls-lithography-mon-d80faf94d9d9f30e.md, raw/articles/nikon-leveraging-arf-scanner-price-to-challenge-asml-860597fb09228073.md, raw/articles/32gb-of-ddr5-now-costs-375-minimum-ai-shortage-continues-to--330314b0df8fea84.md, raw/articles/counterfeit-gskill-and-v-color-ddr5-modules-hit-chinese-mark-cf70114c03127ac0.md]
@@ -36,6 +36,21 @@ TSMC 3nm demand is approximately three times the company's available capacity. E
 ## The Pattern: 2024 GPUs → 2025 Memory → 2026 Optical Components
 
 The bottleneck narrative tracks in precise sequence across the supply chain. Each cycle, the constraint shifts to the next layer. In past cycles, shortages were cyclical. In the AI cycle, shortages are architectural.
+
+## Data Center CPU Bottleneck — AI Agent Workloads (June 2026)
+
+- Data center CPU demand has surged, driven by AI agent workloads
+- CPU-to-GPU ratio becoming a critical infrastructure metric for hyperscalers
+- AI agents require more CPU resources per GPU than traditional training/inference — for orchestration, tool-use, context management, and multi-step reasoning
+- This adds a **new bottleneck layer**: data center CPUs alongside GPU/HBM/CoWoS constraints
+- Implications: CPU suppliers (Intel, AMD, Ampere) may see renewed demand from AI infrastructure builds
+
+## Data Center Siting Constraints — Water & Regulation (June 2026)
+
+- **Water crisis:** ~2/3 of 809 planned US data center projects are in areas that experienced drought in the past year — water availability becoming a siting constraint
+- **Regulatory pushback:** New York state legislature passed a statewide data center moratorium (awaiting governor approval) — would be the first US state to impose such a ban
+- Power grid constraints + water consumption concerns driving regulatory intervention at state level
+- **Impact:** Siting delays could slow US AI infrastructure buildout, pushing capital to jurisdictions with fewer constraints (Texas, Middle East, France)
 
 ## Industry Outlook
 
