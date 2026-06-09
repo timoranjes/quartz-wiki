@@ -1,7 +1,7 @@
 ---
 title: MiniMax
 created: 2026-06-02
-updated: 2026-06-02
+updated: 2026-06-08
 type: provider
 tags: [provider, lab, model, reasoning, coding, agentic, tool-use, pricing, api, open-weight, token-cost, timeline, china, multimodal]
 sources: [raw/articles/llm-provider-minimax-2026.md]
@@ -19,7 +19,7 @@ As of mid-2026, MiniMax operates at minimax.io with 200M+ global users across co
 
 | Model | Release | Context | Pricing in/out (per 1M) | Type |
 |-------|---------|---------|-------------------------|------|
-| **M3.0** | Jun 2026 | 1M tokens | Higher than M2 series | Flagship, multimodal |
+| **M3.0** | Jun 1, 2026 | 1M tokens | ~$60/M (est.) | Flagship, multimodal, open-weight |
 | **M2.7** | Mar 2026 | 205K tokens | $0.26 / $1.20 | Self-evolving, open-weight |
 | **M2.5** | Feb 2026 | 197K tokens | $0.15 / $1.15 | Cost-optimized |
 | **M2.1** | Dec 2025 | 197K tokens | $0.29 / $0.95 | MMLU: 87.5, GPQA: 83.0 |

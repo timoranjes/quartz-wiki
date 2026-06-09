@@ -3,7 +3,7 @@ title: "LLM Release Tracker"
 type: tracking
 tags: [llm, models, releases, benchmarks, frontier]
 created: "2026-06-04"
-updated: "2026-06-07"
+updated: "2026-06-08"
 status: drafted
 ---
 
@@ -14,7 +14,7 @@ Tracking frontier and notable model launches, benchmark rankings, and capability
 > **Data Sources**: [AI Flash Report Model Timeline](https://aiflashreport.com/model-releases.html), [AI/ML API Top Models 2026](https://aimlapi.com/blog/top-llm-models-in-2026-the-best-ai-models-for-reasoning-coding-multimodal-tasks), [Vellum LLM Leaderboard](https://www.vellum.ai/llm-leaderboard)
 >
 > **Release Cadence**: ~1 model every 3 days (59 models in last 90 days as of June 2026)
-> **Last Automated Update**: 2026-06-07
+> **Last Automated Update**: 2026-06-08
 
 ## Latest Releases (Recent)
 

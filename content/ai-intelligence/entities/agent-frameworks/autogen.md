@@ -3,7 +3,7 @@ title: "AutoGen"
 type: entity
 tags: [agent-framework, multi-agent, orchestrator, microsoft]
 created: "2026-06-04"
-updated: "2026-06-04"
+updated: "2026-06-08"
 status: drafted
 related_entities:
   - [[../llm-providers/microsoft-phi]]
@@ -24,6 +24,10 @@ used_by: []
 - **Parent**: Microsoft Research
 - **License**: MIT (open-source)
 - **Website**: [microsoft.github.io/autogen](https://microsoft.github.io/autogen/)
+
+### 2026 Update: Cross-Language Support
+AutoGen now supports interoperability between agents built in different programming languages. Current support includes Python and .NET, with additional languages in development.
+
 
 ## Architecture
 

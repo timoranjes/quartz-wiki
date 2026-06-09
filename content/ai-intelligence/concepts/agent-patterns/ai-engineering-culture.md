@@ -3,7 +3,7 @@ title: AI Engineering Culture
 type: concept
 tags: [automation, safety, productivity]
 created: "2026-06-07"
-updated: "2026-06-07"
+updated: "2026-06-08"
 status: drafted
 ---
 
@@ -28,6 +28,13 @@ The organizational and cultural dynamics that emerge when teams adopt AI-assiste
 
 ### The Core Problem
 **There is no natural feedback loop connecting enthusiasts with skeptics.** Both groups are trying to build great software, often in the same teams, but operate with fundamentally different risk assessments.
+
+
+### Enterprise Adoption Scale (2026)
+
+- **80% of new enterprise applications** now ship with an agent component
+- **MCP** has become the "USB-C of AI tooling" — the standard for agent-tool integration
+- **Small Language Models (SLMs)** have significantly reduced inference costs, enabling more deployments
 
 ## Organizational Design Challenge
 

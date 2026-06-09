@@ -3,7 +3,7 @@ title: "Cursor IDE"
 type: entity
 tags: [coding-agent, ide, llm-provider]
 created: "2026-06-04"
-updated: "2026-06-04"
+updated: "2026-06-08"
 status: drafted
 sources: [raw/articles/coding-agent-cursor-2026.md]
 ---
@@ -44,6 +44,9 @@ AI-first IDE forked from VS Code, with built-in codebase-aware AI agent capabili
 - **Build in Parallel**: Fan-out to multiple parallel agents for concurrent task execution
 - **Bugbot**: In-editor agent that triages and fixes bugs autonomously (~78% self-resolution rate, v3.3 May 2026)
 - **Durable Canvases**: Persist multi-step plans across sessions
+
+- **Cloud Agents** (2026): Agents run on Cursor's infrastructure — not your local machine. Start an agent from browser, phone, or Slack, and it works autonomously on your codebase.
+
 
 ## Recent Updates (May–June 2026)
 
