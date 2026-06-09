@@ -1,7 +1,7 @@
 ---
 title: NVIDIA
 created: 2026-06-02
-updated: 2026-06-02
+updated: 2026-06-10
 type: provider
 tags: [provider, infrastructure, model, reasoning, agentic, tool-use, open-weight, token-cost, multimodal, nvidia-gpu, nemotron, nim]
 sources: [raw/articles/llm-provider-nvidia-2026.md]
@@ -91,3 +91,5 @@ NIM APIs support OpenAI-compatible chat completions with standard message format
 **NIM expansion:** Now hosts 42+ models with growing third-party catalog, OpenAI-compatible API, free developer tier, and enterprise pricing.
 
 **Rubin platform:** Announced as next-generation GPU architecture after Blackwell, targeting AI token generation improvements through 2026 and beyond.
+
+**Apple Private Cloud Compute on Google Cloud (June 2026):** NVIDIA GPUs power Apple's expanded PCC infrastructure on Google Cloud for demanding AI tasks including agentic tool-use and complex reasoning. Apple's custom Gemini-derived model for next-gen Siri AI runs on NVIDIA hardware while maintaining Apple's security protections — dedicated confidential VMs, attested keys, and published binaries. This extends NVIDIA's reach into consumer AI infrastructure beyond data center and cloud. ^[raw/sources/2026-06-08-siri-ai-at-wwdc-2026.md]

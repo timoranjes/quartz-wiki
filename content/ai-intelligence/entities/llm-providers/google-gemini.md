@@ -1,7 +1,7 @@
 ---
 title: Google Gemini
 created: 2026-06-02
-updated: 2026-06-08
+updated: 2026-06-10
 type: provider
 tags: [provider, lab, cloud-platform, model, reasoning, coding, vision, audio, multimodal, agentic, tool-use, pricing, api, closed, token-cost, timeline]
 sources: [raw/articles/llm-provider-google-gemini-2026.md]
@@ -118,6 +118,8 @@ Context caching is available in Paid and Enterprise tiers, priced per 1M tokens 
 **Product integrations:** Gemini integrated into Google Search (AI-powered search features), Google Workspace (Docs, Sheets, Gmail, Slides), Android (on-device and cloud), Chrome (browser features), and Google Maps (AI-enhanced navigation).
 
 **Infrastructure:** Continued TPU development and global data center expansion. Multi-region API endpoint support (global, multi-region, regional) for enterprise compliance requirements.
+
+**Apple Private Cloud Compute partnership (June 2026):** Apple is licensing a custom Gemini-derived model to power next-generation Siri AI features announced at WWDC 2026. The model runs on Apple's Private Cloud Compute (PCC) infrastructure, extended to Google Cloud using [[../llm-providers/nvidia|NVIDIA GPUs]] for demanding tasks including agentic tool-use and complex reasoning. PCC on Google Cloud replicates Apple silicon security patterns: dedicated process namespaces, short-TTL shared inference software, attested keys in confidential VMs isolated from external inputs. All binaries published for public inspection. New Core AI library with PyTorch extensions (`coreai-torch`) enables developers to run custom models on Apple hardware by mapping ATen operators to Core AI operations. ^[raw/sources/2026-06-08-siri-ai-at-wwdc-2026.md]
 
 ## Coding Agents Using Google Models
 
