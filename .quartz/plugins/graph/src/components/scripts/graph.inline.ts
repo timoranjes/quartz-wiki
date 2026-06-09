@@ -363,7 +363,12 @@ import {
           if (hoveredNodeId === nodeData.simulationData.id) {
             nodeData.label.alpha = 1;
             nodeData.label.scale.set(activeScale);
+          } else if (hoveredNodeId !== null && focusOnHover) {
+            // Dim non-hovered neighbors when focusOnHover is active
+            nodeData.label.alpha = nodeData.active ? 0.75 : 0.2;
+            nodeData.label.scale.set(defaultScale);
           } else {
+            nodeData.label.alpha = 0.75;
             nodeData.label.scale.set(defaultScale);
           }
         }
@@ -397,13 +402,19 @@ import {
           text: node.text,
           style: {
             fontSize: fontSize * 15,
-            fill: dark,
+            fill: light,
             fontFamily: bodyFont,
+            dropShadow: {
+              color: '#000000',
+              blur: 4,
+              distance: 0,
+              alpha: 0.6,
+            },
           },
           resolution: window.devicePixelRatio * 4,
         });
         label.anchor.set(0.5, 1.2);
-        label.alpha = 0;
+        label.alpha = 0.75;
         label.scale.set(1 / scale);
         labelsContainer.addChild(label);
 
