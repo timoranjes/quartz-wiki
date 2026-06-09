@@ -3,7 +3,7 @@ title: "Anthropic Claude Code"
 type: entity
 tags: [coding-agent, anthropic, llm-provider]
 created: "2026-06-04"
-updated: "2026-06-04"
+updated: "2026-06-08"
 status: drafted
 sources: [raw/articles/coding-agent-claude-code-2026.md]
 ---
@@ -45,6 +45,12 @@ Anthropic's autonomous coding agent, available as a CLI tool and integrated into
 - **LSP Support**: Language Server Protocol integration for real-time code analysis
 - **Async Sub Agents**: Background task execution for parallel processing
 - **Ultrathink**: Enhanced deep reasoning mode for complex tasks
+
+### Sub-Agents (June 2026)
+- **Plugin agents**: Appear in `/agents` alongside custom agents, can be invoked explicitly
+- **Agent ID display**: Claude Code displays the agent ID when a subagent completes work
+- **Use case**: Parallel execution of independent work items (testing, linting, documentation)
+
 - **Slack Handover**: Ability to hand off tasks via Slack integration
 - **AutoCloud**: Cloud-based execution support
 

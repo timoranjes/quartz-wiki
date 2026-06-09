@@ -3,7 +3,7 @@ title: "CrewAI"
 type: entity
 tags: [agent-framework, multi-agent, orchestrator, role-based]
 created: "2026-06-04"
-updated: "2026-06-04"
+updated: "2026-06-08"
 status: drafted
 related_entities:
   - [[../llm-providers/openai]]
@@ -22,6 +22,10 @@ used_by: []
 - **Key Strength**: Intuitive, structured task delegation
 - **License**: MIT (open-source)
 - **Website**: [crewai.com](https://www.crewai.com/)
+
+### Educational Resources (2026)
+- **DeepLearning.AI Course**: "Design, Develop, and Deploy Multi-Agent Systems with CrewAI" — official course by CEO João Moura
+
 
 ## Architecture
 

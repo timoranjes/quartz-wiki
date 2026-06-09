@@ -1,10 +1,10 @@
 ---
 title: AI Data Center Infrastructure
 created: 2026-06-01
-updated: 2026-06-04
+updated: 2026-06-08
 type: concept
 tags: [compute, capex-cycle, bottleneck]
-sources: [raw/articles/softbank-to-spend-up-to-87-billion-on-french-ai-data-centers-fa26f7623145398e.md, raw/articles/lead-or-be-regulated-future-proofing-data-centers-through-re-87b8cf7e9fce73a6.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/coreweave-claims-to-have-first-nvidia-vera-rubin-nvl72-up-an-a9e2366701f46bad.md, raw/articles/supermicro-shows-off-vera-rubin-nvl72-rack-with-all-new-type-32aecf9e2098109e.md, raw/articles/siemens-nvidia-and-fluence-develop-reference-electrical-and--acc011b090d04fc8.md, raw/articles/how-we-used-gemini-to-build-google-io-2026-8558fcd3b2b6a033.md, raw/articles/ai-data-center-demand-larger-than-were-prepared-for-despite--5a3098734e2904a8.md, raw/articles/qts-looking-to-build-temporary-power-plant-to-support-test-o-e11044d4b97056fc.md, raw/articles/brookfield-ups-french-data-center-investment-by-10-billion-7337d711ae3a496a.md, raw/articles/豆包6月下旬正式付费并加速打通抖音电商丨36氪独家-e30eb205e0c9bb34.md, raw/articles/1-megawatt-racks-in-data-centers-f0cc6b7935adc4b5.md, raw/articles/coolit-designs-15kw-coldplate-to-future-proof-liquid-cooling-4c012ad8c3937390.md]
+sources: [raw/articles/softbank-to-spend-up-to-87-billion-on-french-ai-data-centers-fa26f7623145398e.md, raw/articles/lead-or-be-regulated-future-proofing-data-centers-through-re-87b8cf7e9fce73a6.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/coreweave-claims-to-have-first-nvidia-vera-rubin-nvl72-up-an-a9e2366701f46bad.md, raw/articles/supermicro-shows-off-vera-rubin-nvl72-rack-with-all-new-type-32aecf9e2098109e.md, raw/articles/siemens-nvidia-and-fluence-develop-reference-electrical-and--acc011b090d04fc8.md, raw/articles/how-we-used-gemini-to-build-google-io-2026-8558fcd3b2b6a033.md, raw/articles/ai-data-center-demand-larger-than-were-prepared-for-despite--5a3098734e2904a8.md, raw/articles/qts-looking-to-build-temporary-power-plant-to-support-test-o-e11044d4b97056fc.md, raw/articles/brookfield-ups-french-data-center-investment-by-10-billion-7337d711ae3a496a.md, raw/articles/豆包6月下旬正式付费并加速打通抖音电商丨36氪独家-e30eb205e0c9bb34.md, raw/articles/1-megawatt-racks-in-data-centers-f0cc6b7935adc4b5.md, raw/articles/coolit-designs-15kw-coldplate-to-future-proof-liquid-cooling-4c012ad8c3937390.md, raw/articles/google-signs-920m-monthly-compute-deal-with-spacex-companys--e52986c04b04b6c6.md, raw/articles/数智周报消息称deepseek计划在首轮融资中筹集约70亿美元估值高达590亿美元arm首席执行官存储芯片供应整体仍吃紧-75a0edff607543ce.md]
 confidence: medium
 ---
 
@@ -21,8 +21,10 @@ AI data center capital expenditure is reaching unprecedented scales:
 - **Brookfield (June 2026):** Ups French data center investment by €10 billion through Campus AI joint venture, close to selecting second site. Confirms France as Europe's AI infrastructure hub, combining nuclear power advantage with multiple capital sources (SoftBank + Brookfield).
 - **China "算力高铁" (Compute High-Speed Rail):** National initiative to make AI compute as accessible as utilities (water, electricity), with 140 trillion tokens consumed as a baseline metric
 - Hyperscalers (Microsoft, Google, Meta, Amazon) each committing $50-100B+ annually to AI infrastructure
-- **Google/Alphabet (June 2026):** Raised $80 billion in equity financing, with Berkshire Hathaway contributing $10 billion — one of the largest single investments in AI infrastructure, signaling massive capex commitments across data centers, networking, and power systems
+- **Google/Alphabet (June 2026):** Raised $80 billion in equity financing, with Berkshire Hathaway contributing $10 billion — one of the largest single investments in AI infrastructure, signaling massive capex commitments across data centers, networking, and power systems. Additionally, Alphabet is raising $84.75 billion specifically for AI infrastructure buildout.
+- **Google-SpaceX Compute Deal (June 2026):** Google signed a $920 million per month deal with SpaceX to secure 110,000 NVIDIA GPUs starting October 2026. This is the second data center deal SpaceX has secured in weeks, ahead of its June 12, 2026 IPO. Signals hyperscalers are locking up GPU capacity through non-traditional partners as demand outpaces direct supply.
 - **ByteDance (June 2026):** Considering up to $70 billion in capex for AI development, per Bloomberg. Previous AI infrastructure budget already raised from 160B RMB to 200B RMB (~$30B). Massive capex from a Chinese hyperscaler signals China's AI infrastructure buildout is accelerating despite export controls.
+- **DeepSeek (June 2026):** Planning to raise ~$7 billion in its first funding round at a $59 billion valuation, per reports. Signals massive capital inflows into Chinese AI model companies, driving upstream compute demand.
 
 ## Power as a Bottleneck
 

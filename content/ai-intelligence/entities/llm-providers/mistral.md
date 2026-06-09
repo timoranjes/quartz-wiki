@@ -74,6 +74,11 @@ Mistral operates "Vibe," a consumer-facing AI assistant:
 
 **Interfaces:** Vibe web (long-horizon tasks), Vibe CLI (terminal coding agent), IDE plugin (VS Code, JetBrains), mobile apps. Verified students get Pro for $5.99/mo.
 
+
+### Upcoming Models
+- **Mistral Large 2411**: Potentially a multimodal Large 2.1 model (identified in codebase)
+- **Mistral-NEXT**: New open-source model with impressive capabilities across a range of tasks
+
 ## API & Availability
 
 - **la Plateforme:** Mistral's native API with dedicated Python/JS SDKs

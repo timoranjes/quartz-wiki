@@ -14,7 +14,7 @@ confidence: 0.95
     <span class="provider-badge cn">🇨🇳 Hangzhou</span>
   </div>
   <div class="entity-meta">
-    <div><span class="entity-meta-key">Latest Model</span><span class="entity-meta-value">Qwen3.5 / Qwen-Max</span></div>
+    <div><span class="entity-meta-key">Latest Model</span><span class="entity-meta-value">Qwen3.7-Max</span></div>
     <div><span class="entity-meta-key">Free Tokens</span><span class="entity-meta-value">70M via Model Studio</span></div>
     <div><span class="entity-meta-key">Strength</span><span class="entity-meta-value">Best Chinese LLM</span></div>
   </div>
@@ -24,7 +24,7 @@ confidence: 0.95
 
 ## Overview
 
-Qwen (通义千问, Tongyi Qianwen) is a family of large language models developed by [[alibaba-group]]'s Tongyi Lab. First released in 2023, Qwen has grown into China's leading LLM provider, powering internal Alibaba applications and external customer deployments through Alibaba Cloud's Model Studio (百炼, Bailian) platform. Many Qwen models are released as open weights under the Apache 2.0 license.
+Qwen (通义千问, Tongyi Qianwen) is a family of large language models developed by [[alibaba-group]]'s Tongyi Lab. First released in 2023, Qwen has grown into China's leading LLM provider, powering internal Alibaba applications and external customer deployments through Alibaba Cloud's Model Studio (百炼, Bailian) platform. Many Qwen models are released as open weights under the Apache 2.0 license. Alibaba has also unveiled custom AI chips to support the Qwen model family, positioning itself as China's AI factory.
 
 As of mid-2026, the latest generation is Qwen 3.7 (Max, Plus, Flash variants), with the Qwen Omni line offering full multimodal support across text, image, audio, and video. Model Studio uniquely hosts both Qwen models and competing third-party models including [[deepseek]], [[moonshot-ai]] Kimi, [[zhipu-ai]] GLM, and [[minimax]].
 

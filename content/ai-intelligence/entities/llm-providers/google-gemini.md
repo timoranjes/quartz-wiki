@@ -1,7 +1,7 @@
 ---
 title: Google Gemini
 created: 2026-06-02
-updated: 2026-06-02
+updated: 2026-06-08
 type: provider
 tags: [provider, lab, cloud-platform, model, reasoning, coding, vision, audio, multimodal, agentic, tool-use, pricing, api, closed, token-cost, timeline]
 sources: [raw/articles/llm-provider-google-gemini-2026.md]
@@ -23,6 +23,7 @@ The developer access path is split between Google AI for Developers (ai.google.d
 
 | Model | ID | Status | Pricing in/out (per 1M) | Type |
 |-------|-----|--------|-------------------------|------|
+| **Gemini 3.5 Pro** | — | Announced for June 2026 | TBD | Reasoning-focused flagship |
 | **Gemini 3.5 Flash** | `gemini-3.5-flash` | Stable | $1.50 / $9.00 | Production flagship |
 | **Gemini 3.1 Pro** | `gemini-3.1-pro-preview` | Preview | $2.00 / $12.00 (≤200K) | Premium preview |
 | **Gemini 3.1 Flash-Lite** | `gemini-3.1-flash-lite` | Stable | $0.25 / $1.50 | Cost-optimized |
@@ -110,9 +111,9 @@ Context caching is available in Paid and Enterprise tiers, priced per 1M tokens 
 
 ## Recent Developments
 
-**Model releases (2025-2026):** Gemini 2.0 (December 2024), Gemini 2.5 family (2025), Gemini 3 family (2025-2026), Gemini 3.5 Flash (2026, current production flagship), Gemini 3.1 Pro and Flash-Lite (2026), Nano Banana 2 (2026), Veo 3.1 (2026).
+**Model releases (2025-2026):** Gemini 2.0 (December 2024), Gemini 2.5 family (2025), Gemini 3 family (2025-2026), Gemini 3.5 Flash (May 19, 2026, current production flagship), Gemini 3.1 Pro and Flash-Lite (2026), **Gemini 3.5 Pro (announced for June 2026, reasoning-focused)**, Nano Banana 2 (2026), Veo 3.1 (2026), **Gemma 4 12B** (June 2026, unified encoder-free multimodal open model), **Gemma 4 QAT models** (June 2026, quantization-aware training for mobile/laptop efficiency).
 
-**Strategic initiatives:** Google I/O 2026 announced Gemini Spark and Antigravity Agent. TPU sales opened to external customers (April 2026). Gemini Enterprise Agent Platform launched for enterprise agentic workflows on Google Cloud.
+**Strategic initiatives:** Google I/O 2026 — "Welcome to the agentic Gemini era." Gemini app becomes more agentic with proactive, 24/7 help. Gemini Spark and Antigravity Agent announced. TPU sales opened to external customers (April 2026). Gemini Enterprise Agent Platform launched for enterprise agentic workflows on Google Cloud. Gemini for Science: AI experiments and tools for discovery.
 
 **Product integrations:** Gemini integrated into Google Search (AI-powered search features), Google Workspace (Docs, Sheets, Gmail, Slides), Android (on-device and cloud), Chrome (browser features), and Google Maps (AI-enhanced navigation).
 
@@ -130,3 +131,9 @@ Context caching is available in Paid and Enterprise tiers, priced per 1M tokens 
 - [[../agent-frameworks/crewai]] — Supported LLM provider
 - [[../agent-frameworks/autogen]] — Supported LLM backend
 - [[../agent-frameworks/llamaindex]] — Google completion + embedding support
+
+## Recent API Updates (June 2026)
+
+- **Interactions API** (Beta): New API for interactive workflows with Gemini 2.5 Flash Native Audio
+- **Live API**: Improved complex workflow handling for Gemini 2.5 Flash
+

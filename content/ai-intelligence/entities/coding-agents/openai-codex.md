@@ -6,7 +6,7 @@ tags:
   - openai
   - llm-provider
 created: '2026-06-04'
-updated: '2026-06-04'
+updated: '2026-06-08'
 status: published
 confidence: high
 sources: [raw/articles/coding-agent-openai-codex-2026.md]
@@ -32,6 +32,9 @@ OpenAI's autonomous coding agent, launched as a CLI tool. Now powered primarily 
 - Built-in terminal execution with safety approvals
 - Git-aware: understands branches, diffs, commit history
 - MCP server support for tool integrations
+
+- **Web Search** (2026): Codex now enables web search for local tasks in the CLI and IDE Extension. Uses OpenAI-maintained web search cache by default.
+
 
 ## Workflow
 

@@ -3,7 +3,7 @@ title: "Amazon Nova Act"
 type: entity
 tags: ["coding-agent", "cloud", "aws", "amazon", "agent-orchestration"]
 created: "2026-06-04"
-updated: "2026-06-04"
+updated: "2026-06-08"
 status: drafted
 sources: [raw/articles/coding-agent-amazon-nova-act-2026.md]
 ---
@@ -38,6 +38,7 @@ AWS service for building and managing fleets of AI agents to automate production
 - Positioned as an enterprise-grade agent orchestration service on AWS
 - Focuses on production reliability and scale rather than developer experience
 - Complements existing AWS AI services (Bedrock, Q)
+- Competes directly with [[openai]] and [[anthropic]] in the AI agent space
 - Competes with multi-agent frameworks (LangGraph, CrewAI) in the enterprise space
 - Unique focus on UI workflow automation distinguishes from code-centric agents
 

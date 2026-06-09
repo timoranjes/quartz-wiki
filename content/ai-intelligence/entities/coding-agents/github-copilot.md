@@ -37,6 +37,10 @@ GitHub's AI coding assistant, evolved from autocomplete to full agent capabiliti
 - **User-level budget controls**: New spending limits and upgrade paths to Max
 - **Model catalog refresh**: GPT-5.5 added, legacy model retirements (o3, GPT-4.5 sunset June 27, 2026)
 
+- **Copilot CLI auto model selection** (April 17, 2026): Generally available for all Copilot plans. With `auto`, Copilot chooses the most efficient model on your behalf.
+- **Copilot CLI agentic mode in JetBrains IDEs** (June 2, 2026): Agent picker lets you choose between operating modes — Agent mode (default): Full agentic experience with autonomous task execution.
+
+
 ## Notable Features
 
 - **Model marketplace**: Can switch between OpenAI, Anthropic, and custom models

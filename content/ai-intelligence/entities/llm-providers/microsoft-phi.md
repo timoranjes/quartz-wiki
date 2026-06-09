@@ -1,9 +1,9 @@
 ---
 title: Microsoft Phi
 created: 2026-06-02
-updated: 2026-06-02
+updated: 2026-06-08
 type: provider
-tags: [provider, lab, model, reasoning, coding, vision, audio, multimodal, open-weight, pricing, edge, token-cost, timeline]
+tags: [provider, lab, model, reasoning, coding, vision, audio, multimodal, open-weight, pricing, edge, token-cost, timeline, proprietary]
 sources: [raw/articles/llm-provider-microsoft-phi-2026.md]
 confidence: 0.95
 ---
@@ -97,13 +97,34 @@ Fine-tuning is accessible on consumer hardware: full fine-tuning on single A100,
 - **OpenAI** — [[openai]] partnership context; Phi complements proprietary GPT models in Microsoft's portfolio
 - **Google Gemma / Meta Llama** — Competing open-weight SLM families in similar parameter ranges
 
+## MAI Model Family (Proprietary — Build 2026)
+
+Announced at Microsoft Build 2026 (June 2, 2026), the MAI family represents Microsoft's strategic shift from infrastructure provider to frontier model developer. These are **proprietary** models, distinct from the open-weight Phi family.
+
+| Model | Release | Type | Availability |
+|-------|---------|------|-------------|
+| **MAI-Code-1-Flash** | Jun 2026 | Fast code generation ("vibe coding") | GitHub Copilot, VS Code |
+| **MAI-Thinking-1** | Jun 2026 | Reasoning model | Private preview via Microsoft Foundry |
+
+**MAI-Code-1-Flash:** Converts natural language prompts into application and website source code. Described as "inference ultra-efficient" by Microsoft. Integrated directly into GitHub Copilot and Visual Studio Code.
+
+**MAI-Thinking-1:** Medium-sized reasoning model built for "high efficiency and performance at low-token cost." Already refined for McKinsey, where it reportedly outperforms [[openai]] GPT-5.5 with **10× better cost efficiency**. Available in private preview via Microsoft Foundry with custom data integration.
+
+**Aion models:** Small, efficient AI models that run on Windows PCs (on-device inference) for privacy-preserving, low-latency AI at the endpoint.
+
+> *"We believe the time has come for every company to just move from consuming a frontier model to fully participating at the frontier in the frontier ecosystem."* — Satya Nadella, Microsoft CEO (Build 2026)
+
+**Strategic significance:** Microsoft is vertically integrating AI — reducing dependence on [[openai]] and [[anthropic]] while capturing more value in the stack. Microsoft also invested $13B in OpenAI and $5B in Anthropic, but now competes directly with both.
+
 ## Recent Developments
 
-**Model releases (2024-2026):** Phi-4 (December 2024, 14.7B), Phi-4-mini (February 2025, 3.8B edge-optimized), Phi-4-multimodal (February 2025, 5.6B unified text/audio/vision), Phi-4-reasoning (2025, native chain-of-thought), Phi-4-reasoning-vision-15B (March 4, 2026, task-aware visual reasoning).
+**Model releases (2024-2026):** Phi-4 (December 2024, 14.7B), Phi-4-mini (February 2025, 3.8B edge-optimized), Phi-4-multimodal (February 2025, 5.6B unified text/audio/vision), Phi-4-reasoning (2025, native chain-of-thought), Phi-4-reasoning-vision-15B (March 4, 2026, task-aware visual reasoning), **MAI-Code-1-Flash** (June 2, 2026, proprietary code generation), **MAI-Thinking-1** (June 2, 2026, proprietary reasoning).
 
-**Research:** "Textbooks Are All You Need" series (Phi-1 through Phi-2), Phi-3 Technical Report (April 2024), Phi-4 Technical Report (arXiv:2412.08905), Phi-4-reasoning-vision Technical Report (March 2026).
+**Research:** "Textbooks Are All You Need" series (Phi-1 through Phi-2), Phi-4 Technical Report (arXiv:2412.08905), Phi-4-reasoning-vision Technical Report (March 2026).
 
 **Integration:** Phi models integrated into Windows Copilot+ PCs for always-on low-power AI experiences. First open-sourced model with speech summarization capability. Active GGUF quantization support via llama.cpp community.
+
+**Build 2026 (June 2, 2026):** Launched MAI proprietary model family (MAI-Code-1-Flash, MAI-Thinking-1) and Aion on-device models. Updated cloud-based models for speech recognition, synthetic voice generation, and image generation.
 
 ## Coding Agents Using Microsoft Models
 

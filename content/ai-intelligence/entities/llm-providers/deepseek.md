@@ -14,7 +14,7 @@ confidence: 0.95
     <span class="provider-badge cn">🇨🇳 Hangzhou</span>
   </div>
   <div class="entity-meta">
-    <div><span class="entity-meta-key">Latest Model</span><span class="entity-meta-value">DeepSeek-V3.2</span></div>
+    <div><span class="entity-meta-key">Latest Model</span><span class="entity-meta-value">DeepSeek-V3.2 / V3-0324</span></div>
     <div><span class="entity-meta-key">Strength</span><span class="entity-meta-value">LiveCodeBench Top-3</span></div>
     <div><span class="entity-meta-key">Pricing</span><span class="entity-meta-value">~1/10 of GPT-4</span></div>
   </div>
@@ -35,7 +35,7 @@ The current flagship is the V4 family (April 2026), featuring novel CSA+HCA hybr
 | **DeepSeek V4 Pro** | `deepseek-v4-pro` | 1.6T | 49B | 1M tokens | MIT |
 | **DeepSeek V4 Flash** | `deepseek-v4-flash` | 284B | 13B | 1M tokens | MIT |
 
-**Legacy:** `deepseek-chat` and `deepseek-reasoner` names are deprecated; they map to non-thinking and thinking modes of V4 Flash respectively.
+**Legacy:** In March 2025, DeepSeek released DeepSeek-V3-0324 with an improved post-training pipeline drawing lessons from RL techniques in DeepSeek-R1. `deepseek-chat` and `deepseek-reasoner` names are deprecated; they map to non-thinking and thinking modes of V4 Flash respectively.
 
 **Architecture innovations (V4):** Compressed Sparse Attention (CSA) + Heavily Compressed Attention (HCA) hybrid; Manifold-Constrained Hyper-Connections (mHC); Muon optimizer replacing AdamW; FP4 Quantization-Aware Training. These innovations deliver 27% of V3.2 FLOPs and 10% of V3.2 KV cache at 1M context.
 

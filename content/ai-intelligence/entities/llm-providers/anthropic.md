@@ -1,7 +1,7 @@
 ---
 title: Anthropic
 created: 2026-06-02
-updated: 2026-06-02
+updated: 2026-06-08
 type: provider
 tags: [provider, lab, model, reasoning, coding, agentic, tool-use, pricing, api, closed, token-cost, timeline, safety, constitutional-ai]
 sources: [raw/articles/llm-provider-anthropic-2026.md]
