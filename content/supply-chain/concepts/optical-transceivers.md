@@ -1,7 +1,7 @@
 ---
 title: Optical Transceivers
 created: 2026-05-29
-updated: 2026-06-04
+updated: 2026-06-09
 type: concept
 tags: [optical, bottleneck, cpo, supply-demand]
 sources: [raw/articles/techtimes-optical-component-shortage-2026.md, raw/articles/华泰证券光模块功耗提升驱动液冷加速渗透-d4d1cddddd863554.md, raw/articles/lambda-offers-glimpse-into-nvidias-cpo-switch-enabling-more--af33bef83d3dc68c.md]
@@ -66,6 +66,13 @@ At the heart of the crisis is the **electro-absorption modulated laser (EML)**:
 - Key advantage: CPO switches eliminate the need for traditional transceivers entirely, reducing power consumption per port and enabling "more tokens" per watt of compute
 - Confirms CPO is moving from R&D to production deployment; neoclouds are early adopters as power constraints tighten
 - This validates the [[optical-transceivers]] bottleneck thesis: CPO is the structural solution to the EML laser/transceiver shortage, but adoption timeline remains uncertain
+
+## Manufacturing Quality Challenges — Optical Module Defects (June 2026)
+
+- A 25-year-old engineer's unauthorized modification to optical module device manufacturing created an industry-standard process, but also introduced a persistent quality defect: **a single press mark (压痕) on optical module components causes millions of RMB in annual scrap**
+- The defect plagued the entire company for years without resolution — highlights the **craft-dependent, tacit-knowledge nature** of optical module manufacturing
+- This is a hidden supply chain vulnerability: optical module production quality is highly sensitive to process variations, and the talent pool of experienced process engineers is limited
+- As demand for 800G/1.6T modules surges, manufacturing yield becomes a bottleneck multiplier — even small yield improvements have outsized impact on effective supply
 
 ## Timeline
 
