@@ -18,7 +18,7 @@ configuration:
     cdnCaching: true
     typography:
       header: "Plus Jakarta Sans"
-      body: Inter
+      body: "DM Sans"
       code: "JetBrains Mono"
     colors:
       lightMode:
