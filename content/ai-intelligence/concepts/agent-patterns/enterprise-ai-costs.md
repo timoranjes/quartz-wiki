@@ -3,7 +3,7 @@ title: "Enterprise AI Cost Management"
 type: concept
 tags: [cost-optimization, code-generation]
 created: "2026-06-04"
-updated: "2026-06-08"
+updated: "2026-06-10"
 status: drafted
 sources:
   - "raw/sources/2026-06-03-uber-caps-usage-of-ai-tools-like-claude-code-to-manage-costs.md"
@@ -58,6 +58,10 @@ LLM API prices dropped approximately **80%** between early 2025 and early 2026, 
 | Gemini 3.1 Flash-Lite | N/A | $0.25/MTok | New ultra-low |
 
 **Implication for enterprise:** The cost-per-agent-hour continues to decline, making AI agent deployments increasingly economical even with heavy usage.
+
+## Cost Observability Tools
+
+**AgentsView** (by Wes McKinney) — local token usage analytics tool for coding agents. Provides treemap visualization of cost attribution across projects, models, and agents. Tracks cache efficiency (reads/writes/uncached), session-level costs, and supports custom model pricing for newly released models not yet in standard pricing databases. Observed usage: single Claude Fable 5 session consuming 55.9M tokens at $74.06 cost. ^[raw/sources/2026-06-09-setting-a-custom-price-for-a-model-in-agentsview.md]
 
 ## Related
 

@@ -3,7 +3,7 @@ title: AI Engineering Culture
 type: concept
 tags: [automation, safety, productivity]
 created: "2026-06-07"
-updated: "2026-06-08"
+updated: "2026-06-10"
 status: drafted
 ---
 
@@ -35,6 +35,10 @@ The organizational and cultural dynamics that emerge when teams adopt AI-assiste
 - **80% of new enterprise applications** now ship with an agent component
 - **MCP** has become the "USB-C of AI tooling" — the standard for agent-tool integration
 - **Small Language Models (SLMs)** have significantly reduced inference costs, enabling more deployments
+
+### Jevons Paradox for Software (June 2026)
+
+[[anthropic]] employee Andrej Karpathy observed that as working software increasingly comes "on a tap," Jevons paradox is kicking in — rather than reducing demand for software, cheaper/easier software creation is substantially *growing* total demand. Developers can now ask for explainers, visualizers, dashboards, bespoke single-use apps, 10x test suites, auto-optimized code, and giant research projects with custom HTML results. The implication: AI-assisted development doesn't reduce engineering headcount needs — it expands the universe of what gets built. ^[raw/sources/2026-06-09-quoting-andrej-karpathy.md]
 
 ## Organizational Design Challenge
 

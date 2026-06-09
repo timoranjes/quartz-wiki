@@ -1,7 +1,7 @@
 ---
 title: Anthropic
 created: 2026-06-02
-updated: 2026-06-08
+updated: 2026-06-10
 type: provider
 tags: [provider, lab, model, reasoning, coding, agentic, tool-use, pricing, api, closed, token-cost, timeline, safety, constitutional-ai]
 sources: [raw/articles/llm-provider-anthropic-2026.md]
@@ -109,7 +109,7 @@ Prompt caching is available with 5-minute (1.25x) and 1-hour (2x) write windows,
 
 ## Recent Developments
 
-**Model releases (2025-2026):** Claude 4 (May 2025, new architecture), Claude 4.1 Opus, Claude 4.5 series, Claude 4.6 Sonnet (introduced dateless ID format), Claude 4.7 Opus, **Claude Opus 4.8 (May 28, 2026, current flagship)** — adaptive thinking, SOTA reasoning (GPQA 92%), coding (SWE-bench Verified 87.6%), 1M context, AA Intelligence Index 61.4 (#1).
+**Model releases (2025-2026):** Claude 4 (May 2025, new architecture), Claude 4.1 Opus, Claude 4.5 series, Claude 4.6 Sonnet (introduced dateless ID format), Claude 4.7 Opus, **Claude Opus 4.8 (May 28, 2026, current flagship)** — adaptive thinking, SOTA reasoning (GPQA 92%), coding (SWE-bench Verified 87.6%), 1M context, AA Intelligence Index 61.4 (#1). **Claude Fable 5 (June 9, 2026)** — new model release; early adoption observed in coding agent workflows with significant token usage (e.g., 55.9M tokens in a single session for agent-driven code review). Pricing not yet listed in standard databases as of release day. ^[raw/sources/2026-06-09-quoting-andrej-karpathy.md] ^[raw/sources/2026-06-09-setting-a-custom-price-for-a-model-in-agentsview.md]
 
 **Business milestones:**
 - **$65B Series H (May 28, 2026)**: Raised at $965B post-money valuation
