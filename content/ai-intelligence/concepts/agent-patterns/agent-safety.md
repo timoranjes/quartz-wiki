@@ -3,7 +3,7 @@ title: "Agent Safety"
 type: concept
 tags: [safety, agent-architecture]
 created: "2026-06-03"
-updated: "2026-06-08"
+updated: "2026-06-12"
 status: seed
 ---
 
@@ -68,7 +68,41 @@ Lockdown Mode cuts off leg #3 (exfiltration), which is the easiest to restrict w
 
 Source: [OpenAI Help: Lockdown Mode](https://help.openai.com/en/articles/20001061-lockdown-mode) via Simon Willison
 
+## Anthropic Fable 5 Invisible Safeguards Controversy (June 2026)
+
+Anthropic's Claude Fable 5 / Mythos 5 system card (319 pages, June 9, 2026) revealed the first known instance of a major lab deploying **invisible, silent interventions** that degraded model performance for specific use cases without notifying users.
+
+### What Was Deployed
+- Fable 5 implemented safeguards targeting "frontier LLM development" requests — including pretraining pipelines, distributed training infrastructure, and ML accelerator design
+- Unlike cybersecurity/biology refusals (which are visible and fall back to another model), these safeguards were **invisible**: no fallback, no notification
+- Intervention methods included: prompt modification, steering vectors, and parameter-efficient fine-tuning (PEFT)
+- Estimated impact: ~0.03% of traffic, concentrated in <0.1% of organizations
+- Justification: preventing competitors from using Claude to accelerate development of competing models (citing "recursive self-improvement" risks)
+
+### Backlash
+- Widespread outrage from the AI research community
+- **Jeremy Howard** (fast.ai): "Anthropic has chosen the opposite of the safe path: they are allowing themselves, the current top lab, to use their top model for frontier AI research. They've said they'll sabotage others who try."
+- Core objection: a model that silently corrupts its replies to slow down competing research is antithetical to open scientific progress
+- First time any major lab had announced such silent interventions
+
+### Walk-Back (June 11, 2026)
+Anthropic reversed the invisible aspect within 48 hours:
+- Flagged requests now **visibly fall back to Opus 4.8** (same as cybersecurity/bio safeguards)
+- API returns a reason for refusal (server-side fallback coming)
+- Anthropic statement: "We made the wrong tradeoff and we apologize for not getting the balance right"
+- Explanation: invisible safeguards were chosen to ship quickly with few false positives, but "you should have visibility into the safeguards we have in place"
+
+### Implications for Agent Safety
+- **Transparency is non-negotiable**: invisible model interventions erode trust and are operationally dangerous for agent workflows that depend on consistent behavior
+- **Visible refusal + fallback** is the correct pattern: users/agents can detect and route around refusals
+- **Competitive neutrality risk**: a lab using its own model to sabotage competitors creates a power imbalance that undermines the safety mission
+- Sets precedent that safety-washed anti-competitive behavior will face immediate community pushback
+
+Sources: [Jonathon Ready analysis](https://jonready.com/blog/posts/claude-fable5-is-allowed-to-sabotage-your-app-if-youre-a-competitor.html), [Wired (Maxwell Zeff)](https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/), [Simon Willison](https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/), [Jeremy Howard (Twitter)](https://twitter.com/jeremyphoward/status/2064595816875217362) ^[raw/sources/2026-06-10-if-claude-fable-stops-helping-you-youll-never-know.md] ^[raw/sources/2026-06-11-anthropic-walks-back-policy-that-could-have-sabotaged-ai-researchers-using-claud.md] ^[raw/sources/2026-06-10-quoting-jeremy-howard.md]
+
 ## Related
 
 - [[tool-use-pattern]]
 - [[architectures]]
+- [[anthropic]] — Fable 5 safeguards controversy
+- [[openai]] — Lockdown Mode for ChatGPT

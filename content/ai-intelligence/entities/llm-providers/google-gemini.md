@@ -1,7 +1,7 @@
 ---
 title: Google Gemini
 created: 2026-06-02
-updated: 2026-06-10
+updated: 2026-06-12
 type: provider
 tags: [provider, lab, cloud-platform, model, reasoning, coding, vision, audio, multimodal, agentic, tool-use, pricing, api, closed, token-cost, timeline]
 sources: [raw/articles/llm-provider-google-gemini-2026.md]
@@ -111,7 +111,7 @@ Context caching is available in Paid and Enterprise tiers, priced per 1M tokens 
 
 ## Recent Developments
 
-**Model releases (2025-2026):** Gemini 2.0 (December 2024), Gemini 2.5 family (2025), Gemini 3 family (2025-2026), Gemini 3.5 Flash (May 19, 2026, current production flagship), Gemini 3.1 Pro and Flash-Lite (2026), **Gemini 3.5 Pro (announced for June 2026, reasoning-focused)**, Nano Banana 2 (2026), Veo 3.1 (2026), **Gemma 4 12B** (June 2026, unified encoder-free multimodal open model), **Gemma 4 QAT models** (June 2026, quantization-aware training for mobile/laptop efficiency).
+**Model releases (2025-2026):** Gemini 2.0 (December 2024), Gemini 2.5 family (2025), Gemini 3 family (2025-2026), Gemini 3.5 Flash (May 19, 2026, current production flagship), Gemini 3.1 Pro and Flash-Lite (2026), **Gemini 3.5 Pro (announced for June 2026, reasoning-focused)**, Nano Banana 2 (2026), Veo 3.1 (2026), **Gemma 4 12B** (June 2026, unified encoder-free multimodal open model), **Gemma 4 QAT models** (June 2026, quantization-aware training for mobile/laptop efficiency), **DiffusionGemma 26B-A4B** (June 10, 2026) — open-weight (Apache 2) diffusion-based text model, 26B total params with 4B active (MoE), 500+ tokens/second on [[nvidia]] NIM cloud API. Evolution of the experimental Gemini Diffusion model previewed May 2025 (857 tok/s). HuggingFace: `google/diffusiongemma-26B-A4B-it`. ^[raw/sources/2026-06-10-diffusiongemma.md]
 
 **Strategic initiatives:** Google I/O 2026 — "Welcome to the agentic Gemini era." Gemini app becomes more agentic with proactive, 24/7 help. Gemini Spark and Antigravity Agent announced. TPU sales opened to external customers (April 2026). Gemini Enterprise Agent Platform launched for enterprise agentic workflows on Google Cloud. Gemini for Science: AI experiments and tools for discovery.
 

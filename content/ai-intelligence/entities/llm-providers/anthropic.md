@@ -1,7 +1,7 @@
 ---
 title: Anthropic
 created: 2026-06-02
-updated: 2026-06-10
+updated: 2026-06-12
 type: provider
 tags: [provider, lab, model, reasoning, coding, agentic, tool-use, pricing, api, closed, token-cost, timeline, safety, constitutional-ai]
 sources: [raw/articles/llm-provider-anthropic-2026.md]
@@ -36,7 +36,9 @@ Anthropic maintains a focused three-tier model family:
 
 | Model | API ID | Context | Pricing in/out (per 1M) | Type |
 |-------|--------|---------|-------------------------|------|
-| **Claude Opus 4.8** | `claude-opus-4-8` | 1M tokens | $5.00 / $25.00 | Flagship, adaptive thinking |
+| **Claude Fable 5** | `claude-fable-5` | 1M tokens | $10.00 / $50.00 | Flagship with strict guardrails |
+| **Claude Mythos 5** | `claude-mythos-5` | 1M tokens | $10.00 / $50.00 | Same capabilities, no safety classifiers |
+| **Claude Opus 4.8** | `claude-opus-4-8` | 1M tokens | $5.00 / $25.00 | Previous flagship, adaptive thinking |
 | **Claude Sonnet 4.6** | `claude-sonnet-4-6` | 1M tokens | $3.00 / $15.00 | Balanced, extended thinking |
 | **Claude Haiku 4.5** | `claude-haiku-4-5` | 200K tokens | $1.00 / $5.00 | Fast, latency-optimized |
 | **Claude Mythos** | — | — | Invitation-only | Cybersecurity (Project Glasswing) |
@@ -109,7 +111,7 @@ Prompt caching is available with 5-minute (1.25x) and 1-hour (2x) write windows,
 
 ## Recent Developments
 
-**Model releases (2025-2026):** Claude 4 (May 2025, new architecture), Claude 4.1 Opus, Claude 4.5 series, Claude 4.6 Sonnet (introduced dateless ID format), Claude 4.7 Opus, **Claude Opus 4.8 (May 28, 2026, current flagship)** — adaptive thinking, SOTA reasoning (GPQA 92%), coding (SWE-bench Verified 87.6%), 1M context, AA Intelligence Index 61.4 (#1). **Claude Fable 5 (June 9, 2026)** — new model release; early adoption observed in coding agent workflows with significant token usage (e.g., 55.9M tokens in a single session for agent-driven code review). Pricing not yet listed in standard databases as of release day. ^[raw/sources/2026-06-09-quoting-andrej-karpathy.md] ^[raw/sources/2026-06-09-setting-a-custom-price-for-a-model-in-agentsview.md]
+**Model releases (2025-2026):** Claude 4 (May 2025, new architecture), Claude 4.1 Opus, Claude 4.5 series, Claude 4.6 Sonnet (introduced dateless ID format), Claude 4.7 Opus, **Claude Opus 4.8 (May 28, 2026)** — adaptive thinking, SOTA reasoning (GPQA 92%), coding (SWE-bench Verified 87.6%), 1M context, AA Intelligence Index 61.4 (#1). **Claude Fable 5 + Mythos 5 (June 9, 2026)** — new frontier models, 1M context, 128K max output, Jan 2026 knowledge cutoff. Fable 5 has strict guardrails; Mythos 5 shares capabilities without safety classifiers. Priced at 2× Opus 4.8 ($10/$50 per 1M tokens). Available on Claude.ai, Claude Code for web, Claude Code CLI, and Claude Cowork. On subscription plans until June 22, 2026, then billed extra. Demonstrated "big model" knowledge depth and strong coding ability — built LLM 0.32a3 (Datasette Agent human-in-the-loop features) almost entirely via Claude Code in one day. ^[raw/sources/2026-06-09-initial-impressions-of-claude-fable-5.md]
 
 **Business milestones:**
 - **$65B Series H (May 28, 2026)**: Raised at $965B post-money valuation
@@ -124,6 +126,8 @@ Prompt caching is available with 5-minute (1.25x) and 1-hour (2x) write windows,
 **Product:** Claude Code at Scale for enterprise deployment, extended output beta (up to 300K tokens via batch API), fast mode research preview for Opus models, Project Glasswing (cybersecurity initiative expanded June 2, 2026 with 12 partners), **Claude Partner Network (June 3, 2026)**: New Services Track and Partner Hub launched.
 
 **AI-enabled cyber threats mapping (June 3, 2026)**: Published findings from mapping a year's worth of AI-enabled cyber threats using MITRE ATT&CK framework.
+
+**Fable 5 safeguards controversy (June 9-11, 2026):** The 319-page Fable 5/Mythos 5 system card revealed invisible safeguards that silently limited model effectiveness for "frontier LLM development" requests (pretraining pipelines, distributed training, ML accelerator design) via prompt modification, steering vectors, and PEFT — estimated ~0.03% of traffic, <0.1% of organizations. Unlike cybersecurity/biology refusals, these were invisible: no fallback model, no user notification. Widespread backlash from the research community (notably Jeremy Howard) over "sabotaging" competitors. Anthropic walked back the policy within 48 hours: flagged requests now visibly fall back to Opus 4.8, API returns refusal reasons. See [[../agent-patterns/agent-safety]] for details. ^[raw/sources/2026-06-10-if-claude-fable-stops-helping-you-youll-never-know.md] ^[raw/sources/2026-06-11-anthropic-walks-back-policy-that-could-have-sabotaged-ai-researchers-using-claud.md] ^[raw/sources/2026-06-10-quoting-jeremy-howard.md]
 
 ## Coding Agents Using Anthropic Models
 
