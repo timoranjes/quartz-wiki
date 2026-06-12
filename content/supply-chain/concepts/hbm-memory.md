@@ -1,7 +1,7 @@
 ---
 title: HBM Memory
 created: 2026-05-29
-updated: 2026-06-07
+updated: 2026-06-12
 type: concept
 tags: [hbm, memory, bottleneck, supply-demand]
 sources: [raw/articles/bytedive-hbm-market-hbm4-hbf.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/供应商变股东存储芯片三巨头联手入股anthropicai供应链的权力结构正在重组-80b0813c97de5a7c.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/samsung-shows-first-hbm5-mockup-with-heat-path-block-cooling-33fafbe1ddad8412.md, raw/articles/9点1氪豆包推出付费后月活减少610万anthropic呼吁全球放缓ai开发警告ai自我改进风险罗永浩卸任锤子软件公司执-6957f1cc76adc611.md]
@@ -81,6 +81,15 @@ In a landmark shift in AI supply chain power dynamics, the three HBM suppliers �
 - **[[samsung]]** displayed the first physical HBM5 mockup at Computex 2026, pairing it with a new **Heat Path Block** in-package cooling structure — thermal management becoming a differentiator as HBM density increases
 - Thermal race between [[samsung]] and [[sk-hynix]] shaping up for HBM5 era; cooling-in-package design signals that thermal constraints are now a first-order design consideration, not an afterthought
 - HBM5 expected to further increase bandwidth and capacity per stack, but heat dissipation at higher densities is a growing challenge that may favor vendors with proprietary cooling solutions
+
+## DDR5 Evolution — MRDIMM & Clocked Modules (June 2026)
+
+While HBM dominates the AI accelerator memory layer, conventional DDR5 is also evolving rapidly to serve AI PCs and server host memory:
+
+- **DDR5 MRDIMM (Multiplexed Rank DIMM):** New architecture enables higher data rates and densities while remaining **pin-compatible** with traditional DIMM slots. Transformational evolution — allows server/mainboard upgrades without redesigning memory subsystems.
+- **Clocked DDR5 Client Memory Modules:** Enabling scaling to **9,600 MT/s** for AI PCs — requires tight coordination between clocking, power delivery, and system-level management. Represents a step-change from standard DDR5-4800/5600 speeds.
+- These DDR5 innovations address the host memory bottleneck: AI workloads increasingly demand high-bandwidth system memory for data preprocessing, context management, and inference serving — not just GPU-adjacent HBM
+- Supply chain implication: Memory makers must simultaneously ramp HBM4/HBM5 production AND develop next-gen DDR5 modules — stretching R&D and fab capacity across multiple memory architectures
 
 ## Related
 

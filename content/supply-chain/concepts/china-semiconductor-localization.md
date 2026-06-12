@@ -1,7 +1,7 @@
 ---
 title: China Semiconductor Localization
 created: 2026-05-29
-updated: 2026-06-09
+updated: 2026-06-12
 type: concept
 tags: [localization, export-controls, bottleneck]
 sources: [raw/articles/wikipedia-china-semiconductor-industry.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/tiktok-owner-bytedance-is-reportedly-developing-its-own-cust-13089b2d7ddab835.md, raw/articles/华为发布韬τ定律重构后摩尔时代的中国技术路径-9653afbd1253c669.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/edge-ai-daily-早报6月1日-abe98024bd263e34.md, raw/articles/us-closes-loophole-that-allowed-chinese-owned-subsidiaries-l-2baccdec109451b3.md, raw/articles/mainland-chinese-exhibitors-reportedly-locked-out-of-compute-fabcc678cf012315.md, raw/articles/36氪独家-火山引擎提升maas营收目标至全年150亿元seedance-20单月营收已超10亿元-6ecf7e73eb3e01e8.md, raw/articles/投资长鑫科技与宇树科技-险资耐心资本布棋新质生产力-babf6169ac95ef7d.md, raw/articles/36氪独家2026-年字节-ai-的四个关键命题-15b041f70c816c83.md, raw/articles/token大战中华为云选择了第三条路最前线-11bb6cc5c8b5d54c.md]
@@ -118,6 +118,28 @@ Strategic significance: Huawei is building the full domestic AI stack from silic
 ## Geopolitical Fragmentation
 
 The industry is bifurcating into distinct ecosystems: US/Taiwan/Japan alliance controlling advanced nodes, while China builds domestic capacity for mature nodes. This adds complexity to supply chain management and creates new dynamics where government policy increasingly overrides market economics.
+
+## Meta-Manus Breakup — Beijing-Ordered $2B AI Deal Unraveling (June 2026)
+
+- **Meta** has finished separating operations from **Manus**, the Chinese-founded agentic AI startup it acquired for ~$2 billion in December 2025
+- Meta is "sunsetting" the Manus platform and cutting it off from internal systems
+- Trigger: Chinese government ordered the breakup — signals Beijing is tightening control over AI technology transfers to US companies
+- Supply chain significance: This is the largest known AI acquisition unwinding driven by geopolitical intervention. Sets precedent that cross-border AI M&A faces dual regulatory risk (both US CFIUS and China's equivalent). May chill future US-China AI deals and accelerate bifurcation of AI ecosystems.
+
+## BOE Added to US DOD "Chinese Military Enterprise" List (June 2026)
+
+- **BOE (京东方)** — the world's largest display panel manufacturer — was added to the US Department of Defense's 1260H list of "Chinese military enterprises"
+- BOE publicly stated the designation was "without justified reason" and is contesting the listing
+- BOE is a major supplier of display panels for consumer electronics, automotive, and increasingly AR/VR/AI edge devices
+- If the designation stands, BOE could face procurement restrictions from US government and defense contractors
+- Signal: The 1260H list is expanding beyond traditional defense-adjacent companies into commercial technology manufacturers — widens the scope of supply chain disruption risk
+
+## WuXi AppTec Sues US DOD Over 1260H Designation (June 2026)
+
+- **药明康德 (WuXi AppTec)** filed suit against the US Department of Defense in US Federal District Court (DC) on June 11, 2026, challenging its designation as a "Chinese military company" (CMC) on the 1260H list
+- Seeking: declaratory judgment that the designation is invalid, vacatur of the CMC determination, and removal from the list
+- WuXi AppTec is primarily a pharmaceutical CRO/CDMO — not a semiconductor company — but the 1260H mechanism has cross-sector implications
+- Signal: Companies are increasingly willing to litigate against US defense listings, suggesting the legal basis for some designations may be contestable. However, the litigation itself creates uncertainty for business partners.
 
 ## ByteDance AI Strategy (June 2026)
 
