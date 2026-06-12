@@ -1,7 +1,7 @@
 ---
 title: AI Supply Chain Bottlenecks
 created: 2026-05-29
-updated: 2026-06-09
+updated: 2026-06-12
 type: concept
 tags: [bottleneck, overview, supply-demand]
 sources: [raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/memory-chip-shortage-makes-bare-metal-cloud-cheaper-than-on--edfcd0c4ac8be554.md, raw/articles/铜价奔向105万背后-新能源吃铜铜也正在改变新能源的胃口-ed818e409ba9c630.md, raw/articles/nikon-weaponizes-lower-prices-to-break-asmls-lithography-mon-d80faf94d9d9f30e.md, raw/articles/nikon-leveraging-arf-scanner-price-to-challenge-asml-860597fb09228073.md, raw/articles/32gb-of-ddr5-now-costs-375-minimum-ai-shortage-continues-to--330314b0df8fea84.md, raw/articles/counterfeit-gskill-and-v-color-ddr5-modules-hit-chinese-mark-cf70114c03127ac0.md]
@@ -74,6 +74,34 @@ Nutanix CEO Rajiv Ramaswami reported that the ongoing memory chip shortage is dr
 
 - **Anthropic expanding DC energy team (May 2026):** Meta's Andrew Rudersdorf joined Anthropic's data center energy team, signaling that AI companies are prioritizing dedicated energy infrastructure expertise as compute demand grows.
 - **NOV + TerraFlow partnership (May 2026):** National Oilwell Varco partnering with TerraFlow on fiberglass solutions for AI data center long-duration energy storage. Reflects the growing intersection of materials science (fiberglass) and AI infrastructure energy needs.
+
+## NAND Supply Lock-Up — Biwin $1.86B Deal (June 2026)
+
+- **Biwin** signed a **$1.86 billion, 24-month NAND supply agreement** with an unnamed NAND manufacturer, locking in fixed pricing
+- Reason: spot market "threatens to dry up" — crushing NAND shortages are forcing SSD manufacturers to secure long-term supply at any cost
+- Signal: NAND shortage is now severe enough that mid-tier SSD makers are pre-paying billions to guarantee supply, confirming memory bottleneck extends well beyond HBM into commodity NAND
+- Implications: Fixed-price long-term NAND deals will tighten spot market further, pushing smaller buyers out; consumer SSD prices likely to rise
+
+## Memory Famine Spillover — GPU Vendors Re-Releasing 2020 Cards (June 2026)
+
+- GPU manufacturers (Manli) re-releasing **GeForce RTX 3060 and RTX 3050** in Asian markets — graphics cards originally launched in 2020
+- Reason: memory (GDDR6) shortages prevent production of newer GPU models
+- This is an unprecedented signal: the memory bottleneck is so severe that the industry is recycling 6-year-old GPU designs because they use less/no HBM and older-generation memory
+- Extends the memory bottleneck timeline: even consumer GPU supply is constrained by the same memory capacity that AI is consuming
+
+## SK Hynix Equipment Suppliers Request Price Increases (June 2026)
+
+- Multiple equipment suppliers to SK Hynix have submitted **price increase requests** (per Tmtpost/钛晨报)
+- Reflects upstream equipment makers capitalizing on memory makers' desperate capacity expansion needs
+- Creates a cost pass-through effect: SK Hynix's capex to expand HBM/DRAM capacity becomes more expensive, potentially delaying expansion timelines or pushing costs to end customers
+
+## Compute Pricing Decline — Token Commoditization (June 2026)
+
+- **Compute prices continuing to fall:** "百万Token只要几块钱" (a few yuan per million tokens) at Chinese compute marketplaces
+- **OpenAI considering significant price cuts** to compete with Anthropic for enterprise users — token pricing under pressure
+- 80% of compute marketplace customers are SMEs across education, e-commerce, AI, and robotics
+- **Neura Robotics** (Germany) raised **$1.4 billion** C-round from Amazon, NVIDIA, and European Investment Bank — signals continued massive capital inflows into AI/robotics
+- Signal: While hardware supply remains constrained, compute pricing is being driven down by competition among model providers and compute aggregators — the bottleneck is physical supply, but the economic layer is experiencing deflation
 
 ## Related
 

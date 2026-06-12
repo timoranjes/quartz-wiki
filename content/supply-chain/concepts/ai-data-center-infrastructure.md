@@ -1,7 +1,7 @@
 ---
 title: AI Data Center Infrastructure
 created: 2026-06-01
-updated: 2026-06-09
+updated: 2026-06-12
 type: concept
 tags: [compute, capex-cycle, bottleneck]
 sources: [raw/articles/softbank-to-spend-up-to-87-billion-on-french-ai-data-centers-fa26f7623145398e.md, raw/articles/lead-or-be-regulated-future-proofing-data-centers-through-re-87b8cf7e9fce73a6.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/coreweave-claims-to-have-first-nvidia-vera-rubin-nvl72-up-an-a9e2366701f46bad.md, raw/articles/supermicro-shows-off-vera-rubin-nvl72-rack-with-all-new-type-32aecf9e2098109e.md, raw/articles/siemens-nvidia-and-fluence-develop-reference-electrical-and--acc011b090d04fc8.md, raw/articles/how-we-used-gemini-to-build-google-io-2026-8558fcd3b2b6a033.md, raw/articles/ai-data-center-demand-larger-than-were-prepared-for-despite--5a3098734e2904a8.md, raw/articles/qts-looking-to-build-temporary-power-plant-to-support-test-o-e11044d4b97056fc.md, raw/articles/brookfield-ups-french-data-center-investment-by-10-billion-7337d711ae3a496a.md, raw/articles/豆包6月下旬正式付费并加速打通抖音电商丨36氪独家-e30eb205e0c9bb34.md, raw/articles/1-megawatt-racks-in-data-centers-f0cc6b7935adc4b5.md, raw/articles/coolit-designs-15kw-coldplate-to-future-proof-liquid-cooling-4c012ad8c3937390.md, raw/articles/google-signs-920m-monthly-compute-deal-with-spacex-companys--e52986c04b04b6c6.md, raw/articles/数智周报消息称deepseek计划在首轮融资中筹集约70亿美元估值高达590亿美元arm首席执行官存储芯片供应整体仍吃紧-75a0edff607543ce.md]
@@ -101,6 +101,27 @@ NVIDIA's next-generation Vera Rubin NVL72 platform is entering production deploy
 - Apple demonstrating cross-platform Siri upgrades in macOS 27, relying on Google Gemini models for Apple Intelligence features
 - Apple's inability to deliver competitive on-device AI pushes more compute to cloud → incremental demand for data center GPU capacity
 - Deepens the Google-Apple compute supply chain relationship
+
+## Major DC Financing & Power Deals (June 2026)
+
+- **Amazon $17.5B loan:** Secured largest-in-class loan for AI data center buildout, with lenders including Citibank, BofA, and JPMorgan Chase. Signals debt financing for AI infrastructure reaching unprecedented scale.
+- **KKR Helix Digital Infrastructure:** Private equity giant KKR launched dedicated DC investment vehicle, committing **$10 billion** in data center projects, led by **Adam Selipsky** (ex-AWS CEO). Focus on hyperscale data centers with secured power — confirms that DC infrastructure is now a standalone institutional asset class.
+- **Foxconn 1GW Vietnam:** Foxconn signed a 1GW renewable energy deal with Brookfield in Vietnam, underpinned by a long-term PPA. Signals manufacturing + compute power co-procurement trend in Southeast Asia.
+- **FERC PJM fast-track:** US Federal Energy Regulatory Commission approved PJM Interconnection fast-track process for large power projects, running through end of 2027. Addresses the grid interconnection queue bottleneck that has delayed DC builds.
+
+## AI Water Consumption Crisis (June 2026)
+
+- AI data centers projected to consume **up to 600 billion gallons of water by 2030** (Tom's Hardware)
+- Rising energy consumption is the primary driver — most water used for thermoelectric cooling at power plants supplying DCs, not direct DC cooling
+- Next-gen GPUs and rack systems will be even more power-hungry, compounding the water problem
+- Combined with drought zone siting risk (2/3 of 809 US DCs in drought areas), water is becoming the second physical constraint alongside power
+
+## Agentic AI Reshaping DC Architecture (June 2026)
+
+- Standalone GPUs being replaced by **heterogeneous SoCs and chiplets** combining CPUs, GPUs, and NPUs
+- Goal: eliminate memory bottlenecks, reduce latency, boost efficiency for agentic workloads
+- Signals a shift from training-centric DC design (GPU-dominant) to inference/agent-centric design (heterogeneous compute)
+- Implications for supply chain: increased demand for integrated SoC packaging ([[cowos-packaging]], [[chiplet]] designs), more complex verification flows (3D-IC multiphysics analysis)
 
 ## Related
 

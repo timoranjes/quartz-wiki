@@ -1,7 +1,7 @@
 ---
 title: Optical Transceivers
 created: 2026-05-29
-updated: 2026-06-09
+updated: 2026-06-12
 type: concept
 tags: [optical, bottleneck, cpo, supply-demand]
 sources: [raw/articles/techtimes-optical-component-shortage-2026.md, raw/articles/华泰证券光模块功耗提升驱动液冷加速渗透-d4d1cddddd863554.md, raw/articles/lambda-offers-glimpse-into-nvidias-cpo-switch-enabling-more--af33bef83d3dc68c.md]
@@ -73,6 +73,20 @@ At the heart of the crisis is the **electro-absorption modulated laser (EML)**:
 - The defect plagued the entire company for years without resolution — highlights the **craft-dependent, tacit-knowledge nature** of optical module manufacturing
 - This is a hidden supply chain vulnerability: optical module production quality is highly sensitive to process variations, and the talent pool of experienced process engineers is limited
 - As demand for 800G/1.6T modules surges, manufacturing yield becomes a bottleneck multiplier — even small yield improvements have outsized impact on effective supply
+
+## "光进铜退" — Optical Advances, Copper Retreats (June 2026)
+
+- Tmtpost published an in-depth thesis on why **optical interconnect is the only path forward for the compute explosion** ("AI时代的'光进铜退'：为什么光互连是算力爆炸的唯一出路？")
+- Core argument: copper cables have hit physical limits for bandwidth-distance products in AI data center environments; optical is not just preferable but **necessary** for scaling beyond current rack densities
+- Optical modules transitioning from "supporting component" (配套) to "lead actor" (主角) in data center architecture
+- This thesis reinforces the structural bottleneck analysis: if optical is the ONLY path, then the EML laser shortage, fiber preform constraints, and module manufacturing yield issues become existential constraints on AI compute scaling — not just pricing inconveniences
+
+## Optically Connected Rack for AI Scale-Up (June 2026)
+
+- Semiconductor Engineering published details on **production-ready optically connected racks** for AI scale-up, designed to deliver bandwidth density and efficiency needed to scale AI compute clusters to **1,000+ accelerators**
+- Key innovation: optical connectivity replacing electrical backplane connections within and between racks
+- This represents the practical implementation of the "光进铜退" thesis — moving optical from long-haul inter-rack connections into the rack itself
+- Supply chain implication: demand for optical components expands from inter-rack (transceivers, fiber) to intra-rack (optical backplanes, silicon photonics chips), significantly increasing the total addressable optical component market per data center
 
 ## Timeline
 
