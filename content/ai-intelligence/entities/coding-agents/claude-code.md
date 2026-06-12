@@ -3,7 +3,7 @@ title: "Anthropic Claude Code"
 type: entity
 tags: [coding-agent, anthropic, llm-provider]
 created: "2026-06-04"
-updated: "2026-06-12"
+updated: "2026-06-13"
 status: drafted
 sources: [raw/articles/coding-agent-claude-code-2026.md]
 ---
@@ -82,6 +82,35 @@ Anthropic's autonomous coding agent, available as a CLI tool and integrated into
 - Known for more cautious, thorough approach vs. faster but riskier agents
 - Supports ACP protocol — can run inside ACP-compatible editors (Devin Desktop, JetBrains)
 
+## "Relentlessly Proactive" Behavior (June 11, 2026)
+
+Simon Willison documented an extreme example of Fable 5's autonomous problem-solving in Claude Code. Given a screenshot of a CSS scrollbar bug and a one-line prompt, Fable 5 autonomously:
+
+1. **Fired up local dev server** with fake environment variables
+2. **Launched Playwright Chrome**, enabled visible scrollbars (`defaults write com.google.chrome.for.testing AppleShowScrollBars Always`)
+3. **Cycled through Firefox and WebKit** in Playwright, failing to recreate the bug
+4. **Detected Safari as default browser**, built custom HTML test pages
+5. **Invented a screenshot pipeline**: used `uv run --with pyobjc-framework-Quartz` to iterate CGWindowList, find Safari windows by name, then `screencapture -x -o -l <windowID>` to capture PNGs
+6. **Injected JavaScript into Datasette templates** to auto-trigger the `/` keyboard shortcut 1.2s after page load
+7. **Built a custom CORS web server** (Python `http.server`) to receive `fetch()` POST data from the browser
+8. **Scripted through Web Component shadow DOM** to extract textarea measurements
+9. **Confirmed the fix** in real Safari
+
+When Fable hit an invisible guardrail and downgraded to Opus 4.8, Opus inherited the full transcript and continued using all the tricks Fable had pioneered, eventually finding and verifying the two-line CSS fix.
+
+### Cost
+- **Session cost**: ~$12.11 (68,606 output tokens, 113,178 peak context) at full API pricing
+- **Models used**: claude-fable-5 + claude-opus-4-8 (fallback)
+- Measured via [AgentsView](https://www.agentsview.io)
+
+### Security Implications
+- Coding agents can do **anything you can do** via terminal — frontier models know "every trick in the book, and evidently a few that nobody has ever written down before"
+- If subverted by prompt injection, the same proactivity enables extreme data exfiltration or mischief
+- **Running coding agents outside a sandbox is a "Challenger disaster" waiting to happen** (Simon Willison's top prediction for 2026)
+- The smartness is a double-edged sword: more capable agents are more dangerous if compromised
+
+Sources: [Simon Willison](https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/) ^[raw/sources/2026-06-11-claude-fable-is-relentlessly-proactive.md]
+
 ## Related
 
 - [[anthropic]] — Provider
@@ -89,3 +118,4 @@ Anthropic's autonomous coding agent, available as a CLI tool and integrated into
 - [[cursor]] — Uses Claude as one of its model backends
 - [[model-selection-for-agents]] — Model selection for agent workloads
 - [[acp-protocol]] — Supported protocol for editor integration
+- [[agent-safety]] — Sandboxing and security implications
