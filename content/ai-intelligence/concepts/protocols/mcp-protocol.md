@@ -1,7 +1,7 @@
 ---
 title: MCP (Model Context Protocol)
 created: 2026-06-01
-updated: 2026-06-02
+updated: "2026-06-13"
 type: concept
 tags:
   - integration
@@ -86,7 +86,45 @@ MCP is an open standard for connecting LLMs to external tools, data sources, and
 - **OpenHands**: MCP integration for autonomous coding agents
 - **Codex**: MCP-compatible tool pipeline
 
+## MCP in Scientific Workflows: AgentBuild (June 2026)
+
+**AgentBuild** (arXiv:2606.12834) demonstrates MCP + [[acp-protocol|A2A]] (Agent-to-Agent) protocol for scientific workflow automation.
+
+### Approach
+- Treats agent construction as a **workflow stage** rather than fine-tuning or prompt-and-go
+- Scientist authors a **contract**: version-controlled rubric + difficulty-graded curriculum + curated external knowledge base
+- Rubric-driven judge gates a meta-optimizer coding agent that edits the agent within a declared boundary
+- The build **compiles the agent, not the scientist's judgment**
+
+### Implementation
+- Rietveld refinement of X-ray diffraction data through GSAS-II behind **MCP and A2A**
+- Blank-harness construction run progresses through a lithium lanthanum zirconium oxide (LLZO) signal-to-noise ladder
+- As base models evolve, re-running AgentBuild is a **re-tune, not a rebuild** — the scientist's authored contract remains the durable asset
+
+### Key Insight
+MCP provides the tool interface; A2A enables agent-to-agent coordination. Together they allow scientific agents to be constructed from contracts that preserve scientist judgment while automating implementation.
+
+Sources: [arXiv:2606.12834](https://arxiv.org/abs/2606.12834) ^[raw/papers/unknown-fantastic-scientific-agents-and-how-to-build-them-agentbuild-for-rietveld-refine.md]
+
+## MCP Evaluation Challenges (June 2026)
+
+### MCP-Bench (via Evoflux)
+- 250 tools across live MCP servers
+- Small planners achieve ~3% execution feasibility at zero-shot
+- Evolutionary search ([[tool-use-pattern|Evoflux]]) raises to 17-24%
+- Demonstrates that MCP tool catalogs at scale expose critical weaknesses in small model planning
+
+### ToolSense Findings
+- Parametric tool retrieval over ToolBench (~47K tools): **knowledge-retrieval dissociation**
+- Models with strong retrieval scores score near-random on factual probes about their tools
+- Under realistic queries: performance collapses 50-64 percentage points
+- Implication: MCP servers with large tool catalogs may exceed what small models can effectively navigate
+
 ## Related
 
 - [[context-windows]] — Tool definitions consume context budget
 - [[prompt-caching]] — Cached tool definitions reduce repeated cost
+- [[tool-use-pattern]] — Evoflux, ToolSense, tool workflow patterns
+- [[acp-protocol]] — A2A protocol for agent-to-agent coordination
+- [[evaluation-benchmarks]] — MCP-Bench, ToolSense benchmarks
+- [[agent-safety]] — Containment Gap in MCP-based frameworks
