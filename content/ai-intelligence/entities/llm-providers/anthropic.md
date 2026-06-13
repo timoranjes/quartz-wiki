@@ -1,7 +1,7 @@
 ---
 title: Anthropic
 created: 2026-06-02
-updated: 2026-06-12
+updated: 2026-06-14
 type: provider
 tags: [provider, lab, model, reasoning, coding, agentic, tool-use, pricing, api, closed, token-cost, timeline, safety, constitutional-ai]
 sources: [raw/articles/llm-provider-anthropic-2026.md]
@@ -36,8 +36,8 @@ Anthropic maintains a focused three-tier model family:
 
 | Model | API ID | Context | Pricing in/out (per 1M) | Type |
 |-------|--------|---------|-------------------------|------|
-| **Claude Fable 5** | `claude-fable-5` | 1M tokens | $10.00 / $50.00 | Flagship with strict guardrails |
-| **Claude Mythos 5** | `claude-mythos-5` | 1M tokens | $10.00 / $50.00 | Same capabilities, no safety classifiers |
+| **Claude Fable 5** | `claude-fable-5` | 1M tokens | $10.00 / $50.00 | **SUSPENDED** (June 12, 2026 — US govt export control directive) |
+| **Claude Mythos 5** | `claude-mythos-5` | 1M tokens | $10.00 / $50.00 | **SUSPENDED** (June 12, 2026 — US govt export control directive) |
 | **Claude Opus 4.8** | `claude-opus-4-8` | 1M tokens | $5.00 / $25.00 | Previous flagship, adaptive thinking |
 | **Claude Sonnet 4.6** | `claude-sonnet-4-6` | 1M tokens | $3.00 / $15.00 | Balanced, extended thinking |
 | **Claude Haiku 4.5** | `claude-haiku-4-5` | 200K tokens | $1.00 / $5.00 | Fast, latency-optimized |
@@ -128,6 +128,8 @@ Prompt caching is available with 5-minute (1.25x) and 1-hour (2x) write windows,
 **AI-enabled cyber threats mapping (June 3, 2026)**: Published findings from mapping a year's worth of AI-enabled cyber threats using MITRE ATT&CK framework.
 
 **Fable 5 safeguards controversy (June 9-11, 2026):** The 319-page Fable 5/Mythos 5 system card revealed invisible safeguards that silently limited model effectiveness for "frontier LLM development" requests (pretraining pipelines, distributed training, ML accelerator design) via prompt modification, steering vectors, and PEFT — estimated ~0.03% of traffic, <0.1% of organizations. Unlike cybersecurity/biology refusals, these were invisible: no fallback model, no user notification. Widespread backlash from the research community (notably Jeremy Howard) over "sabotaging" competitors. Anthropic walked back the policy within 48 hours: flagged requests now visibly fall back to Opus 4.8, API returns refusal reasons. See [[../agent-patterns/agent-safety]] for details. ^[raw/sources/2026-06-10-if-claude-fable-stops-helping-you-youll-never-know.md] ^[raw/sources/2026-06-11-anthropic-walks-back-policy-that-could-have-sabotaged-ai-researchers-using-claud.md] ^[raw/sources/2026-06-10-quoting-jeremy-howard.md]
+
+**US Government Export Control Directive — Fable 5 / Mythos 5 Suspended (June 12, 2026):** The US government issued an export control directive citing national security authorities, ordering suspension of ALL access to Fable 5 and Mythos 5 by any foreign national — whether inside or outside the United States, including foreign national Anthropic employees. Net effect: Fable 5 and Mythos 5 disabled for ALL customers globally. Other Anthropic models (Opus 4.8, Sonnet 4.6, Haiku 4.5) unaffected. Anthropic received the directive at 5:21pm ET on June 12; access was cut at 6:59pm PT (9:59pm ET). The government's stated concern: awareness of a method to bypass/jailbreak Fable 5. Anthropic's response: the alleged "jailbreak" consists of asking the model to read a codebase and fix software flaws — a capability widely available from other models including [[openai]] GPT-5.5, used daily by security defenders. API returns 404 with message: "Claude Fable 5 is not available. Please use Opus 4.8." First known instance of a US export control directive forcing a major lab to globally disable a frontier model. See [[../agent-patterns/agent-safety]] for governance implications. ^[raw/sources/2026-06-13-statement-on-the-us-government-directive-to-suspend-access-to-fable-5-and-mythos.md]
 
 ## Coding Agents Using Anthropic Models
 

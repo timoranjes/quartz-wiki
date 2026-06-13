@@ -1,7 +1,7 @@
 ---
 title: OpenAI
 created: 2026-06-02
-updated: 2026-06-12
+updated: 2026-06-14
 type: provider
 tags: [provider, lab, cloud-platform, model, reasoning, coding, vision, audio, multimodal, agentic, tool-use, pricing, api, closed, token-cost, timeline, controversy]
 sources: [raw/articles/llm-provider-openai-2026.md]
@@ -96,7 +96,7 @@ Fine-tuning is being deprecated for new users, though existing fine-tuned models
 
 ## Recent Developments
 
-**Model releases (2025-2026):** GPT-5 (August 2025), GPT-5.1 (November 2025), GPT-5.2 (December 2025), GPT-5.3 Codex (February 2026), GPT-5.4 family (March 2026), GPT-5.5 (May 2026), GPT-oss open-weights (August 2025).
+**Model releases (2025-2026):** GPT-5 (August 2025), GPT-5.1 (November 2025), GPT-5.2 (December 2025), GPT-5.3 Codex (February 2026), GPT-5.4 family (March 2026), GPT-5.5 (May 2026), GPT-oss open-weights (August 2025). **GPT-Realtime-2** (May 2026): First voice model with GPT-5-class reasoning, available via WebRTC API for low-latency audio-to-audio interactions. Sep 30, 2024 knowledge cutoff. Not yet available in ChatGPT iPhone app as of June 2026.
 
 **Strategic acquisitions:** Promptfoo (March 2026, LLM evaluation), Astral (March 2026, Python tooling), Neptune (December 2025, ML experiment tracking), Software Applications Inc./Sky (October 2025, browser technology leading to ChatGPT Atlas), **Ona (announced June 11, 2026)** — to expand Codex with secure, persistent cloud environments for long-running AI agents across enterprise workflows.
 
