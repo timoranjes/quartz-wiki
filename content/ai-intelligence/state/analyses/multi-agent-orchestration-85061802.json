@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "multi-agent-orchestration-85061802",
+  "sourceHash": "85061802fba9d3e8eeb6fbbddcb183f30aa63357868d1a51780be7c1359bd688",
+  "semanticHash": "570d10f8e2cf891942095fdbab6b265e43451026f3a24160a2b0dbdd4f55fd1b",
+  "extractionHash": "ccfeb3dca5aa3fa4bd301c3bdf935b1e655f965d60c45a1c8d56de3852f0ab0d",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Multi-Agent Orchestration",
+  "summary": "title: Multi-Agent Orchestration tags: multi-agent, orchestrator, agent-architecture # Multi-Agent Orchestration ## Overview Multi-agent orchestration coordinates multiple specialized agents to solve problems that exceed a single agent's capability. ## Patterns ### Orchestrator-Workers Central agent decomposes tasks and assigns to workers. Workers are independent; orchestrator synthesizes results.",
+  "concepts": [
+    {
+      "id": "concept:agent",
+      "name": "agent",
+      "description": "Frequently referenced concept in Multi-Agent Orchestration."
+    },
+    {
+      "id": "concept:multi-agent",
+      "name": "multi-agent",
+      "description": "Frequently referenced concept in Multi-Agent Orchestration."
+    },
+    {
+      "id": "concept:agents",
+      "name": "agents",
+      "description": "Frequently referenced concept in Multi-Agent Orchestration."
+    },
+    {
+      "id": "concept:optimization",
+      "name": "optimization",
+      "description": "Frequently referenced concept in Multi-Agent Orchestration."
+    },
+    {
+      "id": "concept:orchestrator",
+      "name": "orchestrator",
+      "description": "Frequently referenced concept in Multi-Agent Orchestration."
+    },
+    {
+      "id": "concept:tree",
+      "name": "tree",
+      "description": "Frequently referenced concept in Multi-Agent Orchestration."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:multi-agent-orchestration",
+      "name": "Multi-Agent Orchestration",
+      "description": "Named entity mentioned in Multi-Agent Orchestration."
+    },
+    {
+      "id": "entity:overview-multi",
+      "name": "Overview Multi-",
+      "description": "Named entity mentioned in Multi-Agent Orchestration."
+    },
+    {
+      "id": "entity:patterns",
+      "name": "Patterns",
+      "description": "Named entity mentioned in Multi-Agent Orchestration."
+    },
+    {
+      "id": "entity:orchestrator-workers-central",
+      "name": "Orchestrator-Workers Central",
+      "description": "Named entity mentioned in Multi-Agent Orchestration."
+    },
+    {
+      "id": "entity:supervisor-workers-similar",
+      "name": "Supervisor-Workers Similar",
+      "description": "Named entity mentioned in Multi-Agent Orchestration."
+    },
+    {
+      "id": "entity:peer",
+      "name": "Peer-",
+      "description": "Named entity mentioned in Multi-Agent Orchestration."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:multi-agent-orchestration-85061802:1",
+      "text": "title: Multi-Agent Orchestration tags: multi-agent, orchestrator, agent-architecture # Multi-Agent Orchestration ## Overview Multi-agent orchestration coordinates multiple specialized agents to solve problems that exceed a single agent's capability.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "multi-agent-orchestration-85061802"
+    },
+    {
+      "id": "claim:multi-agent-orchestration-85061802:2",
+      "text": "## Patterns ### Orchestrator-Workers Central agent decomposes tasks and assigns to workers.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "multi-agent-orchestration-85061802"
+    },
+    {
+      "id": "claim:multi-agent-orchestration-85061802:3",
+      "text": "Workers are independent; orchestrator synthesizes results.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "multi-agent-orchestration-85061802"
+    },
+    {
+      "id": "claim:multi-agent-orchestration-85061802:4",
+      "text": "### Supervisor-Workers Similar to orchestrator but the supervisor actively monitors and can reassign tasks mid-flight.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "multi-agent-orchestration-85061802"
+    }
+  ],
+  "questions": [
+    "How does agent relate to Multi-Agent Orchestration?",
+    "How does multi-agent relate to Multi-Agent Orchestration?",
+    "How does agents relate to Multi-Agent Orchestration?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.245Z"
+}

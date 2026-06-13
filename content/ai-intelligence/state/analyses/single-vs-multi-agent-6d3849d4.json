@@ -1,0 +1,108 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "single-vs-multi-agent-6d3849d4",
+  "sourceHash": "6d3849d4970594b6845abf27acc5f5c9449ac9aedd8888a67d0976c3c3751028",
+  "semanticHash": "4b622f18699ebb88ead44f6a9da0a65fe54330768847b73b254d735b31a6d3d6",
+  "extractionHash": "9c1be613bceb6178f7f81c41af7a8747f2429ec4bff5de320b1aeb877a78d5ab",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Single vs Multi-Agent",
+  "summary": "title: Single vs Multi-Agent tags: agent-architecture, multi-agent, model-selection, trade-offs # Single vs Multi-Agent ## Overview Choosing between a single-agent and multi-agent architecture is one of the most important design decisions in building AI systems. ## Single-Agent When to use: - Task is well-defined and linear - Single model has sufficient capability - Cost and latency are primary concerns - Simpler debugging and observability needed Characteristics: - One LLM handles all reasoning, tool use, and output - Lower token cost (no coordination overhead) - Easier to debug and trace - Simpler prompt engineering ## Multi-Agent When to use: - Task requires diverse expertise (code + research + analysis) - Parallel execution reduces wall-clock time - Single agent context window is insufficient - Different models excel at different subtasks Characteristics: - Multiple specialized agents coordinate - Higher token cost (coordination overhead) - More complex debugging - Requires orchestration framework (see [[multi-agent-orchestration]]) ## Rule of Thumb > \"Most applications don't need multi-agent systems. A single agent with good tools and a clear system prompt handles 80% of real-world use cases.\" — PE Collective, 2026 ## Related - [[architectures]] - [[multi-agent-orchestration]] - [[model-selection-for-agents]] - [[evaluation-benchmarks]]",
+  "concepts": [
+    {
+      "id": "concept:single",
+      "name": "single",
+      "description": "Frequently referenced concept in Single vs Multi-Agent."
+    },
+    {
+      "id": "concept:multi-agent",
+      "name": "multi-agent",
+      "description": "Frequently referenced concept in Single vs Multi-Agent."
+    },
+    {
+      "id": "concept:agent",
+      "name": "agent",
+      "description": "Frequently referenced concept in Single vs Multi-Agent."
+    },
+    {
+      "id": "concept:cost",
+      "name": "cost",
+      "description": "Frequently referenced concept in Single vs Multi-Agent."
+    },
+    {
+      "id": "concept:architecture",
+      "name": "architecture",
+      "description": "Frequently referenced concept in Single vs Multi-Agent."
+    },
+    {
+      "id": "concept:characteristics",
+      "name": "characteristics",
+      "description": "Frequently referenced concept in Single vs Multi-Agent."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:single",
+      "name": "Single",
+      "description": "Named entity mentioned in Single vs Multi-Agent."
+    },
+    {
+      "id": "entity:multi-agent",
+      "name": "Multi-Agent",
+      "description": "Named entity mentioned in Single vs Multi-Agent."
+    },
+    {
+      "id": "entity:overview-choosing",
+      "name": "Overview Choosing",
+      "description": "Named entity mentioned in Single vs Multi-Agent."
+    },
+    {
+      "id": "entity:ai-systems",
+      "name": "AI systems.",
+      "description": "Named entity mentioned in Single vs Multi-Agent."
+    },
+    {
+      "id": "entity:single-agent-when",
+      "name": "Single-Agent When",
+      "description": "Named entity mentioned in Single vs Multi-Agent."
+    },
+    {
+      "id": "entity:task",
+      "name": "Task",
+      "description": "Named entity mentioned in Single vs Multi-Agent."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:single-vs-multi-agent-6d3849d4:1",
+      "text": "title: Single vs Multi-Agent tags: agent-architecture, multi-agent, model-selection, trade-offs # Single vs Multi-Agent ## Overview Choosing between a single-agent and multi-agent architecture is one of the most important design decisions in building AI systems.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "single-vs-multi-agent-6d3849d4"
+    },
+    {
+      "id": "claim:single-vs-multi-agent-6d3849d4:2",
+      "text": "## Single-Agent When to use: - Task is well-defined and linear - Single model has sufficient capability - Cost and latency are primary concerns - Simpler debugging and observability needed Characteristics: - One LLM handles all reasoning, tool use, and output - Lower token cost (no coordination overhead) - Easier to debug and trace - Simpler prompt engineering ## Multi-Agent When to use: - Task requires diverse expertise (code + research + analysis) - Parallel execution reduces wall-clock time - Single agent context window is insufficient - Different models excel at different subtasks Characteristics: - Multiple specialized agents coordinate - Higher token cost (coordination overhead) - More complex debugging - Requires orchestration framework (see [[multi-agent-orchestration]]) ## Rule of Thumb > \"Most applications don't need multi-agent systems.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "single-vs-multi-agent-6d3849d4"
+    },
+    {
+      "id": "claim:single-vs-multi-agent-6d3849d4:3",
+      "text": "A single agent with good tools and a clear system prompt handles 80% of real-world use cases.\" — PE Collective, 2026 ## Related - [[architectures]] - [[multi-agent-orchestration]] - [[model-selection-for-agents]] - [[evaluation-benchmarks]]",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "single-vs-multi-agent-6d3849d4"
+    }
+  ],
+  "questions": [
+    "How does single relate to Single vs Multi-Agent?",
+    "How does multi-agent relate to Single vs Multi-Agent?",
+    "How does agent relate to Single vs Multi-Agent?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.702Z"
+}

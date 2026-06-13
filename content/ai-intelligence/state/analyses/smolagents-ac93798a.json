@@ -1,0 +1,108 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "smolagents-ac93798a",
+  "sourceHash": "ac93798a8edfe287fee82c42e8811af5afc42b52cc3cb15819db9e6c32725418",
+  "semanticHash": "cae960993394ec3a46b3c731dd924626d916a4aea2f7300d26d3d69386d2f7e9",
+  "extractionHash": "e0a125d4582c0bfbe928b53200ffc8e374218061da2b17556124951b067d214c",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "smolagents",
+  "summary": "title: smolagents tags: agent-framework, framework, python, code-agent, huggingface # smolagents ## Overview smolagents is Hugging Face's lightweight Python library for building AI agents with minimal code (~1,000 lines). It empowers LLMs with agency — enabling them to observe, reason, and act in real-world environments using a code-first approach. - GitHub Stars : ~27,687 - License : Apache-2.0 - Parent Company : Hugging Face - Website : huggingface.co/docs/smolagents - GitHub : github.com/huggingface/smolagents ## Architecture ### Code-First Design - Core Philosophy : Minimal abstractions — the entire library is ~1,000 lines of code - CodeAgent (default): Agent writes tool calls as executable Python code , enabling natural composition (loops, conditionals, nesting) - ToolCallingAgent : Standard JSON-based tool calling for compatibility with other frameworks - No JSON parsing overhead — output can be executed directly ### Execution Model - Agent loop: generate thought → write Python code → execute → observe result → repeat - Code execution is isolated and supports sandboxed environments ## Key Features | Feature | Description | |---------|-------------| | CodeAgent | Agent writes Python code for tool calls — no JSON parsing needed | | ToolCallingAgent | JSON-based tool calling (alternative to CodeAgent) | | Sandboxed Execution | Supports Modal, Blaxel, E2B, or Docker sandboxes for secure execution | | HF Hub Integration | Share/load agents & tools as Gradio Spaces on Hugging Face Hub | | Model-Agnostic | Works with any LLM: HF Inference API, OpenAI/Anthropic (LiteLLM), local (Transformers/Ollama) | | Tool-Agnostic | Import tools from MCP servers, LangChain, or HF Spaces | | CLI Tools | smolagent and webagent CLI commands for quick agent runs | | Multimodal | Supports text, vision, video, and audio inputs | ## 2026 Updates - ToolKit : Default tools including DuckDuckGoSearch, Vision QA - MCP Server Support : Native from_mcp() tool import - LangChain Tool Import : Tool.from_langchain() for cross-framework compatibility - Web Browser Agent : Vision-based web browsing agent example - Integration into Hugging Face Agents Course : Official teaching framework ## Model Integration | Model Class | Use Case | |-------------|----------| | TransformersModel | Local inference using transformers | | InferenceClientModel | HF Inference API / third-party providers | | LiteLLMModel | Multi-provider access via LiteLLM | | OpenAIServerModel | OpenAI-compatible APIs | | AzureOpenAIServerModel | Azure OpenAI deployments | ## Code Example python from smolagents import CodeAgent, InferenceClientModel, DuckDuckGoSearchTool model = InferenceClientModel() agent = CodeAgent( tools=[DuckDuckGoSearchTool()], model=model, ) result = agent.run(\"What is the current weather in Paris?\") print(result) ## Ecosystem | Component | Purpose | |-----------|---------| | CodeAgent | Primary agent — writes Python code | | ToolCallingAgent | JSON-based tool calling | | MultiStepAgent | Base class for thought → action → execution loop | | Tools | @tool decorator, Tool class, MCP/LangChain/HF Space imports | | Models | Transformers, InferenceClient, LiteLLM, OpenAI-compatible | | CLI | smolagent , webagent commands | ## When to Use - Rapid prototyping with minimal setup - Code-first agent development where Python composition is natural - Lightweight experimentation without complex configurations - Straightforward application logic - Leveraging HF ecosystem (models, spaces, tools) ## When NOT to Use - Highly complex orchestration scenarios - Enterprise-grade agent systems requiring strict schema enforcement - Multi-agent coordination at scale (consider [[langchain]] or [[crewai]]) - Non-Python environments ## Related - [[langchain]] — Full-featured orchestration framework - [[crewai]] — Role-based multi-agent framework - [[llamaindex]] — Retrieval-centric framework - [[../../concepts/llm-architecture/mcp-protocol]] — Tool integration protocol (smolagents supports MCP tool import) ## Sources - Hugging Face smolagents Documentation - Hugging Face Blog: Introducing smolagents - Hugging Face Agents Course: Why use smolagents",
+  "concepts": [
+    {
+      "id": "concept:agent",
+      "name": "agent",
+      "description": "Frequently referenced concept in smolagents."
+    },
+    {
+      "id": "concept:tool",
+      "name": "tool",
+      "description": "Frequently referenced concept in smolagents."
+    },
+    {
+      "id": "concept:code",
+      "name": "code",
+      "description": "Frequently referenced concept in smolagents."
+    },
+    {
+      "id": "concept:smolagents",
+      "name": "smolagents",
+      "description": "Frequently referenced concept in smolagents."
+    },
+    {
+      "id": "concept:python",
+      "name": "python",
+      "description": "Frequently referenced concept in smolagents."
+    },
+    {
+      "id": "concept:face",
+      "name": "face",
+      "description": "Frequently referenced concept in smolagents."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:overview",
+      "name": "Overview",
+      "description": "Named entity mentioned in smolagents."
+    },
+    {
+      "id": "entity:hugging-face-s",
+      "name": "Hugging Face's",
+      "description": "Named entity mentioned in smolagents."
+    },
+    {
+      "id": "entity:python",
+      "name": "Python",
+      "description": "Named entity mentioned in smolagents."
+    },
+    {
+      "id": "entity:github-stars",
+      "name": "- GitHub Stars :",
+      "description": "Named entity mentioned in smolagents."
+    },
+    {
+      "id": "entity:license",
+      "name": "License :",
+      "description": "Named entity mentioned in smolagents."
+    },
+    {
+      "id": "entity:hugging-face-website",
+      "name": "Hugging Face - Website :",
+      "description": "Named entity mentioned in smolagents."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:smolagents-ac93798a:1",
+      "text": "title: smolagents tags: agent-framework, framework, python, code-agent, huggingface # smolagents ## Overview smolagents is Hugging Face's lightweight Python library for building AI agents with minimal code (~1,000 lines).",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "smolagents-ac93798a"
+    },
+    {
+      "id": "claim:smolagents-ac93798a:2",
+      "text": "It empowers LLMs with agency — enabling them to observe, reason, and act in real-world environments using a code-first approach.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "smolagents-ac93798a"
+    },
+    {
+      "id": "claim:smolagents-ac93798a:3",
+      "text": "- GitHub Stars : ~27,687 - License : Apache-2.0 - Parent Company : Hugging Face - Website : huggingface.co/docs/smolagents - GitHub : github.com/huggingface/smolagents ## Architecture ### Code-First Design - Core Philosophy : Minimal abstractions — the entire library is ~1,000 lines of code - CodeAgent (default): Agent writes tool calls as executable Python code , enabling natural composition (loops, conditionals, nesting) - ToolCallingAgent : Standard JSON-based tool calling for compatibility with other frameworks - No JSON parsing overhead — output can be executed directly ### Execution Model - Agent loop: generate thought → write Python code → execute → observe result → repeat - Code execution is isolated and supports sandboxed environments ## Key Features | Feature | Description | |---------|-------------| | CodeAgent | Agent writes Python code for tool calls — no JSON parsing needed | | ToolCallingAgent | JSON-based tool calling (alternative to CodeAgent) | | Sandboxed Execution | Supports Modal, Blaxel, E2B, or Docker sandboxes for secure execution | | HF Hub Integration | Share/load agents & tools as Gradio Spaces on Hugging Face Hub | | Model-Agnostic | Works with any LLM: HF Inference API, OpenAI/Anthropic (LiteLLM), local (Transformers/Ollama) | | Tool-Agnostic | Import tools from MCP servers, LangChain, or HF Spaces | | CLI Tools | smolagent and webagent CLI commands for quick agent runs | | Multimodal | Supports text, vision, video, and audio inputs | ## 2026 Updates - ToolKit : Default tools including DuckDuckGoSearch, Vision QA - MCP Server Support : Native from_mcp() tool import - LangChain Tool Import : Tool.from_langchain() for cross-framework compatibility - Web Browser Agent : Vision-based web browsing agent example - Integration into Hugging Face Agents Course : Official teaching framework ## Model Integration | Model Class | Use Case | |-------------|----------| | TransformersModel | Local inference using transformers | | InferenceClientModel | HF Inference API / third-party providers | | LiteLLMModel | Multi-provider access via LiteLLM | | OpenAIServerModel | OpenAI-compatible APIs | | AzureOpenAIServerModel | Azure OpenAI deployments | ## Code Example python from smolagents import CodeAgent, InferenceClientModel, DuckDuckGoSearchTool model = InferenceClientModel() agent = CodeAgent( tools=[DuckDuckGoSearchTool()], model=model, ) result = agent.run(\"What is the current weather in Paris?\") print(result) ## Ecosystem | Component | Purpose | |-----------|---------| | CodeAgent | Primary agent — writes Python code | | ToolCallingAgent | JSON-based tool calling | | MultiStepAgent | Base class for thought → action → execution loop | | Tools | @tool decorator, Tool class, MCP/LangChain/HF Space imports | | Models | Transformers, InferenceClient, LiteLLM, OpenAI-compatible | | CLI | smolagent , webagent commands | ## When to Use - Rapid prototyping with minimal setup - Code-first agent development where Python composition is natural - Lightweight experimentation without complex configurations - Straightforward application logic - Leveraging HF ecosystem (models, spaces, tools) ## When NOT to Use - Highly complex orchestration scenarios - Enterprise-grade agent systems requiring strict schema enforcement - Multi-agent coordination at scale (consider [[langchain]] or [[crewai]]) - Non-Python environments ## Related - [[langchain]] — Full-featured orchestration framework - [[crewai]] — Role-based multi-agent framework - [[llamaindex]] — Retrieval-centric framework - [[../../concepts/llm-architecture/mcp-protocol]] — Tool integration protocol (smolagents supports MCP tool import) ## Sources - Hugging Face smolagents Documentation - Hugging Face Blog: Introducing smolagents - Hugging Face Agents Course: Why use smolagents",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "smolagents-ac93798a"
+    }
+  ],
+  "questions": [
+    "How does agent relate to smolagents?",
+    "How does tool relate to smolagents?",
+    "How does code relate to smolagents?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.733Z"
+}

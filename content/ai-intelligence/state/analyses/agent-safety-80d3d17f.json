@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "agent-safety-80d3d17f",
+  "sourceHash": "80d3d17fed06d6c799a831dc6ae776f9d1008b5c66934fa938539ce43b9f3188",
+  "semanticHash": "39f73811c4423dc77de484d3accf4cb8dfdb4504726bbd2085575f80beeb7644",
+  "extractionHash": "2aabfa8b7bf7ea349a3fb2876a979eee670ced3643e84fa61103e40e13689e8c",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Agent Safety",
+  "summary": "title: Agent Safety tags: safety, agent-architecture # Agent Safety ## Overview Agent safety ensures that autonomous AI systems operate within defined boundaries and don't cause unintended harm. ## Threat Model | Risk | Example | Mitigation | |------|---------|------------| | Unbounded tool use | Agent deletes files it shouldn't | File-level permissions, allowlists | | Infinite loops | Agent gets stuck in retry cycle | Step budget, timeout | | Data exfiltration | Agent sends secrets to external APIs | Output filtering, DLP | | Prompt injection | Malicious input hijacks agent behavior | Input sanitization, sandboxing | | Hallucinated actions | Agent calls wrong tool with wrong args | Schema validation, pre-flight checks | ## Defense Layers 1. Input validation — Sanitize user inputs before agent sees them 2.",
+  "concepts": [
+    {
+      "id": "concept:agent",
+      "name": "agent",
+      "description": "Frequently referenced concept in Agent Safety."
+    },
+    {
+      "id": "concept:that",
+      "name": "that",
+      "description": "Frequently referenced concept in Agent Safety."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in Agent Safety."
+    },
+    {
+      "id": "concept:safety",
+      "name": "safety",
+      "description": "Frequently referenced concept in Agent Safety."
+    },
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in Agent Safety."
+    },
+    {
+      "id": "concept:june",
+      "name": "june",
+      "description": "Frequently referenced concept in Agent Safety."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:agent-safety",
+      "name": "Agent Safety",
+      "description": "Named entity mentioned in Agent Safety."
+    },
+    {
+      "id": "entity:overview-agent",
+      "name": "Overview Agent",
+      "description": "Named entity mentioned in Agent Safety."
+    },
+    {
+      "id": "entity:ai-systems",
+      "name": "AI systems",
+      "description": "Named entity mentioned in Agent Safety."
+    },
+    {
+      "id": "entity:threat-model",
+      "name": "Threat Model",
+      "description": "Named entity mentioned in Agent Safety."
+    },
+    {
+      "id": "entity:risk",
+      "name": "Risk",
+      "description": "Named entity mentioned in Agent Safety."
+    },
+    {
+      "id": "entity:example",
+      "name": "Example",
+      "description": "Named entity mentioned in Agent Safety."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:agent-safety-80d3d17f:1",
+      "text": "title: Agent Safety tags: safety, agent-architecture # Agent Safety ## Overview Agent safety ensures that autonomous AI systems operate within defined boundaries and don't cause unintended harm.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "agent-safety-80d3d17f"
+    },
+    {
+      "id": "claim:agent-safety-80d3d17f:2",
+      "text": "## Threat Model | Risk | Example | Mitigation | |------|---------|------------| | Unbounded tool use | Agent deletes files it shouldn't | File-level permissions, allowlists | | Infinite loops | Agent gets stuck in retry cycle | Step budget, timeout | | Data exfiltration | Agent sends secrets to external APIs | Output filtering, DLP | | Prompt injection | Malicious input hijacks agent behavior | Input sanitization, sandboxing | | Hallucinated actions | Agent calls wrong tool with wrong args | Schema validation, pre-flight checks | ## Defense Layers 1.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "agent-safety-80d3d17f"
+    },
+    {
+      "id": "claim:agent-safety-80d3d17f:3",
+      "text": "Input validation — Sanitize user inputs before agent sees them 2.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "agent-safety-80d3d17f"
+    },
+    {
+      "id": "claim:agent-safety-80d3d17f:4",
+      "text": "Tool guards — Permission checks on every tool call 3.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "agent-safety-80d3d17f"
+    }
+  ],
+  "questions": [
+    "How does agent relate to Agent Safety?",
+    "How does that relate to Agent Safety?",
+    "How does model relate to Agent Safety?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:48.643Z"
+}

@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "nvidia-0687788d",
+  "sourceHash": "0687788d4f17447fdf8b6c17dd623f444f2edd5426b8e4550d42f03265b817a3",
+  "semanticHash": "4982caa05a986e8b44f6e9409d957d1687bfc085b7dc92f93936bfe36cfb1613",
+  "extractionHash": "48c224d6e37bff1f4ed16d6267bf10b478f92d44dbee0d43bd24667fc42d9beb",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "NVIDIA",
+  "summary": "title: NVIDIA tags: provider, infrastructure, model, reasoning, agentic, tool-use, open-weight, token-cost, multimodal, nvidia-gpu, nemotron, nim # NVIDIA ## Overview NVIDIA Corporation is the world's leading AI computing company, founded in 1993 by Jensen Huang, Chris Malachowsky, and Curtis Priem. While originally known for GPUs, NVIDIA has become the foundational infrastructure provider for the AI revolution — controlling 80-95% of AI training GPU shipments with over $100B in annual data center revenue (FY2025-2026). NVIDIA occupies a unique position in the AI model space: it is both the primary infrastructure provider for AI training/inference AND an AI model developer through its Nemotron family.",
+  "concepts": [
+    {
+      "id": "concept:nemotron",
+      "name": "nemotron",
+      "description": "Frequently referenced concept in NVIDIA."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in NVIDIA."
+    },
+    {
+      "id": "concept:models",
+      "name": "models",
+      "description": "Frequently referenced concept in NVIDIA."
+    },
+    {
+      "id": "concept:nvidia",
+      "name": "nvidia",
+      "description": "Frequently referenced concept in NVIDIA."
+    },
+    {
+      "id": "concept:nano",
+      "name": "nano",
+      "description": "Frequently referenced concept in NVIDIA."
+    },
+    {
+      "id": "concept:openai",
+      "name": "openai",
+      "description": "Frequently referenced concept in NVIDIA."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:nvidia",
+      "name": "NVIDIA",
+      "description": "Named entity mentioned in NVIDIA."
+    },
+    {
+      "id": "entity:nvidia",
+      "name": "nvidia-",
+      "description": "Named entity mentioned in NVIDIA."
+    },
+    {
+      "id": "entity:overview-nvidia-corporation",
+      "name": "Overview NVIDIA Corporation",
+      "description": "Named entity mentioned in NVIDIA."
+    },
+    {
+      "id": "entity:jensen-huang-chris-malachowsky",
+      "name": "Jensen Huang, Chris Malachowsky,",
+      "description": "Named entity mentioned in NVIDIA."
+    },
+    {
+      "id": "entity:curtis-priem",
+      "name": "Curtis Priem.",
+      "description": "Named entity mentioned in NVIDIA."
+    },
+    {
+      "id": "entity:ai",
+      "name": "AI",
+      "description": "Named entity mentioned in NVIDIA."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:nvidia-0687788d:1",
+      "text": "title: NVIDIA tags: provider, infrastructure, model, reasoning, agentic, tool-use, open-weight, token-cost, multimodal, nvidia-gpu, nemotron, nim # NVIDIA ## Overview NVIDIA Corporation is the world's leading AI computing company, founded in 1993 by Jensen Huang, Chris Malachowsky, and Curtis Priem.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "nvidia-0687788d"
+    },
+    {
+      "id": "claim:nvidia-0687788d:2",
+      "text": "While originally known for GPUs, NVIDIA has become the foundational infrastructure provider for the AI revolution — controlling 80-95% of AI training GPU shipments with over $100B in annual data center revenue (FY2025-2026).",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "nvidia-0687788d"
+    },
+    {
+      "id": "claim:nvidia-0687788d:3",
+      "text": "NVIDIA occupies a unique position in the AI model space: it is both the primary infrastructure provider for AI training/inference AND an AI model developer through its Nemotron family.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "nvidia-0687788d"
+    },
+    {
+      "id": "claim:nvidia-0687788d:4",
+      "text": "This structural advantage provides first access to new silicon (Blackwell, Rubin), deep software optimization via CUDA/TensorRT-LLM, and hardware-software co-design.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "nvidia-0687788d"
+    }
+  ],
+  "questions": [
+    "How does nemotron relate to NVIDIA?",
+    "How does model relate to NVIDIA?",
+    "How does models relate to NVIDIA?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.174Z"
+}

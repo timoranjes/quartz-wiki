@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "anthropic-claude-code-9a2a2c2f",
+  "sourceHash": "9a2a2c2fafaf7d7765bbe5995d95d2dea3691b988b65df8e4f3291ee73929041",
+  "semanticHash": "13646d5d9fcc5f33c3aa6b286d871f68c52f2694861a9993c40ba0996e725ab5",
+  "extractionHash": "eefe1b9a7e0d4f2676333feae5a06b7daa27d77f559ebd53750ceda9e23f2ffc",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Anthropic Claude Code",
+  "summary": "title: Anthropic Claude Code tags: coding-agent, anthropic, llm-provider Premium 🇺🇸 San Francisco (Anthropic) Model Opus 4.5 / Sonnet 4.5 Capability Dynamic Workflows SWE-bench Verified 87.6% # Anthropic Claude Code Anthropic's autonomous coding agent, available as a CLI tool and integrated into the Claude web interface. Powered by Claude Fable 5 (June 2026) or Claude Opus 4.8 for deepest reasoning. ## Overview - Developer : Anthropic - Backend Model : Claude Fable 5 (June 2026, new frontier), Claude Opus 4.8 (previous flagship), Claude Sonnet 4.6 (cheaper turns) - Interface : CLI ( claude ), Claude Code for web, Claude Cowork, claude.ai chat - Pricing : Base (~$20/mo, Claude Pro), Max ($100-200/mo, 20× limits), Teams (custom).",
+  "concepts": [
+    {
+      "id": "concept:claude",
+      "name": "claude",
+      "description": "Frequently referenced concept in Anthropic Claude Code."
+    },
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in Anthropic Claude Code."
+    },
+    {
+      "id": "concept:code",
+      "name": "code",
+      "description": "Frequently referenced concept in Anthropic Claude Code."
+    },
+    {
+      "id": "concept:june",
+      "name": "june",
+      "description": "Frequently referenced concept in Anthropic Claude Code."
+    },
+    {
+      "id": "concept:fable",
+      "name": "fable",
+      "description": "Frequently referenced concept in Anthropic Claude Code."
+    },
+    {
+      "id": "concept:agents",
+      "name": "agents",
+      "description": "Frequently referenced concept in Anthropic Claude Code."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:anthropic-claude-code",
+      "name": "Anthropic Claude Code",
+      "description": "Named entity mentioned in Anthropic Claude Code."
+    },
+    {
+      "id": "entity:premium",
+      "name": "Premium",
+      "description": "Named entity mentioned in Anthropic Claude Code."
+    },
+    {
+      "id": "entity:san-francisco-anthropic-model-opus",
+      "name": "San Francisco (Anthropic) Model Opus",
+      "description": "Named entity mentioned in Anthropic Claude Code."
+    },
+    {
+      "id": "entity:sonnet",
+      "name": "Sonnet",
+      "description": "Named entity mentioned in Anthropic Claude Code."
+    },
+    {
+      "id": "entity:capability-dynamic-workflows",
+      "name": "Capability Dynamic Workflows",
+      "description": "Named entity mentioned in Anthropic Claude Code."
+    },
+    {
+      "id": "entity:verified",
+      "name": "Verified",
+      "description": "Named entity mentioned in Anthropic Claude Code."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:anthropic-claude-code-9a2a2c2f:1",
+      "text": "title: Anthropic Claude Code tags: coding-agent, anthropic, llm-provider Premium 🇺🇸 San Francisco (Anthropic) Model Opus 4.5 / Sonnet 4.5 Capability Dynamic Workflows SWE-bench Verified 87.6% # Anthropic Claude Code Anthropic's autonomous coding agent, available as a CLI tool and integrated into the Claude web interface.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "anthropic-claude-code-9a2a2c2f"
+    },
+    {
+      "id": "claim:anthropic-claude-code-9a2a2c2f:2",
+      "text": "Powered by Claude Fable 5 (June 2026) or Claude Opus 4.8 for deepest reasoning.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "anthropic-claude-code-9a2a2c2f"
+    },
+    {
+      "id": "claim:anthropic-claude-code-9a2a2c2f:3",
+      "text": "## Overview - Developer : Anthropic - Backend Model : Claude Fable 5 (June 2026, new frontier), Claude Opus 4.8 (previous flagship), Claude Sonnet 4.6 (cheaper turns) - Interface : CLI ( claude ), Claude Code for web, Claude Cowork, claude.ai chat - Pricing : Base (~$20/mo, Claude Pro), Max ($100-200/mo, 20× limits), Teams (custom).",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "anthropic-claude-code-9a2a2c2f"
+    },
+    {
+      "id": "claim:anthropic-claude-code-9a2a2c2f:4",
+      "text": "Fable 5 included on subscription plans until June 22, 2026, then billed extra.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "anthropic-claude-code-9a2a2c2f"
+    }
+  ],
+  "questions": [
+    "How does claude relate to Anthropic Claude Code?",
+    "How does 2026 relate to Anthropic Claude Code?",
+    "How does code relate to Anthropic Claude Code?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:48.951Z"
+}

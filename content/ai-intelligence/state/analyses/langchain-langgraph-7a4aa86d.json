@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "langchain-langgraph-7a4aa86d",
+  "sourceHash": "7a4aa86d7fdbf1683cd214ed0616445d06ccdc8fcf05661c9bfbe642547adb44",
+  "semanticHash": "6542b6a5a4a24ca2bba2fe918ea8aefbe89c9451a57b1ba481aaa72654149ba8",
+  "extractionHash": "3183e085d7faabc0767460cc5cef7466aceecba94b4d601d233f8b6590333fb1",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "LangChain / LangGraph",
+  "summary": "title: LangChain / LangGraph tags: agent-framework, framework, orchestrator, tool-use # LangChain / LangGraph ## Overview LangChain is the largest LLM application framework (launched 2022), providing chain-based orchestration for rapid prototyping. LangGraph is LangChain's production-grade agent runtime, modeling workflows as state machines using directed graphs. - GitHub Stars : ~85K (LangChain ecosystem) - License : MIT (open-source) - Parent Company : LangChain, Inc.",
+  "concepts": [
+    {
+      "id": "concept:graph",
+      "name": "graph",
+      "description": "Frequently referenced concept in LangChain / LangGraph."
+    },
+    {
+      "id": "concept:langgraph",
+      "name": "langgraph",
+      "description": "Frequently referenced concept in LangChain / LangGraph."
+    },
+    {
+      "id": "concept:langchain",
+      "name": "langchain",
+      "description": "Frequently referenced concept in LangChain / LangGraph."
+    },
+    {
+      "id": "concept:agent",
+      "name": "agent",
+      "description": "Frequently referenced concept in LangChain / LangGraph."
+    },
+    {
+      "id": "concept:framework",
+      "name": "framework",
+      "description": "Frequently referenced concept in LangChain / LangGraph."
+    },
+    {
+      "id": "concept:node",
+      "name": "node",
+      "description": "Frequently referenced concept in LangChain / LangGraph."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:langchain",
+      "name": "LangChain",
+      "description": "Named entity mentioned in LangChain / LangGraph."
+    },
+    {
+      "id": "entity:langgraph",
+      "name": "LangGraph",
+      "description": "Named entity mentioned in LangChain / LangGraph."
+    },
+    {
+      "id": "entity:overview-langchain",
+      "name": "Overview LangChain",
+      "description": "Named entity mentioned in LangChain / LangGraph."
+    },
+    {
+      "id": "entity:langchain-s",
+      "name": "LangChain's",
+      "description": "Named entity mentioned in LangChain / LangGraph."
+    },
+    {
+      "id": "entity:github-stars",
+      "name": "- GitHub Stars :",
+      "description": "Named entity mentioned in LangChain / LangGraph."
+    },
+    {
+      "id": "entity:langchain",
+      "name": "(LangChain",
+      "description": "Named entity mentioned in LangChain / LangGraph."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:langchain-langgraph-7a4aa86d:1",
+      "text": "title: LangChain / LangGraph tags: agent-framework, framework, orchestrator, tool-use # LangChain / LangGraph ## Overview LangChain is the largest LLM application framework (launched 2022), providing chain-based orchestration for rapid prototyping.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "langchain-langgraph-7a4aa86d"
+    },
+    {
+      "id": "claim:langchain-langgraph-7a4aa86d:2",
+      "text": "LangGraph is LangChain's production-grade agent runtime, modeling workflows as state machines using directed graphs.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "langchain-langgraph-7a4aa86d"
+    },
+    {
+      "id": "claim:langchain-langgraph-7a4aa86d:3",
+      "text": "- GitHub Stars : ~85K (LangChain ecosystem) - License : MIT (open-source) - Parent Company : LangChain, Inc.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "langchain-langgraph-7a4aa86d"
+    },
+    {
+      "id": "claim:langchain-langgraph-7a4aa86d:4",
+      "text": "- Website : langchain.com ## Architecture ### LangChain (Chain-based) - Core design: Sequential chains of LLM calls, prompts, and tools - Philosophy: Developer velocity & flexibility - Strengths: Huge ecosystem, easy tool integration, rapid prototyping - Limitations: Less control than graph-based systems, complex abstractions for non-trivial flows ### LangGraph (Graph-based) - Core design: State machines with nodes (functions) and edges (transitions) - State Schema: Typed data flowing through the graph - Supports: Cycles, conditional branching, parallel execution - Philosophy: Production-grade reliability with maximum control ## Recent Developments (2026) LangGraph is positioned as the foundation for building and scaling AI workloads — from conversational agents and complex task automation to custom LLM-backed experiences.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "langchain-langgraph-7a4aa86d"
+    }
+  ],
+  "questions": [
+    "How does graph relate to LangChain / LangGraph?",
+    "How does langgraph relate to LangChain / LangGraph?",
+    "How does langchain relate to LangChain / LangGraph?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:49.790Z"
+}

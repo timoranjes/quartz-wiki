@@ -1,0 +1,108 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "ymtc-yangtze-memory-technologies-corp-542d90e6",
+  "sourceHash": "542d90e6ade9cf72a5a261b9441692344f03fd2e090ee35767ec63696c16f47e",
+  "semanticHash": "d75a724aa9e8f0b8b89949acb59f4f88acafdee7056c2bd48de899c9a291a854",
+  "extractionHash": "075afe5130786ac8533503303545c634957518ca1eb16188dd3562e890382068",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "YMTC (Yangtze Memory Technologies Corp)",
+  "summary": "YMTC (Yangtze Memory Technologies Corp) Type: entity Tags: #semiconductor #memory #nand #china #ymtc ## Overview YMTC is China's leading NAND flash memory manufacturer, headquartered in Wuhan. It is a key player in China's memory chip self-sufficiency efforts. ## Key Facts - Founded: 2016 - Headquarters: Wuhan, China - Technology: Xtacking architecture for 3D NAND flash - Achievements: Reached 232-layer NAND, competitive with Samsung/Micron/SK Hynix - US Sanctions: Added to Entity List in December 2022, restricting equipment access ## Supply Chain Impact - Critical for China's memory chip independence - Xtacking technology is a differentiating architecture - Sanctions limit access to advanced deposition and etch equipment - Expanding mature node capacity for consumer electronics ## Related - [[china-semiconductor-localization]] - [[semiconductor-memory]] - [[nand-flash]]",
+  "concepts": [
+    {
+      "id": "concept:china",
+      "name": "china",
+      "description": "Frequently referenced concept in YMTC (Yangtze Memory Technologies Corp)."
+    },
+    {
+      "id": "concept:memory",
+      "name": "memory",
+      "description": "Frequently referenced concept in YMTC (Yangtze Memory Technologies Corp)."
+    },
+    {
+      "id": "concept:nand",
+      "name": "nand",
+      "description": "Frequently referenced concept in YMTC (Yangtze Memory Technologies Corp)."
+    },
+    {
+      "id": "concept:ymtc",
+      "name": "ymtc",
+      "description": "Frequently referenced concept in YMTC (Yangtze Memory Technologies Corp)."
+    },
+    {
+      "id": "concept:access",
+      "name": "access",
+      "description": "Frequently referenced concept in YMTC (Yangtze Memory Technologies Corp)."
+    },
+    {
+      "id": "concept:architecture",
+      "name": "architecture",
+      "description": "Frequently referenced concept in YMTC (Yangtze Memory Technologies Corp)."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:yangtze",
+      "name": "(Yangtze",
+      "description": "Named entity mentioned in YMTC (Yangtze Memory Technologies Corp)."
+    },
+    {
+      "id": "entity:tags",
+      "name": "Tags:",
+      "description": "Named entity mentioned in YMTC (Yangtze Memory Technologies Corp)."
+    },
+    {
+      "id": "entity:china",
+      "name": "#china",
+      "description": "Named entity mentioned in YMTC (Yangtze Memory Technologies Corp)."
+    },
+    {
+      "id": "entity:overview",
+      "name": "Overview",
+      "description": "Named entity mentioned in YMTC (Yangtze Memory Technologies Corp)."
+    },
+    {
+      "id": "entity:china-s",
+      "name": "China's",
+      "description": "Named entity mentioned in YMTC (Yangtze Memory Technologies Corp)."
+    },
+    {
+      "id": "entity:wuhan",
+      "name": "Wuhan.",
+      "description": "Named entity mentioned in YMTC (Yangtze Memory Technologies Corp)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:ymtc-yangtze-memory-technologies-corp-542d90e6:1",
+      "text": "YMTC (Yangtze Memory Technologies Corp) Type: entity Tags: #semiconductor #memory #nand #china #ymtc ## Overview YMTC is China's leading NAND flash memory manufacturer, headquartered in Wuhan.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "ymtc-yangtze-memory-technologies-corp-542d90e6"
+    },
+    {
+      "id": "claim:ymtc-yangtze-memory-technologies-corp-542d90e6:2",
+      "text": "It is a key player in China's memory chip self-sufficiency efforts.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "ymtc-yangtze-memory-technologies-corp-542d90e6"
+    },
+    {
+      "id": "claim:ymtc-yangtze-memory-technologies-corp-542d90e6:3",
+      "text": "## Key Facts - Founded: 2016 - Headquarters: Wuhan, China - Technology: Xtacking architecture for 3D NAND flash - Achievements: Reached 232-layer NAND, competitive with Samsung/Micron/SK Hynix - US Sanctions: Added to Entity List in December 2022, restricting equipment access ## Supply Chain Impact - Critical for China's memory chip independence - Xtacking technology is a differentiating architecture - Sanctions limit access to advanced deposition and etch equipment - Expanding mature node capacity for consumer electronics ## Related - [[china-semiconductor-localization]] - [[semiconductor-memory]] - [[nand-flash]]",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "ymtc-yangtze-memory-technologies-corp-542d90e6"
+    }
+  ],
+  "questions": [
+    "How does china relate to YMTC (Yangtze Memory Technologies Corp)?",
+    "How does memory relate to YMTC (Yangtze Memory Technologies Corp)?",
+    "How does nand relate to YMTC (Yangtze Memory Technologies Corp)?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.963Z"
+}

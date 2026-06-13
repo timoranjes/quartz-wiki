@@ -1,0 +1,108 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "semantic-kernel-1fdaa5f5",
+  "sourceHash": "1fdaa5f5c9a85f6caed7759ca2bce01f01f07ac28fb8b6d61d096b55a6ff5ed2",
+  "semanticHash": "40bf5bc46432c8e9a7092a82a6a4c229a14e3fc8464cc77684775d8ae457ebb4",
+  "extractionHash": "5c4e54da417ab9379c4c82b1ca46a3a7d8d6bfe83f7ab88ebbe4c2df643f7a42",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Semantic Kernel",
+  "summary": "title: Semantic Kernel tags: agent-framework, framework, microsoft, enterprise, csharp, python, java # Semantic Kernel ## Overview Semantic Kernel is Microsoft's open-source AI orchestration framework, enabling developers to integrate large language models into applications with enterprise-grade patterns. With 27,900+ GitHub stars, it has become a cornerstone tool for enterprise AI development since its initial release in 2023. - GitHub Stars : ~27,900 - License : MIT - Parent Company : Microsoft - Website : learn.microsoft.com/semantic-kernel - GitHub : github.com/microsoft/semantic-kernel ## Architecture ### Multi-Language Support - C# (.NET) : Primary language, full feature parity - Python : Production-ready with agent framework - Java : Growing support for enterprise Java stacks ### Agent Model - AI Agent : Software entity that performs tasks autonomously by receiving input, processing information, and taking actions - Modular Components : Specialized agents (data scraper, NLP processor) that can be reused or swapped - Collaboration : Multiple agents working together — one collects data, another analyzes, a third decides - Human-Agent Collaboration : Humans can review, refine, or override agent outputs (human-in-the-loop) - Process Orchestration : Automate end-to-end workflows across systems, APIs, and tools ### Agent Types | Agent Type | Description | |------------|-------------| | ChatCompletionAgent | Core chat-based agent with LLM + tools | | OpenAIAssistantAgent | Leverages OpenAI Assistant API | | AzureAIAgent | Azure AI service integration | | OpenAIResponsesAgent | OpenAI Responses API integration | ## Key Features | Feature | Description | |---------|-------------| | Multi-Language | C#, Python, Java — enterprise language coverage | | Plugin Architecture | Reusable plugins for skills, tools, and data sources | | Agent Orchestration | Multi-agent coordination framework | | Human-in-the-Loop | Review, refine, and override agent outputs | | Azure Integration | Native Azure OpenAI, Azure AI Search, Azure Functions | | Memory & Context | Conversation history, semantic memory, vector stores | | Prompt Templates | Handlebars, Jinja, semantic function templates | | OpenAI Compatible | Works with any OpenAI-compatible API | ## 2026 Updates - Agent Framework SDK : Dedicated agent orchestration package - Orchestration Package : Multi-agent coordination with typed workflows - Enterprise Adoption : Customer service chatbots, intelligent document processing, AI-powered automation - Multi-Step Workflows : Agents handling document analysis, information extraction, calculations, report generation ## Packages ### .NET (NuGet) | Package | Purpose | |---------|---------| | Microsoft.SemanticKernel | Core libraries | | Microsoft.SemanticKernel.Agents.Core | ChatCompletionAgent | | Microsoft.SemanticKernel.Agents.OpenAI | OpenAIAssistantAgent | | Microsoft.SemanticKernel.Agents.Orchestration | Multi-agent coordination | ### Python (PyPI) | Module | Description | |--------|-------------| | semantic-kernel.agents | Agent framework with ChatCompletionAgent, OpenAIAssistantAgent, AzureAIAgent | ### Java (Maven) | Package | Description | |---------|-------------| | semantickernel-agents-core | ChatCompletionAgent | | semantickernel-aiservices-openai | OpenAI service integration | ## When to Use - Enterprise .NET/Java applications requiring AI integration - Multi-agent systems with human-in-the-loop requirements - Document processing, customer service, and workflow automation - Azure ecosystem applications - Teams with existing Microsoft/Azure infrastructure ## When NOT to Use - Python-first startups or rapid prototyping (consider [[smolagents]] or [[crewai]]) - Open-source model-heavy workflows (consider [[langchain]]) - Simple single-agent chatbots without orchestration needs - Non-Microsoft cloud environments without Azure integration ## Related - [[../llm-providers/microsoft-phi]] — Microsoft's open-weight model family - [[../llm-providers/openai]] — OpenAI integration (GPT models) - [[../coding-agents/github-copilot]] — Microsoft's coding assistant (uses Semantic Kernel patterns) - [[autogen]] — Microsoft's conversational multi-agent framework - [[langchain]] — Cross-provider orchestration ## Sources - Microsoft Learn: Semantic Kernel Agent Framework - Semantic Kernel GitHub Repository - is4.ai: Semantic Kernel 2026 Overview",
+  "concepts": [
+    {
+      "id": "concept:agent",
+      "name": "agent",
+      "description": "Frequently referenced concept in Semantic Kernel."
+    },
+    {
+      "id": "concept:microsoft",
+      "name": "microsoft",
+      "description": "Frequently referenced concept in Semantic Kernel."
+    },
+    {
+      "id": "concept:openai",
+      "name": "openai",
+      "description": "Frequently referenced concept in Semantic Kernel."
+    },
+    {
+      "id": "concept:semantic",
+      "name": "semantic",
+      "description": "Frequently referenced concept in Semantic Kernel."
+    },
+    {
+      "id": "concept:framework",
+      "name": "framework",
+      "description": "Frequently referenced concept in Semantic Kernel."
+    },
+    {
+      "id": "concept:with",
+      "name": "with",
+      "description": "Frequently referenced concept in Semantic Kernel."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:semantic-kernel",
+      "name": "Semantic Kernel",
+      "description": "Named entity mentioned in Semantic Kernel."
+    },
+    {
+      "id": "entity:microsoft",
+      "name": "microsoft,",
+      "description": "Named entity mentioned in Semantic Kernel."
+    },
+    {
+      "id": "entity:overview-semantic-kernel",
+      "name": "Overview Semantic Kernel",
+      "description": "Named entity mentioned in Semantic Kernel."
+    },
+    {
+      "id": "entity:microsoft-s",
+      "name": "Microsoft's",
+      "description": "Named entity mentioned in Semantic Kernel."
+    },
+    {
+      "id": "entity:github",
+      "name": "GitHub",
+      "description": "Named entity mentioned in Semantic Kernel."
+    },
+    {
+      "id": "entity:ai-development",
+      "name": "AI development",
+      "description": "Named entity mentioned in Semantic Kernel."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:semantic-kernel-1fdaa5f5:1",
+      "text": "title: Semantic Kernel tags: agent-framework, framework, microsoft, enterprise, csharp, python, java # Semantic Kernel ## Overview Semantic Kernel is Microsoft's open-source AI orchestration framework, enabling developers to integrate large language models into applications with enterprise-grade patterns.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "semantic-kernel-1fdaa5f5"
+    },
+    {
+      "id": "claim:semantic-kernel-1fdaa5f5:2",
+      "text": "With 27,900+ GitHub stars, it has become a cornerstone tool for enterprise AI development since its initial release in 2023.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "semantic-kernel-1fdaa5f5"
+    },
+    {
+      "id": "claim:semantic-kernel-1fdaa5f5:3",
+      "text": "- GitHub Stars : ~27,900 - License : MIT - Parent Company : Microsoft - Website : learn.microsoft.com/semantic-kernel - GitHub : github.com/microsoft/semantic-kernel ## Architecture ### Multi-Language Support - C# (.NET) : Primary language, full feature parity - Python : Production-ready with agent framework - Java : Growing support for enterprise Java stacks ### Agent Model - AI Agent : Software entity that performs tasks autonomously by receiving input, processing information, and taking actions - Modular Components : Specialized agents (data scraper, NLP processor) that can be reused or swapped - Collaboration : Multiple agents working together — one collects data, another analyzes, a third decides - Human-Agent Collaboration : Humans can review, refine, or override agent outputs (human-in-the-loop) - Process Orchestration : Automate end-to-end workflows across systems, APIs, and tools ### Agent Types | Agent Type | Description | |------------|-------------| | ChatCompletionAgent | Core chat-based agent with LLM + tools | | OpenAIAssistantAgent | Leverages OpenAI Assistant API | | AzureAIAgent | Azure AI service integration | | OpenAIResponsesAgent | OpenAI Responses API integration | ## Key Features | Feature | Description | |---------|-------------| | Multi-Language | C#, Python, Java — enterprise language coverage | | Plugin Architecture | Reusable plugins for skills, tools, and data sources | | Agent Orchestration | Multi-agent coordination framework | | Human-in-the-Loop | Review, refine, and override agent outputs | | Azure Integration | Native Azure OpenAI, Azure AI Search, Azure Functions | | Memory & Context | Conversation history, semantic memory, vector stores | | Prompt Templates | Handlebars, Jinja, semantic function templates | | OpenAI Compatible | Works with any OpenAI-compatible API | ## 2026 Updates - Agent Framework SDK : Dedicated agent orchestration package - Orchestration Package : Multi-agent coordination with typed workflows - Enterprise Adoption : Customer service chatbots, intelligent document processing, AI-powered automation - Multi-Step Workflows : Agents handling document analysis, information extraction, calculations, report generation ## Packages ### .NET (NuGet) | Package | Purpose | |---------|---------| | Microsoft.SemanticKernel | Core libraries | | Microsoft.SemanticKernel.Agents.Core | ChatCompletionAgent | | Microsoft.SemanticKernel.Agents.OpenAI | OpenAIAssistantAgent | | Microsoft.SemanticKernel.Agents.Orchestration | Multi-agent coordination | ### Python (PyPI) | Module | Description | |--------|-------------| | semantic-kernel.agents | Agent framework with ChatCompletionAgent, OpenAIAssistantAgent, AzureAIAgent | ### Java (Maven) | Package | Description | |---------|-------------| | semantickernel-agents-core | ChatCompletionAgent | | semantickernel-aiservices-openai | OpenAI service integration | ## When to Use - Enterprise .NET/Java applications requiring AI integration - Multi-agent systems with human-in-the-loop requirements - Document processing, customer service, and workflow automation - Azure ecosystem applications - Teams with existing Microsoft/Azure infrastructure ## When NOT to Use - Python-first startups or rapid prototyping (consider [[smolagents]] or [[crewai]]) - Open-source model-heavy workflows (consider [[langchain]]) - Simple single-agent chatbots without orchestration needs - Non-Microsoft cloud environments without Azure integration ## Related - [[../llm-providers/microsoft-phi]] — Microsoft's open-weight model family - [[../llm-providers/openai]] — OpenAI integration (GPT models) - [[../coding-agents/github-copilot]] — Microsoft's coding assistant (uses Semantic Kernel patterns) - [[autogen]] — Microsoft's conversational multi-agent framework - [[langchain]] — Cross-provider orchestration ## Sources - Microsoft Learn: Semantic Kernel Agent Framework - Semantic Kernel GitHub Repository - is4.ai: Semantic Kernel 2026 Overview",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "semantic-kernel-1fdaa5f5"
+    }
+  ],
+  "questions": [
+    "How does agent relate to Semantic Kernel?",
+    "How does microsoft relate to Semantic Kernel?",
+    "How does openai relate to Semantic Kernel?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.623Z"
+}

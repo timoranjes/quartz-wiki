@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "agent-architectures-c4a81424",
+  "sourceHash": "c4a81424bb68afc0fb3350ee40e10b95f434823bbe584e3c546adcccdc0e2a59",
+  "semanticHash": "2b5e624e18c7a6361ac2286a7ede09d018621b8c719fa1f33dd866d33e342309",
+  "extractionHash": "7ad6f09fce7dbd3b5aff45ffe194700bd2204adf0638cf2eede49fe6447595e8",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Agent Architectures",
+  "summary": "title: Agent Architectures tags: agent-architecture, multi-agent, orchestrator # Agent Architectures ## Overview Agent architecture refers to the structural design of how an AI agent reasons, acts, and interacts with its environment. The choice of architecture determines capability, cost, latency, and failure modes. ## Core Patterns ### ReAct (Reason + Act) Interleaves reasoning traces with tool calls.",
+  "concepts": [
+    {
+      "id": "concept:agent",
+      "name": "agent",
+      "description": "Frequently referenced concept in Agent Architectures."
+    },
+    {
+      "id": "concept:step",
+      "name": "step",
+      "description": "Frequently referenced concept in Agent Architectures."
+    },
+    {
+      "id": "concept:architecture",
+      "name": "architecture",
+      "description": "Frequently referenced concept in Agent Architectures."
+    },
+    {
+      "id": "concept:cost",
+      "name": "cost",
+      "description": "Frequently referenced concept in Agent Architectures."
+    },
+    {
+      "id": "concept:orchestrator",
+      "name": "orchestrator",
+      "description": "Frequently referenced concept in Agent Architectures."
+    },
+    {
+      "id": "concept:then",
+      "name": "then",
+      "description": "Frequently referenced concept in Agent Architectures."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:agent-architectures",
+      "name": "Agent Architectures",
+      "description": "Named entity mentioned in Agent Architectures."
+    },
+    {
+      "id": "entity:overview-agent",
+      "name": "Overview Agent",
+      "description": "Named entity mentioned in Agent Architectures."
+    },
+    {
+      "id": "entity:core-patterns",
+      "name": "Core Patterns",
+      "description": "Named entity mentioned in Agent Architectures."
+    },
+    {
+      "id": "entity:react-reason",
+      "name": "ReAct (Reason",
+      "description": "Named entity mentioned in Agent Architectures."
+    },
+    {
+      "id": "entity:act-interleaves",
+      "name": "Act) Interleaves",
+      "description": "Named entity mentioned in Agent Architectures."
+    },
+    {
+      "id": "entity:planning",
+      "name": "Planning",
+      "description": "Named entity mentioned in Agent Architectures."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:agent-architectures-c4a81424:1",
+      "text": "title: Agent Architectures tags: agent-architecture, multi-agent, orchestrator # Agent Architectures ## Overview Agent architecture refers to the structural design of how an AI agent reasons, acts, and interacts with its environment.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "agent-architectures-c4a81424"
+    },
+    {
+      "id": "claim:agent-architectures-c4a81424:2",
+      "text": "The choice of architecture determines capability, cost, latency, and failure modes.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "agent-architectures-c4a81424"
+    },
+    {
+      "id": "claim:agent-architectures-c4a81424:3",
+      "text": "## Core Patterns ### ReAct (Reason + Act) Interleaves reasoning traces with tool calls.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "agent-architectures-c4a81424"
+    },
+    {
+      "id": "claim:agent-architectures-c4a81424:4",
+      "text": "The agent thinks, acts, observes, then repeats.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "agent-architectures-c4a81424"
+    }
+  ],
+  "questions": [
+    "How does agent relate to Agent Architectures?",
+    "How does step relate to Agent Architectures?",
+    "How does architecture relate to Agent Architectures?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:48.680Z"
+}

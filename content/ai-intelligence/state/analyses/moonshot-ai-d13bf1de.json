@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "moonshot-ai-d13bf1de",
+  "sourceHash": "d13bf1de15c2b4ae72338b438fed4ef56857e683bec2a68120758b12b155d2ef",
+  "semanticHash": "f227fca861c553b4f8f4356c4307f0c01c1a454284d454d81fdbee378390948b",
+  "extractionHash": "6ad17410bdca24368ef1e2eabebda5c5f5c0f8211c9da36ead1d8b09a5ef9db4",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Moonshot AI",
+  "summary": "title: Moonshot AI tags: provider, lab, china, model, reasoning, coding, open-weight, long-context, multimodal, agentic, pricing, api, token-cost, timeline # Moonshot AI ## Overview Moonshot AI (月之暗面) is a Beijing-based AI startup founded in March 2023 by Yang Zhilin and Tsinghua University classmates. The company is a member of China's \"Six AI Tigers\" and has raised $1B+ total funding from Alibaba, Tencent, Meituan, and HongShan at valuations reaching $3B. Moonshot AI is best known for the Kimi chatbot and the Kimi K2 series — a 1T-parameter MoE model with only 32B active parameters, released under a modified MIT license.",
+  "concepts": [
+    {
+      "id": "concept:kimi",
+      "name": "kimi",
+      "description": "Frequently referenced concept in Moonshot AI."
+    },
+    {
+      "id": "concept:2025",
+      "name": "2025",
+      "description": "Frequently referenced concept in Moonshot AI."
+    },
+    {
+      "id": "concept:agent",
+      "name": "agent",
+      "description": "Frequently referenced concept in Moonshot AI."
+    },
+    {
+      "id": "concept:swarm",
+      "name": "swarm",
+      "description": "Frequently referenced concept in Moonshot AI."
+    },
+    {
+      "id": "concept:tokens",
+      "name": "tokens",
+      "description": "Frequently referenced concept in Moonshot AI."
+    },
+    {
+      "id": "concept:context",
+      "name": "context",
+      "description": "Frequently referenced concept in Moonshot AI."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:moonshot",
+      "name": "Moonshot",
+      "description": "Named entity mentioned in Moonshot AI."
+    },
+    {
+      "id": "entity:china",
+      "name": "china,",
+      "description": "Named entity mentioned in Moonshot AI."
+    },
+    {
+      "id": "entity:overview-moonshot",
+      "name": "Overview Moonshot",
+      "description": "Named entity mentioned in Moonshot AI."
+    },
+    {
+      "id": "entity:march",
+      "name": "March",
+      "description": "Named entity mentioned in Moonshot AI."
+    },
+    {
+      "id": "entity:yang-zhilin",
+      "name": "Yang Zhilin",
+      "description": "Named entity mentioned in Moonshot AI."
+    },
+    {
+      "id": "entity:tsinghua-university",
+      "name": "Tsinghua University",
+      "description": "Named entity mentioned in Moonshot AI."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:moonshot-ai-d13bf1de:1",
+      "text": "title: Moonshot AI tags: provider, lab, china, model, reasoning, coding, open-weight, long-context, multimodal, agentic, pricing, api, token-cost, timeline # Moonshot AI ## Overview Moonshot AI (月之暗面) is a Beijing-based AI startup founded in March 2023 by Yang Zhilin and Tsinghua University classmates.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "moonshot-ai-d13bf1de"
+    },
+    {
+      "id": "claim:moonshot-ai-d13bf1de:2",
+      "text": "The company is a member of China's \"Six AI Tigers\" and has raised $1B+ total funding from Alibaba, Tencent, Meituan, and HongShan at valuations reaching $3B.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "moonshot-ai-d13bf1de"
+    },
+    {
+      "id": "claim:moonshot-ai-d13bf1de:3",
+      "text": "Moonshot AI is best known for the Kimi chatbot and the Kimi K2 series — a 1T-parameter MoE model with only 32B active parameters, released under a modified MIT license.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "moonshot-ai-d13bf1de"
+    },
+    {
+      "id": "claim:moonshot-ai-d13bf1de:4",
+      "text": "Fellow AI Tigers include [[zhipu-ai]] (Beijing), [[minimax]] (Shanghai), and [[deepseek]] (Hangzhou).",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "moonshot-ai-d13bf1de"
+    }
+  ],
+  "questions": [
+    "How does kimi relate to Moonshot AI?",
+    "How does 2025 relate to Moonshot AI?",
+    "How does agent relate to Moonshot AI?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.223Z"
+}

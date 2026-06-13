@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "cursor-ide-64120109",
+  "sourceHash": "64120109bc5323def5279ed3b360fb659d5ee6adf332440fd9159c9dfa083a5e",
+  "semanticHash": "65f35c802803050c7c531193c503afa8b171366069117017faee01a434a9d5fd",
+  "extractionHash": "9f4387b55c89883cdea1897f06f8e490fb8cc7ae160bc06b286971a9bb26151b",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Cursor IDE",
+  "summary": "title: Cursor IDE tags: coding-agent, ide, llm-provider Pro 🇺🇸 San Francisco (Anysphere) Latest Cursor Composer 2.5 Features Agent Mode, Bugbot Users 8M+ developers # Cursor IDE AI-first IDE forked from VS Code, with built-in codebase-aware AI agent capabilities. By mid-2026, the largest user base among AI coding IDEs with Composer 2.5 and Bugbot. ## Overview - Developer : Anysphere - Backend Models : Claude Sonnet 4.6, Claude Opus 4.7/4.8, GPT-5.4/5.5, Gemini, Composer 2 (first-party model) - Interface : Desktop IDE (macOS, Windows, Linux) - Pricing : Hobby (limited), Pro ($20/mo, credit-based), Teams Standard ($32/seat/mo annual, $40/mo monthly), Teams Premium ($96/seat/mo annual, $120/mo monthly, 5× usage), Ultra ($200/mo) - Open Source : Based on open-source VS Code ## Key Capabilities - Codebase-indexed AI: understands entire project context - Tab autocomplete with multi-file predictions - Agent mode: autonomous multi-file editing - Chat with codebase context - Multi-model support: switch between providers - Composer 2.5 : Multi-file editing with enhanced AI agent (May 2026) - Build in Parallel : Fan-out to multiple parallel agents for concurrent task execution - Bugbot : In-editor agent that triages and fixes bugs autonomously (~78% self-resolution rate, v3.3 May 2026) - Durable Canvases : Persist multi-step plans across sessions - Cloud Agents (2026): Agents run on Cursor's infrastructure — not your local machine.",
+  "concepts": [
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in Cursor IDE."
+    },
+    {
+      "id": "concept:agent",
+      "name": "agent",
+      "description": "Frequently referenced concept in Cursor IDE."
+    },
+    {
+      "id": "concept:agents",
+      "name": "agents",
+      "description": "Frequently referenced concept in Cursor IDE."
+    },
+    {
+      "id": "concept:composer",
+      "name": "composer",
+      "description": "Frequently referenced concept in Cursor IDE."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in Cursor IDE."
+    },
+    {
+      "id": "concept:with",
+      "name": "with",
+      "description": "Frequently referenced concept in Cursor IDE."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:cursor",
+      "name": "Cursor",
+      "description": "Named entity mentioned in Cursor IDE."
+    },
+    {
+      "id": "entity:pro",
+      "name": "Pro",
+      "description": "Named entity mentioned in Cursor IDE."
+    },
+    {
+      "id": "entity:san-francisco-anysphere-latest-cursor-composer",
+      "name": "San Francisco (Anysphere) Latest Cursor Composer",
+      "description": "Named entity mentioned in Cursor IDE."
+    },
+    {
+      "id": "entity:features-agent-mode-bugbot-users",
+      "name": "Features Agent Mode, Bugbot Users",
+      "description": "Named entity mentioned in Cursor IDE."
+    },
+    {
+      "id": "entity:code",
+      "name": "Code,",
+      "description": "Named entity mentioned in Cursor IDE."
+    },
+    {
+      "id": "entity:composer",
+      "name": "Composer",
+      "description": "Named entity mentioned in Cursor IDE."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:cursor-ide-64120109:1",
+      "text": "title: Cursor IDE tags: coding-agent, ide, llm-provider Pro 🇺🇸 San Francisco (Anysphere) Latest Cursor Composer 2.5 Features Agent Mode, Bugbot Users 8M+ developers # Cursor IDE AI-first IDE forked from VS Code, with built-in codebase-aware AI agent capabilities.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "cursor-ide-64120109"
+    },
+    {
+      "id": "claim:cursor-ide-64120109:2",
+      "text": "By mid-2026, the largest user base among AI coding IDEs with Composer 2.5 and Bugbot.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "cursor-ide-64120109"
+    },
+    {
+      "id": "claim:cursor-ide-64120109:3",
+      "text": "## Overview - Developer : Anysphere - Backend Models : Claude Sonnet 4.6, Claude Opus 4.7/4.8, GPT-5.4/5.5, Gemini, Composer 2 (first-party model) - Interface : Desktop IDE (macOS, Windows, Linux) - Pricing : Hobby (limited), Pro ($20/mo, credit-based), Teams Standard ($32/seat/mo annual, $40/mo monthly), Teams Premium ($96/seat/mo annual, $120/mo monthly, 5× usage), Ultra ($200/mo) - Open Source : Based on open-source VS Code ## Key Capabilities - Codebase-indexed AI: understands entire project context - Tab autocomplete with multi-file predictions - Agent mode: autonomous multi-file editing - Chat with codebase context - Multi-model support: switch between providers - Composer 2.5 : Multi-file editing with enhanced AI agent (May 2026) - Build in Parallel : Fan-out to multiple parallel agents for concurrent task execution - Bugbot : In-editor agent that triages and fixes bugs autonomously (~78% self-resolution rate, v3.3 May 2026) - Durable Canvases : Persist multi-step plans across sessions - Cloud Agents (2026): Agents run on Cursor's infrastructure — not your local machine.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "cursor-ide-64120109"
+    },
+    {
+      "id": "claim:cursor-ide-64120109:4",
+      "text": "Start an agent from browser, phone, or Slack, and it works autonomously on your codebase.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "cursor-ide-64120109"
+    }
+  ],
+  "questions": [
+    "How does 2026 relate to Cursor IDE?",
+    "How does agent relate to Cursor IDE?",
+    "How does agents relate to Cursor IDE?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:49.285Z"
+}

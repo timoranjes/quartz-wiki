@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "stepfun-517facb2",
+  "sourceHash": "517facb2bcbfcbff3c3ba495d3ba58efcefab9257ea0570732f8133d2111dd44",
+  "semanticHash": "b7af5029acda21642003a7df6bee5c27ee981383804a7e9cac9b798a7e4b6d0f",
+  "extractionHash": "f3a9c487b5dde57b8e8545bf97a63662f30157fb9ff5f1eb71cad85a1da1179f",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "StepFun",
+  "summary": "title: StepFun tags: provider, lab, china, model, multimodal, reasoning, coding, open-weight, pricing, api, token-cost, timeline, agentic # StepFun ## Overview StepFun (阶跃星辰) is a Shanghai-based AI startup founded in April 2023 by Jiang Daxin, former Chief Scientist of Microsoft Software Technology Center Asia. The company specializes in multimodal AI foundation models capable of processing text, audio, image, and video. StepFun is a member of China's \"Six AI Tigers\" and achieved unicorn status in December 2024 at a $2B valuation, having raised $718M+ total.",
+  "concepts": [
+    {
+      "id": "concept:step",
+      "name": "step",
+      "description": "Frequently referenced concept in StepFun."
+    },
+    {
+      "id": "concept:flash",
+      "name": "flash",
+      "description": "Frequently referenced concept in StepFun."
+    },
+    {
+      "id": "concept:models",
+      "name": "models",
+      "description": "Frequently referenced concept in StepFun."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in StepFun."
+    },
+    {
+      "id": "concept:stepfun",
+      "name": "stepfun",
+      "description": "Frequently referenced concept in StepFun."
+    },
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in StepFun."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:stepfun",
+      "name": "StepFun",
+      "description": "Named entity mentioned in StepFun."
+    },
+    {
+      "id": "entity:china",
+      "name": "china,",
+      "description": "Named entity mentioned in StepFun."
+    },
+    {
+      "id": "entity:overview-stepfun",
+      "name": "Overview StepFun",
+      "description": "Named entity mentioned in StepFun."
+    },
+    {
+      "id": "entity:jiang-daxin",
+      "name": "Jiang Daxin,",
+      "description": "Named entity mentioned in StepFun."
+    },
+    {
+      "id": "entity:chief-scientist",
+      "name": "Chief Scientist",
+      "description": "Named entity mentioned in StepFun."
+    },
+    {
+      "id": "entity:microsoft-software-technology-center-asia",
+      "name": "Microsoft Software Technology Center Asia.",
+      "description": "Named entity mentioned in StepFun."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:stepfun-517facb2:1",
+      "text": "title: StepFun tags: provider, lab, china, model, multimodal, reasoning, coding, open-weight, pricing, api, token-cost, timeline, agentic # StepFun ## Overview StepFun (阶跃星辰) is a Shanghai-based AI startup founded in April 2023 by Jiang Daxin, former Chief Scientist of Microsoft Software Technology Center Asia.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "stepfun-517facb2"
+    },
+    {
+      "id": "claim:stepfun-517facb2:2",
+      "text": "The company specializes in multimodal AI foundation models capable of processing text, audio, image, and video.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "stepfun-517facb2"
+    },
+    {
+      "id": "claim:stepfun-517facb2:3",
+      "text": "StepFun is a member of China's \"Six AI Tigers\" and achieved unicorn status in December 2024 at a $2B valuation, having raised $718M+ total.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "stepfun-517facb2"
+    },
+    {
+      "id": "claim:stepfun-517facb2:4",
+      "text": "The current flagship is the Step-3.7-Flash MoE model (May 2026), a 198B-parameter vision-language model with ~11B active parameters that competes with models 5-10× larger.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "stepfun-517facb2"
+    }
+  ],
+  "questions": [
+    "How does step relate to StepFun?",
+    "How does flash relate to StepFun?",
+    "How does models relate to StepFun?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.868Z"
+}

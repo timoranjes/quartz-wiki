@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "schema-ai-intelligence-wiki-95f746ef",
+  "sourceHash": "95f746ef78cd278c71487f275e383f4f5d6c022362e46a0fa55ae8ad544aaa86",
+  "semanticHash": "3fff54734078ace2377cece8adfc38c3b69644b408224a747c92d64f964009d6",
+  "extractionHash": "7620ab6a1e2e855f51b7aa5c507749087a9de0bae78caf66024ea37da873fd01",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "SCHEMA — AI Intelligence Wiki",
+  "summary": "SCHEMA — AI Intelligence Wiki Unified knowledge base for LLMs, coding agents, and the AI intelligence stack. Merged from wiki-llm-providers + wiki-ai-agents on 2026-06-04. ## Page Types | Type | Directory | Description | |------|-----------|-------------| | entity | entities/ | People, companies, organizations in the AI ecosystem | | concept | concepts/ | Architectures, patterns, techniques, frameworks | | comparison | comparisons/ | Head-to-head comparisons of approaches, frameworks, or models | | source | raw/sources/ | Curated articles, blog posts, documentation (immutable) | | paper | raw/papers/ | Research papers (immutable) | ## Required Frontmatter Every page MUST have these 6 fields: yaml --- title: \"Page Title\" type: entity | concept | comparison tags: [tag1, tag2] created: \"YYYY-MM-DD\" updated: \"YYYY-MM-DD\" status: seed | drafted | reviewed --- ## Tag Taxonomy ### LLM Layer llm-provider , open-weight , closed-model , moe , dense , reasoning-model , multimodal , chinese-llm ### Architecture moe-architecture , kv-cache-optimization , quantization , speculative-decoding , context-windows , prompt-caching , distillation , rlhf-training , extended-thinking ### Agent Layer coding-agent , agent-architecture , multi-agent , orchestrator , planning , reflection , react , tool-use , agent-framework ### Infrastructure framework , protocol , mcp , acp , evaluation , benchmark , safety , observability ### Decision model-selection , cost-optimization , pricing , trade-offs ### Capability reasoning , memory , retrieval , code-generation , web-browsing , computer-use ### Domain trading , research , productivity , automation , supply-chain ## Entity Subdirectories ### entities/llm-providers/ Model labs and providers: OpenAI, Anthropic, Google, Alibaba/Qwen, DeepSeek, Meta, etc.",
+  "concepts": [
+    {
+      "id": "concept:agent",
+      "name": "agent",
+      "description": "Frequently referenced concept in SCHEMA — AI Intelligence Wiki."
+    },
+    {
+      "id": "concept:agents",
+      "name": "agents",
+      "description": "Frequently referenced concept in SCHEMA — AI Intelligence Wiki."
+    },
+    {
+      "id": "concept:coding",
+      "name": "coding",
+      "description": "Frequently referenced concept in SCHEMA — AI Intelligence Wiki."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in SCHEMA — AI Intelligence Wiki."
+    },
+    {
+      "id": "concept:providers",
+      "name": "providers",
+      "description": "Frequently referenced concept in SCHEMA — AI Intelligence Wiki."
+    },
+    {
+      "id": "concept:architecture",
+      "name": "architecture",
+      "description": "Frequently referenced concept in SCHEMA — AI Intelligence Wiki."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:intelligence-wiki-unified",
+      "name": "Intelligence Wiki Unified",
+      "description": "Named entity mentioned in SCHEMA — AI Intelligence Wiki."
+    },
+    {
+      "id": "entity:ai",
+      "name": "AI",
+      "description": "Named entity mentioned in SCHEMA — AI Intelligence Wiki."
+    },
+    {
+      "id": "entity:page-types",
+      "name": "Page Types",
+      "description": "Named entity mentioned in SCHEMA — AI Intelligence Wiki."
+    },
+    {
+      "id": "entity:type",
+      "name": "Type",
+      "description": "Named entity mentioned in SCHEMA — AI Intelligence Wiki."
+    },
+    {
+      "id": "entity:directory",
+      "name": "Directory",
+      "description": "Named entity mentioned in SCHEMA — AI Intelligence Wiki."
+    },
+    {
+      "id": "entity:description",
+      "name": "Description",
+      "description": "Named entity mentioned in SCHEMA — AI Intelligence Wiki."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:schema-ai-intelligence-wiki-95f746ef:1",
+      "text": "SCHEMA — AI Intelligence Wiki Unified knowledge base for LLMs, coding agents, and the AI intelligence stack.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "schema-ai-intelligence-wiki-95f746ef"
+    },
+    {
+      "id": "claim:schema-ai-intelligence-wiki-95f746ef:2",
+      "text": "Merged from wiki-llm-providers + wiki-ai-agents on 2026-06-04.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "schema-ai-intelligence-wiki-95f746ef"
+    },
+    {
+      "id": "claim:schema-ai-intelligence-wiki-95f746ef:3",
+      "text": "## Page Types | Type | Directory | Description | |------|-----------|-------------| | entity | entities/ | People, companies, organizations in the AI ecosystem | | concept | concepts/ | Architectures, patterns, techniques, frameworks | | comparison | comparisons/ | Head-to-head comparisons of approaches, frameworks, or models | | source | raw/sources/ | Curated articles, blog posts, documentation (immutable) | | paper | raw/papers/ | Research papers (immutable) | ## Required Frontmatter Every page MUST have these 6 fields: yaml --- title: \"Page Title\" type: entity | concept | comparison tags: [tag1, tag2] created: \"YYYY-MM-DD\" updated: \"YYYY-MM-DD\" status: seed | drafted | reviewed --- ## Tag Taxonomy ### LLM Layer llm-provider , open-weight , closed-model , moe , dense , reasoning-model , multimodal , chinese-llm ### Architecture moe-architecture , kv-cache-optimization , quantization , speculative-decoding , context-windows , prompt-caching , distillation , rlhf-training , extended-thinking ### Agent Layer coding-agent , agent-architecture , multi-agent , orchestrator , planning , reflection , react , tool-use , agent-framework ### Infrastructure framework , protocol , mcp , acp , evaluation , benchmark , safety , observability ### Decision model-selection , cost-optimization , pricing , trade-offs ### Capability reasoning , memory , retrieval , code-generation , web-browsing , computer-use ### Domain trading , research , productivity , automation , supply-chain ## Entity Subdirectories ### entities/llm-providers/ Model labs and providers: OpenAI, Anthropic, Google, Alibaba/Qwen, DeepSeek, Meta, etc.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "schema-ai-intelligence-wiki-95f746ef"
+    },
+    {
+      "id": "claim:schema-ai-intelligence-wiki-95f746ef:4",
+      "text": "### entities/coding-agents/ CLI and IDE coding agents: Codex, Claude Code, Gemini CLI, GitHub Copilot, Cursor, Aider, OpenCode, etc.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "schema-ai-intelligence-wiki-95f746ef"
+    }
+  ],
+  "questions": [
+    "How does agent relate to SCHEMA — AI Intelligence Wiki?",
+    "How does agents relate to SCHEMA — AI Intelligence Wiki?",
+    "How does coding relate to SCHEMA — AI Intelligence Wiki?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.591Z"
+}

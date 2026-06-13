@@ -1,0 +1,100 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "coding-agent-feature-matrix-168f075a",
+  "sourceHash": "168f075af3fcbaa04679ec9624ebbe687767210f1c1e15366cc30d5d85a280c5",
+  "semanticHash": "805c285848f7daf988419269682dd2b713e61385c54553accd9aecb9655a7878",
+  "extractionHash": "4aaa26acef392eb51b965fa0a7822f3e9dffce498656d39231a5fd2f24926c27",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Coding Agent Feature Matrix",
+  "summary": "title: Coding Agent Feature Matrix tags: coding-agent, comparison, model-selection # Coding Agent Feature Matrix Head-to-head comparison of major CLI/IDE coding agents as of June 2026. ## Quick Comparison | Feature | Codex | Claude Code | Gemini CLI | Copilot | Cursor | Aider | OpenCode | |---------|-------|-------------|------------|---------|--------|-------|----------| | Interface | CLI | CLI + Web | CLI | IDE + Web | IDE | CLI | CLI | | Primary Model | o3/o4-mini | Sonnet 4 | Gemini 2.5 Pro | GPT-4o | Multi | Multi | Multi | | Open Source | Partial | Partial | Yes | No | No | Yes | Yes | | Codebase Context | Full | Full | Full (1M ctx) | Full | Full (indexed) | Map | Context | | Terminal Access | Yes | Yes | Yes | Yes | Yes | Yes | Yes | | MCP Support | Yes | Yes | Yes | Yes | No | No | No | | Git Integration | Yes | Yes | Yes | Yes | Yes | Yes | Yes | | Free Tier | Limited | Limited | Generous | Trial | Limited | Free (own API) | Free (own API) | | Privacy Mode | Sandbox | Permission | N/A | Enterprise | Yes | Local models | Local models | | Multi-file Edit | Yes | Yes | Yes | Yes | Yes | Yes | Yes | ## Strengths by Use Case | Use Case | Best Agent | Why | |----------|-----------|-----| | Complex refactoring | Codex | Deep reasoning, o3/o4-mini models | | Safety-conscious projects | Claude Code | Permission model, cautious approach | | Massive codebases | Gemini CLI | 1M+ token context window | | GitHub-native workflow | Copilot | Deepest GitHub integration | | IDE-first developers | Cursor | Best integrated AI IDE experience | | Privacy / local models | Aider | Works with Ollama, fully local | | Model flexibility | OpenCode | Easy provider switching, OpenRouter | ## Cost Considerations | Agent | Entry Cost | Premium Cost | Notes | |-------|-----------|--------------|-------| | Codex | $20/mo (Pro) | API pay-per-use | o3/o4-mini are expensive | | Claude Code | $20/mo (Pro) | API pay-per-use | Sonnet 4 cost-effective | | Gemini CLI | Free tier | Vertex AI pricing | Generous free quota | | Copilot | $10/mo | $19-40/mo | Fixed subscription | | Cursor | Free | $20-40/mo | Model usage included | | Aider | Free | API costs only | Your model costs | | OpenCode | Free | API costs only | Your model costs | ## Related - [[model-selection-for-agents]] — How to choose models for agent workloads - [[enterprise-ai-costs]] — Enterprise AI spending patterns - [[openai-codex]] — OpenAI Codex details - [[claude-code]] — Claude Code details - [[gemini-cli]] — Gemini CLI details",
+  "concepts": [
+    {
+      "id": "concept:free",
+      "name": "free",
+      "description": "Frequently referenced concept in Coding Agent Feature Matrix."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in Coding Agent Feature Matrix."
+    },
+    {
+      "id": "concept:agent",
+      "name": "agent",
+      "description": "Frequently referenced concept in Coding Agent Feature Matrix."
+    },
+    {
+      "id": "concept:full",
+      "name": "full",
+      "description": "Frequently referenced concept in Coding Agent Feature Matrix."
+    },
+    {
+      "id": "concept:gemini",
+      "name": "gemini",
+      "description": "Frequently referenced concept in Coding Agent Feature Matrix."
+    },
+    {
+      "id": "concept:models",
+      "name": "models",
+      "description": "Frequently referenced concept in Coding Agent Feature Matrix."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:coding-agent-feature-matrix",
+      "name": "Coding Agent Feature Matrix",
+      "description": "Named entity mentioned in Coding Agent Feature Matrix."
+    },
+    {
+      "id": "entity:coding-agent-feature-matrix-head",
+      "name": "Coding Agent Feature Matrix Head-",
+      "description": "Named entity mentioned in Coding Agent Feature Matrix."
+    },
+    {
+      "id": "entity:quick-comparison",
+      "name": "Quick Comparison",
+      "description": "Named entity mentioned in Coding Agent Feature Matrix."
+    },
+    {
+      "id": "entity:feature",
+      "name": "Feature",
+      "description": "Named entity mentioned in Coding Agent Feature Matrix."
+    },
+    {
+      "id": "entity:codex",
+      "name": "Codex",
+      "description": "Named entity mentioned in Coding Agent Feature Matrix."
+    },
+    {
+      "id": "entity:claude-code",
+      "name": "Claude Code",
+      "description": "Named entity mentioned in Coding Agent Feature Matrix."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:coding-agent-feature-matrix-168f075a:1",
+      "text": "title: Coding Agent Feature Matrix tags: coding-agent, comparison, model-selection # Coding Agent Feature Matrix Head-to-head comparison of major CLI/IDE coding agents as of June 2026.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "coding-agent-feature-matrix-168f075a"
+    },
+    {
+      "id": "claim:coding-agent-feature-matrix-168f075a:2",
+      "text": "## Quick Comparison | Feature | Codex | Claude Code | Gemini CLI | Copilot | Cursor | Aider | OpenCode | |---------|-------|-------------|------------|---------|--------|-------|----------| | Interface | CLI | CLI + Web | CLI | IDE + Web | IDE | CLI | CLI | | Primary Model | o3/o4-mini | Sonnet 4 | Gemini 2.5 Pro | GPT-4o | Multi | Multi | Multi | | Open Source | Partial | Partial | Yes | No | No | Yes | Yes | | Codebase Context | Full | Full | Full (1M ctx) | Full | Full (indexed) | Map | Context | | Terminal Access | Yes | Yes | Yes | Yes | Yes | Yes | Yes | | MCP Support | Yes | Yes | Yes | Yes | No | No | No | | Git Integration | Yes | Yes | Yes | Yes | Yes | Yes | Yes | | Free Tier | Limited | Limited | Generous | Trial | Limited | Free (own API) | Free (own API) | | Privacy Mode | Sandbox | Permission | N/A | Enterprise | Yes | Local models | Local models | | Multi-file Edit | Yes | Yes | Yes | Yes | Yes | Yes | Yes | ## Strengths by Use Case | Use Case | Best Agent | Why | |----------|-----------|-----| | Complex refactoring | Codex | Deep reasoning, o3/o4-mini models | | Safety-conscious projects | Claude Code | Permission model, cautious approach | | Massive codebases | Gemini CLI | 1M+ token context window | | GitHub-native workflow | Copilot | Deepest GitHub integration | | IDE-first developers | Cursor | Best integrated AI IDE experience | | Privacy / local models | Aider | Works with Ollama, fully local | | Model flexibility | OpenCode | Easy provider switching, OpenRouter | ## Cost Considerations | Agent | Entry Cost | Premium Cost | Notes | |-------|-----------|--------------|-------| | Codex | $20/mo (Pro) | API pay-per-use | o3/o4-mini are expensive | | Claude Code | $20/mo (Pro) | API pay-per-use | Sonnet 4 cost-effective | | Gemini CLI | Free tier | Vertex AI pricing | Generous free quota | | Copilot | $10/mo | $19-40/mo | Fixed subscription | | Cursor | Free | $20-40/mo | Model usage included | | Aider | Free | API costs only | Your model costs | | OpenCode | Free | API costs only | Your model costs | ## Related - [[model-selection-for-agents]] — How to choose models for agent workloads - [[enterprise-ai-costs]] — Enterprise AI spending patterns - [[openai-codex]] — OpenAI Codex details - [[claude-code]] — Claude Code details - [[gemini-cli]] — Gemini CLI details",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "coding-agent-feature-matrix-168f075a"
+    }
+  ],
+  "questions": [
+    "How does free relate to Coding Agent Feature Matrix?",
+    "How does model relate to Coding Agent Feature Matrix?",
+    "How does agent relate to Coding Agent Feature Matrix?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:49.336Z"
+}

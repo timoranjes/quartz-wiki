@@ -1,0 +1,108 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "helion-energy-0ae9133b",
+  "sourceHash": "0ae9133b0d9f17bfb86a7ac5cb7d92da62f2b023d91bad77cecf73b11f77650f",
+  "semanticHash": "c18866950ad7e6edac56abcfdc7cbcb9d304ffa39af5c5ec31f9ce239c11a191",
+  "extractionHash": "d2e677aa4eea70003d9761d26085186711af6eff5cbb6dbdefe15cbefcc7b4c0",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Helion Energy",
+  "summary": "Helion Energy Type: entity Tags: #fusion-energy #data-center #microsoft #altman #clean-energy ## Overview Helion Energy is a fusion energy startup building the world's first commercial fusion power plant. Backed by Sam Altman, with a power purchase agreement to supply Microsoft by 2028. ## Key Facts - Headquarters: Everett, Washington - Latest Round: Series G — $465M (June 2026) - Lead Investor: Thrive Capital - Valuation: $15.5B post-money (up from $5.4B in Jan 2025 Series F) - Microsoft Deal: Power purchase agreement for commercial fusion power by 2028 - Goal: Commercialize fusion power this decade ## Funding History | Round | Amount | Valuation | Date | |-------|--------|-----------|------| | Series F | $425M | $5.4B | Jan 2025 | | Series G | $465M | $15.5B | Jun 2026 | ## Supply Chain Impact - Fusion power could solve data center energy constraints - Microsoft's PPA validates commercial viability timeline - Relevant to AI infrastructure: compute growth limited by power availability - If successful, removes a key bottleneck for hyperscale AI deployment ## Sources - Helion Energy: Series G announcement - TechCrunch: Helion raises $465M for Microsoft power plant - GeekWire: $15.5B valuation, commercialize fusion this decade - Wikipedia: Helion Energy ## Related - [[microsoft]] - [[data-center-infrastructure]] - [[ai-infrastructure]] - [[energy-grid]]",
+  "concepts": [
+    {
+      "id": "concept:power",
+      "name": "power",
+      "description": "Frequently referenced concept in Helion Energy."
+    },
+    {
+      "id": "concept:energy",
+      "name": "energy",
+      "description": "Frequently referenced concept in Helion Energy."
+    },
+    {
+      "id": "concept:fusion",
+      "name": "fusion",
+      "description": "Frequently referenced concept in Helion Energy."
+    },
+    {
+      "id": "concept:microsoft",
+      "name": "microsoft",
+      "description": "Frequently referenced concept in Helion Energy."
+    },
+    {
+      "id": "concept:helion",
+      "name": "helion",
+      "description": "Frequently referenced concept in Helion Energy."
+    },
+    {
+      "id": "concept:series",
+      "name": "series",
+      "description": "Frequently referenced concept in Helion Energy."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:helion-energy-type",
+      "name": "Helion Energy Type:",
+      "description": "Named entity mentioned in Helion Energy."
+    },
+    {
+      "id": "entity:tags",
+      "name": "Tags:",
+      "description": "Named entity mentioned in Helion Energy."
+    },
+    {
+      "id": "entity:microsoft",
+      "name": "#microsoft",
+      "description": "Named entity mentioned in Helion Energy."
+    },
+    {
+      "id": "entity:overview-helion-energy",
+      "name": "Overview Helion Energy",
+      "description": "Named entity mentioned in Helion Energy."
+    },
+    {
+      "id": "entity:sam-altman",
+      "name": "Sam Altman,",
+      "description": "Named entity mentioned in Helion Energy."
+    },
+    {
+      "id": "entity:microsoft",
+      "name": "Microsoft",
+      "description": "Named entity mentioned in Helion Energy."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:helion-energy-0ae9133b:1",
+      "text": "Helion Energy Type: entity Tags: #fusion-energy #data-center #microsoft #altman #clean-energy ## Overview Helion Energy is a fusion energy startup building the world's first commercial fusion power plant.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "helion-energy-0ae9133b"
+    },
+    {
+      "id": "claim:helion-energy-0ae9133b:2",
+      "text": "Backed by Sam Altman, with a power purchase agreement to supply Microsoft by 2028.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "helion-energy-0ae9133b"
+    },
+    {
+      "id": "claim:helion-energy-0ae9133b:3",
+      "text": "## Key Facts - Headquarters: Everett, Washington - Latest Round: Series G — $465M (June 2026) - Lead Investor: Thrive Capital - Valuation: $15.5B post-money (up from $5.4B in Jan 2025 Series F) - Microsoft Deal: Power purchase agreement for commercial fusion power by 2028 - Goal: Commercialize fusion power this decade ## Funding History | Round | Amount | Valuation | Date | |-------|--------|-----------|------| | Series F | $425M | $5.4B | Jan 2025 | | Series G | $465M | $15.5B | Jun 2026 | ## Supply Chain Impact - Fusion power could solve data center energy constraints - Microsoft's PPA validates commercial viability timeline - Relevant to AI infrastructure: compute growth limited by power availability - If successful, removes a key bottleneck for hyperscale AI deployment ## Sources - Helion Energy: Series G announcement - TechCrunch: Helion raises $465M for Microsoft power plant - GeekWire: $15.5B valuation, commercialize fusion this decade - Wikipedia: Helion Energy ## Related - [[microsoft]] - [[data-center-infrastructure]] - [[ai-infrastructure]] - [[energy-grid]]",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "helion-energy-0ae9133b"
+    }
+  ],
+  "questions": [
+    "How does power relate to Helion Energy?",
+    "How does energy relate to Helion Energy?",
+    "How does fusion relate to Helion Energy?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:49.592Z"
+}

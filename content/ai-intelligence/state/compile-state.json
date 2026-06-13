@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T21:08:50.506Z",
+  "generatedAt": "2026-06-13T21:03:51.300Z",
   "rootSchemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
   "projectSchemaHashes": {},
   "effectiveSchemaHashes": {
@@ -8,6 +8,85 @@
   },
   "projectConfigHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
   "analyses": {
+    "agent-architectures-c4a81424": "5c0df50529c0d381d20b42333a89bc35a83238b8111829bb718116850d1b85be",
+    "agent-client-protocol-acp-8c8dcb94": "13264b34e0f829d2b660ab7835c60b2c6672183e06c563894906de697a602a17",
+    "agent-framework-feature-matrix-fde0ed4b": "a29ac955fceee2a7ad1e05a1aca76095f8aee2215058dae1ef7ec135df9e91c2",
+    "agent-memory-99831982": "fe1975b52ca95beb8f093e0553f178f2a06f77401f35cd950049e5d121546444",
+    "agent-safety-80d3d17f": "f3d19b2c7fda9230375b89f78b0237f4b5f3871b0ef0101b90255962bc6e292a",
+    "ai-engineering-culture-33de7c7d": "17946bebe7652b14923a62374edda2e2f6169554e7ef1a1bc049315d704945bc",
+    "ai-for-alpha-generation-3fd7660d": "0b4fb12fd12678d4fb1de104d7ab3b09c4708203b49cf19d9e99caf862926422",
+    "ai-intelligence-wiki-index-a106d6b7": "57fef45d6df837f4a675cdf29c8f9eb0a4c3334e4ce6d292946febd1b5567d80",
+    "aider-c014bd69": "73e7c77cf78d136616f6fe9b5285edadbe635bfc2febf3a84046bc899973c1d5",
+    "alibaba-qwen-1cf50963": "265f7d91223122272223e75a6ed8d077a3dac347b5df92cd21a876e4d38e3e52",
+    "amazon-nova-act-61a7a942": "048eac8532c397bd9261ad31bde0b77205366e6c7bed64cd4f28eda729d87f35",
+    "anthropic-claude-code-9a2a2c2f": "623e8f2f9c0957df366203d8f2b577fdbe4e8df03790e474fee93f7013ef113c",
+    "anthropic-e5b2ae21": "934d317cac80933a95384bceb9c05e4f192445887129f48db2fdaaacb7e98da1",
+    "architecture-comparison-7564a202": "b508af72e83708da1dafc1f164f9212bfa803b824be4430c1aba95bbd1a7cc9e",
+    "autogen-d2ca12d4": "6287e7c0317cfb763296d264250980e611f19ea0963eeb59e4c39fc54e054357",
+    "bloomberggpt-693c071e": "c122718fac3deb0c8932d3e9ef05dc13b05d6189c695f7007f70e14a1bc05dd1",
+    "capabilities-comparison-da17fe1a": "4fc361423766d9ebcb2d6940431249158572a02071f44cd9d58a8ba7f1e9a90c",
+    "coding-agent-feature-matrix-168f075a": "c55d094fe316be038fd0507d0a5b6167a200b523fb78c3cfef28f252cb77e6ee",
+    "cohere-7a243c96": "4287719bd1ed8830d206def26ba252fefd11c7e2026c070d74b90817f1224d72",
+    "context-windows-and-long-context-431202b8": "50f7258b6d78a9a53468dc56bdad425686611e1359b3277fc89e36255c01ae39",
+    "crewai-9c8d5146": "31929dc90c28887ab5f488b5742af237101b8e32adb1d5c177545d8f7e444e4e",
+    "cursor-ide-64120109": "e45d3b5aba5e79a4f69489238184a15d7e4392edab965000b3adaa3643122546",
+    "deepseek-837cec6b": "6ab63b1b621acfa320129c05d0adf3af5515bc5e853c64becb4f67ff1830dfc3",
+    "devin-desktop-36289347": "5393adb680328734f077173edd7c7ac6612ce1f56e109ec65092030ee08070c2",
+    "enterprise-ai-cost-management-697ab8d5": "e438d0b128adc83e3bcb20c95f5b905ba1a8021db235e90b2b2bcc8bf48fecae",
+    "evaluation-benchmarks-807dce0d": "7d7399f2c2af6fd812aee1a68429fe98709ae7bc1c696bda8dc43ca76f2d3ee6",
+    "extended-thinking-reasoning-mode-9271007e": "5b6200a04f3711e58a0a64ac00f89a4d194a9d10d297e6967780c1265527f92f",
+    "financial-reasoning-benchmarks-32d95d6c": "48c66ae3e23bc8157469be83f80d5b420a1367c7bf699cf50214457be2656d0e",
+    "github-copilot-57767a0f": "04b707539222e2f15072ad97cdbde9e059e9194c0faae4bc93a38580207a92aa",
+    "google-antigravity-c839fc82": "cad8bc185499215a892fd255f82bb1c590a5e946850fcebcd038197b20764696",
+    "google-gemini-f03c0717": "3d661f8d0227964ba665a32bd5183a04d9b9a6b1ca843045f7483eedd5d3ec9b",
+    "grok-build-b560a812": "96413634a4129fc463e5a0a21872285134091c8d4b74c55053becf0f91b60c20",
+    "helion-energy-0ae9133b": "3abce9b42eb2fd8c31e0cfb0d9c6e19f0d5631a4eeb32b60f4361a9837003243",
+    "hugging-face-60153cb9": "edf01145bcfe32bc8c5e77de92e0e967e67d73e864d6ccb1d214bdb14de6e349",
+    "knowledge-distillation-12873957": "5465e05b7957110afaf7784ed94a86060523841456d85b0f64e5943b14722eca",
+    "kv-cache-optimization-de2c0259": "3d396c887fd768b24096ae47b6f05d1a718b653208c37bf4b043cd054570ed95",
+    "langchain-langgraph-7a4aa86d": "1a4aa13b40197fe8e3fc06f1a34ac5f56ed70962c3d3436f38894c7080f1962a",
+    "llamaindex-ae86527e": "2100cbc3958e71d31934c578e2a52adffd4e2bc510b27e4f944170b7620f5686",
+    "llm-release-tracker-fddf2689": "b0e688ab9165eb4d1585f0dc372f7d316d9f952c62915813fa9a2f91fdacf842",
+    "mcp-model-context-protocol-a0a3debf": "a4f082594e59f6576681fc4e307187a297cb1a323194434f69470c0f69a73ad3",
+    "meta-llama-10f19581": "6f8c8cff6426f22afec19cc451ec25cd8ea55b0a00bc3ff759c11498c480c88d",
+    "microsoft-phi-55281864": "61003f6efa4a47acfde4340d495caf3df7ce233812e71754b05abb9fed94d684",
+    "minimax-d454d859": "72af814c21e030701796d9bca7171a71814efe17051ca9a965aa3c5a5f4ad6cd",
+    "mistral-ai-06e88b74": "5a3409a876364b5c979600cb544dd7d9606970a5091ed86d2d9633adebed576a",
+    "mixture-of-experts-moe-architecture-fcad9f2a": "31cd54efb5b4179f648a7e72b8988eeac6a911daddfeb7f36e69a92ed058cbe6",
+    "model-commoditization-risk-ee3ef656": "22fbc3066444e28ffd9bf32b69e410a284e0e1e3ace6c22788651bd6e25febef",
+    "model-selection-for-agents-52969ec5": "6200851a7013517eba7c6ed78012ec7cedff3fbaf7a56920904d0a44d5d80533",
+    "moonshot-ai-d13bf1de": "e7523590a9c8e80b1d1a9edecc1b4fa5186ed3fb83136de0ec70a9fe740cbc2f",
+    "multi-agent-orchestration-85061802": "9ceac7262a35d06149dd003d79ac4c6768cb995e5114da695983dc2fb408c485",
+    "nvidia-0687788d": "ffdbc7cf9d1bfc4c5388be08c58c1121deb8c2fff1c50cdb32cbb48d013e945e",
+    "ollama-19794359": "6290ad634cdb88be97a9fb08ccf415f2421c47f3156fad1ea91f78b2cb879a73",
+    "open-source-comparison-8a31dfc2": "6e6f705a080a72dfbd34ba800a7056b9c809cc65791872238100c1ef19823ec1",
+    "open-source-ecosystem-index-7edbaf37": "0844e99839b2d9404d699bc690d5a784fc47f36b019fd8cf4b9b84f55e18d52a",
+    "open-weight-licensing-887e57a4": "5db910e71e79edeeae35da1b5f7c510f83912959cf167315e9ad9d2e838deb08",
+    "openai-agents-sdk-874de8e8": "be8859f5336d9723d65a1ea8ad7ac466ee46dae392b6c7214993035aef955963",
+    "openai-codex-93968904": "a50b16f3edf43af023e86500fd44cf138045efe17149700412f97ebc7ddf878b",
+    "openai-e2c21475": "9222fa65ee53935cedbbe4d57076e0a5c6957587a3868a8e00dc6b03bb5be8f3",
+    "opencode-de4e68b1": "1f3e08080b3e6f15bba95f7474fab6ecc6023f7a23a300a014f4581f0bb740f4",
+    "openhands-6f91c4fe": "8216542da208184c6acfe7a5b14a4b371c0e227f429800ca66773f95baf540bf",
+    "perplexity-ai-sonar-37c95c90": "c5d86a446ed282f4d99037484ceca25c4b4fbbb312e5165cfef66d7b0e7a25a0",
+    "pricing-comparison-42a35633": "006c120da8d3806bc38b7d016404fbe1b86e309958da728d09e9bbbf78f040a6",
+    "prompt-caching-84942f18": "c2990d6b84451b8cfa5537a11432579c338a2026f354f241ae74bb3ec7e78b42",
+    "quantization-89ec2663": "0be444fcb64011b06a6e09174f31cd29d065659e24d0ceef031b09b64552e43b",
+    "rlhf-and-alignment-training-ba7b3502": "9b17a3a13e029047c7fcd93720506414312fef15891be869e549b25b383407fb",
+    "schema-ai-intelligence-wiki-95f746ef": "6a1c1fc6e04ef1ec156112d28b439e63ab988fe63ad5dd4b6fa64d5910cd32b8",
+    "semantic-kernel-1fdaa5f5": "d301eb922750702ff80b465285e0bf1b74bcd94f9964f969b23aa515f9d322d1",
+    "sentiment-analysis-for-markets-0f8731b4": "5ba2f5d2f5190816d3f8e662b1850d20732ef4021d4f172f8e5622de98087586",
+    "single-vs-multi-agent-6d3849d4": "63caf7856dc4b8bb683ce0cbe3b03380253a5df7f1a0cb6a453f984c2f0e9615",
+    "smic-semiconductor-manufacturing-international-corporation-432c6082": "4a209c0dda84ab6c0a9d77958e2582ca2c379bf5ff8290df47ec664a6dc7bff2",
+    "smolagents-ac93798a": "30c03e1775e423abced68ce2162c0bdcd67ec878a88aebe0f8515496c1593124",
+    "spacex-terafab-87c79947": "0400479c0fd6796ca2215bc3077e5c21a217c1bea48c8fc31c75fe5906291511",
+    "speculative-decoding-d3cdd080": "2334b21c1ccc4bf0f5bdbe1da71a23095c765d6a8964f25f0c58c974a96a4e93",
+    "stability-ai-edf65283": "2cca0b8b19617d65ec5c7cb26b0745c09fd76f544308b8c50e720bbc3e7eb9a2",
+    "stepfun-517facb2": "cea7a84a4e5cfbc6b5f91fd79107dca7f1ea269ec82127897fc506ea219437ab",
+    "together-ai-ce3a0f9b": "4c0bda85244c45c9be70def3c08b34549f3ff4238ef1e5203e987d66d1c46819",
+    "tool-use-pattern-307ac2f6": "acf0f1db1584d1e39d917dff35d0859a50d09b05eae799868929371563f9a4f5",
+    "xai-grok-efa7f437": "6306e865f0622fc3e418b7f25ea24f8f636bd1167fb7b379246e5d116497ff46",
+    "ymtc-yangtze-memory-technologies-corp-542d90e6": "a4d0a90040d6778d94834124aa490e34a9c82bbbcc1277e3a098580f05ba8fb6",
+    "zhipu-ai-glm-3629e43c": "c0242a8a2e1a0527dd3cdccba5ea5a08fc47696647ff3ab79592699bda55bd55",
     "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151": "a2c74564e93edecdce8c9d13c101dad1263dc8b899354fd2a16dae87a43afae9",
     "anthropic-llm-provider-research-report-mid-2026-85c1ae51": "b5aedae050417117ea1a3736229187c83b5f03f24d99a9178491d21f8a592ad9",
     "deepseek-llm-provider-research-report-mid-2026-06d7b24d": "437e53471ac532d62b8c3c9e4ea512a774b471df2cdb4cbf02e894746b221a28",
@@ -28,71 +107,538 @@
     "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161": "79268f03e9c786bf0caa0bb401386b8d14621861fa7ed300976e86e670c6e028"
   },
   "sourceHashes": {
+    "agent-architectures-c4a81424": "c4a81424bb68afc0fb3350ee40e10b95f434823bbe584e3c546adcccdc0e2a59",
+    "agent-client-protocol-acp-8c8dcb94": "8c8dcb946820b606b36c291075c2021ebbdf81d10fbe925911d62a9bbe1fb669",
+    "agent-framework-feature-matrix-fde0ed4b": "fde0ed4b995355428935aa6f12d1448e66831eda9a8a74a5fd6e00534696e8fe",
+    "agent-memory-99831982": "99831982b0569963c60a9cc2a5a28283eb49492c40700d71a8582419015ccd2c",
+    "agent-safety-80d3d17f": "80d3d17fed06d6c799a831dc6ae776f9d1008b5c66934fa938539ce43b9f3188",
+    "ai-engineering-culture-33de7c7d": "33de7c7d41b50d9022a56f474372055187d827c3253134c970c732fc38bd3058",
+    "ai-for-alpha-generation-3fd7660d": "3fd7660d09a1da0708f67277ef9df3ee3104004e75d35bebf3a17c46cf3d4396",
+    "ai-intelligence-wiki-index-a106d6b7": "a106d6b7484636b9f8a6cb0c4f155c1bc719c6e8c0a6d90093b6bea576bcad44",
+    "aider-c014bd69": "c014bd694521fb2edf57e864157e38802c3805ef4224623207d432191cc5c7a9",
+    "alibaba-qwen-1cf50963": "1cf509632786cac3051b845ad75c77e2cf61239acfffc9fee07f95d451c9f2c1",
     "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151": "c954f1519a782b809320d45227ecbfadedeec4c368ebb516b88c15407bf58678",
+    "amazon-nova-act-61a7a942": "61a7a94264d4d0095d52f7c21c5afdc92ff010742424d431d96486927f825d72",
+    "anthropic-claude-code-9a2a2c2f": "9a2a2c2fafaf7d7765bbe5995d95d2dea3691b988b65df8e4f3291ee73929041",
+    "anthropic-e5b2ae21": "e5b2ae21d8c4e89a2ec8897b6f319abbbdd06e92bfb371963a84d30bc7b9b52c",
     "anthropic-llm-provider-research-report-mid-2026-85c1ae51": "85c1ae51b031b2df490b1e51b90a8879d97322ef52b341b54a1d0678cb1a64a1",
+    "architecture-comparison-7564a202": "7564a20238b98dd16f3417b70e0baa324f5efaf301a1c0a79eab62d5998c1705",
+    "autogen-d2ca12d4": "d2ca12d45fb1fe9e57b24868074ddb90af4b454156813671a6f5a45c0e561d5c",
+    "bloomberggpt-693c071e": "693c071eba04abf800ebe3d40d38db4e1258fe7d279e7f818f90d334d43f03a0",
+    "capabilities-comparison-da17fe1a": "da17fe1adb0c11cee81fe29ccdf3c020cb18f35e45c96b5b31d054636d0f7239",
+    "coding-agent-feature-matrix-168f075a": "168f075af3fcbaa04679ec9624ebbe687767210f1c1e15366cc30d5d85a280c5",
+    "cohere-7a243c96": "7a243c966073707e1c6ce21fdc31b9a973cc12aff7f0b5317170948bca3c3e80",
+    "context-windows-and-long-context-431202b8": "431202b83895ab858d60896cb8c81cf9030721cd9bdfb91724b3cdf7eb1b3e8b",
+    "crewai-9c8d5146": "9c8d5146dcd7ae74d02c76621cad787122a82fab513ac72e0b6199fa1da9cd74",
+    "cursor-ide-64120109": "64120109bc5323def5279ed3b360fb659d5ee6adf332440fd9159c9dfa083a5e",
+    "deepseek-837cec6b": "837cec6bf39de01520b0fd28f4baa9c6ef5f786a63c554c73cb9a080e8fb73a0",
     "deepseek-llm-provider-research-report-mid-2026-06d7b24d": "06d7b24de128f82e65224f90b1fc05fccd7a9df91c6c1fe4aea4ff5b8205de0b",
+    "devin-desktop-36289347": "36289347602244cf26cc9507e328098b74a7af665371f19af5702903ddc032aa",
+    "enterprise-ai-cost-management-697ab8d5": "697ab8d569ec9560f6a0eda433934f7b699f890e353b526c49372f083758df9a",
+    "evaluation-benchmarks-807dce0d": "807dce0d0538deb0d7be78ad41fa0a31528d72fb625ac341e5266dcba9f81bd9",
+    "extended-thinking-reasoning-mode-9271007e": "9271007e4af273c0baf315a3e95dc2ca791c97e8c844fa2990734ce62c0bc87e",
+    "financial-reasoning-benchmarks-32d95d6c": "32d95d6ce5c7d16631dc552e1e32bec1d6d8aecd8f4fa268d2e98c8bdf59ceb0",
+    "github-copilot-57767a0f": "57767a0fa768023359b948131d9202a32308eea3152c931658788369cf53ab75",
+    "google-antigravity-c839fc82": "c839fc82914ca326ab4cfd63fa42d4f894a0ee95391c1218a37a57744d3cfc39",
+    "google-gemini-f03c0717": "f03c07178ec2c76868d8ae49b59fd481a6e25260e689cee5a4c36d349215a747",
     "google-gemini-llm-provider-research-report-mid-2026-c1315c99": "c1315c99dab36b947228c000a0f5edf9d5e86442c55bdccbab77179d2cd0528c",
+    "grok-build-b560a812": "b560a812fa43b00357a4d552091c2b91199cacae8c87458e3fda3afdfdf748f6",
+    "helion-energy-0ae9133b": "0ae9133b0d9f17bfb86a7ac5cb7d92da62f2b023d91bad77cecf73b11f77650f",
+    "hugging-face-60153cb9": "60153cb9c78ec090782b6d2da834c044a144008f04ee2a0869eff2109bbbf9f8",
+    "knowledge-distillation-12873957": "12873957af7b7e8afe7ce09d89772ed79a3465aae439db72f1a2865e13383d93",
+    "kv-cache-optimization-de2c0259": "de2c0259ea2d4868a21c1c43f5cf6c09105cb33d4323b5685592838e282cf152",
+    "langchain-langgraph-7a4aa86d": "7a4aa86d7fdbf1683cd214ed0616445d06ccdc8fcf05661c9bfbe642547adb44",
+    "llamaindex-ae86527e": "ae86527ee83b46a8fd1425ddfeb1ec543427e2b2a53b508a7df149a4ddc341e5",
     "llm-provider-research-report-cohere-a2489c1d": "a2489c1d0f8e64d681d971cccd03aa70216998037e0924469534eb5fb9190e86",
     "llm-provider-research-report-mistral-ai-b1dc6738": "b1dc6738525aa343ba1550bcc8bdb0a559e11a02c97c9737bdbc1c8f2aa0448c",
     "llm-provider-research-report-moonshot-ai-821a1010": "821a10105c7ec4bcfa10ada5c1a892bec050ffb48da7d29aa68b2b015868ddd3",
     "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40": "6f9fdc40fb6c648040f76ddbc9bd966610f49ee5f7b651b34e76a365cd0e66e2",
     "llm-provider-research-report-xai-grok-27723302": "27723302080a8215e7c3d59ea2b37e7ff5f7cb8d48ec0ba306b14469927287ef",
+    "llm-release-tracker-fddf2689": "fddf26896765aae92d9bc76593b40626b0d7b750a7c47aef704712da59bb38ad",
+    "mcp-model-context-protocol-a0a3debf": "a0a3debf8462baf26d4e43b742fcddf4f7e895f038c8d2304ef89cf90e4a7982",
+    "meta-llama-10f19581": "10f19581efd2f920c00b8511856e35a6c774919ce1b4c881bea749a14f80b3f6",
     "meta-llama-llm-provider-research-report-mid-2026-ea1881e6": "ea1881e628f43a449fb9031cd901e92f41fbe26569d8dc057b82e25cf66e5175",
+    "microsoft-phi-55281864": "5528186480037dfb904b6a71cdace9eb7fce0a8646d7702ccdcd379d7fff09ed",
     "microsoft-phi-family-comprehensive-research-report-2026-2daf1835": "2daf1835307682823c892ca0a4af1409b422d38e656c5571bc8d0d1dadb66ef5",
     "minimax-comprehensive-research-report-2026-db6828bc": "db6828bcd9cd1dc7e3ef9cccfebf1ebbf2fd3f40df2964fa883eaf521543cb91",
+    "minimax-d454d859": "d454d85915b5c9f410269928ab29b54ad4d74a26c8e6c2f077f74a051cc2115f",
+    "mistral-ai-06e88b74": "06e88b74fba2d041a66f3ba7b167ce595791d937b9358c28f922834c14677265",
+    "mixture-of-experts-moe-architecture-fcad9f2a": "fcad9f2a049387af024b9fd7f7d1772edaff1260a80b2d2d1bf13b0b426189ac",
+    "model-commoditization-risk-ee3ef656": "ee3ef656e920bc614e42b72f602c79399b887be05ffd1656892e54e685dca021",
+    "model-selection-for-agents-52969ec5": "52969ec5783f5a327fd22d7d13023b7e6c999c147219556e987cd1b40b417438",
+    "moonshot-ai-d13bf1de": "d13bf1de15c2b4ae72338b438fed4ef56857e683bec2a68120758b12b155d2ef",
+    "multi-agent-orchestration-85061802": "85061802fba9d3e8eeb6fbbddcb183f30aa63357868d1a51780be7c1359bd688",
+    "nvidia-0687788d": "0687788d4f17447fdf8b6c17dd623f444f2edd5426b8e4550d42f03265b817a3",
+    "ollama-19794359": "1979435934243ec456f5f56262517fb62fee9e85849e2769660dff59dce23cf8",
+    "open-source-comparison-8a31dfc2": "8a31dfc20298745b8d60b9feb886345d80c099a922ee60503b8f5f5a45275ebd",
+    "open-source-ecosystem-index-7edbaf37": "7edbaf37b988a2eaeb5ebad3439172aefc78ded94b910f3ceaac76e322ddbc46",
+    "open-weight-licensing-887e57a4": "887e57a4dcf35fe876a01a0d621c697fc2d6cb141174c8270b3af5f82f058793",
+    "openai-agents-sdk-874de8e8": "874de8e8fb734711dc9af4f2fda7c167ad6870aed05c5522975488c654f209a5",
+    "openai-codex-93968904": "9396890487f332add4881eb656dce7543bdb51913eff339f17e6a8905e1df7a5",
+    "openai-e2c21475": "e2c21475cc005a5d094e515d436f1c2a48cc2d41605f79bbe4a2c3b26726959e",
     "openai-llm-provider-research-report-mid-2026-8b4a47c7": "8b4a47c7c53f172e2cc80400a4a897900703b5ba105a828ee59f2bca9f7bfda3",
+    "opencode-de4e68b1": "de4e68b1c893e6c5f724994c3f071bcd7242a5c779de634b0b54d10ebb00adab",
+    "openhands-6f91c4fe": "6f91c4feba07d066cdac816535797e0d57d786113be143417d26ffe199bfba58",
     "perplexity-ai-comprehensive-research-report-2026-28e3c1cb": "28e3c1cb956b30059ff9a2e35a181676e037aef2f11717039dd257a4c34a7f69",
+    "perplexity-ai-sonar-37c95c90": "37c95c905b317a55f916dc3443ffa9aedab13bdd43d8390c48cca9bfd91a8530",
+    "pricing-comparison-42a35633": "42a356331f08c43d0cd45688e4e5dc6fc922ce95ee00a1ad4707f48c16a48563",
+    "prompt-caching-84942f18": "84942f18e256d58ad0f5d852581fdb3612fb5ea9e119d38122d137598ce251f7",
+    "quantization-89ec2663": "89ec26633a619768b69e9a073baafcba897d4511aa3d5f212f273ae04b42011e",
+    "rlhf-and-alignment-training-ba7b3502": "ba7b350213b8d08135f47981abab50fc08fe5894f22ad4dd1b20f7060413be1b",
+    "schema-ai-intelligence-wiki-95f746ef": "95f746ef78cd278c71487f275e383f4f5d6c022362e46a0fa55ae8ad544aaa86",
+    "semantic-kernel-1fdaa5f5": "1fdaa5f5c9a85f6caed7759ca2bce01f01f07ac28fb8b6d61d096b55a6ff5ed2",
+    "sentiment-analysis-for-markets-0f8731b4": "0f8731b48ba4dae389e4eaa4d8a767b0b41b0a08014b1f51860ccd1371d76f47",
+    "single-vs-multi-agent-6d3849d4": "6d3849d4970594b6845abf27acc5f5c9449ac9aedd8888a67d0976c3c3751028",
+    "smic-semiconductor-manufacturing-international-corporation-432c6082": "432c608209f64e3bca7c6d6b1fd1b0da9e238f2d55ecceec78e255104cdf3a6f",
+    "smolagents-ac93798a": "ac93798a8edfe287fee82c42e8811af5afc42b52cc3cb15819db9e6c32725418",
+    "spacex-terafab-87c79947": "87c7994731458ce400445326b2686c8d8a289c06bdcb9e3825d56b2c19001c97",
+    "speculative-decoding-d3cdd080": "d3cdd0807cd2087ca90a2fc22ac7aed216c93bf6c18374e910e99cd172d5ab50",
     "stability-ai-comprehensive-research-report-2026-82ef3427": "82ef3427c9f4098a6a4b5be5f7b2aa832ab19f092a5fb244689f392badb0c630",
+    "stability-ai-edf65283": "edf6528319cbea969733b1bb1dd393af5a959ddea09cd0bfbd61d80ab2ec71cb",
+    "stepfun-517facb2": "517facb2bcbfcbff3c3ba495d3ba58efcefab9257ea0570732f8133d2111dd44",
     "stepfun-comprehensive-research-report-2026-517799aa": "517799aaa830bdd309600bcc286215c63684de08e8f69ee84ebda0309d17b0ae",
+    "together-ai-ce3a0f9b": "ce3a0f9bc4660051bf05a739fbe0863f08e4ff45e19d0f697086535c828c054c",
     "together-ai-comprehensive-research-report-2026-b5bf5b1e": "b5bf5b1e7934a84993d5ce2c6eca149d42f1b515050773a105ef008ba6c6a401",
+    "tool-use-pattern-307ac2f6": "307ac2f6d6be745726a210987ee6259eaa76ebf0661517b8a5f39f4d37e57446",
+    "xai-grok-efa7f437": "efa7f437a33f7bae84e41373919aeedf5f208b6ef2c621710d573e9cfed80191",
+    "ymtc-yangtze-memory-technologies-corp-542d90e6": "542d90e6ade9cf72a5a261b9441692344f03fd2e090ee35767ec63696c16f47e",
+    "zhipu-ai-glm-3629e43c": "3629e43c1a6c43c28d4d0243895a68343ab66ece9e700e56aa0d140860684cac",
     "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161": "827d5161b4a4a9ac3849adabff1b7bacf9b41c97da5b3828695e52b83132f61e"
   },
   "sourceSemanticHashes": {
+    "agent-architectures-c4a81424": "2b5e624e18c7a6361ac2286a7ede09d018621b8c719fa1f33dd866d33e342309",
+    "agent-client-protocol-acp-8c8dcb94": "23d9d037dd2fcb6f15036cf10e40d6531f7e62d40c6b10c95433997f81e1f075",
+    "agent-framework-feature-matrix-fde0ed4b": "5867f63b347c5e63bd6d6e2cb967f04be7666021e1bb74fe170f95bec501e641",
+    "agent-memory-99831982": "bae2496da194d5739ff483e9bba0b0188104c5333d2e60cdcf5b89b0943278cf",
+    "agent-safety-80d3d17f": "39f73811c4423dc77de484d3accf4cb8dfdb4504726bbd2085575f80beeb7644",
+    "ai-engineering-culture-33de7c7d": "6438982a63e3a621e7eb5977d1eaf96dc91da2fee110af3f887b2d292ccc5878",
+    "ai-for-alpha-generation-3fd7660d": "94f86e576872fc549b44db10347d86dbcdcb9bb604488c3e5df36f8c9a16a73a",
+    "ai-intelligence-wiki-index-a106d6b7": "60886c9fd997d7fec9c2b2d281ead01f8cf1e43b3309d32454600222975f5cf8",
+    "aider-c014bd69": "c8a1ded9089540815d8016f5c7552a7ba682a5bd3ef069458bd48d98165bda7e",
+    "alibaba-qwen-1cf50963": "78cf8619f8b793ae0a30a7aeb583ae9e94ab66f9c68b0f55624836c451d2a613",
     "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151": "80f20268c943a47f7be1833bd038e83298fc552aa962124de6d82c4319102742",
+    "amazon-nova-act-61a7a942": "dc07ac78e2281ba6ba08166d5cab5edbaf63a8e71f1fd49aeaee13ed6635f679",
+    "anthropic-claude-code-9a2a2c2f": "13646d5d9fcc5f33c3aa6b286d871f68c52f2694861a9993c40ba0996e725ab5",
+    "anthropic-e5b2ae21": "275ac63df301810b4e487bec2228c7c47b1809f7e7c877a6106499927838cb70",
     "anthropic-llm-provider-research-report-mid-2026-85c1ae51": "9ec56e7b42e10fffc9453e41cd4aaee3547cc035a8024a566f9c7c681bc2fa11",
+    "architecture-comparison-7564a202": "420ce43bb31c547c761364ffd17a31185a477218139d962b894051208769bb3e",
+    "autogen-d2ca12d4": "4a4a73e9db3f553cb4b3f78311cffb639e6fbf202b12ca94c4dcc77c061ea7e0",
+    "bloomberggpt-693c071e": "47d77d40e8b21ec79eff5a11122c7ae2c83a4719a88c171d4ce058b12cb4e727",
+    "capabilities-comparison-da17fe1a": "c10899fd9a254a4be9b18dc603d67563192b6893fdcc4886c59f7de75ebb8658",
+    "coding-agent-feature-matrix-168f075a": "805c285848f7daf988419269682dd2b713e61385c54553accd9aecb9655a7878",
+    "cohere-7a243c96": "8f24500e8e12b9016ea19d1955d780d958150e69d27321bc40b84343a6664bba",
+    "context-windows-and-long-context-431202b8": "bde4fe862dffe649eeab09cf09bd2da019398dd2d9feada36d5f2f7d1dd2b6a9",
+    "crewai-9c8d5146": "39aafbe9bd066d937346183e5555b96ee71874cc6dd53caf9575a2857bb4de3b",
+    "cursor-ide-64120109": "65f35c802803050c7c531193c503afa8b171366069117017faee01a434a9d5fd",
+    "deepseek-837cec6b": "bbeb904cc7039c663d075ae651f02418f36466fde70e6e51985d9377be4622d3",
     "deepseek-llm-provider-research-report-mid-2026-06d7b24d": "6eeaea0d1cfae376a44ee754f2cd5ffb957d100c391ce6dd5dac6b69f133a267",
+    "devin-desktop-36289347": "7843b88b762562e2887ceda3fc406c8da1460ea3aeec895526e86c53b2f84888",
+    "enterprise-ai-cost-management-697ab8d5": "4719ea60dbf5c639086fef00ba9101d1c9871537a7c69dd60739db0db28aca41",
+    "evaluation-benchmarks-807dce0d": "bcb1a17f2e13322e2a1908af13ddf0407a0c62d0b628e3bbbb5273d71840d1d4",
+    "extended-thinking-reasoning-mode-9271007e": "bd2695d986e639b50ebbe43d8d4cccef1b4ace66221cb5b0d001d60505c93783",
+    "financial-reasoning-benchmarks-32d95d6c": "10fd79241e47b7fd411e85a8d6da941ba06b2610154f8564a877d175c349a40c",
+    "github-copilot-57767a0f": "194b066943039c06c6191244d773dc3d6d156704a29e0b9c4b8007013d892b3b",
+    "google-antigravity-c839fc82": "a094e6753e7ba866c502332269c3239d8f940b407855149e933681b16518956d",
+    "google-gemini-f03c0717": "1e0d897a297730a80f271159fc08b33fa31114e5d46085f13819aba818bcffd9",
     "google-gemini-llm-provider-research-report-mid-2026-c1315c99": "1c4348f2afd41dd4512dc12728b877fac07b62d39f939f31d14d42c8cafb69f7",
+    "grok-build-b560a812": "36bc7c196f760c3f17a8f6e837126cc88fe3d8e29b19b8c162a517e90bf499b0",
+    "helion-energy-0ae9133b": "c18866950ad7e6edac56abcfdc7cbcb9d304ffa39af5c5ec31f9ce239c11a191",
+    "hugging-face-60153cb9": "4df9c3427cec984b3b63b62f0044af7a8bbea893e18a6a6af6fde8f96809761a",
+    "knowledge-distillation-12873957": "9cf27c13e6e8c7e9f860663b90165b4f6fcb413a9a1711bbf2b3225d5f5aa4ce",
+    "kv-cache-optimization-de2c0259": "9d519a78df647551db52a7f273fa62ba7688b498a59bbae0827afb8c57996a48",
+    "langchain-langgraph-7a4aa86d": "6542b6a5a4a24ca2bba2fe918ea8aefbe89c9451a57b1ba481aaa72654149ba8",
+    "llamaindex-ae86527e": "3a7b4f8bd4e98f4dc760c66549778380afabaee1647163dd722f6a608daa41ea",
     "llm-provider-research-report-cohere-a2489c1d": "96590418876c911ba5a7ab1826c29b9d7be27a743af205ec73375915fb3a1034",
     "llm-provider-research-report-mistral-ai-b1dc6738": "20e86f9ab33774f895e9e5cd0740a10b8f0196178bf3978c6d86483bcdf7af68",
     "llm-provider-research-report-moonshot-ai-821a1010": "8a6779edbd273293e22e130155fcc6c28910d908762577a1de22d25871c7155a",
     "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40": "6f9fdc40fb6c648040f76ddbc9bd966610f49ee5f7b651b34e76a365cd0e66e2",
     "llm-provider-research-report-xai-grok-27723302": "f45e4164b9c595fbf6c557e85c08ceed179bbae1d499220ca4253f69321e8c9d",
+    "llm-release-tracker-fddf2689": "d8ec1198a2d60a98b439b5690c5b8a658460142876adf87f9835c42599ab39fd",
+    "mcp-model-context-protocol-a0a3debf": "53e315de064a4d49eec9f51a21d479700be6c23e871fbcde898fd7a3872e1162",
+    "meta-llama-10f19581": "00b6ae9283bb83dbed4bc5d3b22aeab3875de3593b65ae589571c35bf9d6e4aa",
     "meta-llama-llm-provider-research-report-mid-2026-ea1881e6": "b90fd7070e694e09be978f2144024b0425e4ee06307b0d4ab0d5b55cb2e2f9e9",
+    "microsoft-phi-55281864": "7f1faf77ba33d38d78e400685e6e5f36329a729cd318bf8aea7168b97cf2ca08",
     "microsoft-phi-family-comprehensive-research-report-2026-2daf1835": "cf8495570d24117e84179109f793395480e3baa573cf842bf0549a5fecee9a34",
     "minimax-comprehensive-research-report-2026-db6828bc": "88de3be67ad15ae699cd834827d813536cc9d6a3d286b2948940f9e95733578b",
+    "minimax-d454d859": "421caa4c8badbe3f7d0fc1792e66bcf28c1789d9d8af8d5ef2ebabba039297f2",
+    "mistral-ai-06e88b74": "9197598990ada7f5b46ba7e8e4fd326c7553ec370972a5bfae4724a627119cbc",
+    "mixture-of-experts-moe-architecture-fcad9f2a": "29b9b5f740a46087d2b756e0c162472685a75181529a3d195b2285f46242fb73",
+    "model-commoditization-risk-ee3ef656": "f931795115b08e2efbb4bbe974e6a812b1b02cc0ad6d756fda7d02f622d188a1",
+    "model-selection-for-agents-52969ec5": "f788635e8dd02bea078cf89baf1613a2b9b14c4825da6e9f9eed49a4fe331688",
+    "moonshot-ai-d13bf1de": "f227fca861c553b4f8f4356c4307f0c01c1a454284d454d81fdbee378390948b",
+    "multi-agent-orchestration-85061802": "570d10f8e2cf891942095fdbab6b265e43451026f3a24160a2b0dbdd4f55fd1b",
+    "nvidia-0687788d": "4982caa05a986e8b44f6e9409d957d1687bfc085b7dc92f93936bfe36cfb1613",
+    "ollama-19794359": "60d92951c7d10570aa44bb0e5dea6eca52ba4ef42889ddfb72dda5009460e92d",
+    "open-source-comparison-8a31dfc2": "81acf5746ab9685e2536e5f00b932de57da00350e6257665bff4149c35f5ab88",
+    "open-source-ecosystem-index-7edbaf37": "5b526d867526265c77a3494ea93db9b6851ef8c5009229b879881b0562d5c785",
+    "open-weight-licensing-887e57a4": "189ba4e38004ff57179998233fc62c486ae6b83b971147b3b1eb489b37ceabf8",
+    "openai-agents-sdk-874de8e8": "6ecd6b92992f54c35d0934fc57ff61d5c4732d742bdfeeebceb904a021a5c917",
+    "openai-codex-93968904": "0852a745d6f324da6bf2f5c722f40648f7003ffefa58d5878ad8e068377847dd",
+    "openai-e2c21475": "558ad665f511358be9566f6289b2576bdde40d36914238b475921a46d710691e",
     "openai-llm-provider-research-report-mid-2026-8b4a47c7": "04dbe8923dc1ae25090ded5614098f2e91158eb4a2edcb40f6a77f87a914c683",
+    "opencode-de4e68b1": "293138e0ee651ce2c01423d728c27ebd5788d2d16c86f3b005d10e98c1761f8c",
+    "openhands-6f91c4fe": "a76cb0e3cddb885df4b9003ecdca006bf891e7293a7e786629e17488f73fa2a5",
     "perplexity-ai-comprehensive-research-report-2026-28e3c1cb": "f61a91a9f35a2e95aa4343357cf5d8ec90696fa206871c2cf8fd7bb95b6716b8",
+    "perplexity-ai-sonar-37c95c90": "aca9f9a2cc066f8ff46f13322a42ca8266b5e3aa6f0b05e01abbee5b1d13b402",
+    "pricing-comparison-42a35633": "c5a56e4cda6da8bb32a522535f9fda8ce07c0bf856f199389000d99c6cf82d60",
+    "prompt-caching-84942f18": "a1c3e5c5617acd3c995102a00622659a68100f172e2faf5931afcc2654563735",
+    "quantization-89ec2663": "ca7ab849634335e60e44fbee4763fa24c5dfa975a2c07c95a163579fbdbd2680",
+    "rlhf-and-alignment-training-ba7b3502": "7e317f5405ec514ba31bed0ce5e642126c3a36f64889ec2ca4803870804b381a",
+    "schema-ai-intelligence-wiki-95f746ef": "3fff54734078ace2377cece8adfc38c3b69644b408224a747c92d64f964009d6",
+    "semantic-kernel-1fdaa5f5": "40bf5bc46432c8e9a7092a82a6a4c229a14e3fc8464cc77684775d8ae457ebb4",
+    "sentiment-analysis-for-markets-0f8731b4": "d4cb57e4b3f9fa5438ab5c5c05d7158d3327c4cace9f8e3ae1cf78e6364d51dc",
+    "single-vs-multi-agent-6d3849d4": "4b622f18699ebb88ead44f6a9da0a65fe54330768847b73b254d735b31a6d3d6",
+    "smic-semiconductor-manufacturing-international-corporation-432c6082": "71899a3829fd7cf74f64a6b1a5d1308d80e6476c14bfcb3a51e474fa9a57057a",
+    "smolagents-ac93798a": "cae960993394ec3a46b3c731dd924626d916a4aea2f7300d26d3d69386d2f7e9",
+    "spacex-terafab-87c79947": "1d8fd6fefb046b8c68e946439cfaa9b0f7978907199b38afa8c63bdd00ab9eba",
+    "speculative-decoding-d3cdd080": "a81c5351ed96b9229852671b30fdb187c3367c763c1d3a0f47ea2b985bf95e9d",
     "stability-ai-comprehensive-research-report-2026-82ef3427": "82ef3427c9f4098a6a4b5be5f7b2aa832ab19f092a5fb244689f392badb0c630",
+    "stability-ai-edf65283": "200464a33fe8837df2e657915485bab957952ca98233e6235c0c1402ac053cb5",
+    "stepfun-517facb2": "b7af5029acda21642003a7df6bee5c27ee981383804a7e9cac9b798a7e4b6d0f",
     "stepfun-comprehensive-research-report-2026-517799aa": "517799aaa830bdd309600bcc286215c63684de08e8f69ee84ebda0309d17b0ae",
+    "together-ai-ce3a0f9b": "526fa853782fea6cc793bdda8d11135ef27198760ed7569e225409bcfbf4b04d",
     "together-ai-comprehensive-research-report-2026-b5bf5b1e": "8cd973fadd26021d7428272271ffd9eb6bd35769cd5d7629981b849f326bfa2a",
+    "tool-use-pattern-307ac2f6": "0f516db9a9e780d6c782d39e1e86c60a97f68ffbdaf429204ab0f27198f05e43",
+    "xai-grok-efa7f437": "0fa8a9e971f477a202cc2680fdb2ec7d067b9cdb1dddceaa4aa9d5a7249e04be",
+    "ymtc-yangtze-memory-technologies-corp-542d90e6": "d75a724aa9e8f0b8b89949acb59f4f88acafdee7056c2bd48de899c9a291a854",
+    "zhipu-ai-glm-3629e43c": "b48bfc72744b4d35b2dc356adc6d27568fbf956903777e57a933de614c8a0f4e",
     "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161": "1b0e5dbc3a99b35653bce7ec0342434fccc03f402e0b21220ffcfbf99b9a31a9"
   },
   "sourceProjects": {
+    "agent-architectures-c4a81424": null,
+    "agent-client-protocol-acp-8c8dcb94": null,
+    "agent-framework-feature-matrix-fde0ed4b": null,
+    "agent-memory-99831982": null,
+    "agent-safety-80d3d17f": null,
+    "ai-engineering-culture-33de7c7d": null,
+    "ai-for-alpha-generation-3fd7660d": null,
+    "ai-intelligence-wiki-index-a106d6b7": null,
+    "aider-c014bd69": null,
+    "alibaba-qwen-1cf50963": null,
     "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151": null,
+    "amazon-nova-act-61a7a942": null,
+    "anthropic-claude-code-9a2a2c2f": null,
+    "anthropic-e5b2ae21": null,
     "anthropic-llm-provider-research-report-mid-2026-85c1ae51": null,
+    "architecture-comparison-7564a202": null,
+    "autogen-d2ca12d4": null,
+    "bloomberggpt-693c071e": null,
+    "capabilities-comparison-da17fe1a": null,
+    "coding-agent-feature-matrix-168f075a": null,
+    "cohere-7a243c96": null,
+    "context-windows-and-long-context-431202b8": null,
+    "crewai-9c8d5146": null,
+    "cursor-ide-64120109": null,
+    "deepseek-837cec6b": null,
     "deepseek-llm-provider-research-report-mid-2026-06d7b24d": null,
+    "devin-desktop-36289347": null,
+    "enterprise-ai-cost-management-697ab8d5": null,
+    "evaluation-benchmarks-807dce0d": null,
+    "extended-thinking-reasoning-mode-9271007e": null,
+    "financial-reasoning-benchmarks-32d95d6c": null,
+    "github-copilot-57767a0f": null,
+    "google-antigravity-c839fc82": null,
+    "google-gemini-f03c0717": null,
     "google-gemini-llm-provider-research-report-mid-2026-c1315c99": null,
+    "grok-build-b560a812": null,
+    "helion-energy-0ae9133b": null,
+    "hugging-face-60153cb9": null,
+    "knowledge-distillation-12873957": null,
+    "kv-cache-optimization-de2c0259": null,
+    "langchain-langgraph-7a4aa86d": null,
+    "llamaindex-ae86527e": null,
     "llm-provider-research-report-cohere-a2489c1d": null,
     "llm-provider-research-report-mistral-ai-b1dc6738": null,
     "llm-provider-research-report-moonshot-ai-821a1010": null,
     "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40": null,
     "llm-provider-research-report-xai-grok-27723302": null,
+    "llm-release-tracker-fddf2689": null,
+    "mcp-model-context-protocol-a0a3debf": null,
+    "meta-llama-10f19581": null,
     "meta-llama-llm-provider-research-report-mid-2026-ea1881e6": null,
+    "microsoft-phi-55281864": null,
     "microsoft-phi-family-comprehensive-research-report-2026-2daf1835": null,
     "minimax-comprehensive-research-report-2026-db6828bc": null,
+    "minimax-d454d859": null,
+    "mistral-ai-06e88b74": null,
+    "mixture-of-experts-moe-architecture-fcad9f2a": null,
+    "model-commoditization-risk-ee3ef656": null,
+    "model-selection-for-agents-52969ec5": null,
+    "moonshot-ai-d13bf1de": null,
+    "multi-agent-orchestration-85061802": null,
+    "nvidia-0687788d": null,
+    "ollama-19794359": null,
+    "open-source-comparison-8a31dfc2": null,
+    "open-source-ecosystem-index-7edbaf37": null,
+    "open-weight-licensing-887e57a4": null,
+    "openai-agents-sdk-874de8e8": null,
+    "openai-codex-93968904": null,
+    "openai-e2c21475": null,
     "openai-llm-provider-research-report-mid-2026-8b4a47c7": null,
+    "opencode-de4e68b1": null,
+    "openhands-6f91c4fe": null,
     "perplexity-ai-comprehensive-research-report-2026-28e3c1cb": null,
+    "perplexity-ai-sonar-37c95c90": null,
+    "pricing-comparison-42a35633": null,
+    "prompt-caching-84942f18": null,
+    "quantization-89ec2663": null,
+    "rlhf-and-alignment-training-ba7b3502": null,
+    "schema-ai-intelligence-wiki-95f746ef": null,
+    "semantic-kernel-1fdaa5f5": null,
+    "sentiment-analysis-for-markets-0f8731b4": null,
+    "single-vs-multi-agent-6d3849d4": null,
+    "smic-semiconductor-manufacturing-international-corporation-432c6082": null,
+    "smolagents-ac93798a": null,
+    "spacex-terafab-87c79947": null,
+    "speculative-decoding-d3cdd080": null,
     "stability-ai-comprehensive-research-report-2026-82ef3427": null,
+    "stability-ai-edf65283": null,
+    "stepfun-517facb2": null,
     "stepfun-comprehensive-research-report-2026-517799aa": null,
+    "together-ai-ce3a0f9b": null,
     "together-ai-comprehensive-research-report-2026-b5bf5b1e": null,
+    "tool-use-pattern-307ac2f6": null,
+    "xai-grok-efa7f437": null,
+    "ymtc-yangtze-memory-technologies-corp-542d90e6": null,
+    "zhipu-ai-glm-3629e43c": null,
     "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161": null
   },
   "outputHashes": {},
   "insightHashes": {},
   "memoryHashes": {},
   "candidateHistory": {
+    "concept:agent": {
+      "sourceIds": [
+        "agent-architectures-c4a81424",
+        "agent-client-protocol-acp-8c8dcb94",
+        "agent-framework-feature-matrix-fde0ed4b",
+        "agent-memory-99831982",
+        "agent-safety-80d3d17f",
+        "ai-intelligence-wiki-index-a106d6b7",
+        "amazon-nova-act-61a7a942",
+        "coding-agent-feature-matrix-168f075a",
+        "crewai-9c8d5146",
+        "cursor-ide-64120109",
+        "devin-desktop-36289347",
+        "evaluation-benchmarks-807dce0d",
+        "google-antigravity-c839fc82",
+        "langchain-langgraph-7a4aa86d",
+        "llamaindex-ae86527e",
+        "mcp-model-context-protocol-a0a3debf",
+        "moonshot-ai-d13bf1de",
+        "multi-agent-orchestration-85061802",
+        "ollama-19794359",
+        "openai-agents-sdk-874de8e8",
+        "opencode-de4e68b1",
+        "openhands-6f91c4fe",
+        "schema-ai-intelligence-wiki-95f746ef",
+        "semantic-kernel-1fdaa5f5",
+        "single-vs-multi-agent-6d3849d4",
+        "smolagents-ac93798a",
+        "llm-provider-research-report-moonshot-ai-821a1010",
+        "minimax-comprehensive-research-report-2026-db6828bc"
+      ],
+      "status": "candidate"
+    },
+    "concept:step": {
+      "sourceIds": [
+        "agent-architectures-c4a81424",
+        "stepfun-517facb2",
+        "stepfun-comprehensive-research-report-2026-517799aa"
+      ],
+      "status": "candidate"
+    },
+    "concept:architecture": {
+      "sourceIds": [
+        "agent-architectures-c4a81424",
+        "architecture-comparison-7564a202",
+        "mixture-of-experts-moe-architecture-fcad9f2a",
+        "schema-ai-intelligence-wiki-95f746ef",
+        "single-vs-multi-agent-6d3849d4",
+        "ymtc-yangtze-memory-technologies-corp-542d90e6"
+      ],
+      "status": "candidate"
+    },
+    "concept:cost": {
+      "sourceIds": [
+        "agent-architectures-c4a81424",
+        "enterprise-ai-cost-management-697ab8d5",
+        "model-selection-for-agents-52969ec5",
+        "single-vs-multi-agent-6d3849d4"
+      ],
+      "status": "candidate"
+    },
+    "concept:orchestrator": {
+      "sourceIds": [
+        "agent-architectures-c4a81424",
+        "multi-agent-orchestration-85061802"
+      ],
+      "status": "candidate"
+    },
+    "concept:then": {
+      "sourceIds": [
+        "agent-architectures-c4a81424"
+      ],
+      "status": "candidate"
+    },
+    "concept:agents": {
+      "sourceIds": [
+        "agent-client-protocol-acp-8c8dcb94",
+        "agent-framework-feature-matrix-fde0ed4b",
+        "ai-intelligence-wiki-index-a106d6b7",
+        "anthropic-claude-code-9a2a2c2f",
+        "crewai-9c8d5146",
+        "cursor-ide-64120109",
+        "devin-desktop-36289347",
+        "model-selection-for-agents-52969ec5",
+        "multi-agent-orchestration-85061802",
+        "openai-agents-sdk-874de8e8",
+        "openhands-6f91c4fe",
+        "schema-ai-intelligence-wiki-95f746ef"
+      ],
+      "status": "candidate"
+    },
+    "concept:editors": {
+      "sourceIds": [
+        "agent-client-protocol-acp-8c8dcb94"
+      ],
+      "status": "candidate"
+    },
+    "concept:jetbrains": {
+      "sourceIds": [
+        "agent-client-protocol-acp-8c8dcb94"
+      ],
+      "status": "candidate"
+    },
+    "concept:protocol": {
+      "sourceIds": [
+        "agent-client-protocol-acp-8c8dcb94",
+        "mcp-model-context-protocol-a0a3debf"
+      ],
+      "status": "candidate"
+    },
+    "concept:coding": {
+      "sourceIds": [
+        "agent-client-protocol-acp-8c8dcb94",
+        "ai-intelligence-wiki-index-a106d6b7",
+        "capabilities-comparison-da17fe1a",
+        "deepseek-837cec6b",
+        "mistral-ai-06e88b74",
+        "schema-ai-intelligence-wiki-95f746ef",
+        "deepseek-llm-provider-research-report-mid-2026-06d7b24d"
+      ],
+      "status": "candidate"
+    },
+    "concept:strong": {
+      "sourceIds": [
+        "agent-framework-feature-matrix-fde0ed4b",
+        "llamaindex-ae86527e"
+      ],
+      "status": "candidate"
+    },
+    "concept:openai": {
+      "sourceIds": [
+        "agent-framework-feature-matrix-fde0ed4b",
+        "nvidia-0687788d",
+        "openai-agents-sdk-874de8e8",
+        "openai-codex-93968904",
+        "openai-e2c21475",
+        "semantic-kernel-1fdaa5f5",
+        "xai-grok-efa7f437",
+        "llm-provider-research-report-xai-grok-27723302",
+        "openai-llm-provider-research-report-mid-2026-8b4a47c7"
+      ],
+      "status": "candidate"
+    },
+    "concept:moderate": {
+      "sourceIds": [
+        "agent-framework-feature-matrix-fde0ed4b"
+      ],
+      "status": "candidate"
+    },
+    "concept:code": {
+      "sourceIds": [
+        "agent-framework-feature-matrix-fde0ed4b",
+        "ai-engineering-culture-33de7c7d",
+        "anthropic-claude-code-9a2a2c2f",
+        "autogen-d2ca12d4",
+        "github-copilot-57767a0f",
+        "smolagents-ac93798a"
+      ],
+      "status": "candidate"
+    },
+    "concept:memory": {
+      "sourceIds": [
+        "agent-memory-99831982",
+        "kv-cache-optimization-de2c0259",
+        "ymtc-yangtze-memory-technologies-corp-542d90e6"
+      ],
+      "status": "candidate"
+    },
+    "concept:forgetting": {
+      "sourceIds": [
+        "agent-memory-99831982"
+      ],
+      "status": "candidate"
+    },
+    "concept:what": {
+      "sourceIds": [
+        "agent-memory-99831982"
+      ],
+      "status": "candidate"
+    },
+    "concept:decision": {
+      "sourceIds": [
+        "agent-memory-99831982"
+      ],
+      "status": "candidate"
+    },
+    "concept:learned": {
+      "sourceIds": [
+        "agent-memory-99831982"
+      ],
+      "status": "candidate"
+    },
+    "concept:that": {
+      "sourceIds": [
+        "agent-safety-80d3d17f",
+        "ai-engineering-culture-33de7c7d"
+      ],
+      "status": "candidate"
+    },
     "concept:model": {
       "sourceIds": [
+        "agent-safety-80d3d17f",
+        "ai-intelligence-wiki-index-a106d6b7",
+        "aider-c014bd69",
+        "alibaba-qwen-1cf50963",
+        "anthropic-e5b2ae21",
+        "coding-agent-feature-matrix-168f075a",
+        "cohere-7a243c96",
+        "cursor-ide-64120109",
+        "deepseek-837cec6b",
+        "github-copilot-57767a0f",
+        "google-gemini-f03c0717",
+        "hugging-face-60153cb9",
+        "knowledge-distillation-12873957",
+        "llm-release-tracker-fddf2689",
+        "microsoft-phi-55281864",
+        "minimax-d454d859",
+        "mistral-ai-06e88b74",
+        "model-commoditization-risk-ee3ef656",
+        "model-selection-for-agents-52969ec5",
+        "nvidia-0687788d",
+        "ollama-19794359",
+        "openai-agents-sdk-874de8e8",
+        "openai-codex-93968904",
+        "openai-e2c21475",
+        "opencode-de4e68b1",
+        "perplexity-ai-sonar-37c95c90",
+        "rlhf-and-alignment-training-ba7b3502",
+        "schema-ai-intelligence-wiki-95f746ef",
+        "speculative-decoding-d3cdd080",
+        "stepfun-517facb2",
+        "xai-grok-efa7f437",
         "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151",
         "anthropic-llm-provider-research-report-mid-2026-85c1ae51",
         "deepseek-llm-provider-research-report-mid-2026-06d7b24d",
@@ -111,78 +657,70 @@
       ],
       "status": "candidate"
     },
-    "concept:qwen": {
+    "concept:safety": {
       "sourceIds": [
-        "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151"
+        "agent-safety-80d3d17f"
       ],
       "status": "candidate"
     },
-    "concept:alibaba": {
+    "concept:2026": {
       "sourceIds": [
-        "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151"
+        "agent-safety-80d3d17f",
+        "anthropic-claude-code-9a2a2c2f",
+        "anthropic-e5b2ae21",
+        "cursor-ide-64120109",
+        "enterprise-ai-cost-management-697ab8d5",
+        "github-copilot-57767a0f",
+        "google-antigravity-c839fc82",
+        "google-gemini-f03c0717",
+        "llm-release-tracker-fddf2689",
+        "microsoft-phi-55281864",
+        "minimax-d454d859",
+        "openai-codex-93968904",
+        "openai-e2c21475",
+        "perplexity-ai-sonar-37c95c90",
+        "stepfun-517facb2",
+        "zhipu-ai-glm-3629e43c",
+        "minimax-comprehensive-research-report-2026-db6828bc",
+        "stepfun-comprehensive-research-report-2026-517799aa"
       ],
       "status": "candidate"
     },
-    "concept:image": {
+    "concept:june": {
       "sourceIds": [
-        "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151",
-        "google-gemini-llm-provider-research-report-mid-2026-c1315c99",
-        "stability-ai-comprehensive-research-report-2026-82ef3427"
+        "agent-safety-80d3d17f",
+        "anthropic-claude-code-9a2a2c2f",
+        "openai-codex-93968904"
       ],
       "status": "candidate"
     },
-    "concept:generation": {
+    "concept:software": {
       "sourceIds": [
-        "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151",
-        "stability-ai-comprehensive-research-report-2026-82ef3427"
+        "ai-engineering-culture-33de7c7d"
       ],
       "status": "candidate"
     },
-    "concept:dashscope": {
+    "concept:teams": {
       "sourceIds": [
-        "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151"
-      ],
-      "status": "candidate"
-    },
-    "concept:claude": {
-      "sourceIds": [
-        "anthropic-llm-provider-research-report-mid-2026-85c1ae51"
-      ],
-      "status": "candidate"
-    },
-    "concept:opus": {
-      "sourceIds": [
-        "anthropic-llm-provider-research-report-mid-2026-85c1ae51"
-      ],
-      "status": "candidate"
-    },
-    "concept:anthropic": {
-      "sourceIds": [
-        "anthropic-llm-provider-research-report-mid-2026-85c1ae51"
-      ],
-      "status": "candidate"
-    },
-    "concept:tokens": {
-      "sourceIds": [
-        "anthropic-llm-provider-research-report-mid-2026-85c1ae51",
-        "llm-provider-research-report-mistral-ai-b1dc6738"
-      ],
-      "status": "candidate"
-    },
-    "concept:sonnet": {
-      "sourceIds": [
-        "anthropic-llm-provider-research-report-mid-2026-85c1ae51"
-      ],
-      "status": "candidate"
-    },
-    "concept:deepseek": {
-      "sourceIds": [
-        "deepseek-llm-provider-research-report-mid-2026-06d7b24d"
+        "ai-engineering-culture-33de7c7d"
       ],
       "status": "candidate"
     },
     "concept:with": {
       "sourceIds": [
+        "ai-engineering-culture-33de7c7d",
+        "aider-c014bd69",
+        "anthropic-e5b2ae21",
+        "cohere-7a243c96",
+        "cursor-ide-64120109",
+        "kv-cache-optimization-de2c0259",
+        "meta-llama-10f19581",
+        "minimax-d454d859",
+        "mistral-ai-06e88b74",
+        "openai-agents-sdk-874de8e8",
+        "prompt-caching-84942f18",
+        "semantic-kernel-1fdaa5f5",
+        "xai-grok-efa7f437",
         "deepseek-llm-provider-research-report-mid-2026-06d7b24d",
         "llm-provider-research-report-moonshot-ai-821a1010",
         "llm-provider-research-report-xai-grok-27723302",
@@ -195,13 +733,1382 @@
       ],
       "status": "candidate"
     },
+    "concept:assisted": {
+      "sourceIds": [
+        "ai-engineering-culture-33de7c7d"
+      ],
+      "status": "candidate"
+    },
+    "concept:alpha": {
+      "sourceIds": [
+        "ai-for-alpha-generation-3fd7660d"
+      ],
+      "status": "candidate"
+    },
+    "concept:based": {
+      "sourceIds": [
+        "ai-for-alpha-generation-3fd7660d",
+        "crewai-9c8d5146",
+        "github-copilot-57767a0f",
+        "llamaindex-ae86527e"
+      ],
+      "status": "candidate"
+    },
+    "concept:data": {
+      "sourceIds": [
+        "ai-for-alpha-generation-3fd7660d",
+        "llamaindex-ae86527e",
+        "model-commoditization-risk-ee3ef656",
+        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835",
+        "together-ai-comprehensive-research-report-2026-b5bf5b1e",
+        "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "status": "active"
+    },
+    "concept:generation": {
+      "sourceIds": [
+        "ai-for-alpha-generation-3fd7660d",
+        "stability-ai-edf65283",
+        "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151",
+        "stability-ai-comprehensive-research-report-2026-82ef3427"
+      ],
+      "status": "active"
+    },
+    "concept:learning": {
+      "sourceIds": [
+        "ai-for-alpha-generation-3fd7660d"
+      ],
+      "status": "candidate"
+    },
+    "concept:models": {
+      "sourceIds": [
+        "ai-for-alpha-generation-3fd7660d",
+        "alibaba-qwen-1cf50963",
+        "coding-agent-feature-matrix-168f075a",
+        "cohere-7a243c96",
+        "deepseek-837cec6b",
+        "hugging-face-60153cb9",
+        "knowledge-distillation-12873957",
+        "meta-llama-10f19581",
+        "microsoft-phi-55281864",
+        "mistral-ai-06e88b74",
+        "model-commoditization-risk-ee3ef656",
+        "nvidia-0687788d",
+        "open-source-ecosystem-index-7edbaf37",
+        "open-weight-licensing-887e57a4",
+        "opencode-de4e68b1",
+        "rlhf-and-alignment-training-ba7b3502",
+        "stepfun-517facb2",
+        "zhipu-ai-glm-3629e43c",
+        "llm-provider-research-report-cohere-a2489c1d",
+        "llm-provider-research-report-mistral-ai-b1dc6738",
+        "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40",
+        "meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
+        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835",
+        "stepfun-comprehensive-research-report-2026-517799aa"
+      ],
+      "status": "candidate"
+    },
+    "concept:comparison": {
+      "sourceIds": [
+        "ai-intelligence-wiki-index-a106d6b7"
+      ],
+      "status": "candidate"
+    },
+    "concept:comparisons": {
+      "sourceIds": [
+        "ai-intelligence-wiki-index-a106d6b7"
+      ],
+      "status": "candidate"
+    },
+    "concept:open": {
+      "sourceIds": [
+        "aider-c014bd69",
+        "hugging-face-60153cb9",
+        "meta-llama-10f19581",
+        "minimax-d454d859",
+        "mistral-ai-06e88b74",
+        "model-commoditization-risk-ee3ef656",
+        "open-source-comparison-8a31dfc2",
+        "open-source-ecosystem-index-7edbaf37",
+        "open-weight-licensing-887e57a4",
+        "opencode-de4e68b1",
+        "openhands-6f91c4fe",
+        "together-ai-ce3a0f9b",
+        "zhipu-ai-glm-3629e43c",
+        "llm-provider-research-report-mistral-ai-b1dc6738",
+        "meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
+        "together-ai-comprehensive-research-report-2026-b5bf5b1e",
+        "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "status": "candidate"
+    },
+    "concept:source": {
+      "sourceIds": [
+        "aider-c014bd69",
+        "open-source-ecosystem-index-7edbaf37",
+        "opencode-de4e68b1",
+        "openhands-6f91c4fe",
+        "together-ai-comprehensive-research-report-2026-b5bf5b1e"
+      ],
+      "status": "candidate"
+    },
+    "concept:aider": {
+      "sourceIds": [
+        "aider-c014bd69"
+      ],
+      "status": "candidate"
+    },
+    "concept:local": {
+      "sourceIds": [
+        "aider-c014bd69",
+        "devin-desktop-36289347",
+        "grok-build-b560a812",
+        "ollama-19794359",
+        "open-source-ecosystem-index-7edbaf37"
+      ],
+      "status": "candidate"
+    },
+    "concept:qwen": {
+      "sourceIds": [
+        "alibaba-qwen-1cf50963",
+        "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151"
+      ],
+      "status": "active"
+    },
+    "concept:alibaba": {
+      "sourceIds": [
+        "alibaba-qwen-1cf50963",
+        "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151"
+      ],
+      "status": "active"
+    },
+    "concept:studio": {
+      "sourceIds": [
+        "alibaba-qwen-1cf50963"
+      ],
+      "status": "candidate"
+    },
+    "concept:qwen3": {
+      "sourceIds": [
+        "alibaba-qwen-1cf50963"
+      ],
+      "status": "candidate"
+    },
+    "concept:amazon": {
+      "sourceIds": [
+        "amazon-nova-act-61a7a942"
+      ],
+      "status": "candidate"
+    },
+    "concept:production": {
+      "sourceIds": [
+        "amazon-nova-act-61a7a942"
+      ],
+      "status": "candidate"
+    },
+    "concept:building": {
+      "sourceIds": [
+        "amazon-nova-act-61a7a942"
+      ],
+      "status": "candidate"
+    },
+    "concept:extension": {
+      "sourceIds": [
+        "amazon-nova-act-61a7a942"
+      ],
+      "status": "candidate"
+    },
+    "concept:service": {
+      "sourceIds": [
+        "amazon-nova-act-61a7a942"
+      ],
+      "status": "candidate"
+    },
+    "concept:claude": {
+      "sourceIds": [
+        "anthropic-claude-code-9a2a2c2f",
+        "anthropic-e5b2ae21",
+        "llm-release-tracker-fddf2689",
+        "pricing-comparison-42a35633",
+        "anthropic-llm-provider-research-report-mid-2026-85c1ae51"
+      ],
+      "status": "candidate"
+    },
+    "concept:fable": {
+      "sourceIds": [
+        "anthropic-claude-code-9a2a2c2f"
+      ],
+      "status": "candidate"
+    },
+    "concept:opus": {
+      "sourceIds": [
+        "anthropic-e5b2ae21",
+        "pricing-comparison-42a35633",
+        "anthropic-llm-provider-research-report-mid-2026-85c1ae51"
+      ],
+      "status": "candidate"
+    },
+    "concept:anthropic": {
+      "sourceIds": [
+        "anthropic-e5b2ae21",
+        "architecture-comparison-7564a202",
+        "anthropic-llm-provider-research-report-mid-2026-85c1ae51"
+      ],
+      "status": "candidate"
+    },
+    "concept:active": {
+      "sourceIds": [
+        "architecture-comparison-7564a202",
+        "mixture-of-experts-moe-architecture-fcad9f2a"
+      ],
+      "status": "candidate"
+    },
+    "concept:adamw": {
+      "sourceIds": [
+        "architecture-comparison-7564a202"
+      ],
+      "status": "candidate"
+    },
+    "concept:attention": {
+      "sourceIds": [
+        "architecture-comparison-7564a202",
+        "context-windows-and-long-context-431202b8",
+        "kv-cache-optimization-de2c0259"
+      ],
+      "status": "candidate"
+    },
+    "concept:deepseek": {
+      "sourceIds": [
+        "architecture-comparison-7564a202",
+        "capabilities-comparison-da17fe1a",
+        "deepseek-837cec6b",
+        "llm-release-tracker-fddf2689",
+        "mixture-of-experts-moe-architecture-fcad9f2a",
+        "pricing-comparison-42a35633",
+        "deepseek-llm-provider-research-report-mid-2026-06d7b24d"
+      ],
+      "status": "candidate"
+    },
+    "concept:conversation": {
+      "sourceIds": [
+        "autogen-d2ca12d4"
+      ],
+      "status": "candidate"
+    },
+    "concept:execution": {
+      "sourceIds": [
+        "autogen-d2ca12d4",
+        "grok-build-b560a812",
+        "tool-use-pattern-307ac2f6"
+      ],
+      "status": "candidate"
+    },
+    "concept:autogen": {
+      "sourceIds": [
+        "autogen-d2ca12d4"
+      ],
+      "status": "candidate"
+    },
+    "concept:human": {
+      "sourceIds": [
+        "autogen-d2ca12d4",
+        "rlhf-and-alignment-training-ba7b3502"
+      ],
+      "status": "candidate"
+    },
+    "concept:conversational": {
+      "sourceIds": [
+        "autogen-d2ca12d4"
+      ],
+      "status": "candidate"
+    },
+    "concept:financial": {
+      "sourceIds": [
+        "bloomberggpt-693c071e",
+        "financial-reasoning-benchmarks-32d95d6c"
+      ],
+      "status": "candidate"
+    },
+    "concept:bloomberg": {
+      "sourceIds": [
+        "bloomberggpt-693c071e"
+      ],
+      "status": "candidate"
+    },
+    "concept:bloomberggpt": {
+      "sourceIds": [
+        "bloomberggpt-693c071e"
+      ],
+      "status": "candidate"
+    },
+    "concept:news": {
+      "sourceIds": [
+        "bloomberggpt-693c071e",
+        "sentiment-analysis-for-markets-0f8731b4"
+      ],
+      "status": "candidate"
+    },
+    "concept:proprietary": {
+      "sourceIds": [
+        "bloomberggpt-693c071e"
+      ],
+      "status": "candidate"
+    },
+    "concept:access": {
+      "sourceIds": [
+        "bloomberggpt-693c071e",
+        "ymtc-yangtze-memory-technologies-corp-542d90e6"
+      ],
+      "status": "candidate"
+    },
+    "concept:capabilities": {
+      "sourceIds": [
+        "capabilities-comparison-da17fe1a"
+      ],
+      "status": "candidate"
+    },
+    "concept:competitive": {
+      "sourceIds": [
+        "capabilities-comparison-da17fe1a"
+      ],
+      "status": "candidate"
+    },
+    "concept:performance": {
+      "sourceIds": [
+        "capabilities-comparison-da17fe1a"
+      ],
+      "status": "candidate"
+    },
+    "concept:reasoning": {
+      "sourceIds": [
+        "capabilities-comparison-da17fe1a",
+        "extended-thinking-reasoning-mode-9271007e",
+        "financial-reasoning-benchmarks-32d95d6c",
+        "knowledge-distillation-12873957",
+        "microsoft-phi-55281864",
+        "model-selection-for-agents-52969ec5",
+        "xai-grok-efa7f437",
+        "llm-provider-research-report-moonshot-ai-821a1010",
+        "llm-provider-research-report-xai-grok-27723302",
+        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
+      ],
+      "status": "candidate"
+    },
+    "concept:free": {
+      "sourceIds": [
+        "coding-agent-feature-matrix-168f075a"
+      ],
+      "status": "candidate"
+    },
+    "concept:full": {
+      "sourceIds": [
+        "coding-agent-feature-matrix-168f075a"
+      ],
+      "status": "candidate"
+    },
+    "concept:gemini": {
+      "sourceIds": [
+        "coding-agent-feature-matrix-168f075a",
+        "google-antigravity-c839fc82",
+        "google-gemini-f03c0717",
+        "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
+      ],
+      "status": "candidate"
+    },
+    "concept:command": {
+      "sourceIds": [
+        "cohere-7a243c96",
+        "llm-provider-research-report-cohere-a2489c1d"
+      ],
+      "status": "active"
+    },
+    "concept:languages": {
+      "sourceIds": [
+        "cohere-7a243c96"
+      ],
+      "status": "candidate"
+    },
+    "concept:cohere": {
+      "sourceIds": [
+        "cohere-7a243c96",
+        "llm-provider-research-report-cohere-a2489c1d"
+      ],
+      "status": "active"
+    },
+    "concept:context": {
+      "sourceIds": [
+        "context-windows-and-long-context-431202b8",
+        "kv-cache-optimization-de2c0259",
+        "model-selection-for-agents-52969ec5",
+        "moonshot-ai-d13bf1de"
+      ],
+      "status": "candidate"
+    },
+    "concept:tokens": {
+      "sourceIds": [
+        "context-windows-and-long-context-431202b8",
+        "minimax-d454d859",
+        "moonshot-ai-d13bf1de",
+        "prompt-caching-84942f18",
+        "speculative-decoding-d3cdd080",
+        "anthropic-llm-provider-research-report-mid-2026-85c1ae51",
+        "llm-provider-research-report-mistral-ai-b1dc6738"
+      ],
+      "status": "candidate"
+    },
+    "concept:long": {
+      "sourceIds": [
+        "context-windows-and-long-context-431202b8"
+      ],
+      "status": "candidate"
+    },
+    "concept:rope": {
+      "sourceIds": [
+        "context-windows-and-long-context-431202b8"
+      ],
+      "status": "candidate"
+    },
+    "concept:retrieval": {
+      "sourceIds": [
+        "context-windows-and-long-context-431202b8",
+        "llamaindex-ae86527e",
+        "tool-use-pattern-307ac2f6"
+      ],
+      "status": "candidate"
+    },
+    "concept:role": {
+      "sourceIds": [
+        "crewai-9c8d5146"
+      ],
+      "status": "candidate"
+    },
+    "concept:task": {
+      "sourceIds": [
+        "crewai-9c8d5146"
+      ],
+      "status": "candidate"
+    },
+    "concept:crewai": {
+      "sourceIds": [
+        "crewai-9c8d5146"
+      ],
+      "status": "candidate"
+    },
+    "concept:composer": {
+      "sourceIds": [
+        "cursor-ide-64120109"
+      ],
+      "status": "candidate"
+    },
     "concept:flash": {
       "sourceIds": [
+        "deepseek-837cec6b",
+        "google-antigravity-c839fc82",
+        "google-gemini-f03c0717",
+        "llm-release-tracker-fddf2689",
+        "stepfun-517facb2",
         "deepseek-llm-provider-research-report-mid-2026-06d7b24d",
         "google-gemini-llm-provider-research-report-mid-2026-c1315c99",
         "stepfun-comprehensive-research-report-2026-517799aa"
       ],
       "status": "candidate"
+    },
+    "concept:pricing": {
+      "sourceIds": [
+        "deepseek-837cec6b",
+        "grok-build-b560a812",
+        "pricing-comparison-42a35633",
+        "llm-provider-research-report-cohere-a2489c1d",
+        "llm-provider-research-report-mistral-ai-b1dc6738",
+        "minimax-comprehensive-research-report-2026-db6828bc"
+      ],
+      "status": "active"
+    },
+    "concept:devin": {
+      "sourceIds": [
+        "devin-desktop-36289347"
+      ],
+      "status": "candidate"
+    },
+    "concept:desktop": {
+      "sourceIds": [
+        "devin-desktop-36289347"
+      ],
+      "status": "candidate"
+    },
+    "concept:multi-agent": {
+      "sourceIds": [
+        "devin-desktop-36289347",
+        "multi-agent-orchestration-85061802",
+        "single-vs-multi-agent-6d3849d4"
+      ],
+      "status": "candidate"
+    },
+    "concept:tool": {
+      "sourceIds": [
+        "enterprise-ai-cost-management-697ab8d5",
+        "mcp-model-context-protocol-a0a3debf",
+        "model-selection-for-agents-52969ec5",
+        "smolagents-ac93798a",
+        "tool-use-pattern-307ac2f6"
+      ],
+      "status": "candidate"
+    },
+    "concept:enterprise": {
+      "sourceIds": [
+        "enterprise-ai-cost-management-697ab8d5",
+        "openhands-6f91c4fe",
+        "llm-provider-research-report-cohere-a2489c1d",
+        "openai-llm-provider-research-report-mid-2026-8b4a47c7"
+      ],
+      "status": "active"
+    },
+    "concept:month": {
+      "sourceIds": [
+        "enterprise-ai-cost-management-697ab8d5"
+      ],
+      "status": "candidate"
+    },
+    "concept:early": {
+      "sourceIds": [
+        "enterprise-ai-cost-management-697ab8d5"
+      ],
+      "status": "candidate"
+    },
+    "concept:tasks": {
+      "sourceIds": [
+        "evaluation-benchmarks-807dce0d",
+        "financial-reasoning-benchmarks-32d95d6c"
+      ],
+      "status": "candidate"
+    },
+    "concept:benchmarks": {
+      "sourceIds": [
+        "evaluation-benchmarks-807dce0d",
+        "financial-reasoning-benchmarks-32d95d6c"
+      ],
+      "status": "candidate"
+    },
+    "concept:evaluation": {
+      "sourceIds": [
+        "evaluation-benchmarks-807dce0d"
+      ],
+      "status": "candidate"
+    },
+    "concept:2606": {
+      "sourceIds": [
+        "evaluation-benchmarks-807dce0d"
+      ],
+      "status": "candidate"
+    },
+    "concept:across": {
+      "sourceIds": [
+        "evaluation-benchmarks-807dce0d"
+      ],
+      "status": "candidate"
+    },
+    "concept:thinking": {
+      "sourceIds": [
+        "extended-thinking-reasoning-mode-9271007e"
+      ],
+      "status": "candidate"
+    },
+    "concept:mode": {
+      "sourceIds": [
+        "extended-thinking-reasoning-mode-9271007e",
+        "openai-codex-93968904"
+      ],
+      "status": "candidate"
+    },
+    "concept:extended": {
+      "sourceIds": [
+        "extended-thinking-reasoning-mode-9271007e"
+      ],
+      "status": "candidate"
+    },
+    "concept:traces": {
+      "sourceIds": [
+        "extended-thinking-reasoning-mode-9271007e"
+      ],
+      "status": "candidate"
+    },
+    "concept:analysis": {
+      "sourceIds": [
+        "extended-thinking-reasoning-mode-9271007e",
+        "sentiment-analysis-for-markets-0f8731b4"
+      ],
+      "status": "candidate"
+    },
+    "concept:finance": {
+      "sourceIds": [
+        "financial-reasoning-benchmarks-32d95d6c"
+      ],
+      "status": "candidate"
+    },
+    "concept:accuracy": {
+      "sourceIds": [
+        "financial-reasoning-benchmarks-32d95d6c"
+      ],
+      "status": "candidate"
+    },
+    "concept:copilot": {
+      "sourceIds": [
+        "github-copilot-57767a0f"
+      ],
+      "status": "candidate"
+    },
+    "concept:github": {
+      "sourceIds": [
+        "github-copilot-57767a0f"
+      ],
+      "status": "candidate"
+    },
+    "concept:google": {
+      "sourceIds": [
+        "google-antigravity-c839fc82",
+        "google-gemini-f03c0717",
+        "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
+      ],
+      "status": "candidate"
+    },
+    "concept:antigravity": {
+      "sourceIds": [
+        "google-antigravity-c839fc82"
+      ],
+      "status": "candidate"
+    },
+    "concept:cloud": {
+      "sourceIds": [
+        "google-gemini-f03c0717"
+      ],
+      "status": "candidate"
+    },
+    "concept:parallel": {
+      "sourceIds": [
+        "grok-build-b560a812"
+      ],
+      "status": "candidate"
+    },
+    "concept:terminal": {
+      "sourceIds": [
+        "grok-build-b560a812"
+      ],
+      "status": "candidate"
+    },
+    "concept:first": {
+      "sourceIds": [
+        "grok-build-b560a812",
+        "ollama-19794359",
+        "zhipu-ai-glm-3629e43c"
+      ],
+      "status": "candidate"
+    },
+    "concept:power": {
+      "sourceIds": [
+        "helion-energy-0ae9133b"
+      ],
+      "status": "candidate"
+    },
+    "concept:energy": {
+      "sourceIds": [
+        "helion-energy-0ae9133b"
+      ],
+      "status": "candidate"
+    },
+    "concept:fusion": {
+      "sourceIds": [
+        "helion-energy-0ae9133b"
+      ],
+      "status": "candidate"
+    },
+    "concept:microsoft": {
+      "sourceIds": [
+        "helion-energy-0ae9133b",
+        "microsoft-phi-55281864",
+        "semantic-kernel-1fdaa5f5",
+        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
+      ],
+      "status": "candidate"
+    },
+    "concept:helion": {
+      "sourceIds": [
+        "helion-energy-0ae9133b"
+      ],
+      "status": "candidate"
+    },
+    "concept:series": {
+      "sourceIds": [
+        "helion-energy-0ae9133b",
+        "together-ai-ce3a0f9b"
+      ],
+      "status": "candidate"
+    },
+    "concept:community": {
+      "sourceIds": [
+        "hugging-face-60153cb9",
+        "open-source-comparison-8a31dfc2",
+        "open-source-ecosystem-index-7edbaf37",
+        "open-weight-licensing-887e57a4"
+      ],
+      "status": "candidate"
+    },
+    "concept:benchmark": {
+      "sourceIds": [
+        "hugging-face-60153cb9"
+      ],
+      "status": "candidate"
+    },
+    "concept:face": {
+      "sourceIds": [
+        "hugging-face-60153cb9",
+        "smolagents-ac93798a"
+      ],
+      "status": "candidate"
+    },
+    "concept:distillation": {
+      "sourceIds": [
+        "knowledge-distillation-12873957"
+      ],
+      "status": "candidate"
+    },
+    "concept:teacher": {
+      "sourceIds": [
+        "knowledge-distillation-12873957"
+      ],
+      "status": "candidate"
+    },
+    "concept:distilled": {
+      "sourceIds": [
+        "knowledge-distillation-12873957"
+      ],
+      "status": "candidate"
+    },
+    "concept:cache": {
+      "sourceIds": [
+        "kv-cache-optimization-de2c0259",
+        "prompt-caching-84942f18"
+      ],
+      "status": "candidate"
+    },
+    "concept:reduction": {
+      "sourceIds": [
+        "kv-cache-optimization-de2c0259"
+      ],
+      "status": "candidate"
+    },
+    "concept:graph": {
+      "sourceIds": [
+        "langchain-langgraph-7a4aa86d"
+      ],
+      "status": "candidate"
+    },
+    "concept:langgraph": {
+      "sourceIds": [
+        "langchain-langgraph-7a4aa86d"
+      ],
+      "status": "candidate"
+    },
+    "concept:langchain": {
+      "sourceIds": [
+        "langchain-langgraph-7a4aa86d"
+      ],
+      "status": "candidate"
+    },
+    "concept:framework": {
+      "sourceIds": [
+        "langchain-langgraph-7a4aa86d",
+        "semantic-kernel-1fdaa5f5"
+      ],
+      "status": "candidate"
+    },
+    "concept:node": {
+      "sourceIds": [
+        "langchain-langgraph-7a4aa86d"
+      ],
+      "status": "candidate"
+    },
+    "concept:llamaindex": {
+      "sourceIds": [
+        "llamaindex-ae86527e"
+      ],
+      "status": "candidate"
+    },
+    "concept:frontier": {
+      "sourceIds": [
+        "llm-release-tracker-fddf2689"
+      ],
+      "status": "candidate"
+    },
+    "concept:calling": {
+      "sourceIds": [
+        "mcp-model-context-protocol-a0a3debf"
+      ],
+      "status": "candidate"
+    },
+    "concept:function": {
+      "sourceIds": [
+        "mcp-model-context-protocol-a0a3debf"
+      ],
+      "status": "candidate"
+    },
+    "concept:tools": {
+      "sourceIds": [
+        "mcp-model-context-protocol-a0a3debf",
+        "tool-use-pattern-307ac2f6"
+      ],
+      "status": "candidate"
+    },
+    "concept:llama": {
+      "sourceIds": [
+        "meta-llama-10f19581",
+        "open-source-comparison-8a31dfc2",
+        "meta-llama-llm-provider-research-report-mid-2026-ea1881e6"
+      ],
+      "status": "candidate"
+    },
+    "concept:meta": {
+      "sourceIds": [
+        "meta-llama-10f19581",
+        "meta-llama-llm-provider-research-report-mid-2026-ea1881e6"
+      ],
+      "status": "active"
+    },
+    "concept:weight": {
+      "sourceIds": [
+        "meta-llama-10f19581",
+        "open-source-ecosystem-index-7edbaf37",
+        "open-weight-licensing-887e57a4"
+      ],
+      "status": "candidate"
+    },
+    "concept:vision": {
+      "sourceIds": [
+        "microsoft-phi-55281864"
+      ],
+      "status": "candidate"
+    },
+    "concept:minimax": {
+      "sourceIds": [
+        "minimax-d454d859",
+        "minimax-comprehensive-research-report-2026-db6828bc"
+      ],
+      "status": "active"
+    },
+    "concept:mistral": {
+      "sourceIds": [
+        "mistral-ai-06e88b74",
+        "llm-provider-research-report-mistral-ai-b1dc6738"
+      ],
+      "status": "active"
+    },
+    "concept:experts": {
+      "sourceIds": [
+        "mixture-of-experts-moe-architecture-fcad9f2a"
+      ],
+      "status": "candidate"
+    },
+    "concept:token": {
+      "sourceIds": [
+        "mixture-of-experts-moe-architecture-fcad9f2a"
+      ],
+      "status": "candidate"
+    },
+    "concept:expert": {
+      "sourceIds": [
+        "mixture-of-experts-moe-architecture-fcad9f2a"
+      ],
+      "status": "candidate"
+    },
+    "concept:closed": {
+      "sourceIds": [
+        "model-commoditization-risk-ee3ef656"
+      ],
+      "status": "candidate"
+    },
+    "concept:commoditization": {
+      "sourceIds": [
+        "model-commoditization-risk-ee3ef656"
+      ],
+      "status": "candidate"
+    },
+    "concept:kimi": {
+      "sourceIds": [
+        "moonshot-ai-d13bf1de",
+        "llm-provider-research-report-moonshot-ai-821a1010"
+      ],
+      "status": "active"
+    },
+    "concept:2025": {
+      "sourceIds": [
+        "moonshot-ai-d13bf1de",
+        "openai-e2c21475",
+        "zhipu-ai-glm-3629e43c",
+        "llm-provider-research-report-moonshot-ai-821a1010",
+        "openai-llm-provider-research-report-mid-2026-8b4a47c7"
+      ],
+      "status": "candidate"
+    },
+    "concept:swarm": {
+      "sourceIds": [
+        "moonshot-ai-d13bf1de"
+      ],
+      "status": "candidate"
+    },
+    "concept:optimization": {
+      "sourceIds": [
+        "multi-agent-orchestration-85061802"
+      ],
+      "status": "candidate"
+    },
+    "concept:tree": {
+      "sourceIds": [
+        "multi-agent-orchestration-85061802"
+      ],
+      "status": "candidate"
+    },
+    "concept:nemotron": {
+      "sourceIds": [
+        "nvidia-0687788d",
+        "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40"
+      ],
+      "status": "active"
+    },
+    "concept:nvidia": {
+      "sourceIds": [
+        "nvidia-0687788d",
+        "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40"
+      ],
+      "status": "active"
+    },
+    "concept:nano": {
+      "sourceIds": [
+        "nvidia-0687788d"
+      ],
+      "status": "candidate"
+    },
+    "concept:ollama": {
+      "sourceIds": [
+        "ollama-19794359"
+      ],
+      "status": "candidate"
+    },
+    "concept:quantization": {
+      "sourceIds": [
+        "ollama-19794359",
+        "quantization-89ec2663"
+      ],
+      "status": "candidate"
+    },
+    "concept:license": {
+      "sourceIds": [
+        "open-source-comparison-8a31dfc2",
+        "open-weight-licensing-887e57a4"
+      ],
+      "status": "candidate"
+    },
+    "concept:high": {
+      "sourceIds": [
+        "open-source-comparison-8a31dfc2"
+      ],
+      "status": "candidate"
+    },
+    "concept:provider": {
+      "sourceIds": [
+        "open-source-comparison-8a31dfc2",
+        "opencode-de4e68b1"
+      ],
+      "status": "candidate"
+    },
+    "concept:weights": {
+      "sourceIds": [
+        "open-weight-licensing-887e57a4"
+      ],
+      "status": "candidate"
+    },
+    "concept:python": {
+      "sourceIds": [
+        "openai-agents-sdk-874de8e8",
+        "smolagents-ac93798a"
+      ],
+      "status": "candidate"
+    },
+    "concept:codex": {
+      "sourceIds": [
+        "openai-codex-93968904",
+        "openai-e2c21475"
+      ],
+      "status": "candidate"
+    },
+    "concept:chatgpt": {
+      "sourceIds": [
+        "openai-e2c21475"
+      ],
+      "status": "candidate"
+    },
+    "concept:openhands": {
+      "sourceIds": [
+        "openhands-6f91c4fe"
+      ],
+      "status": "candidate"
+    },
+    "concept:sonar": {
+      "sourceIds": [
+        "perplexity-ai-sonar-37c95c90",
+        "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
+      ],
+      "status": "active"
+    },
+    "concept:search": {
+      "sourceIds": [
+        "perplexity-ai-sonar-37c95c90",
+        "xai-grok-efa7f437",
+        "llm-provider-research-report-xai-grok-27723302",
+        "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
+      ],
+      "status": "active"
+    },
+    "concept:research": {
+      "sourceIds": [
+        "perplexity-ai-sonar-37c95c90",
+        "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
+      ],
+      "status": "active"
+    },
+    "concept:deep": {
+      "sourceIds": [
+        "perplexity-ai-sonar-37c95c90"
+      ],
+      "status": "candidate"
+    },
+    "concept:input": {
+      "sourceIds": [
+        "pricing-comparison-42a35633",
+        "prompt-caching-84942f18"
+      ],
+      "status": "candidate"
+    },
+    "concept:output": {
+      "sourceIds": [
+        "pricing-comparison-42a35633"
+      ],
+      "status": "candidate"
+    },
+    "concept:caching": {
+      "sourceIds": [
+        "prompt-caching-84942f18"
+      ],
+      "status": "candidate"
+    },
+    "concept:prefix": {
+      "sourceIds": [
+        "prompt-caching-84942f18"
+      ],
+      "status": "candidate"
+    },
+    "concept:training": {
+      "sourceIds": [
+        "quantization-89ec2663",
+        "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40"
+      ],
+      "status": "active"
+    },
+    "concept:inference": {
+      "sourceIds": [
+        "quantization-89ec2663",
+        "together-ai-ce3a0f9b",
+        "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40",
+        "together-ai-comprehensive-research-report-2026-b5bf5b1e"
+      ],
+      "status": "active"
+    },
+    "concept:int4": {
+      "sourceIds": [
+        "quantization-89ec2663"
+      ],
+      "status": "candidate"
+    },
+    "concept:gpus": {
+      "sourceIds": [
+        "quantization-89ec2663"
+      ],
+      "status": "candidate"
+    },
+    "concept:int8": {
+      "sourceIds": [
+        "quantization-89ec2663"
+      ],
+      "status": "candidate"
+    },
+    "concept:alignment": {
+      "sourceIds": [
+        "rlhf-and-alignment-training-ba7b3502"
+      ],
+      "status": "candidate"
+    },
+    "concept:rlhf": {
+      "sourceIds": [
+        "rlhf-and-alignment-training-ba7b3502"
+      ],
+      "status": "candidate"
+    },
+    "concept:preference": {
+      "sourceIds": [
+        "rlhf-and-alignment-training-ba7b3502"
+      ],
+      "status": "candidate"
+    },
+    "concept:providers": {
+      "sourceIds": [
+        "schema-ai-intelligence-wiki-95f746ef"
+      ],
+      "status": "candidate"
+    },
+    "concept:semantic": {
+      "sourceIds": [
+        "semantic-kernel-1fdaa5f5"
+      ],
+      "status": "candidate"
+    },
+    "concept:sentiment": {
+      "sourceIds": [
+        "sentiment-analysis-for-markets-0f8731b4"
+      ],
+      "status": "candidate"
+    },
+    "concept:earnings": {
+      "sourceIds": [
+        "sentiment-analysis-for-markets-0f8731b4"
+      ],
+      "status": "candidate"
+    },
+    "concept:calls": {
+      "sourceIds": [
+        "sentiment-analysis-for-markets-0f8731b4"
+      ],
+      "status": "candidate"
+    },
+    "concept:social": {
+      "sourceIds": [
+        "sentiment-analysis-for-markets-0f8731b4"
+      ],
+      "status": "candidate"
+    },
+    "concept:single": {
+      "sourceIds": [
+        "single-vs-multi-agent-6d3849d4"
+      ],
+      "status": "candidate"
+    },
+    "concept:characteristics": {
+      "sourceIds": [
+        "single-vs-multi-agent-6d3849d4"
+      ],
+      "status": "candidate"
+    },
+    "concept:china": {
+      "sourceIds": [
+        "smic-semiconductor-manufacturing-international-corporation-432c6082",
+        "ymtc-yangtze-memory-technologies-corp-542d90e6",
+        "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "status": "candidate"
+    },
+    "concept:semiconductor": {
+      "sourceIds": [
+        "smic-semiconductor-manufacturing-international-corporation-432c6082",
+        "spacex-terafab-87c79947"
+      ],
+      "status": "candidate"
+    },
+    "concept:advanced": {
+      "sourceIds": [
+        "smic-semiconductor-manufacturing-international-corporation-432c6082"
+      ],
+      "status": "candidate"
+    },
+    "concept:domestic": {
+      "sourceIds": [
+        "smic-semiconductor-manufacturing-international-corporation-432c6082"
+      ],
+      "status": "candidate"
+    },
+    "concept:smic": {
+      "sourceIds": [
+        "smic-semiconductor-manufacturing-international-corporation-432c6082"
+      ],
+      "status": "candidate"
+    },
+    "concept:chip": {
+      "sourceIds": [
+        "smic-semiconductor-manufacturing-international-corporation-432c6082"
+      ],
+      "status": "candidate"
+    },
+    "concept:smolagents": {
+      "sourceIds": [
+        "smolagents-ac93798a"
+      ],
+      "status": "candidate"
+    },
+    "concept:spacex": {
+      "sourceIds": [
+        "spacex-terafab-87c79947"
+      ],
+      "status": "candidate"
+    },
+    "concept:intel": {
+      "sourceIds": [
+        "spacex-terafab-87c79947"
+      ],
+      "status": "candidate"
+    },
+    "concept:property": {
+      "sourceIds": [
+        "spacex-terafab-87c79947"
+      ],
+      "status": "candidate"
+    },
+    "concept:terafab": {
+      "sourceIds": [
+        "spacex-terafab-87c79947"
+      ],
+      "status": "candidate"
+    },
+    "concept:tesla": {
+      "sourceIds": [
+        "spacex-terafab-87c79947"
+      ],
+      "status": "candidate"
+    },
+    "concept:draft": {
+      "sourceIds": [
+        "speculative-decoding-d3cdd080"
+      ],
+      "status": "candidate"
+    },
+    "concept:target": {
+      "sourceIds": [
+        "speculative-decoding-d3cdd080"
+      ],
+      "status": "candidate"
+    },
+    "concept:acceptance": {
+      "sourceIds": [
+        "speculative-decoding-d3cdd080"
+      ],
+      "status": "candidate"
+    },
+    "concept:decoding": {
+      "sourceIds": [
+        "speculative-decoding-d3cdd080"
+      ],
+      "status": "candidate"
+    },
+    "concept:stable": {
+      "sourceIds": [
+        "stability-ai-edf65283",
+        "stability-ai-comprehensive-research-report-2026-82ef3427"
+      ],
+      "status": "active"
+    },
+    "concept:2024": {
+      "sourceIds": [
+        "stability-ai-edf65283",
+        "zhipu-ai-glm-3629e43c",
+        "stability-ai-comprehensive-research-report-2026-82ef3427"
+      ],
+      "status": "candidate"
+    },
+    "concept:image": {
+      "sourceIds": [
+        "stability-ai-edf65283",
+        "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151",
+        "google-gemini-llm-provider-research-report-mid-2026-c1315c99",
+        "stability-ai-comprehensive-research-report-2026-82ef3427"
+      ],
+      "status": "active"
+    },
+    "concept:audio": {
+      "sourceIds": [
+        "stability-ai-edf65283"
+      ],
+      "status": "candidate"
+    },
+    "concept:video": {
+      "sourceIds": [
+        "stability-ai-edf65283"
+      ],
+      "status": "candidate"
+    },
+    "concept:stepfun": {
+      "sourceIds": [
+        "stepfun-517facb2",
+        "stepfun-comprehensive-research-report-2026-517799aa"
+      ],
+      "status": "active"
+    },
+    "concept:together": {
+      "sourceIds": [
+        "together-ai-ce3a0f9b",
+        "together-ai-comprehensive-research-report-2026-b5bf5b1e"
+      ],
+      "status": "active"
+    },
+    "concept:platform": {
+      "sourceIds": [
+        "together-ai-ce3a0f9b"
+      ],
+      "status": "candidate"
+    },
+    "concept:flashattention": {
+      "sourceIds": [
+        "together-ai-ce3a0f9b"
+      ],
+      "status": "candidate"
+    },
+    "concept:knowledge": {
+      "sourceIds": [
+        "tool-use-pattern-307ac2f6"
+      ],
+      "status": "candidate"
+    },
+    "concept:teach": {
+      "sourceIds": [
+        "tool-use-pattern-307ac2f6"
+      ],
+      "status": "candidate"
+    },
+    "concept:grok": {
+      "sourceIds": [
+        "xai-grok-efa7f437",
+        "llm-provider-research-report-xai-grok-27723302"
+      ],
+      "status": "active"
+    },
+    "concept:nand": {
+      "sourceIds": [
+        "ymtc-yangtze-memory-technologies-corp-542d90e6"
+      ],
+      "status": "candidate"
+    },
+    "concept:ymtc": {
+      "sourceIds": [
+        "ymtc-yangtze-memory-technologies-corp-542d90e6"
+      ],
+      "status": "candidate"
+    },
+    "concept:dashscope": {
+      "sourceIds": [
+        "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151"
+      ],
+      "status": "active"
+    },
+    "concept:sonnet": {
+      "sourceIds": [
+        "anthropic-llm-provider-research-report-mid-2026-85c1ae51"
+      ],
+      "status": "active"
     },
     "concept:content": {
       "sourceIds": [
@@ -209,316 +2116,2570 @@
         "openai-llm-provider-research-report-mid-2026-8b4a47c7",
         "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
       ],
-      "status": "candidate"
-    },
-    "concept:coding": {
-      "sourceIds": [
-        "deepseek-llm-provider-research-report-mid-2026-06d7b24d"
-      ],
-      "status": "candidate"
-    },
-    "concept:gemini": {
-      "sourceIds": [
-        "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
-      ],
-      "status": "candidate"
-    },
-    "concept:google": {
-      "sourceIds": [
-        "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "concept:text": {
       "sourceIds": [
         "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
       ],
-      "status": "candidate"
-    },
-    "concept:command": {
-      "sourceIds": [
-        "llm-provider-research-report-cohere-a2489c1d"
-      ],
-      "status": "candidate"
-    },
-    "concept:cohere": {
-      "sourceIds": [
-        "llm-provider-research-report-cohere-a2489c1d"
-      ],
-      "status": "candidate"
-    },
-    "concept:models": {
-      "sourceIds": [
-        "llm-provider-research-report-cohere-a2489c1d",
-        "llm-provider-research-report-mistral-ai-b1dc6738",
-        "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40",
-        "meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
-        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835",
-        "stepfun-comprehensive-research-report-2026-517799aa"
-      ],
-      "status": "candidate"
-    },
-    "concept:pricing": {
-      "sourceIds": [
-        "llm-provider-research-report-cohere-a2489c1d",
-        "llm-provider-research-report-mistral-ai-b1dc6738",
-        "minimax-comprehensive-research-report-2026-db6828bc"
-      ],
-      "status": "candidate"
-    },
-    "concept:enterprise": {
-      "sourceIds": [
-        "llm-provider-research-report-cohere-a2489c1d",
-        "openai-llm-provider-research-report-mid-2026-8b4a47c7"
-      ],
-      "status": "candidate"
-    },
-    "concept:mistral": {
-      "sourceIds": [
-        "llm-provider-research-report-mistral-ai-b1dc6738"
-      ],
-      "status": "candidate"
-    },
-    "concept:open": {
-      "sourceIds": [
-        "llm-provider-research-report-mistral-ai-b1dc6738",
-        "meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
-        "together-ai-comprehensive-research-report-2026-b5bf5b1e",
-        "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
-      ],
-      "status": "candidate"
-    },
-    "concept:kimi": {
-      "sourceIds": [
-        "llm-provider-research-report-moonshot-ai-821a1010"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "concept:moonshot": {
       "sourceIds": [
         "llm-provider-research-report-moonshot-ai-821a1010"
       ],
-      "status": "candidate"
-    },
-    "concept:reasoning": {
-      "sourceIds": [
-        "llm-provider-research-report-moonshot-ai-821a1010",
-        "llm-provider-research-report-xai-grok-27723302",
-        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
-      ],
-      "status": "candidate"
-    },
-    "concept:2025": {
-      "sourceIds": [
-        "llm-provider-research-report-moonshot-ai-821a1010",
-        "openai-llm-provider-research-report-mid-2026-8b4a47c7"
-      ],
-      "status": "candidate"
-    },
-    "concept:agent": {
-      "sourceIds": [
-        "llm-provider-research-report-moonshot-ai-821a1010",
-        "minimax-comprehensive-research-report-2026-db6828bc"
-      ],
-      "status": "candidate"
-    },
-    "concept:nvidia": {
-      "sourceIds": [
-        "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40"
-      ],
-      "status": "candidate"
-    },
-    "concept:nemotron": {
-      "sourceIds": [
-        "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40"
-      ],
-      "status": "candidate"
-    },
-    "concept:inference": {
-      "sourceIds": [
-        "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40",
-        "together-ai-comprehensive-research-report-2026-b5bf5b1e"
-      ],
-      "status": "candidate"
-    },
-    "concept:training": {
-      "sourceIds": [
-        "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40"
-      ],
-      "status": "candidate"
-    },
-    "concept:grok": {
-      "sourceIds": [
-        "llm-provider-research-report-xai-grok-27723302"
-      ],
-      "status": "candidate"
-    },
-    "concept:openai": {
-      "sourceIds": [
-        "llm-provider-research-report-xai-grok-27723302",
-        "openai-llm-provider-research-report-mid-2026-8b4a47c7"
-      ],
-      "status": "candidate"
-    },
-    "concept:search": {
-      "sourceIds": [
-        "llm-provider-research-report-xai-grok-27723302",
-        "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
-      ],
-      "status": "candidate"
-    },
-    "concept:llama": {
-      "sourceIds": [
-        "meta-llama-llm-provider-research-report-mid-2026-ea1881e6"
-      ],
-      "status": "candidate"
-    },
-    "concept:meta": {
-      "sourceIds": [
-        "meta-llama-llm-provider-research-report-mid-2026-ea1881e6"
-      ],
-      "status": "candidate"
-    },
-    "concept:data": {
-      "sourceIds": [
-        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835",
-        "together-ai-comprehensive-research-report-2026-b5bf5b1e",
-        "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
-      ],
-      "status": "candidate"
-    },
-    "concept:microsoft": {
-      "sourceIds": [
-        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "concept:mini": {
       "sourceIds": [
         "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
       ],
-      "status": "candidate"
-    },
-    "concept:minimax": {
-      "sourceIds": [
-        "minimax-comprehensive-research-report-2026-db6828bc"
-      ],
-      "status": "candidate"
-    },
-    "concept:2026": {
-      "sourceIds": [
-        "minimax-comprehensive-research-report-2026-db6828bc",
-        "stepfun-comprehensive-research-report-2026-517799aa"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "concept:perplexity": {
       "sourceIds": [
         "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
       ],
-      "status": "candidate"
-    },
-    "concept:sonar": {
-      "sourceIds": [
-        "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
-      ],
-      "status": "candidate"
-    },
-    "concept:research": {
-      "sourceIds": [
-        "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
-      ],
-      "status": "candidate"
-    },
-    "concept:stable": {
-      "sourceIds": [
-        "stability-ai-comprehensive-research-report-2026-82ef3427"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "concept:stability": {
       "sourceIds": [
         "stability-ai-comprehensive-research-report-2026-82ef3427"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "concept:diffusion": {
       "sourceIds": [
         "stability-ai-comprehensive-research-report-2026-82ef3427"
       ],
+      "status": "active"
+    },
+    "entity:agent-architectures": {
+      "sourceIds": [
+        "agent-architectures-c4a81424"
+      ],
       "status": "candidate"
     },
-    "concept:2024": {
+    "entity:overview-agent": {
       "sourceIds": [
+        "agent-architectures-c4a81424",
+        "agent-safety-80d3d17f"
+      ],
+      "status": "candidate"
+    },
+    "entity:core-patterns": {
+      "sourceIds": [
+        "agent-architectures-c4a81424"
+      ],
+      "status": "candidate"
+    },
+    "entity:react-reason": {
+      "sourceIds": [
+        "agent-architectures-c4a81424"
+      ],
+      "status": "candidate"
+    },
+    "entity:act-interleaves": {
+      "sourceIds": [
+        "agent-architectures-c4a81424"
+      ],
+      "status": "candidate"
+    },
+    "entity:planning": {
+      "sourceIds": [
+        "agent-architectures-c4a81424"
+      ],
+      "status": "candidate"
+    },
+    "entity:agent-client-protocol": {
+      "sourceIds": [
+        "agent-client-protocol-acp-8c8dcb94",
+        "devin-desktop-36289347"
+      ],
+      "status": "candidate"
+    },
+    "entity:open": {
+      "sourceIds": [
+        "agent-client-protocol-acp-8c8dcb94",
+        "open-source-ecosystem-index-7edbaf37"
+      ],
+      "status": "candidate"
+    },
+    "entity:zed-industries": {
+      "sourceIds": [
+        "agent-client-protocol-acp-8c8dcb94"
+      ],
+      "status": "candidate"
+    },
+    "entity:lsp": {
+      "sourceIds": [
+        "agent-client-protocol-acp-8c8dcb94"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-creator": {
+      "sourceIds": [
+        "agent-client-protocol-acp-8c8dcb94"
+      ],
+      "status": "candidate"
+    },
+    "entity:standardize": {
+      "sourceIds": [
+        "agent-client-protocol-acp-8c8dcb94"
+      ],
+      "status": "candidate"
+    },
+    "entity:agent-framework-feature-matrix": {
+      "sourceIds": [
+        "agent-framework-feature-matrix-fde0ed4b"
+      ],
+      "status": "candidate"
+    },
+    "entity:agent-framework-feature-matrix-comparison": {
+      "sourceIds": [
+        "agent-framework-feature-matrix-fde0ed4b"
+      ],
+      "status": "candidate"
+    },
+    "entity:ai": {
+      "sourceIds": [
+        "agent-framework-feature-matrix-fde0ed4b",
+        "ai-intelligence-wiki-index-a106d6b7",
+        "nvidia-0687788d",
+        "schema-ai-intelligence-wiki-95f746ef",
         "stability-ai-comprehensive-research-report-2026-82ef3427"
       ],
       "status": "candidate"
     },
-    "concept:stepfun": {
+    "entity:overview": {
       "sourceIds": [
+        "agent-framework-feature-matrix-fde0ed4b",
+        "ai-for-alpha-generation-3fd7660d",
+        "context-windows-and-long-context-431202b8",
+        "kv-cache-optimization-de2c0259",
+        "mcp-model-context-protocol-a0a3debf",
+        "microsoft-phi-55281864",
+        "smic-semiconductor-manufacturing-international-corporation-432c6082",
+        "smolagents-ac93798a",
+        "xai-grok-efa7f437",
+        "ymtc-yangtze-memory-technologies-corp-542d90e6"
+      ],
+      "status": "candidate"
+    },
+    "entity:framework": {
+      "sourceIds": [
+        "agent-framework-feature-matrix-fde0ed4b"
+      ],
+      "status": "candidate"
+    },
+    "entity:orchestration-model": {
+      "sourceIds": [
+        "agent-framework-feature-matrix-fde0ed4b"
+      ],
+      "status": "candidate"
+    },
+    "entity:agent-memory": {
+      "sourceIds": [
+        "agent-memory-99831982"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-long": {
+      "sourceIds": [
+        "agent-memory-99831982"
+      ],
+      "status": "candidate"
+    },
+    "entity:the-core-problem-production-systems": {
+      "sourceIds": [
+        "agent-memory-99831982"
+      ],
+      "status": "candidate"
+    },
+    "entity:semantic": {
+      "sourceIds": [
+        "agent-memory-99831982"
+      ],
+      "status": "candidate"
+    },
+    "entity:recency": {
+      "sourceIds": [
+        "agent-memory-99831982"
+      ],
+      "status": "candidate"
+    },
+    "entity:multi-factor-memory-value-model": {
+      "sourceIds": [
+        "agent-memory-99831982"
+      ],
+      "status": "candidate"
+    },
+    "entity:agent-safety": {
+      "sourceIds": [
+        "agent-safety-80d3d17f"
+      ],
+      "status": "candidate"
+    },
+    "entity:ai-systems": {
+      "sourceIds": [
+        "agent-safety-80d3d17f",
+        "single-vs-multi-agent-6d3849d4",
+        "xai-grok-efa7f437",
+        "anthropic-llm-provider-research-report-mid-2026-85c1ae51"
+      ],
+      "status": "candidate"
+    },
+    "entity:threat-model": {
+      "sourceIds": [
+        "agent-safety-80d3d17f"
+      ],
+      "status": "candidate"
+    },
+    "entity:risk": {
+      "sourceIds": [
+        "agent-safety-80d3d17f"
+      ],
+      "status": "candidate"
+    },
+    "entity:example": {
+      "sourceIds": [
+        "agent-safety-80d3d17f"
+      ],
+      "status": "candidate"
+    },
+    "entity:engineering-culture": {
+      "sourceIds": [
+        "ai-engineering-culture-33de7c7d"
+      ],
+      "status": "candidate"
+    },
+    "entity:definition": {
+      "sourceIds": [
+        "ai-engineering-culture-33de7c7d"
+      ],
+      "status": "candidate"
+    },
+    "entity:key-dynamics": {
+      "sourceIds": [
+        "ai-engineering-culture-33de7c7d"
+      ],
+      "status": "candidate"
+    },
+    "entity:enthusiast-position-teams": {
+      "sourceIds": [
+        "ai-engineering-culture-33de7c7d"
+      ],
+      "status": "candidate"
+    },
+    "entity:teams": {
+      "sourceIds": [
+        "ai-engineering-culture-33de7c7d"
+      ],
+      "status": "candidate"
+    },
+    "entity:this": {
+      "sourceIds": [
+        "ai-engineering-culture-33de7c7d"
+      ],
+      "status": "candidate"
+    },
+    "entity:alpha-generation": {
+      "sourceIds": [
+        "ai-for-alpha-generation-3fd7660d"
+      ],
+      "status": "candidate"
+    },
+    "entity:approaches": {
+      "sourceIds": [
+        "ai-for-alpha-generation-3fd7660d"
+      ],
+      "status": "candidate"
+    },
+    "entity:based-signal-generation-earnings": {
+      "sourceIds": [
+        "ai-for-alpha-generation-3fd7660d"
+      ],
+      "status": "candidate"
+    },
+    "entity:news": {
+      "sourceIds": [
+        "ai-for-alpha-generation-3fd7660d"
+      ],
+      "status": "candidate"
+    },
+    "entity:social-media": {
+      "sourceIds": [
+        "ai-for-alpha-generation-3fd7660d"
+      ],
+      "status": "candidate"
+    },
+    "entity:intelligence-wiki-index": {
+      "sourceIds": [
+        "ai-intelligence-wiki-index-a106d6b7"
+      ],
+      "status": "candidate"
+    },
+    "entity:unified": {
+      "sourceIds": [
+        "ai-intelligence-wiki-index-a106d6b7"
+      ],
+      "status": "candidate"
+    },
+    "entity:merged": {
+      "sourceIds": [
+        "ai-intelligence-wiki-index-a106d6b7"
+      ],
+      "status": "candidate"
+    },
+    "entity:providers": {
+      "sourceIds": [
+        "ai-intelligence-wiki-index-a106d6b7"
+      ],
+      "status": "candidate"
+    },
+    "entity:model-labs": {
+      "sourceIds": [
+        "ai-intelligence-wiki-index-a106d6b7"
+      ],
+      "status": "candidate"
+    },
+    "entity:aider": {
+      "sourceIds": [
+        "aider-c014bd69"
+      ],
+      "status": "candidate"
+    },
+    "entity:aider-open": {
+      "sourceIds": [
+        "aider-c014bd69"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-developer-open": {
+      "sourceIds": [
+        "aider-c014bd69",
+        "opencode-de4e68b1"
+      ],
+      "status": "candidate"
+    },
+    "entity:paul-gauthier-backend-models-any": {
+      "sourceIds": [
+        "aider-c014bd69"
+      ],
+      "status": "candidate"
+    },
+    "entity:claude": {
+      "sourceIds": [
+        "aider-c014bd69",
+        "github-copilot-57767a0f"
+      ],
+      "status": "candidate"
+    },
+    "entity:interface": {
+      "sourceIds": [
+        "aider-c014bd69",
+        "openai-codex-93968904",
+        "opencode-de4e68b1"
+      ],
+      "status": "candidate"
+    },
+    "entity:alibaba-qwen": {
+      "sourceIds": [
+        "alibaba-qwen-1cf50963"
+      ],
+      "status": "candidate"
+    },
+    "entity:free-tier": {
+      "sourceIds": [
+        "alibaba-qwen-1cf50963"
+      ],
+      "status": "candidate"
+    },
+    "entity:hangzhou-latest-model": {
+      "sourceIds": [
+        "alibaba-qwen-1cf50963"
+      ],
+      "status": "candidate"
+    },
+    "entity:free-tokens": {
+      "sourceIds": [
+        "alibaba-qwen-1cf50963"
+      ],
+      "status": "candidate"
+    },
+    "entity:model-studio-strength-best-chinese": {
+      "sourceIds": [
+        "alibaba-qwen-1cf50963"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-qwen": {
+      "sourceIds": [
+        "alibaba-qwen-1cf50963"
+      ],
+      "status": "candidate"
+    },
+    "entity:amazon-nova-act": {
+      "sourceIds": [
+        "amazon-nova-act-61a7a942"
+      ],
+      "status": "candidate"
+    },
+    "entity:amazon-nova-act-aws-service": {
+      "sourceIds": [
+        "amazon-nova-act-61a7a942"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-developer": {
+      "sourceIds": [
+        "amazon-nova-act-61a7a942",
+        "grok-build-b560a812"
+      ],
+      "status": "candidate"
+    },
+    "entity:aws-service": {
+      "sourceIds": [
+        "amazon-nova-act-61a7a942"
+      ],
+      "status": "candidate"
+    },
+    "entity:pricing-aws-service": {
+      "sourceIds": [
+        "amazon-nova-act-61a7a942"
+      ],
+      "status": "candidate"
+    },
+    "entity:launch": {
+      "sourceIds": [
+        "amazon-nova-act-61a7a942"
+      ],
+      "status": "candidate"
+    },
+    "entity:anthropic-claude-code": {
+      "sourceIds": [
+        "anthropic-claude-code-9a2a2c2f"
+      ],
+      "status": "candidate"
+    },
+    "entity:premium": {
+      "sourceIds": [
+        "anthropic-claude-code-9a2a2c2f",
+        "openai-e2c21475"
+      ],
+      "status": "candidate"
+    },
+    "entity:san-francisco-anthropic-model-opus": {
+      "sourceIds": [
+        "anthropic-claude-code-9a2a2c2f"
+      ],
+      "status": "candidate"
+    },
+    "entity:sonnet": {
+      "sourceIds": [
+        "anthropic-claude-code-9a2a2c2f",
+        "anthropic-e5b2ae21"
+      ],
+      "status": "candidate"
+    },
+    "entity:capability-dynamic-workflows": {
+      "sourceIds": [
+        "anthropic-claude-code-9a2a2c2f"
+      ],
+      "status": "candidate"
+    },
+    "entity:verified": {
+      "sourceIds": [
+        "anthropic-claude-code-9a2a2c2f",
+        "capabilities-comparison-da17fe1a"
+      ],
+      "status": "candidate"
+    },
+    "entity:anthropic": {
+      "sourceIds": [
+        "anthropic-e5b2ae21"
+      ],
+      "status": "candidate"
+    },
+    "entity:filing": {
+      "sourceIds": [
+        "anthropic-e5b2ae21"
+      ],
+      "status": "candidate"
+    },
+    "entity:san-francisco": {
+      "sourceIds": [
+        "anthropic-e5b2ae21",
+        "openai-e2c21475",
+        "openai-llm-provider-research-report-mid-2026-8b4a47c7",
+        "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
+      ],
+      "status": "active"
+    },
+    "entity:flagship-models-opus": {
+      "sourceIds": [
+        "anthropic-e5b2ae21"
+      ],
+      "status": "candidate"
+    },
+    "entity:revenue": {
+      "sourceIds": [
+        "anthropic-e5b2ae21",
+        "openai-e2c21475"
+      ],
+      "status": "candidate"
+    },
+    "entity:architecture-comparison": {
+      "sourceIds": [
+        "architecture-comparison-7564a202"
+      ],
+      "status": "candidate"
+    },
+    "entity:model-architecture-types": {
+      "sourceIds": [
+        "architecture-comparison-7564a202"
+      ],
+      "status": "candidate"
+    },
+    "entity:dense-models-single": {
+      "sourceIds": [
+        "architecture-comparison-7564a202"
+      ],
+      "status": "candidate"
+    },
+    "entity:providers-openai": {
+      "sourceIds": [
+        "architecture-comparison-7564a202"
+      ],
+      "status": "candidate"
+    },
+    "entity:anthropic-claude-opus": {
+      "sourceIds": [
+        "architecture-comparison-7564a202"
+      ],
+      "status": "candidate"
+    },
+    "entity:google-gemini": {
+      "sourceIds": [
+        "architecture-comparison-7564a202",
+        "google-gemini-f03c0717",
+        "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
+      ],
+      "status": "candidate"
+    },
+    "entity:autogen": {
+      "sourceIds": [
+        "autogen-d2ca12d4"
+      ],
+      "status": "candidate"
+    },
+    "entity:microsoft": {
+      "sourceIds": [
+        "autogen-d2ca12d4",
+        "helion-energy-0ae9133b",
+        "semantic-kernel-1fdaa5f5",
         "stepfun-comprehensive-research-report-2026-517799aa"
       ],
       "status": "candidate"
     },
-    "concept:step": {
+    "entity:overview-autogen": {
       "sourceIds": [
-        "stepfun-comprehensive-research-report-2026-517799aa"
+        "autogen-d2ca12d4"
       ],
       "status": "candidate"
     },
-    "concept:together": {
+    "entity:microsoft-research": {
       "sourceIds": [
-        "together-ai-comprehensive-research-report-2026-b5bf5b1e"
+        "autogen-d2ca12d4",
+        "microsoft-phi-55281864",
+        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
       ],
       "status": "candidate"
     },
-    "concept:source": {
+    "entity:philosophy-conversational": {
       "sourceIds": [
-        "together-ai-comprehensive-research-report-2026-b5bf5b1e"
+        "autogen-d2ca12d4"
       ],
       "status": "candidate"
     },
-    "concept:china": {
+    "entity:key-strength-human": {
       "sourceIds": [
+        "autogen-d2ca12d4"
+      ],
+      "status": "candidate"
+    },
+    "entity:bloomberggpt": {
+      "sourceIds": [
+        "bloomberggpt-693c071e"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-bloomberggpt": {
+      "sourceIds": [
+        "bloomberggpt-693c071e"
+      ],
+      "status": "candidate"
+    },
+    "entity:bloomberg": {
+      "sourceIds": [
+        "bloomberggpt-693c071e"
+      ],
+      "status": "candidate"
+    },
+    "entity:key-characteristics": {
+      "sourceIds": [
+        "bloomberggpt-693c071e"
+      ],
+      "status": "candidate"
+    },
+    "entity:attribute": {
+      "sourceIds": [
+        "bloomberggpt-693c071e"
+      ],
+      "status": "candidate"
+    },
+    "entity:detail": {
+      "sourceIds": [
+        "bloomberggpt-693c071e"
+      ],
+      "status": "candidate"
+    },
+    "entity:capabilities-comparison": {
+      "sourceIds": [
+        "capabilities-comparison-da17fe1a"
+      ],
+      "status": "candidate"
+    },
+    "entity:coding-performance": {
+      "sourceIds": [
+        "capabilities-comparison-da17fe1a"
+      ],
+      "status": "candidate"
+    },
+    "entity:provider": {
+      "sourceIds": [
+        "capabilities-comparison-da17fe1a",
+        "context-windows-and-long-context-431202b8",
+        "extended-thinking-reasoning-mode-9271007e",
+        "open-source-comparison-8a31dfc2",
+        "pricing-comparison-42a35633"
+      ],
+      "status": "candidate"
+    },
+    "entity:model": {
+      "sourceIds": [
+        "capabilities-comparison-da17fe1a",
+        "context-windows-and-long-context-431202b8",
+        "pricing-comparison-42a35633"
+      ],
+      "status": "candidate"
+    },
+    "entity:livecodebench": {
+      "sourceIds": [
+        "capabilities-comparison-da17fe1a"
+      ],
+      "status": "candidate"
+    },
+    "entity:coding-agent-feature-matrix": {
+      "sourceIds": [
+        "coding-agent-feature-matrix-168f075a"
+      ],
+      "status": "candidate"
+    },
+    "entity:coding-agent-feature-matrix-head": {
+      "sourceIds": [
+        "coding-agent-feature-matrix-168f075a"
+      ],
+      "status": "candidate"
+    },
+    "entity:quick-comparison": {
+      "sourceIds": [
+        "coding-agent-feature-matrix-168f075a"
+      ],
+      "status": "candidate"
+    },
+    "entity:feature": {
+      "sourceIds": [
+        "coding-agent-feature-matrix-168f075a"
+      ],
+      "status": "candidate"
+    },
+    "entity:codex": {
+      "sourceIds": [
+        "coding-agent-feature-matrix-168f075a"
+      ],
+      "status": "candidate"
+    },
+    "entity:claude-code": {
+      "sourceIds": [
+        "coding-agent-feature-matrix-168f075a"
+      ],
+      "status": "candidate"
+    },
+    "entity:cohere": {
+      "sourceIds": [
+        "cohere-7a243c96",
+        "llm-provider-research-report-cohere-a2489c1d"
+      ],
+      "status": "active"
+    },
+    "entity:overview-cohere": {
+      "sourceIds": [
+        "cohere-7a243c96"
+      ],
+      "status": "candidate"
+    },
+    "entity:canadian-ai-company": {
+      "sourceIds": [
+        "cohere-7a243c96"
+      ],
+      "status": "candidate"
+    },
+    "entity:aidan-gomez": {
+      "sourceIds": [
+        "cohere-7a243c96"
+      ],
+      "status": "candidate"
+    },
+    "entity:is-all-you-need": {
+      "sourceIds": [
+        "cohere-7a243c96"
+      ],
+      "status": "candidate"
+    },
+    "entity:nick-frosst": {
+      "sourceIds": [
+        "cohere-7a243c96"
+      ],
+      "status": "candidate"
+    },
+    "entity:context-windows": {
+      "sourceIds": [
+        "context-windows-and-long-context-431202b8"
+      ],
+      "status": "candidate"
+    },
+    "entity:long-context": {
+      "sourceIds": [
+        "context-windows-and-long-context-431202b8"
+      ],
+      "status": "candidate"
+    },
+    "entity:context-window-sizes": {
+      "sourceIds": [
+        "context-windows-and-long-context-431202b8"
+      ],
+      "status": "candidate"
+    },
+    "entity:crewai": {
+      "sourceIds": [
+        "crewai-9c8d5146"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-crewai": {
+      "sourceIds": [
+        "crewai-9c8d5146"
+      ],
+      "status": "candidate"
+    },
+    "entity:philosophy": {
+      "sourceIds": [
+        "crewai-9c8d5146"
+      ],
+      "status": "candidate"
+    },
+    "entity:key-strength-intuitive": {
+      "sourceIds": [
+        "crewai-9c8d5146"
+      ],
+      "status": "candidate"
+    },
+    "entity:license": {
+      "sourceIds": [
+        "crewai-9c8d5146",
+        "llamaindex-ae86527e",
+        "smolagents-ac93798a"
+      ],
+      "status": "candidate"
+    },
+    "entity:website": {
+      "sourceIds": [
+        "crewai-9c8d5146",
+        "openhands-6f91c4fe"
+      ],
+      "status": "candidate"
+    },
+    "entity:cursor": {
+      "sourceIds": [
+        "cursor-ide-64120109"
+      ],
+      "status": "candidate"
+    },
+    "entity:pro": {
+      "sourceIds": [
+        "cursor-ide-64120109",
+        "openai-codex-93968904"
+      ],
+      "status": "candidate"
+    },
+    "entity:san-francisco-anysphere-latest-cursor-composer": {
+      "sourceIds": [
+        "cursor-ide-64120109"
+      ],
+      "status": "candidate"
+    },
+    "entity:features-agent-mode-bugbot-users": {
+      "sourceIds": [
+        "cursor-ide-64120109"
+      ],
+      "status": "candidate"
+    },
+    "entity:code": {
+      "sourceIds": [
+        "cursor-ide-64120109",
+        "mcp-model-context-protocol-a0a3debf",
+        "openai-codex-93968904"
+      ],
+      "status": "candidate"
+    },
+    "entity:composer": {
+      "sourceIds": [
+        "cursor-ide-64120109"
+      ],
+      "status": "candidate"
+    },
+    "entity:deepseek": {
+      "sourceIds": [
+        "deepseek-837cec6b",
+        "deepseek-llm-provider-research-report-mid-2026-06d7b24d"
+      ],
+      "status": "active"
+    },
+    "entity:low-cost": {
+      "sourceIds": [
+        "deepseek-837cec6b"
+      ],
+      "status": "candidate"
+    },
+    "entity:hangzhou-latest-model-deepseek": {
+      "sourceIds": [
+        "deepseek-837cec6b"
+      ],
+      "status": "candidate"
+    },
+    "entity:strength-livecodebench-top": {
+      "sourceIds": [
+        "deepseek-837cec6b"
+      ],
+      "status": "candidate"
+    },
+    "entity:pricing": {
+      "sourceIds": [
+        "deepseek-837cec6b",
+        "pricing-comparison-42a35633"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-deepseek": {
+      "sourceIds": [
+        "deepseek-837cec6b"
+      ],
+      "status": "candidate"
+    },
+    "entity:devin-desktop": {
+      "sourceIds": [
+        "devin-desktop-36289347"
+      ],
+      "status": "candidate"
+    },
+    "entity:devin-desktop-agent": {
+      "sourceIds": [
+        "devin-desktop-36289347"
+      ],
+      "status": "candidate"
+    },
+    "entity:cognition": {
+      "sourceIds": [
+        "devin-desktop-36289347"
+      ],
+      "status": "candidate"
+    },
+    "entity:windsurf": {
+      "sourceIds": [
+        "devin-desktop-36289347"
+      ],
+      "status": "candidate"
+    },
+    "entity:agent-command-center": {
+      "sourceIds": [
+        "devin-desktop-36289347"
+      ],
+      "status": "candidate"
+    },
+    "entity:enterprise-ai-cost-management": {
+      "sourceIds": [
+        "enterprise-ai-cost-management-697ab8d5"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-as": {
+      "sourceIds": [
+        "enterprise-ai-cost-management-697ab8d5"
+      ],
+      "status": "candidate"
+    },
+    "entity:claude-code-cursor": {
+      "sourceIds": [
+        "enterprise-ai-cost-management-697ab8d5"
+      ],
+      "status": "candidate"
+    },
+    "entity:case-study-uber": {
+      "sourceIds": [
+        "enterprise-ai-cost-management-697ab8d5"
+      ],
+      "status": "candidate"
+    },
+    "entity:policy": {
+      "sourceIds": [
+        "enterprise-ai-cost-management-697ab8d5"
+      ],
+      "status": "candidate"
+    },
+    "entity:scope-applies": {
+      "sourceIds": [
+        "enterprise-ai-cost-management-697ab8d5"
+      ],
+      "status": "candidate"
+    },
+    "entity:evaluation-benchmarks": {
+      "sourceIds": [
+        "evaluation-benchmarks-807dce0d"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-benchmarks": {
+      "sourceIds": [
+        "evaluation-benchmarks-807dce0d",
+        "financial-reasoning-benchmarks-32d95d6c"
+      ],
+      "status": "candidate"
+    },
+    "entity:key-benchmarks": {
+      "sourceIds": [
+        "evaluation-benchmarks-807dce0d",
+        "financial-reasoning-benchmarks-32d95d6c"
+      ],
+      "status": "candidate"
+    },
+    "entity:benchmark": {
+      "sourceIds": [
+        "evaluation-benchmarks-807dce0d",
+        "financial-reasoning-benchmarks-32d95d6c"
+      ],
+      "status": "candidate"
+    },
+    "entity:measures": {
+      "sourceIds": [
+        "evaluation-benchmarks-807dce0d"
+      ],
+      "status": "candidate"
+    },
+    "entity:scope": {
+      "sourceIds": [
+        "evaluation-benchmarks-807dce0d",
+        "financial-reasoning-benchmarks-32d95d6c"
+      ],
+      "status": "candidate"
+    },
+    "entity:extended-thinking": {
+      "sourceIds": [
+        "extended-thinking-reasoning-mode-9271007e"
+      ],
+      "status": "candidate"
+    },
+    "entity:reasoning-mode": {
+      "sourceIds": [
+        "extended-thinking-reasoning-mode-9271007e"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-extended": {
+      "sourceIds": [
+        "extended-thinking-reasoning-mode-9271007e"
+      ],
+      "status": "candidate"
+    },
+    "entity:provider-implementations": {
+      "sourceIds": [
+        "extended-thinking-reasoning-mode-9271007e",
+        "prompt-caching-84942f18"
+      ],
+      "status": "candidate"
+    },
+    "entity:feature-name": {
+      "sourceIds": [
+        "extended-thinking-reasoning-mode-9271007e"
+      ],
+      "status": "candidate"
+    },
+    "entity:financial-reasoning-benchmarks": {
+      "sourceIds": [
+        "financial-reasoning-benchmarks-32d95d6c"
+      ],
+      "status": "candidate"
+    },
+    "entity:metrics": {
+      "sourceIds": [
+        "financial-reasoning-benchmarks-32d95d6c"
+      ],
+      "status": "candidate"
+    },
+    "entity:github-copilot": {
+      "sourceIds": [
+        "github-copilot-57767a0f"
+      ],
+      "status": "candidate"
+    },
+    "entity:github": {
+      "sourceIds": [
+        "github-copilot-57767a0f",
+        "hugging-face-60153cb9",
+        "semantic-kernel-1fdaa5f5"
+      ],
+      "status": "candidate"
+    },
+    "entity:github-copilot-github-s": {
+      "sourceIds": [
+        "github-copilot-57767a0f"
+      ],
+      "status": "candidate"
+    },
+    "entity:copilot-workspace": {
+      "sourceIds": [
+        "github-copilot-57767a0f"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-developer-github-microsoft-backend-model": {
+      "sourceIds": [
+        "github-copilot-57767a0f"
+      ],
+      "status": "candidate"
+    },
+    "entity:google-antigravity": {
+      "sourceIds": [
+        "google-antigravity-c839fc82"
+      ],
+      "status": "candidate"
+    },
+    "entity:google": {
+      "sourceIds": [
+        "google-antigravity-c839fc82"
+      ],
+      "status": "candidate"
+    },
+    "entity:google-antigravity-google-s": {
+      "sourceIds": [
+        "google-antigravity-c839fc82"
+      ],
+      "status": "candidate"
+    },
+    "entity:gemini": {
+      "sourceIds": [
+        "google-antigravity-c839fc82",
+        "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
+      ],
+      "status": "active"
+    },
+    "entity:overview-developer-google-previous-name-gemini": {
+      "sourceIds": [
+        "google-antigravity-c839fc82"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-google-gemini": {
+      "sourceIds": [
+        "google-gemini-f03c0717"
+      ],
+      "status": "candidate"
+    },
+    "entity:google-s": {
+      "sourceIds": [
+        "google-gemini-f03c0717",
+        "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
+      ],
+      "status": "active"
+    },
+    "entity:google-deepmind": {
+      "sourceIds": [
+        "google-gemini-f03c0717"
+      ],
+      "status": "candidate"
+    },
+    "entity:google-brain": {
+      "sourceIds": [
+        "google-gemini-f03c0717"
+      ],
+      "status": "candidate"
+    },
+    "entity:deepmind": {
+      "sourceIds": [
+        "google-gemini-f03c0717",
+        "mistral-ai-06e88b74"
+      ],
+      "status": "candidate"
+    },
+    "entity:grok-build": {
+      "sourceIds": [
+        "grok-build-b560a812"
+      ],
+      "status": "candidate"
+    },
+    "entity:may": {
+      "sourceIds": [
+        "grok-build-b560a812"
+      ],
+      "status": "candidate"
+    },
+    "entity:arena-mode": {
+      "sourceIds": [
+        "grok-build-b560a812"
+      ],
+      "status": "candidate"
+    },
+    "entity:backend-model-grok": {
+      "sourceIds": [
+        "grok-build-b560a812"
+      ],
+      "status": "candidate"
+    },
+    "entity:interface-terminal": {
+      "sourceIds": [
+        "grok-build-b560a812"
+      ],
+      "status": "candidate"
+    },
+    "entity:helion-energy-type": {
+      "sourceIds": [
+        "helion-energy-0ae9133b"
+      ],
+      "status": "candidate"
+    },
+    "entity:tags": {
+      "sourceIds": [
+        "helion-energy-0ae9133b",
+        "smic-semiconductor-manufacturing-international-corporation-432c6082",
+        "spacex-terafab-87c79947",
+        "ymtc-yangtze-memory-technologies-corp-542d90e6"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-helion-energy": {
+      "sourceIds": [
+        "helion-energy-0ae9133b"
+      ],
+      "status": "candidate"
+    },
+    "entity:sam-altman": {
+      "sourceIds": [
+        "helion-energy-0ae9133b"
+      ],
+      "status": "candidate"
+    },
+    "entity:hugging-face": {
+      "sourceIds": [
+        "hugging-face-60153cb9",
+        "open-source-ecosystem-index-7edbaf37"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-hugging-face": {
+      "sourceIds": [
+        "hugging-face-60153cb9"
+      ],
+      "status": "candidate"
+    },
+    "entity:key-services": {
+      "sourceIds": [
+        "hugging-face-60153cb9"
+      ],
+      "status": "candidate"
+    },
+    "entity:service": {
+      "sourceIds": [
+        "hugging-face-60153cb9"
+      ],
+      "status": "candidate"
+    },
+    "entity:description": {
+      "sourceIds": [
+        "hugging-face-60153cb9",
+        "schema-ai-intelligence-wiki-95f746ef"
+      ],
+      "status": "candidate"
+    },
+    "entity:knowledge-distillation": {
+      "sourceIds": [
+        "knowledge-distillation-12873957"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-knowledge": {
+      "sourceIds": [
+        "knowledge-distillation-12873957"
+      ],
+      "status": "candidate"
+    },
+    "entity:distillation-approaches": {
+      "sourceIds": [
+        "knowledge-distillation-12873957"
+      ],
+      "status": "candidate"
+    },
+    "entity:output-logit-distillation": {
+      "sourceIds": [
+        "knowledge-distillation-12873957"
+      ],
+      "status": "candidate"
+    },
+    "entity:divergence-student": {
+      "sourceIds": [
+        "knowledge-distillation-12873957"
+      ],
+      "status": "candidate"
+    },
+    "entity:captures": {
+      "sourceIds": [
+        "knowledge-distillation-12873957"
+      ],
+      "status": "candidate"
+    },
+    "entity:cache-optimization": {
+      "sourceIds": [
+        "kv-cache-optimization-de2c0259"
+      ],
+      "status": "candidate"
+    },
+    "entity:kv-key-value": {
+      "sourceIds": [
+        "kv-cache-optimization-de2c0259"
+      ],
+      "status": "candidate"
+    },
+    "entity:kv": {
+      "sourceIds": [
+        "kv-cache-optimization-de2c0259"
+      ],
+      "status": "candidate"
+    },
+    "entity:key-techniques": {
+      "sourceIds": [
+        "kv-cache-optimization-de2c0259"
+      ],
+      "status": "candidate"
+    },
+    "entity:paged-attention": {
+      "sourceIds": [
+        "kv-cache-optimization-de2c0259"
+      ],
+      "status": "candidate"
+    },
+    "entity:langchain": {
+      "sourceIds": [
+        "langchain-langgraph-7a4aa86d"
+      ],
+      "status": "candidate"
+    },
+    "entity:langgraph": {
+      "sourceIds": [
+        "langchain-langgraph-7a4aa86d"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-langchain": {
+      "sourceIds": [
+        "langchain-langgraph-7a4aa86d"
+      ],
+      "status": "candidate"
+    },
+    "entity:langchain-s": {
+      "sourceIds": [
+        "langchain-langgraph-7a4aa86d"
+      ],
+      "status": "candidate"
+    },
+    "entity:github-stars": {
+      "sourceIds": [
+        "langchain-langgraph-7a4aa86d",
+        "smolagents-ac93798a"
+      ],
+      "status": "candidate"
+    },
+    "entity:llamaindex": {
+      "sourceIds": [
+        "llamaindex-ae86527e"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-llamaindex": {
+      "sourceIds": [
+        "llamaindex-ae86527e"
+      ],
+      "status": "candidate"
+    },
+    "entity:index": {
+      "sourceIds": [
+        "llamaindex-ae86527e"
+      ],
+      "status": "candidate"
+    },
+    "entity:philosophy-data-first-agent": {
+      "sourceIds": [
+        "llamaindex-ae86527e"
+      ],
+      "status": "candidate"
+    },
+    "entity:key-strength-strong": {
+      "sourceIds": [
+        "llamaindex-ae86527e"
+      ],
+      "status": "candidate"
+    },
+    "entity:release-tracker": {
+      "sourceIds": [
+        "llm-release-tracker-fddf2689"
+      ],
+      "status": "candidate"
+    },
+    "entity:release-tracker-tracking": {
+      "sourceIds": [
+        "llm-release-tracker-fddf2689"
+      ],
+      "status": "candidate"
+    },
+    "entity:data-sources": {
+      "sourceIds": [
+        "llm-release-tracker-fddf2689",
+        "sentiment-analysis-for-markets-0f8731b4"
+      ],
+      "status": "candidate"
+    },
+    "entity:flash-report-model-timeline": {
+      "sourceIds": [
+        "llm-release-tracker-fddf2689"
+      ],
+      "status": "candidate"
+    },
+    "entity:top-models": {
+      "sourceIds": [
+        "llm-release-tracker-fddf2689"
+      ],
+      "status": "candidate"
+    },
+    "entity:vellum": {
+      "sourceIds": [
+        "llm-release-tracker-fddf2689"
+      ],
+      "status": "candidate"
+    },
+    "entity:model-context-protocol": {
+      "sourceIds": [
+        "mcp-model-context-protocol-a0a3debf"
+      ],
+      "status": "candidate"
+    },
+    "entity:llm": {
+      "sourceIds": [
+        "mcp-model-context-protocol-a0a3debf"
+      ],
+      "status": "candidate"
+    },
+    "entity:claude-desktop": {
+      "sourceIds": [
+        "mcp-model-context-protocol-a0a3debf"
+      ],
+      "status": "candidate"
+    },
+    "entity:client-protocol": {
+      "sourceIds": [
+        "mcp-model-context-protocol-a0a3debf"
+      ],
+      "status": "candidate"
+    },
+    "entity:meta-llama": {
+      "sourceIds": [
+        "meta-llama-10f19581"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-meta": {
+      "sourceIds": [
+        "meta-llama-10f19581"
+      ],
+      "status": "candidate"
+    },
+    "entity:facebook": {
+      "sourceIds": [
+        "meta-llama-10f19581",
+        "meta-llama-llm-provider-research-report-mid-2026-ea1881e6"
+      ],
+      "status": "active"
+    },
+    "entity:llama": {
+      "sourceIds": [
+        "meta-llama-10f19581",
+        "open-weight-licensing-887e57a4",
+        "meta-llama-llm-provider-research-report-mid-2026-ea1881e6"
+      ],
+      "status": "candidate"
+    },
+    "entity:meta-superintelligence-labs-division": {
+      "sourceIds": [
+        "meta-llama-10f19581"
+      ],
+      "status": "candidate"
+    },
+    "entity:menlo-park-california-meta-s": {
+      "sourceIds": [
+        "meta-llama-10f19581"
+      ],
+      "status": "candidate"
+    },
+    "entity:microsoft-phi": {
+      "sourceIds": [
+        "microsoft-phi-55281864"
+      ],
+      "status": "candidate"
+    },
+    "entity:phi": {
+      "sourceIds": [
+        "microsoft-phi-55281864",
+        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
+      ],
+      "status": "active"
+    },
+    "entity:are-all-you-need": {
+      "sourceIds": [
+        "microsoft-phi-55281864"
+      ],
+      "status": "candidate"
+    },
+    "entity:minimax": {
+      "sourceIds": [
+        "minimax-d454d859"
+      ],
+      "status": "candidate"
+    },
+    "entity:china": {
+      "sourceIds": [
+        "minimax-d454d859",
+        "moonshot-ai-d13bf1de",
+        "smic-semiconductor-manufacturing-international-corporation-432c6082",
+        "stepfun-517facb2",
+        "ymtc-yangtze-memory-technologies-corp-542d90e6"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-minimax-group-chinese": {
+      "sourceIds": [
+        "minimax-d454d859"
+      ],
+      "status": "candidate"
+    },
+    "entity:x-y-k-j": {
+      "sourceIds": [
+        "minimax-d454d859",
+        "minimax-comprehensive-research-report-2026-db6828bc"
+      ],
+      "status": "active"
+    },
+    "entity:ai-company": {
+      "sourceIds": [
+        "minimax-d454d859",
+        "stability-ai-comprehensive-research-report-2026-82ef3427"
+      ],
+      "status": "active"
+    },
+    "entity:sensetime": {
+      "sourceIds": [
+        "minimax-d454d859"
+      ],
+      "status": "candidate"
+    },
+    "entity:mistral": {
+      "sourceIds": [
+        "mistral-ai-06e88b74",
+        "llm-provider-research-report-mistral-ai-b1dc6738"
+      ],
+      "status": "active"
+    },
+    "entity:overview-mistral": {
+      "sourceIds": [
+        "mistral-ai-06e88b74"
+      ],
+      "status": "candidate"
+    },
+    "entity:french": {
+      "sourceIds": [
+        "mistral-ai-06e88b74"
+      ],
+      "status": "candidate"
+    },
+    "entity:meta": {
+      "sourceIds": [
+        "mistral-ai-06e88b74"
+      ],
+      "status": "candidate"
+    },
+    "entity:arthur-mensch": {
+      "sourceIds": [
+        "mistral-ai-06e88b74"
+      ],
+      "status": "candidate"
+    },
+    "entity:mixture": {
+      "sourceIds": [
+        "mixture-of-experts-moe-architecture-fcad9f2a"
+      ],
+      "status": "candidate"
+    },
+    "entity:experts-moe-architecture": {
+      "sourceIds": [
+        "mixture-of-experts-moe-architecture-fcad9f2a"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-moe": {
+      "sourceIds": [
+        "mixture-of-experts-moe-architecture-fcad9f2a"
+      ],
+      "status": "candidate"
+    },
+    "entity:how-it-works-model": {
+      "sourceIds": [
+        "mixture-of-experts-moe-architecture-fcad9f2a"
+      ],
+      "status": "candidate"
+    },
+    "entity:only": {
+      "sourceIds": [
+        "mixture-of-experts-moe-architecture-fcad9f2a"
+      ],
+      "status": "candidate"
+    },
+    "entity:total": {
+      "sourceIds": [
+        "mixture-of-experts-moe-architecture-fcad9f2a"
+      ],
+      "status": "candidate"
+    },
+    "entity:commoditization-risk": {
+      "sourceIds": [
+        "model-commoditization-risk-ee3ef656"
+      ],
+      "status": "candidate"
+    },
+    "entity:model-commoditization-risk": {
+      "sourceIds": [
+        "model-commoditization-risk-ee3ef656"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-model": {
+      "sourceIds": [
+        "model-commoditization-risk-ee3ef656"
+      ],
+      "status": "candidate"
+    },
+    "entity:meta-llama-mistral-qwen": {
+      "sourceIds": [
+        "model-commoditization-risk-ee3ef656"
+      ],
+      "status": "candidate"
+    },
+    "entity:cost": {
+      "sourceIds": [
+        "model-commoditization-risk-ee3ef656"
+      ],
+      "status": "candidate"
+    },
+    "entity:lora": {
+      "sourceIds": [
+        "model-commoditization-risk-ee3ef656"
+      ],
+      "status": "candidate"
+    },
+    "entity:selection": {
+      "sourceIds": [
+        "model-selection-for-agents-52969ec5"
+      ],
+      "status": "candidate"
+    },
+    "entity:agents": {
+      "sourceIds": [
+        "model-selection-for-agents-52969ec5"
+      ],
+      "status": "candidate"
+    },
+    "entity:model-selection": {
+      "sourceIds": [
+        "model-selection-for-agents-52969ec5"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-choosing": {
+      "sourceIds": [
+        "model-selection-for-agents-52969ec5",
+        "single-vs-multi-agent-6d3849d4"
+      ],
+      "status": "candidate"
+    },
+    "entity:decision-factors": {
+      "sourceIds": [
+        "model-selection-for-agents-52969ec5"
+      ],
+      "status": "candidate"
+    },
+    "entity:reasoning-depth-deep": {
+      "sourceIds": [
+        "model-selection-for-agents-52969ec5"
+      ],
+      "status": "candidate"
+    },
+    "entity:moonshot": {
+      "sourceIds": [
+        "moonshot-ai-d13bf1de",
+        "llm-provider-research-report-moonshot-ai-821a1010",
+        "minimax-comprehensive-research-report-2026-db6828bc"
+      ],
+      "status": "active"
+    },
+    "entity:overview-moonshot": {
+      "sourceIds": [
+        "moonshot-ai-d13bf1de"
+      ],
+      "status": "candidate"
+    },
+    "entity:march": {
+      "sourceIds": [
+        "moonshot-ai-d13bf1de",
+        "xai-grok-efa7f437",
+        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
+      ],
+      "status": "candidate"
+    },
+    "entity:yang-zhilin": {
+      "sourceIds": [
+        "moonshot-ai-d13bf1de"
+      ],
+      "status": "candidate"
+    },
+    "entity:tsinghua-university": {
+      "sourceIds": [
+        "moonshot-ai-d13bf1de",
+        "zhipu-ai-glm-3629e43c",
         "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
       ],
       "status": "candidate"
+    },
+    "entity:multi-agent-orchestration": {
+      "sourceIds": [
+        "multi-agent-orchestration-85061802"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-multi": {
+      "sourceIds": [
+        "multi-agent-orchestration-85061802"
+      ],
+      "status": "candidate"
+    },
+    "entity:patterns": {
+      "sourceIds": [
+        "multi-agent-orchestration-85061802"
+      ],
+      "status": "candidate"
+    },
+    "entity:orchestrator-workers-central": {
+      "sourceIds": [
+        "multi-agent-orchestration-85061802"
+      ],
+      "status": "candidate"
+    },
+    "entity:supervisor-workers-similar": {
+      "sourceIds": [
+        "multi-agent-orchestration-85061802"
+      ],
+      "status": "candidate"
+    },
+    "entity:peer": {
+      "sourceIds": [
+        "multi-agent-orchestration-85061802"
+      ],
+      "status": "candidate"
+    },
+    "entity:nvidia": {
+      "sourceIds": [
+        "nvidia-0687788d"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-nvidia-corporation": {
+      "sourceIds": [
+        "nvidia-0687788d"
+      ],
+      "status": "candidate"
+    },
+    "entity:jensen-huang-chris-malachowsky": {
+      "sourceIds": [
+        "nvidia-0687788d"
+      ],
+      "status": "candidate"
+    },
+    "entity:curtis-priem": {
+      "sourceIds": [
+        "nvidia-0687788d"
+      ],
+      "status": "candidate"
+    },
+    "entity:ollama": {
+      "sourceIds": [
+        "ollama-19794359"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-ollama": {
+      "sourceIds": [
+        "ollama-19794359"
+      ],
+      "status": "candidate"
+    },
+    "entity:key-features-one": {
+      "sourceIds": [
+        "ollama-19794359"
+      ],
+      "status": "candidate"
+    },
+    "entity:quantization-automatic": {
+      "sourceIds": [
+        "ollama-19794359"
+      ],
+      "status": "candidate"
+    },
+    "entity:local": {
+      "sourceIds": [
+        "ollama-19794359"
+      ],
+      "status": "candidate"
+    },
+    "entity:model-library-curated": {
+      "sourceIds": [
+        "ollama-19794359"
+      ],
+      "status": "candidate"
+    },
+    "entity:open-source-comparison": {
+      "sourceIds": [
+        "open-source-comparison-8a31dfc2"
+      ],
+      "status": "candidate"
+    },
+    "entity:license-tiers": {
+      "sourceIds": [
+        "open-source-comparison-8a31dfc2"
+      ],
+      "status": "candidate"
+    },
+    "entity:tier": {
+      "sourceIds": [
+        "open-source-comparison-8a31dfc2"
+      ],
+      "status": "candidate"
+    },
+    "entity:fully-open": {
+      "sourceIds": [
+        "open-source-comparison-8a31dfc2"
+      ],
+      "status": "candidate"
+    },
+    "entity:apache": {
+      "sourceIds": [
+        "open-source-comparison-8a31dfc2",
+        "open-weight-licensing-887e57a4"
+      ],
+      "status": "candidate"
+    },
+    "entity:source-ecosystem-index": {
+      "sourceIds": [
+        "open-source-ecosystem-index-7edbaf37"
+      ],
+      "status": "candidate"
+    },
+    "entity:added": {
+      "sourceIds": [
+        "open-source-ecosystem-index-7edbaf37"
+      ],
+      "status": "candidate"
+    },
+    "entity:model-hubs-platforms": {
+      "sourceIds": [
+        "open-source-ecosystem-index-7edbaf37"
+      ],
+      "status": "candidate"
+    },
+    "entity:civitai": {
+      "sourceIds": [
+        "open-source-ecosystem-index-7edbaf37"
+      ],
+      "status": "candidate"
+    },
+    "entity:open-weight-licensing": {
+      "sourceIds": [
+        "open-weight-licensing-887e57a4"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-open": {
+      "sourceIds": [
+        "open-weight-licensing-887e57a4"
+      ],
+      "status": "candidate"
+    },
+    "entity:kimi": {
+      "sourceIds": [
+        "open-weight-licensing-887e57a4",
+        "llm-provider-research-report-moonshot-ai-821a1010"
+      ],
+      "status": "active"
+    },
+    "entity:gemma": {
+      "sourceIds": [
+        "open-weight-licensing-887e57a4"
+      ],
+      "status": "candidate"
+    },
+    "entity:openai-agents": {
+      "sourceIds": [
+        "openai-agents-sdk-874de8e8"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-openai-agents": {
+      "sourceIds": [
+        "openai-agents-sdk-874de8e8"
+      ],
+      "status": "candidate"
+    },
+    "entity:openai-s": {
+      "sourceIds": [
+        "openai-agents-sdk-874de8e8"
+      ],
+      "status": "candidate"
+    },
+    "entity:typescript-python": {
+      "sourceIds": [
+        "openai-agents-sdk-874de8e8"
+      ],
+      "status": "candidate"
+    },
+    "entity:github-repos": {
+      "sourceIds": [
+        "openai-agents-sdk-874de8e8"
+      ],
+      "status": "candidate"
+    },
+    "entity:license-mit-parent-company-openai-website": {
+      "sourceIds": [
+        "openai-agents-sdk-874de8e8"
+      ],
+      "status": "candidate"
+    },
+    "entity:openai-codex": {
+      "sourceIds": [
+        "openai-codex-93968904"
+      ],
+      "status": "candidate"
+    },
+    "entity:openai-codex-openai-s": {
+      "sourceIds": [
+        "openai-codex-93968904"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-developer-openai-backend-model": {
+      "sourceIds": [
+        "openai-codex-93968904"
+      ],
+      "status": "candidate"
+    },
+    "entity:openai": {
+      "sourceIds": [
+        "openai-e2c21475",
+        "rlhf-and-alignment-training-ba7b3502",
+        "anthropic-llm-provider-research-report-mid-2026-85c1ae51",
+        "openai-llm-provider-research-report-mid-2026-8b4a47c7"
+      ],
+      "status": "active"
+    },
+    "entity:latest-model": {
+      "sourceIds": [
+        "openai-e2c21475"
+      ],
+      "status": "candidate"
+    },
+    "entity:valuation": {
+      "sourceIds": [
+        "openai-e2c21475"
+      ],
+      "status": "candidate"
+    },
+    "entity:opencode": {
+      "sourceIds": [
+        "opencode-de4e68b1"
+      ],
+      "status": "candidate"
+    },
+    "entity:opencode-open": {
+      "sourceIds": [
+        "opencode-de4e68b1"
+      ],
+      "status": "candidate"
+    },
+    "entity:backend-models-multiple-anthropic-openai-google-openrouter": {
+      "sourceIds": [
+        "opencode-de4e68b1"
+      ],
+      "status": "candidate"
+    },
+    "entity:pricing-free": {
+      "sourceIds": [
+        "opencode-de4e68b1"
+      ],
+      "status": "candidate"
+    },
+    "entity:openhands": {
+      "sourceIds": [
+        "openhands-6f91c4fe"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-developer-openhands": {
+      "sourceIds": [
+        "openhands-6f91c4fe"
+      ],
+      "status": "candidate"
+    },
+    "entity:backend-model-multiple": {
+      "sourceIds": [
+        "openhands-6f91c4fe"
+      ],
+      "status": "candidate"
+    },
+    "entity:interface-web": {
+      "sourceIds": [
+        "openhands-6f91c4fe"
+      ],
+      "status": "candidate"
+    },
+    "entity:github-openhands-openhands-open-source": {
+      "sourceIds": [
+        "openhands-6f91c4fe"
+      ],
+      "status": "candidate"
+    },
+    "entity:perplexity": {
+      "sourceIds": [
+        "perplexity-ai-sonar-37c95c90",
+        "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
+      ],
+      "status": "active"
+    },
+    "entity:sonar": {
+      "sourceIds": [
+        "perplexity-ai-sonar-37c95c90"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-founded": {
+      "sourceIds": [
+        "perplexity-ai-sonar-37c95c90",
+        "stability-ai-edf65283"
+      ],
+      "status": "candidate"
+    },
+    "entity:san-francisco-california-founders-aravind-srinivas": {
+      "sourceIds": [
+        "perplexity-ai-sonar-37c95c90"
+      ],
+      "status": "candidate"
+    },
+    "entity:ex-deepmind-openai-google-brain-denis-yarats": {
+      "sourceIds": [
+        "perplexity-ai-sonar-37c95c90"
+      ],
+      "status": "candidate"
+    },
+    "entity:johnny-ho": {
+      "sourceIds": [
+        "perplexity-ai-sonar-37c95c90"
+      ],
+      "status": "candidate"
+    },
+    "entity:pricing-comparison": {
+      "sourceIds": [
+        "pricing-comparison-42a35633"
+      ],
+      "status": "candidate"
+    },
+    "entity:all": {
+      "sourceIds": [
+        "pricing-comparison-42a35633"
+      ],
+      "status": "candidate"
+    },
+    "entity:flagship-models": {
+      "sourceIds": [
+        "pricing-comparison-42a35633"
+      ],
+      "status": "candidate"
+    },
+    "entity:prompt-caching": {
+      "sourceIds": [
+        "prompt-caching-84942f18"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-prompt": {
+      "sourceIds": [
+        "prompt-caching-84942f18"
+      ],
+      "status": "candidate"
+    },
+    "entity:anthropic-context-caching": {
+      "sourceIds": [
+        "prompt-caching-84942f18"
+      ],
+      "status": "candidate"
+    },
+    "entity:cache": {
+      "sourceIds": [
+        "prompt-caching-84942f18"
+      ],
+      "status": "candidate"
+    },
+    "entity:cached": {
+      "sourceIds": [
+        "prompt-caching-84942f18"
+      ],
+      "status": "candidate"
+    },
+    "entity:quantization": {
+      "sourceIds": [
+        "quantization-89ec2663"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-quantization": {
+      "sourceIds": [
+        "quantization-89ec2663"
+      ],
+      "status": "candidate"
+    },
+    "entity:quantization-formats": {
+      "sourceIds": [
+        "quantization-89ec2663"
+      ],
+      "status": "candidate"
+    },
+    "entity:format": {
+      "sourceIds": [
+        "quantization-89ec2663"
+      ],
+      "status": "candidate"
+    },
+    "entity:bits": {
+      "sourceIds": [
+        "quantization-89ec2663"
+      ],
+      "status": "candidate"
+    },
+    "entity:use-case": {
+      "sourceIds": [
+        "quantization-89ec2663"
+      ],
+      "status": "candidate"
+    },
+    "entity:alignment-training": {
+      "sourceIds": [
+        "rlhf-and-alignment-training-ba7b3502"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-reinforcement-learning": {
+      "sourceIds": [
+        "rlhf-and-alignment-training-ba7b3502"
+      ],
+      "status": "candidate"
+    },
+    "entity:human-feedback": {
+      "sourceIds": [
+        "rlhf-and-alignment-training-ba7b3502"
+      ],
+      "status": "candidate"
+    },
+    "entity:alignment-methodologies": {
+      "sourceIds": [
+        "rlhf-and-alignment-training-ba7b3502"
+      ],
+      "status": "candidate"
+    },
+    "entity:proximal-policy-optimization": {
+      "sourceIds": [
+        "rlhf-and-alignment-training-ba7b3502"
+      ],
+      "status": "candidate"
+    },
+    "entity:intelligence-wiki-unified": {
+      "sourceIds": [
+        "schema-ai-intelligence-wiki-95f746ef"
+      ],
+      "status": "candidate"
+    },
+    "entity:page-types": {
+      "sourceIds": [
+        "schema-ai-intelligence-wiki-95f746ef"
+      ],
+      "status": "candidate"
+    },
+    "entity:type": {
+      "sourceIds": [
+        "schema-ai-intelligence-wiki-95f746ef"
+      ],
+      "status": "candidate"
+    },
+    "entity:directory": {
+      "sourceIds": [
+        "schema-ai-intelligence-wiki-95f746ef"
+      ],
+      "status": "candidate"
+    },
+    "entity:semantic-kernel": {
+      "sourceIds": [
+        "semantic-kernel-1fdaa5f5"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-semantic-kernel": {
+      "sourceIds": [
+        "semantic-kernel-1fdaa5f5"
+      ],
+      "status": "candidate"
+    },
+    "entity:microsoft-s": {
+      "sourceIds": [
+        "semantic-kernel-1fdaa5f5"
+      ],
+      "status": "candidate"
+    },
+    "entity:ai-development": {
+      "sourceIds": [
+        "semantic-kernel-1fdaa5f5",
+        "anthropic-llm-provider-research-report-mid-2026-85c1ae51"
+      ],
+      "status": "active"
+    },
+    "entity:sentiment-analysis": {
+      "sourceIds": [
+        "sentiment-analysis-for-markets-0f8731b4"
+      ],
+      "status": "candidate"
+    },
+    "entity:markets": {
+      "sourceIds": [
+        "sentiment-analysis-for-markets-0f8731b4"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-using": {
+      "sourceIds": [
+        "sentiment-analysis-for-markets-0f8731b4"
+      ],
+      "status": "candidate"
+    },
+    "entity:source": {
+      "sourceIds": [
+        "sentiment-analysis-for-markets-0f8731b4"
+      ],
+      "status": "candidate"
+    },
+    "entity:frequency": {
+      "sourceIds": [
+        "sentiment-analysis-for-markets-0f8731b4"
+      ],
+      "status": "candidate"
+    },
+    "entity:single": {
+      "sourceIds": [
+        "single-vs-multi-agent-6d3849d4"
+      ],
+      "status": "candidate"
+    },
+    "entity:multi-agent": {
+      "sourceIds": [
+        "single-vs-multi-agent-6d3849d4"
+      ],
+      "status": "candidate"
+    },
+    "entity:single-agent-when": {
+      "sourceIds": [
+        "single-vs-multi-agent-6d3849d4"
+      ],
+      "status": "candidate"
+    },
+    "entity:task": {
+      "sourceIds": [
+        "single-vs-multi-agent-6d3849d4"
+      ],
+      "status": "candidate"
+    },
+    "entity:china-s": {
+      "sourceIds": [
+        "smic-semiconductor-manufacturing-international-corporation-432c6082",
+        "ymtc-yangtze-memory-technologies-corp-542d90e6",
+        "minimax-comprehensive-research-report-2026-db6828bc",
+        "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
+      ],
+      "status": "active"
+    },
+    "entity:shanghai": {
+      "sourceIds": [
+        "smic-semiconductor-manufacturing-international-corporation-432c6082",
+        "minimax-comprehensive-research-report-2026-db6828bc",
+        "stepfun-comprehensive-research-report-2026-517799aa"
+      ],
+      "status": "active"
+    },
+    "entity:shanghai-china": {
+      "sourceIds": [
+        "smic-semiconductor-manufacturing-international-corporation-432c6082"
+      ],
+      "status": "candidate"
+    },
+    "entity:hugging-face-s": {
+      "sourceIds": [
+        "smolagents-ac93798a"
+      ],
+      "status": "candidate"
+    },
+    "entity:python": {
+      "sourceIds": [
+        "smolagents-ac93798a"
+      ],
+      "status": "candidate"
+    },
+    "entity:hugging-face-website": {
+      "sourceIds": [
+        "smolagents-ac93798a"
+      ],
+      "status": "candidate"
+    },
+    "entity:terafab-type": {
+      "sourceIds": [
+        "spacex-terafab-87c79947"
+      ],
+      "status": "candidate"
+    },
+    "entity:intel": {
+      "sourceIds": [
+        "spacex-terafab-87c79947"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-terafab": {
+      "sourceIds": [
+        "spacex-terafab-87c79947"
+      ],
+      "status": "candidate"
+    },
+    "entity:tesla-spacex": {
+      "sourceIds": [
+        "spacex-terafab-87c79947"
+      ],
+      "status": "candidate"
+    },
+    "entity:speculative-decoding": {
+      "sourceIds": [
+        "speculative-decoding-d3cdd080"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-speculative": {
+      "sourceIds": [
+        "speculative-decoding-d3cdd080"
+      ],
+      "status": "candidate"
+    },
+    "entity:lightweight": {
+      "sourceIds": [
+        "speculative-decoding-d3cdd080"
+      ],
+      "status": "candidate"
+    },
+    "entity:target": {
+      "sourceIds": [
+        "speculative-decoding-d3cdd080"
+      ],
+      "status": "candidate"
+    },
+    "entity:tokens": {
+      "sourceIds": [
+        "speculative-decoding-d3cdd080"
+      ],
+      "status": "candidate"
+    },
+    "entity:achieved": {
+      "sourceIds": [
+        "speculative-decoding-d3cdd080"
+      ],
+      "status": "candidate"
+    },
+    "entity:stability": {
+      "sourceIds": [
+        "stability-ai-edf65283"
+      ],
+      "status": "candidate"
+    },
+    "entity:provider-uk": {
+      "sourceIds": [
+        "stability-ai-edf65283"
+      ],
+      "status": "candidate"
+    },
+    "entity:london-united-kingdom-founders-emad-mostaque": {
+      "sourceIds": [
+        "stability-ai-edf65283"
+      ],
+      "status": "candidate"
+    },
+    "entity:christian-laforte": {
+      "sourceIds": [
+        "stability-ai-edf65283"
+      ],
+      "status": "candidate"
+    },
+    "entity:cyrus-hodes-current": {
+      "sourceIds": [
+        "stability-ai-edf65283"
+      ],
+      "status": "candidate"
+    },
+    "entity:stepfun": {
+      "sourceIds": [
+        "stepfun-517facb2"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-stepfun": {
+      "sourceIds": [
+        "stepfun-517facb2"
+      ],
+      "status": "candidate"
+    },
+    "entity:jiang-daxin": {
+      "sourceIds": [
+        "stepfun-517facb2",
+        "stepfun-comprehensive-research-report-2026-517799aa"
+      ],
+      "status": "active"
+    },
+    "entity:chief-scientist": {
+      "sourceIds": [
+        "stepfun-517facb2",
+        "stepfun-comprehensive-research-report-2026-517799aa"
+      ],
+      "status": "active"
+    },
+    "entity:microsoft-software-technology-center-asia": {
+      "sourceIds": [
+        "stepfun-517facb2"
+      ],
+      "status": "candidate"
+    },
+    "entity:together": {
+      "sourceIds": [
+        "together-ai-ce3a0f9b",
+        "together-ai-comprehensive-research-report-2026-b5bf5b1e"
+      ],
+      "status": "active"
+    },
+    "entity:overview-together": {
+      "sourceIds": [
+        "together-ai-ce3a0f9b"
+      ],
+      "status": "candidate"
+    },
+    "entity:san": {
+      "sourceIds": [
+        "together-ai-ce3a0f9b"
+      ],
+      "status": "candidate"
+    },
+    "entity:stanford": {
+      "sourceIds": [
+        "together-ai-ce3a0f9b",
+        "together-ai-comprehensive-research-report-2026-b5bf5b1e"
+      ],
+      "status": "active"
+    },
+    "entity:azure": {
+      "sourceIds": [
+        "together-ai-ce3a0f9b",
+        "together-ai-comprehensive-research-report-2026-b5bf5b1e"
+      ],
+      "status": "active"
+    },
+    "entity:vipul-ved-prakash": {
+      "sourceIds": [
+        "together-ai-ce3a0f9b"
+      ],
+      "status": "candidate"
+    },
+    "entity:tool-use-pattern": {
+      "sourceIds": [
+        "tool-use-pattern-307ac2f6"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-tool": {
+      "sourceIds": [
+        "tool-use-pattern-307ac2f6"
+      ],
+      "status": "candidate"
+    },
+    "entity:agent": {
+      "sourceIds": [
+        "tool-use-pattern-307ac2f6"
+      ],
+      "status": "candidate"
+    },
+    "entity:tool": {
+      "sourceIds": [
+        "tool-use-pattern-307ac2f6"
+      ],
+      "status": "candidate"
+    },
+    "entity:best-practices-typed": {
+      "sourceIds": [
+        "tool-use-pattern-307ac2f6"
+      ],
+      "status": "candidate"
+    },
+    "entity:use": {
+      "sourceIds": [
+        "tool-use-pattern-307ac2f6"
+      ],
+      "status": "candidate"
+    },
+    "entity:grok": {
+      "sourceIds": [
+        "xai-grok-efa7f437",
+        "llm-provider-research-report-xai-grok-27723302"
+      ],
+      "status": "active"
+    },
+    "entity:elon-musk": {
+      "sourceIds": [
+        "xai-grok-efa7f437"
+      ],
+      "status": "candidate"
+    },
+    "entity:unlike": {
+      "sourceIds": [
+        "xai-grok-efa7f437"
+      ],
+      "status": "candidate"
+    },
+    "entity:yangtze": {
+      "sourceIds": [
+        "ymtc-yangtze-memory-technologies-corp-542d90e6"
+      ],
+      "status": "candidate"
+    },
+    "entity:wuhan": {
+      "sourceIds": [
+        "ymtc-yangtze-memory-technologies-corp-542d90e6"
+      ],
+      "status": "candidate"
+    },
+    "entity:zhipu": {
+      "sourceIds": [
+        "zhipu-ai-glm-3629e43c"
+      ],
+      "status": "candidate"
+    },
+    "entity:provider-china": {
+      "sourceIds": [
+        "zhipu-ai-glm-3629e43c"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-legal-name": {
+      "sourceIds": [
+        "zhipu-ai-glm-3629e43c"
+      ],
+      "status": "candidate"
+    },
+    "entity:co-ltd": {
+      "sourceIds": [
+        "zhipu-ai-glm-3629e43c",
+        "llm-provider-research-report-moonshot-ai-821a1010"
+      ],
+      "status": "active"
+    },
+    "entity:founded": {
+      "sourceIds": [
+        "zhipu-ai-glm-3629e43c",
+        "deepseek-llm-provider-research-report-mid-2026-06d7b24d"
+      ],
+      "status": "active"
     },
     "entity:alibaba-group-s-tongyi-lab": {
       "sourceIds": [
         "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:alibaba-s": {
       "sourceIds": [
         "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:alibaba": {
       "sourceIds": [
         "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:alibaba-cloud": {
       "sourceIds": [
         "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:alibaba-group": {
       "sourceIds": [
         "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:hangzhou-china-alibaba-group": {
       "sourceIds": [
         "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:provider-research-report": {
       "sourceIds": [
@@ -528,104 +4689,49 @@
         "meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
         "openai-llm-provider-research-report-mid-2026-8b4a47c7"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:company-overview-anthropic": {
       "sourceIds": [
         "anthropic-llm-provider-research-report-mid-2026-85c1ae51"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:dario-amodei-daniela-amodei": {
       "sourceIds": [
         "anthropic-llm-provider-research-report-mid-2026-85c1ae51"
       ],
-      "status": "candidate"
-    },
-    "entity:openai": {
-      "sourceIds": [
-        "anthropic-llm-provider-research-report-mid-2026-85c1ae51",
-        "openai-llm-provider-research-report-mid-2026-8b4a47c7"
-      ],
-      "status": "candidate"
-    },
-    "entity:ai-systems": {
-      "sourceIds": [
-        "anthropic-llm-provider-research-report-mid-2026-85c1ae51"
-      ],
-      "status": "candidate"
-    },
-    "entity:ai-development": {
-      "sourceIds": [
-        "anthropic-llm-provider-research-report-mid-2026-85c1ae51"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:company-overview-deepseek": {
       "sourceIds": [
         "deepseek-llm-provider-research-report-mid-2026-06d7b24d"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:chinese-ai-company": {
       "sourceIds": [
         "deepseek-llm-provider-research-report-mid-2026-06d7b24d"
       ],
-      "status": "candidate"
-    },
-    "entity:deepseek": {
-      "sourceIds": [
-        "deepseek-llm-provider-research-report-mid-2026-06d7b24d"
-      ],
-      "status": "candidate"
-    },
-    "entity:founded": {
-      "sourceIds": [
-        "deepseek-llm-provider-research-report-mid-2026-06d7b24d"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:headquarters-beijing-china-parent-company-high-flyer": {
       "sourceIds": [
         "deepseek-llm-provider-research-report-mid-2026-06d7b24d"
       ],
-      "status": "candidate"
-    },
-    "entity:google-gemini": {
-      "sourceIds": [
-        "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:company-overview-google-s-gemini": {
       "sourceIds": [
         "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:bard": {
       "sourceIds": [
         "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
       ],
-      "status": "candidate"
-    },
-    "entity:gemini": {
-      "sourceIds": [
-        "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
-      ],
-      "status": "candidate"
-    },
-    "entity:google-s": {
-      "sourceIds": [
-        "google-gemini-llm-provider-research-report-mid-2026-c1315c99"
-      ],
-      "status": "candidate"
-    },
-    "entity:cohere": {
-      "sourceIds": [
-        "llm-provider-research-report-cohere-a2489c1d"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:research": {
       "sourceIds": [
@@ -634,19 +4740,19 @@
         "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40",
         "llm-provider-research-report-xai-grok-27723302"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:cohere-company": {
       "sourceIds": [
         "llm-provider-research-report-cohere-a2489c1d"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:cohere-company-overview": {
       "sourceIds": [
         "llm-provider-research-report-cohere-a2489c1d"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:founding": {
       "sourceIds": [
@@ -654,235 +4760,147 @@
         "llm-provider-research-report-mistral-ai-b1dc6738",
         "llm-provider-research-report-xai-grok-27723302"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:mission-cohere": {
       "sourceIds": [
         "llm-provider-research-report-cohere-a2489c1d"
       ],
-      "status": "candidate"
-    },
-    "entity:mistral": {
-      "sourceIds": [
-        "llm-provider-research-report-mistral-ai-b1dc6738"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:mistral-ai-company": {
       "sourceIds": [
         "llm-provider-research-report-mistral-ai-b1dc6738"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:mistral-ai-company-overview": {
       "sourceIds": [
         "llm-provider-research-report-mistral-ai-b1dc6738"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:mission-mistral": {
       "sourceIds": [
         "llm-provider-research-report-mistral-ai-b1dc6738"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:company": {
       "sourceIds": [
         "llm-provider-research-report-moonshot-ai-821a1010"
       ],
-      "status": "candidate"
-    },
-    "entity:kimi": {
-      "sourceIds": [
-        "llm-provider-research-report-moonshot-ai-821a1010"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:beijing": {
       "sourceIds": [
         "llm-provider-research-report-moonshot-ai-821a1010",
         "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
       ],
-      "status": "candidate"
-    },
-    "entity:co-ltd": {
-      "sourceIds": [
-        "llm-provider-research-report-moonshot-ai-821a1010"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:trade-name": {
       "sourceIds": [
         "llm-provider-research-report-moonshot-ai-821a1010"
       ],
-      "status": "candidate"
-    },
-    "entity:moonshot": {
-      "sourceIds": [
-        "llm-provider-research-report-moonshot-ai-821a1010",
-        "minimax-comprehensive-research-report-2026-db6828bc"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:nvidia-nemotron-nim": {
       "sourceIds": [
         "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:nvidia-ai-company": {
       "sourceIds": [
         "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:nemotron": {
       "sourceIds": [
         "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:nvidia-ai-company-overview": {
       "sourceIds": [
         "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:company-background-nvidia-corporation": {
       "sourceIds": [
         "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40"
       ],
-      "status": "candidate"
-    },
-    "entity:grok": {
-      "sourceIds": [
-        "llm-provider-research-report-xai-grok-27723302"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:company-overview": {
       "sourceIds": [
         "llm-provider-research-report-xai-grok-27723302"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:mission": {
       "sourceIds": [
         "llm-provider-research-report-xai-grok-27723302"
       ],
-      "status": "candidate"
-    },
-    "entity:llama": {
-      "sourceIds": [
-        "meta-llama-llm-provider-research-report-mid-2026-ea1881e6"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:company-overview-meta": {
       "sourceIds": [
         "meta-llama-llm-provider-research-report-mid-2026-ea1881e6"
       ],
-      "status": "candidate"
-    },
-    "entity:facebook": {
-      "sourceIds": [
-        "meta-llama-llm-provider-research-report-mid-2026-ea1881e6"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:large-language-model-meta": {
       "sourceIds": [
         "meta-llama-llm-provider-research-report-mid-2026-ea1881e6"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:microsoft-phi-family-comprehensive-research-report": {
       "sourceIds": [
         "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:executive-summary-microsoft-s-phi": {
       "sourceIds": [
         "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
       ],
-      "status": "candidate"
-    },
-    "entity:phi": {
-      "sourceIds": [
-        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
-      ],
-      "status": "candidate"
-    },
-    "entity:microsoft-research": {
-      "sourceIds": [
-        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
-      ],
-      "status": "candidate"
-    },
-    "entity:march": {
-      "sourceIds": [
-        "microsoft-phi-family-comprehensive-research-report-2026-2daf1835"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:chinese": {
       "sourceIds": [
         "minimax-comprehensive-research-report-2026-db6828bc",
         "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
       ],
-      "status": "candidate"
-    },
-    "entity:x-y-k-j": {
-      "sourceIds": [
-        "minimax-comprehensive-research-report-2026-db6828bc"
-      ],
-      "status": "candidate"
-    },
-    "entity:shanghai": {
-      "sourceIds": [
-        "minimax-comprehensive-research-report-2026-db6828bc",
-        "stepfun-comprehensive-research-report-2026-517799aa"
-      ],
-      "status": "candidate"
-    },
-    "entity:china-s": {
-      "sourceIds": [
-        "minimax-comprehensive-research-report-2026-db6828bc",
-        "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:ai-tigers": {
       "sourceIds": [
         "minimax-comprehensive-research-report-2026-db6828bc"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:company-overview-openai": {
       "sourceIds": [
         "openai-llm-provider-research-report-mid-2026-8b4a47c7"
       ],
-      "status": "candidate"
-    },
-    "entity:san-francisco": {
-      "sourceIds": [
-        "openai-llm-provider-research-report-mid-2026-8b4a47c7",
-        "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:openai-global-llc": {
       "sourceIds": [
         "openai-llm-provider-research-report-mid-2026-8b4a47c7"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:openai-inc": {
       "sourceIds": [
         "openai-llm-provider-research-report-mid-2026-8b4a47c7"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:comprehensive-research-report": {
       "sourceIds": [
@@ -891,128 +4909,68 @@
         "stepfun-comprehensive-research-report-2026-517799aa",
         "together-ai-comprehensive-research-report-2026-b5bf5b1e"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:executive-summary-perplexity": {
       "sourceIds": [
         "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:perplexity-s-sonar": {
       "sourceIds": [
         "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
       ],
-      "status": "candidate"
-    },
-    "entity:perplexity": {
-      "sourceIds": [
-        "perplexity-ai-comprehensive-research-report-2026-28e3c1cb"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:series": {
       "sourceIds": [
         "perplexity-ai-comprehensive-research-report-2026-28e3c1cb",
         "together-ai-comprehensive-research-report-2026-b5bf5b1e"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:executive-summary-stability": {
       "sourceIds": [
         "stability-ai-comprehensive-research-report-2026-82ef3427"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:london": {
       "sourceIds": [
         "stability-ai-comprehensive-research-report-2026-82ef3427"
       ],
-      "status": "candidate"
-    },
-    "entity:ai-company": {
-      "sourceIds": [
-        "stability-ai-comprehensive-research-report-2026-82ef3427"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:stable-diffusion": {
       "sourceIds": [
         "stability-ai-comprehensive-research-report-2026-82ef3427"
       ],
-      "status": "candidate"
-    },
-    "entity:ai": {
-      "sourceIds": [
-        "stability-ai-comprehensive-research-report-2026-82ef3427"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:executive-summary-stepfun": {
       "sourceIds": [
         "stepfun-comprehensive-research-report-2026-517799aa"
       ],
-      "status": "candidate"
-    },
-    "entity:jiang-daxin": {
-      "sourceIds": [
-        "stepfun-comprehensive-research-report-2026-517799aa"
-      ],
-      "status": "candidate"
-    },
-    "entity:microsoft": {
-      "sourceIds": [
-        "stepfun-comprehensive-research-report-2026-517799aa"
-      ],
-      "status": "candidate"
-    },
-    "entity:chief-scientist": {
-      "sourceIds": [
-        "stepfun-comprehensive-research-report-2026-517799aa"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:executive-summary-together": {
       "sourceIds": [
         "together-ai-comprehensive-research-report-2026-b5bf5b1e"
       ],
-      "status": "candidate"
-    },
-    "entity:stanford": {
-      "sourceIds": [
-        "together-ai-comprehensive-research-report-2026-b5bf5b1e"
-      ],
-      "status": "candidate"
-    },
-    "entity:azure": {
-      "sourceIds": [
-        "together-ai-comprehensive-research-report-2026-b5bf5b1e"
-      ],
-      "status": "candidate"
-    },
-    "entity:together": {
-      "sourceIds": [
-        "together-ai-comprehensive-research-report-2026-b5bf5b1e"
-      ],
-      "status": "candidate"
-    },
-    "entity:tsinghua-university": {
-      "sourceIds": [
-        "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
-      ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:glm-general-language-model": {
       "sourceIds": [
         "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
       ],
-      "status": "candidate"
+      "status": "active"
     },
     "entity:tigers": {
       "sourceIds": [
         "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
       ],
-      "status": "candidate"
+      "status": "active"
     }
   }
 }

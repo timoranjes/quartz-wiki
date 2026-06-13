@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "zhipu-ai-glm-3629e43c",
+  "sourceHash": "3629e43c1a6c43c28d4d0243895a68343ab66ece9e700e56aa0d140860684cac",
+  "semanticHash": "b48bfc72744b4d35b2dc356adc6d27568fbf956903777e57a933de614c8a0f4e",
+  "extractionHash": "7d86289d6f645be95959dea1974a3da760c1afa28b97f98a4bbb1c8afd79e9cf",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Zhipu AI (GLM)",
+  "summary": "title: Zhipu AI (GLM) tags: provider/china, provider/generative-ai, open-source # Zhipu AI (Z.ai) ## Overview - Legal Name: Knowledge Atlas Technology Joint Stock Co., Ltd. (北京智谱华章科技有限公司) - Founded: 2019, Tsinghua University spinout (Knowledge Engineering Group) - Founders: Tang Jie, Li Juanzi; CEO: Zhang Peng - HQ: Beijing, China; global brand: Z.ai - Stock: SEHK: 2513 — world's first major LLM company IPO (Jan 8, 2026) - IPO: HK$4.35B raised (~$558M); debut valuation HK$51.16B (~$6.8B); first day +13.1% - Revenue: 312.4M yuan (~$43M) in 2024 - Employees: 800+ (2024) - US Entity List: Added Jun 26, 2025 (national security concerns) - Pre-IPO Investors: Alibaba, Tencent, Meituan, Ant Group, Xiaomi, HongShan, Prosperity7 ($400M) ## Strategy One of China's \"Six AI Tigers.\" Spun out of Tsinghua's academic research group — deep NLP and knowledge graph pedigree. Strategy: open-weight GLM models (MIT License) for developer adoption + proprietary flagship models (GLM-5) for enterprise.",
+  "concepts": [
+    {
+      "id": "concept:2025",
+      "name": "2025",
+      "description": "Frequently referenced concept in Zhipu AI (GLM)."
+    },
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in Zhipu AI (GLM)."
+    },
+    {
+      "id": "concept:open",
+      "name": "open",
+      "description": "Frequently referenced concept in Zhipu AI (GLM)."
+    },
+    {
+      "id": "concept:first",
+      "name": "first",
+      "description": "Frequently referenced concept in Zhipu AI (GLM)."
+    },
+    {
+      "id": "concept:models",
+      "name": "models",
+      "description": "Frequently referenced concept in Zhipu AI (GLM)."
+    },
+    {
+      "id": "concept:2024",
+      "name": "2024",
+      "description": "Frequently referenced concept in Zhipu AI (GLM)."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:zhipu",
+      "name": "Zhipu",
+      "description": "Named entity mentioned in Zhipu AI (GLM)."
+    },
+    {
+      "id": "entity:provider-china",
+      "name": "provider/china,",
+      "description": "Named entity mentioned in Zhipu AI (GLM)."
+    },
+    {
+      "id": "entity:overview-legal-name",
+      "name": "Overview - Legal Name:",
+      "description": "Named entity mentioned in Zhipu AI (GLM)."
+    },
+    {
+      "id": "entity:co-ltd",
+      "name": "Co., Ltd.",
+      "description": "Named entity mentioned in Zhipu AI (GLM)."
+    },
+    {
+      "id": "entity:founded",
+      "name": "Founded:",
+      "description": "Named entity mentioned in Zhipu AI (GLM)."
+    },
+    {
+      "id": "entity:tsinghua-university",
+      "name": "Tsinghua University",
+      "description": "Named entity mentioned in Zhipu AI (GLM)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:zhipu-ai-glm-3629e43c:1",
+      "text": "title: Zhipu AI (GLM) tags: provider/china, provider/generative-ai, open-source # Zhipu AI (Z.ai) ## Overview - Legal Name: Knowledge Atlas Technology Joint Stock Co., Ltd.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "zhipu-ai-glm-3629e43c"
+    },
+    {
+      "id": "claim:zhipu-ai-glm-3629e43c:2",
+      "text": "(北京智谱华章科技有限公司) - Founded: 2019, Tsinghua University spinout (Knowledge Engineering Group) - Founders: Tang Jie, Li Juanzi; CEO: Zhang Peng - HQ: Beijing, China; global brand: Z.ai - Stock: SEHK: 2513 — world's first major LLM company IPO (Jan 8, 2026) - IPO: HK$4.35B raised (~$558M); debut valuation HK$51.16B (~$6.8B); first day +13.1% - Revenue: 312.4M yuan (~$43M) in 2024 - Employees: 800+ (2024) - US Entity List: Added Jun 26, 2025 (national security concerns) - Pre-IPO Investors: Alibaba, Tencent, Meituan, Ant Group, Xiaomi, HongShan, Prosperity7 ($400M) ## Strategy One of China's \"Six AI Tigers.\" Spun out of Tsinghua's academic research group — deep NLP and knowledge graph pedigree.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "zhipu-ai-glm-3629e43c"
+    },
+    {
+      "id": "claim:zhipu-ai-glm-3629e43c:3",
+      "text": "Strategy: open-weight GLM models (MIT License) for developer adoption + proprietary flagship models (GLM-5) for enterprise.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "zhipu-ai-glm-3629e43c"
+    },
+    {
+      "id": "claim:zhipu-ai-glm-3629e43c:4",
+      "text": "Hardware independence via Huawei Ascend/Cambricon chips — protected from US export restrictions.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "zhipu-ai-glm-3629e43c"
+    }
+  ],
+  "questions": [
+    "How does 2025 relate to Zhipu AI (GLM)?",
+    "How does 2026 relate to Zhipu AI (GLM)?",
+    "How does open relate to Zhipu AI (GLM)?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:51.047Z"
+}

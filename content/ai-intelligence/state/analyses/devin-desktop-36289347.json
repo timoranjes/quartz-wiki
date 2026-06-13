@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "devin-desktop-36289347",
+  "sourceHash": "36289347602244cf26cc9507e328098b74a7af665371f19af5702903ddc032aa",
+  "semanticHash": "7843b88b762562e2887ceda3fc406c8da1460ea3aeec895526e86c53b2f84888",
+  "extractionHash": "537169d60a8a9984dbb80c0df338563ad1b20f3d9ef4b440f7f4acf2c32d2ba0",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Devin Desktop",
+  "summary": "title: Devin Desktop tags: coding-agent, ide, acp, multi-agent # Devin Desktop Agent-first IDE developed by Cognition, rebranded from Windsurf on June 2, 2026. Features the Agent Command Center as its default surface, supporting multiple coding agents via the open Agent Client Protocol (ACP). ## Overview - Developer : Cognition - Previous Name : Windsurf (rebranded June 2, 2026) - Backend Models : Devin (native), Codex, Claude Agent, OpenCode, any ACP-compatible agent - Interface : Desktop IDE (VS Code compatible, macOS, Windows, Linux) - Pricing : Pro ($20/mo), Teams ($40/user/mo), Max ($200/mo) - Open Source : Core editor based on VS Code; ACP protocol is open source ## Key Capabilities - Agent Command Center : Kanban view for managing all local and cloud agents in one place - Spaces : Shared context layer grouping agent sessions, PRs, files, and context objects - ACP Support : Run Codex, Claude Agent, OpenCode, and custom agents inside the IDE - Devin Local : Rust-rewritten local agent, 30% more token-efficient than legacy Cascade, supports subagents - Devin Cloud : Autonomous long-running agent on remote VMs - Multi-agent orchestration : Dispatch and monitor multiple agents from a single interface ## Devin Local vs Cascade | Feature | Cascade (legacy) | Devin Local | |---------|-----------------|-------------| | Language | Python | Rust | | Token Efficiency | Baseline | ~30% more efficient | | Subagents | No | Yes (parallel, specialized) | | Status | Deprecated, EOL July 1, 2026 | Default local agent | ## Agent Client Protocol (ACP) Devin Desktop is the largest single ACP adoption event to date.",
+  "concepts": [
+    {
+      "id": "concept:agent",
+      "name": "agent",
+      "description": "Frequently referenced concept in Devin Desktop."
+    },
+    {
+      "id": "concept:devin",
+      "name": "devin",
+      "description": "Frequently referenced concept in Devin Desktop."
+    },
+    {
+      "id": "concept:agents",
+      "name": "agents",
+      "description": "Frequently referenced concept in Devin Desktop."
+    },
+    {
+      "id": "concept:desktop",
+      "name": "desktop",
+      "description": "Frequently referenced concept in Devin Desktop."
+    },
+    {
+      "id": "concept:local",
+      "name": "local",
+      "description": "Frequently referenced concept in Devin Desktop."
+    },
+    {
+      "id": "concept:multi-agent",
+      "name": "multi-agent",
+      "description": "Frequently referenced concept in Devin Desktop."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:devin-desktop",
+      "name": "Devin Desktop",
+      "description": "Named entity mentioned in Devin Desktop."
+    },
+    {
+      "id": "entity:devin-desktop-agent",
+      "name": "Devin Desktop Agent-",
+      "description": "Named entity mentioned in Devin Desktop."
+    },
+    {
+      "id": "entity:cognition",
+      "name": "Cognition,",
+      "description": "Named entity mentioned in Devin Desktop."
+    },
+    {
+      "id": "entity:windsurf",
+      "name": "Windsurf",
+      "description": "Named entity mentioned in Devin Desktop."
+    },
+    {
+      "id": "entity:agent-command-center",
+      "name": "Agent Command Center",
+      "description": "Named entity mentioned in Devin Desktop."
+    },
+    {
+      "id": "entity:agent-client-protocol",
+      "name": "Agent Client Protocol",
+      "description": "Named entity mentioned in Devin Desktop."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:devin-desktop-36289347:1",
+      "text": "title: Devin Desktop tags: coding-agent, ide, acp, multi-agent # Devin Desktop Agent-first IDE developed by Cognition, rebranded from Windsurf on June 2, 2026.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "devin-desktop-36289347"
+    },
+    {
+      "id": "claim:devin-desktop-36289347:2",
+      "text": "Features the Agent Command Center as its default surface, supporting multiple coding agents via the open Agent Client Protocol (ACP).",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "devin-desktop-36289347"
+    },
+    {
+      "id": "claim:devin-desktop-36289347:3",
+      "text": "## Overview - Developer : Cognition - Previous Name : Windsurf (rebranded June 2, 2026) - Backend Models : Devin (native), Codex, Claude Agent, OpenCode, any ACP-compatible agent - Interface : Desktop IDE (VS Code compatible, macOS, Windows, Linux) - Pricing : Pro ($20/mo), Teams ($40/user/mo), Max ($200/mo) - Open Source : Core editor based on VS Code; ACP protocol is open source ## Key Capabilities - Agent Command Center : Kanban view for managing all local and cloud agents in one place - Spaces : Shared context layer grouping agent sessions, PRs, files, and context objects - ACP Support : Run Codex, Claude Agent, OpenCode, and custom agents inside the IDE - Devin Local : Rust-rewritten local agent, 30% more token-efficient than legacy Cascade, supports subagents - Devin Cloud : Autonomous long-running agent on remote VMs - Multi-agent orchestration : Dispatch and monitor multiple agents from a single interface ## Devin Local vs Cascade | Feature | Cascade (legacy) | Devin Local | |---------|-----------------|-------------| | Language | Python | Rust | | Token Efficiency | Baseline | ~30% more efficient | | Subagents | No | Yes (parallel, specialized) | | Status | Deprecated, EOL July 1, 2026 | Default local agent | ## Agent Client Protocol (ACP) Devin Desktop is the largest single ACP adoption event to date.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "devin-desktop-36289347"
+    },
+    {
+      "id": "claim:devin-desktop-36289347:4",
+      "text": "ACP (created by Zed Industries, Aug 2025) is an open standard for connecting AI coding agents to editors — the \"LSP for AI agents.\" Supported agents at launch : Codex, Claude Agent, OpenCode, any custom ACP-compatible agent.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "devin-desktop-36289347"
+    }
+  ],
+  "questions": [
+    "How does agent relate to Devin Desktop?",
+    "How does devin relate to Devin Desktop?",
+    "How does agents relate to Devin Desktop?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:49.311Z"
+}

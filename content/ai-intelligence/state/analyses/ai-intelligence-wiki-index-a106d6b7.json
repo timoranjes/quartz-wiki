@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "ai-intelligence-wiki-index-a106d6b7",
+  "sourceHash": "a106d6b7484636b9f8a6cb0c4f155c1bc719c6e8c0a6d90093b6bea576bcad44",
+  "semanticHash": "60886c9fd997d7fec9c2b2d281ead01f8cf1e43b3309d32454600222975f5cf8",
+  "extractionHash": "e7bfa61a6e48d69a44d89f953c48806da360b3d19b3bbd73a695b3f7835252ce",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "AI Intelligence Wiki — Index",
+  "summary": "AI Intelligence Wiki — Index > Unified knowledge base for LLMs, coding agents, and the AI intelligence stack. > Merged from wiki-llm-providers + wiki-ai-agents on 2026-06-04. ## LLM Providers (18) Model labs and providers — companies building foundation models.",
+  "concepts": [
+    {
+      "id": "concept:agent",
+      "name": "agent",
+      "description": "Frequently referenced concept in AI Intelligence Wiki — Index."
+    },
+    {
+      "id": "concept:agents",
+      "name": "agents",
+      "description": "Frequently referenced concept in AI Intelligence Wiki — Index."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in AI Intelligence Wiki — Index."
+    },
+    {
+      "id": "concept:comparison",
+      "name": "comparison",
+      "description": "Frequently referenced concept in AI Intelligence Wiki — Index."
+    },
+    {
+      "id": "concept:coding",
+      "name": "coding",
+      "description": "Frequently referenced concept in AI Intelligence Wiki — Index."
+    },
+    {
+      "id": "concept:comparisons",
+      "name": "comparisons",
+      "description": "Frequently referenced concept in AI Intelligence Wiki — Index."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:intelligence-wiki-index",
+      "name": "Intelligence Wiki — Index",
+      "description": "Named entity mentioned in AI Intelligence Wiki — Index."
+    },
+    {
+      "id": "entity:unified",
+      "name": "Unified",
+      "description": "Named entity mentioned in AI Intelligence Wiki — Index."
+    },
+    {
+      "id": "entity:ai",
+      "name": "AI",
+      "description": "Named entity mentioned in AI Intelligence Wiki — Index."
+    },
+    {
+      "id": "entity:merged",
+      "name": "Merged",
+      "description": "Named entity mentioned in AI Intelligence Wiki — Index."
+    },
+    {
+      "id": "entity:providers",
+      "name": "Providers",
+      "description": "Named entity mentioned in AI Intelligence Wiki — Index."
+    },
+    {
+      "id": "entity:model-labs",
+      "name": "Model labs",
+      "description": "Named entity mentioned in AI Intelligence Wiki — Index."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:ai-intelligence-wiki-index-a106d6b7:1",
+      "text": "AI Intelligence Wiki — Index > Unified knowledge base for LLMs, coding agents, and the AI intelligence stack.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "ai-intelligence-wiki-index-a106d6b7"
+    },
+    {
+      "id": "claim:ai-intelligence-wiki-index-a106d6b7:2",
+      "text": "> Merged from wiki-llm-providers + wiki-ai-agents on 2026-06-04.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "ai-intelligence-wiki-index-a106d6b7"
+    },
+    {
+      "id": "claim:ai-intelligence-wiki-index-a106d6b7:3",
+      "text": "## LLM Providers (18) Model labs and providers — companies building foundation models.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "ai-intelligence-wiki-index-a106d6b7"
+    },
+    {
+      "id": "claim:ai-intelligence-wiki-index-a106d6b7:4",
+      "text": "- [[alibaba-qwen]] — Alibaba Qwen - [[anthropic]] — Anthropic (Claude) - [[cohere]] — Cohere (Command) - [[deepseek]] — DeepSeek - [[google-gemini]] — Google Gemini - [[meta-llama]] — Meta (Llama) - [[microsoft-phi]] — Microsoft Phi - [[minimax]] — MiniMax - [[mistral]] — Mistral AI - [[moonshot-ai]] — Moonshot AI (Kimi) - [[nvidia]] — NVIDIA - [[openai]] — OpenAI (GPT) - [[perplexity]] — Perplexity AI (Sonar) - [[stability-ai]] — Stability AI - [[stepfun]] — StepFun - [[together-ai]] — Together AI - [[xai-grok]] — xAI (Grok) - [[zhipu-ai]] — Zhipu AI (GLM) ## Coding Agents (10) CLI and IDE coding agents — autonomous or semi-autonomous tools for software development.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "ai-intelligence-wiki-index-a106d6b7"
+    }
+  ],
+  "questions": [
+    "How does agent relate to AI Intelligence Wiki — Index?",
+    "How does agents relate to AI Intelligence Wiki — Index?",
+    "How does model relate to AI Intelligence Wiki — Index?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:48.815Z"
+}

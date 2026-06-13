@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "agent-client-protocol-acp-8c8dcb94",
+  "sourceHash": "8c8dcb946820b606b36c291075c2021ebbdf81d10fbe925911d62a9bbe1fb669",
+  "semanticHash": "23d9d037dd2fcb6f15036cf10e40d6531f7e62d40c6b10c95433997f81e1f075",
+  "extractionHash": "253116aa26bfbc47c6ef6d07f366c42eac1be813425a6c7c614d08a45320a8ec",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Agent Client Protocol (ACP)",
+  "summary": "title: Agent Client Protocol (ACP) tags: protocol, acp, coding-agent, agent-editor # Agent Client Protocol (ACP) Open standard for connecting any AI coding agent to any compatible code editor. Created by Zed Industries in August 2025, ACP is often described as the \"LSP for AI coding agents.\" ## Overview - Creator : Zed Industries (August 2025) - Purpose : Standardize communication between code editors and AI coding agents - Transport : JSON-RPC 2.0 over stdin/stdout - Adoption : JetBrains, Google, GitHub, Devin Desktop, and 25+ agents by June 2026 - Open Source : Yes — github.com/agentclientprotocol/agent-client-protocol ## How It Works 1. Bootstrapping : session/new handshake between editor and agent 2.",
+  "concepts": [
+    {
+      "id": "concept:agent",
+      "name": "agent",
+      "description": "Frequently referenced concept in Agent Client Protocol (ACP)."
+    },
+    {
+      "id": "concept:agents",
+      "name": "agents",
+      "description": "Frequently referenced concept in Agent Client Protocol (ACP)."
+    },
+    {
+      "id": "concept:editors",
+      "name": "editors",
+      "description": "Frequently referenced concept in Agent Client Protocol (ACP)."
+    },
+    {
+      "id": "concept:jetbrains",
+      "name": "jetbrains",
+      "description": "Frequently referenced concept in Agent Client Protocol (ACP)."
+    },
+    {
+      "id": "concept:protocol",
+      "name": "protocol",
+      "description": "Frequently referenced concept in Agent Client Protocol (ACP)."
+    },
+    {
+      "id": "concept:coding",
+      "name": "coding",
+      "description": "Frequently referenced concept in Agent Client Protocol (ACP)."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:agent-client-protocol",
+      "name": "Agent Client Protocol",
+      "description": "Named entity mentioned in Agent Client Protocol (ACP)."
+    },
+    {
+      "id": "entity:open",
+      "name": "Open",
+      "description": "Named entity mentioned in Agent Client Protocol (ACP)."
+    },
+    {
+      "id": "entity:zed-industries",
+      "name": "Zed Industries",
+      "description": "Named entity mentioned in Agent Client Protocol (ACP)."
+    },
+    {
+      "id": "entity:lsp",
+      "name": "\"LSP",
+      "description": "Named entity mentioned in Agent Client Protocol (ACP)."
+    },
+    {
+      "id": "entity:overview-creator",
+      "name": "Overview - Creator :",
+      "description": "Named entity mentioned in Agent Client Protocol (ACP)."
+    },
+    {
+      "id": "entity:standardize",
+      "name": "Standardize",
+      "description": "Named entity mentioned in Agent Client Protocol (ACP)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:agent-client-protocol-acp-8c8dcb94:1",
+      "text": "title: Agent Client Protocol (ACP) tags: protocol, acp, coding-agent, agent-editor # Agent Client Protocol (ACP) Open standard for connecting any AI coding agent to any compatible code editor.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "agent-client-protocol-acp-8c8dcb94"
+    },
+    {
+      "id": "claim:agent-client-protocol-acp-8c8dcb94:2",
+      "text": "Created by Zed Industries in August 2025, ACP is often described as the \"LSP for AI coding agents.\" ## Overview - Creator : Zed Industries (August 2025) - Purpose : Standardize communication between code editors and AI coding agents - Transport : JSON-RPC 2.0 over stdin/stdout - Adoption : JetBrains, Google, GitHub, Devin Desktop, and 25+ agents by June 2026 - Open Source : Yes — github.com/agentclientprotocol/agent-client-protocol ## How It Works 1.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "agent-client-protocol-acp-8c8dcb94"
+    },
+    {
+      "id": "claim:agent-client-protocol-acp-8c8dcb94:3",
+      "text": "Bootstrapping : session/new handshake between editor and agent 2.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "agent-client-protocol-acp-8c8dcb94"
+    },
+    {
+      "id": "claim:agent-client-protocol-acp-8c8dcb94:4",
+      "text": "MCP Integration : Agents can declare MCP servers to connect during handshake 3.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "agent-client-protocol-acp-8c8dcb94"
+    }
+  ],
+  "questions": [
+    "How does agent relate to Agent Client Protocol (ACP)?",
+    "How does agents relate to Agent Client Protocol (ACP)?",
+    "How does editors relate to Agent Client Protocol (ACP)?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:48.536Z"
+}

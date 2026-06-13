@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "bloomberggpt-693c071e",
+  "sourceHash": "693c071eba04abf800ebe3d40d38db4e1258fe7d279e7f818f90d334d43f03a0",
+  "semanticHash": "47d77d40e8b21ec79eff5a11122c7ae2c83a4719a88c171d4ce058b12cb4e727",
+  "extractionHash": "bad7ae39d3b1d027acfffab408b407908a6c0a8a2d5fb893ee294e73eda08a1d",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "BloombergGPT",
+  "summary": "title: BloombergGPT tags: finance/platform, llm/specialized, bloomberg # BloombergGPT ## Overview BloombergGPT is a financial-domain-specific large language model developed by Bloomberg. Trained on a mix of public and proprietary financial data, it is designed for financial analysis, news summarization, and market research tasks. ## Key Characteristics | Attribute | Detail | |-----------|--------| | Developer | Bloomberg L.P.",
+  "concepts": [
+    {
+      "id": "concept:financial",
+      "name": "financial",
+      "description": "Frequently referenced concept in BloombergGPT."
+    },
+    {
+      "id": "concept:bloomberg",
+      "name": "bloomberg",
+      "description": "Frequently referenced concept in BloombergGPT."
+    },
+    {
+      "id": "concept:bloomberggpt",
+      "name": "bloomberggpt",
+      "description": "Frequently referenced concept in BloombergGPT."
+    },
+    {
+      "id": "concept:news",
+      "name": "news",
+      "description": "Frequently referenced concept in BloombergGPT."
+    },
+    {
+      "id": "concept:proprietary",
+      "name": "proprietary",
+      "description": "Frequently referenced concept in BloombergGPT."
+    },
+    {
+      "id": "concept:access",
+      "name": "access",
+      "description": "Frequently referenced concept in BloombergGPT."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:bloomberggpt",
+      "name": "BloombergGPT",
+      "description": "Named entity mentioned in BloombergGPT."
+    },
+    {
+      "id": "entity:overview-bloomberggpt",
+      "name": "Overview BloombergGPT",
+      "description": "Named entity mentioned in BloombergGPT."
+    },
+    {
+      "id": "entity:bloomberg",
+      "name": "Bloomberg.",
+      "description": "Named entity mentioned in BloombergGPT."
+    },
+    {
+      "id": "entity:key-characteristics",
+      "name": "Key Characteristics",
+      "description": "Named entity mentioned in BloombergGPT."
+    },
+    {
+      "id": "entity:attribute",
+      "name": "Attribute",
+      "description": "Named entity mentioned in BloombergGPT."
+    },
+    {
+      "id": "entity:detail",
+      "name": "Detail",
+      "description": "Named entity mentioned in BloombergGPT."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:bloomberggpt-693c071e:1",
+      "text": "title: BloombergGPT tags: finance/platform, llm/specialized, bloomberg # BloombergGPT ## Overview BloombergGPT is a financial-domain-specific large language model developed by Bloomberg.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "bloomberggpt-693c071e"
+    },
+    {
+      "id": "claim:bloomberggpt-693c071e:2",
+      "text": "Trained on a mix of public and proprietary financial data, it is designed for financial analysis, news summarization, and market research tasks.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "bloomberggpt-693c071e"
+    },
+    {
+      "id": "claim:bloomberggpt-693c071e:3",
+      "text": "## Key Characteristics | Attribute | Detail | |-----------|--------| | Developer | Bloomberg L.P.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "bloomberggpt-693c071e"
+    },
+    {
+      "id": "claim:bloomberggpt-693c071e:4",
+      "text": "| | Architecture | Decoder-only transformer | | Training Data | Bloomberg proprietary + public financial text | | Access | Bloomberg Terminal integration | | Use Cases | Financial analysis, news sentiment, research | ## Capabilities - Financial news summarization and sentiment extraction - Earnings call transcript analysis - Market event impact assessment - Regulatory filing comprehension - Multi-language financial document processing ## Competitive Position - Strengths : Unmatched access to proprietary financial data, deep domain specialization, integrated with Bloomberg Terminal workflow - Weaknesses : Closed ecosystem, Terminal-only access, expensive - vs.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "bloomberggpt-693c071e"
+    }
+  ],
+  "questions": [
+    "How does financial relate to BloombergGPT?",
+    "How does bloomberg relate to BloombergGPT?",
+    "How does bloomberggpt relate to BloombergGPT?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:49.448Z"
+}

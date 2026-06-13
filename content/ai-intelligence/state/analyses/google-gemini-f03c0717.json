@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "google-gemini-f03c0717",
+  "sourceHash": "f03c07178ec2c76868d8ae49b59fd481a6e25260e689cee5a4c36d349215a747",
+  "semanticHash": "1e0d897a297730a80f271159fc08b33fa31114e5d46085f13819aba818bcffd9",
+  "extractionHash": "6d1c26eb1b9c9d2ba6f716b74a1a6498556e1cf14156431eda8e2ebc9df97582",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Google Gemini",
+  "summary": "title: Google Gemini tags: provider, lab, cloud-platform, model, reasoning, coding, vision, audio, multimodal, agentic, tool-use, pricing, api, closed, token-cost, timeline # Google Gemini ## Overview Google Gemini is Google's family of large language models developed by Google DeepMind, formed from the merger of Google Brain and DeepMind. First released in December 2023 (as Gemini 1.0, succeeding the earlier Bard product), Gemini represents Google's unified AI strategy for multimodal understanding, reasoning, and generation. Gemini is distinguished by its deep integration across Google's product ecosystem — including Search, Workspace (Docs, Sheets, Gmail, Slides), Android, and Chrome.",
+  "concepts": [
+    {
+      "id": "concept:gemini",
+      "name": "gemini",
+      "description": "Frequently referenced concept in Google Gemini."
+    },
+    {
+      "id": "concept:google",
+      "name": "google",
+      "description": "Frequently referenced concept in Google Gemini."
+    },
+    {
+      "id": "concept:flash",
+      "name": "flash",
+      "description": "Frequently referenced concept in Google Gemini."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in Google Gemini."
+    },
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in Google Gemini."
+    },
+    {
+      "id": "concept:cloud",
+      "name": "cloud",
+      "description": "Frequently referenced concept in Google Gemini."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:google-gemini",
+      "name": "Google Gemini",
+      "description": "Named entity mentioned in Google Gemini."
+    },
+    {
+      "id": "entity:overview-google-gemini",
+      "name": "Overview Google Gemini",
+      "description": "Named entity mentioned in Google Gemini."
+    },
+    {
+      "id": "entity:google-s",
+      "name": "Google's",
+      "description": "Named entity mentioned in Google Gemini."
+    },
+    {
+      "id": "entity:google-deepmind",
+      "name": "Google DeepMind,",
+      "description": "Named entity mentioned in Google Gemini."
+    },
+    {
+      "id": "entity:google-brain",
+      "name": "Google Brain",
+      "description": "Named entity mentioned in Google Gemini."
+    },
+    {
+      "id": "entity:deepmind",
+      "name": "DeepMind.",
+      "description": "Named entity mentioned in Google Gemini."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:google-gemini-f03c0717:1",
+      "text": "title: Google Gemini tags: provider, lab, cloud-platform, model, reasoning, coding, vision, audio, multimodal, agentic, tool-use, pricing, api, closed, token-cost, timeline # Google Gemini ## Overview Google Gemini is Google's family of large language models developed by Google DeepMind, formed from the merger of Google Brain and DeepMind.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "google-gemini-f03c0717"
+    },
+    {
+      "id": "claim:google-gemini-f03c0717:2",
+      "text": "First released in December 2023 (as Gemini 1.0, succeeding the earlier Bard product), Gemini represents Google's unified AI strategy for multimodal understanding, reasoning, and generation.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "google-gemini-f03c0717"
+    },
+    {
+      "id": "claim:google-gemini-f03c0717:3",
+      "text": "Gemini is distinguished by its deep integration across Google's product ecosystem — including Search, Workspace (Docs, Sheets, Gmail, Slides), Android, and Chrome.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "google-gemini-f03c0717"
+    },
+    {
+      "id": "claim:google-gemini-f03c0717:4",
+      "text": "The company leverages custom TPU (Tensor Processing Unit) hardware and Google Cloud data centers for compute infrastructure.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "google-gemini-f03c0717"
+    }
+  ],
+  "questions": [
+    "How does gemini relate to Google Gemini?",
+    "How does google relate to Google Gemini?",
+    "How does flash relate to Google Gemini?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:49.666Z"
+}

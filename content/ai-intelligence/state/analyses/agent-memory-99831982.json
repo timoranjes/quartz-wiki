@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "agent-memory-99831982",
+  "sourceHash": "99831982b0569963c60a9cc2a5a28283eb49492c40700d71a8582419015ccd2c",
+  "semanticHash": "bae2496da194d5739ff483e9bba0b0188104c5333d2e60cdcf5b89b0943278cf",
+  "extractionHash": "a68c89cbdb2e48068aa5c38be1f7a3b4e2e629b83eee0fba6f16ba38fbb537c3",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Agent Memory",
+  "summary": "title: Agent Memory tags: memory, agent-architecture, reasoning # Agent Memory ## Overview Long-running LLM agents accumulate interaction histories far larger than any context window, forcing a standing decision: what to encode deeply, what to forget, and what to retrieve under a fixed memory budget. Agent memory systems must solve the consolidation problem — deciding what to remember before the future query is known. ## The Core Problem Production systems default to semantic similarity or recency for memory management — both are mis-specified for the forgetting decision: - Semantic similarity requires knowing what will be queried - Recency discards old-but-critical information arbitrarily - The forgetting decision is made at consolidation time, before future queries are known ## Multi-Factor Memory Value Model (June 2026) Research (arXiv:2606.12945) proposes a cognitively grounded approach to the memory consolidation problem.",
+  "concepts": [
+    {
+      "id": "concept:memory",
+      "name": "memory",
+      "description": "Frequently referenced concept in Agent Memory."
+    },
+    {
+      "id": "concept:agent",
+      "name": "agent",
+      "description": "Frequently referenced concept in Agent Memory."
+    },
+    {
+      "id": "concept:forgetting",
+      "name": "forgetting",
+      "description": "Frequently referenced concept in Agent Memory."
+    },
+    {
+      "id": "concept:what",
+      "name": "what",
+      "description": "Frequently referenced concept in Agent Memory."
+    },
+    {
+      "id": "concept:decision",
+      "name": "decision",
+      "description": "Frequently referenced concept in Agent Memory."
+    },
+    {
+      "id": "concept:learned",
+      "name": "learned",
+      "description": "Frequently referenced concept in Agent Memory."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:agent-memory",
+      "name": "Agent Memory",
+      "description": "Named entity mentioned in Agent Memory."
+    },
+    {
+      "id": "entity:overview-long",
+      "name": "Overview Long-",
+      "description": "Named entity mentioned in Agent Memory."
+    },
+    {
+      "id": "entity:the-core-problem-production-systems",
+      "name": "The Core Problem Production systems",
+      "description": "Named entity mentioned in Agent Memory."
+    },
+    {
+      "id": "entity:semantic",
+      "name": "Semantic",
+      "description": "Named entity mentioned in Agent Memory."
+    },
+    {
+      "id": "entity:recency",
+      "name": "Recency",
+      "description": "Named entity mentioned in Agent Memory."
+    },
+    {
+      "id": "entity:multi-factor-memory-value-model",
+      "name": "Multi-Factor Memory Value Model",
+      "description": "Named entity mentioned in Agent Memory."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:agent-memory-99831982:1",
+      "text": "title: Agent Memory tags: memory, agent-architecture, reasoning # Agent Memory ## Overview Long-running LLM agents accumulate interaction histories far larger than any context window, forcing a standing decision: what to encode deeply, what to forget, and what to retrieve under a fixed memory budget.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "agent-memory-99831982"
+    },
+    {
+      "id": "claim:agent-memory-99831982:2",
+      "text": "Agent memory systems must solve the consolidation problem — deciding what to remember before the future query is known.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "agent-memory-99831982"
+    },
+    {
+      "id": "claim:agent-memory-99831982:3",
+      "text": "## The Core Problem Production systems default to semantic similarity or recency for memory management — both are mis-specified for the forgetting decision: - Semantic similarity requires knowing what will be queried - Recency discards old-but-critical information arbitrarily - The forgetting decision is made at consolidation time, before future queries are known ## Multi-Factor Memory Value Model (June 2026) Research (arXiv:2606.12945) proposes a cognitively grounded approach to the memory consolidation problem.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "agent-memory-99831982"
+    },
+    {
+      "id": "claim:agent-memory-99831982:4",
+      "text": "### Architecture - Memory value function : V(m) = Σᵢ wᵢ fᵢ(m) over seven interpretable factors - Seven factors (drawn from cognitive psychology): 1.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "agent-memory-99831982"
+    }
+  ],
+  "questions": [
+    "How does memory relate to Agent Memory?",
+    "How does agent relate to Agent Memory?",
+    "How does forgetting relate to Agent Memory?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:48.895Z"
+}

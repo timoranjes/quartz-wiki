@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "github-copilot-57767a0f",
+  "sourceHash": "57767a0fa768023359b948131d9202a32308eea3152c931658788369cf53ab75",
+  "semanticHash": "194b066943039c06c6191244d773dc3d6d156704a29e0b9c4b8007013d892b3b",
+  "extractionHash": "8bef851f5b156a1f84c759527a8ba810dc89e4be5a7f36858afa6a8dfad16bbc",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "GitHub Copilot",
+  "summary": "title: GitHub Copilot tags: coding-agent, github, openai, llm-provider # GitHub Copilot GitHub's AI coding assistant, evolved from autocomplete to full agent capabilities with Copilot Workspace. Moved to usage-based billing on June 1, 2026. ## Overview - Developer : GitHub (Microsoft) - Backend Model : GPT-4o, GPT-5.5, Claude (via model marketplace) - Interface : IDE extensions (VS Code, JetBrains), GitHub.com, CLI ( github-copilot-cli ) - Pricing : Copilot Pro ($10/mo, 1,500 AI Credits), Pro+ (with $39/mo AI Credits), Business ($19/user/mo), Enterprise (custom, up to 20,000 credits), Max (new tier) - Open Source : CLI tools open source, core model proprietary ## Key Capabilities - Code completion and generation in IDE - Copilot Chat for conversational code assistance - Copilot Workspace for task-level autonomous work - PR summarization and code review - GitHub ecosystem integration (issues, PRs, Actions) - Agent Mode : Autonomous coding assistant that automates repetitive coding tasks, resolves runtime errors autonomously, and includes self-healing capabilities.",
+  "concepts": [
+    {
+      "id": "concept:copilot",
+      "name": "copilot",
+      "description": "Frequently referenced concept in GitHub Copilot."
+    },
+    {
+      "id": "concept:github",
+      "name": "github",
+      "description": "Frequently referenced concept in GitHub Copilot."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in GitHub Copilot."
+    },
+    {
+      "id": "concept:based",
+      "name": "based",
+      "description": "Frequently referenced concept in GitHub Copilot."
+    },
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in GitHub Copilot."
+    },
+    {
+      "id": "concept:code",
+      "name": "code",
+      "description": "Frequently referenced concept in GitHub Copilot."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:github-copilot",
+      "name": "GitHub Copilot",
+      "description": "Named entity mentioned in GitHub Copilot."
+    },
+    {
+      "id": "entity:github",
+      "name": "github,",
+      "description": "Named entity mentioned in GitHub Copilot."
+    },
+    {
+      "id": "entity:github-copilot-github-s",
+      "name": "GitHub Copilot GitHub's",
+      "description": "Named entity mentioned in GitHub Copilot."
+    },
+    {
+      "id": "entity:copilot-workspace",
+      "name": "Copilot Workspace.",
+      "description": "Named entity mentioned in GitHub Copilot."
+    },
+    {
+      "id": "entity:overview-developer-github-microsoft-backend-model",
+      "name": "Overview - Developer : GitHub (Microsoft) - Backend Model :",
+      "description": "Named entity mentioned in GitHub Copilot."
+    },
+    {
+      "id": "entity:claude",
+      "name": "Claude",
+      "description": "Named entity mentioned in GitHub Copilot."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:github-copilot-57767a0f:1",
+      "text": "title: GitHub Copilot tags: coding-agent, github, openai, llm-provider # GitHub Copilot GitHub's AI coding assistant, evolved from autocomplete to full agent capabilities with Copilot Workspace.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "github-copilot-57767a0f"
+    },
+    {
+      "id": "claim:github-copilot-57767a0f:2",
+      "text": "Moved to usage-based billing on June 1, 2026.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "github-copilot-57767a0f"
+    },
+    {
+      "id": "claim:github-copilot-57767a0f:3",
+      "text": "## Overview - Developer : GitHub (Microsoft) - Backend Model : GPT-4o, GPT-5.5, Claude (via model marketplace) - Interface : IDE extensions (VS Code, JetBrains), GitHub.com, CLI ( github-copilot-cli ) - Pricing : Copilot Pro ($10/mo, 1,500 AI Credits), Pro+ (with $39/mo AI Credits), Business ($19/user/mo), Enterprise (custom, up to 20,000 credits), Max (new tier) - Open Source : CLI tools open source, core model proprietary ## Key Capabilities - Code completion and generation in IDE - Copilot Chat for conversational code assistance - Copilot Workspace for task-level autonomous work - PR summarization and code review - GitHub ecosystem integration (issues, PRs, Actions) - Agent Mode : Autonomous coding assistant that automates repetitive coding tasks, resolves runtime errors autonomously, and includes self-healing capabilities.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "github-copilot-57767a0f"
+    },
+    {
+      "id": "claim:github-copilot-57767a0f:4",
+      "text": "Elevates Copilot from pair programmer to autonomous coding assistant.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "github-copilot-57767a0f"
+    }
+  ],
+  "questions": [
+    "How does copilot relate to GitHub Copilot?",
+    "How does github relate to GitHub Copilot?",
+    "How does model relate to GitHub Copilot?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:49.492Z"
+}

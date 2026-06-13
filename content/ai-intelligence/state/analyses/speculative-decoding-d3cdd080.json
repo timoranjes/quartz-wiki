@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "speculative-decoding-d3cdd080",
+  "sourceHash": "d3cdd0807cd2087ca90a2fc22ac7aed216c93bf6c18374e910e99cd172d5ab50",
+  "semanticHash": "a81c5351ed96b9229852671b30fdb187c3367c763c1d3a0f47ea2b985bf95e9d",
+  "extractionHash": "96b4e666585ae8361a329a1881ae99a3dea40ba24b31f70dbec3713a8fc6b97c",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Speculative Decoding",
+  "summary": "title: Speculative Decoding tags: optimization, inference, latency # Speculative Decoding ## Overview Speculative decoding accelerates autoregressive generation by having a smaller, faster \"draft\" model predict multiple tokens ahead, which the larger target model verifies in a single forward pass. This achieves 2-4× throughput improvement without quality degradation. ## Core Mechanism 1.",
+  "concepts": [
+    {
+      "id": "concept:draft",
+      "name": "draft",
+      "description": "Frequently referenced concept in Speculative Decoding."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in Speculative Decoding."
+    },
+    {
+      "id": "concept:target",
+      "name": "target",
+      "description": "Frequently referenced concept in Speculative Decoding."
+    },
+    {
+      "id": "concept:tokens",
+      "name": "tokens",
+      "description": "Frequently referenced concept in Speculative Decoding."
+    },
+    {
+      "id": "concept:acceptance",
+      "name": "acceptance",
+      "description": "Frequently referenced concept in Speculative Decoding."
+    },
+    {
+      "id": "concept:decoding",
+      "name": "decoding",
+      "description": "Frequently referenced concept in Speculative Decoding."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:speculative-decoding",
+      "name": "Speculative Decoding",
+      "description": "Named entity mentioned in Speculative Decoding."
+    },
+    {
+      "id": "entity:overview-speculative",
+      "name": "Overview Speculative",
+      "description": "Named entity mentioned in Speculative Decoding."
+    },
+    {
+      "id": "entity:lightweight",
+      "name": "Lightweight",
+      "description": "Named entity mentioned in Speculative Decoding."
+    },
+    {
+      "id": "entity:target",
+      "name": "Target",
+      "description": "Named entity mentioned in Speculative Decoding."
+    },
+    {
+      "id": "entity:tokens",
+      "name": "Tokens",
+      "description": "Named entity mentioned in Speculative Decoding."
+    },
+    {
+      "id": "entity:achieved",
+      "name": "Achieved",
+      "description": "Named entity mentioned in Speculative Decoding."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:speculative-decoding-d3cdd080:1",
+      "text": "title: Speculative Decoding tags: optimization, inference, latency # Speculative Decoding ## Overview Speculative decoding accelerates autoregressive generation by having a smaller, faster \"draft\" model predict multiple tokens ahead, which the larger target model verifies in a single forward pass.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "speculative-decoding-d3cdd080"
+    },
+    {
+      "id": "claim:speculative-decoding-d3cdd080:2",
+      "text": "This achieves 2-4× throughput improvement without quality degradation.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "speculative-decoding-d3cdd080"
+    },
+    {
+      "id": "claim:speculative-decoding-d3cdd080:3",
+      "text": "## Core Mechanism 1.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "speculative-decoding-d3cdd080"
+    },
+    {
+      "id": "claim:speculative-decoding-d3cdd080:4",
+      "text": "Drafting : Lightweight model generates k candidate tokens in parallel 2.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "speculative-decoding-d3cdd080"
+    }
+  ],
+  "questions": [
+    "How does draft relate to Speculative Decoding?",
+    "How does model relate to Speculative Decoding?",
+    "How does target relate to Speculative Decoding?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.828Z"
+}

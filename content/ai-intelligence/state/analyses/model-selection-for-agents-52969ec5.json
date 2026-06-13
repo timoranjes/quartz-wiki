@@ -1,0 +1,100 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "model-selection-for-agents-52969ec5",
+  "sourceHash": "52969ec5783f5a327fd22d7d13023b7e6c999c147219556e987cd1b40b417438",
+  "semanticHash": "f788635e8dd02bea078cf89baf1613a2b9b14c4825da6e9f9eed49a4fe331688",
+  "extractionHash": "d0240480d94b9cea282dfb45364170d7c19db38e3865e5dd4573a01aa75c796b",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Model Selection for Agents",
+  "summary": "title: Model Selection for Agents tags: model-selection, agent-architecture # Model Selection for Agents ## Overview Choosing the right model for agent workloads involves balancing reasoning quality, tool-calling ability, latency, and cost. ## Decision Factors ### Reasoning Depth - Deep reasoning (coding, math, analysis) → frontier models - Mechanical ops (formatting, routing, extraction) → smaller/cheaper models ### Tool Use Quality - Some models excel at function calling (structured output, correct argument types) - Others hallucinate tool arguments or skip tool calls entirely ### Context Window - Longer windows enable more conversation history + RAG context - But cost scales with context size ### Latency - Interactive agents need <3s response time - Batch agents can tolerate longer ## Routing Strategy | Task Type | Model Tier | Rationale | |-----------|-----------|-----------| | Complex reasoning | Frontier | Worth the cost | | Simple classification | Mid-tier | Good enough, cheaper | | Formatting/extraction | Budget | Mechanical, low reasoning | | Multi-step planning | Frontier + reasoning | Needs chain of thought | ## Related - [[evaluation-benchmarks]] - [[multi-agent-orchestration]]",
+  "concepts": [
+    {
+      "id": "concept:reasoning",
+      "name": "reasoning",
+      "description": "Frequently referenced concept in Model Selection for Agents."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in Model Selection for Agents."
+    },
+    {
+      "id": "concept:agents",
+      "name": "agents",
+      "description": "Frequently referenced concept in Model Selection for Agents."
+    },
+    {
+      "id": "concept:tool",
+      "name": "tool",
+      "description": "Frequently referenced concept in Model Selection for Agents."
+    },
+    {
+      "id": "concept:context",
+      "name": "context",
+      "description": "Frequently referenced concept in Model Selection for Agents."
+    },
+    {
+      "id": "concept:cost",
+      "name": "cost",
+      "description": "Frequently referenced concept in Model Selection for Agents."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:selection",
+      "name": "Selection",
+      "description": "Named entity mentioned in Model Selection for Agents."
+    },
+    {
+      "id": "entity:agents",
+      "name": "Agents",
+      "description": "Named entity mentioned in Model Selection for Agents."
+    },
+    {
+      "id": "entity:model-selection",
+      "name": "Model Selection",
+      "description": "Named entity mentioned in Model Selection for Agents."
+    },
+    {
+      "id": "entity:overview-choosing",
+      "name": "Overview Choosing",
+      "description": "Named entity mentioned in Model Selection for Agents."
+    },
+    {
+      "id": "entity:decision-factors",
+      "name": "Decision Factors",
+      "description": "Named entity mentioned in Model Selection for Agents."
+    },
+    {
+      "id": "entity:reasoning-depth-deep",
+      "name": "Reasoning Depth - Deep",
+      "description": "Named entity mentioned in Model Selection for Agents."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:model-selection-for-agents-52969ec5:1",
+      "text": "title: Model Selection for Agents tags: model-selection, agent-architecture # Model Selection for Agents ## Overview Choosing the right model for agent workloads involves balancing reasoning quality, tool-calling ability, latency, and cost.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "model-selection-for-agents-52969ec5"
+    },
+    {
+      "id": "claim:model-selection-for-agents-52969ec5:2",
+      "text": "## Decision Factors ### Reasoning Depth - Deep reasoning (coding, math, analysis) → frontier models - Mechanical ops (formatting, routing, extraction) → smaller/cheaper models ### Tool Use Quality - Some models excel at function calling (structured output, correct argument types) - Others hallucinate tool arguments or skip tool calls entirely ### Context Window - Longer windows enable more conversation history + RAG context - But cost scales with context size ### Latency - Interactive agents need <3s response time - Batch agents can tolerate longer ## Routing Strategy | Task Type | Model Tier | Rationale | |-----------|-----------|-----------| | Complex reasoning | Frontier | Worth the cost | | Simple classification | Mid-tier | Good enough, cheaper | | Formatting/extraction | Budget | Mechanical, low reasoning | | Multi-step planning | Frontier + reasoning | Needs chain of thought | ## Related - [[evaluation-benchmarks]] - [[multi-agent-orchestration]]",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "model-selection-for-agents-52969ec5"
+    }
+  ],
+  "questions": [
+    "How does reasoning relate to Model Selection for Agents?",
+    "How does model relate to Model Selection for Agents?",
+    "How does agents relate to Model Selection for Agents?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.119Z"
+}

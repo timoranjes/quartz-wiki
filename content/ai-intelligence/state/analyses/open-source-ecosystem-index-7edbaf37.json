@@ -1,0 +1,108 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "open-source-ecosystem-index-7edbaf37",
+  "sourceHash": "7edbaf37b988a2eaeb5ebad3439172aefc78ded94b910f3ceaac76e322ddbc46",
+  "semanticHash": "5b526d867526265c77a3494ea93db9b6851ef8c5009229b879881b0562d5c785",
+  "extractionHash": "be9f11e4cbd855deae585fda84a6c29dfe1dc8f655b477fe8fba11223ad8ef8b",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Open-Source Ecosystem — Index",
+  "summary": "Open-Source Ecosystem — Index > Open-weight models, community benchmarks, local-first tools, and the open-source AI landscape. > Added 2026-06-04 as part of wiki expansion. ## Model Hubs & Platforms - [[hugging-face]] — Hugging Face - [[civitai]] — Civitai - [[modelscope]] — ModelScope (Alibaba) ## Local-First Tools - [[ollama]] — Ollama - [[lm-studio]] — LM Studio - [[jan]] — Jan AI - [[open-webui]] — Open WebUI ## Open-Weight Models - [[llama-community]] — Llama Community Models - [[mistral-open-weights]] — Mistral Open Releases - [[qwen-open-source]] — Qwen Open-Source Lineage - [[phi-open-source]] — Microsoft Phi Open Releases ## Concepts - [[open-weight-vs-open-source]] — Open-Weight vs Open-Source - [[community-benchmarks]] — Community Benchmark Ecosystem - [[model-commoditization]] — Model Commoditization Risk - [[synthetic-data]] — Synthetic Data for Training ## Cross-References - Providers : See [[llm-providers]] for commercial provider pages - Supply Chain : See [[wiki-ai-supply-chain]] for GPU/hardware for local inference --- Last updated: 2026-06-04 (initial seed)",
+  "concepts": [
+    {
+      "id": "concept:open",
+      "name": "open",
+      "description": "Frequently referenced concept in Open-Source Ecosystem — Index."
+    },
+    {
+      "id": "concept:source",
+      "name": "source",
+      "description": "Frequently referenced concept in Open-Source Ecosystem — Index."
+    },
+    {
+      "id": "concept:community",
+      "name": "community",
+      "description": "Frequently referenced concept in Open-Source Ecosystem — Index."
+    },
+    {
+      "id": "concept:local",
+      "name": "local",
+      "description": "Frequently referenced concept in Open-Source Ecosystem — Index."
+    },
+    {
+      "id": "concept:models",
+      "name": "models",
+      "description": "Frequently referenced concept in Open-Source Ecosystem — Index."
+    },
+    {
+      "id": "concept:weight",
+      "name": "weight",
+      "description": "Frequently referenced concept in Open-Source Ecosystem — Index."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:source-ecosystem-index",
+      "name": "Source Ecosystem — Index",
+      "description": "Named entity mentioned in Open-Source Ecosystem — Index."
+    },
+    {
+      "id": "entity:open",
+      "name": "Open-",
+      "description": "Named entity mentioned in Open-Source Ecosystem — Index."
+    },
+    {
+      "id": "entity:added",
+      "name": "Added",
+      "description": "Named entity mentioned in Open-Source Ecosystem — Index."
+    },
+    {
+      "id": "entity:model-hubs-platforms",
+      "name": "Model Hubs & Platforms -",
+      "description": "Named entity mentioned in Open-Source Ecosystem — Index."
+    },
+    {
+      "id": "entity:hugging-face",
+      "name": "Hugging Face -",
+      "description": "Named entity mentioned in Open-Source Ecosystem — Index."
+    },
+    {
+      "id": "entity:civitai",
+      "name": "Civitai -",
+      "description": "Named entity mentioned in Open-Source Ecosystem — Index."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:open-source-ecosystem-index-7edbaf37:1",
+      "text": "Open-Source Ecosystem — Index > Open-weight models, community benchmarks, local-first tools, and the open-source AI landscape.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "open-source-ecosystem-index-7edbaf37"
+    },
+    {
+      "id": "claim:open-source-ecosystem-index-7edbaf37:2",
+      "text": "> Added 2026-06-04 as part of wiki expansion.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "open-source-ecosystem-index-7edbaf37"
+    },
+    {
+      "id": "claim:open-source-ecosystem-index-7edbaf37:3",
+      "text": "## Model Hubs & Platforms - [[hugging-face]] — Hugging Face - [[civitai]] — Civitai - [[modelscope]] — ModelScope (Alibaba) ## Local-First Tools - [[ollama]] — Ollama - [[lm-studio]] — LM Studio - [[jan]] — Jan AI - [[open-webui]] — Open WebUI ## Open-Weight Models - [[llama-community]] — Llama Community Models - [[mistral-open-weights]] — Mistral Open Releases - [[qwen-open-source]] — Qwen Open-Source Lineage - [[phi-open-source]] — Microsoft Phi Open Releases ## Concepts - [[open-weight-vs-open-source]] — Open-Weight vs Open-Source - [[community-benchmarks]] — Community Benchmark Ecosystem - [[model-commoditization]] — Model Commoditization Risk - [[synthetic-data]] — Synthetic Data for Training ## Cross-References - Providers : See [[llm-providers]] for commercial provider pages - Supply Chain : See [[wiki-ai-supply-chain]] for GPU/hardware for local inference --- Last updated: 2026-06-04 (initial seed)",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "open-source-ecosystem-index-7edbaf37"
+    }
+  ],
+  "questions": [
+    "How does open relate to Open-Source Ecosystem — Index?",
+    "How does source relate to Open-Source Ecosystem — Index?",
+    "How does community relate to Open-Source Ecosystem — Index?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.289Z"
+}

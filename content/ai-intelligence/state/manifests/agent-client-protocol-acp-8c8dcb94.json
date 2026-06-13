@@ -1,0 +1,18 @@
+{
+  "sourceId": "agent-client-protocol-acp-8c8dcb94",
+  "title": "Agent Client Protocol (ACP)",
+  "originType": "file",
+  "sourceKind": "markdown",
+  "sourceClass": "first_party",
+  "originalPath": "/Users/zichengliao/Library/Mobile Documents/iCloud~md~obsidian/Documents/wiki-ai-intelligence/raw/sources/obsidian-ai-agents/concepts/acp-protocol.md",
+  "repoRelativePath": "concepts/acp-protocol.md",
+  "storedPath": "raw/sources/agent-client-protocol-acp-8c8dcb94.md",
+  "extractedTextPath": "state/extracts/agent-client-protocol-acp-8c8dcb94.md",
+  "extractedMetadataPath": "state/extracts/agent-client-protocol-acp-8c8dcb94.json",
+  "extractionHash": "253116aa26bfbc47c6ef6d07f366c42eac1be813425a6c7c614d08a45320a8ec",
+  "mimeType": "text/markdown",
+  "contentHash": "8c8dcb946820b606b36c291075c2021ebbdf81d10fbe925911d62a9bbe1fb669",
+  "semanticHash": "23d9d037dd2fcb6f15036cf10e40d6531f7e62d40c6b10c95433997f81e1f075",
+  "createdAt": "2026-06-13T21:03:40.980Z",
+  "updatedAt": "2026-06-13T21:03:40.980Z"
+}

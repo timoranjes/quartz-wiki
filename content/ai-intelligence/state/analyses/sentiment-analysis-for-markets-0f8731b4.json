@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "sentiment-analysis-for-markets-0f8731b4",
+  "sourceHash": "0f8731b48ba4dae389e4eaa4d8a767b0b41b0a08014b1f51860ccd1371d76f47",
+  "semanticHash": "d4cb57e4b3f9fa5438ab5c5c05d7158d3327c4cace9f8e3ae1cf78e6364d51dc",
+  "extractionHash": "4ce267a2a5e704a97a51e61f6e941ee199c50ac32165f878e1ad069145efa514",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Sentiment Analysis for Markets",
+  "summary": "title: Sentiment Analysis for Markets tags: finance/application, nlp, sentiment # Sentiment Analysis for Markets ## Overview Using NLP and LLMs to extract sentiment signals from financial text sources — news, social media, earnings calls, regulatory filings — and translate them into actionable market signals. ## Data Sources | Source | Frequency | Signal Type | Noise Level | |--------|-----------|-------------|-------------| | News wires (Reuters, Bloomberg) | Real-time | Event-driven sentiment | Low | | Earnings calls | Quarterly | Management tone, guidance | Medium | | SEC filings | Event-driven | Risk factor changes | Low | | Social media (X, Reddit) | Real-time | Retail sentiment | High | | Analyst reports | Daily | Professional sentiment | Low | | Central bank communications | Event-driven | Policy tone | Low | ## LLM Approaches ### Zero-Shot Classification - Prompt-based sentiment scoring without fine-tuning - Fast to deploy, moderate accuracy - Best for: news headlines, earnings call snippets ### Fine-Tuned Models - Domain-specific models trained on labeled financial text - Higher accuracy, requires training data - Best for: earnings calls, analyst reports ### Multi-Modal Sentiment - Combining text with audio/video from earnings calls - Tone of voice analysis + transcript sentiment - Best for: CEO/CFO communication analysis ## Key Metrics - Sentiment polarity — Positive/Neutral/Negative scoring - Sentiment intensity — Magnitude of sentiment signal - Sentiment velocity — Rate of sentiment change over time - Cross-source consensus — Agreement across different sources ## Application to Trading 1. Pre-earnings — Social sentiment as contrarian indicator 2.",
+  "concepts": [
+    {
+      "id": "concept:sentiment",
+      "name": "sentiment",
+      "description": "Frequently referenced concept in Sentiment Analysis for Markets."
+    },
+    {
+      "id": "concept:earnings",
+      "name": "earnings",
+      "description": "Frequently referenced concept in Sentiment Analysis for Markets."
+    },
+    {
+      "id": "concept:analysis",
+      "name": "analysis",
+      "description": "Frequently referenced concept in Sentiment Analysis for Markets."
+    },
+    {
+      "id": "concept:calls",
+      "name": "calls",
+      "description": "Frequently referenced concept in Sentiment Analysis for Markets."
+    },
+    {
+      "id": "concept:news",
+      "name": "news",
+      "description": "Frequently referenced concept in Sentiment Analysis for Markets."
+    },
+    {
+      "id": "concept:social",
+      "name": "social",
+      "description": "Frequently referenced concept in Sentiment Analysis for Markets."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:sentiment-analysis",
+      "name": "Sentiment Analysis",
+      "description": "Named entity mentioned in Sentiment Analysis for Markets."
+    },
+    {
+      "id": "entity:markets",
+      "name": "Markets",
+      "description": "Named entity mentioned in Sentiment Analysis for Markets."
+    },
+    {
+      "id": "entity:overview-using",
+      "name": "Overview Using",
+      "description": "Named entity mentioned in Sentiment Analysis for Markets."
+    },
+    {
+      "id": "entity:data-sources",
+      "name": "Data Sources",
+      "description": "Named entity mentioned in Sentiment Analysis for Markets."
+    },
+    {
+      "id": "entity:source",
+      "name": "Source",
+      "description": "Named entity mentioned in Sentiment Analysis for Markets."
+    },
+    {
+      "id": "entity:frequency",
+      "name": "Frequency",
+      "description": "Named entity mentioned in Sentiment Analysis for Markets."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:sentiment-analysis-for-markets-0f8731b4:1",
+      "text": "title: Sentiment Analysis for Markets tags: finance/application, nlp, sentiment # Sentiment Analysis for Markets ## Overview Using NLP and LLMs to extract sentiment signals from financial text sources — news, social media, earnings calls, regulatory filings — and translate them into actionable market signals.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "sentiment-analysis-for-markets-0f8731b4"
+    },
+    {
+      "id": "claim:sentiment-analysis-for-markets-0f8731b4:2",
+      "text": "## Data Sources | Source | Frequency | Signal Type | Noise Level | |--------|-----------|-------------|-------------| | News wires (Reuters, Bloomberg) | Real-time | Event-driven sentiment | Low | | Earnings calls | Quarterly | Management tone, guidance | Medium | | SEC filings | Event-driven | Risk factor changes | Low | | Social media (X, Reddit) | Real-time | Retail sentiment | High | | Analyst reports | Daily | Professional sentiment | Low | | Central bank communications | Event-driven | Policy tone | Low | ## LLM Approaches ### Zero-Shot Classification - Prompt-based sentiment scoring without fine-tuning - Fast to deploy, moderate accuracy - Best for: news headlines, earnings call snippets ### Fine-Tuned Models - Domain-specific models trained on labeled financial text - Higher accuracy, requires training data - Best for: earnings calls, analyst reports ### Multi-Modal Sentiment - Combining text with audio/video from earnings calls - Tone of voice analysis + transcript sentiment - Best for: CEO/CFO communication analysis ## Key Metrics - Sentiment polarity — Positive/Neutral/Negative scoring - Sentiment intensity — Magnitude of sentiment signal - Sentiment velocity — Rate of sentiment change over time - Cross-source consensus — Agreement across different sources ## Application to Trading 1.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "sentiment-analysis-for-markets-0f8731b4"
+    },
+    {
+      "id": "claim:sentiment-analysis-for-markets-0f8731b4:3",
+      "text": "Pre-earnings — Social sentiment as contrarian indicator 2.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "sentiment-analysis-for-markets-0f8731b4"
+    },
+    {
+      "id": "claim:sentiment-analysis-for-markets-0f8731b4:4",
+      "text": "Post-earnings — LLM analysis of call vs.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "sentiment-analysis-for-markets-0f8731b4"
+    }
+  ],
+  "questions": [
+    "How does sentiment relate to Sentiment Analysis for Markets?",
+    "How does earnings relate to Sentiment Analysis for Markets?",
+    "How does analysis relate to Sentiment Analysis for Markets?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.750Z"
+}

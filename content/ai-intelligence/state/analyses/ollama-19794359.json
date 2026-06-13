@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "ollama-19794359",
+  "sourceHash": "1979435934243ec456f5f56262517fb62fee9e85849e2769660dff59dce23cf8",
+  "semanticHash": "60d92951c7d10570aa44bb0e5dea6eca52ba4ef42889ddfb72dda5009460e92d",
+  "extractionHash": "a7720ad139ae4cdb9709f485059f228c7feb6ff74bc3f9689c1e61320d3b42d7",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Ollama",
+  "summary": "title: Ollama tags: open-source/tool, local-inference, deployment # Ollama ## Overview Ollama is a local-first tool for running open-weight LLMs on consumer hardware. It simplifies downloading, quantizing, and serving models via a local API. ## Key Features - One-command model runs — ollama run llama3 downloads and starts inference - Quantization — Automatic GGUF quantization for memory efficiency - Local API — OpenAI-compatible API endpoint at localhost:11434 - Model Library — Curated catalog of supported models - Modelfile — Custom model configurations with system prompts ## Supported Models Llama 3, Qwen 2, Mistral, Phi 3, Gemma, DeepSeek Coder, CodeLlama, and 100+ more via community contributions.",
+  "concepts": [
+    {
+      "id": "concept:ollama",
+      "name": "ollama",
+      "description": "Frequently referenced concept in Ollama."
+    },
+    {
+      "id": "concept:local",
+      "name": "local",
+      "description": "Frequently referenced concept in Ollama."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in Ollama."
+    },
+    {
+      "id": "concept:quantization",
+      "name": "quantization",
+      "description": "Frequently referenced concept in Ollama."
+    },
+    {
+      "id": "concept:agent",
+      "name": "agent",
+      "description": "Frequently referenced concept in Ollama."
+    },
+    {
+      "id": "concept:first",
+      "name": "first",
+      "description": "Frequently referenced concept in Ollama."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:ollama",
+      "name": "Ollama",
+      "description": "Named entity mentioned in Ollama."
+    },
+    {
+      "id": "entity:overview-ollama",
+      "name": "Overview Ollama",
+      "description": "Named entity mentioned in Ollama."
+    },
+    {
+      "id": "entity:key-features-one",
+      "name": "Key Features - One-",
+      "description": "Named entity mentioned in Ollama."
+    },
+    {
+      "id": "entity:quantization-automatic",
+      "name": "Quantization — Automatic",
+      "description": "Named entity mentioned in Ollama."
+    },
+    {
+      "id": "entity:local",
+      "name": "Local",
+      "description": "Named entity mentioned in Ollama."
+    },
+    {
+      "id": "entity:model-library-curated",
+      "name": "Model Library — Curated",
+      "description": "Named entity mentioned in Ollama."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:ollama-19794359:1",
+      "text": "title: Ollama tags: open-source/tool, local-inference, deployment # Ollama ## Overview Ollama is a local-first tool for running open-weight LLMs on consumer hardware.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "ollama-19794359"
+    },
+    {
+      "id": "claim:ollama-19794359:2",
+      "text": "It simplifies downloading, quantizing, and serving models via a local API.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "ollama-19794359"
+    },
+    {
+      "id": "claim:ollama-19794359:3",
+      "text": "## Key Features - One-command model runs — ollama run llama3 downloads and starts inference - Quantization — Automatic GGUF quantization for memory efficiency - Local API — OpenAI-compatible API endpoint at localhost:11434 - Model Library — Curated catalog of supported models - Modelfile — Custom model configurations with system prompts ## Supported Models Llama 3, Qwen 2, Mistral, Phi 3, Gemma, DeepSeek Coder, CodeLlama, and 100+ more via community contributions.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "ollama-19794359"
+    },
+    {
+      "id": "claim:ollama-19794359:4",
+      "text": "## Use Cases - Local development and testing - Privacy-sensitive applications - Cost-effective inference for non-critical workloads - Agent prototyping before cloud deployment ## Competitive Position - vs.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "ollama-19794359"
+    }
+  ],
+  "questions": [
+    "How does ollama relate to Ollama?",
+    "How does local relate to Ollama?",
+    "How does model relate to Ollama?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.258Z"
+}

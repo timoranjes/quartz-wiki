@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "openai-codex-93968904",
+  "sourceHash": "9396890487f332add4881eb656dce7543bdb51913eff339f17e6a8905e1df7a5",
+  "semanticHash": "0852a745d6f324da6bf2f5c722f40648f7003ffefa58d5878ad8e068377847dd",
+  "extractionHash": "80e945e671abd847e0c3eca63144f7332884a6858e147afd22998e4087130ff8",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "OpenAI Codex",
+  "summary": "title: OpenAI Codex tags: coding-agent, openai, llm-provider # OpenAI Codex OpenAI's autonomous coding agent, launched as a CLI tool. Now powered primarily by gpt-5.5 (released April 2026), with support for multiple model tiers. ## Overview - Developer : OpenAI - Backend Model : gpt-5.5 (recommended/default), gpt-5.4, gpt-5.4-mini, gpt-5.3-codex, gpt-5.3-codex-spark (Pro only, research preview) - Interface : CLI ( codex ), VS Code extension, GitHub integration, ChatGPT app - Pricing : Standard: $5/$30 per 1M tokens (input/output); Pro: $30/$180; Batch: $2.50/$15 - Open Source : Core CLI is open source (codex-rs) - Context Window : 1M tokens (API), 400K tokens (Codex CLI — auto-compaction) ## Key Capabilities - Autonomous code editing across entire codebases - Plan-mode for structured task decomposition before execution - Built-in terminal execution with safety approvals - Git-aware: understands branches, diffs, commit history - MCP server support for tool integrations - Web Search (2026): Codex now enables web search for local tasks in the CLI and IDE Extension.",
+  "concepts": [
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in OpenAI Codex."
+    },
+    {
+      "id": "concept:codex",
+      "name": "codex",
+      "description": "Frequently referenced concept in OpenAI Codex."
+    },
+    {
+      "id": "concept:june",
+      "name": "june",
+      "description": "Frequently referenced concept in OpenAI Codex."
+    },
+    {
+      "id": "concept:openai",
+      "name": "openai",
+      "description": "Frequently referenced concept in OpenAI Codex."
+    },
+    {
+      "id": "concept:mode",
+      "name": "mode",
+      "description": "Frequently referenced concept in OpenAI Codex."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in OpenAI Codex."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:openai-codex",
+      "name": "OpenAI Codex",
+      "description": "Named entity mentioned in OpenAI Codex."
+    },
+    {
+      "id": "entity:openai-codex-openai-s",
+      "name": "OpenAI Codex OpenAI's",
+      "description": "Named entity mentioned in OpenAI Codex."
+    },
+    {
+      "id": "entity:overview-developer-openai-backend-model",
+      "name": "Overview - Developer : OpenAI - Backend Model :",
+      "description": "Named entity mentioned in OpenAI Codex."
+    },
+    {
+      "id": "entity:pro",
+      "name": "(Pro",
+      "description": "Named entity mentioned in OpenAI Codex."
+    },
+    {
+      "id": "entity:interface",
+      "name": "Interface :",
+      "description": "Named entity mentioned in OpenAI Codex."
+    },
+    {
+      "id": "entity:code",
+      "name": "Code",
+      "description": "Named entity mentioned in OpenAI Codex."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:openai-codex-93968904:1",
+      "text": "title: OpenAI Codex tags: coding-agent, openai, llm-provider # OpenAI Codex OpenAI's autonomous coding agent, launched as a CLI tool.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "openai-codex-93968904"
+    },
+    {
+      "id": "claim:openai-codex-93968904:2",
+      "text": "Now powered primarily by gpt-5.5 (released April 2026), with support for multiple model tiers.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "openai-codex-93968904"
+    },
+    {
+      "id": "claim:openai-codex-93968904:3",
+      "text": "## Overview - Developer : OpenAI - Backend Model : gpt-5.5 (recommended/default), gpt-5.4, gpt-5.4-mini, gpt-5.3-codex, gpt-5.3-codex-spark (Pro only, research preview) - Interface : CLI ( codex ), VS Code extension, GitHub integration, ChatGPT app - Pricing : Standard: $5/$30 per 1M tokens (input/output); Pro: $30/$180; Batch: $2.50/$15 - Open Source : Core CLI is open source (codex-rs) - Context Window : 1M tokens (API), 400K tokens (Codex CLI — auto-compaction) ## Key Capabilities - Autonomous code editing across entire codebases - Plan-mode for structured task decomposition before execution - Built-in terminal execution with safety approvals - Git-aware: understands branches, diffs, commit history - MCP server support for tool integrations - Web Search (2026): Codex now enables web search for local tasks in the CLI and IDE Extension.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "openai-codex-93968904"
+    },
+    {
+      "id": "claim:openai-codex-93968904:4",
+      "text": "Uses OpenAI-maintained web search cache by default.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "openai-codex-93968904"
+    }
+  ],
+  "questions": [
+    "How does 2026 relate to OpenAI Codex?",
+    "How does codex relate to OpenAI Codex?",
+    "How does june relate to OpenAI Codex?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.486Z"
+}

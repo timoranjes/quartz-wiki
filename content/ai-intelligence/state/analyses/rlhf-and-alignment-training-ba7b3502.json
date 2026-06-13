@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "rlhf-and-alignment-training-ba7b3502",
+  "sourceHash": "ba7b350213b8d08135f47981abab50fc08fe5894f22ad4dd1b20f7060413be1b",
+  "semanticHash": "7e317f5405ec514ba31bed0ce5e642126c3a36f64889ec2ca4803870804b381a",
+  "extractionHash": "571d650e8e3356b71565d0a1cbe985f1c88d90b185aa8830bb2e7141befcf1dd",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "RLHF and Alignment Training",
+  "summary": "title: RLHF and Alignment Training tags: training, alignment, optimization # RLHF and Alignment Training ## Overview Reinforcement Learning from Human Feedback (RLHF) and its variants (DPO, GRPO, RLAIF, PPO) are the primary methodologies for aligning LLM outputs with human preferences after pre-training. These techniques transform a raw, next-token predictor into a helpful, harmless, and honest assistant. ## Alignment Methodologies ### PPO (Proximal Policy Optimization) The original RLHF approach: 1.",
+  "concepts": [
+    {
+      "id": "concept:alignment",
+      "name": "alignment",
+      "description": "Frequently referenced concept in RLHF and Alignment Training."
+    },
+    {
+      "id": "concept:human",
+      "name": "human",
+      "description": "Frequently referenced concept in RLHF and Alignment Training."
+    },
+    {
+      "id": "concept:rlhf",
+      "name": "rlhf",
+      "description": "Frequently referenced concept in RLHF and Alignment Training."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in RLHF and Alignment Training."
+    },
+    {
+      "id": "concept:models",
+      "name": "models",
+      "description": "Frequently referenced concept in RLHF and Alignment Training."
+    },
+    {
+      "id": "concept:preference",
+      "name": "preference",
+      "description": "Frequently referenced concept in RLHF and Alignment Training."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:alignment-training",
+      "name": "Alignment Training",
+      "description": "Named entity mentioned in RLHF and Alignment Training."
+    },
+    {
+      "id": "entity:overview-reinforcement-learning",
+      "name": "Overview Reinforcement Learning",
+      "description": "Named entity mentioned in RLHF and Alignment Training."
+    },
+    {
+      "id": "entity:human-feedback",
+      "name": "Human Feedback",
+      "description": "Named entity mentioned in RLHF and Alignment Training."
+    },
+    {
+      "id": "entity:alignment-methodologies",
+      "name": "Alignment Methodologies",
+      "description": "Named entity mentioned in RLHF and Alignment Training."
+    },
+    {
+      "id": "entity:proximal-policy-optimization",
+      "name": "(Proximal Policy Optimization)",
+      "description": "Named entity mentioned in RLHF and Alignment Training."
+    },
+    {
+      "id": "entity:openai",
+      "name": "OpenAI",
+      "description": "Named entity mentioned in RLHF and Alignment Training."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:rlhf-and-alignment-training-ba7b3502:1",
+      "text": "title: RLHF and Alignment Training tags: training, alignment, optimization # RLHF and Alignment Training ## Overview Reinforcement Learning from Human Feedback (RLHF) and its variants (DPO, GRPO, RLAIF, PPO) are the primary methodologies for aligning LLM outputs with human preferences after pre-training.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "rlhf-and-alignment-training-ba7b3502"
+    },
+    {
+      "id": "claim:rlhf-and-alignment-training-ba7b3502:2",
+      "text": "These techniques transform a raw, next-token predictor into a helpful, harmless, and honest assistant.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "rlhf-and-alignment-training-ba7b3502"
+    },
+    {
+      "id": "claim:rlhf-and-alignment-training-ba7b3502:3",
+      "text": "## Alignment Methodologies ### PPO (Proximal Policy Optimization) The original RLHF approach: 1.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "rlhf-and-alignment-training-ba7b3502"
+    },
+    {
+      "id": "claim:rlhf-and-alignment-training-ba7b3502:4",
+      "text": "Collect human preference data (pairwise comparisons) 2.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "rlhf-and-alignment-training-ba7b3502"
+    }
+  ],
+  "questions": [
+    "How does alignment relate to RLHF and Alignment Training?",
+    "How does human relate to RLHF and Alignment Training?",
+    "How does rlhf relate to RLHF and Alignment Training?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.658Z"
+}
