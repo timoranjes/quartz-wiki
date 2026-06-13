@@ -3,7 +3,7 @@ title: "Anthropic Claude Code"
 type: entity
 tags: [coding-agent, anthropic, llm-provider]
 created: "2026-06-04"
-updated: "2026-06-13"
+updated: "2026-06-14"
 status: drafted
 sources: [raw/articles/coding-agent-claude-code-2026.md]
 ---
@@ -23,12 +23,12 @@ sources: [raw/articles/coding-agent-claude-code-2026.md]
 
 # Anthropic Claude Code
 
-Anthropic's autonomous coding agent, available as a CLI tool and integrated into the Claude web interface. Powered by Claude Fable 5 (June 2026) or Claude Opus 4.8 for deepest reasoning.
+Anthropic's autonomous coding agent, available as a CLI tool and integrated into the Claude web interface. Powered by Claude Opus 4.8 for deepest reasoning (Fable 5 was available June 9-12, 2026; suspended by US government export control directive).
 
 ## Overview
 
 - **Developer**: Anthropic
-- **Backend Model**: Claude Fable 5 (June 2026, new frontier), Claude Opus 4.8 (previous flagship), Claude Sonnet 4.6 (cheaper turns)
+- **Backend Model**: Claude Opus 4.8 (primary), Claude Sonnet 4.6 (cheaper turns). Claude Fable 5 was available June 9-12, 2026, then suspended by US government export control directive — API returns 404 directing users to Opus 4.8.
 - **Interface**: CLI (`claude`), Claude Code for web, Claude Cowork, claude.ai chat
 - **Pricing**: Base (~$20/mo, Claude Pro), Max ($100-200/mo, 20× limits), Teams (custom). Fable 5 included on subscription plans until June 22, 2026, then billed extra.
 - **Open Source**: SDK and core are open source
@@ -56,7 +56,7 @@ Anthropic's autonomous coding agent, available as a CLI tool and integrated into
 
 ## Recent Updates (May–June 2026)
 
-- **Claude Fable 5 (June 9, 2026)**: New frontier model available across all Claude Code surfaces (CLI, web, Cowork). Demonstrated exceptional coding ability — built LLM 0.32a3 (Datasette Agent human-in-the-loop features with `ask_user()`, `PauseChain`, tool call resumption) almost entirely via Claude Code in one day, including identifying and fixing 4 bugs in the underlying LLM library. Described as "very proactive" — spots and fixes issues without being asked. $110/day real-world usage observed via $100/month Max subscription
+- **Claude Fable 5 (June 9, 2026 — SUSPENDED June 12, 2026)**: New frontier model was available across all Claude Code surfaces (CLI, web, Cowork) for only 3 days. Demonstrated exceptional coding ability — built LLM 0.32a3 (Datasette Agent human-in-the-loop features with `ask_user()`, `PauseChain`, tool call resumption) almost entirely via Claude Code in one day, including identifying and fixing 4 bugs in the underlying LLM library. Described as "very proactive" — spots and fixes issues without being asked. $110/day real-world usage observed via $100/month Max subscription. **Suspended by US government export control directive on June 12, 2026** — all access globally disabled, users directed to Opus 4.8. See [[anthropic]] for details.
 - **Claude Opus 4.8 (May 28, 2026)**: SOTA reasoning (GPQA 92%), coding (SWE-bench Verified 87.6%), 1M context
 - **Dynamic Workflows**: Adaptive task decomposition for complex multi-step work
 - **Limits doubled (May 6, 2026)**: Increased usage limits for Pro and Max tiers

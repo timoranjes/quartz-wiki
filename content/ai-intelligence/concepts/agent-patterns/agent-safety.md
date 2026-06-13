@@ -3,7 +3,7 @@ title: "Agent Safety"
 type: concept
 tags: [safety, agent-architecture]
 created: "2026-06-03"
-updated: "2026-06-13"
+updated: "2026-06-14"
 status: seed
 ---
 
@@ -165,6 +165,49 @@ The "relentlessly proactive" behavior of Claude Fable 5 in [[claude-code]] (docu
 5. **Audit logging** — capture every tool call with full arguments and outputs
 
 Sources: [Simon Willison](https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/), [Normalization of Deviance in AI](https://embracethered.com/blog/posts/2025/the-normalization-of-deviance-in-ai/) ^[raw/sources/2026-06-11-claude-fable-is-relentlessly-proactive.md]
+
+## US Government Export Control Directive — Fable 5 / Mythos 5 Suspension (June 12, 2026)
+
+The US government issued an export control directive forcing [[anthropic]] to globally suspend access to Claude Fable 5 and Mythos 5 — the first known instance of a US export control action directly disabling a commercial frontier AI model.
+
+### Timeline
+- **5:21pm ET, June 12, 2026**: Anthropic receives directive from US government citing national security authorities
+- **5:21pm–9:59pm ET**: ~4.5 hour window where Fable 5 remained accessible while Anthropic assessed the order
+- **6:59pm PT (9:59pm ET)**: Access cut off globally — API returns 404: "Claude Fable 5 is not available. Please use Opus 4.8."
+- **June 13, 2026**: Anthropic publishes public statement
+
+### Scope of Directive
+- **Target**: All access to Fable 5 and Mythos 5 by any foreign national
+- **Geographic reach**: Whether inside or outside the United States
+- **Personnel scope**: Including foreign national Anthropic employees
+- **Net effect**: Complete global disablement for ALL customers (not just foreign ones)
+- **Other models**: Opus 4.8, Sonnet 4.6, Haiku 4.5 — NOT affected
+
+### Government's Stated Concern
+- Government believes it has become aware of a method of bypassing/jailbreaking Fable 5
+- Letter did not provide specific details of national security concern
+- Government provided only **verbal evidence** of a "potential narrow, non-universal jailbreak"
+- The alleged technique: asking the model to read a specific codebase and fix software flaws
+
+### Anthropic's Assessment
+- The "jailbreak" demonstrates capabilities **widely available from other models** including [[openai]] GPT-5.5
+- The vulnerabilities found were "relatively simple" and discoverable by other publicly-available models
+- The technique "is used every day by the defenders who keep systems safe"
+- Anthropic committed to sharing more details within 24 hours
+
+### Implications for Agent Safety & AI Governance
+1. **Model availability risk**: Frontier models can be disabled by government action with minimal notice — any production system depending on a single frontier model has existential availability risk
+2. **Export controls applied to AI**: First extension of traditional arms-export-control framework to commercial AI models — precedent-setting
+3. **Overbreadth problem**: Directive targeted at a hypothetical jailbreak but forced global disablement for ALL users, including US citizens on US soil
+4. **Transparency deficit**: Government provided only verbal evidence, no written technical details, yet forced immediate compliance
+5. **Competitive neutrality**: The directive effectively protects US model providers (GPT-5.5 can do the same things) while disabling a competitor — raises questions about whether national security or industrial policy drove the action
+6. **Agent deployment risk**: Any agent system built on Fable 5 (including [[claude-code]] users) lost access overnight — no migration period, no graceful degradation
+7. **Chilling effect on safety research**: If demonstrating model capabilities (even for defensive security research) can trigger export controls, researchers may avoid testing frontier models
+
+### Verification
+Simon Willison independently verified the cutoff time by polling the Anthropic API every 60 seconds. The model returned successful responses through attempt 37 (6:57:59pm PT), then returned 404 on attempt 38 (6:59:00pm PT).
+
+Sources: [Anthropic Statement](https://www.anthropic.com/news/fable-mythos-access), [Simon Willison](https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/) ^[raw/sources/2026-06-13-statement-on-the-us-government-directive-to-suspend-access-to-fable-5-and-mythos.md]
 
 ## Related
 
