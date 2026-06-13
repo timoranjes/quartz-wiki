@@ -1,7 +1,7 @@
 ---
 title: Optical Transceivers
 created: 2026-05-29
-updated: 2026-06-12
+updated: 2026-06-13
 type: concept
 tags: [optical, bottleneck, cpo, supply-demand]
 sources: [raw/articles/techtimes-optical-component-shortage-2026.md, raw/articles/华泰证券光模块功耗提升驱动液冷加速渗透-d4d1cddddd863554.md, raw/articles/lambda-offers-glimpse-into-nvidias-cpo-switch-enabling-more--af33bef83d3dc68c.md]
@@ -87,6 +87,13 @@ At the heart of the crisis is the **electro-absorption modulated laser (EML)**:
 - Key innovation: optical connectivity replacing electrical backplane connections within and between racks
 - This represents the practical implementation of the "光进铜退" thesis — moving optical from long-haul inter-rack connections into the rack itself
 - Supply chain implication: demand for optical components expands from inter-rack (transceivers, fiber) to intra-rack (optical backplanes, silicon photonics chips), significantly increasing the total addressable optical component market per data center
+
+## GigaDevice MCUs for Optical Modules (June 2026)
+
+- **GigaDevice (兆易创新)** introduced GD32E512 and GD32E252 series MCUs **specifically designed for optical module applications**
+- Chinese MCU maker targeting the optical module control/embedded processing market — a niche but growing segment as optical module production scales
+- Signals Chinese semiconductor companies developing specialized components for the optical supply chain, complementing the module assembly strength of Innolight/Eoptolink
+- Supply chain implication: China building domestic capability across the entire optical module stack — from MCUs (GigaDevice) to module assembly (Innolight) to fiber (long preform lead times remain the constraint)
 
 ## Timeline
 

@@ -1,7 +1,7 @@
 ---
 title: TSMC
 created: 2026-05-29
-updated: 2026-06-05
+updated: 2026-06-13
 type: entity
 tags: [foundry, packaging, capex-cycle]
 sources: [raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/energy-efficient-compute-is-most-important-attribute-for-cus-796c5d9bec6f0c58.md, raw/articles/tsmc-defends-transistor-scaling-amid-huaweis-hers-law-propos-c0bd77c82eefcf4c.md, raw/articles/tsmc-ceo-cc-wei-says-it-will-be-a-long-time-before-we-can-me-8cfb30fb296f1a33.md]
@@ -40,6 +40,14 @@ TSMC is the world's largest contract chipmaker and the dominant player in advanc
 - Industry bifurcating: US/Taiwan/Japan alliance controlling advanced nodes, China building domestic mature node capacity
 - **Energy efficiency focus (May 2026):** At Amsterdam Technology Symposium, deputy co-COO Kevin Zhang stated energy-efficient compute is the "most important attribute" for TSMC customers — signaling that power constraints, not just raw performance, are now the primary design driver for AI accelerators
 - **Transistor scaling defense (June 2026):** Kevin Zhang reaffirmed that 3D integration is important but transistor scaling remains the semiconductor industry's primary driver of performance and energy-efficiency gains, pushing back against Huawei's "Her's Law" (τ定律) proposal that post-Moore's Law progress would come from architecture and packaging innovation rather than node shrinking
+
+## ITC Import Ban Threat — UMC Patent Dispute (June 2026)
+
+- Five Republican members of Congress urged the US International Trade Commission (ITC) to **block imports of TSMC-manufactured chips** found to infringe US patents
+- Patents asserted by **United Microelectronics Corporation (UMC)** — TSMC's domestic foundry rival
+- If ITC rules in UMC's favor and imposes an import ban, it would directly disrupt TSMC's ability to ship chips to US customers
+- Significance: This is a novel use of patent litigation as a trade weapon against the world's most critical foundry — could create supply chain disruption beyond what export controls achieve
+- Political dimension: Republican lawmakers escalating pressure on semiconductor imports, combining IP enforcement with trade policy
 
 ## Relationships
 

@@ -1,10 +1,10 @@
 ---
 title: NVIDIA
 created: 2026-05-29
-updated: 2026-06-03
+updated: 2026-06-13
 type: entity
 tags: [compute, bottleneck, capex-cycle]
-sources: [raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/techtimes-optical-component-shortage-2026.md, raw/articles/nvidias-long-awaited-n1n1x-soc-specs-leak-ahead-of-computex--f031d4fe18bbb91f.md, raw/articles/watch-nvidias-computex-2026-keynote-here-jensen-huang-takes--dc4884e078c91e98.md, raw/articles/microsoft-veteran-recalls-the-last-time-nvidia-and-arm-was-t-734413c22bff300e.md, raw/articles/computex-2026-day-zero-wrap-up-nvidia-launches-rtx-spark-sup-82b25ca627331cf5.md, raw/articles/nvidias-rtx-spark-could-caplitalize-where-qualcomms-arm-base-6ad137f86ca41c6f.md, raw/articles/nvidia-says-rtx-spark-chip-will-support-all-major-anti-cheat-6da85bf15ff0fcd3.md, raw/articles/8点1氪丨腾讯股价暴涨创2021年后单日最高涨幅预计今年安排约1100亿育儿补贴英伟达与微软合作推出统一技术栈-6a23307599ec2fe8.md, raw/articles/abb-expands-partnership-with-nvidia-db6f863f5cb83c10.md]
+sources: [raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/techtimes-optical-component-shortage-2026.md, raw/articles/nvidias-long-awaited-n1n1x-soc-specs-leak-ahead-of-computex--f031d4fe18bbb91f.md, raw/articles/watch-nvidias-computex-2026-keynote-here-jensen-huang-takes--dc4884e078c91e98.md, raw/articles/microsoft-veteran-recalls-the-last-time-nvidia-and-arm-was-t-734413c22bff300e.md, raw/articles/computex-2026-day-zero-wrap-up-nvidia-launches-rtx-spark-sup-82b25ca627331cf5.md, raw/articles/nvidias-rtx-spark-could-caplitalize-where-qualcomms-arm-base-6ad137f86ca41c6f.md, raw/articles/nvidia-says-rtx-spark-chip-will-support-all-major-anti-cheat-6da85bf15ff0fcd3.md, raw/articles/8点1氪丨腾讯股价暴涨创2021年后单日最高涨幅预计今年安排约1100亿育儿补贴英伟达与微软合作推出统一技术栈-6a23307599ec2fe8.md, raw/articles/abb-expands-partnership-with-nvidia-db6f863f5cb83c10.md, raw/articles/google-signs-920m-monthly-compute-deal-with-spacex-companys--e52986c04b04b6c6.md]
 confidence: high
 ---
 
@@ -53,6 +53,7 @@ NVIDIA's supply lockup strategy has created cascading effects:
 - EML lead times stretched beyond 2027 for any buyer who is not NVIDIA
 - Forces competitors and hyperscalers to seek secondary suppliers and alternative designs
 - Demonstrates the strategic value of securing supply at bottleneck nodes
+- **Google-SpaceX Deal (June 2026):** Google signed a $920M/month deal with SpaceX to secure 110,000 NVIDIA GPUs starting October 2026 — one of the largest single GPU procurement deals disclosed, signaling that hyperscalers are resorting to non-traditional partners to lock up GPU capacity
 
 ## RTX Spark Superchip (Computex 2026)
 
@@ -69,6 +70,16 @@ NVIDIA launched the RTX Spark superchip at Computex 2026, targeting Windows PC a
 
 Meta is positioning to compete directly with NVIDIA's cloud/AI infrastructure business ("做云的'云'"). As the largest single buyer of NVIDIA GPUs, Meta's move to build its own cloud services layer represents a potential demand-side threat — if hyperscalers shift from buying NVIDIA hardware to building competitive cloud offerings using alternative chips or in-house designs, NVIDIA's dominant position could face pressure from both its largest customers and emerging cloud competitors.
 
+## NVIDIA + SK Hynix Multi-Year Memory Co-Development (June 2026)
+
+NVIDIA and SK Hynix signed a multi-year co-development and supply agreement for next-generation memory technologies:
+
+- Co-develop memory for NVIDIA's upcoming platforms (post-Rubin)
+- SK Hynix designated as supply partner for co-developed products
+- Addresses extended memory development cycles — memory generations now require tighter GPU-memory co-design
+- Combined with SK Hynix's plan to double wafer capacity within 5 years (to ~2030), but Jensen Huang has publicly stated that even this expansion plan is **"not enough"** to meet projected demand
+- This formalizes the already-dominant SK Hynix → NVIDIA supply relationship and further marginalizes Samsung/Micron in the HBM race
+
 ## NVIDIA + Microsoft Unified Tech Stack for Agentic AI (June 2026)
 
 - At Microsoft Build 2026, NVIDIA and Microsoft announced a unified technology stack for deploying Agentic AI
@@ -76,6 +87,22 @@ Meta is positioning to compete directly with NVIDIA's cloud/AI infrastructure bu
 - Complements the RTX Spark partnership (Grace+Blackwell superchip for Windows on Arm)
 - Microsoft also launched Mai-Thinking-1, its first AI reasoning model (35B active parameters)
 - Tencent Cloud simultaneously cut DeepSeek-V4 series model pricing by up to 97.5%, signaling intense compute cost competition in Chinese AI market
+
+## Vera CPU — China Market Entry (June 2026)
+
+- NVIDIA offering Chinese clients **early access to Vera Arm-based server CPUs** as soon as August 2026
+- GPU sales (H200) to China remain frozen under export controls, but CPUs are not subject to the same restrictions
+- Strategy: maintain revenue presence in China through CPU channel while GPU exports are blocked
+- Signals NVIDIA navigating export control boundaries — CPUs may serve as a bridge product for Chinese customers until GPU restrictions ease or are circumvented
+- Implications for [[china-semiconductor-localization]]: Chinese data centers may adopt Vera CPUs alongside domestic accelerators
+
+## SCADA Server — GPU-Accelerated Storage (June 2026)
+
+- **Wiwynn** (Foxconn subsidiary) among first to demonstrate NVIDIA SCADA server
+- **2.9 petabytes** of storage with **PCIe 6.0** performance
+- GPU-accelerated storage acceleration — NVIDIA extending its platform beyond compute into data center storage infrastructure
+- Signals NVIDIA's platform strategy expanding from GPU → full data center stack (compute + networking + storage)
+- Implications for [[ai-data-center-infrastructure]]: storage I/O becoming a bottleneck layer that NVIDIA is addressing with GPU-accelerated solutions
 
 ## Relationships
 
@@ -92,3 +119,5 @@ Meta is positioning to compete directly with NVIDIA's cloud/AI infrastructure bu
 - [[optical-transceivers]]
 - [[lumentum]]
 - [[anthropic]]
+- [[china-semiconductor-localization]]
+- [[ai-data-center-infrastructure]]

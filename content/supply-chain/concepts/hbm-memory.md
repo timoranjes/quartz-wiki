@@ -1,7 +1,7 @@
 ---
 title: HBM Memory
 created: 2026-05-29
-updated: 2026-06-12
+updated: 2026-06-13
 type: concept
 tags: [hbm, memory, bottleneck, supply-demand]
 sources: [raw/articles/bytedive-hbm-market-hbm4-hbf.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/供应商变股东存储芯片三巨头联手入股anthropicai供应链的权力结构正在重组-80b0813c97de5a7c.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/samsung-shows-first-hbm5-mockup-with-heat-path-block-cooling-33fafbe1ddad8412.md, raw/articles/9点1氪豆包推出付费后月活减少610万anthropic呼吁全球放缓ai开发警告ai自我改进风险罗永浩卸任锤子软件公司执-6957f1cc76adc611.md]
@@ -90,6 +90,20 @@ While HBM dominates the AI accelerator memory layer, conventional DDR5 is also e
 - **Clocked DDR5 Client Memory Modules:** Enabling scaling to **9,600 MT/s** for AI PCs — requires tight coordination between clocking, power delivery, and system-level management. Represents a step-change from standard DDR5-4800/5600 speeds.
 - These DDR5 innovations address the host memory bottleneck: AI workloads increasingly demand high-bandwidth system memory for data preprocessing, context management, and inference serving — not just GPU-adjacent HBM
 - Supply chain implication: Memory makers must simultaneously ramp HBM4/HBM5 production AND develop next-gen DDR5 modules — stretching R&D and fab capacity across multiple memory architectures
+
+## Wall Street Leverage Crackdown on Memory Stocks (June 2026)
+
+- **Citi, JPMorgan, Goldman Sachs** raising financing costs for hedge fund leveraged bets on SK Hynix, Samsung, and TSMC via equity swaps
+- Some banks **refusing new swap requests** entirely; others evaluating case-by-case
+- Trigger: sharp YTD rally in Asian chip stocks raising correction concerns
+- Significance: Financial layer signaling overcrowded positioning even as physical supply-demand remains structurally tight. Could create short-term selling pressure that temporarily disconnects stock prices from fundamental shortage dynamics.
+
+## Xbox Memory Cost Explosion — Memory Famine Extends to Gaming (June 2026)
+
+- **Microsoft Xbox CEO Asha Sharma** admitted next-gen Xbox Helix will pay **5x more for memory and storage** in 2027 vs. two years prior
+- Called the hardware cost gap "unsustainable" and said it "cannot continue"
+- Confirms memory bottleneck is no longer contained to AI — it is now disrupting consumer electronics, gaming consoles, and any product that uses DRAM/NAND
+- Extends the [[ai-supply-chain-bottlenecks]] narrative: memory famine forcing even Microsoft-scale buyers to acknowledge structural cost inflation
 
 ## Related
 

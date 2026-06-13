@@ -1,7 +1,7 @@
 ---
 title: China Semiconductor Localization
 created: 2026-05-29
-updated: 2026-06-12
+updated: 2026-06-13
 type: concept
 tags: [localization, export-controls, bottleneck]
 sources: [raw/articles/wikipedia-china-semiconductor-industry.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/tiktok-owner-bytedance-is-reportedly-developing-its-own-cust-13089b2d7ddab835.md, raw/articles/华为发布韬τ定律重构后摩尔时代的中国技术路径-9653afbd1253c669.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/edge-ai-daily-早报6月1日-abe98024bd263e34.md, raw/articles/us-closes-loophole-that-allowed-chinese-owned-subsidiaries-l-2baccdec109451b3.md, raw/articles/mainland-chinese-exhibitors-reportedly-locked-out-of-compute-fabcc678cf012315.md, raw/articles/36氪独家-火山引擎提升maas营收目标至全年150亿元seedance-20单月营收已超10亿元-6ecf7e73eb3e01e8.md, raw/articles/投资长鑫科技与宇树科技-险资耐心资本布棋新质生产力-babf6169ac95ef7d.md, raw/articles/36氪独家2026-年字节-ai-的四个关键命题-15b041f70c816c83.md, raw/articles/token大战中华为云选择了第三条路最前线-11bb6cc5c8b5d54c.md]
@@ -152,9 +152,32 @@ ByteDance's 2026 AI roadmap encompasses four key pillars:
 
 Supply chain implication: ByteDance's massive AI compute spend ($30-70B capex) combined with world model investment (data-heavy, compute-intensive) and embodied AI push signals sustained hyperscaler demand for AI accelerators. Their late entry into world models but aggressive resource allocation mirrors their successful catch-up pattern in video models.
 
+## CXMT IPO Registration Effective (June 2026)
+
+- **[[cxmt]] (长鑫科技)** — China's leading domestic DRAM manufacturer — received **IPO registration approval** from Shanghai STAR Market (上交所)
+- This is the final regulatory step before listing; shares can now be traded publicly
+- Significance: Validates years of state-backed DRAM development and provides capital for capacity expansion
+- Combined with insurance capital investment (和谐健康, 阳光人寿), CXMT is positioned as the national DRAM self-sufficiency vehicle
+- See [[cxmt]] entity page for full details
+
+## Biren Technology (壁仞科技) — Has Not Crossed Inflection (June 2026)
+
+- **Biren Technology** — one of China's leading GPU startups — analyzed as "not yet crossed the inflection point" (还未跨过拐点)
+- Signals challenges in Chinese GPU development: despite significant funding, domestic GPU makers face technology gaps, export control constraints on EDA tools and manufacturing, and competition from Huawei's 昇腾 ecosystem
+- Contrasts with Huawei's more integrated approach (昇腾 + CloudMatrix + model ecosystem) — pure-play GPU startups may struggle without the full-stack integration that Huawei provides
+- Supply chain implication: China's GPU localization may consolidate around Huawei's ecosystem rather than supporting multiple independent GPU companies
+
+## NVIDIA Vera CPUs for China (June 2026)
+
+- NVIDIA offering Chinese clients **early access to Vera Arm-based server CPUs** as soon as August 2026
+- GPU sales (H200) remain frozen under export controls, but CPUs are not restricted
+- Signals NVIDIA finding channels to maintain China revenue through non-restricted product categories
+- Implications: Chinese data centers may adopt Vera CPUs alongside domestic accelerators (昇腾, Biren), creating a hybrid compute stack that partially circumvents GPU export controls
+
 ## Related
 
 - [[ai-supply-chain-bottlenecks]]
 - [[smic]]
 - [[ymtc]]
+- [[cxmt]]
 - [[ai-data-center-infrastructure]]
