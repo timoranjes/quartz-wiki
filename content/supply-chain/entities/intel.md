@@ -1,10 +1,10 @@
 ---
 title: Intel
 created: 2026-06-03
-updated: 2026-06-03
+updated: 2026-06-11
 type: entity
-tags: [compute, foundry, capex-cycle]
-sources: [raw/articles/intel-xeon-6-computex-roundtable-interview-transcript-kira-b-5dfcda93d7df4012.md, raw/articles/intels-next-gen-lga1954-socket-will-support-nova-lake-razor--9c39e2173810a879.md, raw/articles/intel-addresses-arrow-lake-blunder-we-needed-to-build-back-o-019d77bdb973875e.md, raw/articles/intel-reportedly-no-longer-working-on-6-core-nova-lake-mobil-2c7d10ffc6e01d2d.md, raw/articles/using-graph-attention-for-virtual-metrology-in-semiconductor-3f3f87855ad3e2bf.md]
+tags: [compute, foundry, capex-cycle, packaging]
+sources: [raw/articles/intel-xeon-6-computex-roundtable-interview-transcript-kira-b-5dfcda93d7df4012.md, raw/articles/intels-next-gen-lga1954-socket-will-support-nova-lake-razor--9c39e2173810a879.md, raw/articles/intel-addresses-arrow-lake-blunder-we-needed-to-build-back-o-019d77bdb973875e.md, raw/articles/intel-reportedly-no-longer-working-on-6-core-nova-lake-mobil-2c7d10ffc6e01d2d.md, raw/articles/using-graph-attention-for-virtual-metrology-in-semiconductor-3f3f87855ad3e2bf.md, raw/articles/google-reportedly-books-intel-for-packaging-more-than-3-mill-fc7d57d48a81ab71.md]
 confidence: medium
 ---
 

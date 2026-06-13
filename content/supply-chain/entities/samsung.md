@@ -1,7 +1,7 @@
 ---
 title: Samsung Electronics
 created: 2026-05-29
-updated: 2026-06-04
+updated: 2026-06-13
 type: entity
 tags: [memory, hbm, foundry]
 sources: [raw/articles/bytedive-hbm-market-hbm4-hbf.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/供应商变股东存储芯片三巨头联手入股anthropicai供应链的权力结构正在重组-80b0813c97de5a7c.md, raw/articles/anthropic-raises-65bn-overtakes-openai-to-965bn-valuation-255d6e11b3bb4917.md, raw/articles/samsung-shows-first-hbm5-mockup-with-heat-path-block-cooling-33fafbe1ddad8412.md]
@@ -34,6 +34,18 @@ Samsung joined SK Hynix and Micron in a joint investment in Anthropic as part of
 - World's largest NAND flash memory producer (two plants in Xi'an account for 42.5% of total production capacity)
 - Memory division: "Customers' demand for next year will exceed our supply" — Samsung Memory
 
+## Wall Street Leverage Crackdown (June 2026)
+
+- Major banks (Citi, JPMorgan, Goldman Sachs) raising financing costs for hedge fund leveraged bets on Samsung stock via swaps
+- Same crackdown affecting SK Hynix and TSMC positions — see [[sk-hynix]] for details
+- Signals overcrowded Asian chip stock trade despite strong fundamental supply-demand
+
+## Rebellions Partnership — Memory-Centric Architecture (June 2026)
+
+- Korean AI chip startup [[rebellions]] also partnering with Samsung for memory-centric AI chip designs
+- Samsung, like SK Hynix, positioning as more than a memory supplier — co-designing AI architectures with downstream chip startups
+- Diversifies Samsung's AI revenue beyond commodity HBM/DRAM into architecture IP and co-development
+
 ## Relationships
 
 - Competing with [[sk-hynix]] and [[micron]] for HBM market share
@@ -46,3 +58,4 @@ Samsung joined SK Hynix and Micron in a joint investment in Anthropic as part of
 - [[hbm-competitive-landscape]]
 - [[sk-hynix]]
 - [[micron]]
+- [[rebellions]]
