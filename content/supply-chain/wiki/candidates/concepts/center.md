@@ -1,0 +1,109 @@
+---
+page_id: 'concept:center'
+kind: concept
+cssclasses:
+  - swarmvault
+  - sv-concept
+title: center
+source_class: first_party
+tags:
+  - concept
+  - candidate
+source_ids:
+  - >-
+    2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f
+  - arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff
+  - >-
+    bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1
+  - >-
+    environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7
+  - >-
+    polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a
+  - >-
+    police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b
+  - >-
+    stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81
+project_ids: []
+node_ids:
+  - 'concept:center'
+freshness: fresh
+status: candidate
+confidence: 0.95
+created_at: '2026-06-06T21:09:03.518Z'
+updated_at: '2026-06-06T21:09:03.518Z'
+compiled_from:
+  - >-
+    2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f
+  - arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff
+  - >-
+    bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1
+  - >-
+    environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7
+  - >-
+    polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a
+  - >-
+    police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b
+  - >-
+    stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81
+managed_by: system
+backlinks:
+  - >-
+    source:2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f
+  - >-
+    source:arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff
+  - >-
+    source:bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1
+  - >-
+    source:environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7
+  - >-
+    source:polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a
+  - >-
+    source:police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b
+  - >-
+    source:stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81
+schema_hash: 874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720
+source_hashes:
+  2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f: ccc0b06f306bf0fdd41e24c2163e8af3545b7405e87ea743d0fcd803bc730707
+  arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff: 4a5805ffac60de02031a724e71a3e4860e3a4836ef0faa0f53df1732b305b250
+  bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1: cf1864b18f37fecf02f7628bf3df2cd0fd91ec70fd8e8fac5a3fe744847806a7
+  environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7: 20eb12d7331f70f98a3de5a418bbe3cd03496d9ba6f27994ea16259bc328af06
+  polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a: 5cfe477a549f86cbe2f9c132a3101de94c3f92bcc1c0d14b9f12241da9eb61b4
+  police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b: 5bac8c1b50a478b48df217b1dd821a7e6ce44f22389b8624232117de10f2433a
+  stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81: 2bc06e81f868b5673bd4aaa8a1a5ca0a23c52dc13a2da8afaf883d75b3d9658e
+source_semantic_hashes:
+  2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f: 2ede89bd5d4902b09f3f50752dbac588311fa4bfb981bb8734988943d4410be1
+  arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff: 4a8de177d1db3d62382a8c13985b6519799f163f481a8a502d6ed3aa71d77370
+  bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1: ce558cfc59ce12266fa2ad89821315297b150edd74a4f17c312996b4d587489b
+  environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7: 67e6439ec4c48eb5ce3a6e19126fc5bc3e81fd33770225c232f0f0d435e4d058
+  polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a: bb2ed030daceef0af2379237aa105532d58d180fb1bbbacb8d955a33c9e13002
+  police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b: 7f89992207850d6f60fb47db5867989109ad3b4320b05d0b28079167fff55016
+  stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81: e125700ee90a53fba3f990099578da6d38a572a73c61650ed9b06e91bd47f711
+decay_score: 1
+last_confirmed_at: '2026-06-06T21:09:04.927Z'
+---
+# center
+
+## Summary
+
+Frequently referenced concept in 2,000-acre land parcel rezoned for data center use in Mason County, Kentucky.
+
+## Seen In
+
+- [[sources/2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f|2,000-acre land parcel rezoned for data center use in Mason County, Kentucky]]
+- [[sources/arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff|Arcem buys land in Joroinen, Finland, for 500MW data center campus]]
+- [[sources/bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1|BW Group signs deal to build 250MW data center in Telemark County, Norway]]
+- [[sources/environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7|Environmental activist Erin Brockovich launches US data center tracking website]]
+- [[sources/polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a|Polar DC raises €800m senior secured bond for Norway data center development]]
+- [[sources/police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b|Police seize £1.2m worth of equipment during raid of data center in Farnborough, UK]]
+- [[sources/stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81|Stockland files to develop another data center in Melbourne, Australia]]
+
+## Source Claims
+
+- 2,000-acre land parcel rezoned for data center use in Mason County, Kentucky But opposition continues to mount Original: https://www.datacenterdynamics.com/en/news/2000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky/ [source:2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f]
+- Arcem buys land in Joroinen, Finland, for 500MW data center campus One of several projects the company is planning in the country Original: https://www.datacenterdynamics.com/en/news/arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus/ [source:arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff]
+- BW Group signs deal to build 250MW data center in Telemark County, Norway Company partners to build facility at new Frier Vest industrial park Original: https://www.datacenterdynamics.com/en/news/bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway/ [source:bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1]
+- Environmental activist Erin Brockovich launches US data center tracking website Activist behind PG&E Hinkley lawsuit turns her ire towards data centers Original: https://www.datacenterdynamics.com/en/news/environmental-activist-erin-brockovich-launches-us-data-center-tracking-website/ [source:environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7]
+- Polar DC raises €800m senior secured bond for Norway data center development Funds will be used to refinance existing Drangedai debt, plus additional construction Original: https://www.datacenterdynamics.com/en/news/polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development/ [source:polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a]
+- Police seize £1.2m worth of equipment during raid of data center in Farnborough, UK Facility was being used for illegal streaming Original: https://www.datacenterdynamics.com/en/news/police-seize-12m-worth-of-equipment-during-raid-of-data-center-in-farnborough-uk/ [source:police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b]
+- Stockland files to develop another data center in Melbourne, Australia Company looks to replace existing warehouse development Original: https://www.datacenterdynamics.com/en/news/stockland-files-to-develop-another-data-center-in-melbourne-australia/ [source:stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81]
+

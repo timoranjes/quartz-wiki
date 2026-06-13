@@ -1,0 +1,101 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "china-is-building-a-computing-power-high-speed-rail-6ae5adca",
+  "sourceHash": "6ae5adca96f452e6fc34d8c8da277aefe065ae37dda56d9007c69b0fd3edca25",
+  "semanticHash": "9786d7f314330c667a831824fce45fffb7ec7fea70691bddc78b02ff2b99885f",
+  "extractionHash": "70ec0f329dfd4e1300b3a8358d2ba06939ec60aee2a0104176f8e5248bf4b5b7",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "China Is Building a “Computing Power High-Speed Rail”",
+  "summary": "China Is Building a “Computing Power High-Speed Rail” Is AI getting more expensive? Don’t panic. The country is building a “computing-power high-speed rail,” aiming to make compute as cheap and readily available as water and electricity.",
+  "concepts": [
+    {
+      "id": "concept:building",
+      "name": "building",
+      "description": "Frequently referenced concept in China Is Building a “Computing Power High-Speed Rail”."
+    },
+    {
+      "id": "concept:high",
+      "name": "high",
+      "description": "Frequently referenced concept in China Is Building a “Computing Power High-Speed Rail”."
+    },
+    {
+      "id": "concept:rail",
+      "name": "rail",
+      "description": "Frequently referenced concept in China Is Building a “Computing Power High-Speed Rail”."
+    },
+    {
+      "id": "concept:speed",
+      "name": "speed",
+      "description": "Frequently referenced concept in China Is Building a “Computing Power High-Speed Rail”."
+    },
+    {
+      "id": "concept:8010595",
+      "name": "8010595",
+      "description": "Frequently referenced concept in China Is Building a “Computing Power High-Speed Rail”."
+    },
+    {
+      "id": "concept:aiming",
+      "name": "aiming",
+      "description": "Frequently referenced concept in China Is Building a “Computing Power High-Speed Rail”."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:china-is-building",
+      "name": "China Is Building",
+      "description": "Named entity mentioned in China Is Building a “Computing Power High-Speed Rail”."
+    },
+    {
+      "id": "entity:computing-power-high-speed-rail-is",
+      "name": "“Computing Power High-Speed Rail” Is",
+      "description": "Named entity mentioned in China Is Building a “Computing Power High-Speed Rail”."
+    },
+    {
+      "id": "entity:computing-power",
+      "name": "“Computing Power",
+      "description": "Named entity mentioned in China Is Building a “Computing Power High-Speed Rail”."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:china-is-building-a-computing-power-high-speed-rail-6ae5adca:1",
+      "text": "China Is Building a “Computing Power High-Speed Rail” Is AI getting more expensive?",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "china-is-building-a-computing-power-high-speed-rail-6ae5adca"
+    },
+    {
+      "id": "claim:china-is-building-a-computing-power-high-speed-rail-6ae5adca:2",
+      "text": "Don’t panic.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "china-is-building-a-computing-power-high-speed-rail-6ae5adca"
+    },
+    {
+      "id": "claim:china-is-building-a-computing-power-high-speed-rail-6ae5adca:3",
+      "text": "The country is building a “computing-power high-speed rail,” aiming to make compute as cheap and readily available as water and electricity.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "china-is-building-a-computing-power-high-speed-rail-6ae5adca"
+    },
+    {
+      "id": "claim:china-is-building-a-computing-power-high-speed-rail-6ae5adca:4",
+      "text": "Original: https://www.tmtpost.com/8010595.html",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "china-is-building-a-computing-power-high-speed-rail-6ae5adca"
+    }
+  ],
+  "questions": [
+    "How does building relate to China Is Building a “Computing Power High-Speed Rail”?",
+    "How does high relate to China Is Building a “Computing Power High-Speed Rail”?",
+    "How does rail relate to China Is Building a “Computing Power High-Speed Rail”?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.256Z"
+}

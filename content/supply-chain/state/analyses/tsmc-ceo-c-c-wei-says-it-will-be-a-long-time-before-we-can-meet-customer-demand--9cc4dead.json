@@ -1,0 +1,106 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand--9cc4dead",
+  "sourceHash": "9cc4dead1ee463ed8ca63d2ff6d947bd16183296533c1545e57321bcac0cff5a",
+  "semanticHash": "8b066f0d565c8589d4a3c97f36b9a4501dfc907063464d616452d0193c1f0f84",
+  "extractionHash": "2d6b96e4ed8f514095f312318093505805f7cc0639297b6d40217bb8b68fad1a",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "TSMC CEO C.C. Wei says, ‘It will be a long time before we can meet customer demand’ — tells shareholders that he will keep prices stable, refrain from implementing price hikes",
+  "summary": "TSMC CEO C.C. Wei says, ‘It will be a long time before we can meet customer demand’ — tells shareholders that he will keep prices stable, refrain from implementing price hikes TSMC says it does not have enough capacity to handle all the demand from AI hyperscalers, with CEO C.C. Wei saying that it will take a long time before it can match customer demand.",
+  "concepts": [
+    {
+      "id": "concept:demand",
+      "name": "demand",
+      "description": "Frequently referenced concept in TSMC CEO C.C. Wei says, ‘It will be a long time before we can meet customer demand’ — tells shareholders that he will keep prices stable, refrain from implementing price hikes."
+    },
+    {
+      "id": "concept:will",
+      "name": "will",
+      "description": "Frequently referenced concept in TSMC CEO C.C. Wei says, ‘It will be a long time before we can meet customer demand’ — tells shareholders that he will keep prices stable, refrain from implementing price hikes."
+    },
+    {
+      "id": "concept:before",
+      "name": "before",
+      "description": "Frequently referenced concept in TSMC CEO C.C. Wei says, ‘It will be a long time before we can meet customer demand’ — tells shareholders that he will keep prices stable, refrain from implementing price hikes."
+    },
+    {
+      "id": "concept:customer",
+      "name": "customer",
+      "description": "Frequently referenced concept in TSMC CEO C.C. Wei says, ‘It will be a long time before we can meet customer demand’ — tells shareholders that he will keep prices stable, refrain from implementing price hikes."
+    },
+    {
+      "id": "concept:from",
+      "name": "from",
+      "description": "Frequently referenced concept in TSMC CEO C.C. Wei says, ‘It will be a long time before we can meet customer demand’ — tells shareholders that he will keep prices stable, refrain from implementing price hikes."
+    },
+    {
+      "id": "concept:intel",
+      "name": "intel",
+      "description": "Frequently referenced concept in TSMC CEO C.C. Wei says, ‘It will be a long time before we can meet customer demand’ — tells shareholders that he will keep prices stable, refrain from implementing price hikes."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:wei",
+      "name": "Wei",
+      "description": "Named entity mentioned in TSMC CEO C.C. Wei says, ‘It will be a long time before we can meet customer demand’ — tells shareholders that he will keep prices stable, refrain from implementing price hikes."
+    },
+    {
+      "id": "entity:it",
+      "name": "‘It",
+      "description": "Named entity mentioned in TSMC CEO C.C. Wei says, ‘It will be a long time before we can meet customer demand’ — tells shareholders that he will keep prices stable, refrain from implementing price hikes."
+    },
+    {
+      "id": "entity:intel",
+      "name": "Intel,",
+      "description": "Named entity mentioned in TSMC CEO C.C. Wei says, ‘It will be a long time before we can meet customer demand’ — tells shareholders that he will keep prices stable, refrain from implementing price hikes."
+    },
+    {
+      "id": "entity:intel",
+      "name": "Intel",
+      "description": "Named entity mentioned in TSMC CEO C.C. Wei says, ‘It will be a long time before we can meet customer demand’ — tells shareholders that he will keep prices stable, refrain from implementing price hikes."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand--9cc4dead:1",
+      "text": "TSMC CEO C.C.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand--9cc4dead"
+    },
+    {
+      "id": "claim:tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand--9cc4dead:2",
+      "text": "Wei says, ‘It will be a long time before we can meet customer demand’ — tells shareholders that he will keep prices stable, refrain from implementing price hikes TSMC says it does not have enough capacity to handle all the demand from AI hyperscalers, with CEO C.C.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand--9cc4dead"
+    },
+    {
+      "id": "claim:tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand--9cc4dead:3",
+      "text": "Wei saying that it will take a long time before it can match customer demand.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand--9cc4dead"
+    },
+    {
+      "id": "claim:tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand--9cc4dead:4",
+      "text": "This is an opportunity for Intel, though, as companies desperate to get their hands on advanced chips might be willing to use Intel 18A or 14A nodes for their needs instead.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand--9cc4dead"
+    }
+  ],
+  "questions": [
+    "How does demand relate to TSMC CEO C.C. Wei says, ‘It will be a long time before we can meet customer demand’ — tells shareholders that he will keep prices stable, refrain from implementing price hikes?",
+    "How does will relate to TSMC CEO C.C. Wei says, ‘It will be a long time before we can meet customer demand’ — tells shareholders that he will keep prices stable, refrain from implementing price hikes?",
+    "How does before relate to TSMC CEO C.C. Wei says, ‘It will be a long time before we can meet customer demand’ — tells shareholders that he will keep prices stable, refrain from implementing price hikes?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.464Z"
+}

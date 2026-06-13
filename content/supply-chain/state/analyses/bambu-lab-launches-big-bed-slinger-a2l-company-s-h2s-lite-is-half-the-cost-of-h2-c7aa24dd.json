@@ -1,0 +1,77 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "bambu-lab-launches-big-bed-slinger-a2l-company-s-h2s-lite-is-half-the-cost-of-h2-c7aa24dd",
+  "sourceHash": "c7aa24dd487455b2b2ee9fb7dde97312b1ad31486ca462b97bec35a7139dccfc",
+  "semanticHash": "6fd0fce3b9e9faaba9f4ebe6fb0567f21bed98d1401301f5cf4e30018edc1e53",
+  "extractionHash": "27280701b969561b4e4469f330a6cbee1d950971fdbb4a7641ad886421d105f2",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Bambu Lab Launches Big Bed Slinger: A2L — company's 'H2S Lite' is half the cost of H2S at just $469",
+  "summary": "Bambu Lab Launches Big Bed Slinger: A2L — company's 'H2S Lite' is half the cost of H2S at just $469 Or get the combo for $569 Original: https://www.tomshardware.com/3d-printing/bambu-lab-launches-big-bed-slinger-a2l-companys-h2s-lite-is-half-the-cost-of-h2s-at-just-usd469",
+  "concepts": [
+    {
+      "id": "concept:3d-printing",
+      "name": "3d-printing",
+      "description": "Frequently referenced concept in Bambu Lab Launches Big Bed Slinger: A2L — company's 'H2S Lite' is half the cost of H2S at just $469."
+    },
+    {
+      "id": "concept:bambu",
+      "name": "bambu",
+      "description": "Frequently referenced concept in Bambu Lab Launches Big Bed Slinger: A2L — company's 'H2S Lite' is half the cost of H2S at just $469."
+    },
+    {
+      "id": "concept:bambu-lab-launches-big-bed-slinger-a2l-companys-h2s-lite-is-half-the-cost-of-h2s",
+      "name": "bambu-lab-launches-big-bed-slinger-a2l-companys-h2s-lite-is-half-the-cost-of-h2s-at-just-usd469",
+      "description": "Frequently referenced concept in Bambu Lab Launches Big Bed Slinger: A2L — company's 'H2S Lite' is half the cost of H2S at just $469."
+    },
+    {
+      "id": "concept:combo",
+      "name": "combo",
+      "description": "Frequently referenced concept in Bambu Lab Launches Big Bed Slinger: A2L — company's 'H2S Lite' is half the cost of H2S at just $469."
+    },
+    {
+      "id": "concept:company",
+      "name": "company",
+      "description": "Frequently referenced concept in Bambu Lab Launches Big Bed Slinger: A2L — company's 'H2S Lite' is half the cost of H2S at just $469."
+    },
+    {
+      "id": "concept:cost",
+      "name": "cost",
+      "description": "Frequently referenced concept in Bambu Lab Launches Big Bed Slinger: A2L — company's 'H2S Lite' is half the cost of H2S at just $469."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:lite",
+      "name": "Lite'",
+      "description": "Named entity mentioned in Bambu Lab Launches Big Bed Slinger: A2L — company's 'H2S Lite' is half the cost of H2S at just $469."
+    },
+    {
+      "id": "entity:or",
+      "name": "Or",
+      "description": "Named entity mentioned in Bambu Lab Launches Big Bed Slinger: A2L — company's 'H2S Lite' is half the cost of H2S at just $469."
+    },
+    {
+      "id": "entity:original",
+      "name": "Original:",
+      "description": "Named entity mentioned in Bambu Lab Launches Big Bed Slinger: A2L — company's 'H2S Lite' is half the cost of H2S at just $469."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:bambu-lab-launches-big-bed-slinger-a2l-company-s-h2s-lite-is-half-the-cost-of-h2-c7aa24dd:1",
+      "text": "Bambu Lab Launches Big Bed Slinger: A2L — company's 'H2S Lite' is half the cost of H2S at just $469 Or get the combo for $569 Original: https://www.tomshardware.com/3d-printing/bambu-lab-launches-big-bed-slinger-a2l-companys-h2s-lite-is-half-the-cost-of-h2s-at-just-usd469",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "bambu-lab-launches-big-bed-slinger-a2l-company-s-h2s-lite-is-half-the-cost-of-h2-c7aa24dd"
+    }
+  ],
+  "questions": [
+    "How does 3d-printing relate to Bambu Lab Launches Big Bed Slinger: A2L — company's 'H2S Lite' is half the cost of H2S at just $469?",
+    "How does bambu relate to Bambu Lab Launches Big Bed Slinger: A2L — company's 'H2S Lite' is half the cost of H2S at just $469?",
+    "How does bambu-lab-launches-big-bed-slinger-a2l-companys-h2s-lite-is-half-the-cost-of-h2s-at-just-usd469 relate to Bambu Lab Launches Big Bed Slinger: A2L — company's 'H2S Lite' is half the cost of H2S at just $469?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.245Z"
+}

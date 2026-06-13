@@ -1,0 +1,90 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "256gb-of-dual-channel-ram-hits-mass-market-thanks-to-origin-code-quad-rank-cudim-361c6bf9",
+  "sourceHash": "361c6bf974de3b346b77ecc47c01be8d258472a8a22dca7a8386bc4d63d3b248",
+  "semanticHash": "603f39261e8236bcf7e08c6463fd06ac71dd577bc1e628aeac469c36e22f055a",
+  "extractionHash": "940c884ee0236b2e9a673e780b5a03a9beb263d23d06018feabc64c1fe721b03",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "256GB of dual-channel RAM hits mass market thanks to Origin Code — quad-rank CUDIMM packs 128GB of DDR5-8000 into a single module",
+  "summary": "256GB of dual-channel RAM hits mass market thanks to Origin Code — quad-rank CUDIMM packs 128GB of DDR5-8000 into a single module Origin Code reveals the brand's Vortex 4R DDR5-8000 256GB (2x128GB) CUDIMM memory kits at Computex 2025. Original: https://www.tomshardware.com/pc-components/ram/256gb-of-dual-channel-ram-hits-mass-market-thanks-to-origin-code-quad-rank-cudimm-packs-128gb-of-ddr5-8000-into-a-single-module",
+  "concepts": [
+    {
+      "id": "concept:256gb",
+      "name": "256gb",
+      "description": "Frequently referenced concept in 256GB of dual-channel RAM hits mass market thanks to Origin Code — quad-rank CUDIMM packs 128GB of DDR5-8000 into a single module."
+    },
+    {
+      "id": "concept:code",
+      "name": "code",
+      "description": "Frequently referenced concept in 256GB of dual-channel RAM hits mass market thanks to Origin Code — quad-rank CUDIMM packs 128GB of DDR5-8000 into a single module."
+    },
+    {
+      "id": "concept:cudimm",
+      "name": "cudimm",
+      "description": "Frequently referenced concept in 256GB of dual-channel RAM hits mass market thanks to Origin Code — quad-rank CUDIMM packs 128GB of DDR5-8000 into a single module."
+    },
+    {
+      "id": "concept:ddr5-8000",
+      "name": "ddr5-8000",
+      "description": "Frequently referenced concept in 256GB of dual-channel RAM hits mass market thanks to Origin Code — quad-rank CUDIMM packs 128GB of DDR5-8000 into a single module."
+    },
+    {
+      "id": "concept:origin",
+      "name": "origin",
+      "description": "Frequently referenced concept in 256GB of dual-channel RAM hits mass market thanks to Origin Code — quad-rank CUDIMM packs 128GB of DDR5-8000 into a single module."
+    },
+    {
+      "id": "concept:128gb",
+      "name": "128gb",
+      "description": "Frequently referenced concept in 256GB of dual-channel RAM hits mass market thanks to Origin Code — quad-rank CUDIMM packs 128GB of DDR5-8000 into a single module."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:origin-code",
+      "name": "Origin Code —",
+      "description": "Named entity mentioned in 256GB of dual-channel RAM hits mass market thanks to Origin Code — quad-rank CUDIMM packs 128GB of DDR5-8000 into a single module."
+    },
+    {
+      "id": "entity:origin-code",
+      "name": "Origin Code",
+      "description": "Named entity mentioned in 256GB of dual-channel RAM hits mass market thanks to Origin Code — quad-rank CUDIMM packs 128GB of DDR5-8000 into a single module."
+    },
+    {
+      "id": "entity:vortex",
+      "name": "Vortex",
+      "description": "Named entity mentioned in 256GB of dual-channel RAM hits mass market thanks to Origin Code — quad-rank CUDIMM packs 128GB of DDR5-8000 into a single module."
+    },
+    {
+      "id": "entity:computex",
+      "name": "Computex",
+      "description": "Named entity mentioned in 256GB of dual-channel RAM hits mass market thanks to Origin Code — quad-rank CUDIMM packs 128GB of DDR5-8000 into a single module."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:256gb-of-dual-channel-ram-hits-mass-market-thanks-to-origin-code-quad-rank-cudim-361c6bf9:1",
+      "text": "256GB of dual-channel RAM hits mass market thanks to Origin Code — quad-rank CUDIMM packs 128GB of DDR5-8000 into a single module Origin Code reveals the brand's Vortex 4R DDR5-8000 256GB (2x128GB) CUDIMM memory kits at Computex 2025.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "256gb-of-dual-channel-ram-hits-mass-market-thanks-to-origin-code-quad-rank-cudim-361c6bf9"
+    },
+    {
+      "id": "claim:256gb-of-dual-channel-ram-hits-mass-market-thanks-to-origin-code-quad-rank-cudim-361c6bf9:2",
+      "text": "Original: https://www.tomshardware.com/pc-components/ram/256gb-of-dual-channel-ram-hits-mass-market-thanks-to-origin-code-quad-rank-cudimm-packs-128gb-of-ddr5-8000-into-a-single-module",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "256gb-of-dual-channel-ram-hits-mass-market-thanks-to-origin-code-quad-rank-cudim-361c6bf9"
+    }
+  ],
+  "questions": [
+    "How does 256gb relate to 256GB of dual-channel RAM hits mass market thanks to Origin Code — quad-rank CUDIMM packs 128GB of DDR5-8000 into a single module?",
+    "How does code relate to 256GB of dual-channel RAM hits mass market thanks to Origin Code — quad-rank CUDIMM packs 128GB of DDR5-8000 into a single module?",
+    "How does cudimm relate to 256GB of dual-channel RAM hits mass market thanks to Origin Code — quad-rank CUDIMM packs 128GB of DDR5-8000 into a single module?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.075Z"
+}

@@ -1,0 +1,100 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-6a638edc",
+  "sourceHash": "6a638edc0027f67c7f65dcb33a30c0b36b304e10257104a8647c520de92ee81d",
+  "semanticHash": "483f5e1c7c9713e0f19d4cb876a7474bb6d84e5b09433dc5e149a66da214415e",
+  "extractionHash": "a7420433d5aa92bd468e9c9ef5f9cef5f26b7916cee0b433cf39b28794ade3b4",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Asus rolls out a ROG 20th anniversary chair and backpack, alongside commemorative components and peripherals — ROG Destrier Edition 20, ROG SLASH Hard-case Luggage Edition 20 are back in black (and gold)",
+  "summary": "Asus rolls out a ROG 20th anniversary chair and backpack, alongside commemorative components and peripherals — ROG Destrier Edition 20, ROG SLASH Hard-case Luggage Edition 20 are back in black (and gold) Apart from hardware, Asus’s ROG 20th anniversary products include a Destreir Edition 20 gaming chair and gold-accented luggage and backpacks. Original: https://www.tomshardware.com/peripherals/asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-components-and-peripherals-rog-destrier-edition-20-rog-slash-hard-case-luggage-edition-20-are-back-in-black-and-gold",
+  "concepts": [
+    {
+      "id": "concept:edition",
+      "name": "edition",
+      "description": "Frequently referenced concept in Asus rolls out a ROG 20th anniversary chair and backpack, alongside commemorative components and peripherals — ROG Destrier Edition 20, ROG SLASH Hard-case Luggage Edition 20 are back in black (and gold)."
+    },
+    {
+      "id": "concept:20th",
+      "name": "20th",
+      "description": "Frequently referenced concept in Asus rolls out a ROG 20th anniversary chair and backpack, alongside commemorative components and peripherals — ROG Destrier Edition 20, ROG SLASH Hard-case Luggage Edition 20 are back in black (and gold)."
+    },
+    {
+      "id": "concept:anniversary",
+      "name": "anniversary",
+      "description": "Frequently referenced concept in Asus rolls out a ROG 20th anniversary chair and backpack, alongside commemorative components and peripherals — ROG Destrier Edition 20, ROG SLASH Hard-case Luggage Edition 20 are back in black (and gold)."
+    },
+    {
+      "id": "concept:asus",
+      "name": "asus",
+      "description": "Frequently referenced concept in Asus rolls out a ROG 20th anniversary chair and backpack, alongside commemorative components and peripherals — ROG Destrier Edition 20, ROG SLASH Hard-case Luggage Edition 20 are back in black (and gold)."
+    },
+    {
+      "id": "concept:chair",
+      "name": "chair",
+      "description": "Frequently referenced concept in Asus rolls out a ROG 20th anniversary chair and backpack, alongside commemorative components and peripherals — ROG Destrier Edition 20, ROG SLASH Hard-case Luggage Edition 20 are back in black (and gold)."
+    },
+    {
+      "id": "concept:gold",
+      "name": "gold",
+      "description": "Frequently referenced concept in Asus rolls out a ROG 20th anniversary chair and backpack, alongside commemorative components and peripherals — ROG Destrier Edition 20, ROG SLASH Hard-case Luggage Edition 20 are back in black (and gold)."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:destrier-edition",
+      "name": "Destrier Edition",
+      "description": "Named entity mentioned in Asus rolls out a ROG 20th anniversary chair and backpack, alongside commemorative components and peripherals — ROG Destrier Edition 20, ROG SLASH Hard-case Luggage Edition 20 are back in black (and gold)."
+    },
+    {
+      "id": "entity:hard",
+      "name": "Hard-",
+      "description": "Named entity mentioned in Asus rolls out a ROG 20th anniversary chair and backpack, alongside commemorative components and peripherals — ROG Destrier Edition 20, ROG SLASH Hard-case Luggage Edition 20 are back in black (and gold)."
+    },
+    {
+      "id": "entity:luggage-edition",
+      "name": "Luggage Edition",
+      "description": "Named entity mentioned in Asus rolls out a ROG 20th anniversary chair and backpack, alongside commemorative components and peripherals — ROG Destrier Edition 20, ROG SLASH Hard-case Luggage Edition 20 are back in black (and gold)."
+    },
+    {
+      "id": "entity:apart",
+      "name": "Apart",
+      "description": "Named entity mentioned in Asus rolls out a ROG 20th anniversary chair and backpack, alongside commemorative components and peripherals — ROG Destrier Edition 20, ROG SLASH Hard-case Luggage Edition 20 are back in black (and gold)."
+    },
+    {
+      "id": "entity:asus-s",
+      "name": "Asus’s",
+      "description": "Named entity mentioned in Asus rolls out a ROG 20th anniversary chair and backpack, alongside commemorative components and peripherals — ROG Destrier Edition 20, ROG SLASH Hard-case Luggage Edition 20 are back in black (and gold)."
+    },
+    {
+      "id": "entity:destreir-edition",
+      "name": "Destreir Edition",
+      "description": "Named entity mentioned in Asus rolls out a ROG 20th anniversary chair and backpack, alongside commemorative components and peripherals — ROG Destrier Edition 20, ROG SLASH Hard-case Luggage Edition 20 are back in black (and gold)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-6a638edc:1",
+      "text": "Asus rolls out a ROG 20th anniversary chair and backpack, alongside commemorative components and peripherals — ROG Destrier Edition 20, ROG SLASH Hard-case Luggage Edition 20 are back in black (and gold) Apart from hardware, Asus’s ROG 20th anniversary products include a Destreir Edition 20 gaming chair and gold-accented luggage and backpacks.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-6a638edc"
+    },
+    {
+      "id": "claim:asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-6a638edc:2",
+      "text": "Original: https://www.tomshardware.com/peripherals/asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-components-and-peripherals-rog-destrier-edition-20-rog-slash-hard-case-luggage-edition-20-are-back-in-black-and-gold",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-6a638edc"
+    }
+  ],
+  "questions": [
+    "How does edition relate to Asus rolls out a ROG 20th anniversary chair and backpack, alongside commemorative components and peripherals — ROG Destrier Edition 20, ROG SLASH Hard-case Luggage Edition 20 are back in black (and gold)?",
+    "How does 20th relate to Asus rolls out a ROG 20th anniversary chair and backpack, alongside commemorative components and peripherals — ROG Destrier Edition 20, ROG SLASH Hard-case Luggage Edition 20 are back in black (and gold)?",
+    "How does anniversary relate to Asus rolls out a ROG 20th anniversary chair and backpack, alongside commemorative components and peripherals — ROG Destrier Edition 20, ROG SLASH Hard-case Luggage Edition 20 are back in black (and gold)?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.236Z"
+}

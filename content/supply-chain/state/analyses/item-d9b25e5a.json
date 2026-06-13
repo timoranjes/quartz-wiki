@@ -1,0 +1,56 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "item-d9b25e5a",
+  "sourceHash": "d9b25e5a17e42fdf8256781fd5980506acc5ce4a8b9ec7467a4a0f0157602a88",
+  "semanticHash": "b4a36c57b2bb078082fe340ff635166594ea1e5087f986df12e2fd2dc950b355",
+  "extractionHash": "9315a222d6858989d51238c9ad1e068ea42457072c43710038271385cf84be5c",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "泡泡玛特，“冰火两重天”",
+  "summary": "泡泡玛特，“冰火两重天” 泡泡玛特“刹车”降速。 Original: https://www.tmtpost.com/8010210.html",
+  "concepts": [
+    {
+      "id": "concept:8010210",
+      "name": "8010210",
+      "description": "Frequently referenced concept in 泡泡玛特，“冰火两重天”."
+    },
+    {
+      "id": "concept:html",
+      "name": "html",
+      "description": "Frequently referenced concept in 泡泡玛特，“冰火两重天”."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in 泡泡玛特，“冰火两重天”."
+    },
+    {
+      "id": "concept:original",
+      "name": "original",
+      "description": "Frequently referenced concept in 泡泡玛特，“冰火两重天”."
+    },
+    {
+      "id": "concept:tmtpost",
+      "name": "tmtpost",
+      "description": "Frequently referenced concept in 泡泡玛特，“冰火两重天”."
+    }
+  ],
+  "entities": [],
+  "claims": [
+    {
+      "id": "claim:item-d9b25e5a:1",
+      "text": "泡泡玛特，“冰火两重天” 泡泡玛特“刹车”降速。 Original: https://www.tmtpost.com/8010210.html",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "item-d9b25e5a"
+    }
+  ],
+  "questions": [
+    "How does 8010210 relate to 泡泡玛特，“冰火两重天”?",
+    "How does html relate to 泡泡玛特，“冰火两重天”?",
+    "How does https relate to 泡泡玛特，“冰火两重天”?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.398Z"
+}

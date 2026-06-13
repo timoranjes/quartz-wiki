@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43",
+  "sourceHash": "d8a62e4349763784b8a895a729367af2853e6d30a2336b1fb6fd7c4dfb117796",
+  "semanticHash": "50237bd48bcc676b5933b1c24ee5425ff53be896154f568211a6d964fb3ad612",
+  "extractionHash": "3561f7a975631ee6e21a4906197436b4a8dbb2a1416dd3984ada262bf005f115",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Qilimanjaro Pushes Analog Quantum as AI Compute Demands Surge",
+  "summary": "Qilimanjaro Pushes Analog Quantum as AI Compute Demands Surge Qilimanjaro says analog quantum systems could reduce error correction and accelerate AI, optimization, and simulation. On May 28, its analog system joined the digital quantum computer at the Barcelona Supercomputing Center. The post Qilimanjaro Pushes Analog Quantum as AI Compute Demands Surge appeared first on EE Times.",
+  "concepts": [
+    {
+      "id": "concept:analog",
+      "name": "analog",
+      "description": "Frequently referenced concept in Qilimanjaro Pushes Analog Quantum as AI Compute Demands Surge."
+    },
+    {
+      "id": "concept:quantum",
+      "name": "quantum",
+      "description": "Frequently referenced concept in Qilimanjaro Pushes Analog Quantum as AI Compute Demands Surge."
+    },
+    {
+      "id": "concept:qilimanjaro",
+      "name": "qilimanjaro",
+      "description": "Frequently referenced concept in Qilimanjaro Pushes Analog Quantum as AI Compute Demands Surge."
+    },
+    {
+      "id": "concept:compute",
+      "name": "compute",
+      "description": "Frequently referenced concept in Qilimanjaro Pushes Analog Quantum as AI Compute Demands Surge."
+    },
+    {
+      "id": "concept:demands",
+      "name": "demands",
+      "description": "Frequently referenced concept in Qilimanjaro Pushes Analog Quantum as AI Compute Demands Surge."
+    },
+    {
+      "id": "concept:pushes",
+      "name": "pushes",
+      "description": "Frequently referenced concept in Qilimanjaro Pushes Analog Quantum as AI Compute Demands Surge."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:pushes-analog-quantum",
+      "name": "Pushes Analog Quantum",
+      "description": "Named entity mentioned in Qilimanjaro Pushes Analog Quantum as AI Compute Demands Surge."
+    },
+    {
+      "id": "entity:compute-demands-surge-qilimanjaro",
+      "name": "Compute Demands Surge Qilimanjaro",
+      "description": "Named entity mentioned in Qilimanjaro Pushes Analog Quantum as AI Compute Demands Surge."
+    },
+    {
+      "id": "entity:may",
+      "name": "May",
+      "description": "Named entity mentioned in Qilimanjaro Pushes Analog Quantum as AI Compute Demands Surge."
+    },
+    {
+      "id": "entity:barcelona-supercomputing-center",
+      "name": "Barcelona Supercomputing Center.",
+      "description": "Named entity mentioned in Qilimanjaro Pushes Analog Quantum as AI Compute Demands Surge."
+    },
+    {
+      "id": "entity:qilimanjaro-pushes-analog-quantum",
+      "name": "Qilimanjaro Pushes Analog Quantum",
+      "description": "Named entity mentioned in Qilimanjaro Pushes Analog Quantum as AI Compute Demands Surge."
+    },
+    {
+      "id": "entity:compute-demands-surge",
+      "name": "Compute Demands Surge",
+      "description": "Named entity mentioned in Qilimanjaro Pushes Analog Quantum as AI Compute Demands Surge."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43:1",
+      "text": "Qilimanjaro Pushes Analog Quantum as AI Compute Demands Surge Qilimanjaro says analog quantum systems could reduce error correction and accelerate AI, optimization, and simulation.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43"
+    },
+    {
+      "id": "claim:qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43:2",
+      "text": "On May 28, its analog system joined the digital quantum computer at the Barcelona Supercomputing Center.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43"
+    },
+    {
+      "id": "claim:qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43:3",
+      "text": "The post Qilimanjaro Pushes Analog Quantum as AI Compute Demands Surge appeared first on EE Times.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43"
+    },
+    {
+      "id": "claim:qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43:4",
+      "text": "Original: https://www.eetimes.com/qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge/",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43"
+    }
+  ],
+  "questions": [
+    "How does analog relate to Qilimanjaro Pushes Analog Quantum as AI Compute Demands Surge?",
+    "How does quantum relate to Qilimanjaro Pushes Analog Quantum as AI Compute Demands Surge?",
+    "How does qilimanjaro relate to Qilimanjaro Pushes Analog Quantum as AI Compute Demands Surge?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.388Z"
+}

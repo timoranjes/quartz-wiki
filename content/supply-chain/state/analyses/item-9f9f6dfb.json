@@ -1,0 +1,56 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "item-9f9f6dfb",
+  "sourceHash": "9f9f6dfb21ee07a960a69f0ca17153300ed63b2dc22ff2afce9b455fdb5076b8",
+  "semanticHash": "5c3dd14ed838a6cd493acad3cc94a1724998a47625eff4ee30b88fc9bb035ffe",
+  "extractionHash": "2b079fcf00069723140af9019a4a774b9be0b7e0c326909c00e094ef658acd9c",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "从被骂大骗子到全球第一，他为中国熬出又一项核心硬科技",
+  "summary": "从被骂大骗子到全球第一，他为中国熬出又一项核心硬科技 真正的原创，无法被封锁。 Original: https://www.tmtpost.com/8009761.html",
+  "concepts": [
+    {
+      "id": "concept:8009761",
+      "name": "8009761",
+      "description": "Frequently referenced concept in 从被骂大骗子到全球第一，他为中国熬出又一项核心硬科技."
+    },
+    {
+      "id": "concept:html",
+      "name": "html",
+      "description": "Frequently referenced concept in 从被骂大骗子到全球第一，他为中国熬出又一项核心硬科技."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in 从被骂大骗子到全球第一，他为中国熬出又一项核心硬科技."
+    },
+    {
+      "id": "concept:original",
+      "name": "original",
+      "description": "Frequently referenced concept in 从被骂大骗子到全球第一，他为中国熬出又一项核心硬科技."
+    },
+    {
+      "id": "concept:tmtpost",
+      "name": "tmtpost",
+      "description": "Frequently referenced concept in 从被骂大骗子到全球第一，他为中国熬出又一项核心硬科技."
+    }
+  ],
+  "entities": [],
+  "claims": [
+    {
+      "id": "claim:item-9f9f6dfb:1",
+      "text": "从被骂大骗子到全球第一，他为中国熬出又一项核心硬科技 真正的原创，无法被封锁。 Original: https://www.tmtpost.com/8009761.html",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "item-9f9f6dfb"
+    }
+  ],
+  "questions": [
+    "How does 8009761 relate to 从被骂大骗子到全球第一，他为中国熬出又一项核心硬科技?",
+    "How does html relate to 从被骂大骗子到全球第一，他为中国熬出又一项核心硬科技?",
+    "How does https relate to 从被骂大骗子到全球第一，他为中国熬出又一项核心硬科技?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.357Z"
+}

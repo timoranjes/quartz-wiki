@@ -1,0 +1,56 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "ai-7d3e6820",
+  "sourceHash": "7d3e68207568748d43aacb8c56ddf78a0e330e9fe21173b6991a20d0187ae44d",
+  "semanticHash": "792d02d719e47f8fb0845a569b68905e53b76b10bfee932932abe5eb574f195c",
+  "extractionHash": "157ed5c8cbfadf28276adf6e7584a1a7c813ca4633227070c5742b41e192858e",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "华泰证券：AI驱动感光干膜需求爬升，国产化替代空间广阔",
+  "summary": "华泰证券：AI驱动感光干膜需求爬升，国产化替代空间广阔 36氪获悉，华泰证券研报认为，感光干膜作为PCB制造的关键材料，有望伴随下游景气持续增长，AI等领域进一步带动高端干膜需求。当前感光干膜国产化率较低，伴随内资企业加速高端领域技术突破与产能扩张以及政策端支持，国产化率未来有望提高，行业头部企业有望受益。 Original: https://36kr.com/newsflashes/3835284709012608?f=rss",
+  "concepts": [
+    {
+      "id": "concept:36kr",
+      "name": "36kr",
+      "description": "Frequently referenced concept in 华泰证券：AI驱动感光干膜需求爬升，国产化替代空间广阔."
+    },
+    {
+      "id": "concept:3835284709012608",
+      "name": "3835284709012608",
+      "description": "Frequently referenced concept in 华泰证券：AI驱动感光干膜需求爬升，国产化替代空间广阔."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in 华泰证券：AI驱动感光干膜需求爬升，国产化替代空间广阔."
+    },
+    {
+      "id": "concept:newsflashes",
+      "name": "newsflashes",
+      "description": "Frequently referenced concept in 华泰证券：AI驱动感光干膜需求爬升，国产化替代空间广阔."
+    },
+    {
+      "id": "concept:original",
+      "name": "original",
+      "description": "Frequently referenced concept in 华泰证券：AI驱动感光干膜需求爬升，国产化替代空间广阔."
+    }
+  ],
+  "entities": [],
+  "claims": [
+    {
+      "id": "claim:ai-7d3e6820:1",
+      "text": "华泰证券：AI驱动感光干膜需求爬升，国产化替代空间广阔 36氪获悉，华泰证券研报认为，感光干膜作为PCB制造的关键材料，有望伴随下游景气持续增长，AI等领域进一步带动高端干膜需求。当前感光干膜国产化率较低，伴随内资企业加速高端领域技术突破与产能扩张以及政策端支持，国产化率未来有望提高，行业头部企业有望受益。 Original: https://36kr.com/newsflashes/3835284709012608?f=rss",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "ai-7d3e6820"
+    }
+  ],
+  "questions": [
+    "How does 36kr relate to 华泰证券：AI驱动感光干膜需求爬升，国产化替代空间广阔?",
+    "How does 3835284709012608 relate to 华泰证券：AI驱动感光干膜需求爬升，国产化替代空间广阔?",
+    "How does https relate to 华泰证券：AI驱动感光干膜需求爬升，国产化替代空间广阔?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.122Z"
+}

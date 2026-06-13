@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6",
+  "sourceHash": "73526ca679a743b22b4acbccaa50455876c66bcbe5d7205b542f9ebd221b5047",
+  "semanticHash": "e99c7de9cead2c06b4265ecc056921b0ed05a0a60e42946e1bbbe8da07832235",
+  "extractionHash": "09e262c8f3aaffd0dd29dc4604d77888839995b2ddccb93e6526be54d661bf12",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Taiwan PCB Makers Race to Secure Second-Source Materials as AI Demand Reshapes Laminate Supply Chain",
+  "summary": "Taiwan PCB Makers Race to Secure Second-Source Materials as AI Demand Reshapes Laminate Supply Chain Source: atlaspcb.com | Date: 2026-05-11 Taiwan's PCB supply chain is aggressively diversifying CCL and laminate suppliers as AI server demand drives the global copper-clad laminate market into allocation mode. With the market projected to reach $95.8 billion in 2026, material security has become a strategic priority. ## Material Constraints AI server motherboards require ultra-low-loss laminates with Dk values below 3.3 and Df under 0.002 at 10 GHz.",
+  "concepts": [
+    {
+      "id": "concept:material",
+      "name": "material",
+      "description": "Frequently referenced concept in Taiwan PCB Makers Race to Secure Second-Source Materials as AI Demand Reshapes Laminate Supply Chain."
+    },
+    {
+      "id": "concept:allocation",
+      "name": "allocation",
+      "description": "Frequently referenced concept in Taiwan PCB Makers Race to Secure Second-Source Materials as AI Demand Reshapes Laminate Supply Chain."
+    },
+    {
+      "id": "concept:server",
+      "name": "server",
+      "description": "Frequently referenced concept in Taiwan PCB Makers Race to Secure Second-Source Materials as AI Demand Reshapes Laminate Supply Chain."
+    },
+    {
+      "id": "concept:supply",
+      "name": "supply",
+      "description": "Frequently referenced concept in Taiwan PCB Makers Race to Secure Second-Source Materials as AI Demand Reshapes Laminate Supply Chain."
+    },
+    {
+      "id": "concept:taiwan",
+      "name": "taiwan",
+      "description": "Frequently referenced concept in Taiwan PCB Makers Race to Secure Second-Source Materials as AI Demand Reshapes Laminate Supply Chain."
+    },
+    {
+      "id": "concept:weeks",
+      "name": "weeks",
+      "description": "Frequently referenced concept in Taiwan PCB Makers Race to Secure Second-Source Materials as AI Demand Reshapes Laminate Supply Chain."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:taiwan",
+      "name": "Taiwan",
+      "description": "Named entity mentioned in Taiwan PCB Makers Race to Secure Second-Source Materials as AI Demand Reshapes Laminate Supply Chain."
+    },
+    {
+      "id": "entity:makers-race",
+      "name": "Makers Race",
+      "description": "Named entity mentioned in Taiwan PCB Makers Race to Secure Second-Source Materials as AI Demand Reshapes Laminate Supply Chain."
+    },
+    {
+      "id": "entity:secure",
+      "name": "Secure",
+      "description": "Named entity mentioned in Taiwan PCB Makers Race to Secure Second-Source Materials as AI Demand Reshapes Laminate Supply Chain."
+    },
+    {
+      "id": "entity:source-materials",
+      "name": "Source Materials",
+      "description": "Named entity mentioned in Taiwan PCB Makers Race to Secure Second-Source Materials as AI Demand Reshapes Laminate Supply Chain."
+    },
+    {
+      "id": "entity:demand-reshapes-laminate-supply-chain-source",
+      "name": "Demand Reshapes Laminate Supply Chain Source:",
+      "description": "Named entity mentioned in Taiwan PCB Makers Race to Secure Second-Source Materials as AI Demand Reshapes Laminate Supply Chain."
+    },
+    {
+      "id": "entity:date",
+      "name": "Date:",
+      "description": "Named entity mentioned in Taiwan PCB Makers Race to Secure Second-Source Materials as AI Demand Reshapes Laminate Supply Chain."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6:1",
+      "text": "Taiwan PCB Makers Race to Secure Second-Source Materials as AI Demand Reshapes Laminate Supply Chain Source: atlaspcb.com | Date: 2026-05-11 Taiwan's PCB supply chain is aggressively diversifying CCL and laminate suppliers as AI server demand drives the global copper-clad laminate market into allocation mode.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6"
+    },
+    {
+      "id": "claim:taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6:2",
+      "text": "With the market projected to reach $95.8 billion in 2026, material security has become a strategic priority.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6"
+    },
+    {
+      "id": "claim:taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6:3",
+      "text": "## Material Constraints AI server motherboards require ultra-low-loss laminates with Dk values below 3.3 and Df under 0.002 at 10 GHz.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6"
+    },
+    {
+      "id": "claim:taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6:4",
+      "text": "This has created severe allocation constraints at major CCL manufacturers including Mitsubishi Gas Chemical (MGC), Panasonic, and AGC.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6"
+    }
+  ],
+  "questions": [
+    "How does material relate to Taiwan PCB Makers Race to Secure Second-Source Materials as AI Demand Reshapes Laminate Supply Chain?",
+    "How does allocation relate to Taiwan PCB Makers Race to Secure Second-Source Materials as AI Demand Reshapes Laminate Supply Chain?",
+    "How does server relate to Taiwan PCB Makers Race to Secure Second-Source Materials as AI Demand Reshapes Laminate Supply Chain?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.451Z"
+}

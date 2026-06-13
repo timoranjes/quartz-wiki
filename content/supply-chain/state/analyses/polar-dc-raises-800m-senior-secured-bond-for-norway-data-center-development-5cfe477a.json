@@ -1,0 +1,87 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a",
+  "sourceHash": "5cfe477a549f86cbe2f9c132a3101de94c3f92bcc1c0d14b9f12241da9eb61b4",
+  "semanticHash": "bb2ed030daceef0af2379237aa105532d58d180fb1bbbacb8d955a33c9e13002",
+  "extractionHash": "cf50ef9fb07d6dfbf41139530a00932581af5736950e58081a50d0141952be9e",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Polar DC raises €800m senior secured bond for Norway data center development",
+  "summary": "Polar DC raises €800m senior secured bond for Norway data center development Funds will be used to refinance existing Drangedai debt, plus additional construction Original: https://www.datacenterdynamics.com/en/news/polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development/",
+  "concepts": [
+    {
+      "id": "concept:800m",
+      "name": "800m",
+      "description": "Frequently referenced concept in Polar DC raises €800m senior secured bond for Norway data center development."
+    },
+    {
+      "id": "concept:additional",
+      "name": "additional",
+      "description": "Frequently referenced concept in Polar DC raises €800m senior secured bond for Norway data center development."
+    },
+    {
+      "id": "concept:bond",
+      "name": "bond",
+      "description": "Frequently referenced concept in Polar DC raises €800m senior secured bond for Norway data center development."
+    },
+    {
+      "id": "concept:center",
+      "name": "center",
+      "description": "Frequently referenced concept in Polar DC raises €800m senior secured bond for Norway data center development."
+    },
+    {
+      "id": "concept:construction",
+      "name": "construction",
+      "description": "Frequently referenced concept in Polar DC raises €800m senior secured bond for Norway data center development."
+    },
+    {
+      "id": "concept:data",
+      "name": "data",
+      "description": "Frequently referenced concept in Polar DC raises €800m senior secured bond for Norway data center development."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:norway",
+      "name": "Norway",
+      "description": "Named entity mentioned in Polar DC raises €800m senior secured bond for Norway data center development."
+    },
+    {
+      "id": "entity:funds",
+      "name": "Funds",
+      "description": "Named entity mentioned in Polar DC raises €800m senior secured bond for Norway data center development."
+    },
+    {
+      "id": "entity:drangedai",
+      "name": "Drangedai",
+      "description": "Named entity mentioned in Polar DC raises €800m senior secured bond for Norway data center development."
+    },
+    {
+      "id": "entity:original",
+      "name": "Original:",
+      "description": "Named entity mentioned in Polar DC raises €800m senior secured bond for Norway data center development."
+    },
+    {
+      "id": "entity:dc",
+      "name": "DC",
+      "description": "Named entity mentioned in Polar DC raises €800m senior secured bond for Norway data center development."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a:1",
+      "text": "Polar DC raises €800m senior secured bond for Norway data center development Funds will be used to refinance existing Drangedai debt, plus additional construction Original: https://www.datacenterdynamics.com/en/news/polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development/",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a"
+    }
+  ],
+  "questions": [
+    "How does 800m relate to Polar DC raises €800m senior secured bond for Norway data center development?",
+    "How does additional relate to Polar DC raises €800m senior secured bond for Norway data center development?",
+    "How does bond relate to Polar DC raises €800m senior secured bond for Norway data center development?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.377Z"
+}

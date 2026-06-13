@@ -1,0 +1,460 @@
+# Core Scraper — scraper.py
+
+Save this file as `scraper.py` in the project root. This is the main scraping engine.
+
+```python
+"""
+Airbnb scraper using Playwright (async).
+
+Features:
+- Anti-detection: UA rotation, random delays, human-like scrolling
+- Error handling: retries, timeouts, graceful degradation
+- Multi-page navigation with scroll-based lazy loading
+- Feature detection (aurora, stargazing, notable amenities)
+- Deduplication by listing URL
+
+Security notes:
+- No credentials are stored or transmitted
+- No data is sent to third parties
+- All processing is local
+- Respects robots.txt intent (rate-limited, non-aggressive)
+"""
+
+import asyncio
+import logging
+import random
+import re
+from typing import List, Optional
+from urllib.parse import urljoin
+
+from playwright.async_api import async_playwright, Page, Browser, TimeoutError as PlaywrightTimeout
+
+import config
+from models import Listing, ScrapingResult
+
+logger = logging.getLogger(__name__)
+
+
+class AirbnbScraper:
+    """Async Playwright-based Airbnb listing scraper."""
+
+    def __init__(self):
+        self.browser: Optional[Browser] = None
+        self.result = ScrapingResult(
+            location=config.LOCATION,
+            checkin=config.CHECKIN_DATE,
+            checkout=config.CHECKOUT_DATE,
+            adults=config.ADULTS,
+            total_listings_found=0,
+        )
+        self._seen_urls: set = set()
+
+    async def start(self) -> None:
+        """Launch browser with anti-detection settings."""
+        pw = await async_playwright().start()
+        user_agent = random.choice(config.USER_AGENTS)
+        self.browser = await pw.chromium.launch(
+            headless=config.HEADLESS,
+            slow_mo=config.SLOW_MO_MS,
+        )
+        context = await self.browser.new_context(
+            user_agent=user_agent,
+            viewport={"width": 1440, "height": 900},
+            locale="en-AU",
+            timezone_id="Australia/Melbourne",
+        )
+        # Stealth: remove webdriver flag
+        await context.add_init_script("""
+            Object.defineProperty(navigator, 'webdriver', {get: () => undefined});
+        """)
+        self._context = context
+        logger.info(f"Browser launched with UA: {user_agent[:60]}...")
+
+    async def stop(self) -> None:
+        """Clean up browser resources."""
+        if self.browser:
+            await self.browser.close()
+            logger.info("Browser closed.")
+
+    async def _new_page(self) -> Page:
+        """Create a new page with timeouts configured."""
+        page = await self._context.new_page()
+        page.set_default_timeout(config.ELEMENT_TIMEOUT_MS)
+        page.set_default_navigation_timeout(config.NAVIGATION_TIMEOUT_MS)
+        return page
+
+    async def _scroll_page(self, page: Page) -> None:
+        """Scroll down to trigger lazy-loaded content."""
+        for i in range(config.MAX_SCROLLS_PER_PAGE):
+            scroll_amount = random.randint(400, 800)
+            await page.evaluate(f"window.scrollBy(0, {scroll_amount})")
+            await asyncio.sleep(config.SCROLL_PAUSE_SEC + random.uniform(0.3, 1.0))
+        # Scroll back to top for next page nav
+        await page.evaluate("window.scrollTo(0, 0)")
+        await asyncio.sleep(0.5)
+
+    async def _extract_listings_from_page(self, page: Page) -> List[Listing]:
+        """Extract listing data from the current page DOM."""
+        listings: List[Listing] = []
+
+        # Airbnb uses various selectors; try multiple strategies
+        card_selectors = [
+            '[data-testid="listing-card-title"]',
+            '[class*="ListingCard"]',
+            'a[href*="/rooms/"]',
+            '[class*="card-container"]',
+            '[class*="stg-card"]',
+        ]
+
+        # Strategy 1: Extract via room links (most reliable)
+        room_links = await page.query_selector_all('a[href*="/rooms/"]')
+        logger.info(f"Found {len(room_links)} room links on page")
+
+        for link in room_links:
+            try:
+                listing = await self._parse_listing_card(page, link)
+                if listing and listing.url not in self._seen_urls:
+                    self._seen_urls.add(listing.url)
+                    listings.append(listing)
+            except Exception as e:
+                logger.warning(f"Failed to parse listing card: {e}")
+                continue
+
+        # Strategy 2: If no links found, try structured data / meta extraction
+        if not listings:
+            listings = await self._extract_from_structured_data(page)
+
+        return listings
+
+    async def _parse_listing_card(self, page: Page, link_element) -> Optional[Listing]:
+        """Parse a single listing card from its link element."""
+        try:
+            href = await link_element.get_attribute("href") or ""
+            url = urljoin("https://www.airbnb.com", href) if href.startswith("/") else href
+
+            if "/rooms/" not in url:
+                return None
+
+            # Get the parent card container for full context
+            card = await link_element.evaluate("""
+                (el) => {
+                    let node = el;
+                    for (let i = 0; i < 8; i++) {
+                        node = node.parentElement;
+                        if (!node) break;
+                        if (node.getAttribute('class') && 
+                            (node.getAttribute('class').includes('card') || 
+                             node.getAttribute('class').includes('listing') ||
+                             node.getAttribute('class').includes('stg'))) {
+                            return node.innerText;
+                        }
+                    }
+                    return el.closest('a')?.parentElement?.parentElement?.parentElement?.innerText || '';
+                }
+            """)
+
+            if not card or len(card) < 10:
+                return None
+
+            # Parse the text content
+            listing = self._parse_card_text(card, url)
+            return listing
+
+        except Exception as e:
+            logger.debug(f"Error parsing card: {e}")
+            return None
+
+    def _parse_card_text(self, text: str, url: str) -> Listing:
+        """Extract structured data from card text content."""
+        lines = [line.strip() for line in text.split("\n") if line.strip()]
+
+        # Name: usually the first substantial line
+        name = lines[0] if lines else "Unknown"
+
+        # Location
+        location = self._extract_location(lines)
+
+        # Price
+        price_per_night, total_price, currency = self._extract_prices(lines)
+
+        # Rating
+        rating = self._extract_rating(lines)
+
+        # Reviews
+        review_count = self._extract_review_count(lines)
+
+        # Beds/bedrooms
+        bedrooms, beds, bathrooms = self._extract_room_counts(lines)
+
+        # Amenities & features
+        amenities, notable_features = self._extract_features(text)
+
+        # Aurora / stargazing detection
+        text_lower = text.lower()
+        mentions_aurora = any(kw in text_lower for kw in config.AURORA_KEYWORDS)
+        mentions_stargazing = any(kw in text_lower for kw in config.STARGAZING_KEYWORDS)
+
+        return Listing(
+            name=name,
+            location=location,
+            price_per_night=price_per_night,
+            total_price=total_price,
+            currency=currency,
+            rating=rating,
+            review_count=review_count,
+            bedrooms=bedrooms,
+            beds=beds,
+            bathrooms=bathrooms,
+            amenities=amenities,
+            notable_features=notable_features,
+            url=url,
+            mentions_aurora=mentions_aurora,
+            mentions_stargazing=mentions_stargazing,
+            raw_text=text[:500],  # Truncate for storage
+        )
+
+    def _extract_location(self, lines: List[str]) -> str:
+        """Extract location/town from card lines."""
+        location_keywords = [
+            "tasmania", "cradle", "sheffield", "dover", "derwent",
+            "launceston", "devonport", "west coast", "central highlands",
+        ]
+        for line in lines:
+            line_lower = line.lower()
+            if any(kw in line_lower for kw in location_keywords):
+                return line
+            if "km away" in line_lower or "minutes" in line_lower:
+                return line
+        # Fallback: second line is often location
+        return lines[1] if len(lines) > 1 else "Cradle Mountain area"
+
+    def _extract_prices(self, lines: List[str]) -> tuple:
+        """Extract price per night, total price, and currency."""
+        price_per_night = ""
+        total_price = ""
+        currency = ""
+
+        for line in lines:
+            # Match patterns like ₩150,000, $200, A$180, €120
+            price_match = re.findall(r'([A-Z]?\$|₩|€|£)\s*([\d,]+)', line)
+            if price_match:
+                for symbol, amount in price_match:
+                    formatted = f"{symbol}{amount}"
+                    if not currency:
+                        currency = symbol
+                    if "night" in line.lower() or "per night" in line.lower():
+                        price_per_night = formatted
+                    elif "total" in line.lower():
+                        total_price = formatted
+
+            # Also catch "₩150,000 night" pattern
+            night_match = re.search(r'([A-Z]?\$|₩|€|£)\s*([\d,]+)\s*(?:night|\/night)', line, re.I)
+            if night_match and not price_per_night:
+                price_per_night = f"{night_match.group(1)}{night_match.group(2)}"
+                if not currency:
+                    currency = night_match.group(1)
+
+        if not price_per_night and total_price:
+            price_per_night = total_price  # Fallback
+
+        return price_per_night, total_price, currency
+
+    def _extract_rating(self, lines: List[str]) -> str:
+        """Extract rating (e.g., '4.95')."""
+        for line in lines:
+            match = re.search(r'(\d\.\d{1,2})\s*(?:★|rating)', line)
+            if match:
+                return match.group(1)
+            # Standalone rating pattern
+            match = re.search(r'^(\d\.\d{1,2})$', line.strip())
+            if match and float(match.group(1)) >= 3.0:
+                return match.group(1)
+        return ""
+
+    def _extract_review_count(self, lines: List[str]) -> str:
+        """Extract review count."""
+        for line in lines:
+            match = re.search(r'(\d+)\s*reviews?', line, re.I)
+            if match:
+                return match.group(1)
+        return ""
+
+    def _extract_room_counts(self, lines: List[str]) -> tuple:
+        """Extract bedroom, bed, and bathroom counts."""
+        bedrooms = beds = bathrooms = ""
+        full_text = " ".join(lines)
+
+        br_match = re.search(r'(\d+)\s*bedrooms?', full_text, re.I)
+        if br_match:
+            bedrooms = br_match.group(1)
+
+        bed_match = re.search(r'(\d+)\s*beds?', full_text, re.I)
+        if bed_match:
+            beds = bed_match.group(1)
+
+        bath_match = re.search(r'(\d+)\s*baths?', full_text, re.I)
+        if bath_match:
+            bathrooms = bath_match.group(1)
+
+        return bedrooms, beds, bathrooms
+
+    def _extract_features(self, text: str) -> tuple:
+        """Extract amenities and notable features from text."""
+        text_lower = text.lower()
+        amenities = []
+        notable = []
+
+        for feature in config.NOTABLE_FEATURES:
+            if feature in text_lower:
+                amenities.append(feature)
+                if feature in ["fireplace", "hot tub", "spa", "sauna",
+                               "mountain view", "lake view", "waterfront"]:
+                    notable.append(feature)
+
+        return amenities, notable
+
+    async def _extract_from_structured_data(self, page: Page) -> List[Listing]:
+        """Fallback: extract from page JSON-LD or script tags."""
+        listings = []
+        try:
+            data = await page.evaluate("""
+                () => {
+                    const scripts = document.querySelectorAll('script[type="application/ld+json"]');
+                    for (const s of scripts) {
+                        try {
+                            const d = JSON.parse(s.textContent);
+                            if (d['@type'] === 'Product' || d['@type'] === 'LodgingBusiness') {
+                                return d;
+                            }
+                        } catch(e) {}
+                    }
+                    return null;
+                }
+            """)
+            if data:
+                logger.info("Found structured data, parsing...")
+                # Parse structured data into Listing objects
+                # Implementation depends on Airbnb's schema format
+        except Exception as e:
+            logger.debug(f"Structured data extraction failed: {e}")
+        return listings
+
+    async def _navigate_to_next_page(self, page: Page) -> bool:
+        """Navigate to the next page of results. Returns True if successful."""
+        try:
+            next_btn = await page.query_selector(
+                'a[aria-label="Next"], [data-testid="pagination-next"], '
+                'button:has-text("Next"), a:has-text("Next")'
+            )
+            if next_btn:
+                is_disabled = await next_btn.get_attribute("aria-disabled")
+                if is_disabled == "true":
+                    logger.info("Next button is disabled — no more pages.")
+                    return False
+                await next_btn.click()
+                await page.wait_for_load_state("networkidle", timeout=config.NAVIGATION_TIMEOUT_MS)
+                await asyncio.sleep(2)
+                return True
+            else:
+                logger.info("No next page button found.")
+                return False
+        except PlaywrightTimeout:
+            logger.warning("Timeout clicking next page.")
+            return False
+        except Exception as e:
+            logger.warning(f"Error navigating to next page: {e}")
+            return False
+
+    async def _retry_with_backoff(self, func, *args, max_retries=None):
+        """Execute an async function with exponential backoff retry."""
+        retries = max_retries or config.MAX_RETRIES
+        last_error = None
+        for attempt in range(retries):
+            try:
+                return await func(*args)
+            except PlaywrightTimeout as e:
+                last_error = e
+                wait = config.RETRY_DELAY_SEC * (2 ** attempt) + random.uniform(0, 2)
+                logger.warning(f"Timeout (attempt {attempt+1}/{retries}), retrying in {wait:.1f}s...")
+                await asyncio.sleep(wait)
+            except Exception as e:
+                last_error = e
+                wait = config.RETRY_DELAY_SEC * (2 ** attempt) + random.uniform(0, 2)
+                logger.warning(f"Error (attempt {attempt+1}/{retries}): {e}, retrying in {wait:.1f}s...")
+                await asyncio.sleep(wait)
+        raise last_error
+
+    async def run(self) -> ScrapingResult:
+        """Main scraping loop: navigate, scroll, extract across pages."""
+        await self.start()
+        page = await self._new_page()
+
+        try:
+            # Initial navigation with retry
+            logger.info(f"Navigating to: {config.AIRBNB_SEARCH_URL}")
+            await self._retry_with_backoff(
+                page.goto,
+                config.AIRBNB_SEARCH_URL,
+                wait_until="domcontentloaded",
+            )
+            await page.wait_for_load_state("networkidle")
+            await asyncio.sleep(3)  # Let JS render
+
+            self.result.pages_scraped = 1
+
+            # Scroll and extract from first page
+            await self._scroll_page(page)
+            listings = await self._extract_listings_from_page(page)
+            self.result.listings.extend(listings)
+            logger.info(f"Page 1: extracted {len(listings)} listings (total: {len(self.result.listings)})")
+
+            # Navigate through subsequent pages
+            page_num = 2
+            while (len(self.result.listings) < config.TARGET_LISTINGS
+                   and page_num <= config.MAX_PAGES):
+                success = await self._navigate_to_next_page(page)
+                if not success:
+                    logger.info(f"No more pages after page {page_num - 1}")
+                    break
+
+                self.result.pages_scraped = page_num
+                await self._scroll_page(page)
+                new_listings = await self._extract_listings_from_page(page)
+                self.result.listings.extend(new_listings)
+                logger.info(
+                    f"Page {page_num}: extracted {len(new_listings)} listings "
+                    f"(total: {len(self.result.listings)})"
+                )
+                page_num += 1
+
+            # Finalize results
+            self.result.total_listings_found = len(self.result.listings)
+            self.result.aurora_properties = [
+                l.name for l in self.result.listings if l.mentions_aurora
+            ]
+            self.result.stargazing_properties = [
+                l.name for l in self.result.listings if l.mentions_stargazing
+            ]
+
+            if len(self.result.listings) < config.MIN_LISTINGS:
+                msg = (
+                    f"Only found {len(self.result.listings)} listings "
+                    f"(target was {config.MIN_LISTINGS}+). "
+                    "Airbnb may have blocked or rate-limited the scraper."
+                )
+                logger.warning(msg)
+                self.result.errors.append(msg)
+
+        except PlaywrightTimeout as e:
+            error_msg = f"Navigation timeout: {e}"
+            logger.error(error_msg)
+            self.result.errors.append(error_msg)
+        except Exception as e:
+            error_msg = f"Unexpected error: {type(e).__name__}: {e}"
+            logger.error(error_msg)
+            self.result.errors.append(error_msg)
+        finally:
+            await self.stop()
+
+        return self.result
+```

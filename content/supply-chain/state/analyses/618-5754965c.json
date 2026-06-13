@@ -1,0 +1,61 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "618-5754965c",
+  "sourceHash": "5754965cb744c06cedb0efe0e13ab26eb0a3fd839b524811584c950acdd05eec",
+  "semanticHash": "cac30288f5ef9152cb7fa09fffbce208202e38f506ab67bc550527ce7f9a5b58",
+  "extractionHash": "bd4da3acdf3767ed26bf38b14449675ccfc7a338e4937c3897eb33159ffcd3d6",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "华泰证券：618低价竞争降温 平台聚焦效率升级",
+  "summary": "华泰证券：618低价竞争降温 平台聚焦效率升级 36氪获悉，华泰证券研报认为，结合各平台活动规则与运营举措，2026年618电商行业的核心趋势表现为：大促周期常态化，平台竞争重点由单纯价格补贴持续转向经营效率、生态协同与长期用户价值的争夺。一方面，各平台延续“官方立减+简化玩法”思路，低价竞争边际趋缓，补贴更加注重精准触达与转化效率；另一方面，平台围绕商家侧持续加码扶持，通过降低经营门槛、优化回款与物流履约、加强流量倾斜等方式，强化商家留存与供给稳定性。 Original: https://36kr.com/newsflashes/3835292960994438?f=rss",
+  "concepts": [
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in 华泰证券：618低价竞争降温 平台聚焦效率升级."
+    },
+    {
+      "id": "concept:36kr",
+      "name": "36kr",
+      "description": "Frequently referenced concept in 华泰证券：618低价竞争降温 平台聚焦效率升级."
+    },
+    {
+      "id": "concept:3835292960994438",
+      "name": "3835292960994438",
+      "description": "Frequently referenced concept in 华泰证券：618低价竞争降温 平台聚焦效率升级."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in 华泰证券：618低价竞争降温 平台聚焦效率升级."
+    },
+    {
+      "id": "concept:newsflashes",
+      "name": "newsflashes",
+      "description": "Frequently referenced concept in 华泰证券：618低价竞争降温 平台聚焦效率升级."
+    },
+    {
+      "id": "concept:original",
+      "name": "original",
+      "description": "Frequently referenced concept in 华泰证券：618低价竞争降温 平台聚焦效率升级."
+    }
+  ],
+  "entities": [],
+  "claims": [
+    {
+      "id": "claim:618-5754965c:1",
+      "text": "华泰证券：618低价竞争降温 平台聚焦效率升级 36氪获悉，华泰证券研报认为，结合各平台活动规则与运营举措，2026年618电商行业的核心趋势表现为：大促周期常态化，平台竞争重点由单纯价格补贴持续转向经营效率、生态协同与长期用户价值的争夺。一方面，各平台延续“官方立减+简化玩法”思路，低价竞争边际趋缓，补贴更加注重精准触达与转化效率；另一方面，平台围绕商家侧持续加码扶持，通过降低经营门槛、优化回款与物流履约、加强流量倾斜等方式，强化商家留存与供给稳定性。 Original: https://36kr.com/newsflashes/3835292960994438?f=rss",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "618-5754965c"
+    }
+  ],
+  "questions": [
+    "How does 2026 relate to 华泰证券：618低价竞争降温 平台聚焦效率升级?",
+    "How does 36kr relate to 华泰证券：618低价竞争降温 平台聚焦效率升级?",
+    "How does 3835292960994438 relate to 华泰证券：618低价竞争降温 平台聚焦效率升级?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.100Z"
+}

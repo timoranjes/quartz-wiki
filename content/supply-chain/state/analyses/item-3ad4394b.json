@@ -1,0 +1,56 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "item-3ad4394b",
+  "sourceHash": "3ad4394b9cbd9d8ff6cc773653110110076b3bd66fefb5b36bdf44e179701efa",
+  "semanticHash": "d1cfe83246097df60d3688b330329f60125836a4e35c248fe7d519ffa6489430",
+  "extractionHash": "1f8273bd51abccc06e14270fd50a8723e09395bfa7359c81ef2961f0080a08f4",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "一桩多码、服务费差一倍，新能源车充电也要“开盲盒”？",
+  "summary": "一桩多码、服务费差一倍，新能源车充电也要“开盲盒”？ 充电要像加油一样透明。 Original: https://www.tmtpost.com/8010227.html",
+  "concepts": [
+    {
+      "id": "concept:8010227",
+      "name": "8010227",
+      "description": "Frequently referenced concept in 一桩多码、服务费差一倍，新能源车充电也要“开盲盒”？."
+    },
+    {
+      "id": "concept:html",
+      "name": "html",
+      "description": "Frequently referenced concept in 一桩多码、服务费差一倍，新能源车充电也要“开盲盒”？."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in 一桩多码、服务费差一倍，新能源车充电也要“开盲盒”？."
+    },
+    {
+      "id": "concept:original",
+      "name": "original",
+      "description": "Frequently referenced concept in 一桩多码、服务费差一倍，新能源车充电也要“开盲盒”？."
+    },
+    {
+      "id": "concept:tmtpost",
+      "name": "tmtpost",
+      "description": "Frequently referenced concept in 一桩多码、服务费差一倍，新能源车充电也要“开盲盒”？."
+    }
+  ],
+  "entities": [],
+  "claims": [
+    {
+      "id": "claim:item-3ad4394b:1",
+      "text": "一桩多码、服务费差一倍，新能源车充电也要“开盲盒”？ 充电要像加油一样透明。 Original: https://www.tmtpost.com/8010227.html",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "item-3ad4394b"
+    }
+  ],
+  "questions": [
+    "How does 8010227 relate to 一桩多码、服务费差一倍，新能源车充电也要“开盲盒”？?",
+    "How does html relate to 一桩多码、服务费差一倍，新能源车充电也要“开盲盒”？?",
+    "How does https relate to 一桩多码、服务费差一倍，新能源车充电也要“开盲盒”？?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.355Z"
+}

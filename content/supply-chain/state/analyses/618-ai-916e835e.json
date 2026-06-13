@@ -1,0 +1,56 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "618-ai-916e835e",
+  "sourceHash": "916e835e6b1a7dc34cc2d446a4d2f0520b7a1757ce5477218cb2f77d22e6da10",
+  "semanticHash": "a5fa4fb2f2d3de195ca9e4f513c333d229f79a3c78a742f06796c608839d5315",
+  "extractionHash": "9e3503bef8b4f2dfd33462ae2ab9384978c1477b3c01be26f49ab738a3b15e12",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "史上最安静的618，AI不是救命稻草",
+  "summary": "史上最安静的618，AI不是救命稻草 电商最健康的一年。 Original: https://www.tmtpost.com/8009952.html",
+  "concepts": [
+    {
+      "id": "concept:8009952",
+      "name": "8009952",
+      "description": "Frequently referenced concept in 史上最安静的618，AI不是救命稻草."
+    },
+    {
+      "id": "concept:html",
+      "name": "html",
+      "description": "Frequently referenced concept in 史上最安静的618，AI不是救命稻草."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in 史上最安静的618，AI不是救命稻草."
+    },
+    {
+      "id": "concept:original",
+      "name": "original",
+      "description": "Frequently referenced concept in 史上最安静的618，AI不是救命稻草."
+    },
+    {
+      "id": "concept:tmtpost",
+      "name": "tmtpost",
+      "description": "Frequently referenced concept in 史上最安静的618，AI不是救命稻草."
+    }
+  ],
+  "entities": [],
+  "claims": [
+    {
+      "id": "claim:618-ai-916e835e:1",
+      "text": "史上最安静的618，AI不是救命稻草 电商最健康的一年。 Original: https://www.tmtpost.com/8009952.html",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "618-ai-916e835e"
+    }
+  ],
+  "questions": [
+    "How does 8009952 relate to 史上最安静的618，AI不是救命稻草?",
+    "How does html relate to 史上最安静的618，AI不是救命稻草?",
+    "How does https relate to 史上最安静的618，AI不是救命稻草?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.106Z"
+}

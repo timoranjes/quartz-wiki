@@ -1,0 +1,82 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "cryptominer-dmg-signs-loi-to-secure-50mw-ai-customer-in-canada-6ae4b022",
+  "sourceHash": "6ae4b022cc0d8c17730f145095ed486c16fc46b274915a05dbfd2071152dc001",
+  "semanticHash": "54af56c07ebfbc98c5f7a00882d8f724b1c94cde2adbe1898d68a32bc7663d60",
+  "extractionHash": "e738bbd72c55ddb5b7a89b80eb1587ece3522d8acd37ad6e81cb55560948dcf7",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Cryptominer DMG signs LOI to secure 50MW AI customer in Canada",
+  "summary": "Cryptominer DMG signs LOI to secure 50MW AI customer in Canada Company set to pivot Christina Lake campus towards AI and HPC hosting Original: https://www.datacenterdynamics.com/en/news/cryptominer-dmg-signs-loi-to-secure-50mw-ai-customer-in-canada/",
+  "concepts": [
+    {
+      "id": "concept:50mw",
+      "name": "50mw",
+      "description": "Frequently referenced concept in Cryptominer DMG signs LOI to secure 50MW AI customer in Canada."
+    },
+    {
+      "id": "concept:campus",
+      "name": "campus",
+      "description": "Frequently referenced concept in Cryptominer DMG signs LOI to secure 50MW AI customer in Canada."
+    },
+    {
+      "id": "concept:canada",
+      "name": "canada",
+      "description": "Frequently referenced concept in Cryptominer DMG signs LOI to secure 50MW AI customer in Canada."
+    },
+    {
+      "id": "concept:christina",
+      "name": "christina",
+      "description": "Frequently referenced concept in Cryptominer DMG signs LOI to secure 50MW AI customer in Canada."
+    },
+    {
+      "id": "concept:company",
+      "name": "company",
+      "description": "Frequently referenced concept in Cryptominer DMG signs LOI to secure 50MW AI customer in Canada."
+    },
+    {
+      "id": "concept:cryptominer",
+      "name": "cryptominer",
+      "description": "Frequently referenced concept in Cryptominer DMG signs LOI to secure 50MW AI customer in Canada."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:canada-company",
+      "name": "Canada Company",
+      "description": "Named entity mentioned in Cryptominer DMG signs LOI to secure 50MW AI customer in Canada."
+    },
+    {
+      "id": "entity:christina-lake",
+      "name": "Christina Lake",
+      "description": "Named entity mentioned in Cryptominer DMG signs LOI to secure 50MW AI customer in Canada."
+    },
+    {
+      "id": "entity:original",
+      "name": "Original:",
+      "description": "Named entity mentioned in Cryptominer DMG signs LOI to secure 50MW AI customer in Canada."
+    },
+    {
+      "id": "entity:canada",
+      "name": "Canada",
+      "description": "Named entity mentioned in Cryptominer DMG signs LOI to secure 50MW AI customer in Canada."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:cryptominer-dmg-signs-loi-to-secure-50mw-ai-customer-in-canada-6ae4b022:1",
+      "text": "Cryptominer DMG signs LOI to secure 50MW AI customer in Canada Company set to pivot Christina Lake campus towards AI and HPC hosting Original: https://www.datacenterdynamics.com/en/news/cryptominer-dmg-signs-loi-to-secure-50mw-ai-customer-in-canada/",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "cryptominer-dmg-signs-loi-to-secure-50mw-ai-customer-in-canada-6ae4b022"
+    }
+  ],
+  "questions": [
+    "How does 50mw relate to Cryptominer DMG signs LOI to secure 50MW AI customer in Canada?",
+    "How does campus relate to Cryptominer DMG signs LOI to secure 50MW AI customer in Canada?",
+    "How does canada relate to Cryptominer DMG signs LOI to secure 50MW AI customer in Canada?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.258Z"
+}

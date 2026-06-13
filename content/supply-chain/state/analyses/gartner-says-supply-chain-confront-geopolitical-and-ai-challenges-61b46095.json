@@ -1,0 +1,108 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095",
+  "sourceHash": "61b4609586852bd7741638e9fd2ab74c7b6d2be6a434b242523fcc85f7951e5f",
+  "semanticHash": "bca6d7f00860f97d7a7bfe5a79414568574b53f6ea3d60327c7576beb9b6caf8",
+  "extractionHash": "fa67513919d888ec1ae88e2a2478464d8b343cbc1e12cdb1a1ce111866f4998b",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Gartner Says Supply Chain Confront Geopolitical and AI Challenges",
+  "summary": "Gartner Says Supply Chain Confront Geopolitical and AI Challenges Gartner Supply Chain Symposium highlights strategies to navigate chaos, orchestrate agility, and accelerate Innovation. The post Gartner Says Supply Chain Confront Geopolitical and AI Challenges appeared first on EE Times. Original: https://www.eetimes.com/gartner-says-supply-chain-confront-geopolitical-and-ai-challenges/",
+  "concepts": [
+    {
+      "id": "concept:chain",
+      "name": "chain",
+      "description": "Frequently referenced concept in Gartner Says Supply Chain Confront Geopolitical and AI Challenges."
+    },
+    {
+      "id": "concept:gartner",
+      "name": "gartner",
+      "description": "Frequently referenced concept in Gartner Says Supply Chain Confront Geopolitical and AI Challenges."
+    },
+    {
+      "id": "concept:supply",
+      "name": "supply",
+      "description": "Frequently referenced concept in Gartner Says Supply Chain Confront Geopolitical and AI Challenges."
+    },
+    {
+      "id": "concept:challenges",
+      "name": "challenges",
+      "description": "Frequently referenced concept in Gartner Says Supply Chain Confront Geopolitical and AI Challenges."
+    },
+    {
+      "id": "concept:confront",
+      "name": "confront",
+      "description": "Frequently referenced concept in Gartner Says Supply Chain Confront Geopolitical and AI Challenges."
+    },
+    {
+      "id": "concept:geopolitical",
+      "name": "geopolitical",
+      "description": "Frequently referenced concept in Gartner Says Supply Chain Confront Geopolitical and AI Challenges."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:says-supply-chain-confront-geopolitical",
+      "name": "Says Supply Chain Confront Geopolitical",
+      "description": "Named entity mentioned in Gartner Says Supply Chain Confront Geopolitical and AI Challenges."
+    },
+    {
+      "id": "entity:challenges-gartner-supply-chain-symposium",
+      "name": "Challenges Gartner Supply Chain Symposium",
+      "description": "Named entity mentioned in Gartner Says Supply Chain Confront Geopolitical and AI Challenges."
+    },
+    {
+      "id": "entity:innovation",
+      "name": "Innovation.",
+      "description": "Named entity mentioned in Gartner Says Supply Chain Confront Geopolitical and AI Challenges."
+    },
+    {
+      "id": "entity:gartner-says-supply-chain-confront-geopolitical",
+      "name": "Gartner Says Supply Chain Confront Geopolitical",
+      "description": "Named entity mentioned in Gartner Says Supply Chain Confront Geopolitical and AI Challenges."
+    },
+    {
+      "id": "entity:challenges",
+      "name": "Challenges",
+      "description": "Named entity mentioned in Gartner Says Supply Chain Confront Geopolitical and AI Challenges."
+    },
+    {
+      "id": "entity:ee-times",
+      "name": "EE Times.",
+      "description": "Named entity mentioned in Gartner Says Supply Chain Confront Geopolitical and AI Challenges."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095:1",
+      "text": "Gartner Says Supply Chain Confront Geopolitical and AI Challenges Gartner Supply Chain Symposium highlights strategies to navigate chaos, orchestrate agility, and accelerate Innovation.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095"
+    },
+    {
+      "id": "claim:gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095:2",
+      "text": "The post Gartner Says Supply Chain Confront Geopolitical and AI Challenges appeared first on EE Times.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095"
+    },
+    {
+      "id": "claim:gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095:3",
+      "text": "Original: https://www.eetimes.com/gartner-says-supply-chain-confront-geopolitical-and-ai-challenges/",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095"
+    }
+  ],
+  "questions": [
+    "How does chain relate to Gartner Says Supply Chain Confront Geopolitical and AI Challenges?",
+    "How does gartner relate to Gartner Says Supply Chain Confront Geopolitical and AI Challenges?",
+    "How does supply relate to Gartner Says Supply Chain Confront Geopolitical and AI Challenges?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.266Z"
+}

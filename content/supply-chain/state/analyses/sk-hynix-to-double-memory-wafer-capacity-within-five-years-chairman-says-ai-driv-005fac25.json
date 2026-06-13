@@ -1,0 +1,90 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "sk-hynix-to-double-memory-wafer-capacity-within-five-years-chairman-says-ai-driv-005fac25",
+  "sourceHash": "005fac25b61d0b319a526e857b94444ab597ee16e1e9e21a7d7626fc75dee741",
+  "semanticHash": "44dad4f3baaeb644cff12433002f316c1ece0f1adda7ff2b24529b0561083e3a",
+  "extractionHash": "03116bc84494d30fe3f26ca53e2b0b9597e7ad03b00ddaecc5cd4cbea4fff13e",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "SK hynix to double memory wafer capacity within five years, chairman says — AI-driven shortage will persist until at least 2030",
+  "summary": "SK hynix to double memory wafer capacity within five years, chairman says — AI-driven shortage will persist until at least 2030 SK hynix will double its memory wafer capacity within five years, SK Group chairman Chey Tae-won told reporters at Computex in Taipei on June 2nd. Original: https://www.tomshardware.com/pc-components/dram/sk-hynix-to-double-memory-wafer-capacity-over-five-years",
+  "concepts": [
+    {
+      "id": "concept:capacity",
+      "name": "capacity",
+      "description": "Frequently referenced concept in SK hynix to double memory wafer capacity within five years, chairman says — AI-driven shortage will persist until at least 2030."
+    },
+    {
+      "id": "concept:chairman",
+      "name": "chairman",
+      "description": "Frequently referenced concept in SK hynix to double memory wafer capacity within five years, chairman says — AI-driven shortage will persist until at least 2030."
+    },
+    {
+      "id": "concept:double",
+      "name": "double",
+      "description": "Frequently referenced concept in SK hynix to double memory wafer capacity within five years, chairman says — AI-driven shortage will persist until at least 2030."
+    },
+    {
+      "id": "concept:five",
+      "name": "five",
+      "description": "Frequently referenced concept in SK hynix to double memory wafer capacity within five years, chairman says — AI-driven shortage will persist until at least 2030."
+    },
+    {
+      "id": "concept:hynix",
+      "name": "hynix",
+      "description": "Frequently referenced concept in SK hynix to double memory wafer capacity within five years, chairman says — AI-driven shortage will persist until at least 2030."
+    },
+    {
+      "id": "concept:memory",
+      "name": "memory",
+      "description": "Frequently referenced concept in SK hynix to double memory wafer capacity within five years, chairman says — AI-driven shortage will persist until at least 2030."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:sk-group",
+      "name": "SK Group",
+      "description": "Named entity mentioned in SK hynix to double memory wafer capacity within five years, chairman says — AI-driven shortage will persist until at least 2030."
+    },
+    {
+      "id": "entity:chey-tae",
+      "name": "Chey Tae-",
+      "description": "Named entity mentioned in SK hynix to double memory wafer capacity within five years, chairman says — AI-driven shortage will persist until at least 2030."
+    },
+    {
+      "id": "entity:computex",
+      "name": "Computex",
+      "description": "Named entity mentioned in SK hynix to double memory wafer capacity within five years, chairman says — AI-driven shortage will persist until at least 2030."
+    },
+    {
+      "id": "entity:taipei",
+      "name": "Taipei",
+      "description": "Named entity mentioned in SK hynix to double memory wafer capacity within five years, chairman says — AI-driven shortage will persist until at least 2030."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:sk-hynix-to-double-memory-wafer-capacity-within-five-years-chairman-says-ai-driv-005fac25:1",
+      "text": "SK hynix to double memory wafer capacity within five years, chairman says — AI-driven shortage will persist until at least 2030 SK hynix will double its memory wafer capacity within five years, SK Group chairman Chey Tae-won told reporters at Computex in Taipei on June 2nd.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "sk-hynix-to-double-memory-wafer-capacity-within-five-years-chairman-says-ai-driv-005fac25"
+    },
+    {
+      "id": "claim:sk-hynix-to-double-memory-wafer-capacity-within-five-years-chairman-says-ai-driv-005fac25:2",
+      "text": "Original: https://www.tomshardware.com/pc-components/dram/sk-hynix-to-double-memory-wafer-capacity-over-five-years",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "sk-hynix-to-double-memory-wafer-capacity-within-five-years-chairman-says-ai-driv-005fac25"
+    }
+  ],
+  "questions": [
+    "How does capacity relate to SK hynix to double memory wafer capacity within five years, chairman says — AI-driven shortage will persist until at least 2030?",
+    "How does chairman relate to SK hynix to double memory wafer capacity within five years, chairman says — AI-driven shortage will persist until at least 2030?",
+    "How does double relate to SK hynix to double memory wafer capacity within five years, chairman says — AI-driven shortage will persist until at least 2030?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.429Z"
+}

@@ -1,0 +1,95 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "access-tom-s-hardware-premium-s-computex-2026-coverage-for-free-sign-up-for-an-a-d1a4cabc",
+  "sourceHash": "d1a4cabc7bb889b31a1b14a7452645fcb31254b0e97dc3b859028422b4c3a4d5",
+  "semanticHash": "7ee58715444028fceaad949660d8305b8e74d72c7e3980ceb00e3f7d9f833117",
+  "extractionHash": "41e3fc0f64201e4990d7f953f0c850696cbca5fb45a0d65ae34358bb49bed611",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Access Tom’s Hardware Premium’s Computex 2026 coverage for free — sign up for an account to read insider reports from the show",
+  "summary": "Access Tom’s Hardware Premium’s Computex 2026 coverage for free — sign up for an account to read insider reports from the show For a limited time, you’ll be able to read all of our latest reports from Computex 2026 with a Tom’s Hardware account, no payment required. Original: https://www.tomshardware.com/tech-industry/access-toms-hardware-premiums-computex-2026-coverage-for-free-sign-up-for-an-account-to-read-insider-reports-from-the-show",
+  "concepts": [
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in Access Tom’s Hardware Premium’s Computex 2026 coverage for free — sign up for an account to read insider reports from the show."
+    },
+    {
+      "id": "concept:account",
+      "name": "account",
+      "description": "Frequently referenced concept in Access Tom’s Hardware Premium’s Computex 2026 coverage for free — sign up for an account to read insider reports from the show."
+    },
+    {
+      "id": "concept:computex",
+      "name": "computex",
+      "description": "Frequently referenced concept in Access Tom’s Hardware Premium’s Computex 2026 coverage for free — sign up for an account to read insider reports from the show."
+    },
+    {
+      "id": "concept:from",
+      "name": "from",
+      "description": "Frequently referenced concept in Access Tom’s Hardware Premium’s Computex 2026 coverage for free — sign up for an account to read insider reports from the show."
+    },
+    {
+      "id": "concept:hardware",
+      "name": "hardware",
+      "description": "Frequently referenced concept in Access Tom’s Hardware Premium’s Computex 2026 coverage for free — sign up for an account to read insider reports from the show."
+    },
+    {
+      "id": "concept:read",
+      "name": "read",
+      "description": "Frequently referenced concept in Access Tom’s Hardware Premium’s Computex 2026 coverage for free — sign up for an account to read insider reports from the show."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:tom-s-hardware-premium-s-computex",
+      "name": "Tom’s Hardware Premium’s Computex",
+      "description": "Named entity mentioned in Access Tom’s Hardware Premium’s Computex 2026 coverage for free — sign up for an account to read insider reports from the show."
+    },
+    {
+      "id": "entity:for",
+      "name": "For",
+      "description": "Named entity mentioned in Access Tom’s Hardware Premium’s Computex 2026 coverage for free — sign up for an account to read insider reports from the show."
+    },
+    {
+      "id": "entity:computex",
+      "name": "Computex",
+      "description": "Named entity mentioned in Access Tom’s Hardware Premium’s Computex 2026 coverage for free — sign up for an account to read insider reports from the show."
+    },
+    {
+      "id": "entity:tom-s-hardware",
+      "name": "Tom’s Hardware",
+      "description": "Named entity mentioned in Access Tom’s Hardware Premium’s Computex 2026 coverage for free — sign up for an account to read insider reports from the show."
+    },
+    {
+      "id": "entity:tom-s",
+      "name": "Tom’s",
+      "description": "Named entity mentioned in Access Tom’s Hardware Premium’s Computex 2026 coverage for free — sign up for an account to read insider reports from the show."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:access-tom-s-hardware-premium-s-computex-2026-coverage-for-free-sign-up-for-an-a-d1a4cabc:1",
+      "text": "Access Tom’s Hardware Premium’s Computex 2026 coverage for free — sign up for an account to read insider reports from the show For a limited time, you’ll be able to read all of our latest reports from Computex 2026 with a Tom’s Hardware account, no payment required.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "access-tom-s-hardware-premium-s-computex-2026-coverage-for-free-sign-up-for-an-a-d1a4cabc"
+    },
+    {
+      "id": "claim:access-tom-s-hardware-premium-s-computex-2026-coverage-for-free-sign-up-for-an-a-d1a4cabc:2",
+      "text": "Original: https://www.tomshardware.com/tech-industry/access-toms-hardware-premiums-computex-2026-coverage-for-free-sign-up-for-an-account-to-read-insider-reports-from-the-show",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "access-tom-s-hardware-premium-s-computex-2026-coverage-for-free-sign-up-for-an-a-d1a4cabc"
+    }
+  ],
+  "questions": [
+    "How does 2026 relate to Access Tom’s Hardware Premium’s Computex 2026 coverage for free — sign up for an account to read insider reports from the show?",
+    "How does account relate to Access Tom’s Hardware Premium’s Computex 2026 coverage for free — sign up for an account to read insider reports from the show?",
+    "How does computex relate to Access Tom’s Hardware Premium’s Computex 2026 coverage for free — sign up for an account to read insider reports from the show?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.113Z"
+}

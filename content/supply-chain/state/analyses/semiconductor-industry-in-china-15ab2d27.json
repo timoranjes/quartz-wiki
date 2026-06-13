@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "semiconductor-industry-in-china-15ab2d27",
+  "sourceHash": "15ab2d27f4409b17c5f1ed98a075c8a6d8bd08ba14dcbbacf28d1faf27361293",
+  "semanticHash": "46d6817b22e5f0f62171973cf99e82009c72895f873336d37aed215e56ddec56",
+  "extractionHash": "710531c4c36ff35dfe7273b1608b5a79cc57f0b8ba5cac3151e6e4a819dcb700",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Semiconductor Industry in China",
+  "summary": "Semiconductor Industry in China Source: Wikipedia (en.wikipedia.org) | Accessed: 2026-05-29 ## Overview China is the world's largest semiconductor market in terms of consumption. In 2020, China represented 53.7% of worldwide chip sales ($239.45 billion out of $446.1 billion), but over 83% ($199.7 billion) was imported from multinational suppliers. ## Domestic Production Initiatives - In 2022, China announced a Made in China 2025 goal of 70% domestic production.",
+  "concepts": [
+    {
+      "id": "concept:china",
+      "name": "china",
+      "description": "Frequently referenced concept in Semiconductor Industry in China."
+    },
+    {
+      "id": "concept:semiconductor",
+      "name": "semiconductor",
+      "description": "Frequently referenced concept in Semiconductor Industry in China."
+    },
+    {
+      "id": "concept:2020",
+      "name": "2020",
+      "description": "Frequently referenced concept in Semiconductor Industry in China."
+    },
+    {
+      "id": "concept:2025",
+      "name": "2025",
+      "description": "Frequently referenced concept in Semiconductor Industry in China."
+    },
+    {
+      "id": "concept:announced",
+      "name": "announced",
+      "description": "Frequently referenced concept in Semiconductor Industry in China."
+    },
+    {
+      "id": "concept:billion",
+      "name": "billion",
+      "description": "Frequently referenced concept in Semiconductor Industry in China."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:industry",
+      "name": "Industry",
+      "description": "Named entity mentioned in Semiconductor Industry in China."
+    },
+    {
+      "id": "entity:china-source-wikipedia",
+      "name": "China Source: Wikipedia",
+      "description": "Named entity mentioned in Semiconductor Industry in China."
+    },
+    {
+      "id": "entity:accessed",
+      "name": "Accessed:",
+      "description": "Named entity mentioned in Semiconductor Industry in China."
+    },
+    {
+      "id": "entity:overview-china",
+      "name": "Overview China",
+      "description": "Named entity mentioned in Semiconductor Industry in China."
+    },
+    {
+      "id": "entity:china",
+      "name": "China",
+      "description": "Named entity mentioned in Semiconductor Industry in China."
+    },
+    {
+      "id": "entity:domestic-production-initiatives-in",
+      "name": "Domestic Production Initiatives - In",
+      "description": "Named entity mentioned in Semiconductor Industry in China."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:semiconductor-industry-in-china-15ab2d27:1",
+      "text": "Semiconductor Industry in China Source: Wikipedia (en.wikipedia.org) | Accessed: 2026-05-29 ## Overview China is the world's largest semiconductor market in terms of consumption.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "semiconductor-industry-in-china-15ab2d27"
+    },
+    {
+      "id": "claim:semiconductor-industry-in-china-15ab2d27:2",
+      "text": "In 2020, China represented 53.7% of worldwide chip sales ($239.45 billion out of $446.1 billion), but over 83% ($199.7 billion) was imported from multinational suppliers.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "semiconductor-industry-in-china-15ab2d27"
+    },
+    {
+      "id": "claim:semiconductor-industry-in-china-15ab2d27:3",
+      "text": "## Domestic Production Initiatives - In 2022, China announced a Made in China 2025 goal of 70% domestic production.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "semiconductor-industry-in-china-15ab2d27"
+    },
+    {
+      "id": "claim:semiconductor-industry-in-china-15ab2d27:4",
+      "text": "- China leads the world in number of new fabs under construction: 8 out of 19 worldwide in 2021.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "semiconductor-industry-in-china-15ab2d27"
+    }
+  ],
+  "questions": [
+    "How does china relate to Semiconductor Industry in China?",
+    "How does semiconductor relate to Semiconductor Industry in China?",
+    "How does 2020 relate to Semiconductor Industry in China?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.420Z"
+}

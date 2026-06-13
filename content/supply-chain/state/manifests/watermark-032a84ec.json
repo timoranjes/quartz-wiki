@@ -1,0 +1,24 @@
+{
+  "sourceId": "watermark-032a84ec",
+  "title": ".watermark",
+  "originType": "file",
+  "sourceKind": "data",
+  "sourceClass": "first_party",
+  "originalPath": "/Users/zichengliao/Library/Mobile Documents/iCloud~md~obsidian/Documents/wiki-ai-supply-chain/raw/.watermark.json",
+  "repoRelativePath": ".watermark.json",
+  "storedPath": "raw/sources/watermark-032a84ec.json",
+  "extractedTextPath": "state/extracts/watermark-032a84ec.md",
+  "extractedMetadataPath": "state/extracts/watermark-032a84ec.json",
+  "extractionHash": "e6ce3f59b6be093e69e330a1c3747d5747c5619b7f2f3e82777ac5d065cae50a",
+  "mimeType": "application/json",
+  "contentHash": "032a84ec077bdcf5d8f595e75e9bb50bdf0f077caf702eff4546284c8a4c264b",
+  "semanticHash": "032a84ec077bdcf5d8f595e75e9bb50bdf0f077caf702eff4546284c8a4c264b",
+  "details": {
+    "format": "json",
+    "top_level_type": "object",
+    "top_level_size": "2",
+    "nested_depth": "3"
+  },
+  "createdAt": "2026-06-06T21:09:01.162Z",
+  "updatedAt": "2026-06-06T21:09:01.162Z"
+}

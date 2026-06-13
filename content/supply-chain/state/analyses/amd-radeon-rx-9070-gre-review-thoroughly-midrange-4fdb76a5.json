@@ -1,0 +1,108 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5",
+  "sourceHash": "4fdb76a57c3b6ee611b2c0f8008f9ebb12c8679e0780084841139bc3c785fcdd",
+  "semanticHash": "594cb5005650c792caae4a06e78967a396abfe2016a47e9fbf077c5f7643ef8e",
+  "extractionHash": "0ee3407457fc696c764f4b9c1e974a2c04c6b5416380ec635e066d869e7ed2d0",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "AMD Radeon RX 9070 GRE review: thoroughly midrange",
+  "summary": "AMD Radeon RX 9070 GRE review: thoroughly midrange AMD's $549 Radeon RX 9070 GRE offers strong high-refresh-rate 1080p and 1440p gaming performance as it launches globally at Computex 2026. But a lower price tag could have truly changed the midrange game. Original: https://www.tomshardware.com/pc-components/gpus/amd-radeon-rx-9070-gre-review",
+  "concepts": [
+    {
+      "id": "concept:9070",
+      "name": "9070",
+      "description": "Frequently referenced concept in AMD Radeon RX 9070 GRE review: thoroughly midrange."
+    },
+    {
+      "id": "concept:midrange",
+      "name": "midrange",
+      "description": "Frequently referenced concept in AMD Radeon RX 9070 GRE review: thoroughly midrange."
+    },
+    {
+      "id": "concept:radeon",
+      "name": "radeon",
+      "description": "Frequently referenced concept in AMD Radeon RX 9070 GRE review: thoroughly midrange."
+    },
+    {
+      "id": "concept:1080p",
+      "name": "1080p",
+      "description": "Frequently referenced concept in AMD Radeon RX 9070 GRE review: thoroughly midrange."
+    },
+    {
+      "id": "concept:1440p",
+      "name": "1440p",
+      "description": "Frequently referenced concept in AMD Radeon RX 9070 GRE review: thoroughly midrange."
+    },
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in AMD Radeon RX 9070 GRE review: thoroughly midrange."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:amd-radeon",
+      "name": "AMD Radeon",
+      "description": "Named entity mentioned in AMD Radeon RX 9070 GRE review: thoroughly midrange."
+    },
+    {
+      "id": "entity:amd-s",
+      "name": "AMD's",
+      "description": "Named entity mentioned in AMD Radeon RX 9070 GRE review: thoroughly midrange."
+    },
+    {
+      "id": "entity:radeon",
+      "name": "Radeon",
+      "description": "Named entity mentioned in AMD Radeon RX 9070 GRE review: thoroughly midrange."
+    },
+    {
+      "id": "entity:computex",
+      "name": "Computex",
+      "description": "Named entity mentioned in AMD Radeon RX 9070 GRE review: thoroughly midrange."
+    },
+    {
+      "id": "entity:https-www-tomshardware-com-pc-components-gpus-amd-radeon-rx-9070-gre-review",
+      "name": "https://www.tomshardware.com/pc-components/gpus/amd-radeon-rx-9070-gre-review",
+      "description": "Named entity mentioned in AMD Radeon RX 9070 GRE review: thoroughly midrange."
+    },
+    {
+      "id": "entity:amd",
+      "name": "AMD",
+      "description": "Named entity mentioned in AMD Radeon RX 9070 GRE review: thoroughly midrange."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5:1",
+      "text": "AMD Radeon RX 9070 GRE review: thoroughly midrange AMD's $549 Radeon RX 9070 GRE offers strong high-refresh-rate 1080p and 1440p gaming performance as it launches globally at Computex 2026.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5"
+    },
+    {
+      "id": "claim:amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5:2",
+      "text": "But a lower price tag could have truly changed the midrange game.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5"
+    },
+    {
+      "id": "claim:amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5:3",
+      "text": "Original: https://www.tomshardware.com/pc-components/gpus/amd-radeon-rx-9070-gre-review",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5"
+    }
+  ],
+  "questions": [
+    "How does 9070 relate to AMD Radeon RX 9070 GRE review: thoroughly midrange?",
+    "How does midrange relate to AMD Radeon RX 9070 GRE review: thoroughly midrange?",
+    "How does radeon relate to AMD Radeon RX 9070 GRE review: thoroughly midrange?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.232Z"
+}

@@ -1,0 +1,4 @@
+I scanned wiki-ai-supply-chain with SwarmVault: 90 sources -> 608 wiki pages, 599 graph nodes, 1894 edges.
+Top hubs: Original:, 2026, and https.
+Most surprising link: 华泰证券：618低价竞争降温 平台聚焦效率升级 semantically_similar_to 韩国家庭一季度酒精饮料支出同比下降9%，创七年来最大降幅.
+Everything stays local. Try: npm install -g @swarmvaultai/cli && swarmvault scan ./your-repo

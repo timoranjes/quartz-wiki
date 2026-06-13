@@ -1,0 +1,108 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "early-memory-contention-checks-reduce-ic-design-risks-2fa560bb",
+  "sourceHash": "2fa560bbbb032afb88d58815ef6eff23a457d723bc74786642694f744677e174",
+  "semanticHash": "69398ae003744ef26d79c9110d6e714582562a3a89107288a6e8aa637ccc574d",
+  "extractionHash": "e30fb882a28e7f0354b467c378d0dcded50c7001e654c0d5cae05715d410b6ef",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Early Memory Contention Checks Reduce IC Design Risks",
+  "summary": "Early Memory Contention Checks Reduce IC Design Risks Automated schematic-level contention analysis detects memory bottlenecks early, improving SoC reliability, predictability, and silicon quality. The post Early Memory Contention Checks Reduce IC Design Risks appeared first on EE Times. Original: https://www.eetimes.com/early-memory-contention-checks-reduce-ic-design-risks/",
+  "concepts": [
+    {
+      "id": "concept:contention",
+      "name": "contention",
+      "description": "Frequently referenced concept in Early Memory Contention Checks Reduce IC Design Risks."
+    },
+    {
+      "id": "concept:early",
+      "name": "early",
+      "description": "Frequently referenced concept in Early Memory Contention Checks Reduce IC Design Risks."
+    },
+    {
+      "id": "concept:memory",
+      "name": "memory",
+      "description": "Frequently referenced concept in Early Memory Contention Checks Reduce IC Design Risks."
+    },
+    {
+      "id": "concept:checks",
+      "name": "checks",
+      "description": "Frequently referenced concept in Early Memory Contention Checks Reduce IC Design Risks."
+    },
+    {
+      "id": "concept:design",
+      "name": "design",
+      "description": "Frequently referenced concept in Early Memory Contention Checks Reduce IC Design Risks."
+    },
+    {
+      "id": "concept:reduce",
+      "name": "reduce",
+      "description": "Frequently referenced concept in Early Memory Contention Checks Reduce IC Design Risks."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:memory-contention-checks-reduce-ic-design-risks-automated",
+      "name": "Memory Contention Checks Reduce IC Design Risks Automated",
+      "description": "Named entity mentioned in Early Memory Contention Checks Reduce IC Design Risks."
+    },
+    {
+      "id": "entity:soc",
+      "name": "SoC",
+      "description": "Named entity mentioned in Early Memory Contention Checks Reduce IC Design Risks."
+    },
+    {
+      "id": "entity:early-memory-contention-checks-reduce-ic-design-risks",
+      "name": "Early Memory Contention Checks Reduce IC Design Risks",
+      "description": "Named entity mentioned in Early Memory Contention Checks Reduce IC Design Risks."
+    },
+    {
+      "id": "entity:ee-times",
+      "name": "EE Times.",
+      "description": "Named entity mentioned in Early Memory Contention Checks Reduce IC Design Risks."
+    },
+    {
+      "id": "entity:memory-contention-checks-reduce-ic-design",
+      "name": "Memory Contention Checks Reduce IC Design",
+      "description": "Named entity mentioned in Early Memory Contention Checks Reduce IC Design Risks."
+    },
+    {
+      "id": "entity:early-memory-contention-checks-reduce-ic-design",
+      "name": "Early Memory Contention Checks Reduce IC Design",
+      "description": "Named entity mentioned in Early Memory Contention Checks Reduce IC Design Risks."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:early-memory-contention-checks-reduce-ic-design-risks-2fa560bb:1",
+      "text": "Early Memory Contention Checks Reduce IC Design Risks Automated schematic-level contention analysis detects memory bottlenecks early, improving SoC reliability, predictability, and silicon quality.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "early-memory-contention-checks-reduce-ic-design-risks-2fa560bb"
+    },
+    {
+      "id": "claim:early-memory-contention-checks-reduce-ic-design-risks-2fa560bb:2",
+      "text": "The post Early Memory Contention Checks Reduce IC Design Risks appeared first on EE Times.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "early-memory-contention-checks-reduce-ic-design-risks-2fa560bb"
+    },
+    {
+      "id": "claim:early-memory-contention-checks-reduce-ic-design-risks-2fa560bb:3",
+      "text": "Original: https://www.eetimes.com/early-memory-contention-checks-reduce-ic-design-risks/",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "early-memory-contention-checks-reduce-ic-design-risks-2fa560bb"
+    }
+  ],
+  "questions": [
+    "How does contention relate to Early Memory Contention Checks Reduce IC Design Risks?",
+    "How does early relate to Early Memory Contention Checks Reduce IC Design Risks?",
+    "How does memory relate to Early Memory Contention Checks Reduce IC Design Risks?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.262Z"
+}

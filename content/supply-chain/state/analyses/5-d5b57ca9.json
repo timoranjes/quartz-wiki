@@ -1,0 +1,64 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "5-d5b57ca9",
+  "sourceHash": "d5b57ca97162cd6800064804607c7ec288bd3a5934fa1b1101e1426a6cf499d2",
+  "semanticHash": "4891d41f8293cc1f181f24d9a8cc1934ec135890d2064b8b48d8e2a0c41d7657",
+  "extractionHash": "4cdec6b2e70b08ccd0b3909ae0c70416fa464ad2b503a3c48c553cf4f29f3882",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "鸡蛋现货突破5元/斤，高利润下产业为何不敢囤货？",
+  "summary": "鸡蛋现货突破5元/斤，高利润下产业为何不敢囤货？ 这一轮高价还能持续多久? Original: https://www.tmtpost.com/8010392.html",
+  "concepts": [
+    {
+      "id": "concept:8010392",
+      "name": "8010392",
+      "description": "Frequently referenced concept in 鸡蛋现货突破5元/斤，高利润下产业为何不敢囤货？."
+    },
+    {
+      "id": "concept:html",
+      "name": "html",
+      "description": "Frequently referenced concept in 鸡蛋现货突破5元/斤，高利润下产业为何不敢囤货？."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in 鸡蛋现货突破5元/斤，高利润下产业为何不敢囤货？."
+    },
+    {
+      "id": "concept:original",
+      "name": "original",
+      "description": "Frequently referenced concept in 鸡蛋现货突破5元/斤，高利润下产业为何不敢囤货？."
+    },
+    {
+      "id": "concept:tmtpost",
+      "name": "tmtpost",
+      "description": "Frequently referenced concept in 鸡蛋现货突破5元/斤，高利润下产业为何不敢囤货？."
+    }
+  ],
+  "entities": [],
+  "claims": [
+    {
+      "id": "claim:5-d5b57ca9:1",
+      "text": "鸡蛋现货突破5元/斤，高利润下产业为何不敢囤货？ 这一轮高价还能持续多久?",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "5-d5b57ca9"
+    },
+    {
+      "id": "claim:5-d5b57ca9:2",
+      "text": "Original: https://www.tmtpost.com/8010392.html",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "5-d5b57ca9"
+    }
+  ],
+  "questions": [
+    "How does 8010392 relate to 鸡蛋现货突破5元/斤，高利润下产业为何不敢囤货？?",
+    "How does html relate to 鸡蛋现货突破5元/斤，高利润下产业为何不敢囤货？?",
+    "How does https relate to 鸡蛋现货突破5元/斤，高利润下产业为何不敢囤货？?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.082Z"
+}

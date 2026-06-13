@@ -1,0 +1,100 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56",
+  "sourceHash": "c78d7e56fdb603c8a5379525bbc1a12d13ee3f0c6bf8c68b859b65c274872acc",
+  "semanticHash": "f0ac11b3cf3738287b298501326aa9ddf867f73edce7bd2f4df7907a46859cf1",
+  "extractionHash": "441c256f35e5cfe2d828315fa29b34ee27f327a00bdf2b4f56e65744ce57142c",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Jensen Huang says Nvidia wants to 'reinvent the single most important tool of humanity' with RTX Spark — Nvidia CEO touts support of 'literally every computer maker in the world' for its agentic AI PC platform",
+  "summary": "Jensen Huang says Nvidia wants to 'reinvent the single most important tool of humanity' with RTX Spark — Nvidia CEO touts support of 'literally every computer maker in the world' for its agentic AI PC platform In a press Q&A held at Computex 2026, Nvidia CEO Jensen Huang discussed why the company is entering the PC market now and its ambitions for the future of computing. Original: https://www.tomshardware.com/tech-industry/artificial-intelligence/jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-humanity-with-rtx-spark-nvidia-ceo-touts-support-of-literally-every-computer-maker-in-the-world-for-its-agentic-ai-pc-platform",
+  "concepts": [
+    {
+      "id": "concept:nvidia",
+      "name": "nvidia",
+      "description": "Frequently referenced concept in Jensen Huang says Nvidia wants to 'reinvent the single most important tool of humanity' with RTX Spark — Nvidia CEO touts support of 'literally every computer maker in the world' for its agentic AI PC platform."
+    },
+    {
+      "id": "concept:huang",
+      "name": "huang",
+      "description": "Frequently referenced concept in Jensen Huang says Nvidia wants to 'reinvent the single most important tool of humanity' with RTX Spark — Nvidia CEO touts support of 'literally every computer maker in the world' for its agentic AI PC platform."
+    },
+    {
+      "id": "concept:jensen",
+      "name": "jensen",
+      "description": "Frequently referenced concept in Jensen Huang says Nvidia wants to 'reinvent the single most important tool of humanity' with RTX Spark — Nvidia CEO touts support of 'literally every computer maker in the world' for its agentic AI PC platform."
+    },
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in Jensen Huang says Nvidia wants to 'reinvent the single most important tool of humanity' with RTX Spark — Nvidia CEO touts support of 'literally every computer maker in the world' for its agentic AI PC platform."
+    },
+    {
+      "id": "concept:agentic",
+      "name": "agentic",
+      "description": "Frequently referenced concept in Jensen Huang says Nvidia wants to 'reinvent the single most important tool of humanity' with RTX Spark — Nvidia CEO touts support of 'literally every computer maker in the world' for its agentic AI PC platform."
+    },
+    {
+      "id": "concept:ambitions",
+      "name": "ambitions",
+      "description": "Frequently referenced concept in Jensen Huang says Nvidia wants to 'reinvent the single most important tool of humanity' with RTX Spark — Nvidia CEO touts support of 'literally every computer maker in the world' for its agentic AI PC platform."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:jensen-huang",
+      "name": "Jensen Huang",
+      "description": "Named entity mentioned in Jensen Huang says Nvidia wants to 'reinvent the single most important tool of humanity' with RTX Spark — Nvidia CEO touts support of 'literally every computer maker in the world' for its agentic AI PC platform."
+    },
+    {
+      "id": "entity:nvidia",
+      "name": "Nvidia",
+      "description": "Named entity mentioned in Jensen Huang says Nvidia wants to 'reinvent the single most important tool of humanity' with RTX Spark — Nvidia CEO touts support of 'literally every computer maker in the world' for its agentic AI PC platform."
+    },
+    {
+      "id": "entity:spark-nvidia",
+      "name": "Spark — Nvidia",
+      "description": "Named entity mentioned in Jensen Huang says Nvidia wants to 'reinvent the single most important tool of humanity' with RTX Spark — Nvidia CEO touts support of 'literally every computer maker in the world' for its agentic AI PC platform."
+    },
+    {
+      "id": "entity:in",
+      "name": "In",
+      "description": "Named entity mentioned in Jensen Huang says Nvidia wants to 'reinvent the single most important tool of humanity' with RTX Spark — Nvidia CEO touts support of 'literally every computer maker in the world' for its agentic AI PC platform."
+    },
+    {
+      "id": "entity:computex",
+      "name": "Computex",
+      "description": "Named entity mentioned in Jensen Huang says Nvidia wants to 'reinvent the single most important tool of humanity' with RTX Spark — Nvidia CEO touts support of 'literally every computer maker in the world' for its agentic AI PC platform."
+    },
+    {
+      "id": "entity:pc",
+      "name": "PC",
+      "description": "Named entity mentioned in Jensen Huang says Nvidia wants to 'reinvent the single most important tool of humanity' with RTX Spark — Nvidia CEO touts support of 'literally every computer maker in the world' for its agentic AI PC platform."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56:1",
+      "text": "Jensen Huang says Nvidia wants to 'reinvent the single most important tool of humanity' with RTX Spark — Nvidia CEO touts support of 'literally every computer maker in the world' for its agentic AI PC platform In a press Q&A held at Computex 2026, Nvidia CEO Jensen Huang discussed why the company is entering the PC market now and its ambitions for the future of computing.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56"
+    },
+    {
+      "id": "claim:jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56:2",
+      "text": "Original: https://www.tomshardware.com/tech-industry/artificial-intelligence/jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-humanity-with-rtx-spark-nvidia-ceo-touts-support-of-literally-every-computer-maker-in-the-world-for-its-agentic-ai-pc-platform",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56"
+    }
+  ],
+  "questions": [
+    "How does nvidia relate to Jensen Huang says Nvidia wants to 'reinvent the single most important tool of humanity' with RTX Spark — Nvidia CEO touts support of 'literally every computer maker in the world' for its agentic AI PC platform?",
+    "How does huang relate to Jensen Huang says Nvidia wants to 'reinvent the single most important tool of humanity' with RTX Spark — Nvidia CEO touts support of 'literally every computer maker in the world' for its agentic AI PC platform?",
+    "How does jensen relate to Jensen Huang says Nvidia wants to 'reinvent the single most important tool of humanity' with RTX Spark — Nvidia CEO touts support of 'literally every computer maker in the world' for its agentic AI PC platform?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.368Z"
+}

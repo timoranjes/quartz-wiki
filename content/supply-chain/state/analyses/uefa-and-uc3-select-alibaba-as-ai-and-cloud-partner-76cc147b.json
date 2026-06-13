@@ -1,0 +1,72 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "uefa-and-uc3-select-alibaba-as-ai-and-cloud-partner-76cc147b",
+  "sourceHash": "76cc147bab392e99c1ef3dc3bf3fde3dc162c72ef2c1175c246acd3796ac10fa",
+  "semanticHash": "bd0e52a3546e7fcb4f2ed10c83b52601dfee96544f0177a43d7e1021a1ce9e1a",
+  "extractionHash": "3e2d9def6a3969cf3ff1f42aa8b277ad8bde0829771dc779d3a7b8cea1d7be4d",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "UEFA and UC3 select Alibaba as AI and cloud partner",
+  "summary": "UEFA and UC3 select Alibaba as AI and cloud partner Will also serve as e-commerce partner for football groups Original: https://www.datacenterdynamics.com/en/news/uefa-and-uc3-select-alibaba-as-ai-and-cloud-partner/",
+  "concepts": [
+    {
+      "id": "concept:partner",
+      "name": "partner",
+      "description": "Frequently referenced concept in UEFA and UC3 select Alibaba as AI and cloud partner."
+    },
+    {
+      "id": "concept:alibaba",
+      "name": "alibaba",
+      "description": "Frequently referenced concept in UEFA and UC3 select Alibaba as AI and cloud partner."
+    },
+    {
+      "id": "concept:also",
+      "name": "also",
+      "description": "Frequently referenced concept in UEFA and UC3 select Alibaba as AI and cloud partner."
+    },
+    {
+      "id": "concept:cloud",
+      "name": "cloud",
+      "description": "Frequently referenced concept in UEFA and UC3 select Alibaba as AI and cloud partner."
+    },
+    {
+      "id": "concept:datacenterdynamics",
+      "name": "datacenterdynamics",
+      "description": "Frequently referenced concept in UEFA and UC3 select Alibaba as AI and cloud partner."
+    },
+    {
+      "id": "concept:e-commerce",
+      "name": "e-commerce",
+      "description": "Frequently referenced concept in UEFA and UC3 select Alibaba as AI and cloud partner."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:alibaba",
+      "name": "Alibaba",
+      "description": "Named entity mentioned in UEFA and UC3 select Alibaba as AI and cloud partner."
+    },
+    {
+      "id": "entity:original",
+      "name": "Original:",
+      "description": "Named entity mentioned in UEFA and UC3 select Alibaba as AI and cloud partner."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:uefa-and-uc3-select-alibaba-as-ai-and-cloud-partner-76cc147b:1",
+      "text": "UEFA and UC3 select Alibaba as AI and cloud partner Will also serve as e-commerce partner for football groups Original: https://www.datacenterdynamics.com/en/news/uefa-and-uc3-select-alibaba-as-ai-and-cloud-partner/",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "uefa-and-uc3-select-alibaba-as-ai-and-cloud-partner-76cc147b"
+    }
+  ],
+  "questions": [
+    "How does partner relate to UEFA and UC3 select Alibaba as AI and cloud partner?",
+    "How does alibaba relate to UEFA and UC3 select Alibaba as AI and cloud partner?",
+    "How does also relate to UEFA and UC3 select Alibaba as AI and cloud partner?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.472Z"
+}

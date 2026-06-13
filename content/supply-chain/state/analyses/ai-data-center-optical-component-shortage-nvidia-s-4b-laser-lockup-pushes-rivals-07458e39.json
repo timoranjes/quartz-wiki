@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39",
+  "sourceHash": "07458e392b32ca5133a194ac4d662bb2aaf16d0d4de1bbe4903eb02678f7596d",
+  "semanticHash": "80617ecdaa76d156c88eec3bf91ca37a59f2c5226866333033f4a9364c43f6f3",
+  "extractionHash": "08ef76399dfecaa6a747cbfa9d6a6bb91a56b270607e97cc890a39f9c763c94e",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "AI Data Center Optical Component Shortage: Nvidia's $4B Laser Lockup Pushes Rivals Past 2027",
+  "summary": "AI Data Center Optical Component Shortage: Nvidia's $4B Laser Lockup Pushes Rivals Past 2027 Source: techtimes.com | Author: Kyle Belmonte | Date: 2026-05-27 The AI infrastructure boom has created its next supply chain crisis. Having already driven shortages in GPUs, HBM, and advanced packaging substrates, the buildout of AI data centers has now produced a severe crunch in optical communications components — the high-speed lasers, fiber optic cables, and transceivers that form the nervous system connecting racks inside AI training clusters. According to McKinsey analysis, production of 800G transceivers will fall 40-60% short of demand through 2027, with shortfalls of 30-40% likely for 1.6T devices through 2029.",
+  "concepts": [
+    {
+      "id": "concept:billion",
+      "name": "billion",
+      "description": "Frequently referenced concept in AI Data Center Optical Component Shortage: Nvidia's $4B Laser Lockup Pushes Rivals Past 2027."
+    },
+    {
+      "id": "concept:supply",
+      "name": "supply",
+      "description": "Frequently referenced concept in AI Data Center Optical Component Shortage: Nvidia's $4B Laser Lockup Pushes Rivals Past 2027."
+    },
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in AI Data Center Optical Component Shortage: Nvidia's $4B Laser Lockup Pushes Rivals Past 2027."
+    },
+    {
+      "id": "concept:fiber",
+      "name": "fiber",
+      "description": "Frequently referenced concept in AI Data Center Optical Component Shortage: Nvidia's $4B Laser Lockup Pushes Rivals Past 2027."
+    },
+    {
+      "id": "concept:laser",
+      "name": "laser",
+      "description": "Frequently referenced concept in AI Data Center Optical Component Shortage: Nvidia's $4B Laser Lockup Pushes Rivals Past 2027."
+    },
+    {
+      "id": "concept:nvidia",
+      "name": "nvidia",
+      "description": "Frequently referenced concept in AI Data Center Optical Component Shortage: Nvidia's $4B Laser Lockup Pushes Rivals Past 2027."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:ai-data-center-optical",
+      "name": "AI Data Center Optical",
+      "description": "Named entity mentioned in AI Data Center Optical Component Shortage: Nvidia's $4B Laser Lockup Pushes Rivals Past 2027."
+    },
+    {
+      "id": "entity:nvidia-s",
+      "name": "Nvidia's",
+      "description": "Named entity mentioned in AI Data Center Optical Component Shortage: Nvidia's $4B Laser Lockup Pushes Rivals Past 2027."
+    },
+    {
+      "id": "entity:author-kyle-belmonte",
+      "name": "Author: Kyle Belmonte",
+      "description": "Named entity mentioned in AI Data Center Optical Component Shortage: Nvidia's $4B Laser Lockup Pushes Rivals Past 2027."
+    },
+    {
+      "id": "entity:date",
+      "name": "Date:",
+      "description": "Named entity mentioned in AI Data Center Optical Component Shortage: Nvidia's $4B Laser Lockup Pushes Rivals Past 2027."
+    },
+    {
+      "id": "entity:ai",
+      "name": "AI",
+      "description": "Named entity mentioned in AI Data Center Optical Component Shortage: Nvidia's $4B Laser Lockup Pushes Rivals Past 2027."
+    },
+    {
+      "id": "entity:ai-data",
+      "name": "AI data",
+      "description": "Named entity mentioned in AI Data Center Optical Component Shortage: Nvidia's $4B Laser Lockup Pushes Rivals Past 2027."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39:1",
+      "text": "AI Data Center Optical Component Shortage: Nvidia's $4B Laser Lockup Pushes Rivals Past 2027 Source: techtimes.com | Author: Kyle Belmonte | Date: 2026-05-27 The AI infrastructure boom has created its next supply chain crisis.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39"
+    },
+    {
+      "id": "claim:ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39:2",
+      "text": "Having already driven shortages in GPUs, HBM, and advanced packaging substrates, the buildout of AI data centers has now produced a severe crunch in optical communications components — the high-speed lasers, fiber optic cables, and transceivers that form the nervous system connecting racks inside AI training clusters.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39"
+    },
+    {
+      "id": "claim:ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39:3",
+      "text": "According to McKinsey analysis, production of 800G transceivers will fall 40-60% short of demand through 2027, with shortfalls of 30-40% likely for 1.6T devices through 2029.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39"
+    },
+    {
+      "id": "claim:ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39:4",
+      "text": "## 57% Market Surge TrendForce projects the global market for AI-focused optical transceivers will expand from $16.5 billion in 2025 to $26 billion in 2026 — growth of more than 57% year-over-year.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39"
+    }
+  ],
+  "questions": [
+    "How does billion relate to AI Data Center Optical Component Shortage: Nvidia's $4B Laser Lockup Pushes Rivals Past 2027?",
+    "How does supply relate to AI Data Center Optical Component Shortage: Nvidia's $4B Laser Lockup Pushes Rivals Past 2027?",
+    "How does 2026 relate to AI Data Center Optical Component Shortage: Nvidia's $4B Laser Lockup Pushes Rivals Past 2027?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.221Z"
+}

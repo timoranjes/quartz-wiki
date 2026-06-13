@@ -1,0 +1,95 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "noctua-announces-new-thermal-pad-for-amd-chips-in-partnership-with-carbice-produ-e4649514",
+  "sourceHash": "e4649514bf6bb6bbf4aac88cd2e901100d311747772fa2cfef6e3e152d95c1df",
+  "semanticHash": "710c8c5c79c963614e71acc9a2077cacdc90a3c2fd644f30d23e070ac6716628",
+  "extractionHash": "08ca7679503096928cf50645fe6064845823568d337e5c5f27ef2161ba4262f0",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Noctua announces new thermal pad for AMD chips in partnership with Carbice — product will work with processors in AM5 and AM4 sockets",
+  "summary": "Noctua announces new thermal pad for AMD chips in partnership with Carbice — product will work with processors in AM5 and AM4 sockets Noctua has entered the thermal pad market in partnership with thermal pad maker Carbice, featuring the new NT-CP1 designed for AM5 and AM4 Ryzen CPUs. Original: https://www.tomshardware.com/pc-components/thermal-paste/noctua-announces-new-thermal-pad-for-amd-chips-in-partnership-with-carbice-product-will-work-with-processors-in-am5-and-am4-sockets",
+  "concepts": [
+    {
+      "id": "concept:thermal",
+      "name": "thermal",
+      "description": "Frequently referenced concept in Noctua announces new thermal pad for AMD chips in partnership with Carbice — product will work with processors in AM5 and AM4 sockets."
+    },
+    {
+      "id": "concept:with",
+      "name": "with",
+      "description": "Frequently referenced concept in Noctua announces new thermal pad for AMD chips in partnership with Carbice — product will work with processors in AM5 and AM4 sockets."
+    },
+    {
+      "id": "concept:carbice",
+      "name": "carbice",
+      "description": "Frequently referenced concept in Noctua announces new thermal pad for AMD chips in partnership with Carbice — product will work with processors in AM5 and AM4 sockets."
+    },
+    {
+      "id": "concept:noctua",
+      "name": "noctua",
+      "description": "Frequently referenced concept in Noctua announces new thermal pad for AMD chips in partnership with Carbice — product will work with processors in AM5 and AM4 sockets."
+    },
+    {
+      "id": "concept:partnership",
+      "name": "partnership",
+      "description": "Frequently referenced concept in Noctua announces new thermal pad for AMD chips in partnership with Carbice — product will work with processors in AM5 and AM4 sockets."
+    },
+    {
+      "id": "concept:announces",
+      "name": "announces",
+      "description": "Frequently referenced concept in Noctua announces new thermal pad for AMD chips in partnership with Carbice — product will work with processors in AM5 and AM4 sockets."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:amd",
+      "name": "AMD",
+      "description": "Named entity mentioned in Noctua announces new thermal pad for AMD chips in partnership with Carbice — product will work with processors in AM5 and AM4 sockets."
+    },
+    {
+      "id": "entity:carbice",
+      "name": "Carbice —",
+      "description": "Named entity mentioned in Noctua announces new thermal pad for AMD chips in partnership with Carbice — product will work with processors in AM5 and AM4 sockets."
+    },
+    {
+      "id": "entity:noctua",
+      "name": "Noctua",
+      "description": "Named entity mentioned in Noctua announces new thermal pad for AMD chips in partnership with Carbice — product will work with processors in AM5 and AM4 sockets."
+    },
+    {
+      "id": "entity:carbice",
+      "name": "Carbice,",
+      "description": "Named entity mentioned in Noctua announces new thermal pad for AMD chips in partnership with Carbice — product will work with processors in AM5 and AM4 sockets."
+    },
+    {
+      "id": "entity:ryzen",
+      "name": "Ryzen",
+      "description": "Named entity mentioned in Noctua announces new thermal pad for AMD chips in partnership with Carbice — product will work with processors in AM5 and AM4 sockets."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:noctua-announces-new-thermal-pad-for-amd-chips-in-partnership-with-carbice-produ-e4649514:1",
+      "text": "Noctua announces new thermal pad for AMD chips in partnership with Carbice — product will work with processors in AM5 and AM4 sockets Noctua has entered the thermal pad market in partnership with thermal pad maker Carbice, featuring the new NT-CP1 designed for AM5 and AM4 Ryzen CPUs.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "noctua-announces-new-thermal-pad-for-amd-chips-in-partnership-with-carbice-produ-e4649514"
+    },
+    {
+      "id": "claim:noctua-announces-new-thermal-pad-for-amd-chips-in-partnership-with-carbice-produ-e4649514:2",
+      "text": "Original: https://www.tomshardware.com/pc-components/thermal-paste/noctua-announces-new-thermal-pad-for-amd-chips-in-partnership-with-carbice-product-will-work-with-processors-in-am5-and-am4-sockets",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "noctua-announces-new-thermal-pad-for-amd-chips-in-partnership-with-carbice-produ-e4649514"
+    }
+  ],
+  "questions": [
+    "How does thermal relate to Noctua announces new thermal pad for AMD chips in partnership with Carbice — product will work with processors in AM5 and AM4 sockets?",
+    "How does with relate to Noctua announces new thermal pad for AMD chips in partnership with Carbice — product will work with processors in AM5 and AM4 sockets?",
+    "How does carbice relate to Noctua announces new thermal pad for AMD chips in partnership with Carbice — product will work with processors in AM5 and AM4 sockets?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.373Z"
+}

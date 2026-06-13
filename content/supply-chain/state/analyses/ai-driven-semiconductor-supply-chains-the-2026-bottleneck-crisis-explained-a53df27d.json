@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d",
+  "sourceHash": "a53df27dbebed5e94c12e7ed605db73ac9c6433e163404fa7a65420cde9a125e",
+  "semanticHash": "a3c2d40e52c9821b368f190cc563570b35df0c374675838a6cee1de77eba78b0",
+  "extractionHash": "8c7b4277ad8ff84bf198848698bd20ab9e2613aa5d9c7f683093c3e7d17d15d8",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "AI-Driven Semiconductor Supply Chains: The 2026 Bottleneck Crisis Explained",
+  "summary": "AI-Driven Semiconductor Supply Chains: The 2026 Bottleneck Crisis Explained Source: informedclearly.com | Author: Evelyn Nakamura | Date: 2026-04-22 ## AI-Driven Semiconductor Supply Chains: The 2026 Bottleneck Crisis The global semiconductor industry faces a critical inflection point in 2026, where supply chain vulnerabilities rather than production capacity are emerging as the primary constraint on growth. According to Moody's comprehensive 2026 analysis, despite record-breaking semiconductor sales reaching $790 billion in 2025 with 25.6% growth, structural weaknesses in the global semiconductor supply chain threaten to create systemic bottlenecks that could impact everything from AI development to consumer electronics. The convergence of concentrated manufacturing, geopolitical tensions, and upstream material dependencies creates unprecedented challenges for an industry projected to reach $975 billion in 2026.",
+  "concepts": [
+    {
+      "id": "concept:supply",
+      "name": "supply",
+      "description": "Frequently referenced concept in AI-Driven Semiconductor Supply Chains: The 2026 Bottleneck Crisis Explained."
+    },
+    {
+      "id": "concept:semiconductor",
+      "name": "semiconductor",
+      "description": "Frequently referenced concept in AI-Driven Semiconductor Supply Chains: The 2026 Bottleneck Crisis Explained."
+    },
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in AI-Driven Semiconductor Supply Chains: The 2026 Bottleneck Crisis Explained."
+    },
+    {
+      "id": "concept:chain",
+      "name": "chain",
+      "description": "Frequently referenced concept in AI-Driven Semiconductor Supply Chains: The 2026 Bottleneck Crisis Explained."
+    },
+    {
+      "id": "concept:advanced",
+      "name": "advanced",
+      "description": "Frequently referenced concept in AI-Driven Semiconductor Supply Chains: The 2026 Bottleneck Crisis Explained."
+    },
+    {
+      "id": "concept:manufacturing",
+      "name": "manufacturing",
+      "description": "Frequently referenced concept in AI-Driven Semiconductor Supply Chains: The 2026 Bottleneck Crisis Explained."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:author-evelyn-nakamura",
+      "name": "Author: Evelyn Nakamura",
+      "description": "Named entity mentioned in AI-Driven Semiconductor Supply Chains: The 2026 Bottleneck Crisis Explained."
+    },
+    {
+      "id": "entity:date",
+      "name": "Date:",
+      "description": "Named entity mentioned in AI-Driven Semiconductor Supply Chains: The 2026 Bottleneck Crisis Explained."
+    },
+    {
+      "id": "entity:bottleneck-crisis",
+      "name": "Bottleneck Crisis",
+      "description": "Named entity mentioned in AI-Driven Semiconductor Supply Chains: The 2026 Bottleneck Crisis Explained."
+    },
+    {
+      "id": "entity:moody-s-comprehensive",
+      "name": "Moody's comprehensive",
+      "description": "Named entity mentioned in AI-Driven Semiconductor Supply Chains: The 2026 Bottleneck Crisis Explained."
+    },
+    {
+      "id": "entity:ai-development",
+      "name": "AI development",
+      "description": "Named entity mentioned in AI-Driven Semiconductor Supply Chains: The 2026 Bottleneck Crisis Explained."
+    },
+    {
+      "id": "entity:what",
+      "name": "What",
+      "description": "Named entity mentioned in AI-Driven Semiconductor Supply Chains: The 2026 Bottleneck Crisis Explained."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d:1",
+      "text": "AI-Driven Semiconductor Supply Chains: The 2026 Bottleneck Crisis Explained Source: informedclearly.com | Author: Evelyn Nakamura | Date: 2026-04-22 ## AI-Driven Semiconductor Supply Chains: The 2026 Bottleneck Crisis The global semiconductor industry faces a critical inflection point in 2026, where supply chain vulnerabilities rather than production capacity are emerging as the primary constraint on growth.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d"
+    },
+    {
+      "id": "claim:ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d:2",
+      "text": "According to Moody's comprehensive 2026 analysis, despite record-breaking semiconductor sales reaching $790 billion in 2025 with 25.6% growth, structural weaknesses in the global semiconductor supply chain threaten to create systemic bottlenecks that could impact everything from AI development to consumer electronics.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d"
+    },
+    {
+      "id": "claim:ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d:3",
+      "text": "The convergence of concentrated manufacturing, geopolitical tensions, and upstream material dependencies creates unprecedented challenges for an industry projected to reach $975 billion in 2026.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d"
+    },
+    {
+      "id": "claim:ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d:4",
+      "text": "## What is the Semiconductor Supply Chain Bottleneck Crisis?",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d"
+    }
+  ],
+  "questions": [
+    "How does supply relate to AI-Driven Semiconductor Supply Chains: The 2026 Bottleneck Crisis Explained?",
+    "How does semiconductor relate to AI-Driven Semiconductor Supply Chains: The 2026 Bottleneck Crisis Explained?",
+    "How does 2026 relate to AI-Driven Semiconductor Supply Chains: The 2026 Bottleneck Crisis Explained?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.184Z"
+}

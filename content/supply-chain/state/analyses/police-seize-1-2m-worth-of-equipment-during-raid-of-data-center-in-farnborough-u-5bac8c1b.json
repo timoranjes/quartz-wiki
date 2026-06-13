@@ -1,0 +1,87 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b",
+  "sourceHash": "5bac8c1b50a478b48df217b1dd821a7e6ce44f22389b8624232117de10f2433a",
+  "semanticHash": "7f89992207850d6f60fb47db5867989109ad3b4320b05d0b28079167fff55016",
+  "extractionHash": "4e87721a6978009075edce12c1d6fed4e4b558358e42e4d06ec98c8cf77c4946",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Police seize £1.2m worth of equipment during raid of data center in Farnborough, UK",
+  "summary": "Police seize £1.2m worth of equipment during raid of data center in Farnborough, UK Facility was being used for illegal streaming Original: https://www.datacenterdynamics.com/en/news/police-seize-12m-worth-of-equipment-during-raid-of-data-center-in-farnborough-uk/",
+  "concepts": [
+    {
+      "id": "concept:being",
+      "name": "being",
+      "description": "Frequently referenced concept in Police seize £1.2m worth of equipment during raid of data center in Farnborough, UK."
+    },
+    {
+      "id": "concept:center",
+      "name": "center",
+      "description": "Frequently referenced concept in Police seize £1.2m worth of equipment during raid of data center in Farnborough, UK."
+    },
+    {
+      "id": "concept:data",
+      "name": "data",
+      "description": "Frequently referenced concept in Police seize £1.2m worth of equipment during raid of data center in Farnborough, UK."
+    },
+    {
+      "id": "concept:datacenterdynamics",
+      "name": "datacenterdynamics",
+      "description": "Frequently referenced concept in Police seize £1.2m worth of equipment during raid of data center in Farnborough, UK."
+    },
+    {
+      "id": "concept:during",
+      "name": "during",
+      "description": "Frequently referenced concept in Police seize £1.2m worth of equipment during raid of data center in Farnborough, UK."
+    },
+    {
+      "id": "concept:equipment",
+      "name": "equipment",
+      "description": "Frequently referenced concept in Police seize £1.2m worth of equipment during raid of data center in Farnborough, UK."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:farnborough-uk-facility",
+      "name": "Farnborough, UK Facility",
+      "description": "Named entity mentioned in Police seize £1.2m worth of equipment during raid of data center in Farnborough, UK."
+    },
+    {
+      "id": "entity:original",
+      "name": "Original:",
+      "description": "Named entity mentioned in Police seize £1.2m worth of equipment during raid of data center in Farnborough, UK."
+    },
+    {
+      "id": "entity:farnborough-uk",
+      "name": "Farnborough, UK",
+      "description": "Named entity mentioned in Police seize £1.2m worth of equipment during raid of data center in Farnborough, UK."
+    },
+    {
+      "id": "entity:uk",
+      "name": "UK",
+      "description": "Named entity mentioned in Police seize £1.2m worth of equipment during raid of data center in Farnborough, UK."
+    },
+    {
+      "id": "entity:farnborough",
+      "name": "Farnborough,",
+      "description": "Named entity mentioned in Police seize £1.2m worth of equipment during raid of data center in Farnborough, UK."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b:1",
+      "text": "Police seize £1.2m worth of equipment during raid of data center in Farnborough, UK Facility was being used for illegal streaming Original: https://www.datacenterdynamics.com/en/news/police-seize-12m-worth-of-equipment-during-raid-of-data-center-in-farnborough-uk/",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b"
+    }
+  ],
+  "questions": [
+    "How does being relate to Police seize £1.2m worth of equipment during raid of data center in Farnborough, UK?",
+    "How does center relate to Police seize £1.2m worth of equipment during raid of data center in Farnborough, UK?",
+    "How does data relate to Police seize £1.2m worth of equipment during raid of data center in Farnborough, UK?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.379Z"
+}

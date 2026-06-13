@@ -1,0 +1,56 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "ai-1fb02f31",
+  "sourceHash": "1fb02f31966c887dd2359fae84da3abe5141a11cc2240b4cc89f95b484435046",
+  "semanticHash": "473b322eb2dd0605ff1b045f049adc5bbf98506494d059526889993158e654f6",
+  "extractionHash": "6e298cba63ac2845d0aca4b015ef8140e9c788cef606b368a0e8a414b8722278",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "天涯归来，AI变局之下何去何从？",
+  "summary": "天涯归来，AI变局之下何去何从？ 在一个AI越来越像人、人越来越像机器的年代，一次需要等待回复、可能被反驳、没有表情包护体的对话，已经成为稀缺品。希望这片曾经孕育过无数思想交锋的土地，能在AI的洪流中留下一块属于人的空间。天涯的归来，本身是一种提醒：互联网曾经不靠算法投喂，也能长出好东西。 Original: https://www.tmtpost.com/8009748.html",
+  "concepts": [
+    {
+      "id": "concept:8009748",
+      "name": "8009748",
+      "description": "Frequently referenced concept in 天涯归来，AI变局之下何去何从？."
+    },
+    {
+      "id": "concept:html",
+      "name": "html",
+      "description": "Frequently referenced concept in 天涯归来，AI变局之下何去何从？."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in 天涯归来，AI变局之下何去何从？."
+    },
+    {
+      "id": "concept:original",
+      "name": "original",
+      "description": "Frequently referenced concept in 天涯归来，AI变局之下何去何从？."
+    },
+    {
+      "id": "concept:tmtpost",
+      "name": "tmtpost",
+      "description": "Frequently referenced concept in 天涯归来，AI变局之下何去何从？."
+    }
+  ],
+  "entities": [],
+  "claims": [
+    {
+      "id": "claim:ai-1fb02f31:1",
+      "text": "天涯归来，AI变局之下何去何从？ 在一个AI越来越像人、人越来越像机器的年代，一次需要等待回复、可能被反驳、没有表情包护体的对话，已经成为稀缺品。希望这片曾经孕育过无数思想交锋的土地，能在AI的洪流中留下一块属于人的空间。天涯的归来，本身是一种提醒：互联网曾经不靠算法投喂，也能长出好东西。 Original: https://www.tmtpost.com/8009748.html",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "ai-1fb02f31"
+    }
+  ],
+  "questions": [
+    "How does 8009748 relate to 天涯归来，AI变局之下何去何从？?",
+    "How does html relate to 天涯归来，AI变局之下何去何从？?",
+    "How does https relate to 天涯归来，AI变局之下何去何从？?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.116Z"
+}

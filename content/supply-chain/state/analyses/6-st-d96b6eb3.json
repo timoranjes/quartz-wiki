@@ -1,0 +1,56 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "6-st-d96b6eb3",
+  "sourceHash": "d96b6eb3e46fc03aca6300b00f5a40abb7ceeaa57a8ccb7750a5dfbf4e0d6ff3",
+  "semanticHash": "4a6fa811cf998ba62af777608fdf802e0864f2b951d336b4095c414bed7f987d",
+  "extractionHash": "32fda38e84410b0346f9177944fcad1d56aa40939c446c1cbe97db919f3f2f07",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "6连板*ST雅博：公司股票交易存在市场情绪过热、非理性炒作情况",
+  "summary": "6连板 ST雅博：公司股票交易存在市场情绪过热、非理性炒作情况 36氪获悉 ST雅博公告，公司股票交易价格近期波动较大，存在市场情绪过热、非理性炒作情况，随时存在快速下跌的风险。公司经营业绩亏损，资金链较为紧张；公司股票存在终止上市（退市）风险。经核查，公司经营情况及内外部经营环境未发生重大变化。公司、控股股东不存在关于公司的应披露而未披露的重大事项，或处于筹划阶段的重大事项。 Original: https://36kr.com/newsflashes/3835270632355209?f=rss",
+  "concepts": [
+    {
+      "id": "concept:36kr",
+      "name": "36kr",
+      "description": "Frequently referenced concept in 6连板*ST雅博：公司股票交易存在市场情绪过热、非理性炒作情况."
+    },
+    {
+      "id": "concept:3835270632355209",
+      "name": "3835270632355209",
+      "description": "Frequently referenced concept in 6连板*ST雅博：公司股票交易存在市场情绪过热、非理性炒作情况."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in 6连板*ST雅博：公司股票交易存在市场情绪过热、非理性炒作情况."
+    },
+    {
+      "id": "concept:newsflashes",
+      "name": "newsflashes",
+      "description": "Frequently referenced concept in 6连板*ST雅博：公司股票交易存在市场情绪过热、非理性炒作情况."
+    },
+    {
+      "id": "concept:original",
+      "name": "original",
+      "description": "Frequently referenced concept in 6连板*ST雅博：公司股票交易存在市场情绪过热、非理性炒作情况."
+    }
+  ],
+  "entities": [],
+  "claims": [
+    {
+      "id": "claim:6-st-d96b6eb3:1",
+      "text": "6连板 ST雅博：公司股票交易存在市场情绪过热、非理性炒作情况 36氪获悉 ST雅博公告，公司股票交易价格近期波动较大，存在市场情绪过热、非理性炒作情况，随时存在快速下跌的风险。公司经营业绩亏损，资金链较为紧张；公司股票存在终止上市（退市）风险。经核查，公司经营情况及内外部经营环境未发生重大变化。公司、控股股东不存在关于公司的应披露而未披露的重大事项，或处于筹划阶段的重大事项。 Original: https://36kr.com/newsflashes/3835270632355209?f=rss",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "6-st-d96b6eb3"
+    }
+  ],
+  "questions": [
+    "How does 36kr relate to 6连板*ST雅博：公司股票交易存在市场情绪过热、非理性炒作情况?",
+    "How does 3835270632355209 relate to 6连板*ST雅博：公司股票交易存在市场情绪过热、非理性炒作情况?",
+    "How does https relate to 6连板*ST雅博：公司股票交易存在市场情绪过热、非理性炒作情况?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.099Z"
+}

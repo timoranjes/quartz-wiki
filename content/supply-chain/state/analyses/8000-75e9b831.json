@@ -1,0 +1,61 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "8000-75e9b831",
+  "sourceHash": "75e9b8316e914aa171997276650d23d509b209b446b3b5750ecadbb2661dac27",
+  "semanticHash": "f5ef106d7564fb94b3b054c14d0a46dcd0b963dfcb5d74dc7a1eb8f2fb243665",
+  "extractionHash": "996959bd305f6321db7e82d423998993ed8e99f0b87d098422d9f8bae22be834",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "苏州打工人挤爆8000万豪宅",
+  "summary": "苏州打工人挤爆8000万豪宅 苏州豪宅里，住满了造芯片的人。 Original: https://www.tmtpost.com/8009750.html",
+  "concepts": [
+    {
+      "id": "concept:8000",
+      "name": "8000",
+      "description": "Frequently referenced concept in 苏州打工人挤爆8000万豪宅."
+    },
+    {
+      "id": "concept:8009750",
+      "name": "8009750",
+      "description": "Frequently referenced concept in 苏州打工人挤爆8000万豪宅."
+    },
+    {
+      "id": "concept:html",
+      "name": "html",
+      "description": "Frequently referenced concept in 苏州打工人挤爆8000万豪宅."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in 苏州打工人挤爆8000万豪宅."
+    },
+    {
+      "id": "concept:original",
+      "name": "original",
+      "description": "Frequently referenced concept in 苏州打工人挤爆8000万豪宅."
+    },
+    {
+      "id": "concept:tmtpost",
+      "name": "tmtpost",
+      "description": "Frequently referenced concept in 苏州打工人挤爆8000万豪宅."
+    }
+  ],
+  "entities": [],
+  "claims": [
+    {
+      "id": "claim:8000-75e9b831:1",
+      "text": "苏州打工人挤爆8000万豪宅 苏州豪宅里，住满了造芯片的人。 Original: https://www.tmtpost.com/8009750.html",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "8000-75e9b831"
+    }
+  ],
+  "questions": [
+    "How does 8000 relate to 苏州打工人挤爆8000万豪宅?",
+    "How does 8009750 relate to 苏州打工人挤爆8000万豪宅?",
+    "How does html relate to 苏州打工人挤爆8000万豪宅?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.107Z"
+}

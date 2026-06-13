@@ -1,0 +1,61 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "7-1-ipo-windows-pc-d602dc24",
+  "sourceHash": "d602dc24117a91aadec06911e70f49a936e94308e609ece9240a8744963403de",
+  "semanticHash": "c57714be726bfc878e55d9b3d8d9b285c036dc224b940c7b8068c6c66149177c",
+  "extractionHash": "ffcfa6f6e248eef4a0d6c690d2d29bc7b3e953b8957852c14b67ea0d3e96fd31",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "【钛晨报】《国务院关于对外投资的规定》公布，自7月1日起施行；宇树科技科创板IPO过会；英伟达发布面向Windows PC的新款处理器",
+  "summary": "【钛晨报】《国务院关于对外投资的规定》公布，自7月1日起施行；宇树科技科创板IPO过会；英伟达发布面向Windows PC的新款处理器 智谱：建议A股发行并在科创板上市；赛力斯字节合作新品牌细节曝光：将推纯电、增程双动力；牧原股份：秦英林辞任董事长，曹治年被选举为新任董事长；OpenAI官宣进军机器人赛道，短期内专注研发协助型机器人；国家标准委等六部门发布一批标准实施效果评估方法；八部门联合发文做强海洋保健食品产业，将海洋保健食品、海洋药物、海洋生物材料等作为重点突破领域；中央空管办等部门联合推广“扫码飞”；《商业秘密保护规定》今起实施，首次将“数据”“算法”等纳入保护范畴；软银超越丰田，成为日本市值最大公司；Strategy首次披露出售比特币，卖出32枚BTC套现250万美元 Original: https://www.tmtpost.com/8010716.html",
+  "concepts": [
+    {
+      "id": "concept:8010716",
+      "name": "8010716",
+      "description": "Frequently referenced concept in 【钛晨报】《国务院关于对外投资的规定》公布，自7月1日起施行；宇树科技科创板IPO过会；英伟达发布面向Windows PC的新款处理器."
+    },
+    {
+      "id": "concept:html",
+      "name": "html",
+      "description": "Frequently referenced concept in 【钛晨报】《国务院关于对外投资的规定》公布，自7月1日起施行；宇树科技科创板IPO过会；英伟达发布面向Windows PC的新款处理器."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in 【钛晨报】《国务院关于对外投资的规定》公布，自7月1日起施行；宇树科技科创板IPO过会；英伟达发布面向Windows PC的新款处理器."
+    },
+    {
+      "id": "concept:openai",
+      "name": "openai",
+      "description": "Frequently referenced concept in 【钛晨报】《国务院关于对外投资的规定》公布，自7月1日起施行；宇树科技科创板IPO过会；英伟达发布面向Windows PC的新款处理器."
+    },
+    {
+      "id": "concept:original",
+      "name": "original",
+      "description": "Frequently referenced concept in 【钛晨报】《国务院关于对外投资的规定》公布，自7月1日起施行；宇树科技科创板IPO过会；英伟达发布面向Windows PC的新款处理器."
+    },
+    {
+      "id": "concept:strategy",
+      "name": "strategy",
+      "description": "Frequently referenced concept in 【钛晨报】《国务院关于对外投资的规定》公布，自7月1日起施行；宇树科技科创板IPO过会；英伟达发布面向Windows PC的新款处理器."
+    }
+  ],
+  "entities": [],
+  "claims": [
+    {
+      "id": "claim:7-1-ipo-windows-pc-d602dc24:1",
+      "text": "【钛晨报】《国务院关于对外投资的规定》公布，自7月1日起施行；宇树科技科创板IPO过会；英伟达发布面向Windows PC的新款处理器 智谱：建议A股发行并在科创板上市；赛力斯字节合作新品牌细节曝光：将推纯电、增程双动力；牧原股份：秦英林辞任董事长，曹治年被选举为新任董事长；OpenAI官宣进军机器人赛道，短期内专注研发协助型机器人；国家标准委等六部门发布一批标准实施效果评估方法；八部门联合发文做强海洋保健食品产业，将海洋保健食品、海洋药物、海洋生物材料等作为重点突破领域；中央空管办等部门联合推广“扫码飞”；《商业秘密保护规定》今起实施，首次将“数据”“算法”等纳入保护范畴；软银超越丰田，成为日本市值最大公司；Strategy首次披露出售比特币，卖出32枚BTC套现250万美元 Original: https://www.tmtpost.com/8010716.html",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "7-1-ipo-windows-pc-d602dc24"
+    }
+  ],
+  "questions": [
+    "How does 8010716 relate to 【钛晨报】《国务院关于对外投资的规定》公布，自7月1日起施行；宇树科技科创板IPO过会；英伟达发布面向Windows PC的新款处理器?",
+    "How does html relate to 【钛晨报】《国务院关于对外投资的规定》公布，自7月1日起施行；宇树科技科创板IPO过会；英伟达发布面向Windows PC的新款处理器?",
+    "How does https relate to 【钛晨报】《国务院关于对外投资的规定》公布，自7月1日起施行；宇树科技科创板IPO过会；英伟达发布面向Windows PC的新款处理器?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.105Z"
+}

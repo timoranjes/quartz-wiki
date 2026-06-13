@@ -1,0 +1,67 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "item-2b1d1f82",
+  "sourceHash": "2b1d1f826f6d23060ca2e9d8c717d6865b4d126a41ab40f708247c7b8c6bc91d",
+  "semanticHash": "f25926134b854c889cf8536e46c092662484c646ac273a5e65bd8fcd62f38e66",
+  "extractionHash": "e5b78e66ff46bebcd28009a81f15cfe5866701c879a30dea99f2738158dfaee6",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "应用需求旺盛，年内多种小金属价格攀升",
+  "summary": "应用需求旺盛，年内多种小金属价格攀升 2026年以来，多种小金属价格持续攀升。根据上海钢联电子商务股份有限公司数据，截至6月1日，钽锭价格较去年年底上涨157.69%、锗锭价格较去年年底上涨83.82%、钼铁价格较去年年底上涨35.65%。 苏商银行特约研究员武泽伟在接受记者采访时表示，钽、锗、钼等小金属年内价格攀升，核心逻辑均指向供给刚性约束与新兴需求扩张的双重共振。（证券日报） Original: https://36kr.com/newsflashes/3835269055182211?f=rss",
+  "concepts": [
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in 应用需求旺盛，年内多种小金属价格攀升."
+    },
+    {
+      "id": "concept:36kr",
+      "name": "36kr",
+      "description": "Frequently referenced concept in 应用需求旺盛，年内多种小金属价格攀升."
+    },
+    {
+      "id": "concept:3835269055182211",
+      "name": "3835269055182211",
+      "description": "Frequently referenced concept in 应用需求旺盛，年内多种小金属价格攀升."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in 应用需求旺盛，年内多种小金属价格攀升."
+    },
+    {
+      "id": "concept:newsflashes",
+      "name": "newsflashes",
+      "description": "Frequently referenced concept in 应用需求旺盛，年内多种小金属价格攀升."
+    },
+    {
+      "id": "concept:original",
+      "name": "original",
+      "description": "Frequently referenced concept in 应用需求旺盛，年内多种小金属价格攀升."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:original",
+      "name": "Original:",
+      "description": "Named entity mentioned in 应用需求旺盛，年内多种小金属价格攀升."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:item-2b1d1f82:1",
+      "text": "应用需求旺盛，年内多种小金属价格攀升 2026年以来，多种小金属价格持续攀升。根据上海钢联电子商务股份有限公司数据，截至6月1日，钽锭价格较去年年底上涨157.69%、锗锭价格较去年年底上涨83.82%、钼铁价格较去年年底上涨35.65%。 苏商银行特约研究员武泽伟在接受记者采访时表示，钽、锗、钼等小金属年内价格攀升，核心逻辑均指向供给刚性约束与新兴需求扩张的双重共振。（证券日报） Original: https://36kr.com/newsflashes/3835269055182211?f=rss",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "item-2b1d1f82"
+    }
+  ],
+  "questions": [
+    "How does 2026 relate to 应用需求旺盛，年内多种小金属价格攀升?",
+    "How does 36kr relate to 应用需求旺盛，年内多种小金属价格攀升?",
+    "How does 3835269055182211 relate to 应用需求旺盛，年内多种小金属价格攀升?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.357Z"
+}
