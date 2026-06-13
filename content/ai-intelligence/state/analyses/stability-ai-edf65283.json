@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "stability-ai-edf65283",
+  "sourceHash": "edf6528319cbea969733b1bb1dd393af5a959ddea09cd0bfbd61d80ab2ec71cb",
+  "semanticHash": "200464a33fe8837df2e657915485bab957952ca98233e6235c0c1402ac053cb5",
+  "extractionHash": "36681b932b9782ad98dc1cc19dc9da5acfa1d63155ccdea222b63857994e832b",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Stability AI",
+  "summary": "title: Stability AI tags: provider/text-to-image, provider/uk, open-source # Stability AI ## Overview - Founded: 2019, London, United Kingdom - Founders: Emad Mostaque (former CEO, departed Mar 2024), Christian Laforte (CTO), Cyrus Hodes - Current CEO: Prem Akkaraju (since Jun 2024; former Weta Digital CEO) - Valuation: $1B peak (Oct 2022 Series A); current undisclosed - Funding: ~$181M+ total; Coatue, Lightspeed, Greycroft, O'Shaughnessy Ventures, Sean Parker - Revenue: ~$50M (2024 est.); triple-digit growth reported; debt eliminated under Akkaraju - Employees: ~170 (2024, post-layoffs) - Board: Sean Parker (Executive Chairman), James Cameron (film director) - Status: Privately held; stabilized after 2024 leadership crisis ## Strategy Primarily an image/audio generation company that also develops language models. Core differentiator: open-weight model philosophy — democratized AI image generation via Stable Diffusion. Multi-modal coverage: image → video → audio → 3D → text.",
+  "concepts": [
+    {
+      "id": "concept:stable",
+      "name": "stable",
+      "description": "Frequently referenced concept in Stability AI."
+    },
+    {
+      "id": "concept:2024",
+      "name": "2024",
+      "description": "Frequently referenced concept in Stability AI."
+    },
+    {
+      "id": "concept:generation",
+      "name": "generation",
+      "description": "Frequently referenced concept in Stability AI."
+    },
+    {
+      "id": "concept:image",
+      "name": "image",
+      "description": "Frequently referenced concept in Stability AI."
+    },
+    {
+      "id": "concept:audio",
+      "name": "audio",
+      "description": "Frequently referenced concept in Stability AI."
+    },
+    {
+      "id": "concept:video",
+      "name": "video",
+      "description": "Frequently referenced concept in Stability AI."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:stability",
+      "name": "Stability",
+      "description": "Named entity mentioned in Stability AI."
+    },
+    {
+      "id": "entity:provider-uk",
+      "name": "provider/uk,",
+      "description": "Named entity mentioned in Stability AI."
+    },
+    {
+      "id": "entity:overview-founded",
+      "name": "Overview - Founded:",
+      "description": "Named entity mentioned in Stability AI."
+    },
+    {
+      "id": "entity:london-united-kingdom-founders-emad-mostaque",
+      "name": "London, United Kingdom - Founders: Emad Mostaque",
+      "description": "Named entity mentioned in Stability AI."
+    },
+    {
+      "id": "entity:christian-laforte",
+      "name": "Christian Laforte",
+      "description": "Named entity mentioned in Stability AI."
+    },
+    {
+      "id": "entity:cyrus-hodes-current",
+      "name": "Cyrus Hodes - Current",
+      "description": "Named entity mentioned in Stability AI."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:stability-ai-edf65283:1",
+      "text": "title: Stability AI tags: provider/text-to-image, provider/uk, open-source # Stability AI ## Overview - Founded: 2019, London, United Kingdom - Founders: Emad Mostaque (former CEO, departed Mar 2024), Christian Laforte (CTO), Cyrus Hodes - Current CEO: Prem Akkaraju (since Jun 2024; former Weta Digital CEO) - Valuation: $1B peak (Oct 2022 Series A); current undisclosed - Funding: ~$181M+ total; Coatue, Lightspeed, Greycroft, O'Shaughnessy Ventures, Sean Parker - Revenue: ~$50M (2024 est.); triple-digit growth reported; debt eliminated under Akkaraju - Employees: ~170 (2024, post-layoffs) - Board: Sean Parker (Executive Chairman), James Cameron (film director) - Status: Privately held; stabilized after 2024 leadership crisis ## Strategy Primarily an image/audio generation company that also develops language models.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "stability-ai-edf65283"
+    },
+    {
+      "id": "claim:stability-ai-edf65283:2",
+      "text": "Core differentiator: open-weight model philosophy — democratized AI image generation via Stable Diffusion.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "stability-ai-edf65283"
+    },
+    {
+      "id": "claim:stability-ai-edf65283:3",
+      "text": "Multi-modal coverage: image → video → audio → 3D → text.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "stability-ai-edf65283"
+    },
+    {
+      "id": "claim:stability-ai-edf65283:4",
+      "text": "Enterprise focus under Akkaraju with partnerships in entertainment (film/TV), advertising, and music.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "stability-ai-edf65283"
+    }
+  ],
+  "questions": [
+    "How does stable relate to Stability AI?",
+    "How does 2024 relate to Stability AI?",
+    "How does generation relate to Stability AI?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.954Z"
+}

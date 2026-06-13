@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "model-commoditization-risk-ee3ef656",
+  "sourceHash": "ee3ef656e920bc614e42b72f602c79399b887be05ffd1656892e54e685dca021",
+  "semanticHash": "f931795115b08e2efbb4bbe974e6a812b1b02cc0ad6d756fda7d02f622d188a1",
+  "extractionHash": "b3f167abc5b92e8147c50dde7d522246685bd40e67a398f2f25733e98c7b2452",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Model Commoditization Risk",
+  "summary": "title: Model Commoditization Risk tags: open-source/trend, market-analysis, risk # Model Commoditization Risk ## Overview Model commoditization refers to the trend where capable LLMs become widely available at low or zero cost, eroding the competitive moat of model providers and shifting value to the application and data layers. ## Key Drivers 1. Open-weight releases — Meta (Llama), Mistral, Qwen releasing competitive models 2.",
+  "concepts": [
+    {
+      "id": "concept:data",
+      "name": "data",
+      "description": "Frequently referenced concept in Model Commoditization Risk."
+    },
+    {
+      "id": "concept:models",
+      "name": "models",
+      "description": "Frequently referenced concept in Model Commoditization Risk."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in Model Commoditization Risk."
+    },
+    {
+      "id": "concept:open",
+      "name": "open",
+      "description": "Frequently referenced concept in Model Commoditization Risk."
+    },
+    {
+      "id": "concept:closed",
+      "name": "closed",
+      "description": "Frequently referenced concept in Model Commoditization Risk."
+    },
+    {
+      "id": "concept:commoditization",
+      "name": "commoditization",
+      "description": "Frequently referenced concept in Model Commoditization Risk."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:commoditization-risk",
+      "name": "Commoditization Risk",
+      "description": "Named entity mentioned in Model Commoditization Risk."
+    },
+    {
+      "id": "entity:model-commoditization-risk",
+      "name": "Model Commoditization Risk",
+      "description": "Named entity mentioned in Model Commoditization Risk."
+    },
+    {
+      "id": "entity:overview-model",
+      "name": "Overview Model",
+      "description": "Named entity mentioned in Model Commoditization Risk."
+    },
+    {
+      "id": "entity:meta-llama-mistral-qwen",
+      "name": "Meta (Llama), Mistral, Qwen",
+      "description": "Named entity mentioned in Model Commoditization Risk."
+    },
+    {
+      "id": "entity:cost",
+      "name": "Cost",
+      "description": "Named entity mentioned in Model Commoditization Risk."
+    },
+    {
+      "id": "entity:lora",
+      "name": "LoRA",
+      "description": "Named entity mentioned in Model Commoditization Risk."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:model-commoditization-risk-ee3ef656:1",
+      "text": "title: Model Commoditization Risk tags: open-source/trend, market-analysis, risk # Model Commoditization Risk ## Overview Model commoditization refers to the trend where capable LLMs become widely available at low or zero cost, eroding the competitive moat of model providers and shifting value to the application and data layers.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "model-commoditization-risk-ee3ef656"
+    },
+    {
+      "id": "claim:model-commoditization-risk-ee3ef656:2",
+      "text": "## Key Drivers 1.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "model-commoditization-risk-ee3ef656"
+    },
+    {
+      "id": "claim:model-commoditization-risk-ee3ef656:3",
+      "text": "Open-weight releases — Meta (Llama), Mistral, Qwen releasing competitive models 2.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "model-commoditization-risk-ee3ef656"
+    },
+    {
+      "id": "claim:model-commoditization-risk-ee3ef656:4",
+      "text": "Quantization advances — GGUF, AWQ making large models runnable on consumer hardware 3.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "model-commoditization-risk-ee3ef656"
+    }
+  ],
+  "questions": [
+    "How does data relate to Model Commoditization Risk?",
+    "How does models relate to Model Commoditization Risk?",
+    "How does model relate to Model Commoditization Risk?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.107Z"
+}

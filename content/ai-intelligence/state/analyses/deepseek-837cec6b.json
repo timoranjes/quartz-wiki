@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "deepseek-837cec6b",
+  "sourceHash": "837cec6bf39de01520b0fd28f4baa9c6ef5f786a63c554c73cb9a080e8fb73a0",
+  "semanticHash": "bbeb904cc7039c663d075ae651f02418f36466fde70e6e51985d9377be4622d3",
+  "extractionHash": "f8d75a65a54340e7100c5271b7715d3962a557c8600386e381dfa96582b78ccd",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "DeepSeek",
+  "summary": "title: DeepSeek tags: provider, lab, model, reasoning, coding, open-weight, pricing, api, token-cost, timeline Low Cost 🇨🇳 Hangzhou Latest Model DeepSeek-V3.2 / V3-0324 Strength LiveCodeBench Top-3 Pricing ~1/10 of GPT-4 # DeepSeek ## Overview DeepSeek (深度求索) is a Chinese AI company founded in 2023, backed by quantitative hedge fund High-Flyer (幻方量化). Led by founder and CEO Liang Wenfeng (梁文锋), DeepSeek has rapidly emerged as a disruptive force in the global LLM market, known for frontier-level coding performance at dramatically lower costs than Western competitors. Most DeepSeek models are released as open weights under the MIT license.",
+  "concepts": [
+    {
+      "id": "concept:deepseek",
+      "name": "deepseek",
+      "description": "Frequently referenced concept in DeepSeek."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in DeepSeek."
+    },
+    {
+      "id": "concept:flash",
+      "name": "flash",
+      "description": "Frequently referenced concept in DeepSeek."
+    },
+    {
+      "id": "concept:models",
+      "name": "models",
+      "description": "Frequently referenced concept in DeepSeek."
+    },
+    {
+      "id": "concept:pricing",
+      "name": "pricing",
+      "description": "Frequently referenced concept in DeepSeek."
+    },
+    {
+      "id": "concept:coding",
+      "name": "coding",
+      "description": "Frequently referenced concept in DeepSeek."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:deepseek",
+      "name": "DeepSeek",
+      "description": "Named entity mentioned in DeepSeek."
+    },
+    {
+      "id": "entity:low-cost",
+      "name": "Low Cost",
+      "description": "Named entity mentioned in DeepSeek."
+    },
+    {
+      "id": "entity:hangzhou-latest-model-deepseek",
+      "name": "Hangzhou Latest Model DeepSeek-",
+      "description": "Named entity mentioned in DeepSeek."
+    },
+    {
+      "id": "entity:strength-livecodebench-top",
+      "name": "Strength LiveCodeBench Top-",
+      "description": "Named entity mentioned in DeepSeek."
+    },
+    {
+      "id": "entity:pricing",
+      "name": "Pricing",
+      "description": "Named entity mentioned in DeepSeek."
+    },
+    {
+      "id": "entity:overview-deepseek",
+      "name": "Overview DeepSeek",
+      "description": "Named entity mentioned in DeepSeek."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:deepseek-837cec6b:1",
+      "text": "title: DeepSeek tags: provider, lab, model, reasoning, coding, open-weight, pricing, api, token-cost, timeline Low Cost 🇨🇳 Hangzhou Latest Model DeepSeek-V3.2 / V3-0324 Strength LiveCodeBench Top-3 Pricing ~1/10 of GPT-4 # DeepSeek ## Overview DeepSeek (深度求索) is a Chinese AI company founded in 2023, backed by quantitative hedge fund High-Flyer (幻方量化).",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "deepseek-837cec6b"
+    },
+    {
+      "id": "claim:deepseek-837cec6b:2",
+      "text": "Led by founder and CEO Liang Wenfeng (梁文锋), DeepSeek has rapidly emerged as a disruptive force in the global LLM market, known for frontier-level coding performance at dramatically lower costs than Western competitors.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "deepseek-837cec6b"
+    },
+    {
+      "id": "claim:deepseek-837cec6b:3",
+      "text": "Most DeepSeek models are released as open weights under the MIT license.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "deepseek-837cec6b"
+    },
+    {
+      "id": "claim:deepseek-837cec6b:4",
+      "text": "The current flagship is the V4 family (April 2026), featuring novel CSA+HCA hybrid attention, Muon optimizer, and FP4 quantization-aware training.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "deepseek-837cec6b"
+    }
+  ],
+  "questions": [
+    "How does deepseek relate to DeepSeek?",
+    "How does model relate to DeepSeek?",
+    "How does flash relate to DeepSeek?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:49.411Z"
+}

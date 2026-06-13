@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "meta-llama-10f19581",
+  "sourceHash": "10f19581efd2f920c00b8511856e35a6c774919ce1b4c881bea749a14f80b3f6",
+  "semanticHash": "00b6ae9283bb83dbed4bc5d3b22aeab3875de3593b65ae589571c35bf9d6e4aa",
+  "extractionHash": "7f31dd7f081e7bbe280f4da9d678a4f0e2f23e886233ffa34de08eea388521b8",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Meta (Llama)",
+  "summary": "title: Meta (Llama) tags: provider, open-weight, model, architecture, multimodal, pricing, api, licensing, benchmark, controversy # Meta (Llama) ## Overview Meta (formerly Facebook) develops and releases the Llama family of open-weight large language models through its Meta Superintelligence Labs division. Headquartered in Menlo Park, California, Meta's AI strategy has been described as the \"Android strategy for AI\" — releasing open-weight models to become the de facto standard and drive engagement across its platforms (Facebook, Instagram, WhatsApp, Threads). Llama is the most widely deployed open-weight LLM family globally, with hundreds of derivative models and fine-tunes.",
+  "concepts": [
+    {
+      "id": "concept:llama",
+      "name": "llama",
+      "description": "Frequently referenced concept in Meta (Llama)."
+    },
+    {
+      "id": "concept:meta",
+      "name": "meta",
+      "description": "Frequently referenced concept in Meta (Llama)."
+    },
+    {
+      "id": "concept:open",
+      "name": "open",
+      "description": "Frequently referenced concept in Meta (Llama)."
+    },
+    {
+      "id": "concept:weight",
+      "name": "weight",
+      "description": "Frequently referenced concept in Meta (Llama)."
+    },
+    {
+      "id": "concept:with",
+      "name": "with",
+      "description": "Frequently referenced concept in Meta (Llama)."
+    },
+    {
+      "id": "concept:models",
+      "name": "models",
+      "description": "Frequently referenced concept in Meta (Llama)."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:meta-llama",
+      "name": "Meta (Llama)",
+      "description": "Named entity mentioned in Meta (Llama)."
+    },
+    {
+      "id": "entity:overview-meta",
+      "name": "Overview Meta",
+      "description": "Named entity mentioned in Meta (Llama)."
+    },
+    {
+      "id": "entity:facebook",
+      "name": "Facebook)",
+      "description": "Named entity mentioned in Meta (Llama)."
+    },
+    {
+      "id": "entity:llama",
+      "name": "Llama",
+      "description": "Named entity mentioned in Meta (Llama)."
+    },
+    {
+      "id": "entity:meta-superintelligence-labs-division",
+      "name": "Meta Superintelligence Labs division.",
+      "description": "Named entity mentioned in Meta (Llama)."
+    },
+    {
+      "id": "entity:menlo-park-california-meta-s",
+      "name": "Menlo Park, California, Meta's",
+      "description": "Named entity mentioned in Meta (Llama)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:meta-llama-10f19581:1",
+      "text": "title: Meta (Llama) tags: provider, open-weight, model, architecture, multimodal, pricing, api, licensing, benchmark, controversy # Meta (Llama) ## Overview Meta (formerly Facebook) develops and releases the Llama family of open-weight large language models through its Meta Superintelligence Labs division.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "meta-llama-10f19581"
+    },
+    {
+      "id": "claim:meta-llama-10f19581:2",
+      "text": "Headquartered in Menlo Park, California, Meta's AI strategy has been described as the \"Android strategy for AI\" — releasing open-weight models to become the de facto standard and drive engagement across its platforms (Facebook, Instagram, WhatsApp, Threads).",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "meta-llama-10f19581"
+    },
+    {
+      "id": "claim:meta-llama-10f19581:3",
+      "text": "Llama is the most widely deployed open-weight LLM family globally, with hundreds of derivative models and fine-tunes.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "meta-llama-10f19581"
+    },
+    {
+      "id": "claim:meta-llama-10f19581:4",
+      "text": "The company also operates the Meta AI assistant, a consumer product powered by Llama across its social platforms.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "meta-llama-10f19581"
+    }
+  ],
+  "questions": [
+    "How does llama relate to Meta (Llama)?",
+    "How does meta relate to Meta (Llama)?",
+    "How does open relate to Meta (Llama)?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:49.759Z"
+}

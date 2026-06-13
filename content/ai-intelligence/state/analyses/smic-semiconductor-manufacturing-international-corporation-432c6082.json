@@ -1,0 +1,108 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "smic-semiconductor-manufacturing-international-corporation-432c6082",
+  "sourceHash": "432c608209f64e3bca7c6d6b1fd1b0da9e238f2d55ecceec78e255104cdf3a6f",
+  "semanticHash": "71899a3829fd7cf74f64a6b1a5d1308d80e6476c14bfcb3a51e474fa9a57057a",
+  "extractionHash": "d7200f519b49298356b588665c6e8bd99dbb9dda3552888ce5540d0a75cd1d79",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "SMIC (Semiconductor Manufacturing International Corporation)",
+  "summary": "SMIC (Semiconductor Manufacturing International Corporation) Type: entity Tags: #semiconductor #foundry #china #smic ## Overview SMIC is China's largest semiconductor foundry, headquartered in Shanghai. It is the key player in China's domestic chip manufacturing capabilities. ## Key Facts - Founded: 2000 - Headquarters: Shanghai, China - Technology Node: 7nm (N+2) in production, working on more advanced nodes - Role: China's primary domestic alternative to TSMC - US Sanctions: Subject to US export controls restricting access to advanced equipment (ASML EUV, Applied Materials) ## Supply Chain Impact - Central to China's semiconductor self-sufficiency strategy - Limited by US sanctions on advanced lithography equipment - Mature node capacity (28nm+) expanding rapidly - Key supplier for domestic Chinese chip design companies ## Related - [[china-semiconductor-localization]] - [[semiconductor-fabrication]] - [[huawei]] - [[tsmc]]",
+  "concepts": [
+    {
+      "id": "concept:china",
+      "name": "china",
+      "description": "Frequently referenced concept in SMIC (Semiconductor Manufacturing International Corporation)."
+    },
+    {
+      "id": "concept:semiconductor",
+      "name": "semiconductor",
+      "description": "Frequently referenced concept in SMIC (Semiconductor Manufacturing International Corporation)."
+    },
+    {
+      "id": "concept:advanced",
+      "name": "advanced",
+      "description": "Frequently referenced concept in SMIC (Semiconductor Manufacturing International Corporation)."
+    },
+    {
+      "id": "concept:domestic",
+      "name": "domestic",
+      "description": "Frequently referenced concept in SMIC (Semiconductor Manufacturing International Corporation)."
+    },
+    {
+      "id": "concept:smic",
+      "name": "smic",
+      "description": "Frequently referenced concept in SMIC (Semiconductor Manufacturing International Corporation)."
+    },
+    {
+      "id": "concept:chip",
+      "name": "chip",
+      "description": "Frequently referenced concept in SMIC (Semiconductor Manufacturing International Corporation)."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:tags",
+      "name": "Tags:",
+      "description": "Named entity mentioned in SMIC (Semiconductor Manufacturing International Corporation)."
+    },
+    {
+      "id": "entity:china",
+      "name": "#china",
+      "description": "Named entity mentioned in SMIC (Semiconductor Manufacturing International Corporation)."
+    },
+    {
+      "id": "entity:overview",
+      "name": "Overview",
+      "description": "Named entity mentioned in SMIC (Semiconductor Manufacturing International Corporation)."
+    },
+    {
+      "id": "entity:china-s",
+      "name": "China's",
+      "description": "Named entity mentioned in SMIC (Semiconductor Manufacturing International Corporation)."
+    },
+    {
+      "id": "entity:shanghai",
+      "name": "Shanghai.",
+      "description": "Named entity mentioned in SMIC (Semiconductor Manufacturing International Corporation)."
+    },
+    {
+      "id": "entity:shanghai-china",
+      "name": "Shanghai, China -",
+      "description": "Named entity mentioned in SMIC (Semiconductor Manufacturing International Corporation)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:smic-semiconductor-manufacturing-international-corporation-432c6082:1",
+      "text": "SMIC (Semiconductor Manufacturing International Corporation) Type: entity Tags: #semiconductor #foundry #china #smic ## Overview SMIC is China's largest semiconductor foundry, headquartered in Shanghai.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "smic-semiconductor-manufacturing-international-corporation-432c6082"
+    },
+    {
+      "id": "claim:smic-semiconductor-manufacturing-international-corporation-432c6082:2",
+      "text": "It is the key player in China's domestic chip manufacturing capabilities.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "smic-semiconductor-manufacturing-international-corporation-432c6082"
+    },
+    {
+      "id": "claim:smic-semiconductor-manufacturing-international-corporation-432c6082:3",
+      "text": "## Key Facts - Founded: 2000 - Headquarters: Shanghai, China - Technology Node: 7nm (N+2) in production, working on more advanced nodes - Role: China's primary domestic alternative to TSMC - US Sanctions: Subject to US export controls restricting access to advanced equipment (ASML EUV, Applied Materials) ## Supply Chain Impact - Central to China's semiconductor self-sufficiency strategy - Limited by US sanctions on advanced lithography equipment - Mature node capacity (28nm+) expanding rapidly - Key supplier for domestic Chinese chip design companies ## Related - [[china-semiconductor-localization]] - [[semiconductor-fabrication]] - [[huawei]] - [[tsmc]]",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "smic-semiconductor-manufacturing-international-corporation-432c6082"
+    }
+  ],
+  "questions": [
+    "How does china relate to SMIC (Semiconductor Manufacturing International Corporation)?",
+    "How does semiconductor relate to SMIC (Semiconductor Manufacturing International Corporation)?",
+    "How does advanced relate to SMIC (Semiconductor Manufacturing International Corporation)?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.691Z"
+}

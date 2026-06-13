@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "grok-build-b560a812",
+  "sourceHash": "b560a812fa43b00357a4d552091c2b91199cacae8c87458e3fda3afdfdf748f6",
+  "semanticHash": "36bc7c196f760c3f17a8f6e837126cc88fe3d8e29b19b8c162a517e90bf499b0",
+  "extractionHash": "817d03919ce8c30e83bb000daa054a02483114ec4d22e49ef138c3a61e3c31f4",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Grok Build",
+  "summary": "title: Grok Build tags: coding-agent, xai, local-first, parallel-agents # Grok Build xAI's terminal-native coding agent, launched May 2026. Features local-first execution with aggressive pricing and 8× parallel subagent support through Arena Mode. ## Overview - Developer : xAI - Backend Model : Grok 4.x series - Interface : Terminal CLI - Pricing : Included in SuperGrok and X Premium Plus subscriptions - Launch : May 2026 ## Key Capabilities - Local-first execution : Runs on local machine, no per-token billing - Parallel subagents : Up to 8× parallel subagent execution - Arena Mode : Concurrent task execution (not yet generally available at launch) - Terminal-native : Fits existing terminal workflows, similar to Claude Code - Aggressive pricing : Included in existing xAI subscription tiers ## Workflow 1.",
+  "concepts": [
+    {
+      "id": "concept:local",
+      "name": "local",
+      "description": "Frequently referenced concept in Grok Build."
+    },
+    {
+      "id": "concept:execution",
+      "name": "execution",
+      "description": "Frequently referenced concept in Grok Build."
+    },
+    {
+      "id": "concept:parallel",
+      "name": "parallel",
+      "description": "Frequently referenced concept in Grok Build."
+    },
+    {
+      "id": "concept:pricing",
+      "name": "pricing",
+      "description": "Frequently referenced concept in Grok Build."
+    },
+    {
+      "id": "concept:terminal",
+      "name": "terminal",
+      "description": "Frequently referenced concept in Grok Build."
+    },
+    {
+      "id": "concept:first",
+      "name": "first",
+      "description": "Frequently referenced concept in Grok Build."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:grok-build",
+      "name": "Grok Build",
+      "description": "Named entity mentioned in Grok Build."
+    },
+    {
+      "id": "entity:may",
+      "name": "May",
+      "description": "Named entity mentioned in Grok Build."
+    },
+    {
+      "id": "entity:arena-mode",
+      "name": "Arena Mode.",
+      "description": "Named entity mentioned in Grok Build."
+    },
+    {
+      "id": "entity:overview-developer",
+      "name": "Overview - Developer :",
+      "description": "Named entity mentioned in Grok Build."
+    },
+    {
+      "id": "entity:backend-model-grok",
+      "name": "Backend Model : Grok",
+      "description": "Named entity mentioned in Grok Build."
+    },
+    {
+      "id": "entity:interface-terminal",
+      "name": "Interface : Terminal",
+      "description": "Named entity mentioned in Grok Build."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:grok-build-b560a812:1",
+      "text": "title: Grok Build tags: coding-agent, xai, local-first, parallel-agents # Grok Build xAI's terminal-native coding agent, launched May 2026.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "grok-build-b560a812"
+    },
+    {
+      "id": "claim:grok-build-b560a812:2",
+      "text": "Features local-first execution with aggressive pricing and 8× parallel subagent support through Arena Mode.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "grok-build-b560a812"
+    },
+    {
+      "id": "claim:grok-build-b560a812:3",
+      "text": "## Overview - Developer : xAI - Backend Model : Grok 4.x series - Interface : Terminal CLI - Pricing : Included in SuperGrok and X Premium Plus subscriptions - Launch : May 2026 ## Key Capabilities - Local-first execution : Runs on local machine, no per-token billing - Parallel subagents : Up to 8× parallel subagent execution - Arena Mode : Concurrent task execution (not yet generally available at launch) - Terminal-native : Fits existing terminal workflows, similar to Claude Code - Aggressive pricing : Included in existing xAI subscription tiers ## Workflow 1.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "grok-build-b560a812"
+    },
+    {
+      "id": "claim:grok-build-b560a812:4",
+      "text": "Terminal-based task input 2.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "grok-build-b560a812"
+    }
+  ],
+  "questions": [
+    "How does local relate to Grok Build?",
+    "How does execution relate to Grok Build?",
+    "How does parallel relate to Grok Build?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:49.581Z"
+}

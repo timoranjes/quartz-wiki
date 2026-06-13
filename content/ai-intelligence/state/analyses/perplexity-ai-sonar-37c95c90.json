@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "perplexity-ai-sonar-37c95c90",
+  "sourceHash": "37c95c905b317a55f916dc3443ffa9aedab13bdd43d8390c48cca9bfd91a8530",
+  "semanticHash": "aca9f9a2cc066f8ff46f13322a42ca8266b5e3aa6f0b05e01abbee5b1d13b402",
+  "extractionHash": "4c743a9b1974eae5e1338bf011c8fdd7ec0c04c1433a216ed8f9bc3f302bc73e",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Perplexity AI (Sonar)",
+  "summary": "title: Perplexity AI (Sonar) tags: provider/llm-lab, provider/us, provider/search # Perplexity AI (Sonar) ## Overview - Founded: August 2022, San Francisco, California - Founders: Aravind Srinivas (CEO, ex-DeepMind/OpenAI/Google Brain), Denis Yarats (CTO, ex-Meta FAIR), Johnny Ho (ex-Quora), Andy Konwinski (co-founder Apache Spark/Databricks) - Valuation: $21.21B (Series E-6, February 2026) - Funding: $1.5B+ total; investors include Jeff Bezos, Nvidia, SoftBank, IVP, Accel - ARR: $450M+ annualized (March 2026); targeting $656M by end of 2026 - Users: 45M MAU (late 2025), 780M queries/month (~30M/day), 800% YoY growth - Employees: ~90-100; ARR per employee ~$2M (highest in AI industry) - Retention Rate: 85% - IPO Target: 2028 ## Strategy Not a traditional LLM provider — an AI-powered search and answer engine. Core innovation is RAG architecture: every response grounded in real-time web search (24-48hr freshness) with automatic citations. Dual-surface business: consumer search (perplexity.ai) + developer APIs (Sonar API, Search API, Agent API).",
+  "concepts": [
+    {
+      "id": "concept:sonar",
+      "name": "sonar",
+      "description": "Frequently referenced concept in Perplexity AI (Sonar)."
+    },
+    {
+      "id": "concept:search",
+      "name": "search",
+      "description": "Frequently referenced concept in Perplexity AI (Sonar)."
+    },
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in Perplexity AI (Sonar)."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in Perplexity AI (Sonar)."
+    },
+    {
+      "id": "concept:research",
+      "name": "research",
+      "description": "Frequently referenced concept in Perplexity AI (Sonar)."
+    },
+    {
+      "id": "concept:deep",
+      "name": "deep",
+      "description": "Frequently referenced concept in Perplexity AI (Sonar)."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:perplexity",
+      "name": "Perplexity",
+      "description": "Named entity mentioned in Perplexity AI (Sonar)."
+    },
+    {
+      "id": "entity:sonar",
+      "name": "(Sonar)",
+      "description": "Named entity mentioned in Perplexity AI (Sonar)."
+    },
+    {
+      "id": "entity:overview-founded",
+      "name": "Overview - Founded:",
+      "description": "Named entity mentioned in Perplexity AI (Sonar)."
+    },
+    {
+      "id": "entity:san-francisco-california-founders-aravind-srinivas",
+      "name": "San Francisco, California - Founders: Aravind Srinivas",
+      "description": "Named entity mentioned in Perplexity AI (Sonar)."
+    },
+    {
+      "id": "entity:ex-deepmind-openai-google-brain-denis-yarats",
+      "name": "ex-DeepMind/OpenAI/Google Brain), Denis Yarats",
+      "description": "Named entity mentioned in Perplexity AI (Sonar)."
+    },
+    {
+      "id": "entity:johnny-ho",
+      "name": "Johnny Ho",
+      "description": "Named entity mentioned in Perplexity AI (Sonar)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:perplexity-ai-sonar-37c95c90:1",
+      "text": "title: Perplexity AI (Sonar) tags: provider/llm-lab, provider/us, provider/search # Perplexity AI (Sonar) ## Overview - Founded: August 2022, San Francisco, California - Founders: Aravind Srinivas (CEO, ex-DeepMind/OpenAI/Google Brain), Denis Yarats (CTO, ex-Meta FAIR), Johnny Ho (ex-Quora), Andy Konwinski (co-founder Apache Spark/Databricks) - Valuation: $21.21B (Series E-6, February 2026) - Funding: $1.5B+ total; investors include Jeff Bezos, Nvidia, SoftBank, IVP, Accel - ARR: $450M+ annualized (March 2026); targeting $656M by end of 2026 - Users: 45M MAU (late 2025), 780M queries/month (~30M/day), 800% YoY growth - Employees: ~90-100; ARR per employee ~$2M (highest in AI industry) - Retention Rate: 85% - IPO Target: 2028 ## Strategy Not a traditional LLM provider — an AI-powered search and answer engine.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "perplexity-ai-sonar-37c95c90"
+    },
+    {
+      "id": "claim:perplexity-ai-sonar-37c95c90:2",
+      "text": "Core innovation is RAG architecture: every response grounded in real-time web search (24-48hr freshness) with automatic citations.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "perplexity-ai-sonar-37c95c90"
+    },
+    {
+      "id": "claim:perplexity-ai-sonar-37c95c90:3",
+      "text": "Dual-surface business: consumer search (perplexity.ai) + developer APIs (Sonar API, Search API, Agent API).",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "perplexity-ai-sonar-37c95c90"
+    },
+    {
+      "id": "claim:perplexity-ai-sonar-37c95c90:4",
+      "text": "100% subscription-focused (discontinued ads in Feb 2026; 2024 ad revenue was only $20K).",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "perplexity-ai-sonar-37c95c90"
+    }
+  ],
+  "questions": [
+    "How does sonar relate to Perplexity AI (Sonar)?",
+    "How does search relate to Perplexity AI (Sonar)?",
+    "How does 2026 relate to Perplexity AI (Sonar)?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.794Z"
+}

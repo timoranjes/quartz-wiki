@@ -1,0 +1,18 @@
+{
+  "sourceId": "grok-build-b560a812",
+  "title": "Grok Build",
+  "originType": "file",
+  "sourceKind": "markdown",
+  "sourceClass": "first_party",
+  "originalPath": "/Users/zichengliao/Library/Mobile Documents/iCloud~md~obsidian/Documents/wiki-ai-intelligence/raw/sources/obsidian-ai-agents/entities/grok-build.md",
+  "repoRelativePath": "entities/grok-build.md",
+  "storedPath": "raw/sources/grok-build-b560a812.md",
+  "extractedTextPath": "state/extracts/grok-build-b560a812.md",
+  "extractedMetadataPath": "state/extracts/grok-build-b560a812.json",
+  "extractionHash": "817d03919ce8c30e83bb000daa054a02483114ec4d22e49ef138c3a61e3c31f4",
+  "mimeType": "text/markdown",
+  "contentHash": "b560a812fa43b00357a4d552091c2b91199cacae8c87458e3fda3afdfdf748f6",
+  "semanticHash": "36bc7c196f760c3f17a8f6e837126cc88fe3d8e29b19b8c162a517e90bf499b0",
+  "createdAt": "2026-06-13T21:03:41.367Z",
+  "updatedAt": "2026-06-13T21:03:41.367Z"
+}

@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "together-ai-ce3a0f9b",
+  "sourceHash": "ce3a0f9bc4660051bf05a739fbe0863f08e4ff45e19d0f697086535c828c054c",
+  "semanticHash": "526fa853782fea6cc793bdda8d11135ef27198760ed7569e225409bcfbf4b04d",
+  "extractionHash": "ceedceb664b0bd32fe3808af0c1c147d15e005eb395a6b48b964686ab9b970f0",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Together AI",
+  "summary": "title: Together AI tags: provider, lab, cloud-platform, us, inference, fine-tuning, open-weight, pricing, api, token-cost, timeline, agentic # Together AI ## Overview Together AI is a San Francisco-based AI cloud platform founded in June 2022 by Stanford researchers and serial entrepreneurs. The company provides inference, fine-tuning, and training infrastructure for 200+ open-source foundation models , positioning itself as a cost- and speed-optimized alternative to hyperscaler clouds (AWS, Azure, GCP). As of mid-2026, Together AI has raised $533.5M+, achieved ~$1B annualized revenue (Feb 2026), and serves 450,000+ developers.",
+  "concepts": [
+    {
+      "id": "concept:inference",
+      "name": "inference",
+      "description": "Frequently referenced concept in Together AI."
+    },
+    {
+      "id": "concept:together",
+      "name": "together",
+      "description": "Frequently referenced concept in Together AI."
+    },
+    {
+      "id": "concept:open",
+      "name": "open",
+      "description": "Frequently referenced concept in Together AI."
+    },
+    {
+      "id": "concept:platform",
+      "name": "platform",
+      "description": "Frequently referenced concept in Together AI."
+    },
+    {
+      "id": "concept:series",
+      "name": "series",
+      "description": "Frequently referenced concept in Together AI."
+    },
+    {
+      "id": "concept:flashattention",
+      "name": "flashattention",
+      "description": "Frequently referenced concept in Together AI."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:together",
+      "name": "Together",
+      "description": "Named entity mentioned in Together AI."
+    },
+    {
+      "id": "entity:overview-together",
+      "name": "Overview Together",
+      "description": "Named entity mentioned in Together AI."
+    },
+    {
+      "id": "entity:san",
+      "name": "San",
+      "description": "Named entity mentioned in Together AI."
+    },
+    {
+      "id": "entity:stanford",
+      "name": "Stanford",
+      "description": "Named entity mentioned in Together AI."
+    },
+    {
+      "id": "entity:azure",
+      "name": "Azure,",
+      "description": "Named entity mentioned in Together AI."
+    },
+    {
+      "id": "entity:vipul-ved-prakash",
+      "name": "Vipul Ved Prakash",
+      "description": "Named entity mentioned in Together AI."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:together-ai-ce3a0f9b:1",
+      "text": "title: Together AI tags: provider, lab, cloud-platform, us, inference, fine-tuning, open-weight, pricing, api, token-cost, timeline, agentic # Together AI ## Overview Together AI is a San Francisco-based AI cloud platform founded in June 2022 by Stanford researchers and serial entrepreneurs.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "together-ai-ce3a0f9b"
+    },
+    {
+      "id": "claim:together-ai-ce3a0f9b:2",
+      "text": "The company provides inference, fine-tuning, and training infrastructure for 200+ open-source foundation models , positioning itself as a cost- and speed-optimized alternative to hyperscaler clouds (AWS, Azure, GCP).",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "together-ai-ce3a0f9b"
+    },
+    {
+      "id": "claim:together-ai-ce3a0f9b:3",
+      "text": "As of mid-2026, Together AI has raised $533.5M+, achieved ~$1B annualized revenue (Feb 2026), and serves 450,000+ developers.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "together-ai-ce3a0f9b"
+    },
+    {
+      "id": "claim:together-ai-ce3a0f9b:4",
+      "text": "The founding team includes CEO Vipul Ved Prakash (two exits to Apple and Proofpoint), CTO Ce Zhang (ETH Zurich), and Chief Scientist Tri Dao (creator of [[meta-llama]]-used FlashAttention).",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "together-ai-ce3a0f9b"
+    }
+  ],
+  "questions": [
+    "How does inference relate to Together AI?",
+    "How does together relate to Together AI?",
+    "How does open relate to Together AI?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.909Z"
+}

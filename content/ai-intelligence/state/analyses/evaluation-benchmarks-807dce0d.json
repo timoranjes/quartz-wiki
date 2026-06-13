@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "evaluation-benchmarks-807dce0d",
+  "sourceHash": "807dce0d0538deb0d7be78ad41fa0a31528d72fb625ac341e5266dcba9f81bd9",
+  "semanticHash": "bcb1a17f2e13322e2a1908af13ddf0407a0c62d0b628e3bbbb5273d71840d1d4",
+  "extractionHash": "b4a7161bc7d2c9e54fc4585887384bdaa15f0cba6c4eca17de471a6aecaa0938",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Evaluation Benchmarks",
+  "summary": "title: Evaluation Benchmarks tags: evaluation, benchmark # Evaluation Benchmarks ## Overview Benchmarks measure agent capability across dimensions: reasoning, tool use, code generation, and multi-step planning. ## Key Benchmarks | Benchmark | Measures | Scope | |-----------|----------|-------| | SWE-bench | Code issue resolution | GitHub PRs | | GAIA | General AI assistant | Multi-modal | | AgentBench | Agent tool use | 8 environments | | WebArena | Web automation | Browser tasks | | OSWorld | Desktop/OS automation | Full OS | | Terminal-Bench | CLI tasks | Shell commands | | BigCodeBench | Code generation | Complex functions | ## Evaluation Principles 1. Real tasks, not synthetic — Evaluate on tasks that matter 2.",
+  "concepts": [
+    {
+      "id": "concept:tasks",
+      "name": "tasks",
+      "description": "Frequently referenced concept in Evaluation Benchmarks."
+    },
+    {
+      "id": "concept:benchmarks",
+      "name": "benchmarks",
+      "description": "Frequently referenced concept in Evaluation Benchmarks."
+    },
+    {
+      "id": "concept:evaluation",
+      "name": "evaluation",
+      "description": "Frequently referenced concept in Evaluation Benchmarks."
+    },
+    {
+      "id": "concept:2606",
+      "name": "2606",
+      "description": "Frequently referenced concept in Evaluation Benchmarks."
+    },
+    {
+      "id": "concept:across",
+      "name": "across",
+      "description": "Frequently referenced concept in Evaluation Benchmarks."
+    },
+    {
+      "id": "concept:agent",
+      "name": "agent",
+      "description": "Frequently referenced concept in Evaluation Benchmarks."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:evaluation-benchmarks",
+      "name": "Evaluation Benchmarks",
+      "description": "Named entity mentioned in Evaluation Benchmarks."
+    },
+    {
+      "id": "entity:overview-benchmarks",
+      "name": "Overview Benchmarks",
+      "description": "Named entity mentioned in Evaluation Benchmarks."
+    },
+    {
+      "id": "entity:key-benchmarks",
+      "name": "Key Benchmarks",
+      "description": "Named entity mentioned in Evaluation Benchmarks."
+    },
+    {
+      "id": "entity:benchmark",
+      "name": "Benchmark",
+      "description": "Named entity mentioned in Evaluation Benchmarks."
+    },
+    {
+      "id": "entity:measures",
+      "name": "Measures",
+      "description": "Named entity mentioned in Evaluation Benchmarks."
+    },
+    {
+      "id": "entity:scope",
+      "name": "Scope",
+      "description": "Named entity mentioned in Evaluation Benchmarks."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:evaluation-benchmarks-807dce0d:1",
+      "text": "title: Evaluation Benchmarks tags: evaluation, benchmark # Evaluation Benchmarks ## Overview Benchmarks measure agent capability across dimensions: reasoning, tool use, code generation, and multi-step planning.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "evaluation-benchmarks-807dce0d"
+    },
+    {
+      "id": "claim:evaluation-benchmarks-807dce0d:2",
+      "text": "## Key Benchmarks | Benchmark | Measures | Scope | |-----------|----------|-------| | SWE-bench | Code issue resolution | GitHub PRs | | GAIA | General AI assistant | Multi-modal | | AgentBench | Agent tool use | 8 environments | | WebArena | Web automation | Browser tasks | | OSWorld | Desktop/OS automation | Full OS | | Terminal-Bench | CLI tasks | Shell commands | | BigCodeBench | Code generation | Complex functions | ## Evaluation Principles 1.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "evaluation-benchmarks-807dce0d"
+    },
+    {
+      "id": "claim:evaluation-benchmarks-807dce0d:3",
+      "text": "Real tasks, not synthetic — Evaluate on tasks that matter 2.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "evaluation-benchmarks-807dce0d"
+    },
+    {
+      "id": "claim:evaluation-benchmarks-807dce0d:4",
+      "text": "End-to-end — Measure the full agent loop, not just the LLM 3.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "evaluation-benchmarks-807dce0d"
+    }
+  ],
+  "questions": [
+    "How does tasks relate to Evaluation Benchmarks?",
+    "How does benchmarks relate to Evaluation Benchmarks?",
+    "How does evaluation relate to Evaluation Benchmarks?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:49.436Z"
+}

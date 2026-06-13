@@ -1,0 +1,108 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "financial-reasoning-benchmarks-32d95d6c",
+  "sourceHash": "32d95d6ce5c7d16631dc552e1e32bec1d6d8aecd8f4fa268d2e98c8bdf59ceb0",
+  "semanticHash": "10fd79241e47b7fd411e85a8d6da941ba06b2610154f8564a877d175c349a40c",
+  "extractionHash": "2ef55d9ea892ace59f4e1c0622be54e68c9dcfae9264de247996ed611991108f",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Financial Reasoning Benchmarks",
+  "summary": "title: Financial Reasoning Benchmarks tags: finance/benchmark, evaluation, reasoning # Financial Reasoning Benchmarks ## Overview Benchmarks designed to evaluate LLMs on financial knowledge, reasoning, and decision-making tasks. Critical for selecting models for finance-specific applications. ## Key Benchmarks | Benchmark | Scope | Metrics | Notes | |-----------|-------|---------|-------| | FinQA | Financial QA with calculations | Exact match, program accuracy | Multi-step numerical reasoning | | ConvFinQA | Conversational financial QA | Answer accuracy | Multi-turn context | | TAT-QA | Tabular + text financial QA | Exact match | SEC filings focus | | FinanceBench | Real-world finance tasks | Task completion | 10-K analysis | | MultiFin | Multi-domain finance | Accuracy | Covers banking, insurance, markets | | CFLUE | Chinese financial NLP | Various tasks | A-share market focus | ## Emerging Benchmarks (2026) - BloombergGPT Evaluation — proprietary financial language tasks - LLM-as-Financial-Analyst — end-to-end research report generation - Regulatory Compliance Benchmark — rule extraction and application ## Model Performance Trends - GPT-4 and Claude 3 lead on general financial reasoning - Domain-specific fine-tuned models (BloombergGPT, FinLLM) outperform on narrow tasks - Open-weight models (Llama 3, Qwen) competitive on structured financial QA - Reasoning mode (extended thinking) significantly improves multi-step financial calculations ## Use Cases - Model selection for financial AI products - Compliance testing of LLM outputs - Investment due diligence automation - Regulatory filing analysis ## Cross-References - [[evaluation-benchmarks]] — General LLM benchmarks - [[ai-alpha-generation]] — Alpha generation applications - [[earnings-call-analysis]] — Earnings call NLP",
+  "concepts": [
+    {
+      "id": "concept:financial",
+      "name": "financial",
+      "description": "Frequently referenced concept in Financial Reasoning Benchmarks."
+    },
+    {
+      "id": "concept:reasoning",
+      "name": "reasoning",
+      "description": "Frequently referenced concept in Financial Reasoning Benchmarks."
+    },
+    {
+      "id": "concept:benchmarks",
+      "name": "benchmarks",
+      "description": "Frequently referenced concept in Financial Reasoning Benchmarks."
+    },
+    {
+      "id": "concept:tasks",
+      "name": "tasks",
+      "description": "Frequently referenced concept in Financial Reasoning Benchmarks."
+    },
+    {
+      "id": "concept:finance",
+      "name": "finance",
+      "description": "Frequently referenced concept in Financial Reasoning Benchmarks."
+    },
+    {
+      "id": "concept:accuracy",
+      "name": "accuracy",
+      "description": "Frequently referenced concept in Financial Reasoning Benchmarks."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:financial-reasoning-benchmarks",
+      "name": "Financial Reasoning Benchmarks",
+      "description": "Named entity mentioned in Financial Reasoning Benchmarks."
+    },
+    {
+      "id": "entity:overview-benchmarks",
+      "name": "Overview Benchmarks",
+      "description": "Named entity mentioned in Financial Reasoning Benchmarks."
+    },
+    {
+      "id": "entity:key-benchmarks",
+      "name": "Key Benchmarks",
+      "description": "Named entity mentioned in Financial Reasoning Benchmarks."
+    },
+    {
+      "id": "entity:benchmark",
+      "name": "Benchmark",
+      "description": "Named entity mentioned in Financial Reasoning Benchmarks."
+    },
+    {
+      "id": "entity:scope",
+      "name": "Scope",
+      "description": "Named entity mentioned in Financial Reasoning Benchmarks."
+    },
+    {
+      "id": "entity:metrics",
+      "name": "Metrics",
+      "description": "Named entity mentioned in Financial Reasoning Benchmarks."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:financial-reasoning-benchmarks-32d95d6c:1",
+      "text": "title: Financial Reasoning Benchmarks tags: finance/benchmark, evaluation, reasoning # Financial Reasoning Benchmarks ## Overview Benchmarks designed to evaluate LLMs on financial knowledge, reasoning, and decision-making tasks.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "financial-reasoning-benchmarks-32d95d6c"
+    },
+    {
+      "id": "claim:financial-reasoning-benchmarks-32d95d6c:2",
+      "text": "Critical for selecting models for finance-specific applications.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "financial-reasoning-benchmarks-32d95d6c"
+    },
+    {
+      "id": "claim:financial-reasoning-benchmarks-32d95d6c:3",
+      "text": "## Key Benchmarks | Benchmark | Scope | Metrics | Notes | |-----------|-------|---------|-------| | FinQA | Financial QA with calculations | Exact match, program accuracy | Multi-step numerical reasoning | | ConvFinQA | Conversational financial QA | Answer accuracy | Multi-turn context | | TAT-QA | Tabular + text financial QA | Exact match | SEC filings focus | | FinanceBench | Real-world finance tasks | Task completion | 10-K analysis | | MultiFin | Multi-domain finance | Accuracy | Covers banking, insurance, markets | | CFLUE | Chinese financial NLP | Various tasks | A-share market focus | ## Emerging Benchmarks (2026) - BloombergGPT Evaluation — proprietary financial language tasks - LLM-as-Financial-Analyst — end-to-end research report generation - Regulatory Compliance Benchmark — rule extraction and application ## Model Performance Trends - GPT-4 and Claude 3 lead on general financial reasoning - Domain-specific fine-tuned models (BloombergGPT, FinLLM) outperform on narrow tasks - Open-weight models (Llama 3, Qwen) competitive on structured financial QA - Reasoning mode (extended thinking) significantly improves multi-step financial calculations ## Use Cases - Model selection for financial AI products - Compliance testing of LLM outputs - Investment due diligence automation - Regulatory filing analysis ## Cross-References - [[evaluation-benchmarks]] — General LLM benchmarks - [[ai-alpha-generation]] — Alpha generation applications - [[earnings-call-analysis]] — Earnings call NLP",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "financial-reasoning-benchmarks-32d95d6c"
+    }
+  ],
+  "questions": [
+    "How does financial relate to Financial Reasoning Benchmarks?",
+    "How does reasoning relate to Financial Reasoning Benchmarks?",
+    "How does benchmarks relate to Financial Reasoning Benchmarks?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:49.460Z"
+}

@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "aider-c014bd69",
+  "sourceHash": "c014bd694521fb2edf57e864157e38802c3805ef4224623207d432191cc5c7a9",
+  "semanticHash": "c8a1ded9089540815d8016f5c7552a7ba682a5bd3ef069458bd48d98165bda7e",
+  "extractionHash": "d2af3012c874cff52bf5baf60aa909df5f81395e6807310dd8d7fea04e553990",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Aider",
+  "summary": "title: Aider tags: coding-agent, open-source, llm-provider # Aider Open-source AI pair programming tool for terminal-based coding. Works with any OpenAI-compatible API. ## Overview - Developer : Open source community (Paul Gauthier) - Backend Models : Any OpenAI-compatible model (GPT-4o, Claude via proxy, local models) - Interface : CLI ( aider ) - Pricing : Free (open source) + your own API costs - Open Source : Fully open source (Apache 2.0) ## Key Capabilities - Git-aware pair programming - Automatic commit management - Multi-file editing - Codebase map generation - Works with local models (Ollama, LM Studio) ## Workflow 1.",
+  "concepts": [
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in Aider."
+    },
+    {
+      "id": "concept:open",
+      "name": "open",
+      "description": "Frequently referenced concept in Aider."
+    },
+    {
+      "id": "concept:source",
+      "name": "source",
+      "description": "Frequently referenced concept in Aider."
+    },
+    {
+      "id": "concept:with",
+      "name": "with",
+      "description": "Frequently referenced concept in Aider."
+    },
+    {
+      "id": "concept:aider",
+      "name": "aider",
+      "description": "Frequently referenced concept in Aider."
+    },
+    {
+      "id": "concept:local",
+      "name": "local",
+      "description": "Frequently referenced concept in Aider."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:aider",
+      "name": "Aider",
+      "description": "Named entity mentioned in Aider."
+    },
+    {
+      "id": "entity:aider-open",
+      "name": "Aider Open-",
+      "description": "Named entity mentioned in Aider."
+    },
+    {
+      "id": "entity:overview-developer-open",
+      "name": "Overview - Developer : Open",
+      "description": "Named entity mentioned in Aider."
+    },
+    {
+      "id": "entity:paul-gauthier-backend-models-any",
+      "name": "(Paul Gauthier) - Backend Models : Any",
+      "description": "Named entity mentioned in Aider."
+    },
+    {
+      "id": "entity:claude",
+      "name": "Claude",
+      "description": "Named entity mentioned in Aider."
+    },
+    {
+      "id": "entity:interface",
+      "name": "Interface :",
+      "description": "Named entity mentioned in Aider."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:aider-c014bd69:1",
+      "text": "title: Aider tags: coding-agent, open-source, llm-provider # Aider Open-source AI pair programming tool for terminal-based coding.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "aider-c014bd69"
+    },
+    {
+      "id": "claim:aider-c014bd69:2",
+      "text": "Works with any OpenAI-compatible API.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "aider-c014bd69"
+    },
+    {
+      "id": "claim:aider-c014bd69:3",
+      "text": "## Overview - Developer : Open source community (Paul Gauthier) - Backend Models : Any OpenAI-compatible model (GPT-4o, Claude via proxy, local models) - Interface : CLI ( aider ) - Pricing : Free (open source) + your own API costs - Open Source : Fully open source (Apache 2.0) ## Key Capabilities - Git-aware pair programming - Automatic commit management - Multi-file editing - Codebase map generation - Works with local models (Ollama, LM Studio) ## Workflow 1.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "aider-c014bd69"
+    },
+    {
+      "id": "claim:aider-c014bd69:4",
+      "text": "Run aider in project directory 2.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "aider-c014bd69"
+    }
+  ],
+  "questions": [
+    "How does model relate to Aider?",
+    "How does open relate to Aider?",
+    "How does source relate to Aider?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:48.719Z"
+}

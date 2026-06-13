@@ -1,131 +1,206 @@
 {
-  "generatedAt": "2026-06-06T21:08:51.053Z",
+  "generatedAt": "2026-06-13T21:04:03.389Z",
   "vaultName": "wiki-ai-intelligence",
-  "tagline": "A local-first map of wiki-ai-intelligence: 18 sources compiled into 160 graph nodes and 169 wiki pages.",
+  "tagline": "A local-first map of wiki-ai-intelligence: 97 sources compiled into 779 graph nodes and 788 wiki pages.",
   "overview": {
-    "sources": 18,
-    "nodes": 160,
-    "edges": 343,
-    "pages": 169,
-    "communities": 7
+    "sources": 97,
+    "nodes": 779,
+    "edges": 3179,
+    "pages": 788,
+    "communities": 14
   },
   "firstPartyOverview": {
-    "nodes": 160,
-    "edges": 343,
-    "pages": 160,
-    "communities": 7
+    "nodes": 779,
+    "edges": 3179,
+    "pages": 779,
+    "communities": 14
   },
   "highlights": {
     "topHubs": [
       {
         "nodeId": "concept:model",
         "label": "model",
-        "degree": 134
+        "degree": 372
       },
       {
-        "nodeId": "concept:with",
-        "label": "with",
-        "degree": 81
+        "nodeId": "concept:agent",
+        "label": "agent",
+        "degree": 272
       },
       {
         "nodeId": "concept:models",
         "label": "models",
-        "degree": 60
+        "degree": 212
       },
       {
-        "nodeId": "entity:provider-research-report",
-        "label": "Provider Research Report",
-        "degree": 50
+        "nodeId": "concept:with",
+        "label": "with",
+        "degree": 195
       },
       {
-        "nodeId": "entity:comprehensive-research-report",
-        "label": "Comprehensive Research Report",
-        "degree": 45
+        "nodeId": "concept:2026",
+        "label": "2026",
+        "degree": 162
       }
     ],
     "bridgeNodes": [
       {
-        "nodeId": "source:llm-provider-research-report-mistral-ai-b1dc6738",
-        "label": "LLM Provider Research Report: Mistral AI",
-        "bridgeScore": 6
-      },
-      {
-        "nodeId": "source:openai-llm-provider-research-report-mid-2026-8b4a47c7",
-        "label": "OpenAI — LLM Provider Research Report (Mid-2026)",
-        "bridgeScore": 6
-      },
-      {
         "nodeId": "concept:model",
         "label": "model",
-        "bridgeScore": 6
+        "bridgeScore": 13
+      },
+      {
+        "nodeId": "concept:agent",
+        "label": "agent",
+        "bridgeScore": 12
+      },
+      {
+        "nodeId": "concept:models",
+        "label": "models",
+        "bridgeScore": 12
       }
     ],
     "surprisingConnections": [
       {
-        "sourceLabel": "Meta Llama — LLM Provider Research Report (Mid-2026)",
-        "targetLabel": "OpenAI — LLM Provider Research Report (Mid-2026)",
-        "relation": "semantically_similar_to",
-        "why": "it crosses communities community:with-4 and community:pricing-6; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, share..."
-      },
-      {
-        "sourceLabel": "Anthropic — LLM Provider Research Report (Mid-2026)",
-        "targetLabel": "OpenAI — LLM Provider Research Report (Mid-2026)",
-        "relation": "semantically_similar_to",
-        "why": "it crosses communities community:claude-3 and community:pricing-6; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, sha..."
-      },
-      {
         "sourceLabel": "DeepSeek — LLM Provider Research Report (Mid-2026)",
-        "targetLabel": "Google Gemini — LLM Provider Research Report (Mid-2026)",
+        "targetLabel": "SCHEMA — AI Intelligence Wiki",
         "relation": "semantically_similar_to",
-        "why": "it crosses communities community:claude-3 and community:model-1; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, share..."
+        "why": "it crosses communities community:architecture-3 and community:agent-1; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts...."
+      },
+      {
+        "sourceLabel": "StepFun: Comprehensive Research Report (2026)",
+        "targetLabel": "Zhipu AI (GLM)",
+        "relation": "semantically_similar_to",
+        "why": "it crosses communities community:openai-6 and community:model-8; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it a..."
+      },
+      {
+        "sourceLabel": "Cursor IDE",
+        "targetLabel": "OpenCode",
+        "relation": "semantically_similar_to",
+        "why": "it crosses communities community:openai-6 and community:agent-1; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it a..."
       }
     ],
     "suggestedQuestions": [
-      "Why does LLM Provider Research Report: Mistral AI connect multiple communities in the vault?",
-      "Why does OpenAI — LLM Provider Research Report (Mid-2026) connect multiple communities in the vault?",
       "Why does model connect multiple communities in the vault?",
-      "What is the exact relationship between Alibaba Qwen — LLM Provider Research Report (Mid-2026) and Anthropic — LLM Provider Research Report (Mid-2026)?",
-      "What is the exact relationship between Alibaba Qwen — LLM Provider Research Report (Mid-2026) and Together AI: Comprehensive Research Report (2026)?"
+      "Why does agent connect multiple communities in the vault?",
+      "Why does models connect multiple communities in the vault?",
+      "What is the exact relationship between Agent Client Protocol (ACP) and Agent Framework Feature Matrix?",
+      "What is the exact relationship between Agent Client Protocol (ACP) and Coding Agent Feature Matrix?"
     ]
   },
   "knowledgeGaps": [],
-  "shortPost": "I scanned wiki-ai-intelligence with SwarmVault: 18 sources -> 169 wiki pages, 160 graph nodes, 343 edges.\nTop hubs: model, with, and models.\nMost surprising link: Meta Llama — LLM Provider Research Report (Mid-2026) semantically_similar_to OpenAI — LLM Provider Research Report (Mid-2026).\nEverything stays local. Try: npm install -g @swarmvaultai/cli && swarmvault scan ./your-repo",
+  "shortPost": "I scanned wiki-ai-intelligence with SwarmVault: 97 sources -> 788 wiki pages, 779 graph nodes, 3179 edges.\nTop hubs: model, agent, and models.\nMost surprising link: DeepSeek — LLM Provider Research Report (Mid-2026) semantically_similar_to SCHEMA — AI Intelligence Wiki.\nEverything stays local. Try: npm install -g @swarmvaultai/cli && swarmvault scan ./your-repo",
   "relatedNodeIds": [
     "concept:model",
-    "concept:with",
+    "concept:agent",
     "concept:models",
-    "entity:provider-research-report",
-    "entity:comprehensive-research-report",
-    "source:llm-provider-research-report-mistral-ai-b1dc6738",
-    "source:openai-llm-provider-research-report-mid-2026-8b4a47c7"
+    "concept:with",
+    "concept:2026"
   ],
   "relatedPageIds": [
     "concept:model",
-    "concept:with",
+    "concept:agent",
     "concept:models",
-    "entity:provider-research-report",
-    "entity:comprehensive-research-report",
-    "source:llm-provider-research-report-mistral-ai-b1dc6738",
-    "source:openai-llm-provider-research-report-mid-2026-8b4a47c7"
+    "concept:with",
+    "concept:2026"
   ],
   "relatedSourceIds": [
+    "agent-architectures-c4a81424",
+    "agent-client-protocol-acp-8c8dcb94",
+    "agent-framework-feature-matrix-fde0ed4b",
+    "agent-memory-99831982",
+    "agent-safety-80d3d17f",
+    "ai-engineering-culture-33de7c7d",
+    "ai-for-alpha-generation-3fd7660d",
+    "ai-intelligence-wiki-index-a106d6b7",
+    "aider-c014bd69",
+    "alibaba-qwen-1cf50963",
     "alibaba-qwen-llm-provider-research-report-mid-2026-c954f151",
+    "amazon-nova-act-61a7a942",
+    "anthropic-claude-code-9a2a2c2f",
+    "anthropic-e5b2ae21",
     "anthropic-llm-provider-research-report-mid-2026-85c1ae51",
+    "architecture-comparison-7564a202",
+    "autogen-d2ca12d4",
+    "bloomberggpt-693c071e",
+    "capabilities-comparison-da17fe1a",
+    "coding-agent-feature-matrix-168f075a",
+    "cohere-7a243c96",
+    "context-windows-and-long-context-431202b8",
+    "crewai-9c8d5146",
+    "cursor-ide-64120109",
+    "deepseek-837cec6b",
     "deepseek-llm-provider-research-report-mid-2026-06d7b24d",
+    "devin-desktop-36289347",
+    "enterprise-ai-cost-management-697ab8d5",
+    "evaluation-benchmarks-807dce0d",
+    "extended-thinking-reasoning-mode-9271007e",
+    "financial-reasoning-benchmarks-32d95d6c",
+    "github-copilot-57767a0f",
+    "google-antigravity-c839fc82",
+    "google-gemini-f03c0717",
     "google-gemini-llm-provider-research-report-mid-2026-c1315c99",
+    "grok-build-b560a812",
+    "helion-energy-0ae9133b",
+    "hugging-face-60153cb9",
+    "knowledge-distillation-12873957",
+    "kv-cache-optimization-de2c0259",
+    "langchain-langgraph-7a4aa86d",
+    "llamaindex-ae86527e",
     "llm-provider-research-report-cohere-a2489c1d",
     "llm-provider-research-report-mistral-ai-b1dc6738",
     "llm-provider-research-report-moonshot-ai-821a1010",
     "llm-provider-research-report-nvidia-nemotron-nim-6f9fdc40",
     "llm-provider-research-report-xai-grok-27723302",
+    "llm-release-tracker-fddf2689",
+    "mcp-model-context-protocol-a0a3debf",
+    "meta-llama-10f19581",
     "meta-llama-llm-provider-research-report-mid-2026-ea1881e6",
+    "microsoft-phi-55281864",
     "microsoft-phi-family-comprehensive-research-report-2026-2daf1835",
     "minimax-comprehensive-research-report-2026-db6828bc",
+    "minimax-d454d859",
+    "mistral-ai-06e88b74",
+    "mixture-of-experts-moe-architecture-fcad9f2a",
+    "model-commoditization-risk-ee3ef656",
+    "model-selection-for-agents-52969ec5",
+    "moonshot-ai-d13bf1de",
+    "multi-agent-orchestration-85061802",
+    "nvidia-0687788d",
+    "ollama-19794359",
+    "open-source-comparison-8a31dfc2",
+    "open-source-ecosystem-index-7edbaf37",
+    "open-weight-licensing-887e57a4",
+    "openai-agents-sdk-874de8e8",
+    "openai-codex-93968904",
+    "openai-e2c21475",
     "openai-llm-provider-research-report-mid-2026-8b4a47c7",
+    "opencode-de4e68b1",
+    "openhands-6f91c4fe",
     "perplexity-ai-comprehensive-research-report-2026-28e3c1cb",
+    "perplexity-ai-sonar-37c95c90",
+    "pricing-comparison-42a35633",
+    "prompt-caching-84942f18",
+    "quantization-89ec2663",
+    "rlhf-and-alignment-training-ba7b3502",
+    "schema-ai-intelligence-wiki-95f746ef",
+    "semantic-kernel-1fdaa5f5",
+    "sentiment-analysis-for-markets-0f8731b4",
+    "single-vs-multi-agent-6d3849d4",
+    "smic-semiconductor-manufacturing-international-corporation-432c6082",
+    "smolagents-ac93798a",
+    "spacex-terafab-87c79947",
+    "speculative-decoding-d3cdd080",
     "stability-ai-comprehensive-research-report-2026-82ef3427",
+    "stability-ai-edf65283",
+    "stepfun-517facb2",
     "stepfun-comprehensive-research-report-2026-517799aa",
+    "together-ai-ce3a0f9b",
     "together-ai-comprehensive-research-report-2026-b5bf5b1e",
+    "tool-use-pattern-307ac2f6",
+    "xai-grok-efa7f437",
+    "ymtc-yangtze-memory-technologies-corp-542d90e6",
+    "zhipu-ai-glm-3629e43c",
     "zhipu-ai-z-ai-comprehensive-research-report-2026-827d5161"
   ]
 }

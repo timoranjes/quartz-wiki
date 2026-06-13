@@ -1,0 +1,108 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "llamaindex-ae86527e",
+  "sourceHash": "ae86527ee83b46a8fd1425ddfeb1ec543427e2b2a53b508a7df149a4ddc341e5",
+  "semanticHash": "3a7b4f8bd4e98f4dc760c66549778380afabaee1647163dd722f6a608daa41ea",
+  "extractionHash": "3299925d524fa516ba8a742c9f3906da86b5c24193212d435f13b4a9c0be3a46",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "LlamaIndex",
+  "summary": "title: LlamaIndex tags: agent-framework, framework, retrieval, memory # LlamaIndex ## Overview LlamaIndex (formerly GPT Index) is a retrieval-centric data framework for building LLM applications. It specializes in connecting LLMs to private data sources through indexing, retrieval, and context augmentation. - Core Philosophy : Data-first agent building - Key Strength : Strong indexing & memory, optimized for RAG - License : MIT (open-source) - Website : llamaindex.ai ## Architecture LlamaIndex uses a retrieval-centric orchestration model: - Data Connectors : 25+ integrations (APIs, PDFs, SQL, Notion, Google Drive, etc.) - Indexes : Structured representations of data for efficient retrieval - Query Engines : Interfaces for asking questions over indexed data - Chat Engines : Stateful conversation interfaces with retrieval context - Agents : Basic agent capabilities built on top of retrieval ## Key Features | Feature | Description | |---------|-------------| | 25+ Data Connectors | APIs, PDFs, SQL, Notion, Google Drive, Confluence, Slack, and more | | Vector Store Integration | Works with all major vector databases | | Structured Retrieval | Keyword, semantic, and hybrid search | | Strong Memory | Persistent memory across sessions | | Query Transformation | Multi-step query decomposition and refinement | | Router | Intelligent selection of the best retrieval strategy | | Sub-Question Querying | Breaks complex questions into sub-queries | | LLM Agnostic | Works with any LLM provider | ## Agent Capabilities While primarily a retrieval framework, LlamaIndex supports basic agent patterns: - ReAct Agent : Reasoning + acting loop with tool use - Query Pipeline : Chain retrieval → reasoning → response - OpenAI Agent : Uses OpenAI function calling for tool selection - RAG Pipeline : Retrieval-augmented generation as a composable pipeline ## Comparison with Other Frameworks | Dimension | LlamaIndex | LangGraph | CrewAI | |-----------|------------|-----------|--------| | Architecture | Retrieval-centric | Graph-based state machines | Role-based team metaphor | | Multi-Agent | Limited | Strong — explicit graphs | Strong — role-defined teams | | Memory | Strong — persistent, indexed | Strong — state-based | Light — session-based | | Action Orchestration | Weak | Strong — explicit control | Moderate — task-based | | Best For | Knowledge-heavy agents | Production agent workflows | Task-oriented agent teams | | RAG Quality | Best-in-class | Good (via LangChain) | Moderate | ## Strengths - Best-in-class RAG : Optimized for retrieval-augmented generation - Data connectors : Largest ecosystem of data source integrations - Strong indexing : Multiple indexing strategies (vector, keyword, tree, keyword-table) - Query pipelines : Composable, debuggable retrieval flows ## Weaknesses - Weak action orchestration : Not designed for complex agent workflows - Limited multi-agent support : Primarily single-agent retrieval - Not ideal for tool-heavy agents : Action patterns are basic compared to [[langchain]] or [[crewai]] ## When to Use - Building knowledge-heavy agents that need to query large document collections - RAG applications (document Q&A, search over private data) - Applications requiring strong data ingestion and indexing pipelines - When retrieval quality is the primary bottleneck ## When NOT to Use - Complex multi-agent orchestration (use [[langchain]] or [[crewai]]) - Production agents requiring fine-grained control flow - Tool-heavy applications with many external API integrations ## Related - [[langchain]] — Chain/graph-based orchestration - [[crewai]] — Role-based multi-agent framework - [[autogen]] — Microsoft's conversational multi-agent framework - [[multi-agent-orchestration]] — Orchestration patterns - [[mcp-protocol]] — Tool integration protocol ## Sources - [[../../raw/sources/2026-06-02-top-agentic-frameworks-2026-jetbrains]] - [[../../raw/sources/datacamp-crewai-vs-langgraph-vs-autogen]] - [[../../raw/sources/pecollective-agent-frameworks-compared-2026]]",
+  "concepts": [
+    {
+      "id": "concept:retrieval",
+      "name": "retrieval",
+      "description": "Frequently referenced concept in LlamaIndex."
+    },
+    {
+      "id": "concept:agent",
+      "name": "agent",
+      "description": "Frequently referenced concept in LlamaIndex."
+    },
+    {
+      "id": "concept:data",
+      "name": "data",
+      "description": "Frequently referenced concept in LlamaIndex."
+    },
+    {
+      "id": "concept:strong",
+      "name": "strong",
+      "description": "Frequently referenced concept in LlamaIndex."
+    },
+    {
+      "id": "concept:based",
+      "name": "based",
+      "description": "Frequently referenced concept in LlamaIndex."
+    },
+    {
+      "id": "concept:llamaindex",
+      "name": "llamaindex",
+      "description": "Frequently referenced concept in LlamaIndex."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:llamaindex",
+      "name": "LlamaIndex",
+      "description": "Named entity mentioned in LlamaIndex."
+    },
+    {
+      "id": "entity:overview-llamaindex",
+      "name": "Overview LlamaIndex",
+      "description": "Named entity mentioned in LlamaIndex."
+    },
+    {
+      "id": "entity:index",
+      "name": "Index)",
+      "description": "Named entity mentioned in LlamaIndex."
+    },
+    {
+      "id": "entity:philosophy-data-first-agent",
+      "name": "Philosophy : Data-first agent",
+      "description": "Named entity mentioned in LlamaIndex."
+    },
+    {
+      "id": "entity:key-strength-strong",
+      "name": "Key Strength : Strong",
+      "description": "Named entity mentioned in LlamaIndex."
+    },
+    {
+      "id": "entity:license",
+      "name": "License :",
+      "description": "Named entity mentioned in LlamaIndex."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:llamaindex-ae86527e:1",
+      "text": "title: LlamaIndex tags: agent-framework, framework, retrieval, memory # LlamaIndex ## Overview LlamaIndex (formerly GPT Index) is a retrieval-centric data framework for building LLM applications.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "llamaindex-ae86527e"
+    },
+    {
+      "id": "claim:llamaindex-ae86527e:2",
+      "text": "It specializes in connecting LLMs to private data sources through indexing, retrieval, and context augmentation.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "llamaindex-ae86527e"
+    },
+    {
+      "id": "claim:llamaindex-ae86527e:3",
+      "text": "- Core Philosophy : Data-first agent building - Key Strength : Strong indexing & memory, optimized for RAG - License : MIT (open-source) - Website : llamaindex.ai ## Architecture LlamaIndex uses a retrieval-centric orchestration model: - Data Connectors : 25+ integrations (APIs, PDFs, SQL, Notion, Google Drive, etc.) - Indexes : Structured representations of data for efficient retrieval - Query Engines : Interfaces for asking questions over indexed data - Chat Engines : Stateful conversation interfaces with retrieval context - Agents : Basic agent capabilities built on top of retrieval ## Key Features | Feature | Description | |---------|-------------| | 25+ Data Connectors | APIs, PDFs, SQL, Notion, Google Drive, Confluence, Slack, and more | | Vector Store Integration | Works with all major vector databases | | Structured Retrieval | Keyword, semantic, and hybrid search | | Strong Memory | Persistent memory across sessions | | Query Transformation | Multi-step query decomposition and refinement | | Router | Intelligent selection of the best retrieval strategy | | Sub-Question Querying | Breaks complex questions into sub-queries | | LLM Agnostic | Works with any LLM provider | ## Agent Capabilities While primarily a retrieval framework, LlamaIndex supports basic agent patterns: - ReAct Agent : Reasoning + acting loop with tool use - Query Pipeline : Chain retrieval → reasoning → response - OpenAI Agent : Uses OpenAI function calling for tool selection - RAG Pipeline : Retrieval-augmented generation as a composable pipeline ## Comparison with Other Frameworks | Dimension | LlamaIndex | LangGraph | CrewAI | |-----------|------------|-----------|--------| | Architecture | Retrieval-centric | Graph-based state machines | Role-based team metaphor | | Multi-Agent | Limited | Strong — explicit graphs | Strong — role-defined teams | | Memory | Strong — persistent, indexed | Strong — state-based | Light — session-based | | Action Orchestration | Weak | Strong — explicit control | Moderate — task-based | | Best For | Knowledge-heavy agents | Production agent workflows | Task-oriented agent teams | | RAG Quality | Best-in-class | Good (via LangChain) | Moderate | ## Strengths - Best-in-class RAG : Optimized for retrieval-augmented generation - Data connectors : Largest ecosystem of data source integrations - Strong indexing : Multiple indexing strategies (vector, keyword, tree, keyword-table) - Query pipelines : Composable, debuggable retrieval flows ## Weaknesses - Weak action orchestration : Not designed for complex agent workflows - Limited multi-agent support : Primarily single-agent retrieval - Not ideal for tool-heavy agents : Action patterns are basic compared to [[langchain]] or [[crewai]] ## When to Use - Building knowledge-heavy agents that need to query large document collections - RAG applications (document Q&A, search over private data) - Applications requiring strong data ingestion and indexing pipelines - When retrieval quality is the primary bottleneck ## When NOT to Use - Complex multi-agent orchestration (use [[langchain]] or [[crewai]]) - Production agents requiring fine-grained control flow - Tool-heavy applications with many external API integrations ## Related - [[langchain]] — Chain/graph-based orchestration - [[crewai]] — Role-based multi-agent framework - [[autogen]] — Microsoft's conversational multi-agent framework - [[multi-agent-orchestration]] — Orchestration patterns - [[mcp-protocol]] — Tool integration protocol ## Sources - [[../../raw/sources/2026-06-02-top-agentic-frameworks-2026-jetbrains]] - [[../../raw/sources/datacamp-crewai-vs-langgraph-vs-autogen]] - [[../../raw/sources/pecollective-agent-frameworks-compared-2026]]",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "llamaindex-ae86527e"
+    }
+  ],
+  "questions": [
+    "How does retrieval relate to LlamaIndex?",
+    "How does agent relate to LlamaIndex?",
+    "How does data relate to LlamaIndex?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:49.871Z"
+}

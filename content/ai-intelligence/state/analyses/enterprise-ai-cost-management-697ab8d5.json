@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "enterprise-ai-cost-management-697ab8d5",
+  "sourceHash": "697ab8d569ec9560f6a0eda433934f7b699f890e353b526c49372f083758df9a",
+  "semanticHash": "4719ea60dbf5c639086fef00ba9101d1c9871537a7c69dd60739db0db28aca41",
+  "extractionHash": "2c8113be0b9fe19084ea72d4ffeeda25e218b806a2f79f2d7b43149d7a875f22",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Enterprise AI Cost Management",
+  "summary": "title: Enterprise AI Cost Management tags: cost-optimization, code-generation # Enterprise AI Cost Management ## Overview As AI coding agents (Claude Code, Cursor, etc.) see rapid enterprise adoption, companies are facing unexpected token costs and implementing spending controls. ## Case Study: Uber (June 2026) - Policy: $1,500/month per AI coding tool per employee - Scope: Applies to agentic coding software (Claude Code, Cursor) - Design: Per-tool limits — spending on one tool doesn't affect budget for another - Context: Uber reportedly burned through its entire 2026 AI budget in 4 months ## Cost Benchmarks | Metric | Value | |--------|-------| | Monthly cap per tool | $1,500 | | Estimated annual cap (2 tools) | $36,000/engineer | | Uber median SWE compensation | ~$330,000/year | | AI spend as % of comp | ~11% | | Individual subscriber cost (Anthropic/OpenAI) | ~$100/month per provider | | Typical individual usage | ~$1,000/month per provider | ## Key Observations - Enterprise pricing differs significantly from individual subsidized plans — individuals pay ~$100/month for usage that would cost ~$1,000/month at enterprise rates - A $1,500/month per-tool cap suggests companies are getting meaningful value but need guardrails against runaway spending - Per-tool limits (rather than aggregate caps) incentivize tool diversity but may increase total spend - This is an early signal of the \"token-burning\" pattern becoming a real cost center at scale ## LLM API Pricing War (2026) LLM API prices dropped approximately 80% between early 2025 and early 2026, driven by three structural forces: ### Cost Drivers 1. Hardware Efficiency : NVIDIA Blackwell, AMD MI350, and Google TPU v6 deliver ~2x YoY inference throughput per watt improvements 2.",
+  "concepts": [
+    {
+      "id": "concept:cost",
+      "name": "cost",
+      "description": "Frequently referenced concept in Enterprise AI Cost Management."
+    },
+    {
+      "id": "concept:tool",
+      "name": "tool",
+      "description": "Frequently referenced concept in Enterprise AI Cost Management."
+    },
+    {
+      "id": "concept:enterprise",
+      "name": "enterprise",
+      "description": "Frequently referenced concept in Enterprise AI Cost Management."
+    },
+    {
+      "id": "concept:month",
+      "name": "month",
+      "description": "Frequently referenced concept in Enterprise AI Cost Management."
+    },
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in Enterprise AI Cost Management."
+    },
+    {
+      "id": "concept:early",
+      "name": "early",
+      "description": "Frequently referenced concept in Enterprise AI Cost Management."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:enterprise-ai-cost-management",
+      "name": "Enterprise AI Cost Management",
+      "description": "Named entity mentioned in Enterprise AI Cost Management."
+    },
+    {
+      "id": "entity:overview-as",
+      "name": "Overview As",
+      "description": "Named entity mentioned in Enterprise AI Cost Management."
+    },
+    {
+      "id": "entity:claude-code-cursor",
+      "name": "(Claude Code, Cursor,",
+      "description": "Named entity mentioned in Enterprise AI Cost Management."
+    },
+    {
+      "id": "entity:case-study-uber",
+      "name": "Case Study: Uber",
+      "description": "Named entity mentioned in Enterprise AI Cost Management."
+    },
+    {
+      "id": "entity:policy",
+      "name": "Policy:",
+      "description": "Named entity mentioned in Enterprise AI Cost Management."
+    },
+    {
+      "id": "entity:scope-applies",
+      "name": "Scope: Applies",
+      "description": "Named entity mentioned in Enterprise AI Cost Management."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:enterprise-ai-cost-management-697ab8d5:1",
+      "text": "title: Enterprise AI Cost Management tags: cost-optimization, code-generation # Enterprise AI Cost Management ## Overview As AI coding agents (Claude Code, Cursor, etc.) see rapid enterprise adoption, companies are facing unexpected token costs and implementing spending controls.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "enterprise-ai-cost-management-697ab8d5"
+    },
+    {
+      "id": "claim:enterprise-ai-cost-management-697ab8d5:2",
+      "text": "## Case Study: Uber (June 2026) - Policy: $1,500/month per AI coding tool per employee - Scope: Applies to agentic coding software (Claude Code, Cursor) - Design: Per-tool limits — spending on one tool doesn't affect budget for another - Context: Uber reportedly burned through its entire 2026 AI budget in 4 months ## Cost Benchmarks | Metric | Value | |--------|-------| | Monthly cap per tool | $1,500 | | Estimated annual cap (2 tools) | $36,000/engineer | | Uber median SWE compensation | ~$330,000/year | | AI spend as % of comp | ~11% | | Individual subscriber cost (Anthropic/OpenAI) | ~$100/month per provider | | Typical individual usage | ~$1,000/month per provider | ## Key Observations - Enterprise pricing differs significantly from individual subsidized plans — individuals pay ~$100/month for usage that would cost ~$1,000/month at enterprise rates - A $1,500/month per-tool cap suggests companies are getting meaningful value but need guardrails against runaway spending - Per-tool limits (rather than aggregate caps) incentivize tool diversity but may increase total spend - This is an early signal of the \"token-burning\" pattern becoming a real cost center at scale ## LLM API Pricing War (2026) LLM API prices dropped approximately 80% between early 2025 and early 2026, driven by three structural forces: ### Cost Drivers 1.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "enterprise-ai-cost-management-697ab8d5"
+    },
+    {
+      "id": "claim:enterprise-ai-cost-management-697ab8d5:3",
+      "text": "Hardware Efficiency : NVIDIA Blackwell, AMD MI350, and Google TPU v6 deliver ~2x YoY inference throughput per watt improvements 2.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "enterprise-ai-cost-management-697ab8d5"
+    },
+    {
+      "id": "claim:enterprise-ai-cost-management-697ab8d5:4",
+      "text": "Model Competition : Open-weight models (Qwen, DeepSeek, Llama) force proprietary providers to cut prices 3.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "enterprise-ai-cost-management-697ab8d5"
+    }
+  ],
+  "questions": [
+    "How does cost relate to Enterprise AI Cost Management?",
+    "How does tool relate to Enterprise AI Cost Management?",
+    "How does enterprise relate to Enterprise AI Cost Management?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:49.366Z"
+}

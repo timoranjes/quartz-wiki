@@ -1,0 +1,18 @@
+{
+  "sourceId": "anthropic-e5b2ae21",
+  "title": "Anthropic",
+  "originType": "file",
+  "sourceKind": "markdown",
+  "sourceClass": "first_party",
+  "originalPath": "/Users/zichengliao/Library/Mobile Documents/iCloud~md~obsidian/Documents/wiki-ai-intelligence/raw/sources/obsidian-ai-agents/entities/anthropic.md",
+  "repoRelativePath": "entities/anthropic.md",
+  "storedPath": "raw/sources/anthropic-e5b2ae21.md",
+  "extractedTextPath": "state/extracts/anthropic-e5b2ae21.md",
+  "extractedMetadataPath": "state/extracts/anthropic-e5b2ae21.json",
+  "extractionHash": "3968e625432406bf6d58ef5ca407c739cdeab78b8dc8a9e9a1af9fb31413e6d4",
+  "mimeType": "text/markdown",
+  "contentHash": "e5b2ae21d8c4e89a2ec8897b6f319abbbdd06e92bfb371963a84d30bc7b9b52c",
+  "semanticHash": "275ac63df301810b4e487bec2228c7c47b1809f7e7c877a6106499927838cb70",
+  "createdAt": "2026-06-13T21:03:41.229Z",
+  "updatedAt": "2026-06-13T21:03:41.229Z"
+}

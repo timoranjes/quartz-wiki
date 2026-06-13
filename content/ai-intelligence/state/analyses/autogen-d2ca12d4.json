@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "autogen-d2ca12d4",
+  "sourceHash": "d2ca12d45fb1fe9e57b24868074ddb90af4b454156813671a6f5a45c0e561d5c",
+  "semanticHash": "4a4a73e9db3f553cb4b3f78311cffb639e6fbf202b12ca94c4dcc77c061ea7e0",
+  "extractionHash": "ab9ace6dbe4cfda46688b833eaccfe96afacb50f70d23a55869b30f1dec2a14f",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "AutoGen",
+  "summary": "title: AutoGen tags: agent-framework, multi-agent, orchestrator, microsoft # AutoGen ## Overview AutoGen is a multi-agent conversation framework developed by Microsoft Research . It enables agents to collaborate through structured dialogues, with built-in support for human-in-the-loop interaction and code execution. - Core Philosophy : Conversational multi-agent interaction - Key Strength : Human-in-the-loop, dynamic dialogue, code execution - Parent : Microsoft Research - License : MIT (open-source) - Website : microsoft.github.io/autogen ### 2026 Update: Cross-Language Support AutoGen now supports interoperability between agents built in different programming languages.",
+  "concepts": [
+    {
+      "id": "concept:code",
+      "name": "code",
+      "description": "Frequently referenced concept in AutoGen."
+    },
+    {
+      "id": "concept:conversation",
+      "name": "conversation",
+      "description": "Frequently referenced concept in AutoGen."
+    },
+    {
+      "id": "concept:execution",
+      "name": "execution",
+      "description": "Frequently referenced concept in AutoGen."
+    },
+    {
+      "id": "concept:autogen",
+      "name": "autogen",
+      "description": "Frequently referenced concept in AutoGen."
+    },
+    {
+      "id": "concept:human",
+      "name": "human",
+      "description": "Frequently referenced concept in AutoGen."
+    },
+    {
+      "id": "concept:conversational",
+      "name": "conversational",
+      "description": "Frequently referenced concept in AutoGen."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:autogen",
+      "name": "AutoGen",
+      "description": "Named entity mentioned in AutoGen."
+    },
+    {
+      "id": "entity:microsoft",
+      "name": "microsoft",
+      "description": "Named entity mentioned in AutoGen."
+    },
+    {
+      "id": "entity:overview-autogen",
+      "name": "Overview AutoGen",
+      "description": "Named entity mentioned in AutoGen."
+    },
+    {
+      "id": "entity:microsoft-research",
+      "name": "Microsoft Research .",
+      "description": "Named entity mentioned in AutoGen."
+    },
+    {
+      "id": "entity:philosophy-conversational",
+      "name": "Philosophy : Conversational",
+      "description": "Named entity mentioned in AutoGen."
+    },
+    {
+      "id": "entity:key-strength-human",
+      "name": "Key Strength : Human-",
+      "description": "Named entity mentioned in AutoGen."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:autogen-d2ca12d4:1",
+      "text": "title: AutoGen tags: agent-framework, multi-agent, orchestrator, microsoft # AutoGen ## Overview AutoGen is a multi-agent conversation framework developed by Microsoft Research .",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "autogen-d2ca12d4"
+    },
+    {
+      "id": "claim:autogen-d2ca12d4:2",
+      "text": "It enables agents to collaborate through structured dialogues, with built-in support for human-in-the-loop interaction and code execution.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "autogen-d2ca12d4"
+    },
+    {
+      "id": "claim:autogen-d2ca12d4:3",
+      "text": "- Core Philosophy : Conversational multi-agent interaction - Key Strength : Human-in-the-loop, dynamic dialogue, code execution - Parent : Microsoft Research - License : MIT (open-source) - Website : microsoft.github.io/autogen ### 2026 Update: Cross-Language Support AutoGen now supports interoperability between agents built in different programming languages.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "autogen-d2ca12d4"
+    },
+    {
+      "id": "claim:autogen-d2ca12d4:4",
+      "text": "Current support includes Python and .NET, with additional languages in development.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "autogen-d2ca12d4"
+    }
+  ],
+  "questions": [
+    "How does code relate to AutoGen?",
+    "How does conversation relate to AutoGen?",
+    "How does execution relate to AutoGen?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:49.084Z"
+}

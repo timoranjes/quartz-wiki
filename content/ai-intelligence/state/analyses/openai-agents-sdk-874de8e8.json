@@ -1,0 +1,108 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "openai-agents-sdk-874de8e8",
+  "sourceHash": "874de8e8fb734711dc9af4f2fda7c167ad6870aed05c5522975488c654f209a5",
+  "semanticHash": "6ecd6b92992f54c35d0934fc57ff61d5c4732d742bdfeeebceb904a021a5c917",
+  "extractionHash": "ed1e39657a97dbed66a64493e0d08df706402fcfb4a38cfac6ab58ed7b5a186c",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "OpenAI Agents SDK",
+  "summary": "title: OpenAI Agents SDK tags: agent-framework, framework, openai, orchestration, sdk, python, typescript # OpenAI Agents SDK ## Overview OpenAI Agents SDK is OpenAI's official code-first framework for building multi-agent applications. It gives developers typed application code (TypeScript/Python) with full control over orchestration, tool execution, state management, approvals, and agent handoffs. - GitHub Repos : openai-agents-python , openai-agents-js - License : MIT - Parent Company : OpenAI - Website : platform.openai.com/docs/guides/agents ## Architecture ### Agent Model - Agents are applications that plan, call tools, collaborate across specialists, and maintain state to complete multi-step work - Agent Definition : Typed contract for a single specialist — model, tools, instructions, handoffs - Orchestration & Handoffs : Multi-agent ownership model with clear boundaries between specialists - State Management : Resumable state, continuation strategies, server-managed conversation ### API Positioning | Use Case | Recommended API | |----------|-----------------| | One model call + tools + app-owned logic | Responses API | | Full orchestration, tool execution, approvals, state | Agents SDK | ## Key Features | Feature | Description | |---------|-------------| | Typed SDK | Native TypeScript and Python support | | Agent Handoffs | Clean orchestration between specialist agents | | Tool Integration | Hosted tools, MCP servers, custom function tools | | Guardrails | Block/pause before risky actions with human review | | Sandbox Agents | Container-based execution with files, commands, packages, snapshots, mounts | | Streaming | Real-time token and event streaming | | Voice Agents | SDK's voice pipeline + real-time agent patterns | | Observability | Native tracing, debugging, and evaluation loops | | OpenAI-Native | Deep integration with Responses API, Assistants, GPT models | ## 2026 Updates - Agents SDK Launch : Official multi-agent orchestration framework - Sandbox Mode : Container-based agent execution for isolated environments - Voice Agents Pipeline : Real-time voice-first agent workflows - MCP Integration : Native MCP server tool import - Evaluation Framework : Built-in agent workflow evaluation loops ## Ecosystem | Component | Purpose | |-----------|---------| | Agents SDK (Python) | Python SDK for building agents | | Agents SDK (TypeScript) | TypeScript/JS SDK for building agents | | Responses API | Underlying API for model calls with tools | | Assistants API | Managed agent hosting on OpenAI infrastructure | | Agent Evals | Evaluation loops for agent workflows | | Sandbox | Container execution for agent environments | ## Code Example python from openai.agents import Agent, Runner researcher = Agent( name=\"Researcher\", model=\"gpt-5.5\", instructions=\"You are a research assistant.\", tools=[web_search_tool], ) reviewer = Agent( name=\"Reviewer\", model=\"gpt-5.5\", instructions=\"Review and validate research findings.\", ) result = Runner.run(researcher, \"Research the latest LLM benchmarks\") ## When to Use - Building production applications with server-owned orchestration - Multi-agent systems with clear specialist boundaries and handoffs - Need for guardrails, approvals, and human-in-the-loop - TypeScript or Python codebases - Tight integration with OpenAI model ecosystem ## When NOT to Use - Cross-provider model usage (SDK is OpenAI-first) - Open-source/self-hosted model requirements - Complex graph-based workflows (consider [[langchain]]/LangGraph) - Role-based multi-agent scenarios (consider [[crewai]]) ## Related - [[../llm-providers/openai]] — OpenAI LLM provider (GPT-5.5, GPT-4o, etc.) - [[../coding-agents/openai-codex]] — OpenAI's coding agent - [[langchain]] — Cross-provider orchestration framework - [[autogen]] — Microsoft's conversational multi-agent framework - [[../../concepts/llm-architecture/mcp-protocol]] — Tool integration protocol ## Sources - OpenAI Agents SDK Documentation - OpenAI Agents SDK Quickstart - OpenAI Agents SDK GitHub (Python)",
+  "concepts": [
+    {
+      "id": "concept:agents",
+      "name": "agents",
+      "description": "Frequently referenced concept in OpenAI Agents SDK."
+    },
+    {
+      "id": "concept:openai",
+      "name": "openai",
+      "description": "Frequently referenced concept in OpenAI Agents SDK."
+    },
+    {
+      "id": "concept:agent",
+      "name": "agent",
+      "description": "Frequently referenced concept in OpenAI Agents SDK."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in OpenAI Agents SDK."
+    },
+    {
+      "id": "concept:python",
+      "name": "python",
+      "description": "Frequently referenced concept in OpenAI Agents SDK."
+    },
+    {
+      "id": "concept:with",
+      "name": "with",
+      "description": "Frequently referenced concept in OpenAI Agents SDK."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:openai-agents",
+      "name": "OpenAI Agents",
+      "description": "Named entity mentioned in OpenAI Agents SDK."
+    },
+    {
+      "id": "entity:overview-openai-agents",
+      "name": "Overview OpenAI Agents",
+      "description": "Named entity mentioned in OpenAI Agents SDK."
+    },
+    {
+      "id": "entity:openai-s",
+      "name": "OpenAI's",
+      "description": "Named entity mentioned in OpenAI Agents SDK."
+    },
+    {
+      "id": "entity:typescript-python",
+      "name": "(TypeScript/Python)",
+      "description": "Named entity mentioned in OpenAI Agents SDK."
+    },
+    {
+      "id": "entity:github-repos",
+      "name": "- GitHub Repos :",
+      "description": "Named entity mentioned in OpenAI Agents SDK."
+    },
+    {
+      "id": "entity:license-mit-parent-company-openai-website",
+      "name": "License : MIT - Parent Company : OpenAI - Website :",
+      "description": "Named entity mentioned in OpenAI Agents SDK."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:openai-agents-sdk-874de8e8:1",
+      "text": "title: OpenAI Agents SDK tags: agent-framework, framework, openai, orchestration, sdk, python, typescript # OpenAI Agents SDK ## Overview OpenAI Agents SDK is OpenAI's official code-first framework for building multi-agent applications.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "openai-agents-sdk-874de8e8"
+    },
+    {
+      "id": "claim:openai-agents-sdk-874de8e8:2",
+      "text": "It gives developers typed application code (TypeScript/Python) with full control over orchestration, tool execution, state management, approvals, and agent handoffs.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "openai-agents-sdk-874de8e8"
+    },
+    {
+      "id": "claim:openai-agents-sdk-874de8e8:3",
+      "text": "- GitHub Repos : openai-agents-python , openai-agents-js - License : MIT - Parent Company : OpenAI - Website : platform.openai.com/docs/guides/agents ## Architecture ### Agent Model - Agents are applications that plan, call tools, collaborate across specialists, and maintain state to complete multi-step work - Agent Definition : Typed contract for a single specialist — model, tools, instructions, handoffs - Orchestration & Handoffs : Multi-agent ownership model with clear boundaries between specialists - State Management : Resumable state, continuation strategies, server-managed conversation ### API Positioning | Use Case | Recommended API | |----------|-----------------| | One model call + tools + app-owned logic | Responses API | | Full orchestration, tool execution, approvals, state | Agents SDK | ## Key Features | Feature | Description | |---------|-------------| | Typed SDK | Native TypeScript and Python support | | Agent Handoffs | Clean orchestration between specialist agents | | Tool Integration | Hosted tools, MCP servers, custom function tools | | Guardrails | Block/pause before risky actions with human review | | Sandbox Agents | Container-based execution with files, commands, packages, snapshots, mounts | | Streaming | Real-time token and event streaming | | Voice Agents | SDK's voice pipeline + real-time agent patterns | | Observability | Native tracing, debugging, and evaluation loops | | OpenAI-Native | Deep integration with Responses API, Assistants, GPT models | ## 2026 Updates - Agents SDK Launch : Official multi-agent orchestration framework - Sandbox Mode : Container-based agent execution for isolated environments - Voice Agents Pipeline : Real-time voice-first agent workflows - MCP Integration : Native MCP server tool import - Evaluation Framework : Built-in agent workflow evaluation loops ## Ecosystem | Component | Purpose | |-----------|---------| | Agents SDK (Python) | Python SDK for building agents | | Agents SDK (TypeScript) | TypeScript/JS SDK for building agents | | Responses API | Underlying API for model calls with tools | | Assistants API | Managed agent hosting on OpenAI infrastructure | | Agent Evals | Evaluation loops for agent workflows | | Sandbox | Container execution for agent environments | ## Code Example python from openai.agents import Agent, Runner researcher = Agent( name=\"Researcher\", model=\"gpt-5.5\", instructions=\"You are a research assistant.\", tools=[web_search_tool], ) reviewer = Agent( name=\"Reviewer\", model=\"gpt-5.5\", instructions=\"Review and validate research findings.\", ) result = Runner.run(researcher, \"Research the latest LLM benchmarks\") ## When to Use - Building production applications with server-owned orchestration - Multi-agent systems with clear specialist boundaries and handoffs - Need for guardrails, approvals, and human-in-the-loop - TypeScript or Python codebases - Tight integration with OpenAI model ecosystem ## When NOT to Use - Cross-provider model usage (SDK is OpenAI-first) - Open-source/self-hosted model requirements - Complex graph-based workflows (consider [[langchain]]/LangGraph) - Role-based multi-agent scenarios (consider [[crewai]]) ## Related - [[../llm-providers/openai]] — OpenAI LLM provider (GPT-5.5, GPT-4o, etc.) - [[../coding-agents/openai-codex]] — OpenAI's coding agent - [[langchain]] — Cross-provider orchestration framework - [[autogen]] — Microsoft's conversational multi-agent framework - [[../../concepts/llm-architecture/mcp-protocol]] — Tool integration protocol ## Sources - OpenAI Agents SDK Documentation - OpenAI Agents SDK Quickstart - OpenAI Agents SDK GitHub (Python)",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "openai-agents-sdk-874de8e8"
+    }
+  ],
+  "questions": [
+    "How does agents relate to OpenAI Agents SDK?",
+    "How does openai relate to OpenAI Agents SDK?",
+    "How does agent relate to OpenAI Agents SDK?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.320Z"
+}

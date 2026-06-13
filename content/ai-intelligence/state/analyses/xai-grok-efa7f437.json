@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "xai-grok-efa7f437",
+  "sourceHash": "efa7f437a33f7bae84e41373919aeedf5f208b6ef2c621710d573e9cfed80191",
+  "semanticHash": "0fa8a9e971f477a202cc2680fdb2ec7d067b9cdb1dddceaa4aa9d5a7249e04be",
+  "extractionHash": "fe3c971795bf8dcdffbb3c23cfdad5306f1b3e1e2c08d0285a6339c67d8c363e",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "xAI (Grok)",
+  "summary": "title: xAI (Grok) tags: provider, lab, model, reasoning, coding, multimodal, agentic, tool-use, pricing, api, closed, token-cost, timeline # xAI (Grok) ## Overview xAI is an artificial intelligence company founded by Elon Musk in March 2023, with a stated mission to \"understand the true nature of the universe\" and build AI systems that are \"maximally curious\" and \"maximally truthful.\" Unlike many competitors focused purely on commercial applications, xAI positions itself as a scientific discovery company that also produces practical AI products. The company operates with a lean engineering team compared to larger competitors, focusing on compute-efficient model training and rapid iteration. Its deep integration with the X (formerly Twitter) platform provides unique data advantages, including real-time social media data for training and grounding.",
+  "concepts": [
+    {
+      "id": "concept:grok",
+      "name": "grok",
+      "description": "Frequently referenced concept in xAI (Grok)."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in xAI (Grok)."
+    },
+    {
+      "id": "concept:reasoning",
+      "name": "reasoning",
+      "description": "Frequently referenced concept in xAI (Grok)."
+    },
+    {
+      "id": "concept:search",
+      "name": "search",
+      "description": "Frequently referenced concept in xAI (Grok)."
+    },
+    {
+      "id": "concept:with",
+      "name": "with",
+      "description": "Frequently referenced concept in xAI (Grok)."
+    },
+    {
+      "id": "concept:openai",
+      "name": "openai",
+      "description": "Frequently referenced concept in xAI (Grok)."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:grok",
+      "name": "(Grok)",
+      "description": "Named entity mentioned in xAI (Grok)."
+    },
+    {
+      "id": "entity:overview",
+      "name": "Overview",
+      "description": "Named entity mentioned in xAI (Grok)."
+    },
+    {
+      "id": "entity:elon-musk",
+      "name": "Elon Musk",
+      "description": "Named entity mentioned in xAI (Grok)."
+    },
+    {
+      "id": "entity:march",
+      "name": "March",
+      "description": "Named entity mentioned in xAI (Grok)."
+    },
+    {
+      "id": "entity:ai-systems",
+      "name": "AI systems",
+      "description": "Named entity mentioned in xAI (Grok)."
+    },
+    {
+      "id": "entity:unlike",
+      "name": "Unlike",
+      "description": "Named entity mentioned in xAI (Grok)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:xai-grok-efa7f437:1",
+      "text": "title: xAI (Grok) tags: provider, lab, model, reasoning, coding, multimodal, agentic, tool-use, pricing, api, closed, token-cost, timeline # xAI (Grok) ## Overview xAI is an artificial intelligence company founded by Elon Musk in March 2023, with a stated mission to \"understand the true nature of the universe\" and build AI systems that are \"maximally curious\" and \"maximally truthful.\" Unlike many competitors focused purely on commercial applications, xAI positions itself as a scientific discovery company that also produces practical AI products.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "xai-grok-efa7f437"
+    },
+    {
+      "id": "claim:xai-grok-efa7f437:2",
+      "text": "The company operates with a lean engineering team compared to larger competitors, focusing on compute-efficient model training and rapid iteration.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "xai-grok-efa7f437"
+    },
+    {
+      "id": "claim:xai-grok-efa7f437:3",
+      "text": "Its deep integration with the X (formerly Twitter) platform provides unique data advantages, including real-time social media data for training and grounding.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "xai-grok-efa7f437"
+    },
+    {
+      "id": "claim:xai-grok-efa7f437:4",
+      "text": "Funding & Valuation: xAI has raised multiple rounds at rapidly increasing valuations — from $3.4B (Series B, Dec 2023) to $80B (Series E, May 2026, $6B new funding).",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "xai-grok-efa7f437"
+    }
+  ],
+  "questions": [
+    "How does grok relate to xAI (Grok)?",
+    "How does model relate to xAI (Grok)?",
+    "How does reasoning relate to xAI (Grok)?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:51.089Z"
+}

@@ -1,0 +1,18 @@
+{
+  "sourceId": "knowledge-distillation-12873957",
+  "title": "Knowledge Distillation",
+  "originType": "file",
+  "sourceKind": "markdown",
+  "sourceClass": "first_party",
+  "originalPath": "/Users/zichengliao/Library/Mobile Documents/iCloud~md~obsidian/Documents/wiki-ai-intelligence/raw/sources/obsidian-ai-agents/concepts/distillation.md",
+  "repoRelativePath": "concepts/distillation.md",
+  "storedPath": "raw/sources/knowledge-distillation-12873957.md",
+  "extractedTextPath": "state/extracts/knowledge-distillation-12873957.md",
+  "extractedMetadataPath": "state/extracts/knowledge-distillation-12873957.json",
+  "extractionHash": "2d4c0805aaa9053eb91cf08b144c85bf291c631c9d57f75029d88f6300a9dd31",
+  "mimeType": "text/markdown",
+  "contentHash": "12873957af7b7e8afe7ce09d89772ed79a3465aae439db72f1a2865e13383d93",
+  "semanticHash": "9cf27c13e6e8c7e9f860663b90165b4f6fcb413a9a1711bbf2b3225d5f5aa4ce",
+  "createdAt": "2026-06-13T21:03:41.031Z",
+  "updatedAt": "2026-06-13T21:03:41.031Z"
+}

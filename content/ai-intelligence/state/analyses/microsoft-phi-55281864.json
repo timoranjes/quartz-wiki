@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "microsoft-phi-55281864",
+  "sourceHash": "5528186480037dfb904b6a71cdace9eb7fce0a8646d7702ccdcd379d7fff09ed",
+  "semanticHash": "7f1faf77ba33d38d78e400685e6e5f36329a729cd318bf8aea7168b97cf2ca08",
+  "extractionHash": "cc223f6875154e923b76b141377a0ff2e4a97554fe90b2b63c1825dc9c20c5d8",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Microsoft Phi",
+  "summary": "title: Microsoft Phi tags: provider, lab, model, reasoning, coding, vision, audio, multimodal, open-weight, pricing, edge, token-cost, timeline, proprietary # Microsoft Phi ## Overview The Phi family is a line of small language models (SLMs) developed by [[microsoft]] Research, demonstrating that carefully curated training data and efficient architectures can produce models rivaling systems orders of magnitude larger. Originating from the 2023 \"Textbooks Are All You Need\" paper, Phi has evolved from Phi-1 (1.3B parameters) through the current Phi-4 family (14B parameters), with multimodal and reasoning variants expanding across text, vision, and audio domains. Phi occupies a distinct niche within Microsoft's AI portfolio: while GPT models target frontier capabilities, Phi targets cost-efficiency, low latency, and edge deployment.",
+  "concepts": [
+    {
+      "id": "concept:models",
+      "name": "models",
+      "description": "Frequently referenced concept in Microsoft Phi."
+    },
+    {
+      "id": "concept:microsoft",
+      "name": "microsoft",
+      "description": "Frequently referenced concept in Microsoft Phi."
+    },
+    {
+      "id": "concept:reasoning",
+      "name": "reasoning",
+      "description": "Frequently referenced concept in Microsoft Phi."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in Microsoft Phi."
+    },
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in Microsoft Phi."
+    },
+    {
+      "id": "concept:vision",
+      "name": "vision",
+      "description": "Frequently referenced concept in Microsoft Phi."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:microsoft-phi",
+      "name": "Microsoft Phi",
+      "description": "Named entity mentioned in Microsoft Phi."
+    },
+    {
+      "id": "entity:overview",
+      "name": "Overview",
+      "description": "Named entity mentioned in Microsoft Phi."
+    },
+    {
+      "id": "entity:phi",
+      "name": "Phi",
+      "description": "Named entity mentioned in Microsoft Phi."
+    },
+    {
+      "id": "entity:microsoft-research",
+      "name": "[[microsoft]] Research,",
+      "description": "Named entity mentioned in Microsoft Phi."
+    },
+    {
+      "id": "entity:are-all-you-need",
+      "name": "Are All You Need\"",
+      "description": "Named entity mentioned in Microsoft Phi."
+    },
+    {
+      "id": "entity:phi",
+      "name": "Phi-",
+      "description": "Named entity mentioned in Microsoft Phi."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:microsoft-phi-55281864:1",
+      "text": "title: Microsoft Phi tags: provider, lab, model, reasoning, coding, vision, audio, multimodal, open-weight, pricing, edge, token-cost, timeline, proprietary # Microsoft Phi ## Overview The Phi family is a line of small language models (SLMs) developed by [[microsoft]] Research, demonstrating that carefully curated training data and efficient architectures can produce models rivaling systems orders of magnitude larger.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "microsoft-phi-55281864"
+    },
+    {
+      "id": "claim:microsoft-phi-55281864:2",
+      "text": "Originating from the 2023 \"Textbooks Are All You Need\" paper, Phi has evolved from Phi-1 (1.3B parameters) through the current Phi-4 family (14B parameters), with multimodal and reasoning variants expanding across text, vision, and audio domains.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "microsoft-phi-55281864"
+    },
+    {
+      "id": "claim:microsoft-phi-55281864:3",
+      "text": "Phi occupies a distinct niche within Microsoft's AI portfolio: while GPT models target frontier capabilities, Phi targets cost-efficiency, low latency, and edge deployment.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "microsoft-phi-55281864"
+    },
+    {
+      "id": "claim:microsoft-phi-55281864:4",
+      "text": "All Phi models are open-weight under the MIT license, available through Azure AI Foundry, Hugging Face, NVIDIA API Catalog, Ollama, and third-party providers.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "microsoft-phi-55281864"
+    }
+  ],
+  "questions": [
+    "How does models relate to Microsoft Phi?",
+    "How does microsoft relate to Microsoft Phi?",
+    "How does reasoning relate to Microsoft Phi?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:49.997Z"
+}

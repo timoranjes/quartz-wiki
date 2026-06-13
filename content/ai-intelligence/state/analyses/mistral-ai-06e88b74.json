@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "mistral-ai-06e88b74",
+  "sourceHash": "06e88b74fba2d041a66f3ba7b167ce595791d937b9358c28f922834c14677265",
+  "semanticHash": "9197598990ada7f5b46ba7e8e4fd326c7553ec370972a5bfae4724a627119cbc",
+  "extractionHash": "c696ffc09ca1ae92329016c72b944490181b9a75aa397830b79557db98181dca",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Mistral AI",
+  "summary": "title: Mistral AI tags: provider, lab, model, open-weight, reasoning, coding, multimodal, agentic, pricing, api, licensing, token-cost, timeline # Mistral AI ## Overview Mistral AI is a French artificial intelligence company founded in April 2023 by former Meta and DeepMind researchers — Arthur Mensch (CEO, ex-DeepMind/Cerebras), Timothée Lacroix (ex-Meta), and Guillaume Lample (ex-Meta/Cerebras). The company emerged from the European AI research community with a mission to build open, sovereign AI that competes with American and Chinese giants while maintaining European values of transparency, privacy, and openness. Funding & Valuation: Mistral has raised approximately $2.5-3B total across five rounds, reaching a $15B+ valuation (Series D, early 2026).",
+  "concepts": [
+    {
+      "id": "concept:mistral",
+      "name": "mistral",
+      "description": "Frequently referenced concept in Mistral AI."
+    },
+    {
+      "id": "concept:open",
+      "name": "open",
+      "description": "Frequently referenced concept in Mistral AI."
+    },
+    {
+      "id": "concept:with",
+      "name": "with",
+      "description": "Frequently referenced concept in Mistral AI."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in Mistral AI."
+    },
+    {
+      "id": "concept:models",
+      "name": "models",
+      "description": "Frequently referenced concept in Mistral AI."
+    },
+    {
+      "id": "concept:coding",
+      "name": "coding",
+      "description": "Frequently referenced concept in Mistral AI."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:mistral",
+      "name": "Mistral",
+      "description": "Named entity mentioned in Mistral AI."
+    },
+    {
+      "id": "entity:overview-mistral",
+      "name": "Overview Mistral",
+      "description": "Named entity mentioned in Mistral AI."
+    },
+    {
+      "id": "entity:french",
+      "name": "French",
+      "description": "Named entity mentioned in Mistral AI."
+    },
+    {
+      "id": "entity:meta",
+      "name": "Meta",
+      "description": "Named entity mentioned in Mistral AI."
+    },
+    {
+      "id": "entity:deepmind",
+      "name": "DeepMind",
+      "description": "Named entity mentioned in Mistral AI."
+    },
+    {
+      "id": "entity:arthur-mensch",
+      "name": "Arthur Mensch",
+      "description": "Named entity mentioned in Mistral AI."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:mistral-ai-06e88b74:1",
+      "text": "title: Mistral AI tags: provider, lab, model, open-weight, reasoning, coding, multimodal, agentic, pricing, api, licensing, token-cost, timeline # Mistral AI ## Overview Mistral AI is a French artificial intelligence company founded in April 2023 by former Meta and DeepMind researchers — Arthur Mensch (CEO, ex-DeepMind/Cerebras), Timothée Lacroix (ex-Meta), and Guillaume Lample (ex-Meta/Cerebras).",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "mistral-ai-06e88b74"
+    },
+    {
+      "id": "claim:mistral-ai-06e88b74:2",
+      "text": "The company emerged from the European AI research community with a mission to build open, sovereign AI that competes with American and Chinese giants while maintaining European values of transparency, privacy, and openness.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "mistral-ai-06e88b74"
+    },
+    {
+      "id": "claim:mistral-ai-06e88b74:3",
+      "text": "Funding & Valuation: Mistral has raised approximately $2.5-3B total across five rounds, reaching a $15B+ valuation (Series D, early 2026).",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "mistral-ai-06e88b74"
+    },
+    {
+      "id": "claim:mistral-ai-06e88b74:4",
+      "text": "Major investors include Andreessen Horowitz, General Catalyst, and Lightspeed Venture Partners.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "mistral-ai-06e88b74"
+    }
+  ],
+  "questions": [
+    "How does mistral relate to Mistral AI?",
+    "How does open relate to Mistral AI?",
+    "How does with relate to Mistral AI?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.046Z"
+}

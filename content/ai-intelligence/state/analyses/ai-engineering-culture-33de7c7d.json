@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "ai-engineering-culture-33de7c7d",
+  "sourceHash": "33de7c7d41b50d9022a56f474372055187d827c3253134c970c732fc38bd3058",
+  "semanticHash": "6438982a63e3a621e7eb5977d1eaf96dc91da2fee110af3f887b2d292ccc5878",
+  "extractionHash": "ef288cfa05188bb0472e2828f34b9c9e46454a99bffb81c43107f16c264dec1a",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "AI Engineering Culture",
+  "summary": "title: AI Engineering Culture tags: automation, safety, productivity # AI Engineering Culture ## Definition The organizational and cultural dynamics that emerge when teams adopt AI-assisted development at scale. Central tension: enthusiasts (who see discontinuous capability gains and competitive urgency) vs. skeptics (who warn about reliability degradation, knowledge loss, and system incoherence when shipping code faster than engineers can review it).",
+  "concepts": [
+    {
+      "id": "concept:code",
+      "name": "code",
+      "description": "Frequently referenced concept in AI Engineering Culture."
+    },
+    {
+      "id": "concept:software",
+      "name": "software",
+      "description": "Frequently referenced concept in AI Engineering Culture."
+    },
+    {
+      "id": "concept:teams",
+      "name": "teams",
+      "description": "Frequently referenced concept in AI Engineering Culture."
+    },
+    {
+      "id": "concept:that",
+      "name": "that",
+      "description": "Frequently referenced concept in AI Engineering Culture."
+    },
+    {
+      "id": "concept:with",
+      "name": "with",
+      "description": "Frequently referenced concept in AI Engineering Culture."
+    },
+    {
+      "id": "concept:assisted",
+      "name": "assisted",
+      "description": "Frequently referenced concept in AI Engineering Culture."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:engineering-culture",
+      "name": "Engineering Culture",
+      "description": "Named entity mentioned in AI Engineering Culture."
+    },
+    {
+      "id": "entity:definition",
+      "name": "Definition",
+      "description": "Named entity mentioned in AI Engineering Culture."
+    },
+    {
+      "id": "entity:key-dynamics",
+      "name": "Key Dynamics",
+      "description": "Named entity mentioned in AI Engineering Culture."
+    },
+    {
+      "id": "entity:enthusiast-position-teams",
+      "name": "Enthusiast Position - Teams",
+      "description": "Named entity mentioned in AI Engineering Culture."
+    },
+    {
+      "id": "entity:teams",
+      "name": "Teams",
+      "description": "Named entity mentioned in AI Engineering Culture."
+    },
+    {
+      "id": "entity:this",
+      "name": "This",
+      "description": "Named entity mentioned in AI Engineering Culture."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:ai-engineering-culture-33de7c7d:1",
+      "text": "title: AI Engineering Culture tags: automation, safety, productivity # AI Engineering Culture ## Definition The organizational and cultural dynamics that emerge when teams adopt AI-assisted development at scale.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "ai-engineering-culture-33de7c7d"
+    },
+    {
+      "id": "claim:ai-engineering-culture-33de7c7d:2",
+      "text": "Central tension: enthusiasts (who see discontinuous capability gains and competitive urgency) vs.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "ai-engineering-culture-33de7c7d"
+    },
+    {
+      "id": "claim:ai-engineering-culture-33de7c7d:3",
+      "text": "skeptics (who warn about reliability degradation, knowledge loss, and system incoherence when shipping code faster than engineers can review it).",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "ai-engineering-culture-33de7c7d"
+    },
+    {
+      "id": "claim:ai-engineering-culture-33de7c7d:4",
+      "text": "## Key Dynamics ### The Enthusiast Position - Teams that lean hard into AI-assisted development are seeing real, non-imaginary discontinuous leaps in capabilities - Teams that sit this out while competitors adopt AI could be out of business before the dust settles - This is an existential competitive threat ### The Skeptic Position - When code ships faster than engineers can read it, teams are making withdrawals from a trust account that took years to build - Reliability degrades, institutional knowledge evaporates - Systems become incomprehensible, products burble into incoherence, on-call rotations grind people up - This is ALSO an existential threat ### The Core Problem There is no natural feedback loop connecting enthusiasts with skeptics.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "ai-engineering-culture-33de7c7d"
+    }
+  ],
+  "questions": [
+    "How does code relate to AI Engineering Culture?",
+    "How does software relate to AI Engineering Culture?",
+    "How does teams relate to AI Engineering Culture?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:48.707Z"
+}

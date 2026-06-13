@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "mcp-model-context-protocol-a0a3debf",
+  "sourceHash": "a0a3debf8462baf26d4e43b742fcddf4f7e895f038c8d2304ef89cf90e4a7982",
+  "semanticHash": "53e315de064a4d49eec9f51a21d479700be6c23e871fbcde898fd7a3872e1162",
+  "extractionHash": "55d6cd46e734aed014dd453b161e83d1446485afc8f7e335f65c7f7fa210586e",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "MCP (Model Context Protocol)",
+  "summary": "title: MCP (Model Context Protocol) tags: integration, tool-use, agent # MCP (Model Context Protocol) ## Overview MCP is an open standard for connecting LLMs to external tools, data sources, and services. It defines a universal protocol for tool discovery, invocation, and result formatting — enabling any MCP-compatible model to use any MCP server. ## Architecture - MCP Host : The LLM or application (Claude Desktop, VS Code, agent frameworks) - MCP Client : Protocol handler within the host - MCP Server : Tool provider (file system, database, web search, API wrapper) - Transport : stdio (local), HTTP/SSE (remote), or WebSocket ## Tool Use vs MCP | Feature | Tool Calling (Native) | MCP | |---------|----------------------|-----| | Definition | Provider-specific JSON schema | Universal protocol | | Discovery | Model must be pre-trained on tools | Servers provide tool definitions at runtime | | Portability | Locked to provider's API | Works across providers | | Setup | Requires API key + SDK | Install MCP server + configure host | ## Provider MCP Support (2026) | Provider | MCP Support | Notes | |----------|-------------|-------| | Anthropic | Native MCP in Claude Desktop | Pioneer of the protocol | | OpenAI | MCP-compatible function calling | Function calling maps to MCP semantics | | Google | Gemini MCP integration | Vertex AI MCP connectors | | DeepSeek | Tool calling with MCP-compatible schemas | OpenAI-compatible endpoints support function calling | | Meta | Llama 4 function calling | MCP server integration via llama-stack | | xAI | Grok tool calling | MCP-compatible function schemas | | Mistral | Function calling in Large 3, Codestral | MCP server support via Mistral platform | | Cohere | Tool calling in Command A+ | Enterprise MCP integration | | Alibaba Qwen | Function calling | OpenAI-compatible endpoints | | Zhipu AI | GLM-5 function calling | Chinese tool ecosystem | | MiniMax | Multi-modal tool calling | Image analysis tools | | NVIDIA | Nemotron tool use | Enterprise MCP servers | | Microsoft | Phi function calling | On-device tool integration | | StepFun | Advisor tool use | Enterprise workflow tools | | Perplexity | Native web search tools | Built-in MCP-like tool pipeline | | Moonshot AI | Kimi tool use | Chinese tool ecosystem | ## Common MCP Servers - File system : Read, write, search files - GitHub : Repository operations, PR management - Web search : Google, Bing, DuckDuckGo, Brave - Database : PostgreSQL, MySQL, SQLite - Browser : Playwright, Puppeteer automation - Custom : Any REST API wrapped as MCP server ## Agent Integration - Hermes Agent : Uses MCP for tool discovery and execution - Claude Code : MCP-powered code editing, terminal access - OpenHands : MCP integration for autonomous coding agents - Codex : MCP-compatible tool pipeline ## MCP in Scientific Workflows: AgentBuild (June 2026) AgentBuild (arXiv:2606.12834) demonstrates MCP + [[acp-protocol|A2A]] (Agent-to-Agent) protocol for scientific workflow automation.",
+  "concepts": [
+    {
+      "id": "concept:tool",
+      "name": "tool",
+      "description": "Frequently referenced concept in MCP (Model Context Protocol)."
+    },
+    {
+      "id": "concept:calling",
+      "name": "calling",
+      "description": "Frequently referenced concept in MCP (Model Context Protocol)."
+    },
+    {
+      "id": "concept:agent",
+      "name": "agent",
+      "description": "Frequently referenced concept in MCP (Model Context Protocol)."
+    },
+    {
+      "id": "concept:function",
+      "name": "function",
+      "description": "Frequently referenced concept in MCP (Model Context Protocol)."
+    },
+    {
+      "id": "concept:protocol",
+      "name": "protocol",
+      "description": "Frequently referenced concept in MCP (Model Context Protocol)."
+    },
+    {
+      "id": "concept:tools",
+      "name": "tools",
+      "description": "Frequently referenced concept in MCP (Model Context Protocol)."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:model-context-protocol",
+      "name": "(Model Context Protocol)",
+      "description": "Named entity mentioned in MCP (Model Context Protocol)."
+    },
+    {
+      "id": "entity:overview",
+      "name": "Overview",
+      "description": "Named entity mentioned in MCP (Model Context Protocol)."
+    },
+    {
+      "id": "entity:llm",
+      "name": "LLM",
+      "description": "Named entity mentioned in MCP (Model Context Protocol)."
+    },
+    {
+      "id": "entity:claude-desktop",
+      "name": "(Claude Desktop,",
+      "description": "Named entity mentioned in MCP (Model Context Protocol)."
+    },
+    {
+      "id": "entity:code",
+      "name": "Code,",
+      "description": "Named entity mentioned in MCP (Model Context Protocol)."
+    },
+    {
+      "id": "entity:client-protocol",
+      "name": "Client : Protocol",
+      "description": "Named entity mentioned in MCP (Model Context Protocol)."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:mcp-model-context-protocol-a0a3debf:1",
+      "text": "title: MCP (Model Context Protocol) tags: integration, tool-use, agent # MCP (Model Context Protocol) ## Overview MCP is an open standard for connecting LLMs to external tools, data sources, and services.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "mcp-model-context-protocol-a0a3debf"
+    },
+    {
+      "id": "claim:mcp-model-context-protocol-a0a3debf:2",
+      "text": "It defines a universal protocol for tool discovery, invocation, and result formatting — enabling any MCP-compatible model to use any MCP server.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "mcp-model-context-protocol-a0a3debf"
+    },
+    {
+      "id": "claim:mcp-model-context-protocol-a0a3debf:3",
+      "text": "## Architecture - MCP Host : The LLM or application (Claude Desktop, VS Code, agent frameworks) - MCP Client : Protocol handler within the host - MCP Server : Tool provider (file system, database, web search, API wrapper) - Transport : stdio (local), HTTP/SSE (remote), or WebSocket ## Tool Use vs MCP | Feature | Tool Calling (Native) | MCP | |---------|----------------------|-----| | Definition | Provider-specific JSON schema | Universal protocol | | Discovery | Model must be pre-trained on tools | Servers provide tool definitions at runtime | | Portability | Locked to provider's API | Works across providers | | Setup | Requires API key + SDK | Install MCP server + configure host | ## Provider MCP Support (2026) | Provider | MCP Support | Notes | |----------|-------------|-------| | Anthropic | Native MCP in Claude Desktop | Pioneer of the protocol | | OpenAI | MCP-compatible function calling | Function calling maps to MCP semantics | | Google | Gemini MCP integration | Vertex AI MCP connectors | | DeepSeek | Tool calling with MCP-compatible schemas | OpenAI-compatible endpoints support function calling | | Meta | Llama 4 function calling | MCP server integration via llama-stack | | xAI | Grok tool calling | MCP-compatible function schemas | | Mistral | Function calling in Large 3, Codestral | MCP server support via Mistral platform | | Cohere | Tool calling in Command A+ | Enterprise MCP integration | | Alibaba Qwen | Function calling | OpenAI-compatible endpoints | | Zhipu AI | GLM-5 function calling | Chinese tool ecosystem | | MiniMax | Multi-modal tool calling | Image analysis tools | | NVIDIA | Nemotron tool use | Enterprise MCP servers | | Microsoft | Phi function calling | On-device tool integration | | StepFun | Advisor tool use | Enterprise workflow tools | | Perplexity | Native web search tools | Built-in MCP-like tool pipeline | | Moonshot AI | Kimi tool use | Chinese tool ecosystem | ## Common MCP Servers - File system : Read, write, search files - GitHub : Repository operations, PR management - Web search : Google, Bing, DuckDuckGo, Brave - Database : PostgreSQL, MySQL, SQLite - Browser : Playwright, Puppeteer automation - Custom : Any REST API wrapped as MCP server ## Agent Integration - Hermes Agent : Uses MCP for tool discovery and execution - Claude Code : MCP-powered code editing, terminal access - OpenHands : MCP integration for autonomous coding agents - Codex : MCP-compatible tool pipeline ## MCP in Scientific Workflows: AgentBuild (June 2026) AgentBuild (arXiv:2606.12834) demonstrates MCP + [[acp-protocol|A2A]] (Agent-to-Agent) protocol for scientific workflow automation.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "mcp-model-context-protocol-a0a3debf"
+    },
+    {
+      "id": "claim:mcp-model-context-protocol-a0a3debf:4",
+      "text": "### Approach - Treats agent construction as a workflow stage rather than fine-tuning or prompt-and-go - Scientist authors a contract : version-controlled rubric + difficulty-graded curriculum + curated external knowledge base - Rubric-driven judge gates a meta-optimizer coding agent that edits the agent within a declared boundary - The build compiles the agent, not the scientist's judgment ### Implementation - Rietveld refinement of X-ray diffraction data through GSAS-II behind MCP and A2A - Blank-harness construction run progresses through a lithium lanthanum zirconium oxide (LLZO) signal-to-noise ladder - As base models evolve, re-running AgentBuild is a re-tune, not a rebuild — the scientist's authored contract remains the durable asset ### Key Insight MCP provides the tool interface; A2A enables agent-to-agent coordination.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "mcp-model-context-protocol-a0a3debf"
+    }
+  ],
+  "questions": [
+    "How does tool relate to MCP (Model Context Protocol)?",
+    "How does calling relate to MCP (Model Context Protocol)?",
+    "How does agent relate to MCP (Model Context Protocol)?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:49.838Z"
+}

@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "cohere-7a243c96",
+  "sourceHash": "7a243c966073707e1c6ce21fdc31b9a973cc12aff7f0b5317170948bca3c3e80",
+  "semanticHash": "8f24500e8e12b9016ea19d1955d780d958150e69d27321bc40b84343a6664bba",
+  "extractionHash": "4b0d331d51a817abe2f7d8dd2c81ec653af2ef59298a200e2dfd08b155be93bf",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Cohere",
+  "summary": "title: Cohere tags: provider, lab, model, rag, embeddings, reranking, multilingual, tool-use, pricing, api, closed, enterprise, cloud-platform # Cohere ## Overview Cohere is a Canadian AI company founded in 2019 by Aidan Gomez (CEO, co-author of the \"Attention Is All You Need\" transformer paper), Nick Frosst, and Ivan Zhang — all former Google Brain researchers. Headquartered in Toronto with offices in Palo Alto, London, and Tokyo, Cohere was built from day one as an enterprise-first AI provider, distinct from consumer-facing competitors like [[openai]]. As of mid-2026, Cohere employs ~400-500+ people and is valued at ~$10B+.",
+  "concepts": [
+    {
+      "id": "concept:command",
+      "name": "command",
+      "description": "Frequently referenced concept in Cohere."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in Cohere."
+    },
+    {
+      "id": "concept:with",
+      "name": "with",
+      "description": "Frequently referenced concept in Cohere."
+    },
+    {
+      "id": "concept:languages",
+      "name": "languages",
+      "description": "Frequently referenced concept in Cohere."
+    },
+    {
+      "id": "concept:cohere",
+      "name": "cohere",
+      "description": "Frequently referenced concept in Cohere."
+    },
+    {
+      "id": "concept:models",
+      "name": "models",
+      "description": "Frequently referenced concept in Cohere."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:cohere",
+      "name": "Cohere",
+      "description": "Named entity mentioned in Cohere."
+    },
+    {
+      "id": "entity:overview-cohere",
+      "name": "Overview Cohere",
+      "description": "Named entity mentioned in Cohere."
+    },
+    {
+      "id": "entity:canadian-ai-company",
+      "name": "Canadian AI company",
+      "description": "Named entity mentioned in Cohere."
+    },
+    {
+      "id": "entity:aidan-gomez",
+      "name": "Aidan Gomez",
+      "description": "Named entity mentioned in Cohere."
+    },
+    {
+      "id": "entity:is-all-you-need",
+      "name": "Is All You Need\"",
+      "description": "Named entity mentioned in Cohere."
+    },
+    {
+      "id": "entity:nick-frosst",
+      "name": "Nick Frosst,",
+      "description": "Named entity mentioned in Cohere."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:cohere-7a243c96:1",
+      "text": "title: Cohere tags: provider, lab, model, rag, embeddings, reranking, multilingual, tool-use, pricing, api, closed, enterprise, cloud-platform # Cohere ## Overview Cohere is a Canadian AI company founded in 2019 by Aidan Gomez (CEO, co-author of the \"Attention Is All You Need\" transformer paper), Nick Frosst, and Ivan Zhang — all former Google Brain researchers.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "cohere-7a243c96"
+    },
+    {
+      "id": "claim:cohere-7a243c96:2",
+      "text": "Headquartered in Toronto with offices in Palo Alto, London, and Tokyo, Cohere was built from day one as an enterprise-first AI provider, distinct from consumer-facing competitors like [[openai]].",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "cohere-7a243c96"
+    },
+    {
+      "id": "claim:cohere-7a243c96:3",
+      "text": "As of mid-2026, Cohere employs ~400-500+ people and is valued at ~$10B+.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "cohere-7a243c96"
+    },
+    {
+      "id": "claim:cohere-7a243c96:4",
+      "text": "Strategic investors include [[nvidia]], Oracle, Salesforce, and In-Q-Tel (CIA's venture arm), reflecting its importance to enterprise and government AI infrastructure.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "cohere-7a243c96"
+    }
+  ],
+  "questions": [
+    "How does command relate to Cohere?",
+    "How does model relate to Cohere?",
+    "How does with relate to Cohere?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:49.136Z"
+}

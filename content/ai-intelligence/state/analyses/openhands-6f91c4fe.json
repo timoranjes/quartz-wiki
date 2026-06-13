@@ -1,0 +1,108 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "openhands-6f91c4fe",
+  "sourceHash": "6f91c4feba07d066cdac816535797e0d57d786113be143417d26ffe199bfba58",
+  "semanticHash": "a76cb0e3cddb885df4b9003ecdca006bf891e7293a7e786629e17488f73fa2a5",
+  "extractionHash": "414774736d0fca12ac4492b91f592bd1878a2d28a6ceb21afbca5f363c1261f4",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "OpenHands",
+  "summary": "title: OpenHands tags: coding-agent, open-source, autonomous, enterprise # OpenHands AI agent platform for software development that executes real engineering work — not just code suggestions. Runs autonomous agents that plan, write, and apply changes across codebases, designed for enterprise software development at scale. ## Overview - Developer : OpenHands (open-source community) - Backend Model : Multiple LLM backends supported - Interface : Web platform + CLI - Website : openhands.dev - GitHub : OpenHands/OpenHands - Open Source : Yes - Focus : Enterprise AI-driven development, autonomous agents ## Key Capabilities - Autonomous Planning : Agents plan, write, and apply changes across entire codebases - Real Engineering Work : Goes beyond code suggestion to execute actual development tasks - Enterprise Scale : Designed for team-level adoption in enterprise environments - Open Source Foundation : Community-driven development with transparent codebase ## History - Originally known as OpenHands (forked from SWE-agent research) - Evolved from academic SWE-agent project into a full agent platform - Positioned as an open-source alternative to proprietary coding agents like Codex and Claude Code ## Competitive Positioning | Dimension | OpenHands | Codex | Claude Code | |-----------|-----------|-------|-------------| | Open Source | Yes | Partial (CLI) | Partial (SDK) | | Enterprise Focus | Primary | Secondary | Secondary | | Autonomous Planning | Yes | Yes (Goal Mode) | Yes | | Multi-LLM | Yes | No (OpenAI only) | No (Anthropic only) | ## Related - [[openai-codex]] — OpenAI's coding agent - [[claude-code]] — Anthropic's coding agent - [[github-copilot]] — GitHub's AI assistant - [[aider]] — Open-source pair programming agent - [[swe-bench]] — Evaluation benchmark for code agents",
+  "concepts": [
+    {
+      "id": "concept:agent",
+      "name": "agent",
+      "description": "Frequently referenced concept in OpenHands."
+    },
+    {
+      "id": "concept:openhands",
+      "name": "openhands",
+      "description": "Frequently referenced concept in OpenHands."
+    },
+    {
+      "id": "concept:enterprise",
+      "name": "enterprise",
+      "description": "Frequently referenced concept in OpenHands."
+    },
+    {
+      "id": "concept:open",
+      "name": "open",
+      "description": "Frequently referenced concept in OpenHands."
+    },
+    {
+      "id": "concept:source",
+      "name": "source",
+      "description": "Frequently referenced concept in OpenHands."
+    },
+    {
+      "id": "concept:agents",
+      "name": "agents",
+      "description": "Frequently referenced concept in OpenHands."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:openhands",
+      "name": "OpenHands",
+      "description": "Named entity mentioned in OpenHands."
+    },
+    {
+      "id": "entity:overview-developer-openhands",
+      "name": "Overview - Developer : OpenHands",
+      "description": "Named entity mentioned in OpenHands."
+    },
+    {
+      "id": "entity:backend-model-multiple",
+      "name": "Backend Model : Multiple",
+      "description": "Named entity mentioned in OpenHands."
+    },
+    {
+      "id": "entity:interface-web",
+      "name": "Interface : Web",
+      "description": "Named entity mentioned in OpenHands."
+    },
+    {
+      "id": "entity:website",
+      "name": "Website :",
+      "description": "Named entity mentioned in OpenHands."
+    },
+    {
+      "id": "entity:github-openhands-openhands-open-source",
+      "name": "GitHub : OpenHands/OpenHands - Open Source :",
+      "description": "Named entity mentioned in OpenHands."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:openhands-6f91c4fe:1",
+      "text": "title: OpenHands tags: coding-agent, open-source, autonomous, enterprise # OpenHands AI agent platform for software development that executes real engineering work — not just code suggestions.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "openhands-6f91c4fe"
+    },
+    {
+      "id": "claim:openhands-6f91c4fe:2",
+      "text": "Runs autonomous agents that plan, write, and apply changes across codebases, designed for enterprise software development at scale.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "openhands-6f91c4fe"
+    },
+    {
+      "id": "claim:openhands-6f91c4fe:3",
+      "text": "## Overview - Developer : OpenHands (open-source community) - Backend Model : Multiple LLM backends supported - Interface : Web platform + CLI - Website : openhands.dev - GitHub : OpenHands/OpenHands - Open Source : Yes - Focus : Enterprise AI-driven development, autonomous agents ## Key Capabilities - Autonomous Planning : Agents plan, write, and apply changes across entire codebases - Real Engineering Work : Goes beyond code suggestion to execute actual development tasks - Enterprise Scale : Designed for team-level adoption in enterprise environments - Open Source Foundation : Community-driven development with transparent codebase ## History - Originally known as OpenHands (forked from SWE-agent research) - Evolved from academic SWE-agent project into a full agent platform - Positioned as an open-source alternative to proprietary coding agents like Codex and Claude Code ## Competitive Positioning | Dimension | OpenHands | Codex | Claude Code | |-----------|-----------|-------|-------------| | Open Source | Yes | Partial (CLI) | Partial (SDK) | | Enterprise Focus | Primary | Secondary | Secondary | | Autonomous Planning | Yes | Yes (Goal Mode) | Yes | | Multi-LLM | Yes | No (OpenAI only) | No (Anthropic only) | ## Related - [[openai-codex]] — OpenAI's coding agent - [[claude-code]] — Anthropic's coding agent - [[github-copilot]] — GitHub's AI assistant - [[aider]] — Open-source pair programming agent - [[swe-bench]] — Evaluation benchmark for code agents",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "openhands-6f91c4fe"
+    }
+  ],
+  "questions": [
+    "How does agent relate to OpenHands?",
+    "How does openhands relate to OpenHands?",
+    "How does enterprise relate to OpenHands?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.535Z"
+}

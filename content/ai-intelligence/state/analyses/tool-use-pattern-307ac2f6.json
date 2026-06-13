@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "tool-use-pattern-307ac2f6",
+  "sourceHash": "307ac2f6d6be745726a210987ee6259eaa76ebf0661517b8a5f39f4d37e57446",
+  "semanticHash": "0f516db9a9e780d6c782d39e1e86c60a97f68ffbdaf429204ab0f27198f05e43",
+  "extractionHash": "ed4934fd4a8864b068b92488d05c3f73d59b8114a6048c40f86270674f4fa54c",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Tool Use Pattern",
+  "summary": "title: Tool Use Pattern tags: tool-use, agent-architecture # Tool Use Pattern ## Overview Tool use (function calling) is the primary mechanism by which agents interact with the external world — APIs, filesystems, browsers, databases. ## Tool Lifecycle 1. Discovery — Agent learns available tools from schema 2.",
+  "concepts": [
+    {
+      "id": "concept:tool",
+      "name": "tool",
+      "description": "Frequently referenced concept in Tool Use Pattern."
+    },
+    {
+      "id": "concept:execution",
+      "name": "execution",
+      "description": "Frequently referenced concept in Tool Use Pattern."
+    },
+    {
+      "id": "concept:knowledge",
+      "name": "knowledge",
+      "description": "Frequently referenced concept in Tool Use Pattern."
+    },
+    {
+      "id": "concept:retrieval",
+      "name": "retrieval",
+      "description": "Frequently referenced concept in Tool Use Pattern."
+    },
+    {
+      "id": "concept:teach",
+      "name": "teach",
+      "description": "Frequently referenced concept in Tool Use Pattern."
+    },
+    {
+      "id": "concept:tools",
+      "name": "tools",
+      "description": "Frequently referenced concept in Tool Use Pattern."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:tool-use-pattern",
+      "name": "Tool Use Pattern",
+      "description": "Named entity mentioned in Tool Use Pattern."
+    },
+    {
+      "id": "entity:overview-tool",
+      "name": "Overview Tool",
+      "description": "Named entity mentioned in Tool Use Pattern."
+    },
+    {
+      "id": "entity:agent",
+      "name": "Agent",
+      "description": "Named entity mentioned in Tool Use Pattern."
+    },
+    {
+      "id": "entity:tool",
+      "name": "Tool",
+      "description": "Named entity mentioned in Tool Use Pattern."
+    },
+    {
+      "id": "entity:best-practices-typed",
+      "name": "Best Practices - Typed",
+      "description": "Named entity mentioned in Tool Use Pattern."
+    },
+    {
+      "id": "entity:use",
+      "name": "Use",
+      "description": "Named entity mentioned in Tool Use Pattern."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:tool-use-pattern-307ac2f6:1",
+      "text": "title: Tool Use Pattern tags: tool-use, agent-architecture # Tool Use Pattern ## Overview Tool use (function calling) is the primary mechanism by which agents interact with the external world — APIs, filesystems, browsers, databases.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "tool-use-pattern-307ac2f6"
+    },
+    {
+      "id": "claim:tool-use-pattern-307ac2f6:2",
+      "text": "## Tool Lifecycle 1.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "tool-use-pattern-307ac2f6"
+    },
+    {
+      "id": "claim:tool-use-pattern-307ac2f6:3",
+      "text": "Discovery — Agent learns available tools from schema 2.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "tool-use-pattern-307ac2f6"
+    },
+    {
+      "id": "claim:tool-use-pattern-307ac2f6:4",
+      "text": "Selection — Agent chooses the right tool for the current step 3.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "tool-use-pattern-307ac2f6"
+    }
+  ],
+  "questions": [
+    "How does tool relate to Tool Use Pattern?",
+    "How does execution relate to Tool Use Pattern?",
+    "How does knowledge relate to Tool Use Pattern?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.996Z"
+}

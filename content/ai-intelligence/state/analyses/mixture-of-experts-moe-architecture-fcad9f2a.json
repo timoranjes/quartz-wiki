@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "mixture-of-experts-moe-architecture-fcad9f2a",
+  "sourceHash": "fcad9f2a049387af024b9fd7f7d1772edaff1260a80b2d2d1bf13b0b426189ac",
+  "semanticHash": "29b9b5f740a46087d2b756e0c162472685a75181529a3d195b2285f46242fb73",
+  "extractionHash": "b644a41d91c415b16ae09985354301fb51857431c9b67da3d4ad8adab79f59d0",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Mixture of Experts (MoE) Architecture",
+  "summary": "title: Mixture of Experts (MoE) Architecture tags: architecture, training, inference # Mixture of Experts (MoE) Architecture ## Overview MoE is a neural network architecture where each token is processed by only a subset of the model's parameters (\"experts\") rather than activating the entire network. A gating network routes each token to the most relevant experts, enabling massive total parameter counts with manageable inference costs . This has become the dominant architecture for frontier models since 2024.",
+  "concepts": [
+    {
+      "id": "concept:experts",
+      "name": "experts",
+      "description": "Frequently referenced concept in Mixture of Experts (MoE) Architecture."
+    },
+    {
+      "id": "concept:active",
+      "name": "active",
+      "description": "Frequently referenced concept in Mixture of Experts (MoE) Architecture."
+    },
+    {
+      "id": "concept:token",
+      "name": "token",
+      "description": "Frequently referenced concept in Mixture of Experts (MoE) Architecture."
+    },
+    {
+      "id": "concept:architecture",
+      "name": "architecture",
+      "description": "Frequently referenced concept in Mixture of Experts (MoE) Architecture."
+    },
+    {
+      "id": "concept:deepseek",
+      "name": "deepseek",
+      "description": "Frequently referenced concept in Mixture of Experts (MoE) Architecture."
+    },
+    {
+      "id": "concept:expert",
+      "name": "expert",
+      "description": "Frequently referenced concept in Mixture of Experts (MoE) Architecture."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:mixture",
+      "name": "Mixture",
+      "description": "Named entity mentioned in Mixture of Experts (MoE) Architecture."
+    },
+    {
+      "id": "entity:experts-moe-architecture",
+      "name": "Experts (MoE) Architecture",
+      "description": "Named entity mentioned in Mixture of Experts (MoE) Architecture."
+    },
+    {
+      "id": "entity:overview-moe",
+      "name": "Overview MoE",
+      "description": "Named entity mentioned in Mixture of Experts (MoE) Architecture."
+    },
+    {
+      "id": "entity:how-it-works-model",
+      "name": "How It Works - Model",
+      "description": "Named entity mentioned in Mixture of Experts (MoE) Architecture."
+    },
+    {
+      "id": "entity:only",
+      "name": "Only",
+      "description": "Named entity mentioned in Mixture of Experts (MoE) Architecture."
+    },
+    {
+      "id": "entity:total",
+      "name": "Total",
+      "description": "Named entity mentioned in Mixture of Experts (MoE) Architecture."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:mixture-of-experts-moe-architecture-fcad9f2a:1",
+      "text": "title: Mixture of Experts (MoE) Architecture tags: architecture, training, inference # Mixture of Experts (MoE) Architecture ## Overview MoE is a neural network architecture where each token is processed by only a subset of the model's parameters (\"experts\") rather than activating the entire network.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "mixture-of-experts-moe-architecture-fcad9f2a"
+    },
+    {
+      "id": "claim:mixture-of-experts-moe-architecture-fcad9f2a:2",
+      "text": "A gating network routes each token to the most relevant experts, enabling massive total parameter counts with manageable inference costs .",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "mixture-of-experts-moe-architecture-fcad9f2a"
+    },
+    {
+      "id": "claim:mixture-of-experts-moe-architecture-fcad9f2a:3",
+      "text": "This has become the dominant architecture for frontier models since 2024.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "mixture-of-experts-moe-architecture-fcad9f2a"
+    },
+    {
+      "id": "claim:mixture-of-experts-moe-architecture-fcad9f2a:4",
+      "text": "## How It Works - Model contains many \"expert\" feed-forward networks (FFNs) - A gating/router network selects which experts to activate per token - Only active experts consume compute; inactive ones are skipped - Total parameters can scale independently of active compute budget - Result: frontier capability at a fraction of dense model cost ## Provider Implementations (Mid-2026) | Provider | Model | Total Params | Active per Token | Expert Count | Key Innovation | |----------|-------|-------------|-----------------|-------------|----------------| | DeepSeek | V4 Pro | 1.6T | 49B | — | CSA+HCA hybrid attention | | DeepSeek | V4 Flash | 284B | 13B | — | Ultra-sparse routing | | Meta | Llama 4 Maverick | ~400B | 17B | 128 + 1 shared | iRoPE interleaved encoding | | Meta | Llama 4 Scout | 109B | 17B | 16 | Codistillation from Behemoth | | Mistral | Small 4 | 119B | 6.5B | 128 experts, 4 active | Granular MoE | | Mistral | Large 3 | 675B | 41B | — | Mixtral load balancing | | Alibaba | Qwen3.7 Max | ~1T | Undisclosed | Sparse | High sparsity ratio | | Alibaba | Qwen3.6-35B-A3B | 35B | 3B | — | 3B active sub-model | | Moonshot | Kimi K2 | 1T | 32B | — | Muon optimizer at MoE scale | | StepFun | Step-3.5-Flash | — | — | — | \"Small Sparse\" architecture | | StepFun | Step-3.7-Flash | — | — | — | MoE vision-language | | Zhipu AI | GLM-5 | 744B | — | MoE | Enterprise MoE flagship | | xAI | Grok 4.3 | — | — | — | Sparse activation patterns | | MiniMax | MiniMax-M2 | ~10B activated | ~10B | MoE | Multi-modal MoE | | Cohere | Command A+ | — | — | First MoE | Cohere's first MoE model | | Microsoft | Phi-3.5-MoE | 41B | 16B (6.6B active) | 16 experts | Small-scale MoE research | ## Architecture Variants - Granular MoE (Mistral): Fine-grained expert selection with speculative decoding integration; Small 4 uses 128 experts with only 4 active per token - iRoPE MoE (Meta Llama 4): Interleaved Rotary Position Encoding — every 4th layer uses NoPE with full attention; others use RoPE with 8K chunked attention - Sparse MoE (Alibaba Qwen): High sparsity ratio with many experts and few active per token - Codistillation (Meta): Unreleased teacher model (Behemoth ~2T) distilled into smaller MoE models during pre-training - Muon-optimized MoE (Moonshot/DeepSeek): Muon optimizer for stable training at trillion-parameter MoE scale ## Advantages - Cost efficiency : 1.6T total params at ~49B active cost (DeepSeek V4 Pro); Kimi K2 at 1T/32B active - Scaling : Total parameters can grow without proportional inference cost increase - Specialization : Different experts learn different domains, improving performance across diverse tasks - Memory efficiency : Sparse activation reduces per-token compute by 30-100× vs dense ## Disadvantages - Training complexity : Routing stability and expert load balancing are harder than dense training - Memory footprint : All parameters must be loaded into VRAM even if not all active - KV cache : Still scales with total model size in some implementations - Expert collapse : Poor routing can lead to some experts being under-utilized ## Open Debates - Optimal sparsity : How many experts should be active per token?",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "mixture-of-experts-moe-architecture-fcad9f2a"
+    }
+  ],
+  "questions": [
+    "How does experts relate to Mixture of Experts (MoE) Architecture?",
+    "How does active relate to Mixture of Experts (MoE) Architecture?",
+    "How does token relate to Mixture of Experts (MoE) Architecture?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.090Z"
+}

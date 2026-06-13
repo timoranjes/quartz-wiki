@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "anthropic-e5b2ae21",
+  "sourceHash": "e5b2ae21d8c4e89a2ec8897b6f319abbbdd06e92bfb371963a84d30bc7b9b52c",
+  "semanticHash": "275ac63df301810b4e487bec2228c7c47b1809f7e7c877a6106499927838cb70",
+  "extractionHash": "3968e625432406bf6d58ef5ca407c739cdeab78b8dc8a9e9a1af9fb31413e6d4",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Anthropic",
+  "summary": "title: Anthropic tags: provider, lab, model, reasoning, coding, agentic, tool-use, pricing, api, closed, token-cost, timeline, safety, constitutional-ai S-1 Filing 🇺🇸 San Francisco, CA Flagship Models Opus 4.5 / Sonnet 4.5 Revenue $7.3B (2025) Status S-1 Filed # Anthropic ## Overview Anthropic is an AI safety and research company founded in 2021 by Dario Amodei, Daniela Amodei, and several former [[openai]] researchers. Headquartered in San Francisco, the company was established with a focus on developing safe, reliable, and beneficial AI systems. It is known for its research-first approach to AI development and its emphasis on constitutional AI and model alignment.",
+  "concepts": [
+    {
+      "id": "concept:claude",
+      "name": "claude",
+      "description": "Frequently referenced concept in Anthropic."
+    },
+    {
+      "id": "concept:opus",
+      "name": "opus",
+      "description": "Frequently referenced concept in Anthropic."
+    },
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in Anthropic."
+    },
+    {
+      "id": "concept:anthropic",
+      "name": "anthropic",
+      "description": "Frequently referenced concept in Anthropic."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in Anthropic."
+    },
+    {
+      "id": "concept:with",
+      "name": "with",
+      "description": "Frequently referenced concept in Anthropic."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:anthropic",
+      "name": "Anthropic",
+      "description": "Named entity mentioned in Anthropic."
+    },
+    {
+      "id": "entity:filing",
+      "name": "Filing",
+      "description": "Named entity mentioned in Anthropic."
+    },
+    {
+      "id": "entity:san-francisco",
+      "name": "San Francisco,",
+      "description": "Named entity mentioned in Anthropic."
+    },
+    {
+      "id": "entity:flagship-models-opus",
+      "name": "Flagship Models Opus",
+      "description": "Named entity mentioned in Anthropic."
+    },
+    {
+      "id": "entity:sonnet",
+      "name": "Sonnet",
+      "description": "Named entity mentioned in Anthropic."
+    },
+    {
+      "id": "entity:revenue",
+      "name": "Revenue",
+      "description": "Named entity mentioned in Anthropic."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:anthropic-e5b2ae21:1",
+      "text": "title: Anthropic tags: provider, lab, model, reasoning, coding, agentic, tool-use, pricing, api, closed, token-cost, timeline, safety, constitutional-ai S-1 Filing 🇺🇸 San Francisco, CA Flagship Models Opus 4.5 / Sonnet 4.5 Revenue $7.3B (2025) Status S-1 Filed # Anthropic ## Overview Anthropic is an AI safety and research company founded in 2021 by Dario Amodei, Daniela Amodei, and several former [[openai]] researchers.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "anthropic-e5b2ae21"
+    },
+    {
+      "id": "claim:anthropic-e5b2ae21:2",
+      "text": "Headquartered in San Francisco, the company was established with a focus on developing safe, reliable, and beneficial AI systems.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "anthropic-e5b2ae21"
+    },
+    {
+      "id": "claim:anthropic-e5b2ae21:3",
+      "text": "It is known for its research-first approach to AI development and its emphasis on constitutional AI and model alignment.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "anthropic-e5b2ae21"
+    },
+    {
+      "id": "claim:anthropic-e5b2ae21:4",
+      "text": "As of mid-2026, Anthropic employs ~3,000+ people, generates a $4.7B revenue run rate, and is valued at approximately $96.5B+.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "anthropic-e5b2ae21"
+    }
+  ],
+  "questions": [
+    "How does claude relate to Anthropic?",
+    "How does opus relate to Anthropic?",
+    "How does 2026 relate to Anthropic?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:49.046Z"
+}

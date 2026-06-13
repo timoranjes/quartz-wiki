@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "opencode-de4e68b1",
+  "sourceHash": "de4e68b1c893e6c5f724994c3f071bcd7242a5c779de634b0b54d10ebb00adab",
+  "semanticHash": "293138e0ee651ce2c01423d728c27ebd5788d2d16c86f3b005d10e98c1761f8c",
+  "extractionHash": "bffba6f279784cf03054dd0029052f2d90877959d31751d3c4b49273c9bcf297",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "OpenCode",
+  "summary": "title: OpenCode tags: coding-agent, open-source, llm-provider # OpenCode Open-source AI coding agent with a focus on simplicity and multi-model support. ## Overview - Developer : Open source community - Backend Models : Multiple (Anthropic, OpenAI, Google, OpenRouter, local) - Interface : CLI ( opencode ) - Pricing : Free (open source) + your own API costs - Open Source : Fully open source ## Key Capabilities - Multi-model provider support - Code editing and terminal execution - Project context awareness - Configuration-driven behavior - Lightweight and fast ## Workflow 1. Configure providers and models in config 2.",
+  "concepts": [
+    {
+      "id": "concept:open",
+      "name": "open",
+      "description": "Frequently referenced concept in OpenCode."
+    },
+    {
+      "id": "concept:source",
+      "name": "source",
+      "description": "Frequently referenced concept in OpenCode."
+    },
+    {
+      "id": "concept:provider",
+      "name": "provider",
+      "description": "Frequently referenced concept in OpenCode."
+    },
+    {
+      "id": "concept:agent",
+      "name": "agent",
+      "description": "Frequently referenced concept in OpenCode."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in OpenCode."
+    },
+    {
+      "id": "concept:models",
+      "name": "models",
+      "description": "Frequently referenced concept in OpenCode."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:opencode",
+      "name": "OpenCode",
+      "description": "Named entity mentioned in OpenCode."
+    },
+    {
+      "id": "entity:opencode-open",
+      "name": "OpenCode Open-",
+      "description": "Named entity mentioned in OpenCode."
+    },
+    {
+      "id": "entity:overview-developer-open",
+      "name": "Overview - Developer : Open",
+      "description": "Named entity mentioned in OpenCode."
+    },
+    {
+      "id": "entity:backend-models-multiple-anthropic-openai-google-openrouter",
+      "name": "Backend Models : Multiple (Anthropic, OpenAI, Google, OpenRouter,",
+      "description": "Named entity mentioned in OpenCode."
+    },
+    {
+      "id": "entity:interface",
+      "name": "Interface :",
+      "description": "Named entity mentioned in OpenCode."
+    },
+    {
+      "id": "entity:pricing-free",
+      "name": "Pricing : Free",
+      "description": "Named entity mentioned in OpenCode."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:opencode-de4e68b1:1",
+      "text": "title: OpenCode tags: coding-agent, open-source, llm-provider # OpenCode Open-source AI coding agent with a focus on simplicity and multi-model support.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "opencode-de4e68b1"
+    },
+    {
+      "id": "claim:opencode-de4e68b1:2",
+      "text": "## Overview - Developer : Open source community - Backend Models : Multiple (Anthropic, OpenAI, Google, OpenRouter, local) - Interface : CLI ( opencode ) - Pricing : Free (open source) + your own API costs - Open Source : Fully open source ## Key Capabilities - Multi-model provider support - Code editing and terminal execution - Project context awareness - Configuration-driven behavior - Lightweight and fast ## Workflow 1.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "opencode-de4e68b1"
+    },
+    {
+      "id": "claim:opencode-de4e68b1:3",
+      "text": "Configure providers and models in config 2.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "opencode-de4e68b1"
+    },
+    {
+      "id": "claim:opencode-de4e68b1:4",
+      "text": "Run opencode with task description 3.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "opencode-de4e68b1"
+    }
+  ],
+  "questions": [
+    "How does open relate to OpenCode?",
+    "How does source relate to OpenCode?",
+    "How does provider relate to OpenCode?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.498Z"
+}

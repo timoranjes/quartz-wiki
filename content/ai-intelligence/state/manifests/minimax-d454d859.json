@@ -1,0 +1,18 @@
+{
+  "sourceId": "minimax-d454d859",
+  "title": "MiniMax",
+  "originType": "file",
+  "sourceKind": "markdown",
+  "sourceClass": "first_party",
+  "originalPath": "/Users/zichengliao/Library/Mobile Documents/iCloud~md~obsidian/Documents/wiki-ai-intelligence/raw/sources/obsidian-ai-agents/entities/minimax.md",
+  "repoRelativePath": "entities/minimax.md",
+  "storedPath": "raw/sources/minimax-d454d859.md",
+  "extractedTextPath": "state/extracts/minimax-d454d859.md",
+  "extractedMetadataPath": "state/extracts/minimax-d454d859.json",
+  "extractionHash": "6f763abd4c87289bf66339ba3e59994ecab0c0a95d53b5d59a539b0755a549ba",
+  "mimeType": "text/markdown",
+  "contentHash": "d454d85915b5c9f410269928ab29b54ad4d74a26c8e6c2f077f74a051cc2115f",
+  "semanticHash": "421caa4c8badbe3f7d0fc1792e66bcf28c1789d9d8af8d5ef2ebabba039297f2",
+  "createdAt": "2026-06-13T21:03:41.490Z",
+  "updatedAt": "2026-06-13T21:03:41.490Z"
+}

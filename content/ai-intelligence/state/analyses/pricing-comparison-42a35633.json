@@ -1,0 +1,108 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "pricing-comparison-42a35633",
+  "sourceHash": "42a356331f08c43d0cd45688e4e5dc6fc922ce95ee00a1ad4707f48c16a48563",
+  "semanticHash": "c5a56e4cda6da8bb32a522535f9fda8ce07c0bf856f199389000d99c6cf82d60",
+  "extractionHash": "9a864abda7fa0070f287ec5220aec6c2ffe68a7f08a05927a3c1dbcb34bc15a3",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Pricing Comparison",
+  "summary": "title: Pricing Comparison tags: pricing, cost-comparison # Pricing Comparison ## API Pricing (Mid-2026) All prices in USD per million tokens. Cache hit prices shown where available. ### Flagship Models | Provider | Model | Input (Cache Hit) | Input (Cache Miss) | Output | Context | |----------|-------|------------------|-------------------|--------|---------| | DeepSeek | V4 Pro | $0.004 | $0.44 | $0.87 | 1M | | DeepSeek | V4 Flash | $0.003 | $0.14 | $0.28 | 1M | | OpenAI | GPT-5.5 | — | $5.00 | $30.00 | 1M | | OpenAI | GPT-5.4 | — | $2.50 | $15.00 | 1M | | Anthropic | Claude Opus 4.6 | — | $5.00 | $25.00 | 1M | | Anthropic | Claude Opus 4.1 | — | $15.00 | $75.00 | 1M | | Google | Gemini 3.5 Pro | — | $2.50 | $10.00 | 10M+ | | Google | Gemini 3.1 Pro | — | $2.00 | $12.00 | 1M | | Alibaba | Qwen3.7 Max | — | $0.50 | $2.00 | 256K | | xAI | Grok 4.3 | — | $3.00 | $15.00 | 256K | | Mistral | Large 3 | — | $0.70 | $0.70 | 128K | | Cohere | Command A+ | — | $2.00 | $6.00 | 128K | | Moonshot | Kimi K2 | — | $1.00 | $4.00 | 256K | | MiniMax | M2.5 | — | $0.35 | $1.40 | 204K | | StepFun | Step-3.7-Flash | — | $0.50 | $2.00 | 128K | | Zhipu AI | GLM-5 | — | $0.80 | $3.20 | 128K | ### Cost Leader Analysis DeepSeek dominates on price: - V4 Flash output at $0.28/M vs GPT-5.4 at $15.00/M — 54× cheaper - V4 Pro at $0.87/M output vs Claude Opus 4.6 at $25.00/M — 29× cheaper - With cache hit pricing at $0.003/M input, DeepSeek is 800× cheaper than GPT-5.4 for repeated prefixes Budget-friendly tier: - DeepSeek V4 Flash: $0.14 input / $0.28 output - MiniMax M2.5: $0.35 input / $1.40 output - Mistral Large 3: $0.70 input / $0.70 output Premium tier: - Claude Opus 4.1: $15.00 input / $75.00 output (highest) - GPT-5.5: $5.00 input / $30.00 output - Claude Opus 4.6: $5.00 input / $25.00 output ## Hosting Platform Pricing | Platform | Base Markup | GPU Type | Notes | |----------|------------|----------|-------| | Together AI | +20-40% over API | H100/B200 | Batch processing discounts | | NVIDIA NIM | Enterprise pricing | DGX Cloud | Full stack optimization | | Perplexity API | — | — | Search-focused, included in Pro plan | ## Cost per Session Example 50K input + 10K output × 20 requests/day: | Model | Daily | Monthly | |-------|-------|---------| | DeepSeek V4 Flash | $0.20 | $6 | | DeepSeek V4 Pro | $2.43 | $73 | | MiniMax M2.5 | $5.60 | $168 | | Mistral Large 3 | $8.40 | $252 | | GPT-5.4 | $17.50 | $525 | | Claude Opus 4.6 | $30.00 | $900 | | Claude Opus 4.1 | $90.00 | $2,700 | ## Related - [[context-windows]] — Longer context increases per-request cost - [[prompt-caching]] — Caching reduces input costs by 80-95% - [[quantization]] — Quantized models cheaper to serve",
+  "concepts": [
+    {
+      "id": "concept:input",
+      "name": "input",
+      "description": "Frequently referenced concept in Pricing Comparison."
+    },
+    {
+      "id": "concept:output",
+      "name": "output",
+      "description": "Frequently referenced concept in Pricing Comparison."
+    },
+    {
+      "id": "concept:claude",
+      "name": "claude",
+      "description": "Frequently referenced concept in Pricing Comparison."
+    },
+    {
+      "id": "concept:deepseek",
+      "name": "deepseek",
+      "description": "Frequently referenced concept in Pricing Comparison."
+    },
+    {
+      "id": "concept:opus",
+      "name": "opus",
+      "description": "Frequently referenced concept in Pricing Comparison."
+    },
+    {
+      "id": "concept:pricing",
+      "name": "pricing",
+      "description": "Frequently referenced concept in Pricing Comparison."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:pricing-comparison",
+      "name": "Pricing Comparison",
+      "description": "Named entity mentioned in Pricing Comparison."
+    },
+    {
+      "id": "entity:pricing",
+      "name": "Pricing",
+      "description": "Named entity mentioned in Pricing Comparison."
+    },
+    {
+      "id": "entity:all",
+      "name": "All",
+      "description": "Named entity mentioned in Pricing Comparison."
+    },
+    {
+      "id": "entity:flagship-models",
+      "name": "Flagship Models",
+      "description": "Named entity mentioned in Pricing Comparison."
+    },
+    {
+      "id": "entity:provider",
+      "name": "Provider",
+      "description": "Named entity mentioned in Pricing Comparison."
+    },
+    {
+      "id": "entity:model",
+      "name": "Model",
+      "description": "Named entity mentioned in Pricing Comparison."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:pricing-comparison-42a35633:1",
+      "text": "title: Pricing Comparison tags: pricing, cost-comparison # Pricing Comparison ## API Pricing (Mid-2026) All prices in USD per million tokens.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "pricing-comparison-42a35633"
+    },
+    {
+      "id": "claim:pricing-comparison-42a35633:2",
+      "text": "Cache hit prices shown where available.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "pricing-comparison-42a35633"
+    },
+    {
+      "id": "claim:pricing-comparison-42a35633:3",
+      "text": "### Flagship Models | Provider | Model | Input (Cache Hit) | Input (Cache Miss) | Output | Context | |----------|-------|------------------|-------------------|--------|---------| | DeepSeek | V4 Pro | $0.004 | $0.44 | $0.87 | 1M | | DeepSeek | V4 Flash | $0.003 | $0.14 | $0.28 | 1M | | OpenAI | GPT-5.5 | — | $5.00 | $30.00 | 1M | | OpenAI | GPT-5.4 | — | $2.50 | $15.00 | 1M | | Anthropic | Claude Opus 4.6 | — | $5.00 | $25.00 | 1M | | Anthropic | Claude Opus 4.1 | — | $15.00 | $75.00 | 1M | | Google | Gemini 3.5 Pro | — | $2.50 | $10.00 | 10M+ | | Google | Gemini 3.1 Pro | — | $2.00 | $12.00 | 1M | | Alibaba | Qwen3.7 Max | — | $0.50 | $2.00 | 256K | | xAI | Grok 4.3 | — | $3.00 | $15.00 | 256K | | Mistral | Large 3 | — | $0.70 | $0.70 | 128K | | Cohere | Command A+ | — | $2.00 | $6.00 | 128K | | Moonshot | Kimi K2 | — | $1.00 | $4.00 | 256K | | MiniMax | M2.5 | — | $0.35 | $1.40 | 204K | | StepFun | Step-3.7-Flash | — | $0.50 | $2.00 | 128K | | Zhipu AI | GLM-5 | — | $0.80 | $3.20 | 128K | ### Cost Leader Analysis DeepSeek dominates on price: - V4 Flash output at $0.28/M vs GPT-5.4 at $15.00/M — 54× cheaper - V4 Pro at $0.87/M output vs Claude Opus 4.6 at $25.00/M — 29× cheaper - With cache hit pricing at $0.003/M input, DeepSeek is 800× cheaper than GPT-5.4 for repeated prefixes Budget-friendly tier: - DeepSeek V4 Flash: $0.14 input / $0.28 output - MiniMax M2.5: $0.35 input / $1.40 output - Mistral Large 3: $0.70 input / $0.70 output Premium tier: - Claude Opus 4.1: $15.00 input / $75.00 output (highest) - GPT-5.5: $5.00 input / $30.00 output - Claude Opus 4.6: $5.00 input / $25.00 output ## Hosting Platform Pricing | Platform | Base Markup | GPU Type | Notes | |----------|------------|----------|-------| | Together AI | +20-40% over API | H100/B200 | Batch processing discounts | | NVIDIA NIM | Enterprise pricing | DGX Cloud | Full stack optimization | | Perplexity API | — | — | Search-focused, included in Pro plan | ## Cost per Session Example 50K input + 10K output × 20 requests/day: | Model | Daily | Monthly | |-------|-------|---------| | DeepSeek V4 Flash | $0.20 | $6 | | DeepSeek V4 Pro | $2.43 | $73 | | MiniMax M2.5 | $5.60 | $168 | | Mistral Large 3 | $8.40 | $252 | | GPT-5.4 | $17.50 | $525 | | Claude Opus 4.6 | $30.00 | $900 | | Claude Opus 4.1 | $90.00 | $2,700 | ## Related - [[context-windows]] — Longer context increases per-request cost - [[prompt-caching]] — Caching reduces input costs by 80-95% - [[quantization]] — Quantized models cheaper to serve",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "pricing-comparison-42a35633"
+    }
+  ],
+  "questions": [
+    "How does input relate to Pricing Comparison?",
+    "How does output relate to Pricing Comparison?",
+    "How does claude relate to Pricing Comparison?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.557Z"
+}

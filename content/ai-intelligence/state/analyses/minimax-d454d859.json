@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "minimax-d454d859",
+  "sourceHash": "d454d85915b5c9f410269928ab29b54ad4d74a26c8e6c2f077f74a051cc2115f",
+  "semanticHash": "421caa4c8badbe3f7d0fc1792e66bcf28c1789d9d8af8d5ef2ebabba039297f2",
+  "extractionHash": "6f763abd4c87289bf66339ba3e59994ecab0c0a95d53b5d59a539b0755a549ba",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "MiniMax",
+  "summary": "title: MiniMax tags: provider, lab, model, reasoning, coding, agentic, tool-use, pricing, api, open-weight, token-cost, timeline, china, multimodal # MiniMax ## Overview MiniMax Group (Chinese: 稀宇科技, Xīyǔ Kējì ) is a Shanghai-based AI company founded in December 2021 by former [[zhipu-ai]] peer SenseTime researchers Yan Junjie (CEO), Yang Bin, and Zhou Yucong. Classified among China's \"AI Tigers\" alongside [[cohere]] peer [[deepseek]] and [[moonshot-ai]] (Kimi), MiniMax has built a multimodal AI platform spanning text, audio, image, video, and music generation. The company completed a landmark Hong Kong Stock Exchange IPO in January 2026, raising ~HK$4.8B (~$619M), with shares surging over 400% post-listing.",
+  "concepts": [
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in MiniMax."
+    },
+    {
+      "id": "concept:minimax",
+      "name": "minimax",
+      "description": "Frequently referenced concept in MiniMax."
+    },
+    {
+      "id": "concept:with",
+      "name": "with",
+      "description": "Frequently referenced concept in MiniMax."
+    },
+    {
+      "id": "concept:open",
+      "name": "open",
+      "description": "Frequently referenced concept in MiniMax."
+    },
+    {
+      "id": "concept:tokens",
+      "name": "tokens",
+      "description": "Frequently referenced concept in MiniMax."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in MiniMax."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:minimax",
+      "name": "MiniMax",
+      "description": "Named entity mentioned in MiniMax."
+    },
+    {
+      "id": "entity:china",
+      "name": "china,",
+      "description": "Named entity mentioned in MiniMax."
+    },
+    {
+      "id": "entity:overview-minimax-group-chinese",
+      "name": "Overview MiniMax Group (Chinese:",
+      "description": "Named entity mentioned in MiniMax."
+    },
+    {
+      "id": "entity:x-y-k-j",
+      "name": "Xīyǔ Kējì )",
+      "description": "Named entity mentioned in MiniMax."
+    },
+    {
+      "id": "entity:ai-company",
+      "name": "AI company",
+      "description": "Named entity mentioned in MiniMax."
+    },
+    {
+      "id": "entity:sensetime",
+      "name": "SenseTime",
+      "description": "Named entity mentioned in MiniMax."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:minimax-d454d859:1",
+      "text": "title: MiniMax tags: provider, lab, model, reasoning, coding, agentic, tool-use, pricing, api, open-weight, token-cost, timeline, china, multimodal # MiniMax ## Overview MiniMax Group (Chinese: 稀宇科技, Xīyǔ Kējì ) is a Shanghai-based AI company founded in December 2021 by former [[zhipu-ai]] peer SenseTime researchers Yan Junjie (CEO), Yang Bin, and Zhou Yucong.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "minimax-d454d859"
+    },
+    {
+      "id": "claim:minimax-d454d859:2",
+      "text": "Classified among China's \"AI Tigers\" alongside [[cohere]] peer [[deepseek]] and [[moonshot-ai]] (Kimi), MiniMax has built a multimodal AI platform spanning text, audio, image, video, and music generation.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "minimax-d454d859"
+    },
+    {
+      "id": "claim:minimax-d454d859:3",
+      "text": "The company completed a landmark Hong Kong Stock Exchange IPO in January 2026, raising ~HK$4.8B (~$619M), with shares surging over 400% post-listing.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "minimax-d454d859"
+    },
+    {
+      "id": "claim:minimax-d454d859:4",
+      "text": "Yan Junjie's net worth is estimated at $3.2B.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "minimax-d454d859"
+    }
+  ],
+  "questions": [
+    "How does 2026 relate to MiniMax?",
+    "How does minimax relate to MiniMax?",
+    "How does with relate to MiniMax?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:50.427Z"
+}

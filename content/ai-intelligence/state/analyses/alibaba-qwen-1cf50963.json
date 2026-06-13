@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "alibaba-qwen-1cf50963",
+  "sourceHash": "1cf509632786cac3051b845ad75c77e2cf61239acfffc9fee07f95d451c9f2c1",
+  "semanticHash": "78cf8619f8b793ae0a30a7aeb583ae9e94ab66f9c68b0f55624836c451d2a613",
+  "extractionHash": "0c693b0f3e0625a40cef62c2d6b884f8799dc9f634506201e11666d80e4a13f6",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Alibaba Qwen",
+  "summary": "title: Alibaba Qwen tags: provider, lab, cloud-platform, model, reasoning, coding, vision, audio, multimodal, open-weight, pricing, api, token-cost, timeline Free Tier 🇨🇳 Hangzhou Latest Model Qwen3.7-Max Free Tokens 70M via Model Studio Strength Best Chinese LLM # Alibaba Qwen ## Overview Qwen (通义千问, Tongyi Qianwen) is a family of large language models developed by [[alibaba-group]]'s Tongyi Lab. First released in 2023, Qwen has grown into China's leading LLM provider, powering internal Alibaba applications and external customer deployments through Alibaba Cloud's Model Studio (百炼, Bailian) platform. Many Qwen models are released as open weights under the Apache 2.0 license.",
+  "concepts": [
+    {
+      "id": "concept:qwen",
+      "name": "qwen",
+      "description": "Frequently referenced concept in Alibaba Qwen."
+    },
+    {
+      "id": "concept:model",
+      "name": "model",
+      "description": "Frequently referenced concept in Alibaba Qwen."
+    },
+    {
+      "id": "concept:alibaba",
+      "name": "alibaba",
+      "description": "Frequently referenced concept in Alibaba Qwen."
+    },
+    {
+      "id": "concept:studio",
+      "name": "studio",
+      "description": "Frequently referenced concept in Alibaba Qwen."
+    },
+    {
+      "id": "concept:models",
+      "name": "models",
+      "description": "Frequently referenced concept in Alibaba Qwen."
+    },
+    {
+      "id": "concept:qwen3",
+      "name": "qwen3",
+      "description": "Frequently referenced concept in Alibaba Qwen."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:alibaba-qwen",
+      "name": "Alibaba Qwen",
+      "description": "Named entity mentioned in Alibaba Qwen."
+    },
+    {
+      "id": "entity:free-tier",
+      "name": "Free Tier",
+      "description": "Named entity mentioned in Alibaba Qwen."
+    },
+    {
+      "id": "entity:hangzhou-latest-model",
+      "name": "Hangzhou Latest Model",
+      "description": "Named entity mentioned in Alibaba Qwen."
+    },
+    {
+      "id": "entity:free-tokens",
+      "name": "Free Tokens",
+      "description": "Named entity mentioned in Alibaba Qwen."
+    },
+    {
+      "id": "entity:model-studio-strength-best-chinese",
+      "name": "Model Studio Strength Best Chinese",
+      "description": "Named entity mentioned in Alibaba Qwen."
+    },
+    {
+      "id": "entity:overview-qwen",
+      "name": "Overview Qwen",
+      "description": "Named entity mentioned in Alibaba Qwen."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:alibaba-qwen-1cf50963:1",
+      "text": "title: Alibaba Qwen tags: provider, lab, cloud-platform, model, reasoning, coding, vision, audio, multimodal, open-weight, pricing, api, token-cost, timeline Free Tier 🇨🇳 Hangzhou Latest Model Qwen3.7-Max Free Tokens 70M via Model Studio Strength Best Chinese LLM # Alibaba Qwen ## Overview Qwen (通义千问, Tongyi Qianwen) is a family of large language models developed by [[alibaba-group]]'s Tongyi Lab.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "alibaba-qwen-1cf50963"
+    },
+    {
+      "id": "claim:alibaba-qwen-1cf50963:2",
+      "text": "First released in 2023, Qwen has grown into China's leading LLM provider, powering internal Alibaba applications and external customer deployments through Alibaba Cloud's Model Studio (百炼, Bailian) platform.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "alibaba-qwen-1cf50963"
+    },
+    {
+      "id": "claim:alibaba-qwen-1cf50963:3",
+      "text": "Many Qwen models are released as open weights under the Apache 2.0 license.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "alibaba-qwen-1cf50963"
+    },
+    {
+      "id": "claim:alibaba-qwen-1cf50963:4",
+      "text": "Alibaba has also unveiled custom AI chips to support the Qwen model family, positioning itself as China's AI factory.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "alibaba-qwen-1cf50963"
+    }
+  ],
+  "questions": [
+    "How does qwen relate to Alibaba Qwen?",
+    "How does model relate to Alibaba Qwen?",
+    "How does alibaba relate to Alibaba Qwen?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-13T21:03:48.862Z"
+}
