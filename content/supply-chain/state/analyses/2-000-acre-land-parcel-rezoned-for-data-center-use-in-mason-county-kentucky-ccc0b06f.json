@@ -1,0 +1,87 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f",
+  "sourceHash": "ccc0b06f306bf0fdd41e24c2163e8af3545b7405e87ea743d0fcd803bc730707",
+  "semanticHash": "2ede89bd5d4902b09f3f50752dbac588311fa4bfb981bb8734988943d4410be1",
+  "extractionHash": "d9b9a7e18584f2ac8ef618441b4bc4b4c765b792af2de689d4dd02183e2159cc",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "2,000-acre land parcel rezoned for data center use in Mason County, Kentucky",
+  "summary": "2,000-acre land parcel rezoned for data center use in Mason County, Kentucky But opposition continues to mount Original: https://www.datacenterdynamics.com/en/news/2000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky/",
+  "concepts": [
+    {
+      "id": "concept:000-acre",
+      "name": "000-acre",
+      "description": "Frequently referenced concept in 2,000-acre land parcel rezoned for data center use in Mason County, Kentucky."
+    },
+    {
+      "id": "concept:2000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky",
+      "name": "2000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky",
+      "description": "Frequently referenced concept in 2,000-acre land parcel rezoned for data center use in Mason County, Kentucky."
+    },
+    {
+      "id": "concept:center",
+      "name": "center",
+      "description": "Frequently referenced concept in 2,000-acre land parcel rezoned for data center use in Mason County, Kentucky."
+    },
+    {
+      "id": "concept:continues",
+      "name": "continues",
+      "description": "Frequently referenced concept in 2,000-acre land parcel rezoned for data center use in Mason County, Kentucky."
+    },
+    {
+      "id": "concept:county",
+      "name": "county",
+      "description": "Frequently referenced concept in 2,000-acre land parcel rezoned for data center use in Mason County, Kentucky."
+    },
+    {
+      "id": "concept:data",
+      "name": "data",
+      "description": "Frequently referenced concept in 2,000-acre land parcel rezoned for data center use in Mason County, Kentucky."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:mason-county-kentucky-but",
+      "name": "Mason County, Kentucky But",
+      "description": "Named entity mentioned in 2,000-acre land parcel rezoned for data center use in Mason County, Kentucky."
+    },
+    {
+      "id": "entity:original",
+      "name": "Original:",
+      "description": "Named entity mentioned in 2,000-acre land parcel rezoned for data center use in Mason County, Kentucky."
+    },
+    {
+      "id": "entity:mason-county-kentucky",
+      "name": "Mason County, Kentucky",
+      "description": "Named entity mentioned in 2,000-acre land parcel rezoned for data center use in Mason County, Kentucky."
+    },
+    {
+      "id": "entity:kentucky",
+      "name": "Kentucky",
+      "description": "Named entity mentioned in 2,000-acre land parcel rezoned for data center use in Mason County, Kentucky."
+    },
+    {
+      "id": "entity:mason-county",
+      "name": "Mason County,",
+      "description": "Named entity mentioned in 2,000-acre land parcel rezoned for data center use in Mason County, Kentucky."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f:1",
+      "text": "2,000-acre land parcel rezoned for data center use in Mason County, Kentucky But opposition continues to mount Original: https://www.datacenterdynamics.com/en/news/2000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky/",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f"
+    }
+  ],
+  "questions": [
+    "How does 000-acre relate to 2,000-acre land parcel rezoned for data center use in Mason County, Kentucky?",
+    "How does 2000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky relate to 2,000-acre land parcel rezoned for data center use in Mason County, Kentucky?",
+    "How does center relate to 2,000-acre land parcel rezoned for data center use in Mason County, Kentucky?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.054Z"
+}

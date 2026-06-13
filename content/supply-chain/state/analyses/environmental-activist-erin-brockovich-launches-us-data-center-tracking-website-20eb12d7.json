@@ -1,0 +1,82 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7",
+  "sourceHash": "20eb12d7331f70f98a3de5a418bbe3cd03496d9ba6f27994ea16259bc328af06",
+  "semanticHash": "67e6439ec4c48eb5ce3a6e19126fc5bc3e81fd33770225c232f0f0d435e4d058",
+  "extractionHash": "b119e4fbdb5bef3635ffb9db047559c9407cf3455986f611265d2e5e77f376b6",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Environmental activist Erin Brockovich launches US data center tracking website",
+  "summary": "Environmental activist Erin Brockovich launches US data center tracking website Activist behind PG&E Hinkley lawsuit turns her ire towards data centers Original: https://www.datacenterdynamics.com/en/news/environmental-activist-erin-brockovich-launches-us-data-center-tracking-website/",
+  "concepts": [
+    {
+      "id": "concept:activist",
+      "name": "activist",
+      "description": "Frequently referenced concept in Environmental activist Erin Brockovich launches US data center tracking website."
+    },
+    {
+      "id": "concept:data",
+      "name": "data",
+      "description": "Frequently referenced concept in Environmental activist Erin Brockovich launches US data center tracking website."
+    },
+    {
+      "id": "concept:behind",
+      "name": "behind",
+      "description": "Frequently referenced concept in Environmental activist Erin Brockovich launches US data center tracking website."
+    },
+    {
+      "id": "concept:brockovich",
+      "name": "brockovich",
+      "description": "Frequently referenced concept in Environmental activist Erin Brockovich launches US data center tracking website."
+    },
+    {
+      "id": "concept:center",
+      "name": "center",
+      "description": "Frequently referenced concept in Environmental activist Erin Brockovich launches US data center tracking website."
+    },
+    {
+      "id": "concept:centers",
+      "name": "centers",
+      "description": "Frequently referenced concept in Environmental activist Erin Brockovich launches US data center tracking website."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:erin-brockovich",
+      "name": "Erin Brockovich",
+      "description": "Named entity mentioned in Environmental activist Erin Brockovich launches US data center tracking website."
+    },
+    {
+      "id": "entity:activist",
+      "name": "Activist",
+      "description": "Named entity mentioned in Environmental activist Erin Brockovich launches US data center tracking website."
+    },
+    {
+      "id": "entity:hinkley",
+      "name": "Hinkley",
+      "description": "Named entity mentioned in Environmental activist Erin Brockovich launches US data center tracking website."
+    },
+    {
+      "id": "entity:original",
+      "name": "Original:",
+      "description": "Named entity mentioned in Environmental activist Erin Brockovich launches US data center tracking website."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7:1",
+      "text": "Environmental activist Erin Brockovich launches US data center tracking website Activist behind PG&E Hinkley lawsuit turns her ire towards data centers Original: https://www.datacenterdynamics.com/en/news/environmental-activist-erin-brockovich-launches-us-data-center-tracking-website/",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7"
+    }
+  ],
+  "questions": [
+    "How does activist relate to Environmental activist Erin Brockovich launches US data center tracking website?",
+    "How does data relate to Environmental activist Erin Brockovich launches US data center tracking website?",
+    "How does behind relate to Environmental activist Erin Brockovich launches US data center tracking website?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.268Z"
+}

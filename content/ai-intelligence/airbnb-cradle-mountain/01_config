@@ -1,0 +1,65 @@
+# Configuration — config.py
+
+Save this file as `config.py` in the project root.
+
+```python
+"""
+Configuration for Airbnb Cradle Mountain scraper.
+
+All tunable parameters in one place for easy modification.
+Security note: No secrets or credentials are stored here.
+"""
+
+# --- Search Parameters ---
+AIRBNB_SEARCH_URL = (
+    "https://www.airbnb.com/s/Cradle-Mountain--Tasmania--Australia/homes"
+    "?checkin=2026-07-20&checkout=2026-07-22&adults=1"
+)
+
+CHECKIN_DATE = "2026-07-20"
+CHECKOUT_DATE = "2026-07-22"
+ADULTS = 1
+LOCATION = "Cradle Mountain, Tasmania, Australia"
+
+# --- Scraping Targets ---
+MIN_LISTINGS = 8
+TARGET_LISTINGS = 12
+MAX_PAGES = 5
+SCROLL_PAUSE_SEC = 1.5
+MAX_SCROLLS_PER_PAGE = 15
+
+# --- Timeouts (milliseconds) ---
+NAVIGATION_TIMEOUT_MS = 45_000
+ELEMENT_TIMEOUT_MS = 15_000
+PAGE_LOAD_TIMEOUT_MS = 60_000
+
+# --- Anti-Detection ---
+# NOTE: Airbnb aggressively blocks headless browsers.
+# Set HEADLESS=True only for debugging; production runs should use False.
+HEADLESS = False
+SLOW_MO_MS = 300
+USER_AGENTS = [
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+    "(KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 "
+    "(KHTML, like Gecko) Version/17.5 Safari/605.1.15",
+]
+
+# --- Retry Settings ---
+MAX_RETRIES = 3
+RETRY_DELAY_SEC = 5
+
+# --- Feature Detection Keywords ---
+AURORA_KEYWORDS = ["aurora", "aurora viewing", "southern lights", "aurora australis"]
+STARGAZING_KEYWORDS = ["stargazing", "star gazing", "dark sky", "dark skies", "stars"]
+NOTABLE_FEATURES = [
+    "fireplace", "hot tub", "spa", "sauna", "views", "mountain view",
+    "lake view", "waterfront", "heating", "kitchen", "parking",
+    "wifi", "pet friendly", "balcony", "deck", "garden",
+]
+
+# --- Output ---
+OUTPUT_FILE = "results.json"
+```

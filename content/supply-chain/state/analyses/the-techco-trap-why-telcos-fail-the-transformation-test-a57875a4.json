@@ -1,0 +1,77 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4",
+  "sourceHash": "a57875a499bcee0e20211000c073b9f689871245f55247b4111e5c94323d9d88",
+  "semanticHash": "0324f8660dc0fb29a3737555e7f15b48956f9127ed489957f5c2af4bf4d659f1",
+  "extractionHash": "498734164bbe83bac07ad9f318ab48a3171668bd71cd9768c3075672730e3cf8",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "The ‘techco’ trap: Why telcos fail the transformation test",
+  "summary": "The ‘techco’ trap: Why telcos fail the transformation test And what agentic AI can fix Original: https://www.datacenterdynamics.com/en/opinions/the-techco-trap-why-telcos-fail-the-transformation-test/",
+  "concepts": [
+    {
+      "id": "concept:agentic",
+      "name": "agentic",
+      "description": "Frequently referenced concept in The ‘techco’ trap: Why telcos fail the transformation test."
+    },
+    {
+      "id": "concept:datacenterdynamics",
+      "name": "datacenterdynamics",
+      "description": "Frequently referenced concept in The ‘techco’ trap: Why telcos fail the transformation test."
+    },
+    {
+      "id": "concept:fail",
+      "name": "fail",
+      "description": "Frequently referenced concept in The ‘techco’ trap: Why telcos fail the transformation test."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in The ‘techco’ trap: Why telcos fail the transformation test."
+    },
+    {
+      "id": "concept:opinions",
+      "name": "opinions",
+      "description": "Frequently referenced concept in The ‘techco’ trap: Why telcos fail the transformation test."
+    },
+    {
+      "id": "concept:original",
+      "name": "original",
+      "description": "Frequently referenced concept in The ‘techco’ trap: Why telcos fail the transformation test."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:why",
+      "name": "Why",
+      "description": "Named entity mentioned in The ‘techco’ trap: Why telcos fail the transformation test."
+    },
+    {
+      "id": "entity:and",
+      "name": "And",
+      "description": "Named entity mentioned in The ‘techco’ trap: Why telcos fail the transformation test."
+    },
+    {
+      "id": "entity:original",
+      "name": "Original:",
+      "description": "Named entity mentioned in The ‘techco’ trap: Why telcos fail the transformation test."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4:1",
+      "text": "The ‘techco’ trap: Why telcos fail the transformation test And what agentic AI can fix Original: https://www.datacenterdynamics.com/en/opinions/the-techco-trap-why-telcos-fail-the-transformation-test/",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4"
+    }
+  ],
+  "questions": [
+    "How does agentic relate to The ‘techco’ trap: Why telcos fail the transformation test?",
+    "How does datacenterdynamics relate to The ‘techco’ trap: Why telcos fail the transformation test?",
+    "How does fail relate to The ‘techco’ trap: Why telcos fail the transformation test?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.457Z"
+}

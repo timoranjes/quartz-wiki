@@ -1,0 +1,77 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "virtus-completes-installation-of-two-super-grid-transformers-at-wustermark-campu-aa30fb62",
+  "sourceHash": "aa30fb628191f14cbcd7d9660ce0a1d177e694c684b75d9a3d81416f820ef1f2",
+  "semanticHash": "1b473bd9e26ad6a8947b0da0ae2600ea26a074063a5a2306feda44e3858271b1",
+  "extractionHash": "731fac7fe9b1888cc7132777c8172bfae605e88413998c6786b47fbf32ce7d13",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Virtus completes installation of two super-grid transformers at Wustermark Campus in Berlin, Germany",
+  "summary": "Virtus completes installation of two super-grid transformers at Wustermark Campus in Berlin, Germany Will support power delivery to the 300MW campus Original: https://www.datacenterdynamics.com/en/news/virtus-completes-installation-of-two-super-grid-transformers-at-wustermark-campus-in-berlin-germany/",
+  "concepts": [
+    {
+      "id": "concept:campus",
+      "name": "campus",
+      "description": "Frequently referenced concept in Virtus completes installation of two super-grid transformers at Wustermark Campus in Berlin, Germany."
+    },
+    {
+      "id": "concept:300mw",
+      "name": "300mw",
+      "description": "Frequently referenced concept in Virtus completes installation of two super-grid transformers at Wustermark Campus in Berlin, Germany."
+    },
+    {
+      "id": "concept:berlin",
+      "name": "berlin",
+      "description": "Frequently referenced concept in Virtus completes installation of two super-grid transformers at Wustermark Campus in Berlin, Germany."
+    },
+    {
+      "id": "concept:completes",
+      "name": "completes",
+      "description": "Frequently referenced concept in Virtus completes installation of two super-grid transformers at Wustermark Campus in Berlin, Germany."
+    },
+    {
+      "id": "concept:datacenterdynamics",
+      "name": "datacenterdynamics",
+      "description": "Frequently referenced concept in Virtus completes installation of two super-grid transformers at Wustermark Campus in Berlin, Germany."
+    },
+    {
+      "id": "concept:delivery",
+      "name": "delivery",
+      "description": "Frequently referenced concept in Virtus completes installation of two super-grid transformers at Wustermark Campus in Berlin, Germany."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:wustermark-campus",
+      "name": "Wustermark Campus",
+      "description": "Named entity mentioned in Virtus completes installation of two super-grid transformers at Wustermark Campus in Berlin, Germany."
+    },
+    {
+      "id": "entity:berlin-germany",
+      "name": "Berlin, Germany",
+      "description": "Named entity mentioned in Virtus completes installation of two super-grid transformers at Wustermark Campus in Berlin, Germany."
+    },
+    {
+      "id": "entity:original",
+      "name": "Original:",
+      "description": "Named entity mentioned in Virtus completes installation of two super-grid transformers at Wustermark Campus in Berlin, Germany."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:virtus-completes-installation-of-two-super-grid-transformers-at-wustermark-campu-aa30fb62:1",
+      "text": "Virtus completes installation of two super-grid transformers at Wustermark Campus in Berlin, Germany Will support power delivery to the 300MW campus Original: https://www.datacenterdynamics.com/en/news/virtus-completes-installation-of-two-super-grid-transformers-at-wustermark-campus-in-berlin-germany/",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "virtus-completes-installation-of-two-super-grid-transformers-at-wustermark-campu-aa30fb62"
+    }
+  ],
+  "questions": [
+    "How does campus relate to Virtus completes installation of two super-grid transformers at Wustermark Campus in Berlin, Germany?",
+    "How does 300mw relate to Virtus completes installation of two super-grid transformers at Wustermark Campus in Berlin, Germany?",
+    "How does berlin relate to Virtus completes installation of two super-grid transformers at Wustermark Campus in Berlin, Germany?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.471Z"
+}

@@ -1,0 +1,77 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "oracle-database-aws-now-offered-in-20-global-regions-d78f0471",
+  "sourceHash": "d78f04713754e4d1168723eb7bb2cb99a4726bdb52ef9e2b6cbb7517aac6f72e",
+  "semanticHash": "f33cf342bfc2b8a6414f9b4510f9b38c05cfb66283567e7878e1e0683b4ff7e7",
+  "extractionHash": "016e5cc972b57166a3782cead459854512a60b1d239662d619130b7078e069aa",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Oracle Database@AWS now offered in 20 global regions",
+  "summary": "Oracle Database@AWS now offered in 20 global regions Oracle and AWS add eight more locations to multi-cloud offering Original: https://www.datacenterdynamics.com/en/news/oracle-databaseaws-now-offered-in-20-global-regions/",
+  "concepts": [
+    {
+      "id": "concept:oracle",
+      "name": "oracle",
+      "description": "Frequently referenced concept in Oracle Database@AWS now offered in 20 global regions."
+    },
+    {
+      "id": "concept:database",
+      "name": "database",
+      "description": "Frequently referenced concept in Oracle Database@AWS now offered in 20 global regions."
+    },
+    {
+      "id": "concept:datacenterdynamics",
+      "name": "datacenterdynamics",
+      "description": "Frequently referenced concept in Oracle Database@AWS now offered in 20 global regions."
+    },
+    {
+      "id": "concept:eight",
+      "name": "eight",
+      "description": "Frequently referenced concept in Oracle Database@AWS now offered in 20 global regions."
+    },
+    {
+      "id": "concept:global",
+      "name": "global",
+      "description": "Frequently referenced concept in Oracle Database@AWS now offered in 20 global regions."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in Oracle Database@AWS now offered in 20 global regions."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:database-aws",
+      "name": "Database@AWS",
+      "description": "Named entity mentioned in Oracle Database@AWS now offered in 20 global regions."
+    },
+    {
+      "id": "entity:oracle",
+      "name": "Oracle",
+      "description": "Named entity mentioned in Oracle Database@AWS now offered in 20 global regions."
+    },
+    {
+      "id": "entity:original",
+      "name": "Original:",
+      "description": "Named entity mentioned in Oracle Database@AWS now offered in 20 global regions."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:oracle-database-aws-now-offered-in-20-global-regions-d78f0471:1",
+      "text": "Oracle Database@AWS now offered in 20 global regions Oracle and AWS add eight more locations to multi-cloud offering Original: https://www.datacenterdynamics.com/en/news/oracle-databaseaws-now-offered-in-20-global-regions/",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "oracle-database-aws-now-offered-in-20-global-regions-d78f0471"
+    }
+  ],
+  "questions": [
+    "How does oracle relate to Oracle Database@AWS now offered in 20 global regions?",
+    "How does database relate to Oracle Database@AWS now offered in 20 global regions?",
+    "How does datacenterdynamics relate to Oracle Database@AWS now offered in 20 global regions?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.375Z"
+}

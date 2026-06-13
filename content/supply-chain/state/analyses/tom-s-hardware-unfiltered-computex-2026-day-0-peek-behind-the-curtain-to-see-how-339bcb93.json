@@ -1,0 +1,103 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93",
+  "sourceHash": "339bcb93807e839ce36733904852596c6ce2afd739d54787678cee986911d40c",
+  "semanticHash": "f3f511ee6e59c552444cc5872c4ad810bbfc1527e5531e66414ec5536b5340a9",
+  "extractionHash": "7ce83739e1bc489471ca921dadd58afcb7166fa221a32c4ee49073f8ed43b73f",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Tom's Hardware Unfiltered: Computex 2026, Day 0 — peek behind the curtain to see how we're covering the biggest trade show of the year",
+  "summary": "Tom's Hardware Unfiltered: Computex 2026, Day 0 — peek behind the curtain to see how we're covering the biggest trade show of the year Our team is on the ground in Taipei for Computex 2026. For the first time, we're peeling back the curtain to show you exactly how we're covering it, documenting our trials and tribulations during the massive event. Original: https://www.tomshardware.com/tech-industry/toms-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-were-covering-the-biggest-trade-show-of-the-year",
+  "concepts": [
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in Tom's Hardware Unfiltered: Computex 2026, Day 0 — peek behind the curtain to see how we're covering the biggest trade show of the year."
+    },
+    {
+      "id": "concept:computex",
+      "name": "computex",
+      "description": "Frequently referenced concept in Tom's Hardware Unfiltered: Computex 2026, Day 0 — peek behind the curtain to see how we're covering the biggest trade show of the year."
+    },
+    {
+      "id": "concept:covering",
+      "name": "covering",
+      "description": "Frequently referenced concept in Tom's Hardware Unfiltered: Computex 2026, Day 0 — peek behind the curtain to see how we're covering the biggest trade show of the year."
+    },
+    {
+      "id": "concept:curtain",
+      "name": "curtain",
+      "description": "Frequently referenced concept in Tom's Hardware Unfiltered: Computex 2026, Day 0 — peek behind the curtain to see how we're covering the biggest trade show of the year."
+    },
+    {
+      "id": "concept:show",
+      "name": "show",
+      "description": "Frequently referenced concept in Tom's Hardware Unfiltered: Computex 2026, Day 0 — peek behind the curtain to see how we're covering the biggest trade show of the year."
+    },
+    {
+      "id": "concept:back",
+      "name": "back",
+      "description": "Frequently referenced concept in Tom's Hardware Unfiltered: Computex 2026, Day 0 — peek behind the curtain to see how we're covering the biggest trade show of the year."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:tom-s-hardware-unfiltered-computex",
+      "name": "Tom's Hardware Unfiltered: Computex",
+      "description": "Named entity mentioned in Tom's Hardware Unfiltered: Computex 2026, Day 0 — peek behind the curtain to see how we're covering the biggest trade show of the year."
+    },
+    {
+      "id": "entity:our",
+      "name": "Our",
+      "description": "Named entity mentioned in Tom's Hardware Unfiltered: Computex 2026, Day 0 — peek behind the curtain to see how we're covering the biggest trade show of the year."
+    },
+    {
+      "id": "entity:taipei",
+      "name": "Taipei",
+      "description": "Named entity mentioned in Tom's Hardware Unfiltered: Computex 2026, Day 0 — peek behind the curtain to see how we're covering the biggest trade show of the year."
+    },
+    {
+      "id": "entity:computex",
+      "name": "Computex",
+      "description": "Named entity mentioned in Tom's Hardware Unfiltered: Computex 2026, Day 0 — peek behind the curtain to see how we're covering the biggest trade show of the year."
+    },
+    {
+      "id": "entity:tom-s",
+      "name": "Tom's",
+      "description": "Named entity mentioned in Tom's Hardware Unfiltered: Computex 2026, Day 0 — peek behind the curtain to see how we're covering the biggest trade show of the year."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93:1",
+      "text": "Tom's Hardware Unfiltered: Computex 2026, Day 0 — peek behind the curtain to see how we're covering the biggest trade show of the year Our team is on the ground in Taipei for Computex 2026.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93"
+    },
+    {
+      "id": "claim:tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93:2",
+      "text": "For the first time, we're peeling back the curtain to show you exactly how we're covering it, documenting our trials and tribulations during the massive event.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93"
+    },
+    {
+      "id": "claim:tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93:3",
+      "text": "Original: https://www.tomshardware.com/tech-industry/toms-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-were-covering-the-biggest-trade-show-of-the-year",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93"
+    }
+  ],
+  "questions": [
+    "How does 2026 relate to Tom's Hardware Unfiltered: Computex 2026, Day 0 — peek behind the curtain to see how we're covering the biggest trade show of the year?",
+    "How does computex relate to Tom's Hardware Unfiltered: Computex 2026, Day 0 — peek behind the curtain to see how we're covering the biggest trade show of the year?",
+    "How does covering relate to Tom's Hardware Unfiltered: Computex 2026, Day 0 — peek behind the curtain to see how we're covering the biggest trade show of the year?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.469Z"
+}

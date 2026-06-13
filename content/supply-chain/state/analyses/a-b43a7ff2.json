@@ -1,0 +1,56 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "a-b43a7ff2",
+  "sourceHash": "b43a7ff2d46ba4bdd42712aaf1e5ac1c6646b237a0f2663aba97634f35de3d30",
+  "semanticHash": "9bbdaa193ccefcd66aed9420431acdc12e0d65a311002c2770772786912d70f4",
+  "extractionHash": "b12041015abb3644b40cbdf0fc2b4bc13f00dcb165c7b248167326f595174cdb",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "“华融科创”完成A轮超亿元融资",
+  "summary": "“华融科创”完成A轮超亿元融资 36氪获悉，近日，“华融科创”宣布完成超亿元A轮融资。本轮融资由比邻星投资领投，浩悦资本担任此次交易的独家财务顾问。本轮融资为集团首轮融资，后续将持续聚焦前沿技术研发，深化产学研融合与创新成果转化，并加速拓展海外市场，为医疗产业高质量发展贡献力量。 Original: https://36kr.com/newsflashes/3835289002702208?f=rss",
+  "concepts": [
+    {
+      "id": "concept:36kr",
+      "name": "36kr",
+      "description": "Frequently referenced concept in “华融科创”完成A轮超亿元融资."
+    },
+    {
+      "id": "concept:3835289002702208",
+      "name": "3835289002702208",
+      "description": "Frequently referenced concept in “华融科创”完成A轮超亿元融资."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in “华融科创”完成A轮超亿元融资."
+    },
+    {
+      "id": "concept:newsflashes",
+      "name": "newsflashes",
+      "description": "Frequently referenced concept in “华融科创”完成A轮超亿元融资."
+    },
+    {
+      "id": "concept:original",
+      "name": "original",
+      "description": "Frequently referenced concept in “华融科创”完成A轮超亿元融资."
+    }
+  ],
+  "entities": [],
+  "claims": [
+    {
+      "id": "claim:a-b43a7ff2:1",
+      "text": "“华融科创”完成A轮超亿元融资 36氪获悉，近日，“华融科创”宣布完成超亿元A轮融资。本轮融资由比邻星投资领投，浩悦资本担任此次交易的独家财务顾问。本轮融资为集团首轮融资，后续将持续聚焦前沿技术研发，深化产学研融合与创新成果转化，并加速拓展海外市场，为医疗产业高质量发展贡献力量。 Original: https://36kr.com/newsflashes/3835289002702208?f=rss",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "a-b43a7ff2"
+    }
+  ],
+  "questions": [
+    "How does 36kr relate to “华融科创”完成A轮超亿元融资?",
+    "How does 3835289002702208 relate to “华融科创”完成A轮超亿元融资?",
+    "How does https relate to “华融科创”完成A轮超亿元融资?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.108Z"
+}

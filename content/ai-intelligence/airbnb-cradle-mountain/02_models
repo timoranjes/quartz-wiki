@@ -1,0 +1,88 @@
+# Data Models — models.py
+
+Save this file as `models.py` in the project root.
+
+```python
+"""
+Data models for the Airbnb scraper.
+
+Uses dataclasses for clean, serializable data structures.
+"""
+
+from dataclasses import dataclass, field, asdict
+from typing import List
+import json
+
+
+@dataclass
+class Listing:
+    """Represents a single Airbnb listing with all captured fields."""
+    name: str
+    location: str
+    price_per_night: str
+    total_price: str
+    currency: str = ""
+    rating: str = ""
+    review_count: str = ""
+    bedrooms: str = ""
+    beds: str = ""
+    bathrooms: str = ""
+    guests: str = ""
+    amenities: List[str] = field(default_factory=list)
+    notable_features: List[str] = field(default_factory=list)
+    url: str = ""
+    mentions_aurora: bool = False
+    mentions_stargazing: bool = False
+    raw_text: str = ""
+
+    def to_dict(self) -> dict:
+        """Convert to dictionary for JSON serialization."""
+        return asdict(self)
+
+
+@dataclass
+class ScrapingResult:
+    """Container for the full scraping session results."""
+    location: str
+    checkin: str
+    checkout: str
+    adults: int
+    total_listings_found: int
+    listings: List[Listing] = field(default_factory=list)
+    errors: List[str] = field(default_factory=list)
+    pages_scraped: int = 0
+    aurora_properties: List[str] = field(default_factory=list)
+    stargazing_properties: List[str] = field(default_factory=list)
+
+    def to_dict(self) -> dict:
+        """Convert to dictionary for JSON serialization."""
+        return {
+            "meta": {
+                "location": self.location,
+                "checkin": self.checkin,
+                "checkout": self.checkout,
+                "adults": self.adults,
+                "pages_scraped": self.pages_scraped,
+            },
+            "summary": {
+                "total_listings_found": self.total_listings_found,
+                "aurora_viewing_count": len(self.aurora_properties),
+                "stargazing_count": len(self.stargazing_properties),
+                "error_count": len(self.errors),
+            },
+            "aurora_properties": self.aurora_properties,
+            "stargazing_properties": self.stargazing_properties,
+            "listings": [listing.to_dict() for listing in self.listings],
+            "errors": self.errors,
+        }
+
+    def to_json(self, indent: int = 2) -> str:
+        """Serialize to JSON string."""
+        return json.dumps(self.to_dict(), indent=indent, ensure_ascii=False)
+
+    def save(self, filepath: str) -> None:
+        """Save results to a JSON file."""
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write(self.to_json())
+        print(f"Results saved to {filepath}")
+```

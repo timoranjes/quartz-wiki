@@ -1,0 +1,61 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "token-ai-05fbba82",
+  "sourceHash": "05fbba82157118ff459b47b1cff88626198bc26943ac42dc786c89ce4f5b5b62",
+  "semanticHash": "b1b65d544a64579fb603892aa49b8ba2728766aea4432cc18f27ddf32657af11",
+  "extractionHash": "b5d421fa3c36eaf0535257f49c5e611917fb471a13f107647ab669d8f0da31f5",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "从“卖云”到“卖Token”：运营商全面加入AI战场",
+  "summary": "从“卖云”到“卖Token”：运营商全面加入AI战场 集体翻新“AI大门”。 Original: https://www.tmtpost.com/8010255.html",
+  "concepts": [
+    {
+      "id": "concept:8010255",
+      "name": "8010255",
+      "description": "Frequently referenced concept in 从“卖云”到“卖Token”：运营商全面加入AI战场."
+    },
+    {
+      "id": "concept:html",
+      "name": "html",
+      "description": "Frequently referenced concept in 从“卖云”到“卖Token”：运营商全面加入AI战场."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in 从“卖云”到“卖Token”：运营商全面加入AI战场."
+    },
+    {
+      "id": "concept:original",
+      "name": "original",
+      "description": "Frequently referenced concept in 从“卖云”到“卖Token”：运营商全面加入AI战场."
+    },
+    {
+      "id": "concept:tmtpost",
+      "name": "tmtpost",
+      "description": "Frequently referenced concept in 从“卖云”到“卖Token”：运营商全面加入AI战场."
+    },
+    {
+      "id": "concept:token",
+      "name": "token",
+      "description": "Frequently referenced concept in 从“卖云”到“卖Token”：运营商全面加入AI战场."
+    }
+  ],
+  "entities": [],
+  "claims": [
+    {
+      "id": "claim:token-ai-05fbba82:1",
+      "text": "从“卖云”到“卖Token”：运营商全面加入AI战场 集体翻新“AI大门”。 Original: https://www.tmtpost.com/8010255.html",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "token-ai-05fbba82"
+    }
+  ],
+  "questions": [
+    "How does 8010255 relate to 从“卖云”到“卖Token”：运营商全面加入AI战场?",
+    "How does html relate to 从“卖云”到“卖Token”：运营商全面加入AI战场?",
+    "How does https relate to 从“卖云”到“卖Token”：运营商全面加入AI战场?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.457Z"
+}

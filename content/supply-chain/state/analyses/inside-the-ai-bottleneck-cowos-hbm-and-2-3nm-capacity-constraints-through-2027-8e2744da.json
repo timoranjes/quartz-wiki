@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da",
+  "sourceHash": "8e2744daf5613fb03600348767566729d2d511e1d29daacfba82fafe8fa2ea1f",
+  "semanticHash": "4f68f68dcacb602c4662e229aea9a5ef49e5c9d7f8bdfe6eb83acf25ee510b52",
+  "extractionHash": "5f148b9f3aa00786af3f427a65fcda61028eb7c872588cc8a3390ef42f4ddd71",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Inside the AI Bottleneck: CoWoS, HBM, and 2-3nm Capacity Constraints Through 2027",
+  "summary": "Inside the AI Bottleneck: CoWoS, HBM, and 2-3nm Capacity Constraints Through 2027 Source: fusionww.com | Author: Ashley Papa | Date: 2025-12-04 Why every major supplier says demand will outstrip capacity — no matter how much they spend. The Q3 2025 earnings season brought unusual alignment across the semiconductor ecosystem. CEOs from TSMC, SK Hynix, Micron, Intel, NVIDIA, and Samsung all delivered the same message: demand for advanced nodes, advanced packaging, and high-bandwidth memory (HBM) is rising much faster than capacity can be built.",
+  "concepts": [
+    {
+      "id": "concept:capacity",
+      "name": "capacity",
+      "description": "Frequently referenced concept in Inside the AI Bottleneck: CoWoS, HBM, and 2-3nm Capacity Constraints Through 2027."
+    },
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in Inside the AI Bottleneck: CoWoS, HBM, and 2-3nm Capacity Constraints Through 2027."
+    },
+    {
+      "id": "concept:tsmc",
+      "name": "tsmc",
+      "description": "Frequently referenced concept in Inside the AI Bottleneck: CoWoS, HBM, and 2-3nm Capacity Constraints Through 2027."
+    },
+    {
+      "id": "concept:demand",
+      "name": "demand",
+      "description": "Frequently referenced concept in Inside the AI Bottleneck: CoWoS, HBM, and 2-3nm Capacity Constraints Through 2027."
+    },
+    {
+      "id": "concept:supply",
+      "name": "supply",
+      "description": "Frequently referenced concept in Inside the AI Bottleneck: CoWoS, HBM, and 2-3nm Capacity Constraints Through 2027."
+    },
+    {
+      "id": "concept:advanced",
+      "name": "advanced",
+      "description": "Frequently referenced concept in Inside the AI Bottleneck: CoWoS, HBM, and 2-3nm Capacity Constraints Through 2027."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:ai-bottleneck-cowos",
+      "name": "AI Bottleneck: CoWoS,",
+      "description": "Named entity mentioned in Inside the AI Bottleneck: CoWoS, HBM, and 2-3nm Capacity Constraints Through 2027."
+    },
+    {
+      "id": "entity:capacity-constraints-through",
+      "name": "Capacity Constraints Through",
+      "description": "Named entity mentioned in Inside the AI Bottleneck: CoWoS, HBM, and 2-3nm Capacity Constraints Through 2027."
+    },
+    {
+      "id": "entity:source",
+      "name": "Source:",
+      "description": "Named entity mentioned in Inside the AI Bottleneck: CoWoS, HBM, and 2-3nm Capacity Constraints Through 2027."
+    },
+    {
+      "id": "entity:author-ashley-papa",
+      "name": "Author: Ashley Papa",
+      "description": "Named entity mentioned in Inside the AI Bottleneck: CoWoS, HBM, and 2-3nm Capacity Constraints Through 2027."
+    },
+    {
+      "id": "entity:date",
+      "name": "Date:",
+      "description": "Named entity mentioned in Inside the AI Bottleneck: CoWoS, HBM, and 2-3nm Capacity Constraints Through 2027."
+    },
+    {
+      "id": "entity:why",
+      "name": "Why",
+      "description": "Named entity mentioned in Inside the AI Bottleneck: CoWoS, HBM, and 2-3nm Capacity Constraints Through 2027."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da:1",
+      "text": "Inside the AI Bottleneck: CoWoS, HBM, and 2-3nm Capacity Constraints Through 2027 Source: fusionww.com | Author: Ashley Papa | Date: 2025-12-04 Why every major supplier says demand will outstrip capacity — no matter how much they spend.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da"
+    },
+    {
+      "id": "claim:inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da:2",
+      "text": "The Q3 2025 earnings season brought unusual alignment across the semiconductor ecosystem.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da"
+    },
+    {
+      "id": "claim:inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da:3",
+      "text": "CEOs from TSMC, SK Hynix, Micron, Intel, NVIDIA, and Samsung all delivered the same message: demand for advanced nodes, advanced packaging, and high-bandwidth memory (HBM) is rising much faster than capacity can be built.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da"
+    },
+    {
+      "id": "claim:inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da:4",
+      "text": "This is the clearest signal yet that AI's supply chain bottlenecks are not short-term \"tightness.\" They are structural limits that will shape pricing, lead times, and availability well into 2027.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da"
+    }
+  ],
+  "questions": [
+    "How does capacity relate to Inside the AI Bottleneck: CoWoS, HBM, and 2-3nm Capacity Constraints Through 2027?",
+    "How does 2026 relate to Inside the AI Bottleneck: CoWoS, HBM, and 2-3nm Capacity Constraints Through 2027?",
+    "How does tsmc relate to Inside the AI Bottleneck: CoWoS, HBM, and 2-3nm Capacity Constraints Through 2027?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.346Z"
+}

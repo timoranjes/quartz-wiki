@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7",
+  "sourceHash": "9c57a1e75fc27bd5e815feccbc342f869cd9620f973bb91f12ec4781850c7b7f",
+  "semanticHash": "f1f21bfd553948efe84b33e4ed6ec2a893d4ad9187e314fc91596685d7de153b",
+  "extractionHash": "6fd4892c4ba572c5b031957e3686db6df09407852165a6aa5491ad2c1f5cc711",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "HBM Memory Market Analysis: The Race from HBM4 to HBF Between SK hynix and Samsung",
+  "summary": "HBM Memory Market Analysis: The Race from HBM4 to HBF Between SK hynix and Samsung Source: thebytedive.com | Date: 2026-02-23 ## From PCs to GPUs — A Brief History of the Memory Bottleneck The heart of an AI data center is widely believed to be the GPU. But the actual time GPUs spend computing is surprisingly low. Research shows that over 50% of attention kernel cycles during LLM inference are stalled waiting for data access.",
+  "concepts": [
+    {
+      "id": "concept:hynix",
+      "name": "hynix",
+      "description": "Frequently referenced concept in HBM Memory Market Analysis: The Race from HBM4 to HBF Between SK hynix and Samsung."
+    },
+    {
+      "id": "concept:hbm4",
+      "name": "hbm4",
+      "description": "Frequently referenced concept in HBM Memory Market Analysis: The Race from HBM4 to HBF Between SK hynix and Samsung."
+    },
+    {
+      "id": "concept:samsung",
+      "name": "samsung",
+      "description": "Frequently referenced concept in HBM Memory Market Analysis: The Race from HBM4 to HBF Between SK hynix and Samsung."
+    },
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in HBM Memory Market Analysis: The Race from HBM4 to HBF Between SK hynix and Samsung."
+    },
+    {
+      "id": "concept:market",
+      "name": "market",
+      "description": "Frequently referenced concept in HBM Memory Market Analysis: The Race from HBM4 to HBF Between SK hynix and Samsung."
+    },
+    {
+      "id": "concept:data",
+      "name": "data",
+      "description": "Frequently referenced concept in HBM Memory Market Analysis: The Race from HBM4 to HBF Between SK hynix and Samsung."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:race",
+      "name": "Race",
+      "description": "Named entity mentioned in HBM Memory Market Analysis: The Race from HBM4 to HBF Between SK hynix and Samsung."
+    },
+    {
+      "id": "entity:between",
+      "name": "Between",
+      "description": "Named entity mentioned in HBM Memory Market Analysis: The Race from HBM4 to HBF Between SK hynix and Samsung."
+    },
+    {
+      "id": "entity:samsung-source",
+      "name": "Samsung Source:",
+      "description": "Named entity mentioned in HBM Memory Market Analysis: The Race from HBM4 to HBF Between SK hynix and Samsung."
+    },
+    {
+      "id": "entity:date",
+      "name": "Date:",
+      "description": "Named entity mentioned in HBM Memory Market Analysis: The Race from HBM4 to HBF Between SK hynix and Samsung."
+    },
+    {
+      "id": "entity:from",
+      "name": "From",
+      "description": "Named entity mentioned in HBM Memory Market Analysis: The Race from HBM4 to HBF Between SK hynix and Samsung."
+    },
+    {
+      "id": "entity:brief-history",
+      "name": "Brief History",
+      "description": "Named entity mentioned in HBM Memory Market Analysis: The Race from HBM4 to HBF Between SK hynix and Samsung."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7:1",
+      "text": "HBM Memory Market Analysis: The Race from HBM4 to HBF Between SK hynix and Samsung Source: thebytedive.com | Date: 2026-02-23 ## From PCs to GPUs — A Brief History of the Memory Bottleneck The heart of an AI data center is widely believed to be the GPU.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7"
+    },
+    {
+      "id": "claim:hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7:2",
+      "text": "But the actual time GPUs spend computing is surprisingly low.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7"
+    },
+    {
+      "id": "claim:hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7:3",
+      "text": "Research shows that over 50% of attention kernel cycles during LLM inference are stalled waiting for data access.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7"
+    },
+    {
+      "id": "claim:hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7:4",
+      "text": "The rest of the time, the GPU is just waiting for data.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7"
+    }
+  ],
+  "questions": [
+    "How does hynix relate to HBM Memory Market Analysis: The Race from HBM4 to HBF Between SK hynix and Samsung?",
+    "How does hbm4 relate to HBM Memory Market Analysis: The Race from HBM4 to HBF Between SK hynix and Samsung?",
+    "How does samsung relate to HBM Memory Market Analysis: The Race from HBM4 to HBF Between SK hynix and Samsung?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.302Z"
+}

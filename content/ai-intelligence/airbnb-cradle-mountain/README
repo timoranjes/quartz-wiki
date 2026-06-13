@@ -1,0 +1,151 @@
+# Airbnb Cradle Mountain Scraper
+
+A production-ready Playwright-based Python scraper that collects Airbnb listings near Cradle Mountain, Tasmania for July 20-22, 2026.
+
+## Project Structure
+
+```
+airbnb-cradle-mountain/
+├── README.md              ← You are here
+├── requirements.txt       ← Python dependencies
+├── 01_config              ← config.py (search params, timeouts, keywords)
+├── 02_models              ← models.py (Listing & ScrapingResult dataclasses)
+├── 03_scraper             ← scraper.py (core Playwright async scraper)
+├── 04_main                ← main.py (entry point with logging & output)
+├── 05_setup_script        ← setup.sh (automated setup)
+└── results.json           ← Output (generated after running)
+```
+
+**Note:** Files are stored as Obsidian notes (without .py extension due to vault restrictions). Extract the Python code blocks from each file to create the actual .py files, or use the extraction script below.
+
+## Quick Start
+
+### Option A: Automated Setup
+```bash
+# Extract code from Obsidian notes to .py files
+python3 -c "
+import re, pathlib
+mapping = {'01_config': 'config.py', '02_models': 'models.py', 
+           '03_scraper': 'scraper.py', '04_main': 'main.py',
+           '05_setup_script': 'setup.sh'}
+for src, dst in mapping.items():
+    content = pathlib.Path(src).read_text()
+    code = re.search(r'\`\`\`(?:python|bash)\n(.*?)\n\`\`\`', content, re.DOTALL)
+    if code:
+        pathlib.Path(dst).write_text(code.group(1))
+        print(f'Extracted {dst}')
+"
+bash setup.sh
+python main.py
+```
+
+### Option B: Manual Setup
+```bash
+pip install playwright>=1.40.0
+python -m playwright install chromium
+python main.py
+```
+
+## Search Parameters
+
+| Parameter | Value |
+|-----------|-------|
+| Location | Cradle Mountain, Tasmania, Australia |
+| Check-in | July 20, 2026 |
+| Check-out | July 22, 2026 |
+| Nights | 2 |
+| Guests | 1 |
+| Target listings | 8-12 |
+| Max pages | 5 |
+
+## Architecture
+
+### Error Handling
+- **Retry with exponential backoff** — network timeouts and transient failures are retried up to 3 times
+- **Graceful degradation** — if structured data extraction fails, falls back to text parsing
+- **Timeout protection** — every operation has configurable timeouts
+- **Error collection** — all errors are captured in the result object, never crash silently
+
+### Anti-Detection Measures
+- **User-Agent rotation** — random selection from 3 realistic browser UAs
+- **Webdriver flag removal** — `navigator.webdriver` is set to undefined
+- **Human-like scrolling** — random scroll amounts (400-800px) with random delays
+- **Realistic viewport** — 1440x900 with Australian locale and timezone
+- **Slow motion mode** — 300ms between actions to mimic human speed
+- **Non-headless by default** — Airbnb aggressively blocks headless Chromium
+
+### Security Considerations
+- No credentials stored or transmitted
+- No data sent to third-party services
+- All processing is local
+- No cookies persisted between runs
+- Respects rate limits (delays between actions)
+
+### Feature Detection
+The scraper automatically detects and flags:
+- **Aurora viewing** — keywords: aurora, southern lights, aurora australis
+- **Stargazing** — keywords: stargazing, dark sky, dark skies, stars
+- **Notable features** — fireplace, hot tub, spa, sauna, mountain/lake views, waterfront
+
+## Output Format
+
+`results.json` contains:
+```json
+{
+  "meta": {
+    "location": "Cradle Mountain, Tasmania, Australia",
+    "checkin": "2026-07-20",
+    "checkout": "2026-07-22",
+    "adults": 1,
+    "pages_scraped": 3
+  },
+  "summary": {
+    "total_listings_found": 10,
+    "aurora_viewing_count": 1,
+    "stargazing_count": 2,
+    "error_count": 0
+  },
+  "listings": [
+    {
+      "name": "Cozy Cabin near Cradle Mountain",
+      "location": "Sheffield, Tasmania",
+      "price_per_night": "₩185,000",
+      "total_price": "₩370,000",
+      "currency": "₩",
+      "rating": "4.92",
+      "review_count": "127",
+      "bedrooms": "2",
+      "beds": "3",
+      "bathrooms": "1",
+      "amenities": ["fireplace", "kitchen", "parking", "heating"],
+      "notable_features": ["fireplace"],
+      "url": "https://www.airbnb.com/rooms/12345",
+      "mentions_aurora": false,
+      "mentions_stargazing": true
+    }
+  ],
+  "aurora_properties": [],
+  "stargazing_properties": ["Cozy Cabin near Cradle Mountain"],
+  "errors": []
+}
+```
+
+## Known Limitations
+
+1. **Airbnb anti-bot** — Airbnb actively detects and blocks scrapers. The scraper may receive CAPTCHAs or be blocked entirely.
+2. **Dynamic selectors** — Airbnb frequently changes their DOM structure. Selectors may need updating.
+3. **Currency display** — Prices may show in KRW, USD, or AUD depending on browser locale/IP. The scraper records whatever is displayed.
+4. **Rate limiting** — Running too frequently will result in IP blocks.
+
+## Troubleshooting
+
+| Issue | Solution |
+|-------|----------|
+| "Browser closed" error | Ensure Chromium is installed: `python -m playwright install chromium` |
+| No listings found | Airbnb likely blocked the request. Try changing IP or adding delays. |
+| Timeout errors | Increase `NAVIGATION_TIMEOUT_MS` in config.py |
+| Only 1-2 listings | Scroll extraction may have failed. Try `MAX_SCROLLS_PER_PAGE = 25` |
+
+## License
+
+MIT — for personal/educational use. Respect Airbnb's Terms of Service.

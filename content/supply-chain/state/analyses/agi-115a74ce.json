@@ -1,0 +1,56 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "agi-115a74ce",
+  "sourceHash": "115a74cee734be965542ec2ce7eb6af8638bc6bf8ba66125e5f604317d0a465d",
+  "semanticHash": "f55e12c7f2d049411b94bf9455763a5004360109794fd2bb9dc578bf33b988d1",
+  "extractionHash": "d3d1a2ed72dd644da99c88226d8b0b9b0f5c689b82c17920dccd7d4d86d0c269",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "机器人先挣钱，还是先追求AGI？具身智能路线之争摆上台面",
+  "summary": "机器人先挣钱，还是先追求AGI？具身智能路线之争摆上台面 当大部分机器人公司冲向工厂时，一批创业者开始押注家庭和通用智能。这场路线之争，或许比谁先量产一万台机器人更重要。 Original: https://www.tmtpost.com/8010404.html",
+  "concepts": [
+    {
+      "id": "concept:8010404",
+      "name": "8010404",
+      "description": "Frequently referenced concept in 机器人先挣钱，还是先追求AGI？具身智能路线之争摆上台面."
+    },
+    {
+      "id": "concept:html",
+      "name": "html",
+      "description": "Frequently referenced concept in 机器人先挣钱，还是先追求AGI？具身智能路线之争摆上台面."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in 机器人先挣钱，还是先追求AGI？具身智能路线之争摆上台面."
+    },
+    {
+      "id": "concept:original",
+      "name": "original",
+      "description": "Frequently referenced concept in 机器人先挣钱，还是先追求AGI？具身智能路线之争摆上台面."
+    },
+    {
+      "id": "concept:tmtpost",
+      "name": "tmtpost",
+      "description": "Frequently referenced concept in 机器人先挣钱，还是先追求AGI？具身智能路线之争摆上台面."
+    }
+  ],
+  "entities": [],
+  "claims": [
+    {
+      "id": "claim:agi-115a74ce:1",
+      "text": "机器人先挣钱，还是先追求AGI？具身智能路线之争摆上台面 当大部分机器人公司冲向工厂时，一批创业者开始押注家庭和通用智能。这场路线之争，或许比谁先量产一万台机器人更重要。 Original: https://www.tmtpost.com/8010404.html",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "agi-115a74ce"
+    }
+  ],
+  "questions": [
+    "How does 8010404 relate to 机器人先挣钱，还是先追求AGI？具身智能路线之争摆上台面?",
+    "How does html relate to 机器人先挣钱，还是先追求AGI？具身智能路线之争摆上台面?",
+    "How does https relate to 机器人先挣钱，还是先追求AGI？具身智能路线之争摆上台面?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.115Z"
+}

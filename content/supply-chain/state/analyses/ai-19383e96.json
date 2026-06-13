@@ -1,0 +1,56 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "ai-19383e96",
+  "sourceHash": "19383e968484687a2c9cc623e8d76302a6875d35e35e44415fdf9af144c23f42",
+  "semanticHash": "639e2c860b4973ddd79469f1993612dbb605014d6fa6f43232395e4120619df4",
+  "extractionHash": "4364c77fa9c0b6172153cc9ced6575d67438ad98549c6e9abcfb071bf6c09125",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "快手“以退为进”，搏一个AI未来",
+  "summary": "快手“以退为进”，搏一个AI未来 分拆可灵AI，既是资本动作，也是快手的AI人才保卫战。 Original: https://www.tmtpost.com/8006940.html",
+  "concepts": [
+    {
+      "id": "concept:8006940",
+      "name": "8006940",
+      "description": "Frequently referenced concept in 快手“以退为进”，搏一个AI未来."
+    },
+    {
+      "id": "concept:html",
+      "name": "html",
+      "description": "Frequently referenced concept in 快手“以退为进”，搏一个AI未来."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in 快手“以退为进”，搏一个AI未来."
+    },
+    {
+      "id": "concept:original",
+      "name": "original",
+      "description": "Frequently referenced concept in 快手“以退为进”，搏一个AI未来."
+    },
+    {
+      "id": "concept:tmtpost",
+      "name": "tmtpost",
+      "description": "Frequently referenced concept in 快手“以退为进”，搏一个AI未来."
+    }
+  ],
+  "entities": [],
+  "claims": [
+    {
+      "id": "claim:ai-19383e96:1",
+      "text": "快手“以退为进”，搏一个AI未来 分拆可灵AI，既是资本动作，也是快手的AI人才保卫战。 Original: https://www.tmtpost.com/8006940.html",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "ai-19383e96"
+    }
+  ],
+  "questions": [
+    "How does 8006940 relate to 快手“以退为进”，搏一个AI未来?",
+    "How does html relate to 快手“以退为进”，搏一个AI未来?",
+    "How does https relate to 快手“以退为进”，搏一个AI未来?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.114Z"
+}

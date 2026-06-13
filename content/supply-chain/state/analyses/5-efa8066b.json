@@ -1,0 +1,56 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "5-efa8066b",
+  "sourceHash": "efa8066bb33bef0715c70c58be7c1f440764460db04b0cc1c7d7f7014b4e7d1d",
+  "semanticHash": "5b4096d29d3797ff3110c358c881641781790d958cfd50da443607cd259d7fa7",
+  "extractionHash": "7bd6f492ae9e1a54a4a6317c0787f4c3180fe413e062e1ca7c0d0ab884225339",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "韩国市值突破5万亿美元",
+  "summary": "韩国市值突破5万亿美元 36氪获悉，韩国市值突破5万亿美元，超越印度，位列全球第六。 Original: https://36kr.com/newsflashes/3835297856042117?f=rss",
+  "concepts": [
+    {
+      "id": "concept:36kr",
+      "name": "36kr",
+      "description": "Frequently referenced concept in 韩国市值突破5万亿美元."
+    },
+    {
+      "id": "concept:3835297856042117",
+      "name": "3835297856042117",
+      "description": "Frequently referenced concept in 韩国市值突破5万亿美元."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in 韩国市值突破5万亿美元."
+    },
+    {
+      "id": "concept:newsflashes",
+      "name": "newsflashes",
+      "description": "Frequently referenced concept in 韩国市值突破5万亿美元."
+    },
+    {
+      "id": "concept:original",
+      "name": "original",
+      "description": "Frequently referenced concept in 韩国市值突破5万亿美元."
+    }
+  ],
+  "entities": [],
+  "claims": [
+    {
+      "id": "claim:5-efa8066b:1",
+      "text": "韩国市值突破5万亿美元 36氪获悉，韩国市值突破5万亿美元，超越印度，位列全球第六。 Original: https://36kr.com/newsflashes/3835297856042117?f=rss",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "5-efa8066b"
+    }
+  ],
+  "questions": [
+    "How does 36kr relate to 韩国市值突破5万亿美元?",
+    "How does 3835297856042117 relate to 韩国市值突破5万亿美元?",
+    "How does https relate to 韩国市值突破5万亿美元?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.093Z"
+}

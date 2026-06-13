@@ -1,0 +1,77 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81",
+  "sourceHash": "2bc06e81f868b5673bd4aaa8a1a5ca0a23c52dc13a2da8afaf883d75b3d9658e",
+  "semanticHash": "e125700ee90a53fba3f990099578da6d38a572a73c61650ed9b06e91bd47f711",
+  "extractionHash": "cbab492ca9b42d27e0a5fec239d8d54c15f84cf3cb76d961e8e8d6ded45256fa",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Stockland files to develop another data center in Melbourne, Australia",
+  "summary": "Stockland files to develop another data center in Melbourne, Australia Company looks to replace existing warehouse development Original: https://www.datacenterdynamics.com/en/news/stockland-files-to-develop-another-data-center-in-melbourne-australia/",
+  "concepts": [
+    {
+      "id": "concept:another",
+      "name": "another",
+      "description": "Frequently referenced concept in Stockland files to develop another data center in Melbourne, Australia."
+    },
+    {
+      "id": "concept:australia",
+      "name": "australia",
+      "description": "Frequently referenced concept in Stockland files to develop another data center in Melbourne, Australia."
+    },
+    {
+      "id": "concept:center",
+      "name": "center",
+      "description": "Frequently referenced concept in Stockland files to develop another data center in Melbourne, Australia."
+    },
+    {
+      "id": "concept:company",
+      "name": "company",
+      "description": "Frequently referenced concept in Stockland files to develop another data center in Melbourne, Australia."
+    },
+    {
+      "id": "concept:data",
+      "name": "data",
+      "description": "Frequently referenced concept in Stockland files to develop another data center in Melbourne, Australia."
+    },
+    {
+      "id": "concept:datacenterdynamics",
+      "name": "datacenterdynamics",
+      "description": "Frequently referenced concept in Stockland files to develop another data center in Melbourne, Australia."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:melbourne-australia-company",
+      "name": "Melbourne, Australia Company",
+      "description": "Named entity mentioned in Stockland files to develop another data center in Melbourne, Australia."
+    },
+    {
+      "id": "entity:original",
+      "name": "Original:",
+      "description": "Named entity mentioned in Stockland files to develop another data center in Melbourne, Australia."
+    },
+    {
+      "id": "entity:melbourne-australia",
+      "name": "Melbourne, Australia",
+      "description": "Named entity mentioned in Stockland files to develop another data center in Melbourne, Australia."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81:1",
+      "text": "Stockland files to develop another data center in Melbourne, Australia Company looks to replace existing warehouse development Original: https://www.datacenterdynamics.com/en/news/stockland-files-to-develop-another-data-center-in-melbourne-australia/",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81"
+    }
+  ],
+  "questions": [
+    "How does another relate to Stockland files to develop another data center in Melbourne, Australia?",
+    "How does australia relate to Stockland files to develop another data center in Melbourne, Australia?",
+    "How does center relate to Stockland files to develop another data center in Melbourne, Australia?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.431Z"
+}

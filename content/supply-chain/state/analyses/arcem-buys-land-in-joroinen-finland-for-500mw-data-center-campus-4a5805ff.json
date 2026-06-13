@@ -1,0 +1,82 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff",
+  "sourceHash": "4a5805ffac60de02031a724e71a3e4860e3a4836ef0faa0f53df1732b305b250",
+  "semanticHash": "4a8de177d1db3d62382a8c13985b6519799f163f481a8a502d6ed3aa71d77370",
+  "extractionHash": "f929045c7406058c4a2ac23a4148eb937544a9ed2b4b6ff105e4830b3141c405",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Arcem buys land in Joroinen, Finland, for 500MW data center campus",
+  "summary": "Arcem buys land in Joroinen, Finland, for 500MW data center campus One of several projects the company is planning in the country Original: https://www.datacenterdynamics.com/en/news/arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus/",
+  "concepts": [
+    {
+      "id": "concept:500mw",
+      "name": "500mw",
+      "description": "Frequently referenced concept in Arcem buys land in Joroinen, Finland, for 500MW data center campus."
+    },
+    {
+      "id": "concept:arcem",
+      "name": "arcem",
+      "description": "Frequently referenced concept in Arcem buys land in Joroinen, Finland, for 500MW data center campus."
+    },
+    {
+      "id": "concept:arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus",
+      "name": "arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus",
+      "description": "Frequently referenced concept in Arcem buys land in Joroinen, Finland, for 500MW data center campus."
+    },
+    {
+      "id": "concept:buys",
+      "name": "buys",
+      "description": "Frequently referenced concept in Arcem buys land in Joroinen, Finland, for 500MW data center campus."
+    },
+    {
+      "id": "concept:campus",
+      "name": "campus",
+      "description": "Frequently referenced concept in Arcem buys land in Joroinen, Finland, for 500MW data center campus."
+    },
+    {
+      "id": "concept:center",
+      "name": "center",
+      "description": "Frequently referenced concept in Arcem buys land in Joroinen, Finland, for 500MW data center campus."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:joroinen-finland",
+      "name": "Joroinen, Finland,",
+      "description": "Named entity mentioned in Arcem buys land in Joroinen, Finland, for 500MW data center campus."
+    },
+    {
+      "id": "entity:one",
+      "name": "One",
+      "description": "Named entity mentioned in Arcem buys land in Joroinen, Finland, for 500MW data center campus."
+    },
+    {
+      "id": "entity:original",
+      "name": "Original:",
+      "description": "Named entity mentioned in Arcem buys land in Joroinen, Finland, for 500MW data center campus."
+    },
+    {
+      "id": "entity:country-original",
+      "name": "country Original:",
+      "description": "Named entity mentioned in Arcem buys land in Joroinen, Finland, for 500MW data center campus."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff:1",
+      "text": "Arcem buys land in Joroinen, Finland, for 500MW data center campus One of several projects the company is planning in the country Original: https://www.datacenterdynamics.com/en/news/arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus/",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff"
+    }
+  ],
+  "questions": [
+    "How does 500mw relate to Arcem buys land in Joroinen, Finland, for 500MW data center campus?",
+    "How does arcem relate to Arcem buys land in Joroinen, Finland, for 500MW data center campus?",
+    "How does arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus relate to Arcem buys land in Joroinen, Finland, for 500MW data center campus?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.228Z"
+}

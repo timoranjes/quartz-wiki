@@ -1,0 +1,201 @@
+{
+  "generatedAt": "2026-06-06T21:09:07.964Z",
+  "vaultName": "wiki-ai-supply-chain",
+  "tagline": "A local-first map of wiki-ai-supply-chain: 90 sources compiled into 599 graph nodes and 608 wiki pages.",
+  "overview": {
+    "sources": 90,
+    "nodes": 599,
+    "edges": 1894,
+    "pages": 608,
+    "communities": 15
+  },
+  "firstPartyOverview": {
+    "nodes": 599,
+    "edges": 1894,
+    "pages": 599,
+    "communities": 15
+  },
+  "highlights": {
+    "topHubs": [
+      {
+        "nodeId": "entity:original",
+        "label": "Original:",
+        "degree": 204
+      },
+      {
+        "nodeId": "concept:2026",
+        "label": "2026",
+        "degree": 142
+      },
+      {
+        "nodeId": "concept:https",
+        "label": "https",
+        "degree": 97
+      },
+      {
+        "nodeId": "entity:ee-times",
+        "label": "EE Times.",
+        "degree": 79
+      },
+      {
+        "nodeId": "concept:original",
+        "label": "original",
+        "degree": 74
+      }
+    ],
+    "bridgeNodes": [
+      {
+        "nodeId": "concept:2026",
+        "label": "2026",
+        "bridgeScore": 8
+      },
+      {
+        "nodeId": "entity:original",
+        "label": "Original:",
+        "bridgeScore": 7
+      },
+      {
+        "nodeId": "entity:computex",
+        "label": "Computex",
+        "bridgeScore": 5
+      }
+    ],
+    "surprisingConnections": [
+      {
+        "sourceLabel": "华泰证券：618低价竞争降温 平台聚焦效率升级",
+        "targetLabel": "韩国家庭一季度酒精饮料支出同比下降9%，创七年来最大降幅",
+        "relation": "semantically_similar_to",
+        "why": "it crosses communities community:2026-2 and community:36kr-3; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also..."
+      },
+      {
+        "sourceLabel": "Police seize £1.2m worth of equipment during raid of data center in Farnborough, UK",
+        "targetLabel": "The ‘techco’ trap: Why telcos fail the transformation test",
+        "relation": "semantically_similar_to",
+        "why": "it crosses communities community:data-5 and community:2026-2; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared e..."
+      },
+      {
+        "sourceLabel": "2026Q1调味品市场回顾",
+        "targetLabel": "The ‘techco’ trap: Why telcos fail the transformation test",
+        "relation": "semantically_similar_to",
+        "why": "it crosses communities community:36kr-3 and community:2026-2; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also..."
+      }
+    ],
+    "suggestedQuestions": [
+      "Why does 2026 connect multiple communities in the vault?",
+      "Why does Original: connect multiple communities in the vault?",
+      "Why does Computex connect multiple communities in the vault?",
+      "What is the exact relationship between AI-Accelerated Software Security Vulnerability Discovery: Is Hardware Next? and Access Tom’s Hardware Premium’s Computex 2026 coverage for free — sign up for an account to read insider reports from the show?",
+      "What is the exact relationship between AI Data Center Optical Component Shortage: Nvidia's $4B Laser Lockup Pushes Rivals Past 2027 and Access Tom’s Hardware Premium’s Computex 2026 coverage for free — sign up for an account to read insider reports from the show?"
+    ]
+  },
+  "knowledgeGaps": [],
+  "shortPost": "I scanned wiki-ai-supply-chain with SwarmVault: 90 sources -> 608 wiki pages, 599 graph nodes, 1894 edges.\nTop hubs: Original:, 2026, and https.\nMost surprising link: 华泰证券：618低价竞争降温 平台聚焦效率升级 semantically_similar_to 韩国家庭一季度酒精饮料支出同比下降9%，创七年来最大降幅.\nEverything stays local. Try: npm install -g @swarmvaultai/cli && swarmvault scan ./your-repo",
+  "relatedNodeIds": [
+    "entity:original",
+    "concept:2026",
+    "concept:https",
+    "entity:ee-times",
+    "concept:original",
+    "entity:computex"
+  ],
+  "relatedPageIds": [
+    "entity:original",
+    "concept:2026",
+    "concept:https",
+    "entity:ee-times",
+    "concept:original",
+    "entity:computex"
+  ],
+  "relatedSourceIds": [
+    "00-token-c0fbba38",
+    "10-01-10-9b40249c",
+    "10-36-45a8a658",
+    "2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f",
+    "2-5-aippy-ai-36-a52689fc",
+    "2-micro-led-ai-58e9e3d4",
+    "20-7a2207fa",
+    "2026q1-15db919f",
+    "23-55432ec3",
+    "256gb-of-dual-channel-ram-hits-mass-market-thanks-to-origin-code-quad-rank-cudim-361c6bf9",
+    "36-2026-ai-48760c87",
+    "36-e13fd522",
+    "420-a31db868",
+    "5-d5b57ca9",
+    "5-efa8066b",
+    "6-4d647596",
+    "6-st-d96b6eb3",
+    "618-5754965c",
+    "618-ai-916e835e",
+    "7-1-ipo-windows-pc-d602dc24",
+    "75-1-5-youtube-9f063d27",
+    "8-1-6-sk-ipo-140-4ca3e792",
+    "8000-75e9b831",
+    "9-4c0783bd",
+    "a-b43a7ff2",
+    "access-tom-s-hardware-premium-s-computex-2026-coverage-for-free-sign-up-for-an-a-d1a4cabc",
+    "agi-115a74ce",
+    "ai-19383e96",
+    "ai-1fb02f31",
+    "ai-7d3e6820",
+    "ai-accelerated-software-security-vulnerability-discovery-is-hardware-next-56d4fd7e",
+    "ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39",
+    "ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d",
+    "ai-fde95e3c",
+    "ai4s-36-12ae3127",
+    "amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5",
+    "arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff",
+    "aromemanpo-b-10-b85b6668",
+    "asus-monstrous-rog-astral-geforce-rtx-5090-edition-20-includes-expansive-curved--3fd8b9cf",
+    "asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-6a638edc",
+    "asus-world-first-oled-esports-monitor-can-hit-540hz-at-1080p-rog-strix-oled-mode-56f5dbe3",
+    "bambu-lab-launches-big-bed-slinger-a2l-company-s-h2s-lite-is-half-the-cost-of-h2-c7aa24dd",
+    "beyond-the-factory-floor-xr-training-for-the-next-industrial-era-6d87b89e",
+    "budget-smartphones-become-less-attractive-in-the-era-of-artificial-intelligence-ba9ca3b3",
+    "bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1",
+    "china-is-building-a-computing-power-high-speed-rail-6ae5adca",
+    "cryptominer-dmg-signs-loi-to-secure-50mw-ai-customer-in-canada-6ae4b022",
+    "data-decommissioning-in-data-centers-97bbac28",
+    "early-memory-contention-checks-reduce-ic-design-risks-2fa560bb",
+    "environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7",
+    "etf-f7ec9dba",
+    "gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095",
+    "gigabyte-debuts-fourth-gen-tandem-woled-and-multi-mode-mini-led-gaming-monitors--8734a69d",
+    "hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7",
+    "high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763",
+    "inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da",
+    "item-2b1d1f82",
+    "item-344deb15",
+    "item-3ad4394b",
+    "item-7966b751",
+    "item-9f9f6dfb",
+    "item-d9b25e5a",
+    "item-f9bd8eb4",
+    "jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56",
+    "lululemon-e981697e",
+    "noctua-announces-new-thermal-pad-for-amd-chips-in-partnership-with-carbice-produ-e4649514",
+    "openai-ai-f5fddf99",
+    "oracle-database-aws-now-offered-in-20-global-regions-d78f0471",
+    "polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a",
+    "police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b",
+    "product-recall-management-guide-for-electronics-manufacturing-smbs-96c461a4",
+    "qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43",
+    "qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1",
+    "research-computing-infrastructure-report-2026-e3eb7982",
+    "save-78-on-nord-s-latest-complete-vpn-package-27-months-of-online-protection-for-c6a04757",
+    "semiconductor-industry-in-china-15ab2d27",
+    "sk-hynix-to-double-memory-wafer-capacity-within-five-years-chairman-says-ai-driv-005fac25",
+    "stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81",
+    "taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6",
+    "the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473",
+    "the-sub-2nm-paradox-f67d3ffe",
+    "the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4",
+    "token-ai-05fbba82",
+    "tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93",
+    "tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand--9cc4dead",
+    "uefa-and-uc3-select-alibaba-as-ai-and-cloud-partner-76cc147b",
+    "virtus-completes-installation-of-two-super-grid-transformers-at-wustermark-campu-aa30fb62",
+    "watermark-032a84ec",
+    "waves-776f17d7",
+    "windows-server-vulnerability-can-grant-system-privileges-with-just-a-malformed-p-a2a2bf88"
+  ]
+}

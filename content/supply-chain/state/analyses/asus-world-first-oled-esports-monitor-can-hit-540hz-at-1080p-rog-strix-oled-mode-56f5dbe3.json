@@ -1,0 +1,82 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "asus-world-first-oled-esports-monitor-can-hit-540hz-at-1080p-rog-strix-oled-mode-56f5dbe3",
+  "sourceHash": "56f5dbe3158e4fa96b2dd81297befa693693371187115225686a1ad9d0ec8259",
+  "semanticHash": "1101648c12ba200f412900bc0394b5d21cc49379ee3f9f4ad5825fcc2202df7d",
+  "extractionHash": "dc159e02fbdc09847e1dbcbca1eeb38153ce25d28a1c849617b5a143fd5b7e3a",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Asus' world-first OLED esports monitor can hit 540Hz at 1080p — ROG Strix OLED model among four fresh offerings",
+  "summary": "Asus' world-first OLED esports monitor can hit 540Hz at 1080p — ROG Strix OLED model among four fresh offerings Three of Asus’ new ROG monitors use OLED panels, while the fourth leverages “Fast IPS” Original: https://www.tomshardware.com/monitors/gaming-monitors/asus-world-first-oled-esports-monitor-can-hit-540hz-at-1080p-rog-strix-oled-model-among-four-fresh-offerings",
+  "concepts": [
+    {
+      "id": "concept:oled",
+      "name": "oled",
+      "description": "Frequently referenced concept in Asus' world-first OLED esports monitor can hit 540Hz at 1080p — ROG Strix OLED model among four fresh offerings."
+    },
+    {
+      "id": "concept:asus",
+      "name": "asus",
+      "description": "Frequently referenced concept in Asus' world-first OLED esports monitor can hit 540Hz at 1080p — ROG Strix OLED model among four fresh offerings."
+    },
+    {
+      "id": "concept:monitors",
+      "name": "monitors",
+      "description": "Frequently referenced concept in Asus' world-first OLED esports monitor can hit 540Hz at 1080p — ROG Strix OLED model among four fresh offerings."
+    },
+    {
+      "id": "concept:1080p",
+      "name": "1080p",
+      "description": "Frequently referenced concept in Asus' world-first OLED esports monitor can hit 540Hz at 1080p — ROG Strix OLED model among four fresh offerings."
+    },
+    {
+      "id": "concept:540hz",
+      "name": "540hz",
+      "description": "Frequently referenced concept in Asus' world-first OLED esports monitor can hit 540Hz at 1080p — ROG Strix OLED model among four fresh offerings."
+    },
+    {
+      "id": "concept:among",
+      "name": "among",
+      "description": "Frequently referenced concept in Asus' world-first OLED esports monitor can hit 540Hz at 1080p — ROG Strix OLED model among four fresh offerings."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:strix",
+      "name": "Strix",
+      "description": "Named entity mentioned in Asus' world-first OLED esports monitor can hit 540Hz at 1080p — ROG Strix OLED model among four fresh offerings."
+    },
+    {
+      "id": "entity:three",
+      "name": "Three",
+      "description": "Named entity mentioned in Asus' world-first OLED esports monitor can hit 540Hz at 1080p — ROG Strix OLED model among four fresh offerings."
+    },
+    {
+      "id": "entity:asus",
+      "name": "Asus’",
+      "description": "Named entity mentioned in Asus' world-first OLED esports monitor can hit 540Hz at 1080p — ROG Strix OLED model among four fresh offerings."
+    },
+    {
+      "id": "entity:original",
+      "name": "Original:",
+      "description": "Named entity mentioned in Asus' world-first OLED esports monitor can hit 540Hz at 1080p — ROG Strix OLED model among four fresh offerings."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:asus-world-first-oled-esports-monitor-can-hit-540hz-at-1080p-rog-strix-oled-mode-56f5dbe3:1",
+      "text": "Asus' world-first OLED esports monitor can hit 540Hz at 1080p — ROG Strix OLED model among four fresh offerings Three of Asus’ new ROG monitors use OLED panels, while the fourth leverages “Fast IPS” Original: https://www.tomshardware.com/monitors/gaming-monitors/asus-world-first-oled-esports-monitor-can-hit-540hz-at-1080p-rog-strix-oled-model-among-four-fresh-offerings",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "asus-world-first-oled-esports-monitor-can-hit-540hz-at-1080p-rog-strix-oled-mode-56f5dbe3"
+    }
+  ],
+  "questions": [
+    "How does oled relate to Asus' world-first OLED esports monitor can hit 540Hz at 1080p — ROG Strix OLED model among four fresh offerings?",
+    "How does asus relate to Asus' world-first OLED esports monitor can hit 540Hz at 1080p — ROG Strix OLED model among four fresh offerings?",
+    "How does monitors relate to Asus' world-first OLED esports monitor can hit 540Hz at 1080p — ROG Strix OLED model among four fresh offerings?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.239Z"
+}

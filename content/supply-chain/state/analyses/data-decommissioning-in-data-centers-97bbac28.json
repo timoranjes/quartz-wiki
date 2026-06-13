@@ -1,0 +1,72 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "data-decommissioning-in-data-centers-97bbac28",
+  "sourceHash": "97bbac28c69b031c1b7be7cd2531e4b6778246fa6a88393dc630c064caaa6899",
+  "semanticHash": "870125151ba53cb28b69b3acbe8cd7062cc4754e69354cb3c8b365264b6f4234",
+  "extractionHash": "3825449c1671e587fee0d2c4d8f5029208737c5dc439ff93c2b55de8cf97f581",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Data decommissioning in data centers",
+  "summary": "Data decommissioning in data centers Gain total control of your data and eliminate multi-million dollar breach risks Original: https://www.datacenterdynamics.com/en/whitepapers/data-decommissioning-in-data-centers/",
+  "concepts": [
+    {
+      "id": "concept:data",
+      "name": "data",
+      "description": "Frequently referenced concept in Data decommissioning in data centers."
+    },
+    {
+      "id": "concept:breach",
+      "name": "breach",
+      "description": "Frequently referenced concept in Data decommissioning in data centers."
+    },
+    {
+      "id": "concept:centers",
+      "name": "centers",
+      "description": "Frequently referenced concept in Data decommissioning in data centers."
+    },
+    {
+      "id": "concept:control",
+      "name": "control",
+      "description": "Frequently referenced concept in Data decommissioning in data centers."
+    },
+    {
+      "id": "concept:data-decommissioning-in-data-centers",
+      "name": "data-decommissioning-in-data-centers",
+      "description": "Frequently referenced concept in Data decommissioning in data centers."
+    },
+    {
+      "id": "concept:datacenterdynamics",
+      "name": "datacenterdynamics",
+      "description": "Frequently referenced concept in Data decommissioning in data centers."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:gain",
+      "name": "Gain",
+      "description": "Named entity mentioned in Data decommissioning in data centers."
+    },
+    {
+      "id": "entity:original",
+      "name": "Original:",
+      "description": "Named entity mentioned in Data decommissioning in data centers."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:data-decommissioning-in-data-centers-97bbac28:1",
+      "text": "Data decommissioning in data centers Gain total control of your data and eliminate multi-million dollar breach risks Original: https://www.datacenterdynamics.com/en/whitepapers/data-decommissioning-in-data-centers/",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "data-decommissioning-in-data-centers-97bbac28"
+    }
+  ],
+  "questions": [
+    "How does data relate to Data decommissioning in data centers?",
+    "How does breach relate to Data decommissioning in data centers?",
+    "How does centers relate to Data decommissioning in data centers?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.259Z"
+}

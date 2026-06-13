@@ -1,0 +1,61 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "lululemon-e981697e",
+  "sourceHash": "e981697e7ac38c8acf12b7cac66acacfa465572db11fe4e788e83116a5930aaf",
+  "semanticHash": "7b820d08c78dc3ecad4055bf306c778a8f0f974d0ed691b9a83e504a23005b7c",
+  "extractionHash": "0831163e2ab7ae7bf0c371c0f5529a3b144a4f3c858e5d93226356f6848d0187",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "把瑜伽垫铺到长城，lululemon让瑜伽“不止于垫上”",
+  "summary": "把瑜伽垫铺到长城，lululemon让瑜伽“不止于垫上” 兑现十年“长城之约”，回归内核，衍生新的瑜伽故事。 Original: https://www.tmtpost.com/8009177.html",
+  "concepts": [
+    {
+      "id": "concept:8009177",
+      "name": "8009177",
+      "description": "Frequently referenced concept in 把瑜伽垫铺到长城，lululemon让瑜伽“不止于垫上”."
+    },
+    {
+      "id": "concept:html",
+      "name": "html",
+      "description": "Frequently referenced concept in 把瑜伽垫铺到长城，lululemon让瑜伽“不止于垫上”."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in 把瑜伽垫铺到长城，lululemon让瑜伽“不止于垫上”."
+    },
+    {
+      "id": "concept:lululemon",
+      "name": "lululemon",
+      "description": "Frequently referenced concept in 把瑜伽垫铺到长城，lululemon让瑜伽“不止于垫上”."
+    },
+    {
+      "id": "concept:original",
+      "name": "original",
+      "description": "Frequently referenced concept in 把瑜伽垫铺到长城，lululemon让瑜伽“不止于垫上”."
+    },
+    {
+      "id": "concept:tmtpost",
+      "name": "tmtpost",
+      "description": "Frequently referenced concept in 把瑜伽垫铺到长城，lululemon让瑜伽“不止于垫上”."
+    }
+  ],
+  "entities": [],
+  "claims": [
+    {
+      "id": "claim:lululemon-e981697e:1",
+      "text": "把瑜伽垫铺到长城，lululemon让瑜伽“不止于垫上” 兑现十年“长城之约”，回归内核，衍生新的瑜伽故事。 Original: https://www.tmtpost.com/8009177.html",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "lululemon-e981697e"
+    }
+  ],
+  "questions": [
+    "How does 8009177 relate to 把瑜伽垫铺到长城，lululemon让瑜伽“不止于垫上”?",
+    "How does html relate to 把瑜伽垫铺到长城，lululemon让瑜伽“不止于垫上”?",
+    "How does https relate to 把瑜伽垫铺到长城，lululemon让瑜伽“不止于垫上”?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.369Z"
+}

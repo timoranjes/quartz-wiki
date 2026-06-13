@@ -1,0 +1,92 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1",
+  "sourceHash": "cf1864b18f37fecf02f7628bf3df2cd0fd91ec70fd8e8fac5a3fe744847806a7",
+  "semanticHash": "ce558cfc59ce12266fa2ad89821315297b150edd74a4f17c312996b4d587489b",
+  "extractionHash": "50db28564828abff14e0762be1424d4f892d16fedaae4dc7a85e83878611506f",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "BW Group signs deal to build 250MW data center in Telemark County, Norway",
+  "summary": "BW Group signs deal to build 250MW data center in Telemark County, Norway Company partners to build facility at new Frier Vest industrial park Original: https://www.datacenterdynamics.com/en/news/bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway/",
+  "concepts": [
+    {
+      "id": "concept:build",
+      "name": "build",
+      "description": "Frequently referenced concept in BW Group signs deal to build 250MW data center in Telemark County, Norway."
+    },
+    {
+      "id": "concept:250mw",
+      "name": "250mw",
+      "description": "Frequently referenced concept in BW Group signs deal to build 250MW data center in Telemark County, Norway."
+    },
+    {
+      "id": "concept:bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway",
+      "name": "bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway",
+      "description": "Frequently referenced concept in BW Group signs deal to build 250MW data center in Telemark County, Norway."
+    },
+    {
+      "id": "concept:center",
+      "name": "center",
+      "description": "Frequently referenced concept in BW Group signs deal to build 250MW data center in Telemark County, Norway."
+    },
+    {
+      "id": "concept:company",
+      "name": "company",
+      "description": "Frequently referenced concept in BW Group signs deal to build 250MW data center in Telemark County, Norway."
+    },
+    {
+      "id": "concept:county",
+      "name": "county",
+      "description": "Frequently referenced concept in BW Group signs deal to build 250MW data center in Telemark County, Norway."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:bw-group",
+      "name": "BW Group",
+      "description": "Named entity mentioned in BW Group signs deal to build 250MW data center in Telemark County, Norway."
+    },
+    {
+      "id": "entity:telemark-county-norway-company-partners",
+      "name": "Telemark County, Norway Company partners",
+      "description": "Named entity mentioned in BW Group signs deal to build 250MW data center in Telemark County, Norway."
+    },
+    {
+      "id": "entity:frier-vest",
+      "name": "Frier Vest",
+      "description": "Named entity mentioned in BW Group signs deal to build 250MW data center in Telemark County, Norway."
+    },
+    {
+      "id": "entity:original",
+      "name": "Original:",
+      "description": "Named entity mentioned in BW Group signs deal to build 250MW data center in Telemark County, Norway."
+    },
+    {
+      "id": "entity:telemark-county",
+      "name": "Telemark County,",
+      "description": "Named entity mentioned in BW Group signs deal to build 250MW data center in Telemark County, Norway."
+    },
+    {
+      "id": "entity:park-original",
+      "name": "park Original:",
+      "description": "Named entity mentioned in BW Group signs deal to build 250MW data center in Telemark County, Norway."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1:1",
+      "text": "BW Group signs deal to build 250MW data center in Telemark County, Norway Company partners to build facility at new Frier Vest industrial park Original: https://www.datacenterdynamics.com/en/news/bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway/",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1"
+    }
+  ],
+  "questions": [
+    "How does build relate to BW Group signs deal to build 250MW data center in Telemark County, Norway?",
+    "How does 250mw relate to BW Group signs deal to build 250MW data center in Telemark County, Norway?",
+    "How does bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway relate to BW Group signs deal to build 250MW data center in Telemark County, Norway?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.247Z"
+}

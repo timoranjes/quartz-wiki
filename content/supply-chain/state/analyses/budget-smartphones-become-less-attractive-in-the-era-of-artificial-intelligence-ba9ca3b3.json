@@ -1,0 +1,82 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "budget-smartphones-become-less-attractive-in-the-era-of-artificial-intelligence-ba9ca3b3",
+  "sourceHash": "ba9ca3b3b3a913ae5de7e45a38b3173304b03292a12020ef5736a3ffc84510db",
+  "semanticHash": "60eceb3f901c17eb347e157d1c715dbe1148c242303c3411dde83d794a90f129",
+  "extractionHash": "9948da92f95bd42fc98849e5f7ce3b3d19e57e4913b95d37cf75a8ccd41b8c00",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Budget Smartphones Become Less Attractive in the Era of Artificial Intelligence",
+  "summary": "Budget Smartphones Become Less Attractive in the Era of Artificial Intelligence Bidding farewell to the “golden era,” emerging smartphone markets have become AI’s biggest “victims.” Original: https://www.tmtpost.com/8010587.html",
+  "concepts": [
+    {
+      "id": "concept:become",
+      "name": "become",
+      "description": "Frequently referenced concept in Budget Smartphones Become Less Attractive in the Era of Artificial Intelligence."
+    },
+    {
+      "id": "concept:8010587",
+      "name": "8010587",
+      "description": "Frequently referenced concept in Budget Smartphones Become Less Attractive in the Era of Artificial Intelligence."
+    },
+    {
+      "id": "concept:artificial",
+      "name": "artificial",
+      "description": "Frequently referenced concept in Budget Smartphones Become Less Attractive in the Era of Artificial Intelligence."
+    },
+    {
+      "id": "concept:attractive",
+      "name": "attractive",
+      "description": "Frequently referenced concept in Budget Smartphones Become Less Attractive in the Era of Artificial Intelligence."
+    },
+    {
+      "id": "concept:bidding",
+      "name": "bidding",
+      "description": "Frequently referenced concept in Budget Smartphones Become Less Attractive in the Era of Artificial Intelligence."
+    },
+    {
+      "id": "concept:biggest",
+      "name": "biggest",
+      "description": "Frequently referenced concept in Budget Smartphones Become Less Attractive in the Era of Artificial Intelligence."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:smartphones-become-less-attractive",
+      "name": "Smartphones Become Less Attractive",
+      "description": "Named entity mentioned in Budget Smartphones Become Less Attractive in the Era of Artificial Intelligence."
+    },
+    {
+      "id": "entity:era",
+      "name": "Era",
+      "description": "Named entity mentioned in Budget Smartphones Become Less Attractive in the Era of Artificial Intelligence."
+    },
+    {
+      "id": "entity:artificial-intelligence-bidding",
+      "name": "Artificial Intelligence Bidding",
+      "description": "Named entity mentioned in Budget Smartphones Become Less Attractive in the Era of Artificial Intelligence."
+    },
+    {
+      "id": "entity:original",
+      "name": "Original:",
+      "description": "Named entity mentioned in Budget Smartphones Become Less Attractive in the Era of Artificial Intelligence."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:budget-smartphones-become-less-attractive-in-the-era-of-artificial-intelligence-ba9ca3b3:1",
+      "text": "Budget Smartphones Become Less Attractive in the Era of Artificial Intelligence Bidding farewell to the “golden era,” emerging smartphone markets have become AI’s biggest “victims.” Original: https://www.tmtpost.com/8010587.html",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "budget-smartphones-become-less-attractive-in-the-era-of-artificial-intelligence-ba9ca3b3"
+    }
+  ],
+  "questions": [
+    "How does become relate to Budget Smartphones Become Less Attractive in the Era of Artificial Intelligence?",
+    "How does 8010587 relate to Budget Smartphones Become Less Attractive in the Era of Artificial Intelligence?",
+    "How does artificial relate to Budget Smartphones Become Less Attractive in the Era of Artificial Intelligence?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.253Z"
+}

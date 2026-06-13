@@ -1,0 +1,56 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "420-a31db868",
+  "sourceHash": "a31db86878690d67c2bfcfa873d2bf85d3a125ba6ba43bc49f742e968a70ce16",
+  "semanticHash": "0be0caf06f58b15eb3efd5b3c7751d9c03fa7cc24f2f5ce5768fdb6d3eb95820",
+  "extractionHash": "115419de22b1c4157f2d0d12656577523fe59f0eee97db0100d9c4941670cb60",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "黄仁勋成“最强外援”，420亿，宇树给投资人送了份儿童节礼物",
+  "summary": "黄仁勋成“最强外援”，420亿，宇树给投资人送了份儿童节礼物 73天闪电过会，“人形机器人第一股”要来了。 Original: https://www.tmtpost.com/8010316.html",
+  "concepts": [
+    {
+      "id": "concept:8010316",
+      "name": "8010316",
+      "description": "Frequently referenced concept in 黄仁勋成“最强外援”，420亿，宇树给投资人送了份儿童节礼物."
+    },
+    {
+      "id": "concept:html",
+      "name": "html",
+      "description": "Frequently referenced concept in 黄仁勋成“最强外援”，420亿，宇树给投资人送了份儿童节礼物."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in 黄仁勋成“最强外援”，420亿，宇树给投资人送了份儿童节礼物."
+    },
+    {
+      "id": "concept:original",
+      "name": "original",
+      "description": "Frequently referenced concept in 黄仁勋成“最强外援”，420亿，宇树给投资人送了份儿童节礼物."
+    },
+    {
+      "id": "concept:tmtpost",
+      "name": "tmtpost",
+      "description": "Frequently referenced concept in 黄仁勋成“最强外援”，420亿，宇树给投资人送了份儿童节礼物."
+    }
+  ],
+  "entities": [],
+  "claims": [
+    {
+      "id": "claim:420-a31db868:1",
+      "text": "黄仁勋成“最强外援”，420亿，宇树给投资人送了份儿童节礼物 73天闪电过会，“人形机器人第一股”要来了。 Original: https://www.tmtpost.com/8010316.html",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "420-a31db868"
+    }
+  ],
+  "questions": [
+    "How does 8010316 relate to 黄仁勋成“最强外援”，420亿，宇树给投资人送了份儿童节礼物?",
+    "How does html relate to 黄仁勋成“最强外援”，420亿，宇树给投资人送了份儿童节礼物?",
+    "How does https relate to 黄仁勋成“最强外援”，420亿，宇树给投资人送了份儿童节礼物?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.076Z"
+}

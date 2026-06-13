@@ -1,0 +1,61 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "2026q1-15db919f",
+  "sourceHash": "15db919fda1f2b2732cd8b4dd446bcbffa79db0b2bed22eef2b2369216be6037",
+  "semanticHash": "fdcfa6778acee467e45573962f0829429927bd85432311ff03fe76e31373916e",
+  "extractionHash": "28da53eafef238f92cbef6b309b9bfcf213260e4734b4086acb5e28a2632f5d8",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "2026Q1调味品市场回顾",
+  "summary": "2026Q1调味品市场回顾 健康化潮流代表的低盐低钠、少添加、高级原料等趋势依然在持续。 Original: https://www.tmtpost.com/8010119.html",
+  "concepts": [
+    {
+      "id": "concept:2026q1",
+      "name": "2026q1",
+      "description": "Frequently referenced concept in 2026Q1调味品市场回顾."
+    },
+    {
+      "id": "concept:8010119",
+      "name": "8010119",
+      "description": "Frequently referenced concept in 2026Q1调味品市场回顾."
+    },
+    {
+      "id": "concept:html",
+      "name": "html",
+      "description": "Frequently referenced concept in 2026Q1调味品市场回顾."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in 2026Q1调味品市场回顾."
+    },
+    {
+      "id": "concept:original",
+      "name": "original",
+      "description": "Frequently referenced concept in 2026Q1调味品市场回顾."
+    },
+    {
+      "id": "concept:tmtpost",
+      "name": "tmtpost",
+      "description": "Frequently referenced concept in 2026Q1调味品市场回顾."
+    }
+  ],
+  "entities": [],
+  "claims": [
+    {
+      "id": "claim:2026q1-15db919f:1",
+      "text": "2026Q1调味品市场回顾 健康化潮流代表的低盐低钠、少添加、高级原料等趋势依然在持续。 Original: https://www.tmtpost.com/8010119.html",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "2026q1-15db919f"
+    }
+  ],
+  "questions": [
+    "How does 2026q1 relate to 2026Q1调味品市场回顾?",
+    "How does 8010119 relate to 2026Q1调味品市场回顾?",
+    "How does html relate to 2026Q1调味品市场回顾?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.070Z"
+}

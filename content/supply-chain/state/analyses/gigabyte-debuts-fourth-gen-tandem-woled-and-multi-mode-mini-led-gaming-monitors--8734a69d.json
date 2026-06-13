@@ -1,0 +1,87 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "gigabyte-debuts-fourth-gen-tandem-woled-and-multi-mode-mini-led-gaming-monitors--8734a69d",
+  "sourceHash": "8734a69dc0d835fd300f39119518d3cd5ecbb7f23422c9f1bc42efb3566497b3",
+  "semanticHash": "e71c0467cebf94ec163f61c0d9037f55564e043ece7fcd715828d8c775cd684b",
+  "extractionHash": "26aada9d414eb94497722f132311ff5063d6dd83e6b52e5340d53213e8d516d0",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Gigabyte debuts fourth-gen Tandem WOLED and multi-mode Mini LED gaming monitors — 27 to 32 inches, up to 480 Hz, and up to 5K resolution",
+  "summary": "Gigabyte debuts fourth-gen Tandem WOLED and multi-mode Mini LED gaming monitors — 27 to 32 inches, up to 480 Hz, and up to 5K resolution Gigabyte Aorus Elite gaming monitors include a multi-mode 5K monitor Original: https://www.tomshardware.com/monitors/gaming-monitors/gigabyte-debuts-fourth-gen-tandem-woled-and-multi-mode-mini-led-gaming-monitors-27-to-32-inches-up-to-480-hz-and-up-to-5k-resolution",
+  "concepts": [
+    {
+      "id": "concept:monitors",
+      "name": "monitors",
+      "description": "Frequently referenced concept in Gigabyte debuts fourth-gen Tandem WOLED and multi-mode Mini LED gaming monitors — 27 to 32 inches, up to 480 Hz, and up to 5K resolution."
+    },
+    {
+      "id": "concept:gaming",
+      "name": "gaming",
+      "description": "Frequently referenced concept in Gigabyte debuts fourth-gen Tandem WOLED and multi-mode Mini LED gaming monitors — 27 to 32 inches, up to 480 Hz, and up to 5K resolution."
+    },
+    {
+      "id": "concept:gigabyte",
+      "name": "gigabyte",
+      "description": "Frequently referenced concept in Gigabyte debuts fourth-gen Tandem WOLED and multi-mode Mini LED gaming monitors — 27 to 32 inches, up to 480 Hz, and up to 5K resolution."
+    },
+    {
+      "id": "concept:multi-mode",
+      "name": "multi-mode",
+      "description": "Frequently referenced concept in Gigabyte debuts fourth-gen Tandem WOLED and multi-mode Mini LED gaming monitors — 27 to 32 inches, up to 480 Hz, and up to 5K resolution."
+    },
+    {
+      "id": "concept:aorus",
+      "name": "aorus",
+      "description": "Frequently referenced concept in Gigabyte debuts fourth-gen Tandem WOLED and multi-mode Mini LED gaming monitors — 27 to 32 inches, up to 480 Hz, and up to 5K resolution."
+    },
+    {
+      "id": "concept:debuts",
+      "name": "debuts",
+      "description": "Frequently referenced concept in Gigabyte debuts fourth-gen Tandem WOLED and multi-mode Mini LED gaming monitors — 27 to 32 inches, up to 480 Hz, and up to 5K resolution."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:gen-tandem",
+      "name": "gen Tandem",
+      "description": "Named entity mentioned in Gigabyte debuts fourth-gen Tandem WOLED and multi-mode Mini LED gaming monitors — 27 to 32 inches, up to 480 Hz, and up to 5K resolution."
+    },
+    {
+      "id": "entity:mini",
+      "name": "Mini",
+      "description": "Named entity mentioned in Gigabyte debuts fourth-gen Tandem WOLED and multi-mode Mini LED gaming monitors — 27 to 32 inches, up to 480 Hz, and up to 5K resolution."
+    },
+    {
+      "id": "entity:hz",
+      "name": "Hz,",
+      "description": "Named entity mentioned in Gigabyte debuts fourth-gen Tandem WOLED and multi-mode Mini LED gaming monitors — 27 to 32 inches, up to 480 Hz, and up to 5K resolution."
+    },
+    {
+      "id": "entity:aorus-elite",
+      "name": "Aorus Elite",
+      "description": "Named entity mentioned in Gigabyte debuts fourth-gen Tandem WOLED and multi-mode Mini LED gaming monitors — 27 to 32 inches, up to 480 Hz, and up to 5K resolution."
+    },
+    {
+      "id": "entity:original",
+      "name": "Original:",
+      "description": "Named entity mentioned in Gigabyte debuts fourth-gen Tandem WOLED and multi-mode Mini LED gaming monitors — 27 to 32 inches, up to 480 Hz, and up to 5K resolution."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:gigabyte-debuts-fourth-gen-tandem-woled-and-multi-mode-mini-led-gaming-monitors--8734a69d:1",
+      "text": "Gigabyte debuts fourth-gen Tandem WOLED and multi-mode Mini LED gaming monitors — 27 to 32 inches, up to 480 Hz, and up to 5K resolution Gigabyte Aorus Elite gaming monitors include a multi-mode 5K monitor Original: https://www.tomshardware.com/monitors/gaming-monitors/gigabyte-debuts-fourth-gen-tandem-woled-and-multi-mode-mini-led-gaming-monitors-27-to-32-inches-up-to-480-hz-and-up-to-5k-resolution",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "gigabyte-debuts-fourth-gen-tandem-woled-and-multi-mode-mini-led-gaming-monitors--8734a69d"
+    }
+  ],
+  "questions": [
+    "How does monitors relate to Gigabyte debuts fourth-gen Tandem WOLED and multi-mode Mini LED gaming monitors — 27 to 32 inches, up to 480 Hz, and up to 5K resolution?",
+    "How does gaming relate to Gigabyte debuts fourth-gen Tandem WOLED and multi-mode Mini LED gaming monitors — 27 to 32 inches, up to 480 Hz, and up to 5K resolution?",
+    "How does gigabyte relate to Gigabyte debuts fourth-gen Tandem WOLED and multi-mode Mini LED gaming monitors — 27 to 32 inches, up to 480 Hz, and up to 5K resolution?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.271Z"
+}

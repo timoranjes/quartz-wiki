@@ -1,0 +1,116 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763",
+  "sourceHash": "9c03e76379dc901356e9d57a11682eba0cc5682a1ca4441e0e40fd8befdc797e",
+  "semanticHash": "589b983c64b0b80dacec8b12c3c8b663bf19280d3ee1e8e9c0faeab7fdd24690",
+  "extractionHash": "167244d63da2d976dcba09f33c1f841cfb2b50d1c1c121e52862e7c6fdf7f33c",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "High-Voltage GaN Bi-Directional Switches: Strong Performance, Simpler to Use",
+  "summary": "High-Voltage GaN Bi-Directional Switches: Strong Performance, Simpler to Use The demand for more efficient power solutions continues to put pressure on designers to optimize system design without compromising performance. Read how you can simplify high-voltage power conversion and reduce system cost, size and complexity for a range of demanding applications with GaN BDS. High-voltage GaN bi-directional switches enable implementation of single-stage power converters with […] The post High-Voltage GaN Bi-Directional Switches: Strong Performance, Simpler to Use appeared first on EE Times.",
+  "concepts": [
+    {
+      "id": "concept:high",
+      "name": "high",
+      "description": "Frequently referenced concept in High-Voltage GaN Bi-Directional Switches: Strong Performance, Simpler to Use."
+    },
+    {
+      "id": "concept:voltage",
+      "name": "voltage",
+      "description": "Frequently referenced concept in High-Voltage GaN Bi-Directional Switches: Strong Performance, Simpler to Use."
+    },
+    {
+      "id": "concept:bi-directional",
+      "name": "bi-directional",
+      "description": "Frequently referenced concept in High-Voltage GaN Bi-Directional Switches: Strong Performance, Simpler to Use."
+    },
+    {
+      "id": "concept:performance",
+      "name": "performance",
+      "description": "Frequently referenced concept in High-Voltage GaN Bi-Directional Switches: Strong Performance, Simpler to Use."
+    },
+    {
+      "id": "concept:power",
+      "name": "power",
+      "description": "Frequently referenced concept in High-Voltage GaN Bi-Directional Switches: Strong Performance, Simpler to Use."
+    },
+    {
+      "id": "concept:switches",
+      "name": "switches",
+      "description": "Frequently referenced concept in High-Voltage GaN Bi-Directional Switches: Strong Performance, Simpler to Use."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:voltage-gan-bi-directional-switches-strong-performance-simpler",
+      "name": "Voltage GaN Bi-Directional Switches: Strong Performance, Simpler",
+      "description": "Named entity mentioned in High-Voltage GaN Bi-Directional Switches: Strong Performance, Simpler to Use."
+    },
+    {
+      "id": "entity:use",
+      "name": "Use",
+      "description": "Named entity mentioned in High-Voltage GaN Bi-Directional Switches: Strong Performance, Simpler to Use."
+    },
+    {
+      "id": "entity:gan",
+      "name": "GaN",
+      "description": "Named entity mentioned in High-Voltage GaN Bi-Directional Switches: Strong Performance, Simpler to Use."
+    },
+    {
+      "id": "entity:the-post-high-voltage-gan-bi-directional-switches-strong-performance-simpler",
+      "name": "The post High-Voltage GaN Bi-Directional Switches: Strong Performance, Simpler",
+      "description": "Named entity mentioned in High-Voltage GaN Bi-Directional Switches: Strong Performance, Simpler to Use."
+    },
+    {
+      "id": "entity:ee-times",
+      "name": "EE Times.",
+      "description": "Named entity mentioned in High-Voltage GaN Bi-Directional Switches: Strong Performance, Simpler to Use."
+    },
+    {
+      "id": "entity:the-post",
+      "name": "The post",
+      "description": "Named entity mentioned in High-Voltage GaN Bi-Directional Switches: Strong Performance, Simpler to Use."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763:1",
+      "text": "High-Voltage GaN Bi-Directional Switches: Strong Performance, Simpler to Use The demand for more efficient power solutions continues to put pressure on designers to optimize system design without compromising performance.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "negative",
+      "citation": "high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763"
+    },
+    {
+      "id": "claim:high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763:2",
+      "text": "Read how you can simplify high-voltage power conversion and reduce system cost, size and complexity for a range of demanding applications with GaN BDS.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763"
+    },
+    {
+      "id": "claim:high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763:3",
+      "text": "High-voltage GaN bi-directional switches enable implementation of single-stage power converters with […] The post High-Voltage GaN Bi-Directional Switches: Strong Performance, Simpler to Use appeared first on EE Times.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763"
+    },
+    {
+      "id": "claim:high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763:4",
+      "text": "Original: https://www.eetimes.com/high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use/",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763"
+    }
+  ],
+  "questions": [
+    "How does high relate to High-Voltage GaN Bi-Directional Switches: Strong Performance, Simpler to Use?",
+    "How does voltage relate to High-Voltage GaN Bi-Directional Switches: Strong Performance, Simpler to Use?",
+    "How does bi-directional relate to High-Voltage GaN Bi-Directional Switches: Strong Performance, Simpler to Use?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.354Z"
+}

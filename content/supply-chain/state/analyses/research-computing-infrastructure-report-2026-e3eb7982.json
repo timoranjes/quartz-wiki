@@ -1,0 +1,72 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "research-computing-infrastructure-report-2026-e3eb7982",
+  "sourceHash": "e3eb7982ce414001c50e673178a1860595054090f2287ea4c4946c64a8316b48",
+  "semanticHash": "1d71e7cbfb201ebc29ad82c44bdf090ce47e42194752f4e608620b76359b6079",
+  "extractionHash": "5bdf68797bee194f087cd48dd516e808967296e222ab8c77e3dd569f66e85ff8",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Research Computing Infrastructure Report 2026",
+  "summary": "Research Computing Infrastructure Report 2026 How institutions are balancing AI growth, budget pressure, and infrastructure modernization Original: https://www.datacenterdynamics.com/en/whitepapers/sdx-survey-report-higher-education/",
+  "concepts": [
+    {
+      "id": "concept:infrastructure",
+      "name": "infrastructure",
+      "description": "Frequently referenced concept in Research Computing Infrastructure Report 2026."
+    },
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in Research Computing Infrastructure Report 2026."
+    },
+    {
+      "id": "concept:balancing",
+      "name": "balancing",
+      "description": "Frequently referenced concept in Research Computing Infrastructure Report 2026."
+    },
+    {
+      "id": "concept:budget",
+      "name": "budget",
+      "description": "Frequently referenced concept in Research Computing Infrastructure Report 2026."
+    },
+    {
+      "id": "concept:computing",
+      "name": "computing",
+      "description": "Frequently referenced concept in Research Computing Infrastructure Report 2026."
+    },
+    {
+      "id": "concept:datacenterdynamics",
+      "name": "datacenterdynamics",
+      "description": "Frequently referenced concept in Research Computing Infrastructure Report 2026."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:computing-infrastructure-report",
+      "name": "Computing Infrastructure Report",
+      "description": "Named entity mentioned in Research Computing Infrastructure Report 2026."
+    },
+    {
+      "id": "entity:original",
+      "name": "Original:",
+      "description": "Named entity mentioned in Research Computing Infrastructure Report 2026."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:research-computing-infrastructure-report-2026-e3eb7982:1",
+      "text": "Research Computing Infrastructure Report 2026 How institutions are balancing AI growth, budget pressure, and infrastructure modernization Original: https://www.datacenterdynamics.com/en/whitepapers/sdx-survey-report-higher-education/",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "research-computing-infrastructure-report-2026-e3eb7982"
+    }
+  ],
+  "questions": [
+    "How does infrastructure relate to Research Computing Infrastructure Report 2026?",
+    "How does 2026 relate to Research Computing Infrastructure Report 2026?",
+    "How does balancing relate to Research Computing Infrastructure Report 2026?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.423Z"
+}

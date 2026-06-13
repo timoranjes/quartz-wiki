@@ -1,0 +1,103 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "product-recall-management-guide-for-electronics-manufacturing-smbs-96c461a4",
+  "sourceHash": "96c461a4d4ea5514738d5f6df10afdf4ceb1102c9e1b4204a996345204c87cf2",
+  "semanticHash": "6084ceb1a05cc540b9f96a197c915b787b87f834acf8ad09cc0341d5d06bf490",
+  "extractionHash": "1700fb7ef1e5236fd9a5cf03c6eba3b7b3f4fc814d44b4224e43568dd6328990",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Product Recall Management Guide for Electronics Manufacturing SMBs",
+  "summary": "Product Recall Management Guide for Electronics Manufacturing SMBs This guide explains what product recalls are, what risks they create, and how small and midsize manufacturers can handle them in an organized way. The post Product Recall Management Guide for Electronics Manufacturing SMBs appeared first on EE Times. Original: https://www.eetimes.com/product-recall-management-guide-for-electronics-manufacturing-smbs/",
+  "concepts": [
+    {
+      "id": "concept:guide",
+      "name": "guide",
+      "description": "Frequently referenced concept in Product Recall Management Guide for Electronics Manufacturing SMBs."
+    },
+    {
+      "id": "concept:product",
+      "name": "product",
+      "description": "Frequently referenced concept in Product Recall Management Guide for Electronics Manufacturing SMBs."
+    },
+    {
+      "id": "concept:electronics",
+      "name": "electronics",
+      "description": "Frequently referenced concept in Product Recall Management Guide for Electronics Manufacturing SMBs."
+    },
+    {
+      "id": "concept:management",
+      "name": "management",
+      "description": "Frequently referenced concept in Product Recall Management Guide for Electronics Manufacturing SMBs."
+    },
+    {
+      "id": "concept:manufacturing",
+      "name": "manufacturing",
+      "description": "Frequently referenced concept in Product Recall Management Guide for Electronics Manufacturing SMBs."
+    },
+    {
+      "id": "concept:recall",
+      "name": "recall",
+      "description": "Frequently referenced concept in Product Recall Management Guide for Electronics Manufacturing SMBs."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:product-recall-management-guide",
+      "name": "Product Recall Management Guide",
+      "description": "Named entity mentioned in Product Recall Management Guide for Electronics Manufacturing SMBs."
+    },
+    {
+      "id": "entity:electronics-manufacturing",
+      "name": "Electronics Manufacturing",
+      "description": "Named entity mentioned in Product Recall Management Guide for Electronics Manufacturing SMBs."
+    },
+    {
+      "id": "entity:this",
+      "name": "This",
+      "description": "Named entity mentioned in Product Recall Management Guide for Electronics Manufacturing SMBs."
+    },
+    {
+      "id": "entity:ee-times",
+      "name": "EE Times.",
+      "description": "Named entity mentioned in Product Recall Management Guide for Electronics Manufacturing SMBs."
+    },
+    {
+      "id": "entity:product-recall-management",
+      "name": "Product Recall Management",
+      "description": "Named entity mentioned in Product Recall Management Guide for Electronics Manufacturing SMBs."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:product-recall-management-guide-for-electronics-manufacturing-smbs-96c461a4:1",
+      "text": "Product Recall Management Guide for Electronics Manufacturing SMBs This guide explains what product recalls are, what risks they create, and how small and midsize manufacturers can handle them in an organized way.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "product-recall-management-guide-for-electronics-manufacturing-smbs-96c461a4"
+    },
+    {
+      "id": "claim:product-recall-management-guide-for-electronics-manufacturing-smbs-96c461a4:2",
+      "text": "The post Product Recall Management Guide for Electronics Manufacturing SMBs appeared first on EE Times.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "product-recall-management-guide-for-electronics-manufacturing-smbs-96c461a4"
+    },
+    {
+      "id": "claim:product-recall-management-guide-for-electronics-manufacturing-smbs-96c461a4:3",
+      "text": "Original: https://www.eetimes.com/product-recall-management-guide-for-electronics-manufacturing-smbs/",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "product-recall-management-guide-for-electronics-manufacturing-smbs-96c461a4"
+    }
+  ],
+  "questions": [
+    "How does guide relate to Product Recall Management Guide for Electronics Manufacturing SMBs?",
+    "How does product relate to Product Recall Management Guide for Electronics Manufacturing SMBs?",
+    "How does electronics relate to Product Recall Management Guide for Electronics Manufacturing SMBs?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.382Z"
+}

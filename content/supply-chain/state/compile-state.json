@@ -1,0 +1,3692 @@
+{
+  "generatedAt": "2026-06-06T21:09:03.606Z",
+  "rootSchemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "projectSchemaHashes": {},
+  "effectiveSchemaHashes": {
+    "global": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+    "projects": {}
+  },
+  "projectConfigHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "analyses": {
+    "00-token-c0fbba38": "25b0076f359939903d8811a18d1f36632314dced8b9c0fe9e7edfb0f9fbaaa50",
+    "10-01-10-9b40249c": "232eda194505e07a0d472b33dae5a6799606c137d6f89515f47027ec0b79233a",
+    "10-36-45a8a658": "d90975c88aabe54c80889e2cc082f7509d4ef141b8cb19c75640fb1ef7e5c314",
+    "2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f": "cd8a8a80cef266df47239bdd246e85d4f22c87189160a773f9863fe3bf95e98f",
+    "2-5-aippy-ai-36-a52689fc": "ad968da8c8f55bc9e309bc1940aebe89c26ff54f7c624ad911cd7586c4f32f17",
+    "2-micro-led-ai-58e9e3d4": "a866e71e480e7a2e35761ac6684b6bb1adf23f2253ec501bb1c4ee0927df2e31",
+    "20-7a2207fa": "85dcb84e752bf47388765fc4ae0881a107f6be5c05c962d9c9a2b8a2fa766ed1",
+    "2026q1-15db919f": "93e18d5b451e973118af9169d6c8e39f9f266cb6113b991e322f7a72604b8529",
+    "23-55432ec3": "4ee8670bf177cafb5b5522af8262afafb6bbbd5f2ea2ac2a7e3dafbb5eebb18e",
+    "256gb-of-dual-channel-ram-hits-mass-market-thanks-to-origin-code-quad-rank-cudim-361c6bf9": "dc18732fac3434213490f47f0bc9d4a14f040568375f43ccfd753f771a3d6778",
+    "36-2026-ai-48760c87": "88c1909ac86dfac671dbb840981a4ea9dba64e49f2cf8e1c276bc4269bea3b65",
+    "36-e13fd522": "27cdf70ef8ec6956becbf9f1c1af9427a668d3e536cd263afb407872d9da9e30",
+    "420-a31db868": "76a52cd50a70af05b896ad2ad380927a9ec922594f2014bef6b5756a14c75b5f",
+    "5-d5b57ca9": "eb394af98390a2e60986c564611c4f7fba76315f572a56a1aee70930b85a633c",
+    "5-efa8066b": "5c5b9e8eed9ec4db0c846b179370ec2d08c62880589395a576de67c244b81f8b",
+    "6-4d647596": "fa599f31ef8ef11a4e48d062e9f6da75024be42a3753d9fbbeed1027e3388545",
+    "6-st-d96b6eb3": "9f5a690cef013762f3464a02004e7a55fba8b641ac011d6ebd2266ba019d08e2",
+    "618-5754965c": "c391e5e4bc60bbcb351ac05abab5760a8d72b8aabdc625e63b577a14b652e0c5",
+    "618-ai-916e835e": "13c1d6d75bf6e794e39bcce72230200f7f1c78d868cce9bf318d94d3315d579f",
+    "7-1-ipo-windows-pc-d602dc24": "fd0875234c8396ec92dec65c92533926e894b9a71db01b8280069363358b56bf",
+    "75-1-5-youtube-9f063d27": "a78c87bd577dfaba32c111fc130374d355c4ed9e51bd2a3e3554762cdbe52c40",
+    "8-1-6-sk-ipo-140-4ca3e792": "7e564bdf1fd44643051740fa665fcd508a84491d912d851d9d8d5e982bc08205",
+    "8000-75e9b831": "f476db87e402846bd4a0de1ed86a217afdc5f6974702e1cefaebde4c2169878f",
+    "9-4c0783bd": "e3f31b404fe021f6440297a8919153677c7b763daf62d2001624ca40269c185d",
+    "a-b43a7ff2": "ebbc88c3ed25bc626cdf4c9e840e8b510fe9eac369c1e43b428b1a6c3d0f6cb8",
+    "access-tom-s-hardware-premium-s-computex-2026-coverage-for-free-sign-up-for-an-a-d1a4cabc": "92bbf715de17f9f3c4dae0e9071dd70b2a72972286426df8a585a81efe8c80f8",
+    "agi-115a74ce": "ad6d85c4233444da0273cc3cf2ac726316dcda103dbd109317c79b5cd84a6f8e",
+    "ai-19383e96": "e801717b366b4c2a2dcfd770e66891b8120232f68c5ab90ef3beaa97d03ce71f",
+    "ai-1fb02f31": "621e4bdd6be322c0a3ebb4bc90876287dfa18ab53eb1d99d24da153c1a215b79",
+    "ai-7d3e6820": "6e2834e5c3bc588004a9dd06131a06492c97f2a4670870d1a40ab73f7ef4b0ff",
+    "ai-accelerated-software-security-vulnerability-discovery-is-hardware-next-56d4fd7e": "81b19d8c6870af4165cf78e532ce11814abbf8209021873a6a1de139882db516",
+    "ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39": "72f62ce66633ee328c7af463dbac53e4fef26222423d45c2f28c442cae44a9bc",
+    "ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d": "0f030c4c041bc25ea88cb105deedb495cee6c936d849f6f684414ef02765db20",
+    "ai-fde95e3c": "b6832f73cac9fdad8a8aa6490c0481a052f214d08989a3669b3996b5e53b5872",
+    "ai4s-36-12ae3127": "920c79faa315f546bc63adecc1d356ebed70f2039da6c3d72e5f718236b91a6d",
+    "amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5": "6df4d2cb21c7ffc900b005dff0bffde2369b8911125d6ea3c8c241797831ccc1",
+    "arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff": "61ef9018c16f424ef1a21ad07fd76dd98eee1346b38d4cdf9b32df855371eb3f",
+    "aromemanpo-b-10-b85b6668": "c8b40b707ec49050542df5003d475ec79a13825b09eaae61952116de9868d14e",
+    "asus-monstrous-rog-astral-geforce-rtx-5090-edition-20-includes-expansive-curved--3fd8b9cf": "73c257a21aa75a0be503723684bb98986cb9cf9f07c4470feb926e12f0bfeef4",
+    "asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-6a638edc": "911f5264acf1ad7f071e5242f38df98269ebf0dc3ac524022200d4ab9f5f1671",
+    "asus-world-first-oled-esports-monitor-can-hit-540hz-at-1080p-rog-strix-oled-mode-56f5dbe3": "afcc2a4153e4ed240870c5057e82c9148d5fdf4bc8782928aadb0ea3da376054",
+    "bambu-lab-launches-big-bed-slinger-a2l-company-s-h2s-lite-is-half-the-cost-of-h2-c7aa24dd": "92d08d0f30aa870c7cb3b37fb4491a9a275e94776c96368ca9a15f9696f66fa0",
+    "beyond-the-factory-floor-xr-training-for-the-next-industrial-era-6d87b89e": "89384663426b6f9b58108446ad9f3fabb9c202ff4064d8213a21981a60ceb1f8",
+    "budget-smartphones-become-less-attractive-in-the-era-of-artificial-intelligence-ba9ca3b3": "dffc8bb7e4cbd641cfd6d7bb49048bf9a2b6faece712d3113b579682e7f35519",
+    "bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1": "ffd79a6eaf94cc429380f6722214bd7c685e280f87fcd1756d2117a44c859464",
+    "china-is-building-a-computing-power-high-speed-rail-6ae5adca": "2446f1fcde68b051606cd86681be347f173482b0ea342c38e0f82b371567880a",
+    "cryptominer-dmg-signs-loi-to-secure-50mw-ai-customer-in-canada-6ae4b022": "3c0a6a9d3530dbb9f6381040ebe3e90c0ae955685e223c3046ea5509e41692ce",
+    "data-decommissioning-in-data-centers-97bbac28": "b62f96fa79f0c3084ad4fc534849e392a622f20147a7f537e2aa1450d4669d67",
+    "early-memory-contention-checks-reduce-ic-design-risks-2fa560bb": "b5c132aa2fcf1e74f7a639ba315bc11ed70239d27bc1f1a8fca41c6c9c21d283",
+    "environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7": "14d8f0d2700c90888e9a862b71d0b92528733b9053104a7b0f7666a2e9a2fb0a",
+    "etf-f7ec9dba": "06eceb9681aa362dd426a2710b347e34745c6f15d32e86773ef495731ccc3810",
+    "gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095": "d1987a97673330822e56f0dd67cb87b45f173d091be602f92792188c7a8c4ce1",
+    "gigabyte-debuts-fourth-gen-tandem-woled-and-multi-mode-mini-led-gaming-monitors--8734a69d": "a366d955c9696645d3da9d71c339813b9d2c1f4a8bbb68413c84c82b5b51e498",
+    "hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7": "f768ab37c5c0c2a0e31e18d1e782e3ad6efd14ecb067c69205a5604c920b4748",
+    "high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763": "2ec165a63b7917e2a222587bd8e7333a106ec32d8dfb2544da54aaf0fd674620",
+    "inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da": "5b713d9a6c5e48422bf4b55611a43ba3b0d613c8b39bf6850bb4c5dc51c0fb38",
+    "item-2b1d1f82": "5731d075bebe248cea055d7f48740124c6b92534c5b5e71aa839f15cb8582dcc",
+    "item-344deb15": "b2b61975cda655bb5d029ddd79ad6feb2bd9a5185606ddad39c9bb64264bfbce",
+    "item-3ad4394b": "efd50a978dba706c4ac45f6f64b5afe39b6c9b1e00096e7e616d6f6cabd72978",
+    "item-7966b751": "0c71a4f9b296a25f2f465f966ce31980d6a34980bb9e3d95aa95c45b4af557af",
+    "item-9f9f6dfb": "b09534359cc88d1a3542a8ba17cae3983993e758f0ee260bee51d03056fd4c0d",
+    "item-d9b25e5a": "4929564b2bea2dc2da84ad7c6b970b3a6005569968769b1efc079f6743afa5fb",
+    "item-f9bd8eb4": "c4328bc49ae7fb14997e5686b464d70b5d39bacc3af7e3637adfcbc6b59df19a",
+    "jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56": "465f71236e516fa9a7e240d1a265dc16b69b436219c817433425212e71218d95",
+    "lululemon-e981697e": "c03fd78104c332ac0a7161b44ee4d14e43ae24a5ffa54c3eb513992e10644de6",
+    "noctua-announces-new-thermal-pad-for-amd-chips-in-partnership-with-carbice-produ-e4649514": "b02c99de7a2da4aa1c326f4cd6a50b16616d1856d317bd3457d5a10245d8b208",
+    "openai-ai-f5fddf99": "47671fd410824a06fbcf3346090cde4ceaf9da12f419770f5385a3822feda903",
+    "oracle-database-aws-now-offered-in-20-global-regions-d78f0471": "eb7762cff00d5e502659b5e7869994f2d371bfad4cc6cbca785753b7338022af",
+    "polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a": "627a0183b535341e27c7154b07960ffbdc0f525e33c4c1ede363ee4442ef0bf6",
+    "police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b": "f077fb628109d2d5cac2a715b3c154c4dfc849662afc86320e760ab152130ed4",
+    "product-recall-management-guide-for-electronics-manufacturing-smbs-96c461a4": "0790e01d29262bd1a618732393aa525de9fe611ec46f65f9dca1995f4be7d98d",
+    "qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43": "7e77f6bcfe8968deb8de95990c76d668391dc2b8aef4c4789fffa4219336b270",
+    "qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1": "ef0188692f4b2019e676cf0758ee151898ec19326828ed0d5c8cf7395eefe62b",
+    "research-computing-infrastructure-report-2026-e3eb7982": "252843d13bc928fc4bfff05bb91a2800b6d37684bc5cd1459e4bcab9c2ab782e",
+    "save-78-on-nord-s-latest-complete-vpn-package-27-months-of-online-protection-for-c6a04757": "57c2c93ec4f9a5c1887567dc4fe9ff7e241d778e9e1965e10a861131ab26ade2",
+    "semiconductor-industry-in-china-15ab2d27": "87a01e9a758a9a103f9672aae4a273a7792e7264bd70d3627c1175d7cc5ab8ad",
+    "sk-hynix-to-double-memory-wafer-capacity-within-five-years-chairman-says-ai-driv-005fac25": "182912ddf77963e9f74ea43031358059fdefacab8916b2ce0a2aa8c957edec81",
+    "stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81": "2b8833c06efd7d0af15915b0f0988226b4cb2f5e4c20ebba1f02cfba42df74b1",
+    "taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6": "94a1e8840f2565034555384d9758e74d913a403c4e153a98c950e9e19b0ecdda",
+    "the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473": "47d8f004f7dfa8254245e7f81cca4e58649ec66d4f1f9aeeb91b856c00fbfd9d",
+    "the-sub-2nm-paradox-f67d3ffe": "58f4e82b5401484e9c00cab12c473fb93f74f4b8dd8ed32c33747a0edb6b3930",
+    "the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4": "eb36c47f036445d1a74e4234ee36d3ff9a997d63f07941ae872f9ecd21860ebb",
+    "token-ai-05fbba82": "fa2fe33ddba75e4716f64b4e318712a82ea714067358bedc73278b2c46a48568",
+    "tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93": "0a9f17c5a3230f3571d8340f7c3bd3c87ef99761cd56a298f731082c4fb44707",
+    "tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand--9cc4dead": "c354faa573b692f0369984561877a5d83cc5e25219e3f28ca2df94d7c6a6ce8e",
+    "uefa-and-uc3-select-alibaba-as-ai-and-cloud-partner-76cc147b": "e99227cd3bb3361b8627faba7139b90be3d622d6abc031e41b4295dd236f97fc",
+    "virtus-completes-installation-of-two-super-grid-transformers-at-wustermark-campu-aa30fb62": "88e19c75a3aeedde127e955a768ae188298ca97d3952646e7892c3112cc1cf3f",
+    "watermark-032a84ec": "a313b18bfbeca1241d683f41a05cb6ed04e7fea6c020cbe38f245de9d569d070",
+    "waves-776f17d7": "cc12c91d400ad819abd12dd0de54a5b696db81663fcf3a3d9b8c8b0e03121da6",
+    "windows-server-vulnerability-can-grant-system-privileges-with-just-a-malformed-p-a2a2bf88": "8a0c8dad315dde2c1087b04dea04ebbb38f9a689f4335c169c90ace274d745ba"
+  },
+  "sourceHashes": {
+    "00-token-c0fbba38": "c0fbba38798cfc9418e4a5e8fd0ee276b11558e3a90b89b098177820308d4871",
+    "10-01-10-9b40249c": "9b40249c26cb69e68b586dfe7f47970d9fbde7ba68d3e8ac8e6e29787a190ffc",
+    "10-36-45a8a658": "45a8a658bdc79d079faea1e24f17ea6d7ddf49e507eaa6f453d054bf5388e217",
+    "2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f": "ccc0b06f306bf0fdd41e24c2163e8af3545b7405e87ea743d0fcd803bc730707",
+    "2-5-aippy-ai-36-a52689fc": "a52689fc0723e08747d2e2b37d4bbbb2ef426e93588f3471b88bc4d8864c9d2a",
+    "2-micro-led-ai-58e9e3d4": "58e9e3d48d7ae4f9f09b56c3e29a9a3f8975e0f5b1cad7865bb7c821a64b8ae8",
+    "20-7a2207fa": "7a2207fa1695ccdebf41d82cdbe9456f3759905984f39d7d704d2c1cde726555",
+    "2026q1-15db919f": "15db919fda1f2b2732cd8b4dd446bcbffa79db0b2bed22eef2b2369216be6037",
+    "23-55432ec3": "55432ec34ee18cd56ca9c99e35e5866111d4cab9601cb4c01ff3380d706e2045",
+    "256gb-of-dual-channel-ram-hits-mass-market-thanks-to-origin-code-quad-rank-cudim-361c6bf9": "361c6bf974de3b346b77ecc47c01be8d258472a8a22dca7a8386bc4d63d3b248",
+    "36-2026-ai-48760c87": "48760c87af7fd052aebc35f0fa80b4a793097adce823d2e9817de45f25c94c16",
+    "36-e13fd522": "e13fd522029c735a68e2bb13fb110ad891aef26fdbb48acb9a653fb4b2a34a6d",
+    "420-a31db868": "a31db86878690d67c2bfcfa873d2bf85d3a125ba6ba43bc49f742e968a70ce16",
+    "5-d5b57ca9": "d5b57ca97162cd6800064804607c7ec288bd3a5934fa1b1101e1426a6cf499d2",
+    "5-efa8066b": "efa8066bb33bef0715c70c58be7c1f440764460db04b0cc1c7d7f7014b4e7d1d",
+    "6-4d647596": "4d647596f4afd79d3abad71056917b26477e6831998d4acfb1830181eb58ed10",
+    "6-st-d96b6eb3": "d96b6eb3e46fc03aca6300b00f5a40abb7ceeaa57a8ccb7750a5dfbf4e0d6ff3",
+    "618-5754965c": "5754965cb744c06cedb0efe0e13ab26eb0a3fd839b524811584c950acdd05eec",
+    "618-ai-916e835e": "916e835e6b1a7dc34cc2d446a4d2f0520b7a1757ce5477218cb2f77d22e6da10",
+    "7-1-ipo-windows-pc-d602dc24": "d602dc24117a91aadec06911e70f49a936e94308e609ece9240a8744963403de",
+    "75-1-5-youtube-9f063d27": "9f063d2707bf6100a5cf738ca3fed5f7aba41b302ba559b8ba634bb2ef084172",
+    "8-1-6-sk-ipo-140-4ca3e792": "4ca3e79262b81c91204bf68032f1807994ee3298d9cded677e84632bde194990",
+    "8000-75e9b831": "75e9b8316e914aa171997276650d23d509b209b446b3b5750ecadbb2661dac27",
+    "9-4c0783bd": "4c0783bd30ed25ee6091940a05a22ccbd11146424132618c34d36177cea4f8d1",
+    "a-b43a7ff2": "b43a7ff2d46ba4bdd42712aaf1e5ac1c6646b237a0f2663aba97634f35de3d30",
+    "access-tom-s-hardware-premium-s-computex-2026-coverage-for-free-sign-up-for-an-a-d1a4cabc": "d1a4cabc7bb889b31a1b14a7452645fcb31254b0e97dc3b859028422b4c3a4d5",
+    "agi-115a74ce": "115a74cee734be965542ec2ce7eb6af8638bc6bf8ba66125e5f604317d0a465d",
+    "ai-19383e96": "19383e968484687a2c9cc623e8d76302a6875d35e35e44415fdf9af144c23f42",
+    "ai-1fb02f31": "1fb02f31966c887dd2359fae84da3abe5141a11cc2240b4cc89f95b484435046",
+    "ai-7d3e6820": "7d3e68207568748d43aacb8c56ddf78a0e330e9fe21173b6991a20d0187ae44d",
+    "ai-accelerated-software-security-vulnerability-discovery-is-hardware-next-56d4fd7e": "56d4fd7ed340ae9a586d9090be0c8136240278dbcee20c158e2f8e2f9edd2d26",
+    "ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39": "07458e392b32ca5133a194ac4d662bb2aaf16d0d4de1bbe4903eb02678f7596d",
+    "ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d": "a53df27dbebed5e94c12e7ed605db73ac9c6433e163404fa7a65420cde9a125e",
+    "ai-fde95e3c": "fde95e3cf07357ce7b9f048447ff199ac41a97e88936ff91146635c8cb7f5fc8",
+    "ai4s-36-12ae3127": "12ae3127a0a252eb603f40b21eaa09ab6764efe7231205a0c448eed94f4ec292",
+    "amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5": "4fdb76a57c3b6ee611b2c0f8008f9ebb12c8679e0780084841139bc3c785fcdd",
+    "arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff": "4a5805ffac60de02031a724e71a3e4860e3a4836ef0faa0f53df1732b305b250",
+    "aromemanpo-b-10-b85b6668": "b85b66683df87cbd3444e12cd9f5bfce26d8f8c905d35df7c95d0c1b741d9beb",
+    "asus-monstrous-rog-astral-geforce-rtx-5090-edition-20-includes-expansive-curved--3fd8b9cf": "3fd8b9cf4c3637d8ef3add50906f7a0190e5ed724dc5352d4944cb6cafdc9ae7",
+    "asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-6a638edc": "6a638edc0027f67c7f65dcb33a30c0b36b304e10257104a8647c520de92ee81d",
+    "asus-world-first-oled-esports-monitor-can-hit-540hz-at-1080p-rog-strix-oled-mode-56f5dbe3": "56f5dbe3158e4fa96b2dd81297befa693693371187115225686a1ad9d0ec8259",
+    "bambu-lab-launches-big-bed-slinger-a2l-company-s-h2s-lite-is-half-the-cost-of-h2-c7aa24dd": "c7aa24dd487455b2b2ee9fb7dde97312b1ad31486ca462b97bec35a7139dccfc",
+    "beyond-the-factory-floor-xr-training-for-the-next-industrial-era-6d87b89e": "6d87b89edc4a4823f1d0320cca8cb48458b1792bfc8544ed0ff52745277ec988",
+    "budget-smartphones-become-less-attractive-in-the-era-of-artificial-intelligence-ba9ca3b3": "ba9ca3b3b3a913ae5de7e45a38b3173304b03292a12020ef5736a3ffc84510db",
+    "bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1": "cf1864b18f37fecf02f7628bf3df2cd0fd91ec70fd8e8fac5a3fe744847806a7",
+    "china-is-building-a-computing-power-high-speed-rail-6ae5adca": "6ae5adca96f452e6fc34d8c8da277aefe065ae37dda56d9007c69b0fd3edca25",
+    "cryptominer-dmg-signs-loi-to-secure-50mw-ai-customer-in-canada-6ae4b022": "6ae4b022cc0d8c17730f145095ed486c16fc46b274915a05dbfd2071152dc001",
+    "data-decommissioning-in-data-centers-97bbac28": "97bbac28c69b031c1b7be7cd2531e4b6778246fa6a88393dc630c064caaa6899",
+    "early-memory-contention-checks-reduce-ic-design-risks-2fa560bb": "2fa560bbbb032afb88d58815ef6eff23a457d723bc74786642694f744677e174",
+    "environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7": "20eb12d7331f70f98a3de5a418bbe3cd03496d9ba6f27994ea16259bc328af06",
+    "etf-f7ec9dba": "f7ec9dba171cc971c3a3f1d34551357a4c88c0d9cc45f5845062dea56f0519d9",
+    "gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095": "61b4609586852bd7741638e9fd2ab74c7b6d2be6a434b242523fcc85f7951e5f",
+    "gigabyte-debuts-fourth-gen-tandem-woled-and-multi-mode-mini-led-gaming-monitors--8734a69d": "8734a69dc0d835fd300f39119518d3cd5ecbb7f23422c9f1bc42efb3566497b3",
+    "hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7": "9c57a1e75fc27bd5e815feccbc342f869cd9620f973bb91f12ec4781850c7b7f",
+    "high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763": "9c03e76379dc901356e9d57a11682eba0cc5682a1ca4441e0e40fd8befdc797e",
+    "inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da": "8e2744daf5613fb03600348767566729d2d511e1d29daacfba82fafe8fa2ea1f",
+    "item-2b1d1f82": "2b1d1f826f6d23060ca2e9d8c717d6865b4d126a41ab40f708247c7b8c6bc91d",
+    "item-344deb15": "344deb15ef460e5d589946f9b61f2a906e75371203271ff94da391286664dccd",
+    "item-3ad4394b": "3ad4394b9cbd9d8ff6cc773653110110076b3bd66fefb5b36bdf44e179701efa",
+    "item-7966b751": "7966b7515d247e49a2894d99b95cce9d1307598e74aad79db0d143c8b5cc2f87",
+    "item-9f9f6dfb": "9f9f6dfb21ee07a960a69f0ca17153300ed63b2dc22ff2afce9b455fdb5076b8",
+    "item-d9b25e5a": "d9b25e5a17e42fdf8256781fd5980506acc5ce4a8b9ec7467a4a0f0157602a88",
+    "item-f9bd8eb4": "f9bd8eb40cffbd3a7ec08651cf71b60694e01628010c2b619a1f1d60ea84f626",
+    "jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56": "c78d7e56fdb603c8a5379525bbc1a12d13ee3f0c6bf8c68b859b65c274872acc",
+    "lululemon-e981697e": "e981697e7ac38c8acf12b7cac66acacfa465572db11fe4e788e83116a5930aaf",
+    "noctua-announces-new-thermal-pad-for-amd-chips-in-partnership-with-carbice-produ-e4649514": "e4649514bf6bb6bbf4aac88cd2e901100d311747772fa2cfef6e3e152d95c1df",
+    "openai-ai-f5fddf99": "f5fddf9969a68071ba21bb846fd8abbcc728f2427cf822cbdbc752a9fa7c1aa0",
+    "oracle-database-aws-now-offered-in-20-global-regions-d78f0471": "d78f04713754e4d1168723eb7bb2cb99a4726bdb52ef9e2b6cbb7517aac6f72e",
+    "polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a": "5cfe477a549f86cbe2f9c132a3101de94c3f92bcc1c0d14b9f12241da9eb61b4",
+    "police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b": "5bac8c1b50a478b48df217b1dd821a7e6ce44f22389b8624232117de10f2433a",
+    "product-recall-management-guide-for-electronics-manufacturing-smbs-96c461a4": "96c461a4d4ea5514738d5f6df10afdf4ceb1102c9e1b4204a996345204c87cf2",
+    "qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43": "d8a62e4349763784b8a895a729367af2853e6d30a2336b1fb6fd7c4dfb117796",
+    "qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1": "cc3c1bc142804de48f68484771e877dec630564e911034f74ab7af9458cf06f2",
+    "research-computing-infrastructure-report-2026-e3eb7982": "e3eb7982ce414001c50e673178a1860595054090f2287ea4c4946c64a8316b48",
+    "save-78-on-nord-s-latest-complete-vpn-package-27-months-of-online-protection-for-c6a04757": "c6a047572a56b524d3cd1565d41edafaa29fa9031204ec5ef4e70ba0a2cd43bc",
+    "semiconductor-industry-in-china-15ab2d27": "15ab2d27f4409b17c5f1ed98a075c8a6d8bd08ba14dcbbacf28d1faf27361293",
+    "sk-hynix-to-double-memory-wafer-capacity-within-five-years-chairman-says-ai-driv-005fac25": "005fac25b61d0b319a526e857b94444ab597ee16e1e9e21a7d7626fc75dee741",
+    "stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81": "2bc06e81f868b5673bd4aaa8a1a5ca0a23c52dc13a2da8afaf883d75b3d9658e",
+    "taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6": "73526ca679a743b22b4acbccaa50455876c66bcbe5d7205b542f9ebd221b5047",
+    "the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473": "2f1ca4734c52cd6884ed23e1cec0357a0fcd8986c193bd9afb531a0ca89c8992",
+    "the-sub-2nm-paradox-f67d3ffe": "f67d3ffed3c2dd20cc9d7c84af134532edab3b802e1be6e7009a28de04482999",
+    "the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4": "a57875a499bcee0e20211000c073b9f689871245f55247b4111e5c94323d9d88",
+    "token-ai-05fbba82": "05fbba82157118ff459b47b1cff88626198bc26943ac42dc786c89ce4f5b5b62",
+    "tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93": "339bcb93807e839ce36733904852596c6ce2afd739d54787678cee986911d40c",
+    "tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand--9cc4dead": "9cc4dead1ee463ed8ca63d2ff6d947bd16183296533c1545e57321bcac0cff5a",
+    "uefa-and-uc3-select-alibaba-as-ai-and-cloud-partner-76cc147b": "76cc147bab392e99c1ef3dc3bf3fde3dc162c72ef2c1175c246acd3796ac10fa",
+    "virtus-completes-installation-of-two-super-grid-transformers-at-wustermark-campu-aa30fb62": "aa30fb628191f14cbcd7d9660ce0a1d177e694c684b75d9a3d81416f820ef1f2",
+    "watermark-032a84ec": "032a84ec077bdcf5d8f595e75e9bb50bdf0f077caf702eff4546284c8a4c264b",
+    "waves-776f17d7": "776f17d7b8d1bee356051b9307238697395e938e57d5c1385b81973b749d6b2c",
+    "windows-server-vulnerability-can-grant-system-privileges-with-just-a-malformed-p-a2a2bf88": "a2a2bf8839a22bd321c3dd78312f5133d14bcb5796723847feacfa7014007e9a"
+  },
+  "sourceSemanticHashes": {
+    "00-token-c0fbba38": "ec9ff89f187327c0aca78a0deb879a04ff6a26879b14f2775cbc50f81e2a31d6",
+    "10-01-10-9b40249c": "dde08a32c43a5ae4696b06d7a4e18984efe02a9d03aa2c0a598d1622d5961e15",
+    "10-36-45a8a658": "a519f5aac0689869de1f120c94f8847df4fc3e0edb45ac50d860c781d4d63c9c",
+    "2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f": "2ede89bd5d4902b09f3f50752dbac588311fa4bfb981bb8734988943d4410be1",
+    "2-5-aippy-ai-36-a52689fc": "35d958d0a37fc6ba2c2c6d1968ef9d0a06ed5ab3f3a842b155f4570f3a23ea60",
+    "2-micro-led-ai-58e9e3d4": "6d9a1200eadb23c41316a49ee72b91c3d8d17d0cc6d8aaa7c5de3d31d68d467c",
+    "20-7a2207fa": "73299bb5d5f5a7145248e8008c8c66b508db4e97b24ddc8deeee10ac76f52ccf",
+    "2026q1-15db919f": "fdcfa6778acee467e45573962f0829429927bd85432311ff03fe76e31373916e",
+    "23-55432ec3": "7510d102a876959490d13b32a80638f868125b83075fed755be99ddba5ff1e68",
+    "256gb-of-dual-channel-ram-hits-mass-market-thanks-to-origin-code-quad-rank-cudim-361c6bf9": "603f39261e8236bcf7e08c6463fd06ac71dd577bc1e628aeac469c36e22f055a",
+    "36-2026-ai-48760c87": "6281a914c9506e4369f9680f5fc79c0f2d37af2825bb71e4ed6f4a530ef39cc8",
+    "36-e13fd522": "2d67c21c3eb83b1aaa6eb3ad2a202d2d383fae209690a63369cef9d64cc59c68",
+    "420-a31db868": "0be0caf06f58b15eb3efd5b3c7751d9c03fa7cc24f2f5ce5768fdb6d3eb95820",
+    "5-d5b57ca9": "4891d41f8293cc1f181f24d9a8cc1934ec135890d2064b8b48d8e2a0c41d7657",
+    "5-efa8066b": "5b4096d29d3797ff3110c358c881641781790d958cfd50da443607cd259d7fa7",
+    "6-4d647596": "ebb349683f930cd6954699eba63b1d22bb0f322e5849708db3748e25f4f8d6cc",
+    "6-st-d96b6eb3": "4a6fa811cf998ba62af777608fdf802e0864f2b951d336b4095c414bed7f987d",
+    "618-5754965c": "cac30288f5ef9152cb7fa09fffbce208202e38f506ab67bc550527ce7f9a5b58",
+    "618-ai-916e835e": "a5fa4fb2f2d3de195ca9e4f513c333d229f79a3c78a742f06796c608839d5315",
+    "7-1-ipo-windows-pc-d602dc24": "c57714be726bfc878e55d9b3d8d9b285c036dc224b940c7b8068c6c66149177c",
+    "75-1-5-youtube-9f063d27": "43df5dcb86a0ccdf0b70f92a4818fd5f4f35cb045713eb699bc23cb1352b86a6",
+    "8-1-6-sk-ipo-140-4ca3e792": "49f733ad69636b9a5f8d98e95d62caf560ce75d2daac4c2717c3783b0a483931",
+    "8000-75e9b831": "f5ef106d7564fb94b3b054c14d0a46dcd0b963dfcb5d74dc7a1eb8f2fb243665",
+    "9-4c0783bd": "16cdb2e62712da4daa60e373027814e7902b5af06785418c0e28be3520a2f382",
+    "a-b43a7ff2": "9bbdaa193ccefcd66aed9420431acdc12e0d65a311002c2770772786912d70f4",
+    "access-tom-s-hardware-premium-s-computex-2026-coverage-for-free-sign-up-for-an-a-d1a4cabc": "7ee58715444028fceaad949660d8305b8e74d72c7e3980ceb00e3f7d9f833117",
+    "agi-115a74ce": "f55e12c7f2d049411b94bf9455763a5004360109794fd2bb9dc578bf33b988d1",
+    "ai-19383e96": "639e2c860b4973ddd79469f1993612dbb605014d6fa6f43232395e4120619df4",
+    "ai-1fb02f31": "473b322eb2dd0605ff1b045f049adc5bbf98506494d059526889993158e654f6",
+    "ai-7d3e6820": "792d02d719e47f8fb0845a569b68905e53b76b10bfee932932abe5eb574f195c",
+    "ai-accelerated-software-security-vulnerability-discovery-is-hardware-next-56d4fd7e": "31c5ef2cabe9ef220eb6dc9418f82cf8c1a9da0ee23689fe4f58a7cf2bc972a6",
+    "ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39": "80617ecdaa76d156c88eec3bf91ca37a59f2c5226866333033f4a9364c43f6f3",
+    "ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d": "a3c2d40e52c9821b368f190cc563570b35df0c374675838a6cee1de77eba78b0",
+    "ai-fde95e3c": "35b7c1821cd39cd21e3a66a543f3cb3d3525cc0895d05ef01763495025c3d2f2",
+    "ai4s-36-12ae3127": "3564731a1582653fece421f691a1dbe7efdfcc52525879de0f13cdbacd21c326",
+    "amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5": "594cb5005650c792caae4a06e78967a396abfe2016a47e9fbf077c5f7643ef8e",
+    "arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff": "4a8de177d1db3d62382a8c13985b6519799f163f481a8a502d6ed3aa71d77370",
+    "aromemanpo-b-10-b85b6668": "ca7f4ec3a8921a1fd3bbb25d1f839a5ce9a745e0b0e752b2ff2d2763c4e2bc22",
+    "asus-monstrous-rog-astral-geforce-rtx-5090-edition-20-includes-expansive-curved--3fd8b9cf": "4797bc8c279c289f05c92cc07181c8dfbdc92a8bc5f54ce54d8348b8afaa0364",
+    "asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-6a638edc": "483f5e1c7c9713e0f19d4cb876a7474bb6d84e5b09433dc5e149a66da214415e",
+    "asus-world-first-oled-esports-monitor-can-hit-540hz-at-1080p-rog-strix-oled-mode-56f5dbe3": "1101648c12ba200f412900bc0394b5d21cc49379ee3f9f4ad5825fcc2202df7d",
+    "bambu-lab-launches-big-bed-slinger-a2l-company-s-h2s-lite-is-half-the-cost-of-h2-c7aa24dd": "6fd0fce3b9e9faaba9f4ebe6fb0567f21bed98d1401301f5cf4e30018edc1e53",
+    "beyond-the-factory-floor-xr-training-for-the-next-industrial-era-6d87b89e": "e2dd28a96ab3a014c8576302c36e9a3e6d52c6729a3b1731ce37b051197cc24c",
+    "budget-smartphones-become-less-attractive-in-the-era-of-artificial-intelligence-ba9ca3b3": "60eceb3f901c17eb347e157d1c715dbe1148c242303c3411dde83d794a90f129",
+    "bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1": "ce558cfc59ce12266fa2ad89821315297b150edd74a4f17c312996b4d587489b",
+    "china-is-building-a-computing-power-high-speed-rail-6ae5adca": "9786d7f314330c667a831824fce45fffb7ec7fea70691bddc78b02ff2b99885f",
+    "cryptominer-dmg-signs-loi-to-secure-50mw-ai-customer-in-canada-6ae4b022": "54af56c07ebfbc98c5f7a00882d8f724b1c94cde2adbe1898d68a32bc7663d60",
+    "data-decommissioning-in-data-centers-97bbac28": "870125151ba53cb28b69b3acbe8cd7062cc4754e69354cb3c8b365264b6f4234",
+    "early-memory-contention-checks-reduce-ic-design-risks-2fa560bb": "69398ae003744ef26d79c9110d6e714582562a3a89107288a6e8aa637ccc574d",
+    "environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7": "67e6439ec4c48eb5ce3a6e19126fc5bc3e81fd33770225c232f0f0d435e4d058",
+    "etf-f7ec9dba": "7a22649dec28492dd63a44da010f92c3d081ac6fb044f7115526b40819f01af5",
+    "gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095": "bca6d7f00860f97d7a7bfe5a79414568574b53f6ea3d60327c7576beb9b6caf8",
+    "gigabyte-debuts-fourth-gen-tandem-woled-and-multi-mode-mini-led-gaming-monitors--8734a69d": "e71c0467cebf94ec163f61c0d9037f55564e043ece7fcd715828d8c775cd684b",
+    "hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7": "f1f21bfd553948efe84b33e4ed6ec2a893d4ad9187e314fc91596685d7de153b",
+    "high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763": "589b983c64b0b80dacec8b12c3c8b663bf19280d3ee1e8e9c0faeab7fdd24690",
+    "inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da": "4f68f68dcacb602c4662e229aea9a5ef49e5c9d7f8bdfe6eb83acf25ee510b52",
+    "item-2b1d1f82": "f25926134b854c889cf8536e46c092662484c646ac273a5e65bd8fcd62f38e66",
+    "item-344deb15": "46fa3a7b823d0c033b4324cadd37e65363b874717ad10b1a8b7a508fa4493fcd",
+    "item-3ad4394b": "d1cfe83246097df60d3688b330329f60125836a4e35c248fe7d519ffa6489430",
+    "item-7966b751": "e08ba823644d541e48c90751f1056275faf0e8630d5b8524fe8581ca806e2f33",
+    "item-9f9f6dfb": "5c3dd14ed838a6cd493acad3cc94a1724998a47625eff4ee30b88fc9bb035ffe",
+    "item-d9b25e5a": "b4a36c57b2bb078082fe340ff635166594ea1e5087f986df12e2fd2dc950b355",
+    "item-f9bd8eb4": "e80b9d472a32ed25b6679d68954ae9ca0ee794ca6416dfde7b45f852bfab28dc",
+    "jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56": "f0ac11b3cf3738287b298501326aa9ddf867f73edce7bd2f4df7907a46859cf1",
+    "lululemon-e981697e": "7b820d08c78dc3ecad4055bf306c778a8f0f974d0ed691b9a83e504a23005b7c",
+    "noctua-announces-new-thermal-pad-for-amd-chips-in-partnership-with-carbice-produ-e4649514": "710c8c5c79c963614e71acc9a2077cacdc90a3c2fd644f30d23e070ac6716628",
+    "openai-ai-f5fddf99": "b102962888da71ae98261afa4bf0761b9ba731d1d8cdc317b7bae157c2237abf",
+    "oracle-database-aws-now-offered-in-20-global-regions-d78f0471": "f33cf342bfc2b8a6414f9b4510f9b38c05cfb66283567e7878e1e0683b4ff7e7",
+    "polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a": "bb2ed030daceef0af2379237aa105532d58d180fb1bbbacb8d955a33c9e13002",
+    "police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b": "7f89992207850d6f60fb47db5867989109ad3b4320b05d0b28079167fff55016",
+    "product-recall-management-guide-for-electronics-manufacturing-smbs-96c461a4": "6084ceb1a05cc540b9f96a197c915b787b87f834acf8ad09cc0341d5d06bf490",
+    "qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43": "50237bd48bcc676b5933b1c24ee5425ff53be896154f568211a6d964fb3ad612",
+    "qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1": "c8b787f1cbc071314977a93143fef86766f3bf8cfbc371af09b16b9deb42c30e",
+    "research-computing-infrastructure-report-2026-e3eb7982": "1d71e7cbfb201ebc29ad82c44bdf090ce47e42194752f4e608620b76359b6079",
+    "save-78-on-nord-s-latest-complete-vpn-package-27-months-of-online-protection-for-c6a04757": "38e818fb3f370ed46e96b0cf51fec437417c33623996e8c05751d58bed5cfb60",
+    "semiconductor-industry-in-china-15ab2d27": "46d6817b22e5f0f62171973cf99e82009c72895f873336d37aed215e56ddec56",
+    "sk-hynix-to-double-memory-wafer-capacity-within-five-years-chairman-says-ai-driv-005fac25": "44dad4f3baaeb644cff12433002f316c1ece0f1adda7ff2b24529b0561083e3a",
+    "stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81": "e125700ee90a53fba3f990099578da6d38a572a73c61650ed9b06e91bd47f711",
+    "taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6": "e99c7de9cead2c06b4265ecc056921b0ed05a0a60e42946e1bbbe8da07832235",
+    "the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473": "095c7ba6d455ed2925d990993351bf866ec3f4cd6963fa7858886446b07cf12e",
+    "the-sub-2nm-paradox-f67d3ffe": "ba69c1b45a56b8afd8e909051e786b237099d0afb944c8b3d11fa770dcd17bb0",
+    "the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4": "0324f8660dc0fb29a3737555e7f15b48956f9127ed489957f5c2af4bf4d659f1",
+    "token-ai-05fbba82": "b1b65d544a64579fb603892aa49b8ba2728766aea4432cc18f27ddf32657af11",
+    "tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93": "f3f511ee6e59c552444cc5872c4ad810bbfc1527e5531e66414ec5536b5340a9",
+    "tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand--9cc4dead": "8b066f0d565c8589d4a3c97f36b9a4501dfc907063464d616452d0193c1f0f84",
+    "uefa-and-uc3-select-alibaba-as-ai-and-cloud-partner-76cc147b": "bd0e52a3546e7fcb4f2ed10c83b52601dfee96544f0177a43d7e1021a1ce9e1a",
+    "virtus-completes-installation-of-two-super-grid-transformers-at-wustermark-campu-aa30fb62": "1b473bd9e26ad6a8947b0da0ae2600ea26a074063a5a2306feda44e3858271b1",
+    "watermark-032a84ec": "032a84ec077bdcf5d8f595e75e9bb50bdf0f077caf702eff4546284c8a4c264b",
+    "waves-776f17d7": "b852e1af3d5f6e31fd4f21b8c54e43da9cb9d2447ad3b4680e960c46824b4d96",
+    "windows-server-vulnerability-can-grant-system-privileges-with-just-a-malformed-p-a2a2bf88": "b1ff2c380e9aa9e446e30bd11766294f0dd07ab33de6459a886ed711602991e3"
+  },
+  "sourceProjects": {
+    "00-token-c0fbba38": null,
+    "10-01-10-9b40249c": null,
+    "10-36-45a8a658": null,
+    "2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f": null,
+    "2-5-aippy-ai-36-a52689fc": null,
+    "2-micro-led-ai-58e9e3d4": null,
+    "20-7a2207fa": null,
+    "2026q1-15db919f": null,
+    "23-55432ec3": null,
+    "256gb-of-dual-channel-ram-hits-mass-market-thanks-to-origin-code-quad-rank-cudim-361c6bf9": null,
+    "36-2026-ai-48760c87": null,
+    "36-e13fd522": null,
+    "420-a31db868": null,
+    "5-d5b57ca9": null,
+    "5-efa8066b": null,
+    "6-4d647596": null,
+    "6-st-d96b6eb3": null,
+    "618-5754965c": null,
+    "618-ai-916e835e": null,
+    "7-1-ipo-windows-pc-d602dc24": null,
+    "75-1-5-youtube-9f063d27": null,
+    "8-1-6-sk-ipo-140-4ca3e792": null,
+    "8000-75e9b831": null,
+    "9-4c0783bd": null,
+    "a-b43a7ff2": null,
+    "access-tom-s-hardware-premium-s-computex-2026-coverage-for-free-sign-up-for-an-a-d1a4cabc": null,
+    "agi-115a74ce": null,
+    "ai-19383e96": null,
+    "ai-1fb02f31": null,
+    "ai-7d3e6820": null,
+    "ai-accelerated-software-security-vulnerability-discovery-is-hardware-next-56d4fd7e": null,
+    "ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39": null,
+    "ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d": null,
+    "ai-fde95e3c": null,
+    "ai4s-36-12ae3127": null,
+    "amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5": null,
+    "arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff": null,
+    "aromemanpo-b-10-b85b6668": null,
+    "asus-monstrous-rog-astral-geforce-rtx-5090-edition-20-includes-expansive-curved--3fd8b9cf": null,
+    "asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-6a638edc": null,
+    "asus-world-first-oled-esports-monitor-can-hit-540hz-at-1080p-rog-strix-oled-mode-56f5dbe3": null,
+    "bambu-lab-launches-big-bed-slinger-a2l-company-s-h2s-lite-is-half-the-cost-of-h2-c7aa24dd": null,
+    "beyond-the-factory-floor-xr-training-for-the-next-industrial-era-6d87b89e": null,
+    "budget-smartphones-become-less-attractive-in-the-era-of-artificial-intelligence-ba9ca3b3": null,
+    "bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1": null,
+    "china-is-building-a-computing-power-high-speed-rail-6ae5adca": null,
+    "cryptominer-dmg-signs-loi-to-secure-50mw-ai-customer-in-canada-6ae4b022": null,
+    "data-decommissioning-in-data-centers-97bbac28": null,
+    "early-memory-contention-checks-reduce-ic-design-risks-2fa560bb": null,
+    "environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7": null,
+    "etf-f7ec9dba": null,
+    "gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095": null,
+    "gigabyte-debuts-fourth-gen-tandem-woled-and-multi-mode-mini-led-gaming-monitors--8734a69d": null,
+    "hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7": null,
+    "high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763": null,
+    "inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da": null,
+    "item-2b1d1f82": null,
+    "item-344deb15": null,
+    "item-3ad4394b": null,
+    "item-7966b751": null,
+    "item-9f9f6dfb": null,
+    "item-d9b25e5a": null,
+    "item-f9bd8eb4": null,
+    "jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56": null,
+    "lululemon-e981697e": null,
+    "noctua-announces-new-thermal-pad-for-amd-chips-in-partnership-with-carbice-produ-e4649514": null,
+    "openai-ai-f5fddf99": null,
+    "oracle-database-aws-now-offered-in-20-global-regions-d78f0471": null,
+    "polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a": null,
+    "police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b": null,
+    "product-recall-management-guide-for-electronics-manufacturing-smbs-96c461a4": null,
+    "qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43": null,
+    "qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1": null,
+    "research-computing-infrastructure-report-2026-e3eb7982": null,
+    "save-78-on-nord-s-latest-complete-vpn-package-27-months-of-online-protection-for-c6a04757": null,
+    "semiconductor-industry-in-china-15ab2d27": null,
+    "sk-hynix-to-double-memory-wafer-capacity-within-five-years-chairman-says-ai-driv-005fac25": null,
+    "stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81": null,
+    "taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6": null,
+    "the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473": null,
+    "the-sub-2nm-paradox-f67d3ffe": null,
+    "the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4": null,
+    "token-ai-05fbba82": null,
+    "tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93": null,
+    "tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand--9cc4dead": null,
+    "uefa-and-uc3-select-alibaba-as-ai-and-cloud-partner-76cc147b": null,
+    "virtus-completes-installation-of-two-super-grid-transformers-at-wustermark-campu-aa30fb62": null,
+    "watermark-032a84ec": null,
+    "waves-776f17d7": null,
+    "windows-server-vulnerability-can-grant-system-privileges-with-just-a-malformed-p-a2a2bf88": null
+  },
+  "outputHashes": {},
+  "insightHashes": {},
+  "memoryHashes": {},
+  "candidateHistory": {
+    "concept:amis": {
+      "sourceIds": [
+        "00-token-c0fbba38"
+      ],
+      "status": "candidate"
+    },
+    "concept:cpilot": {
+      "sourceIds": [
+        "00-token-c0fbba38"
+      ],
+      "status": "candidate"
+    },
+    "concept:token": {
+      "sourceIds": [
+        "00-token-c0fbba38",
+        "openai-ai-f5fddf99",
+        "token-ai-05fbba82"
+      ],
+      "status": "candidate"
+    },
+    "concept:agent": {
+      "sourceIds": [
+        "00-token-c0fbba38",
+        "2-5-aippy-ai-36-a52689fc",
+        "36-2026-ai-48760c87"
+      ],
+      "status": "candidate"
+    },
+    "concept:openclaw": {
+      "sourceIds": [
+        "00-token-c0fbba38"
+      ],
+      "status": "candidate"
+    },
+    "concept:32gb": {
+      "sourceIds": [
+        "00-token-c0fbba38"
+      ],
+      "status": "candidate"
+    },
+    "concept:openai": {
+      "sourceIds": [
+        "10-01-10-9b40249c",
+        "7-1-ipo-windows-pc-d602dc24",
+        "openai-ai-f5fddf99"
+      ],
+      "status": "candidate"
+    },
+    "concept:2026": {
+      "sourceIds": [
+        "10-01-10-9b40249c",
+        "36-2026-ai-48760c87",
+        "36-e13fd522",
+        "6-4d647596",
+        "618-5754965c",
+        "8-1-6-sk-ipo-140-4ca3e792",
+        "access-tom-s-hardware-premium-s-computex-2026-coverage-for-free-sign-up-for-an-a-d1a4cabc",
+        "ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39",
+        "ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d",
+        "ai4s-36-12ae3127",
+        "amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5",
+        "hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7",
+        "inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da",
+        "item-2b1d1f82",
+        "jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56",
+        "qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1",
+        "research-computing-infrastructure-report-2026-e3eb7982",
+        "tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93"
+      ],
+      "status": "candidate"
+    },
+    "concept:bull": {
+      "sourceIds": [
+        "10-01-10-9b40249c"
+      ],
+      "status": "candidate"
+    },
+    "concept:sharpa": {
+      "sourceIds": [
+        "10-01-10-9b40249c"
+      ],
+      "status": "candidate"
+    },
+    "concept:nvidia": {
+      "sourceIds": [
+        "10-01-10-9b40249c",
+        "ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39",
+        "jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56"
+      ],
+      "status": "candidate"
+    },
+    "concept:pre-ipo": {
+      "sourceIds": [
+        "10-01-10-9b40249c"
+      ],
+      "status": "candidate"
+    },
+    "concept:chatdv": {
+      "sourceIds": [
+        "10-36-45a8a658"
+      ],
+      "status": "candidate"
+    },
+    "concept:2025": {
+      "sourceIds": [
+        "10-36-45a8a658",
+        "2-5-aippy-ai-36-a52689fc",
+        "20-7a2207fa",
+        "36-2026-ai-48760c87",
+        "36-e13fd522",
+        "6-4d647596",
+        "aromemanpo-b-10-b85b6668",
+        "item-f9bd8eb4",
+        "semiconductor-industry-in-china-15ab2d27",
+        "waves-776f17d7"
+      ],
+      "status": "candidate"
+    },
+    "concept:2023": {
+      "sourceIds": [
+        "10-36-45a8a658",
+        "6-4d647596",
+        "waves-776f17d7"
+      ],
+      "status": "candidate"
+    },
+    "concept:2024": {
+      "sourceIds": [
+        "10-36-45a8a658",
+        "20-7a2207fa",
+        "aromemanpo-b-10-b85b6668",
+        "item-f9bd8eb4"
+      ],
+      "status": "candidate"
+    },
+    "concept:36kr": {
+      "sourceIds": [
+        "10-36-45a8a658",
+        "20-7a2207fa",
+        "36-e13fd522",
+        "5-efa8066b",
+        "6-st-d96b6eb3",
+        "618-5754965c",
+        "8-1-6-sk-ipo-140-4ca3e792",
+        "9-4c0783bd",
+        "a-b43a7ff2",
+        "ai-7d3e6820",
+        "ai4s-36-12ae3127",
+        "etf-f7ec9dba",
+        "item-2b1d1f82",
+        "item-344deb15",
+        "item-7966b751",
+        "item-f9bd8eb4"
+      ],
+      "status": "candidate"
+    },
+    "concept:3838488706370054": {
+      "sourceIds": [
+        "10-36-45a8a658"
+      ],
+      "status": "candidate"
+    },
+    "concept:000-acre": {
+      "sourceIds": [
+        "2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f"
+      ],
+      "status": "candidate"
+    },
+    "concept:2000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky": {
+      "sourceIds": [
+        "2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f"
+      ],
+      "status": "candidate"
+    },
+    "concept:center": {
+      "sourceIds": [
+        "2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f",
+        "arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff",
+        "bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1",
+        "environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7",
+        "polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a",
+        "police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b",
+        "stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81"
+      ],
+      "status": "candidate"
+    },
+    "concept:continues": {
+      "sourceIds": [
+        "2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f"
+      ],
+      "status": "candidate"
+    },
+    "concept:county": {
+      "sourceIds": [
+        "2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f",
+        "bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1"
+      ],
+      "status": "candidate"
+    },
+    "concept:data": {
+      "sourceIds": [
+        "2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f",
+        "data-decommissioning-in-data-centers-97bbac28",
+        "environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7",
+        "hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7",
+        "polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a",
+        "police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b",
+        "stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81"
+      ],
+      "status": "candidate"
+    },
+    "concept:aippy": {
+      "sourceIds": [
+        "2-5-aippy-ai-36-a52689fc"
+      ],
+      "status": "candidate"
+    },
+    "concept:nada": {
+      "sourceIds": [
+        "2-5-aippy-ai-36-a52689fc"
+      ],
+      "status": "candidate"
+    },
+    "concept:capital": {
+      "sourceIds": [
+        "2-5-aippy-ai-36-a52689fc"
+      ],
+      "status": "candidate"
+    },
+    "concept:evan": {
+      "sourceIds": [
+        "2-5-aippy-ai-36-a52689fc"
+      ],
+      "status": "candidate"
+    },
+    "concept:micro-led": {
+      "sourceIds": [
+        "2-micro-led-ai-58e9e3d4"
+      ],
+      "status": "candidate"
+    },
+    "concept:iphone": {
+      "sourceIds": [
+        "2-micro-led-ai-58e9e3d4"
+      ],
+      "status": "candidate"
+    },
+    "concept:micro": {
+      "sourceIds": [
+        "2-micro-led-ai-58e9e3d4"
+      ],
+      "status": "candidate"
+    },
+    "concept:1000": {
+      "sourceIds": [
+        "2-micro-led-ai-58e9e3d4"
+      ],
+      "status": "candidate"
+    },
+    "concept:1400": {
+      "sourceIds": [
+        "2-micro-led-ai-58e9e3d4"
+      ],
+      "status": "candidate"
+    },
+    "concept:2022": {
+      "sourceIds": [
+        "2-micro-led-ai-58e9e3d4"
+      ],
+      "status": "candidate"
+    },
+    "concept:adidas": {
+      "sourceIds": [
+        "20-7a2207fa"
+      ],
+      "status": "candidate"
+    },
+    "concept:nike": {
+      "sourceIds": [
+        "20-7a2207fa"
+      ],
+      "status": "candidate"
+    },
+    "concept:20850": {
+      "sourceIds": [
+        "20-7a2207fa"
+      ],
+      "status": "candidate"
+    },
+    "concept:2026q1": {
+      "sourceIds": [
+        "2026q1-15db919f"
+      ],
+      "status": "candidate"
+    },
+    "concept:8010119": {
+      "sourceIds": [
+        "2026q1-15db919f"
+      ],
+      "status": "candidate"
+    },
+    "concept:html": {
+      "sourceIds": [
+        "2026q1-15db919f",
+        "23-55432ec3",
+        "420-a31db868",
+        "5-d5b57ca9",
+        "618-ai-916e835e",
+        "7-1-ipo-windows-pc-d602dc24",
+        "75-1-5-youtube-9f063d27",
+        "8000-75e9b831",
+        "agi-115a74ce",
+        "ai-19383e96",
+        "ai-1fb02f31",
+        "ai-fde95e3c",
+        "item-3ad4394b",
+        "item-9f9f6dfb",
+        "item-d9b25e5a",
+        "lululemon-e981697e",
+        "token-ai-05fbba82"
+      ],
+      "status": "candidate"
+    },
+    "concept:https": {
+      "sourceIds": [
+        "2026q1-15db919f",
+        "23-55432ec3",
+        "420-a31db868",
+        "5-d5b57ca9",
+        "5-efa8066b",
+        "6-st-d96b6eb3",
+        "618-5754965c",
+        "618-ai-916e835e",
+        "7-1-ipo-windows-pc-d602dc24",
+        "75-1-5-youtube-9f063d27",
+        "8000-75e9b831",
+        "9-4c0783bd",
+        "a-b43a7ff2",
+        "agi-115a74ce",
+        "ai-19383e96",
+        "ai-1fb02f31",
+        "ai-7d3e6820",
+        "ai-fde95e3c",
+        "etf-f7ec9dba",
+        "item-2b1d1f82",
+        "item-344deb15",
+        "item-3ad4394b",
+        "item-7966b751",
+        "item-9f9f6dfb",
+        "item-d9b25e5a",
+        "lululemon-e981697e",
+        "oracle-database-aws-now-offered-in-20-global-regions-d78f0471",
+        "the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4",
+        "token-ai-05fbba82",
+        "watermark-032a84ec"
+      ],
+      "status": "candidate"
+    },
+    "concept:original": {
+      "sourceIds": [
+        "2026q1-15db919f",
+        "23-55432ec3",
+        "420-a31db868",
+        "5-d5b57ca9",
+        "5-efa8066b",
+        "6-st-d96b6eb3",
+        "618-5754965c",
+        "618-ai-916e835e",
+        "7-1-ipo-windows-pc-d602dc24",
+        "75-1-5-youtube-9f063d27",
+        "8000-75e9b831",
+        "9-4c0783bd",
+        "a-b43a7ff2",
+        "agi-115a74ce",
+        "ai-19383e96",
+        "ai-1fb02f31",
+        "ai-7d3e6820",
+        "ai-fde95e3c",
+        "item-2b1d1f82",
+        "item-344deb15",
+        "item-3ad4394b",
+        "item-7966b751",
+        "item-9f9f6dfb",
+        "item-d9b25e5a",
+        "lululemon-e981697e",
+        "the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4",
+        "token-ai-05fbba82"
+      ],
+      "status": "candidate"
+    },
+    "concept:tmtpost": {
+      "sourceIds": [
+        "2026q1-15db919f",
+        "23-55432ec3",
+        "420-a31db868",
+        "5-d5b57ca9",
+        "618-ai-916e835e",
+        "75-1-5-youtube-9f063d27",
+        "8000-75e9b831",
+        "agi-115a74ce",
+        "ai-19383e96",
+        "ai-1fb02f31",
+        "ai-fde95e3c",
+        "item-3ad4394b",
+        "item-9f9f6dfb",
+        "item-d9b25e5a",
+        "lululemon-e981697e",
+        "token-ai-05fbba82"
+      ],
+      "status": "candidate"
+    },
+    "concept:8010744": {
+      "sourceIds": [
+        "23-55432ec3"
+      ],
+      "status": "candidate"
+    },
+    "concept:256gb": {
+      "sourceIds": [
+        "256gb-of-dual-channel-ram-hits-mass-market-thanks-to-origin-code-quad-rank-cudim-361c6bf9"
+      ],
+      "status": "candidate"
+    },
+    "concept:code": {
+      "sourceIds": [
+        "256gb-of-dual-channel-ram-hits-mass-market-thanks-to-origin-code-quad-rank-cudim-361c6bf9"
+      ],
+      "status": "candidate"
+    },
+    "concept:cudimm": {
+      "sourceIds": [
+        "256gb-of-dual-channel-ram-hits-mass-market-thanks-to-origin-code-quad-rank-cudim-361c6bf9"
+      ],
+      "status": "candidate"
+    },
+    "concept:ddr5-8000": {
+      "sourceIds": [
+        "256gb-of-dual-channel-ram-hits-mass-market-thanks-to-origin-code-quad-rank-cudim-361c6bf9"
+      ],
+      "status": "candidate"
+    },
+    "concept:origin": {
+      "sourceIds": [
+        "256gb-of-dual-channel-ram-hits-mass-market-thanks-to-origin-code-quad-rank-cudim-361c6bf9"
+      ],
+      "status": "candidate"
+    },
+    "concept:128gb": {
+      "sourceIds": [
+        "256gb-of-dual-channel-ram-hits-mass-market-thanks-to-origin-code-quad-rank-cudim-361c6bf9"
+      ],
+      "status": "candidate"
+    },
+    "concept:seed": {
+      "sourceIds": [
+        "36-2026-ai-48760c87"
+      ],
+      "status": "candidate"
+    },
+    "concept:coding": {
+      "sourceIds": [
+        "36-2026-ai-48760c87"
+      ],
+      "status": "candidate"
+    },
+    "concept:sota": {
+      "sourceIds": [
+        "36-2026-ai-48760c87"
+      ],
+      "status": "candidate"
+    },
+    "concept:r-eps": {
+      "sourceIds": [
+        "36-e13fd522"
+      ],
+      "status": "candidate"
+    },
+    "concept:2028": {
+      "sourceIds": [
+        "36-e13fd522",
+        "qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1"
+      ],
+      "status": "candidate"
+    },
+    "concept:2030": {
+      "sourceIds": [
+        "36-e13fd522"
+      ],
+      "status": "candidate"
+    },
+    "concept:8010316": {
+      "sourceIds": [
+        "420-a31db868"
+      ],
+      "status": "candidate"
+    },
+    "concept:8010392": {
+      "sourceIds": [
+        "5-d5b57ca9"
+      ],
+      "status": "candidate"
+    },
+    "concept:3835297856042117": {
+      "sourceIds": [
+        "5-efa8066b"
+      ],
+      "status": "candidate"
+    },
+    "concept:newsflashes": {
+      "sourceIds": [
+        "5-efa8066b",
+        "6-st-d96b6eb3",
+        "618-5754965c",
+        "9-4c0783bd",
+        "a-b43a7ff2",
+        "ai-7d3e6820",
+        "etf-f7ec9dba",
+        "item-2b1d1f82",
+        "item-344deb15",
+        "item-7966b751"
+      ],
+      "status": "candidate"
+    },
+    "concept:chatgpt": {
+      "sourceIds": [
+        "6-4d647596"
+      ],
+      "status": "candidate"
+    },
+    "concept:chatbot": {
+      "sourceIds": [
+        "6-4d647596"
+      ],
+      "status": "candidate"
+    },
+    "concept:1600": {
+      "sourceIds": [
+        "6-4d647596"
+      ],
+      "status": "candidate"
+    },
+    "concept:3835270632355209": {
+      "sourceIds": [
+        "6-st-d96b6eb3"
+      ],
+      "status": "candidate"
+    },
+    "concept:3835292960994438": {
+      "sourceIds": [
+        "618-5754965c"
+      ],
+      "status": "candidate"
+    },
+    "concept:8009952": {
+      "sourceIds": [
+        "618-ai-916e835e"
+      ],
+      "status": "candidate"
+    },
+    "concept:8010716": {
+      "sourceIds": [
+        "7-1-ipo-windows-pc-d602dc24"
+      ],
+      "status": "candidate"
+    },
+    "concept:strategy": {
+      "sourceIds": [
+        "7-1-ipo-windows-pc-d602dc24"
+      ],
+      "status": "candidate"
+    },
+    "concept:8010633": {
+      "sourceIds": [
+        "75-1-5-youtube-9f063d27"
+      ],
+      "status": "candidate"
+    },
+    "concept:youtube": {
+      "sourceIds": [
+        "75-1-5-youtube-9f063d27"
+      ],
+      "status": "candidate"
+    },
+    "concept:alphabet": {
+      "sourceIds": [
+        "8-1-6-sk-ipo-140-4ca3e792"
+      ],
+      "status": "candidate"
+    },
+    "concept:300674": {
+      "sourceIds": [
+        "8-1-6-sk-ipo-140-4ca3e792"
+      ],
+      "status": "candidate"
+    },
+    "concept:3600": {
+      "sourceIds": [
+        "8-1-6-sk-ipo-140-4ca3e792"
+      ],
+      "status": "candidate"
+    },
+    "concept:3835278829008257": {
+      "sourceIds": [
+        "8-1-6-sk-ipo-140-4ca3e792"
+      ],
+      "status": "candidate"
+    },
+    "concept:8000": {
+      "sourceIds": [
+        "8000-75e9b831"
+      ],
+      "status": "candidate"
+    },
+    "concept:8009750": {
+      "sourceIds": [
+        "8000-75e9b831"
+      ],
+      "status": "candidate"
+    },
+    "concept:13000": {
+      "sourceIds": [
+        "9-4c0783bd"
+      ],
+      "status": "candidate"
+    },
+    "concept:3835283251475841": {
+      "sourceIds": [
+        "9-4c0783bd"
+      ],
+      "status": "candidate"
+    },
+    "concept:3835289002702208": {
+      "sourceIds": [
+        "a-b43a7ff2"
+      ],
+      "status": "candidate"
+    },
+    "concept:account": {
+      "sourceIds": [
+        "access-tom-s-hardware-premium-s-computex-2026-coverage-for-free-sign-up-for-an-a-d1a4cabc"
+      ],
+      "status": "candidate"
+    },
+    "concept:computex": {
+      "sourceIds": [
+        "access-tom-s-hardware-premium-s-computex-2026-coverage-for-free-sign-up-for-an-a-d1a4cabc",
+        "tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93"
+      ],
+      "status": "candidate"
+    },
+    "concept:from": {
+      "sourceIds": [
+        "access-tom-s-hardware-premium-s-computex-2026-coverage-for-free-sign-up-for-an-a-d1a4cabc",
+        "the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473",
+        "tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand--9cc4dead"
+      ],
+      "status": "candidate"
+    },
+    "concept:hardware": {
+      "sourceIds": [
+        "access-tom-s-hardware-premium-s-computex-2026-coverage-for-free-sign-up-for-an-a-d1a4cabc",
+        "ai-accelerated-software-security-vulnerability-discovery-is-hardware-next-56d4fd7e"
+      ],
+      "status": "candidate"
+    },
+    "concept:read": {
+      "sourceIds": [
+        "access-tom-s-hardware-premium-s-computex-2026-coverage-for-free-sign-up-for-an-a-d1a4cabc"
+      ],
+      "status": "candidate"
+    },
+    "concept:8010404": {
+      "sourceIds": [
+        "agi-115a74ce"
+      ],
+      "status": "candidate"
+    },
+    "concept:8006940": {
+      "sourceIds": [
+        "ai-19383e96"
+      ],
+      "status": "candidate"
+    },
+    "concept:8009748": {
+      "sourceIds": [
+        "ai-1fb02f31"
+      ],
+      "status": "candidate"
+    },
+    "concept:3835284709012608": {
+      "sourceIds": [
+        "ai-7d3e6820"
+      ],
+      "status": "candidate"
+    },
+    "concept:discovery": {
+      "sourceIds": [
+        "ai-accelerated-software-security-vulnerability-discovery-is-hardware-next-56d4fd7e"
+      ],
+      "status": "candidate"
+    },
+    "concept:next": {
+      "sourceIds": [
+        "ai-accelerated-software-security-vulnerability-discovery-is-hardware-next-56d4fd7e",
+        "beyond-the-factory-floor-xr-training-for-the-next-industrial-era-6d87b89e"
+      ],
+      "status": "candidate"
+    },
+    "concept:security": {
+      "sourceIds": [
+        "ai-accelerated-software-security-vulnerability-discovery-is-hardware-next-56d4fd7e"
+      ],
+      "status": "candidate"
+    },
+    "concept:software": {
+      "sourceIds": [
+        "ai-accelerated-software-security-vulnerability-discovery-is-hardware-next-56d4fd7e"
+      ],
+      "status": "candidate"
+    },
+    "concept:vulnerability": {
+      "sourceIds": [
+        "ai-accelerated-software-security-vulnerability-discovery-is-hardware-next-56d4fd7e"
+      ],
+      "status": "candidate"
+    },
+    "concept:billion": {
+      "sourceIds": [
+        "ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39",
+        "semiconductor-industry-in-china-15ab2d27"
+      ],
+      "status": "candidate"
+    },
+    "concept:supply": {
+      "sourceIds": [
+        "ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39",
+        "ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d",
+        "gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095",
+        "inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da",
+        "taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6"
+      ],
+      "status": "candidate"
+    },
+    "concept:fiber": {
+      "sourceIds": [
+        "ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39"
+      ],
+      "status": "candidate"
+    },
+    "concept:laser": {
+      "sourceIds": [
+        "ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39"
+      ],
+      "status": "candidate"
+    },
+    "concept:semiconductor": {
+      "sourceIds": [
+        "ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d",
+        "semiconductor-industry-in-china-15ab2d27"
+      ],
+      "status": "candidate"
+    },
+    "concept:chain": {
+      "sourceIds": [
+        "ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d",
+        "gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095"
+      ],
+      "status": "candidate"
+    },
+    "concept:advanced": {
+      "sourceIds": [
+        "ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d",
+        "inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da"
+      ],
+      "status": "candidate"
+    },
+    "concept:manufacturing": {
+      "sourceIds": [
+        "ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d",
+        "product-recall-management-guide-for-electronics-manufacturing-smbs-96c461a4"
+      ],
+      "status": "candidate"
+    },
+    "concept:8010366": {
+      "sourceIds": [
+        "ai-fde95e3c"
+      ],
+      "status": "candidate"
+    },
+    "concept:ai4s": {
+      "sourceIds": [
+        "ai4s-36-12ae3127"
+      ],
+      "status": "candidate"
+    },
+    "concept:exciting": {
+      "sourceIds": [
+        "ai4s-36-12ae3127"
+      ],
+      "status": "candidate"
+    },
+    "concept:20-50": {
+      "sourceIds": [
+        "ai4s-36-12ae3127"
+      ],
+      "status": "candidate"
+    },
+    "concept:2019": {
+      "sourceIds": [
+        "ai4s-36-12ae3127"
+      ],
+      "status": "candidate"
+    },
+    "concept:9070": {
+      "sourceIds": [
+        "amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5"
+      ],
+      "status": "candidate"
+    },
+    "concept:midrange": {
+      "sourceIds": [
+        "amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5"
+      ],
+      "status": "candidate"
+    },
+    "concept:radeon": {
+      "sourceIds": [
+        "amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5"
+      ],
+      "status": "candidate"
+    },
+    "concept:1080p": {
+      "sourceIds": [
+        "amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5",
+        "asus-world-first-oled-esports-monitor-can-hit-540hz-at-1080p-rog-strix-oled-mode-56f5dbe3"
+      ],
+      "status": "candidate"
+    },
+    "concept:1440p": {
+      "sourceIds": [
+        "amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5"
+      ],
+      "status": "candidate"
+    },
+    "concept:500mw": {
+      "sourceIds": [
+        "arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff"
+      ],
+      "status": "candidate"
+    },
+    "concept:arcem": {
+      "sourceIds": [
+        "arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff"
+      ],
+      "status": "candidate"
+    },
+    "concept:arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus": {
+      "sourceIds": [
+        "arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff"
+      ],
+      "status": "candidate"
+    },
+    "concept:buys": {
+      "sourceIds": [
+        "arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff"
+      ],
+      "status": "candidate"
+    },
+    "concept:campus": {
+      "sourceIds": [
+        "arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff",
+        "cryptominer-dmg-signs-loi-to-secure-50mw-ai-customer-in-canada-6ae4b022",
+        "virtus-completes-installation-of-two-super-grid-transformers-at-wustermark-campu-aa30fb62"
+      ],
+      "status": "candidate"
+    },
+    "concept:aromemanpo": {
+      "sourceIds": [
+        "aromemanpo-b-10-b85b6668"
+      ],
+      "status": "candidate"
+    },
+    "concept:pre-a": {
+      "sourceIds": [
+        "aromemanpo-b-10-b85b6668"
+      ],
+      "status": "candidate"
+    },
+    "concept:2013": {
+      "sourceIds": [
+        "aromemanpo-b-10-b85b6668"
+      ],
+      "status": "candidate"
+    },
+    "concept:2027": {
+      "sourceIds": [
+        "aromemanpo-b-10-b85b6668",
+        "openai-ai-f5fddf99"
+      ],
+      "status": "candidate"
+    },
+    "concept:asus": {
+      "sourceIds": [
+        "asus-monstrous-rog-astral-geforce-rtx-5090-edition-20-includes-expansive-curved--3fd8b9cf",
+        "asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-6a638edc",
+        "asus-world-first-oled-esports-monitor-can-hit-540hz-at-1080p-rog-strix-oled-mode-56f5dbe3"
+      ],
+      "status": "candidate"
+    },
+    "concept:5090": {
+      "sourceIds": [
+        "asus-monstrous-rog-astral-geforce-rtx-5090-edition-20-includes-expansive-curved--3fd8b9cf"
+      ],
+      "status": "candidate"
+    },
+    "concept:astral": {
+      "sourceIds": [
+        "asus-monstrous-rog-astral-geforce-rtx-5090-edition-20-includes-expansive-curved--3fd8b9cf"
+      ],
+      "status": "candidate"
+    },
+    "concept:edition": {
+      "sourceIds": [
+        "asus-monstrous-rog-astral-geforce-rtx-5090-edition-20-includes-expansive-curved--3fd8b9cf",
+        "asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-6a638edc"
+      ],
+      "status": "candidate"
+    },
+    "concept:geforce": {
+      "sourceIds": [
+        "asus-monstrous-rog-astral-geforce-rtx-5090-edition-20-includes-expansive-curved--3fd8b9cf"
+      ],
+      "status": "candidate"
+    },
+    "concept:000w": {
+      "sourceIds": [
+        "asus-monstrous-rog-astral-geforce-rtx-5090-edition-20-includes-expansive-curved--3fd8b9cf"
+      ],
+      "status": "candidate"
+    },
+    "concept:20th": {
+      "sourceIds": [
+        "asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-6a638edc"
+      ],
+      "status": "candidate"
+    },
+    "concept:anniversary": {
+      "sourceIds": [
+        "asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-6a638edc"
+      ],
+      "status": "candidate"
+    },
+    "concept:chair": {
+      "sourceIds": [
+        "asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-6a638edc"
+      ],
+      "status": "candidate"
+    },
+    "concept:gold": {
+      "sourceIds": [
+        "asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-6a638edc"
+      ],
+      "status": "candidate"
+    },
+    "concept:oled": {
+      "sourceIds": [
+        "asus-world-first-oled-esports-monitor-can-hit-540hz-at-1080p-rog-strix-oled-mode-56f5dbe3"
+      ],
+      "status": "candidate"
+    },
+    "concept:monitors": {
+      "sourceIds": [
+        "asus-world-first-oled-esports-monitor-can-hit-540hz-at-1080p-rog-strix-oled-mode-56f5dbe3",
+        "gigabyte-debuts-fourth-gen-tandem-woled-and-multi-mode-mini-led-gaming-monitors--8734a69d"
+      ],
+      "status": "candidate"
+    },
+    "concept:540hz": {
+      "sourceIds": [
+        "asus-world-first-oled-esports-monitor-can-hit-540hz-at-1080p-rog-strix-oled-mode-56f5dbe3"
+      ],
+      "status": "candidate"
+    },
+    "concept:among": {
+      "sourceIds": [
+        "asus-world-first-oled-esports-monitor-can-hit-540hz-at-1080p-rog-strix-oled-mode-56f5dbe3"
+      ],
+      "status": "candidate"
+    },
+    "concept:3d-printing": {
+      "sourceIds": [
+        "bambu-lab-launches-big-bed-slinger-a2l-company-s-h2s-lite-is-half-the-cost-of-h2-c7aa24dd"
+      ],
+      "status": "candidate"
+    },
+    "concept:bambu": {
+      "sourceIds": [
+        "bambu-lab-launches-big-bed-slinger-a2l-company-s-h2s-lite-is-half-the-cost-of-h2-c7aa24dd"
+      ],
+      "status": "candidate"
+    },
+    "concept:bambu-lab-launches-big-bed-slinger-a2l-companys-h2s-lite-is-half-the-cost-of-h2s": {
+      "sourceIds": [
+        "bambu-lab-launches-big-bed-slinger-a2l-company-s-h2s-lite-is-half-the-cost-of-h2-c7aa24dd"
+      ],
+      "status": "candidate"
+    },
+    "concept:combo": {
+      "sourceIds": [
+        "bambu-lab-launches-big-bed-slinger-a2l-company-s-h2s-lite-is-half-the-cost-of-h2-c7aa24dd"
+      ],
+      "status": "candidate"
+    },
+    "concept:company": {
+      "sourceIds": [
+        "bambu-lab-launches-big-bed-slinger-a2l-company-s-h2s-lite-is-half-the-cost-of-h2-c7aa24dd",
+        "bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1",
+        "cryptominer-dmg-signs-loi-to-secure-50mw-ai-customer-in-canada-6ae4b022",
+        "stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81"
+      ],
+      "status": "candidate"
+    },
+    "concept:cost": {
+      "sourceIds": [
+        "bambu-lab-launches-big-bed-slinger-a2l-company-s-h2s-lite-is-half-the-cost-of-h2-c7aa24dd",
+        "the-sub-2nm-paradox-f67d3ffe"
+      ],
+      "status": "candidate"
+    },
+    "concept:industrial": {
+      "sourceIds": [
+        "beyond-the-factory-floor-xr-training-for-the-next-industrial-era-6d87b89e"
+      ],
+      "status": "candidate"
+    },
+    "concept:beyond": {
+      "sourceIds": [
+        "beyond-the-factory-floor-xr-training-for-the-next-industrial-era-6d87b89e"
+      ],
+      "status": "candidate"
+    },
+    "concept:factory": {
+      "sourceIds": [
+        "beyond-the-factory-floor-xr-training-for-the-next-industrial-era-6d87b89e"
+      ],
+      "status": "candidate"
+    },
+    "concept:floor": {
+      "sourceIds": [
+        "beyond-the-factory-floor-xr-training-for-the-next-industrial-era-6d87b89e"
+      ],
+      "status": "candidate"
+    },
+    "concept:training": {
+      "sourceIds": [
+        "beyond-the-factory-floor-xr-training-for-the-next-industrial-era-6d87b89e"
+      ],
+      "status": "candidate"
+    },
+    "concept:become": {
+      "sourceIds": [
+        "budget-smartphones-become-less-attractive-in-the-era-of-artificial-intelligence-ba9ca3b3"
+      ],
+      "status": "candidate"
+    },
+    "concept:8010587": {
+      "sourceIds": [
+        "budget-smartphones-become-less-attractive-in-the-era-of-artificial-intelligence-ba9ca3b3"
+      ],
+      "status": "candidate"
+    },
+    "concept:artificial": {
+      "sourceIds": [
+        "budget-smartphones-become-less-attractive-in-the-era-of-artificial-intelligence-ba9ca3b3"
+      ],
+      "status": "candidate"
+    },
+    "concept:attractive": {
+      "sourceIds": [
+        "budget-smartphones-become-less-attractive-in-the-era-of-artificial-intelligence-ba9ca3b3"
+      ],
+      "status": "candidate"
+    },
+    "concept:bidding": {
+      "sourceIds": [
+        "budget-smartphones-become-less-attractive-in-the-era-of-artificial-intelligence-ba9ca3b3"
+      ],
+      "status": "candidate"
+    },
+    "concept:biggest": {
+      "sourceIds": [
+        "budget-smartphones-become-less-attractive-in-the-era-of-artificial-intelligence-ba9ca3b3"
+      ],
+      "status": "candidate"
+    },
+    "concept:build": {
+      "sourceIds": [
+        "bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1"
+      ],
+      "status": "candidate"
+    },
+    "concept:250mw": {
+      "sourceIds": [
+        "bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1"
+      ],
+      "status": "candidate"
+    },
+    "concept:bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway": {
+      "sourceIds": [
+        "bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1"
+      ],
+      "status": "candidate"
+    },
+    "concept:building": {
+      "sourceIds": [
+        "china-is-building-a-computing-power-high-speed-rail-6ae5adca"
+      ],
+      "status": "candidate"
+    },
+    "concept:high": {
+      "sourceIds": [
+        "china-is-building-a-computing-power-high-speed-rail-6ae5adca",
+        "high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763"
+      ],
+      "status": "candidate"
+    },
+    "concept:rail": {
+      "sourceIds": [
+        "china-is-building-a-computing-power-high-speed-rail-6ae5adca"
+      ],
+      "status": "candidate"
+    },
+    "concept:speed": {
+      "sourceIds": [
+        "china-is-building-a-computing-power-high-speed-rail-6ae5adca"
+      ],
+      "status": "candidate"
+    },
+    "concept:8010595": {
+      "sourceIds": [
+        "china-is-building-a-computing-power-high-speed-rail-6ae5adca"
+      ],
+      "status": "candidate"
+    },
+    "concept:aiming": {
+      "sourceIds": [
+        "china-is-building-a-computing-power-high-speed-rail-6ae5adca"
+      ],
+      "status": "candidate"
+    },
+    "concept:50mw": {
+      "sourceIds": [
+        "cryptominer-dmg-signs-loi-to-secure-50mw-ai-customer-in-canada-6ae4b022"
+      ],
+      "status": "candidate"
+    },
+    "concept:canada": {
+      "sourceIds": [
+        "cryptominer-dmg-signs-loi-to-secure-50mw-ai-customer-in-canada-6ae4b022"
+      ],
+      "status": "candidate"
+    },
+    "concept:christina": {
+      "sourceIds": [
+        "cryptominer-dmg-signs-loi-to-secure-50mw-ai-customer-in-canada-6ae4b022"
+      ],
+      "status": "candidate"
+    },
+    "concept:cryptominer": {
+      "sourceIds": [
+        "cryptominer-dmg-signs-loi-to-secure-50mw-ai-customer-in-canada-6ae4b022"
+      ],
+      "status": "candidate"
+    },
+    "concept:breach": {
+      "sourceIds": [
+        "data-decommissioning-in-data-centers-97bbac28"
+      ],
+      "status": "candidate"
+    },
+    "concept:centers": {
+      "sourceIds": [
+        "data-decommissioning-in-data-centers-97bbac28",
+        "environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7"
+      ],
+      "status": "candidate"
+    },
+    "concept:control": {
+      "sourceIds": [
+        "data-decommissioning-in-data-centers-97bbac28"
+      ],
+      "status": "candidate"
+    },
+    "concept:data-decommissioning-in-data-centers": {
+      "sourceIds": [
+        "data-decommissioning-in-data-centers-97bbac28"
+      ],
+      "status": "candidate"
+    },
+    "concept:datacenterdynamics": {
+      "sourceIds": [
+        "data-decommissioning-in-data-centers-97bbac28",
+        "oracle-database-aws-now-offered-in-20-global-regions-d78f0471",
+        "police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b",
+        "research-computing-infrastructure-report-2026-e3eb7982",
+        "stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81",
+        "the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4",
+        "uefa-and-uc3-select-alibaba-as-ai-and-cloud-partner-76cc147b",
+        "virtus-completes-installation-of-two-super-grid-transformers-at-wustermark-campu-aa30fb62"
+      ],
+      "status": "candidate"
+    },
+    "concept:contention": {
+      "sourceIds": [
+        "early-memory-contention-checks-reduce-ic-design-risks-2fa560bb"
+      ],
+      "status": "candidate"
+    },
+    "concept:early": {
+      "sourceIds": [
+        "early-memory-contention-checks-reduce-ic-design-risks-2fa560bb"
+      ],
+      "status": "candidate"
+    },
+    "concept:memory": {
+      "sourceIds": [
+        "early-memory-contention-checks-reduce-ic-design-risks-2fa560bb",
+        "sk-hynix-to-double-memory-wafer-capacity-within-five-years-chairman-says-ai-driv-005fac25"
+      ],
+      "status": "candidate"
+    },
+    "concept:checks": {
+      "sourceIds": [
+        "early-memory-contention-checks-reduce-ic-design-risks-2fa560bb"
+      ],
+      "status": "candidate"
+    },
+    "concept:design": {
+      "sourceIds": [
+        "early-memory-contention-checks-reduce-ic-design-risks-2fa560bb"
+      ],
+      "status": "candidate"
+    },
+    "concept:reduce": {
+      "sourceIds": [
+        "early-memory-contention-checks-reduce-ic-design-risks-2fa560bb"
+      ],
+      "status": "candidate"
+    },
+    "concept:activist": {
+      "sourceIds": [
+        "environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7"
+      ],
+      "status": "candidate"
+    },
+    "concept:behind": {
+      "sourceIds": [
+        "environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7"
+      ],
+      "status": "candidate"
+    },
+    "concept:brockovich": {
+      "sourceIds": [
+        "environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7"
+      ],
+      "status": "candidate"
+    },
+    "concept:2793": {
+      "sourceIds": [
+        "etf-f7ec9dba"
+      ],
+      "status": "candidate"
+    },
+    "concept:3835277097890944": {
+      "sourceIds": [
+        "etf-f7ec9dba"
+      ],
+      "status": "candidate"
+    },
+    "concept:ifind": {
+      "sourceIds": [
+        "etf-f7ec9dba"
+      ],
+      "status": "candidate"
+    },
+    "concept:gartner": {
+      "sourceIds": [
+        "gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095"
+      ],
+      "status": "candidate"
+    },
+    "concept:challenges": {
+      "sourceIds": [
+        "gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095"
+      ],
+      "status": "candidate"
+    },
+    "concept:confront": {
+      "sourceIds": [
+        "gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095"
+      ],
+      "status": "candidate"
+    },
+    "concept:geopolitical": {
+      "sourceIds": [
+        "gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095"
+      ],
+      "status": "candidate"
+    },
+    "concept:gaming": {
+      "sourceIds": [
+        "gigabyte-debuts-fourth-gen-tandem-woled-and-multi-mode-mini-led-gaming-monitors--8734a69d"
+      ],
+      "status": "candidate"
+    },
+    "concept:gigabyte": {
+      "sourceIds": [
+        "gigabyte-debuts-fourth-gen-tandem-woled-and-multi-mode-mini-led-gaming-monitors--8734a69d"
+      ],
+      "status": "candidate"
+    },
+    "concept:multi-mode": {
+      "sourceIds": [
+        "gigabyte-debuts-fourth-gen-tandem-woled-and-multi-mode-mini-led-gaming-monitors--8734a69d"
+      ],
+      "status": "candidate"
+    },
+    "concept:aorus": {
+      "sourceIds": [
+        "gigabyte-debuts-fourth-gen-tandem-woled-and-multi-mode-mini-led-gaming-monitors--8734a69d"
+      ],
+      "status": "candidate"
+    },
+    "concept:debuts": {
+      "sourceIds": [
+        "gigabyte-debuts-fourth-gen-tandem-woled-and-multi-mode-mini-led-gaming-monitors--8734a69d"
+      ],
+      "status": "candidate"
+    },
+    "concept:hynix": {
+      "sourceIds": [
+        "hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7",
+        "sk-hynix-to-double-memory-wafer-capacity-within-five-years-chairman-says-ai-driv-005fac25"
+      ],
+      "status": "candidate"
+    },
+    "concept:hbm4": {
+      "sourceIds": [
+        "hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7"
+      ],
+      "status": "candidate"
+    },
+    "concept:samsung": {
+      "sourceIds": [
+        "hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7"
+      ],
+      "status": "candidate"
+    },
+    "concept:market": {
+      "sourceIds": [
+        "hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7"
+      ],
+      "status": "candidate"
+    },
+    "concept:voltage": {
+      "sourceIds": [
+        "high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763"
+      ],
+      "status": "candidate"
+    },
+    "concept:bi-directional": {
+      "sourceIds": [
+        "high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763"
+      ],
+      "status": "candidate"
+    },
+    "concept:performance": {
+      "sourceIds": [
+        "high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763"
+      ],
+      "status": "candidate"
+    },
+    "concept:power": {
+      "sourceIds": [
+        "high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763"
+      ],
+      "status": "candidate"
+    },
+    "concept:switches": {
+      "sourceIds": [
+        "high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763"
+      ],
+      "status": "candidate"
+    },
+    "concept:capacity": {
+      "sourceIds": [
+        "inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da",
+        "sk-hynix-to-double-memory-wafer-capacity-within-five-years-chairman-says-ai-driv-005fac25"
+      ],
+      "status": "candidate"
+    },
+    "concept:tsmc": {
+      "sourceIds": [
+        "inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da"
+      ],
+      "status": "candidate"
+    },
+    "concept:demand": {
+      "sourceIds": [
+        "inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da",
+        "tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand--9cc4dead"
+      ],
+      "status": "candidate"
+    },
+    "concept:3835269055182211": {
+      "sourceIds": [
+        "item-2b1d1f82"
+      ],
+      "status": "candidate"
+    },
+    "concept:3835265374172295": {
+      "sourceIds": [
+        "item-344deb15"
+      ],
+      "status": "candidate"
+    },
+    "concept:8010227": {
+      "sourceIds": [
+        "item-3ad4394b"
+      ],
+      "status": "candidate"
+    },
+    "concept:3835298267870601": {
+      "sourceIds": [
+        "item-7966b751"
+      ],
+      "status": "candidate"
+    },
+    "concept:8009761": {
+      "sourceIds": [
+        "item-9f9f6dfb"
+      ],
+      "status": "candidate"
+    },
+    "concept:8010210": {
+      "sourceIds": [
+        "item-d9b25e5a"
+      ],
+      "status": "candidate"
+    },
+    "concept:atomix": {
+      "sourceIds": [
+        "item-f9bd8eb4"
+      ],
+      "status": "candidate"
+    },
+    "concept:picking": {
+      "sourceIds": [
+        "item-f9bd8eb4"
+      ],
+      "status": "candidate"
+    },
+    "concept:2016": {
+      "sourceIds": [
+        "item-f9bd8eb4"
+      ],
+      "status": "candidate"
+    },
+    "concept:huang": {
+      "sourceIds": [
+        "jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56"
+      ],
+      "status": "candidate"
+    },
+    "concept:jensen": {
+      "sourceIds": [
+        "jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56"
+      ],
+      "status": "candidate"
+    },
+    "concept:agentic": {
+      "sourceIds": [
+        "jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56",
+        "the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4"
+      ],
+      "status": "candidate"
+    },
+    "concept:ambitions": {
+      "sourceIds": [
+        "jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56"
+      ],
+      "status": "candidate"
+    },
+    "concept:8009177": {
+      "sourceIds": [
+        "lululemon-e981697e"
+      ],
+      "status": "candidate"
+    },
+    "concept:lululemon": {
+      "sourceIds": [
+        "lululemon-e981697e"
+      ],
+      "status": "candidate"
+    },
+    "concept:thermal": {
+      "sourceIds": [
+        "noctua-announces-new-thermal-pad-for-amd-chips-in-partnership-with-carbice-produ-e4649514"
+      ],
+      "status": "candidate"
+    },
+    "concept:with": {
+      "sourceIds": [
+        "noctua-announces-new-thermal-pad-for-amd-chips-in-partnership-with-carbice-produ-e4649514"
+      ],
+      "status": "candidate"
+    },
+    "concept:carbice": {
+      "sourceIds": [
+        "noctua-announces-new-thermal-pad-for-amd-chips-in-partnership-with-carbice-produ-e4649514"
+      ],
+      "status": "candidate"
+    },
+    "concept:noctua": {
+      "sourceIds": [
+        "noctua-announces-new-thermal-pad-for-amd-chips-in-partnership-with-carbice-produ-e4649514"
+      ],
+      "status": "candidate"
+    },
+    "concept:partnership": {
+      "sourceIds": [
+        "noctua-announces-new-thermal-pad-for-amd-chips-in-partnership-with-carbice-produ-e4649514"
+      ],
+      "status": "candidate"
+    },
+    "concept:announces": {
+      "sourceIds": [
+        "noctua-announces-new-thermal-pad-for-amd-chips-in-partnership-with-carbice-produ-e4649514"
+      ],
+      "status": "candidate"
+    },
+    "concept:meta": {
+      "sourceIds": [
+        "openai-ai-f5fddf99"
+      ],
+      "status": "candidate"
+    },
+    "concept:agent-to-agent": {
+      "sourceIds": [
+        "openai-ai-f5fddf99"
+      ],
+      "status": "candidate"
+    },
+    "concept:innotek": {
+      "sourceIds": [
+        "openai-ai-f5fddf99"
+      ],
+      "status": "candidate"
+    },
+    "concept:oracle": {
+      "sourceIds": [
+        "oracle-database-aws-now-offered-in-20-global-regions-d78f0471"
+      ],
+      "status": "candidate"
+    },
+    "concept:database": {
+      "sourceIds": [
+        "oracle-database-aws-now-offered-in-20-global-regions-d78f0471"
+      ],
+      "status": "candidate"
+    },
+    "concept:eight": {
+      "sourceIds": [
+        "oracle-database-aws-now-offered-in-20-global-regions-d78f0471"
+      ],
+      "status": "candidate"
+    },
+    "concept:global": {
+      "sourceIds": [
+        "oracle-database-aws-now-offered-in-20-global-regions-d78f0471"
+      ],
+      "status": "candidate"
+    },
+    "concept:800m": {
+      "sourceIds": [
+        "polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a"
+      ],
+      "status": "candidate"
+    },
+    "concept:additional": {
+      "sourceIds": [
+        "polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a"
+      ],
+      "status": "candidate"
+    },
+    "concept:bond": {
+      "sourceIds": [
+        "polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a"
+      ],
+      "status": "candidate"
+    },
+    "concept:construction": {
+      "sourceIds": [
+        "polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a"
+      ],
+      "status": "candidate"
+    },
+    "concept:being": {
+      "sourceIds": [
+        "police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b",
+        "windows-server-vulnerability-can-grant-system-privileges-with-just-a-malformed-p-a2a2bf88"
+      ],
+      "status": "candidate"
+    },
+    "concept:during": {
+      "sourceIds": [
+        "police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b"
+      ],
+      "status": "candidate"
+    },
+    "concept:equipment": {
+      "sourceIds": [
+        "police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b"
+      ],
+      "status": "candidate"
+    },
+    "concept:guide": {
+      "sourceIds": [
+        "product-recall-management-guide-for-electronics-manufacturing-smbs-96c461a4"
+      ],
+      "status": "candidate"
+    },
+    "concept:product": {
+      "sourceIds": [
+        "product-recall-management-guide-for-electronics-manufacturing-smbs-96c461a4"
+      ],
+      "status": "candidate"
+    },
+    "concept:electronics": {
+      "sourceIds": [
+        "product-recall-management-guide-for-electronics-manufacturing-smbs-96c461a4"
+      ],
+      "status": "candidate"
+    },
+    "concept:management": {
+      "sourceIds": [
+        "product-recall-management-guide-for-electronics-manufacturing-smbs-96c461a4"
+      ],
+      "status": "candidate"
+    },
+    "concept:recall": {
+      "sourceIds": [
+        "product-recall-management-guide-for-electronics-manufacturing-smbs-96c461a4"
+      ],
+      "status": "candidate"
+    },
+    "concept:analog": {
+      "sourceIds": [
+        "qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43"
+      ],
+      "status": "candidate"
+    },
+    "concept:quantum": {
+      "sourceIds": [
+        "qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43"
+      ],
+      "status": "candidate"
+    },
+    "concept:qilimanjaro": {
+      "sourceIds": [
+        "qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43"
+      ],
+      "status": "candidate"
+    },
+    "concept:compute": {
+      "sourceIds": [
+        "qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43"
+      ],
+      "status": "candidate"
+    },
+    "concept:demands": {
+      "sourceIds": [
+        "qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43"
+      ],
+      "status": "candidate"
+    },
+    "concept:pushes": {
+      "sourceIds": [
+        "qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43"
+      ],
+      "status": "candidate"
+    },
+    "concept:laptop": {
+      "sourceIds": [
+        "qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1"
+      ],
+      "status": "candidate"
+    },
+    "concept:qualcomm": {
+      "sourceIds": [
+        "qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1"
+      ],
+      "status": "candidate"
+    },
+    "concept:snapdragon": {
+      "sourceIds": [
+        "qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1"
+      ],
+      "status": "candidate"
+    },
+    "concept:28th": {
+      "sourceIds": [
+        "qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1"
+      ],
+      "status": "candidate"
+    },
+    "concept:infrastructure": {
+      "sourceIds": [
+        "research-computing-infrastructure-report-2026-e3eb7982"
+      ],
+      "status": "candidate"
+    },
+    "concept:balancing": {
+      "sourceIds": [
+        "research-computing-infrastructure-report-2026-e3eb7982"
+      ],
+      "status": "candidate"
+    },
+    "concept:budget": {
+      "sourceIds": [
+        "research-computing-infrastructure-report-2026-e3eb7982"
+      ],
+      "status": "candidate"
+    },
+    "concept:computing": {
+      "sourceIds": [
+        "research-computing-infrastructure-report-2026-e3eb7982"
+      ],
+      "status": "candidate"
+    },
+    "concept:months": {
+      "sourceIds": [
+        "save-78-on-nord-s-latest-complete-vpn-package-27-months-of-online-protection-for-c6a04757"
+      ],
+      "status": "candidate"
+    },
+    "concept:protection": {
+      "sourceIds": [
+        "save-78-on-nord-s-latest-complete-vpn-package-27-months-of-online-protection-for-c6a04757"
+      ],
+      "status": "candidate"
+    },
+    "concept:anti-virus": {
+      "sourceIds": [
+        "save-78-on-nord-s-latest-complete-vpn-package-27-months-of-online-protection-for-c6a04757"
+      ],
+      "status": "candidate"
+    },
+    "concept:complete": {
+      "sourceIds": [
+        "save-78-on-nord-s-latest-complete-vpn-package-27-months-of-online-protection-for-c6a04757"
+      ],
+      "status": "candidate"
+    },
+    "concept:connections": {
+      "sourceIds": [
+        "save-78-on-nord-s-latest-complete-vpn-package-27-months-of-online-protection-for-c6a04757"
+      ],
+      "status": "candidate"
+    },
+    "concept:coverage": {
+      "sourceIds": [
+        "save-78-on-nord-s-latest-complete-vpn-package-27-months-of-online-protection-for-c6a04757"
+      ],
+      "status": "candidate"
+    },
+    "concept:china": {
+      "sourceIds": [
+        "semiconductor-industry-in-china-15ab2d27"
+      ],
+      "status": "candidate"
+    },
+    "concept:2020": {
+      "sourceIds": [
+        "semiconductor-industry-in-china-15ab2d27"
+      ],
+      "status": "candidate"
+    },
+    "concept:announced": {
+      "sourceIds": [
+        "semiconductor-industry-in-china-15ab2d27"
+      ],
+      "status": "candidate"
+    },
+    "concept:chairman": {
+      "sourceIds": [
+        "sk-hynix-to-double-memory-wafer-capacity-within-five-years-chairman-says-ai-driv-005fac25"
+      ],
+      "status": "candidate"
+    },
+    "concept:double": {
+      "sourceIds": [
+        "sk-hynix-to-double-memory-wafer-capacity-within-five-years-chairman-says-ai-driv-005fac25"
+      ],
+      "status": "candidate"
+    },
+    "concept:five": {
+      "sourceIds": [
+        "sk-hynix-to-double-memory-wafer-capacity-within-five-years-chairman-says-ai-driv-005fac25"
+      ],
+      "status": "candidate"
+    },
+    "concept:another": {
+      "sourceIds": [
+        "stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81"
+      ],
+      "status": "candidate"
+    },
+    "concept:australia": {
+      "sourceIds": [
+        "stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81"
+      ],
+      "status": "candidate"
+    },
+    "concept:material": {
+      "sourceIds": [
+        "taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6"
+      ],
+      "status": "candidate"
+    },
+    "concept:allocation": {
+      "sourceIds": [
+        "taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6"
+      ],
+      "status": "candidate"
+    },
+    "concept:server": {
+      "sourceIds": [
+        "taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6"
+      ],
+      "status": "candidate"
+    },
+    "concept:taiwan": {
+      "sourceIds": [
+        "taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6"
+      ],
+      "status": "candidate"
+    },
+    "concept:weeks": {
+      "sourceIds": [
+        "taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6"
+      ],
+      "status": "candidate"
+    },
+    "concept:commercial": {
+      "sourceIds": [
+        "the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473"
+      ],
+      "status": "candidate"
+    },
+    "concept:experiment": {
+      "sourceIds": [
+        "the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473"
+      ],
+      "status": "candidate"
+    },
+    "concept:haps": {
+      "sourceIds": [
+        "the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473"
+      ],
+      "status": "candidate"
+    },
+    "concept:move": {
+      "sourceIds": [
+        "the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473"
+      ],
+      "status": "candidate"
+    },
+    "concept:race": {
+      "sourceIds": [
+        "the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473"
+      ],
+      "status": "candidate"
+    },
+    "concept:paradox": {
+      "sourceIds": [
+        "the-sub-2nm-paradox-f67d3ffe"
+      ],
+      "status": "candidate"
+    },
+    "concept:sub-2nm": {
+      "sourceIds": [
+        "the-sub-2nm-paradox-f67d3ffe"
+      ],
+      "status": "candidate"
+    },
+    "concept:appeared": {
+      "sourceIds": [
+        "the-sub-2nm-paradox-f67d3ffe"
+      ],
+      "status": "candidate"
+    },
+    "concept:area": {
+      "sourceIds": [
+        "the-sub-2nm-paradox-f67d3ffe"
+      ],
+      "status": "candidate"
+    },
+    "concept:behavior": {
+      "sourceIds": [
+        "the-sub-2nm-paradox-f67d3ffe"
+      ],
+      "status": "candidate"
+    },
+    "concept:fail": {
+      "sourceIds": [
+        "the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4"
+      ],
+      "status": "candidate"
+    },
+    "concept:opinions": {
+      "sourceIds": [
+        "the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4"
+      ],
+      "status": "candidate"
+    },
+    "concept:8010255": {
+      "sourceIds": [
+        "token-ai-05fbba82"
+      ],
+      "status": "candidate"
+    },
+    "concept:covering": {
+      "sourceIds": [
+        "tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93"
+      ],
+      "status": "candidate"
+    },
+    "concept:curtain": {
+      "sourceIds": [
+        "tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93"
+      ],
+      "status": "candidate"
+    },
+    "concept:show": {
+      "sourceIds": [
+        "tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93"
+      ],
+      "status": "candidate"
+    },
+    "concept:back": {
+      "sourceIds": [
+        "tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93"
+      ],
+      "status": "candidate"
+    },
+    "concept:will": {
+      "sourceIds": [
+        "tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand--9cc4dead"
+      ],
+      "status": "candidate"
+    },
+    "concept:before": {
+      "sourceIds": [
+        "tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand--9cc4dead"
+      ],
+      "status": "candidate"
+    },
+    "concept:customer": {
+      "sourceIds": [
+        "tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand--9cc4dead"
+      ],
+      "status": "candidate"
+    },
+    "concept:intel": {
+      "sourceIds": [
+        "tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand--9cc4dead"
+      ],
+      "status": "candidate"
+    },
+    "concept:partner": {
+      "sourceIds": [
+        "uefa-and-uc3-select-alibaba-as-ai-and-cloud-partner-76cc147b"
+      ],
+      "status": "candidate"
+    },
+    "concept:alibaba": {
+      "sourceIds": [
+        "uefa-and-uc3-select-alibaba-as-ai-and-cloud-partner-76cc147b"
+      ],
+      "status": "candidate"
+    },
+    "concept:also": {
+      "sourceIds": [
+        "uefa-and-uc3-select-alibaba-as-ai-and-cloud-partner-76cc147b"
+      ],
+      "status": "candidate"
+    },
+    "concept:cloud": {
+      "sourceIds": [
+        "uefa-and-uc3-select-alibaba-as-ai-and-cloud-partner-76cc147b"
+      ],
+      "status": "candidate"
+    },
+    "concept:e-commerce": {
+      "sourceIds": [
+        "uefa-and-uc3-select-alibaba-as-ai-and-cloud-partner-76cc147b"
+      ],
+      "status": "candidate"
+    },
+    "concept:300mw": {
+      "sourceIds": [
+        "virtus-completes-installation-of-two-super-grid-transformers-at-wustermark-campu-aa30fb62"
+      ],
+      "status": "candidate"
+    },
+    "concept:berlin": {
+      "sourceIds": [
+        "virtus-completes-installation-of-two-super-grid-transformers-at-wustermark-campu-aa30fb62"
+      ],
+      "status": "candidate"
+    },
+    "concept:completes": {
+      "sourceIds": [
+        "virtus-completes-installation-of-two-super-grid-transformers-at-wustermark-campu-aa30fb62"
+      ],
+      "status": "candidate"
+    },
+    "concept:delivery": {
+      "sourceIds": [
+        "virtus-completes-installation-of-two-super-grid-transformers-at-wustermark-campu-aa30fb62"
+      ],
+      "status": "candidate"
+    },
+    "concept:title": {
+      "sourceIds": [
+        "watermark-032a84ec"
+      ],
+      "status": "candidate"
+    },
+    "concept:2026-05-30t08": {
+      "sourceIds": [
+        "watermark-032a84ec"
+      ],
+      "status": "candidate"
+    },
+    "concept:engineering": {
+      "sourceIds": [
+        "watermark-032a84ec"
+      ],
+      "status": "candidate"
+    },
+    "concept:fetched": {
+      "sourceIds": [
+        "watermark-032a84ec"
+      ],
+      "status": "candidate"
+    },
+    "concept:semi": {
+      "sourceIds": [
+        "watermark-032a84ec"
+      ],
+      "status": "candidate"
+    },
+    "concept:waves": {
+      "sourceIds": [
+        "waves-776f17d7"
+      ],
+      "status": "candidate"
+    },
+    "concept:under": {
+      "sourceIds": [
+        "waves-776f17d7"
+      ],
+      "status": "candidate"
+    },
+    "concept:2017": {
+      "sourceIds": [
+        "waves-776f17d7"
+      ],
+      "status": "candidate"
+    },
+    "concept:2018": {
+      "sourceIds": [
+        "waves-776f17d7"
+      ],
+      "status": "candidate"
+    },
+    "concept:controllers": {
+      "sourceIds": [
+        "windows-server-vulnerability-can-grant-system-privileges-with-just-a-malformed-p-a2a2bf88"
+      ],
+      "status": "candidate"
+    },
+    "concept:domain": {
+      "sourceIds": [
+        "windows-server-vulnerability-can-grant-system-privileges-with-just-a-malformed-p-a2a2bf88"
+      ],
+      "status": "candidate"
+    },
+    "concept:exploited": {
+      "sourceIds": [
+        "windows-server-vulnerability-can-grant-system-privileges-with-just-a-malformed-p-a2a2bf88"
+      ],
+      "status": "candidate"
+    },
+    "concept:just": {
+      "sourceIds": [
+        "windows-server-vulnerability-can-grant-system-privileges-with-just-a-malformed-p-a2a2bf88"
+      ],
+      "status": "candidate"
+    },
+    "concept:malformed": {
+      "sourceIds": [
+        "windows-server-vulnerability-can-grant-system-privileges-with-just-a-malformed-p-a2a2bf88"
+      ],
+      "status": "candidate"
+    },
+    "entity:code-codex-openclaw-agent-token": {
+      "sourceIds": [
+        "00-token-c0fbba38"
+      ],
+      "status": "candidate"
+    },
+    "entity:original": {
+      "sourceIds": [
+        "00-token-c0fbba38",
+        "2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f",
+        "20-7a2207fa",
+        "36-e13fd522",
+        "6-4d647596",
+        "9-4c0783bd",
+        "ai4s-36-12ae3127",
+        "arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff",
+        "asus-world-first-oled-esports-monitor-can-hit-540hz-at-1080p-rog-strix-oled-mode-56f5dbe3",
+        "bambu-lab-launches-big-bed-slinger-a2l-company-s-h2s-lite-is-half-the-cost-of-h2-c7aa24dd",
+        "budget-smartphones-become-less-attractive-in-the-era-of-artificial-intelligence-ba9ca3b3",
+        "bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1",
+        "cryptominer-dmg-signs-loi-to-secure-50mw-ai-customer-in-canada-6ae4b022",
+        "data-decommissioning-in-data-centers-97bbac28",
+        "environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7",
+        "etf-f7ec9dba",
+        "gigabyte-debuts-fourth-gen-tandem-woled-and-multi-mode-mini-led-gaming-monitors--8734a69d",
+        "item-2b1d1f82",
+        "item-344deb15",
+        "oracle-database-aws-now-offered-in-20-global-regions-d78f0471",
+        "polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a",
+        "police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b",
+        "research-computing-infrastructure-report-2026-e3eb7982",
+        "stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81",
+        "the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4",
+        "uefa-and-uc3-select-alibaba-as-ai-and-cloud-partner-76cc147b",
+        "virtus-completes-installation-of-two-super-grid-transformers-at-wustermark-campu-aa30fb62",
+        "waves-776f17d7",
+        "windows-server-vulnerability-can-grant-system-privileges-with-just-a-malformed-p-a2a2bf88"
+      ],
+      "status": "candidate"
+    },
+    "entity:isaac": {
+      "sourceIds": [
+        "10-01-10-9b40249c"
+      ],
+      "status": "candidate"
+    },
+    "entity:patterson-ai-eda": {
+      "sourceIds": [
+        "10-36-45a8a658"
+      ],
+      "status": "candidate"
+    },
+    "entity:mason-county-kentucky-but": {
+      "sourceIds": [
+        "2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f"
+      ],
+      "status": "candidate"
+    },
+    "entity:mason-county-kentucky": {
+      "sourceIds": [
+        "2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f"
+      ],
+      "status": "candidate"
+    },
+    "entity:kentucky": {
+      "sourceIds": [
+        "2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f"
+      ],
+      "status": "candidate"
+    },
+    "entity:mason-county": {
+      "sourceIds": [
+        "2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f"
+      ],
+      "status": "candidate"
+    },
+    "entity:evan-cto-30": {
+      "sourceIds": [
+        "2-5-aippy-ai-36-a52689fc"
+      ],
+      "status": "candidate"
+    },
+    "entity:coding-evan": {
+      "sourceIds": [
+        "2-5-aippy-ai-36-a52689fc"
+      ],
+      "status": "candidate"
+    },
+    "entity:capital": {
+      "sourceIds": [
+        "2-5-aippy-ai-36-a52689fc"
+      ],
+      "status": "candidate"
+    },
+    "entity:origin-code": {
+      "sourceIds": [
+        "256gb-of-dual-channel-ram-hits-mass-market-thanks-to-origin-code-quad-rank-cudim-361c6bf9"
+      ],
+      "status": "candidate"
+    },
+    "entity:vortex": {
+      "sourceIds": [
+        "256gb-of-dual-channel-ram-hits-mass-market-thanks-to-origin-code-quad-rank-cudim-361c6bf9"
+      ],
+      "status": "candidate"
+    },
+    "entity:computex": {
+      "sourceIds": [
+        "256gb-of-dual-channel-ram-hits-mass-market-thanks-to-origin-code-quad-rank-cudim-361c6bf9",
+        "access-tom-s-hardware-premium-s-computex-2026-coverage-for-free-sign-up-for-an-a-d1a4cabc",
+        "amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5",
+        "jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56",
+        "qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1",
+        "sk-hynix-to-double-memory-wafer-capacity-within-five-years-chairman-says-ai-driv-005fac25",
+        "tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93"
+      ],
+      "status": "candidate"
+    },
+    "entity:seed": {
+      "sourceIds": [
+        "36-2026-ai-48760c87"
+      ],
+      "status": "candidate"
+    },
+    "entity:google": {
+      "sourceIds": [
+        "36-2026-ai-48760c87"
+      ],
+      "status": "candidate"
+    },
+    "entity:tom-s-hardware-premium-s-computex": {
+      "sourceIds": [
+        "access-tom-s-hardware-premium-s-computex-2026-coverage-for-free-sign-up-for-an-a-d1a4cabc"
+      ],
+      "status": "candidate"
+    },
+    "entity:for": {
+      "sourceIds": [
+        "access-tom-s-hardware-premium-s-computex-2026-coverage-for-free-sign-up-for-an-a-d1a4cabc"
+      ],
+      "status": "candidate"
+    },
+    "entity:tom-s-hardware": {
+      "sourceIds": [
+        "access-tom-s-hardware-premium-s-computex-2026-coverage-for-free-sign-up-for-an-a-d1a4cabc"
+      ],
+      "status": "candidate"
+    },
+    "entity:tom-s": {
+      "sourceIds": [
+        "access-tom-s-hardware-premium-s-computex-2026-coverage-for-free-sign-up-for-an-a-d1a4cabc",
+        "tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93"
+      ],
+      "status": "candidate"
+    },
+    "entity:is-hardware-next": {
+      "sourceIds": [
+        "ai-accelerated-software-security-vulnerability-discovery-is-hardware-next-56d4fd7e"
+      ],
+      "status": "candidate"
+    },
+    "entity:accelerated-software-security-vulnerability-discovery-is-hardware-next": {
+      "sourceIds": [
+        "ai-accelerated-software-security-vulnerability-discovery-is-hardware-next-56d4fd7e"
+      ],
+      "status": "candidate"
+    },
+    "entity:ee-times": {
+      "sourceIds": [
+        "ai-accelerated-software-security-vulnerability-discovery-is-hardware-next-56d4fd7e",
+        "beyond-the-factory-floor-xr-training-for-the-next-industrial-era-6d87b89e",
+        "early-memory-contention-checks-reduce-ic-design-risks-2fa560bb",
+        "gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095",
+        "high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763",
+        "product-recall-management-guide-for-electronics-manufacturing-smbs-96c461a4",
+        "the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473"
+      ],
+      "status": "candidate"
+    },
+    "entity:ai-data-center-optical": {
+      "sourceIds": [
+        "ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39"
+      ],
+      "status": "candidate"
+    },
+    "entity:nvidia-s": {
+      "sourceIds": [
+        "ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39"
+      ],
+      "status": "candidate"
+    },
+    "entity:author-kyle-belmonte": {
+      "sourceIds": [
+        "ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39"
+      ],
+      "status": "candidate"
+    },
+    "entity:date": {
+      "sourceIds": [
+        "ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39",
+        "ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d",
+        "hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7",
+        "inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da",
+        "taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6"
+      ],
+      "status": "candidate"
+    },
+    "entity:ai": {
+      "sourceIds": [
+        "ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39"
+      ],
+      "status": "candidate"
+    },
+    "entity:ai-data": {
+      "sourceIds": [
+        "ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39"
+      ],
+      "status": "candidate"
+    },
+    "entity:author-evelyn-nakamura": {
+      "sourceIds": [
+        "ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d"
+      ],
+      "status": "candidate"
+    },
+    "entity:bottleneck-crisis": {
+      "sourceIds": [
+        "ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d"
+      ],
+      "status": "candidate"
+    },
+    "entity:moody-s-comprehensive": {
+      "sourceIds": [
+        "ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d"
+      ],
+      "status": "candidate"
+    },
+    "entity:ai-development": {
+      "sourceIds": [
+        "ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d"
+      ],
+      "status": "candidate"
+    },
+    "entity:what": {
+      "sourceIds": [
+        "ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d"
+      ],
+      "status": "candidate"
+    },
+    "entity:science": {
+      "sourceIds": [
+        "ai4s-36-12ae3127"
+      ],
+      "status": "candidate"
+    },
+    "entity:lab": {
+      "sourceIds": [
+        "ai4s-36-12ae3127"
+      ],
+      "status": "candidate"
+    },
+    "entity:amd-radeon": {
+      "sourceIds": [
+        "amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5"
+      ],
+      "status": "candidate"
+    },
+    "entity:amd-s": {
+      "sourceIds": [
+        "amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5"
+      ],
+      "status": "candidate"
+    },
+    "entity:radeon": {
+      "sourceIds": [
+        "amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5"
+      ],
+      "status": "candidate"
+    },
+    "entity:https-www-tomshardware-com-pc-components-gpus-amd-radeon-rx-9070-gre-review": {
+      "sourceIds": [
+        "amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5"
+      ],
+      "status": "candidate"
+    },
+    "entity:amd": {
+      "sourceIds": [
+        "amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5",
+        "noctua-announces-new-thermal-pad-for-amd-chips-in-partnership-with-carbice-produ-e4649514"
+      ],
+      "status": "candidate"
+    },
+    "entity:joroinen-finland": {
+      "sourceIds": [
+        "arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff"
+      ],
+      "status": "candidate"
+    },
+    "entity:one": {
+      "sourceIds": [
+        "arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff"
+      ],
+      "status": "candidate"
+    },
+    "entity:country-original": {
+      "sourceIds": [
+        "arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff"
+      ],
+      "status": "candidate"
+    },
+    "entity:aromemanpo": {
+      "sourceIds": [
+        "aromemanpo-b-10-b85b6668"
+      ],
+      "status": "candidate"
+    },
+    "entity:astral-geforce": {
+      "sourceIds": [
+        "asus-monstrous-rog-astral-geforce-rtx-5090-edition-20-includes-expansive-curved--3fd8b9cf"
+      ],
+      "status": "candidate"
+    },
+    "entity:edition": {
+      "sourceIds": [
+        "asus-monstrous-rog-astral-geforce-rtx-5090-edition-20-includes-expansive-curved--3fd8b9cf"
+      ],
+      "status": "candidate"
+    },
+    "entity:asus": {
+      "sourceIds": [
+        "asus-monstrous-rog-astral-geforce-rtx-5090-edition-20-includes-expansive-curved--3fd8b9cf",
+        "asus-world-first-oled-esports-monitor-can-hit-540hz-at-1080p-rog-strix-oled-mode-56f5dbe3"
+      ],
+      "status": "candidate"
+    },
+    "entity:computex-press": {
+      "sourceIds": [
+        "asus-monstrous-rog-astral-geforce-rtx-5090-edition-20-includes-expansive-curved--3fd8b9cf"
+      ],
+      "status": "candidate"
+    },
+    "entity:destrier-edition": {
+      "sourceIds": [
+        "asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-6a638edc"
+      ],
+      "status": "candidate"
+    },
+    "entity:hard": {
+      "sourceIds": [
+        "asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-6a638edc"
+      ],
+      "status": "candidate"
+    },
+    "entity:luggage-edition": {
+      "sourceIds": [
+        "asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-6a638edc"
+      ],
+      "status": "candidate"
+    },
+    "entity:apart": {
+      "sourceIds": [
+        "asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-6a638edc"
+      ],
+      "status": "candidate"
+    },
+    "entity:asus-s": {
+      "sourceIds": [
+        "asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-6a638edc"
+      ],
+      "status": "candidate"
+    },
+    "entity:destreir-edition": {
+      "sourceIds": [
+        "asus-rolls-out-a-rog-20th-anniversary-chair-and-backpack-alongside-commemorative-6a638edc"
+      ],
+      "status": "candidate"
+    },
+    "entity:strix": {
+      "sourceIds": [
+        "asus-world-first-oled-esports-monitor-can-hit-540hz-at-1080p-rog-strix-oled-mode-56f5dbe3"
+      ],
+      "status": "candidate"
+    },
+    "entity:three": {
+      "sourceIds": [
+        "asus-world-first-oled-esports-monitor-can-hit-540hz-at-1080p-rog-strix-oled-mode-56f5dbe3"
+      ],
+      "status": "candidate"
+    },
+    "entity:lite": {
+      "sourceIds": [
+        "bambu-lab-launches-big-bed-slinger-a2l-company-s-h2s-lite-is-half-the-cost-of-h2-c7aa24dd"
+      ],
+      "status": "candidate"
+    },
+    "entity:or": {
+      "sourceIds": [
+        "bambu-lab-launches-big-bed-slinger-a2l-company-s-h2s-lite-is-half-the-cost-of-h2-c7aa24dd"
+      ],
+      "status": "candidate"
+    },
+    "entity:factory-floor": {
+      "sourceIds": [
+        "beyond-the-factory-floor-xr-training-for-the-next-industrial-era-6d87b89e"
+      ],
+      "status": "candidate"
+    },
+    "entity:training": {
+      "sourceIds": [
+        "beyond-the-factory-floor-xr-training-for-the-next-industrial-era-6d87b89e"
+      ],
+      "status": "candidate"
+    },
+    "entity:next-industrial-era-eu": {
+      "sourceIds": [
+        "beyond-the-factory-floor-xr-training-for-the-next-industrial-era-6d87b89e"
+      ],
+      "status": "candidate"
+    },
+    "entity:beyond": {
+      "sourceIds": [
+        "beyond-the-factory-floor-xr-training-for-the-next-industrial-era-6d87b89e"
+      ],
+      "status": "candidate"
+    },
+    "entity:next-industrial-era": {
+      "sourceIds": [
+        "beyond-the-factory-floor-xr-training-for-the-next-industrial-era-6d87b89e"
+      ],
+      "status": "candidate"
+    },
+    "entity:smartphones-become-less-attractive": {
+      "sourceIds": [
+        "budget-smartphones-become-less-attractive-in-the-era-of-artificial-intelligence-ba9ca3b3"
+      ],
+      "status": "candidate"
+    },
+    "entity:era": {
+      "sourceIds": [
+        "budget-smartphones-become-less-attractive-in-the-era-of-artificial-intelligence-ba9ca3b3"
+      ],
+      "status": "candidate"
+    },
+    "entity:artificial-intelligence-bidding": {
+      "sourceIds": [
+        "budget-smartphones-become-less-attractive-in-the-era-of-artificial-intelligence-ba9ca3b3"
+      ],
+      "status": "candidate"
+    },
+    "entity:bw-group": {
+      "sourceIds": [
+        "bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1"
+      ],
+      "status": "candidate"
+    },
+    "entity:telemark-county-norway-company-partners": {
+      "sourceIds": [
+        "bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1"
+      ],
+      "status": "candidate"
+    },
+    "entity:frier-vest": {
+      "sourceIds": [
+        "bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1"
+      ],
+      "status": "candidate"
+    },
+    "entity:telemark-county": {
+      "sourceIds": [
+        "bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1"
+      ],
+      "status": "candidate"
+    },
+    "entity:park-original": {
+      "sourceIds": [
+        "bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1"
+      ],
+      "status": "candidate"
+    },
+    "entity:china-is-building": {
+      "sourceIds": [
+        "china-is-building-a-computing-power-high-speed-rail-6ae5adca"
+      ],
+      "status": "candidate"
+    },
+    "entity:computing-power-high-speed-rail-is": {
+      "sourceIds": [
+        "china-is-building-a-computing-power-high-speed-rail-6ae5adca"
+      ],
+      "status": "candidate"
+    },
+    "entity:computing-power": {
+      "sourceIds": [
+        "china-is-building-a-computing-power-high-speed-rail-6ae5adca"
+      ],
+      "status": "candidate"
+    },
+    "entity:canada-company": {
+      "sourceIds": [
+        "cryptominer-dmg-signs-loi-to-secure-50mw-ai-customer-in-canada-6ae4b022"
+      ],
+      "status": "candidate"
+    },
+    "entity:christina-lake": {
+      "sourceIds": [
+        "cryptominer-dmg-signs-loi-to-secure-50mw-ai-customer-in-canada-6ae4b022"
+      ],
+      "status": "candidate"
+    },
+    "entity:canada": {
+      "sourceIds": [
+        "cryptominer-dmg-signs-loi-to-secure-50mw-ai-customer-in-canada-6ae4b022"
+      ],
+      "status": "candidate"
+    },
+    "entity:gain": {
+      "sourceIds": [
+        "data-decommissioning-in-data-centers-97bbac28"
+      ],
+      "status": "candidate"
+    },
+    "entity:memory-contention-checks-reduce-ic-design-risks-automated": {
+      "sourceIds": [
+        "early-memory-contention-checks-reduce-ic-design-risks-2fa560bb"
+      ],
+      "status": "candidate"
+    },
+    "entity:soc": {
+      "sourceIds": [
+        "early-memory-contention-checks-reduce-ic-design-risks-2fa560bb"
+      ],
+      "status": "candidate"
+    },
+    "entity:early-memory-contention-checks-reduce-ic-design-risks": {
+      "sourceIds": [
+        "early-memory-contention-checks-reduce-ic-design-risks-2fa560bb"
+      ],
+      "status": "candidate"
+    },
+    "entity:memory-contention-checks-reduce-ic-design": {
+      "sourceIds": [
+        "early-memory-contention-checks-reduce-ic-design-risks-2fa560bb"
+      ],
+      "status": "candidate"
+    },
+    "entity:early-memory-contention-checks-reduce-ic-design": {
+      "sourceIds": [
+        "early-memory-contention-checks-reduce-ic-design-risks-2fa560bb"
+      ],
+      "status": "candidate"
+    },
+    "entity:erin-brockovich": {
+      "sourceIds": [
+        "environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7"
+      ],
+      "status": "candidate"
+    },
+    "entity:activist": {
+      "sourceIds": [
+        "environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7"
+      ],
+      "status": "candidate"
+    },
+    "entity:hinkley": {
+      "sourceIds": [
+        "environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7"
+      ],
+      "status": "candidate"
+    },
+    "entity:says-supply-chain-confront-geopolitical": {
+      "sourceIds": [
+        "gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095"
+      ],
+      "status": "candidate"
+    },
+    "entity:challenges-gartner-supply-chain-symposium": {
+      "sourceIds": [
+        "gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095"
+      ],
+      "status": "candidate"
+    },
+    "entity:innovation": {
+      "sourceIds": [
+        "gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095"
+      ],
+      "status": "candidate"
+    },
+    "entity:gartner-says-supply-chain-confront-geopolitical": {
+      "sourceIds": [
+        "gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095"
+      ],
+      "status": "candidate"
+    },
+    "entity:challenges": {
+      "sourceIds": [
+        "gartner-says-supply-chain-confront-geopolitical-and-ai-challenges-61b46095"
+      ],
+      "status": "candidate"
+    },
+    "entity:gen-tandem": {
+      "sourceIds": [
+        "gigabyte-debuts-fourth-gen-tandem-woled-and-multi-mode-mini-led-gaming-monitors--8734a69d"
+      ],
+      "status": "candidate"
+    },
+    "entity:mini": {
+      "sourceIds": [
+        "gigabyte-debuts-fourth-gen-tandem-woled-and-multi-mode-mini-led-gaming-monitors--8734a69d"
+      ],
+      "status": "candidate"
+    },
+    "entity:hz": {
+      "sourceIds": [
+        "gigabyte-debuts-fourth-gen-tandem-woled-and-multi-mode-mini-led-gaming-monitors--8734a69d"
+      ],
+      "status": "candidate"
+    },
+    "entity:aorus-elite": {
+      "sourceIds": [
+        "gigabyte-debuts-fourth-gen-tandem-woled-and-multi-mode-mini-led-gaming-monitors--8734a69d"
+      ],
+      "status": "candidate"
+    },
+    "entity:race": {
+      "sourceIds": [
+        "hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7"
+      ],
+      "status": "candidate"
+    },
+    "entity:between": {
+      "sourceIds": [
+        "hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7"
+      ],
+      "status": "candidate"
+    },
+    "entity:samsung-source": {
+      "sourceIds": [
+        "hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7"
+      ],
+      "status": "candidate"
+    },
+    "entity:from": {
+      "sourceIds": [
+        "hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7"
+      ],
+      "status": "candidate"
+    },
+    "entity:brief-history": {
+      "sourceIds": [
+        "hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7"
+      ],
+      "status": "candidate"
+    },
+    "entity:voltage-gan-bi-directional-switches-strong-performance-simpler": {
+      "sourceIds": [
+        "high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763"
+      ],
+      "status": "candidate"
+    },
+    "entity:use": {
+      "sourceIds": [
+        "high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763"
+      ],
+      "status": "candidate"
+    },
+    "entity:gan": {
+      "sourceIds": [
+        "high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763"
+      ],
+      "status": "candidate"
+    },
+    "entity:the-post-high-voltage-gan-bi-directional-switches-strong-performance-simpler": {
+      "sourceIds": [
+        "high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763"
+      ],
+      "status": "candidate"
+    },
+    "entity:the-post": {
+      "sourceIds": [
+        "high-voltage-gan-bi-directional-switches-strong-performance-simpler-to-use-9c03e763"
+      ],
+      "status": "candidate"
+    },
+    "entity:ai-bottleneck-cowos": {
+      "sourceIds": [
+        "inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da"
+      ],
+      "status": "candidate"
+    },
+    "entity:capacity-constraints-through": {
+      "sourceIds": [
+        "inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da"
+      ],
+      "status": "candidate"
+    },
+    "entity:source": {
+      "sourceIds": [
+        "inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da"
+      ],
+      "status": "candidate"
+    },
+    "entity:author-ashley-papa": {
+      "sourceIds": [
+        "inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da"
+      ],
+      "status": "candidate"
+    },
+    "entity:why": {
+      "sourceIds": [
+        "inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da",
+        "the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4"
+      ],
+      "status": "candidate"
+    },
+    "entity:jensen-huang": {
+      "sourceIds": [
+        "jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56"
+      ],
+      "status": "candidate"
+    },
+    "entity:nvidia": {
+      "sourceIds": [
+        "jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56"
+      ],
+      "status": "candidate"
+    },
+    "entity:spark-nvidia": {
+      "sourceIds": [
+        "jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56"
+      ],
+      "status": "candidate"
+    },
+    "entity:in": {
+      "sourceIds": [
+        "jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56"
+      ],
+      "status": "candidate"
+    },
+    "entity:pc": {
+      "sourceIds": [
+        "jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56"
+      ],
+      "status": "candidate"
+    },
+    "entity:carbice": {
+      "sourceIds": [
+        "noctua-announces-new-thermal-pad-for-amd-chips-in-partnership-with-carbice-produ-e4649514"
+      ],
+      "status": "candidate"
+    },
+    "entity:noctua": {
+      "sourceIds": [
+        "noctua-announces-new-thermal-pad-for-amd-chips-in-partnership-with-carbice-produ-e4649514"
+      ],
+      "status": "candidate"
+    },
+    "entity:ryzen": {
+      "sourceIds": [
+        "noctua-announces-new-thermal-pad-for-amd-chips-in-partnership-with-carbice-produ-e4649514"
+      ],
+      "status": "candidate"
+    },
+    "entity:lg": {
+      "sourceIds": [
+        "openai-ai-f5fddf99"
+      ],
+      "status": "candidate"
+    },
+    "entity:database-aws": {
+      "sourceIds": [
+        "oracle-database-aws-now-offered-in-20-global-regions-d78f0471"
+      ],
+      "status": "candidate"
+    },
+    "entity:oracle": {
+      "sourceIds": [
+        "oracle-database-aws-now-offered-in-20-global-regions-d78f0471"
+      ],
+      "status": "candidate"
+    },
+    "entity:norway": {
+      "sourceIds": [
+        "polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a"
+      ],
+      "status": "candidate"
+    },
+    "entity:funds": {
+      "sourceIds": [
+        "polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a"
+      ],
+      "status": "candidate"
+    },
+    "entity:drangedai": {
+      "sourceIds": [
+        "polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a"
+      ],
+      "status": "candidate"
+    },
+    "entity:dc": {
+      "sourceIds": [
+        "polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a"
+      ],
+      "status": "candidate"
+    },
+    "entity:farnborough-uk-facility": {
+      "sourceIds": [
+        "police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b"
+      ],
+      "status": "candidate"
+    },
+    "entity:farnborough-uk": {
+      "sourceIds": [
+        "police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b"
+      ],
+      "status": "candidate"
+    },
+    "entity:uk": {
+      "sourceIds": [
+        "police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b"
+      ],
+      "status": "candidate"
+    },
+    "entity:farnborough": {
+      "sourceIds": [
+        "police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b"
+      ],
+      "status": "candidate"
+    },
+    "entity:product-recall-management-guide": {
+      "sourceIds": [
+        "product-recall-management-guide-for-electronics-manufacturing-smbs-96c461a4"
+      ],
+      "status": "candidate"
+    },
+    "entity:electronics-manufacturing": {
+      "sourceIds": [
+        "product-recall-management-guide-for-electronics-manufacturing-smbs-96c461a4"
+      ],
+      "status": "candidate"
+    },
+    "entity:this": {
+      "sourceIds": [
+        "product-recall-management-guide-for-electronics-manufacturing-smbs-96c461a4"
+      ],
+      "status": "candidate"
+    },
+    "entity:product-recall-management": {
+      "sourceIds": [
+        "product-recall-management-guide-for-electronics-manufacturing-smbs-96c461a4"
+      ],
+      "status": "candidate"
+    },
+    "entity:pushes-analog-quantum": {
+      "sourceIds": [
+        "qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43"
+      ],
+      "status": "candidate"
+    },
+    "entity:compute-demands-surge-qilimanjaro": {
+      "sourceIds": [
+        "qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43"
+      ],
+      "status": "candidate"
+    },
+    "entity:may": {
+      "sourceIds": [
+        "qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43",
+        "qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1"
+      ],
+      "status": "candidate"
+    },
+    "entity:barcelona-supercomputing-center": {
+      "sourceIds": [
+        "qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43"
+      ],
+      "status": "candidate"
+    },
+    "entity:qilimanjaro-pushes-analog-quantum": {
+      "sourceIds": [
+        "qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43"
+      ],
+      "status": "candidate"
+    },
+    "entity:compute-demands-surge": {
+      "sourceIds": [
+        "qilimanjaro-pushes-analog-quantum-as-ai-compute-demands-surge-d8a62e43"
+      ],
+      "status": "candidate"
+    },
+    "entity:snapdragon": {
+      "sourceIds": [
+        "qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1"
+      ],
+      "status": "candidate"
+    },
+    "entity:qualcomm": {
+      "sourceIds": [
+        "qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1"
+      ],
+      "status": "candidate"
+    },
+    "entity:snapdragon-c-platform": {
+      "sourceIds": [
+        "qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1"
+      ],
+      "status": "candidate"
+    },
+    "entity:taipei": {
+      "sourceIds": [
+        "qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1",
+        "sk-hynix-to-double-memory-wafer-capacity-within-five-years-chairman-says-ai-driv-005fac25",
+        "tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93"
+      ],
+      "status": "candidate"
+    },
+    "entity:computing-infrastructure-report": {
+      "sourceIds": [
+        "research-computing-infrastructure-report-2026-e3eb7982"
+      ],
+      "status": "candidate"
+    },
+    "entity:nord-s": {
+      "sourceIds": [
+        "save-78-on-nord-s-latest-complete-vpn-package-27-months-of-online-protection-for-c6a04757"
+      ],
+      "status": "candidate"
+    },
+    "entity:complete": {
+      "sourceIds": [
+        "save-78-on-nord-s-latest-complete-vpn-package-27-months-of-online-protection-for-c6a04757"
+      ],
+      "status": "candidate"
+    },
+    "entity:pick": {
+      "sourceIds": [
+        "save-78-on-nord-s-latest-complete-vpn-package-27-months-of-online-protection-for-c6a04757"
+      ],
+      "status": "candidate"
+    },
+    "entity:nordvpn": {
+      "sourceIds": [
+        "save-78-on-nord-s-latest-complete-vpn-package-27-months-of-online-protection-for-c6a04757"
+      ],
+      "status": "candidate"
+    },
+    "entity:industry": {
+      "sourceIds": [
+        "semiconductor-industry-in-china-15ab2d27"
+      ],
+      "status": "candidate"
+    },
+    "entity:china-source-wikipedia": {
+      "sourceIds": [
+        "semiconductor-industry-in-china-15ab2d27"
+      ],
+      "status": "candidate"
+    },
+    "entity:accessed": {
+      "sourceIds": [
+        "semiconductor-industry-in-china-15ab2d27"
+      ],
+      "status": "candidate"
+    },
+    "entity:overview-china": {
+      "sourceIds": [
+        "semiconductor-industry-in-china-15ab2d27"
+      ],
+      "status": "candidate"
+    },
+    "entity:china": {
+      "sourceIds": [
+        "semiconductor-industry-in-china-15ab2d27"
+      ],
+      "status": "candidate"
+    },
+    "entity:domestic-production-initiatives-in": {
+      "sourceIds": [
+        "semiconductor-industry-in-china-15ab2d27"
+      ],
+      "status": "candidate"
+    },
+    "entity:sk-group": {
+      "sourceIds": [
+        "sk-hynix-to-double-memory-wafer-capacity-within-five-years-chairman-says-ai-driv-005fac25"
+      ],
+      "status": "candidate"
+    },
+    "entity:chey-tae": {
+      "sourceIds": [
+        "sk-hynix-to-double-memory-wafer-capacity-within-five-years-chairman-says-ai-driv-005fac25"
+      ],
+      "status": "candidate"
+    },
+    "entity:melbourne-australia-company": {
+      "sourceIds": [
+        "stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81"
+      ],
+      "status": "candidate"
+    },
+    "entity:melbourne-australia": {
+      "sourceIds": [
+        "stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81"
+      ],
+      "status": "candidate"
+    },
+    "entity:taiwan": {
+      "sourceIds": [
+        "taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6"
+      ],
+      "status": "candidate"
+    },
+    "entity:makers-race": {
+      "sourceIds": [
+        "taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6"
+      ],
+      "status": "candidate"
+    },
+    "entity:secure": {
+      "sourceIds": [
+        "taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6"
+      ],
+      "status": "candidate"
+    },
+    "entity:source-materials": {
+      "sourceIds": [
+        "taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6"
+      ],
+      "status": "candidate"
+    },
+    "entity:demand-reshapes-laminate-supply-chain-source": {
+      "sourceIds": [
+        "taiwan-pcb-makers-race-to-secure-second-source-materials-as-ai-demand-reshapes-l-73526ca6"
+      ],
+      "status": "candidate"
+    },
+    "entity:stratosphere-race": {
+      "sourceIds": [
+        "the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473"
+      ],
+      "status": "candidate"
+    },
+    "entity:move": {
+      "sourceIds": [
+        "the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473"
+      ],
+      "status": "candidate"
+    },
+    "entity:experiment": {
+      "sourceIds": [
+        "the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473"
+      ],
+      "status": "candidate"
+    },
+    "entity:commercial-reality-autonomous": {
+      "sourceIds": [
+        "the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473"
+      ],
+      "status": "candidate"
+    },
+    "entity:commercial-reality": {
+      "sourceIds": [
+        "the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473"
+      ],
+      "status": "candidate"
+    },
+    "entity:sub": {
+      "sourceIds": [
+        "the-sub-2nm-paradox-f67d3ffe"
+      ],
+      "status": "candidate"
+    },
+    "entity:paradox-reducing": {
+      "sourceIds": [
+        "the-sub-2nm-paradox-f67d3ffe"
+      ],
+      "status": "candidate"
+    },
+    "entity:paradox": {
+      "sourceIds": [
+        "the-sub-2nm-paradox-f67d3ffe"
+      ],
+      "status": "candidate"
+    },
+    "entity:semiconductor-engineering": {
+      "sourceIds": [
+        "the-sub-2nm-paradox-f67d3ffe"
+      ],
+      "status": "candidate"
+    },
+    "entity:and": {
+      "sourceIds": [
+        "the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4"
+      ],
+      "status": "candidate"
+    },
+    "entity:tom-s-hardware-unfiltered-computex": {
+      "sourceIds": [
+        "tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93"
+      ],
+      "status": "candidate"
+    },
+    "entity:our": {
+      "sourceIds": [
+        "tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93"
+      ],
+      "status": "candidate"
+    },
+    "entity:wei": {
+      "sourceIds": [
+        "tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand--9cc4dead"
+      ],
+      "status": "candidate"
+    },
+    "entity:it": {
+      "sourceIds": [
+        "tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand--9cc4dead"
+      ],
+      "status": "candidate"
+    },
+    "entity:intel": {
+      "sourceIds": [
+        "tsmc-ceo-c-c-wei-says-it-will-be-a-long-time-before-we-can-meet-customer-demand--9cc4dead"
+      ],
+      "status": "candidate"
+    },
+    "entity:alibaba": {
+      "sourceIds": [
+        "uefa-and-uc3-select-alibaba-as-ai-and-cloud-partner-76cc147b"
+      ],
+      "status": "candidate"
+    },
+    "entity:wustermark-campus": {
+      "sourceIds": [
+        "virtus-completes-installation-of-two-super-grid-transformers-at-wustermark-campu-aa30fb62"
+      ],
+      "status": "candidate"
+    },
+    "entity:berlin-germany": {
+      "sourceIds": [
+        "virtus-completes-installation-of-two-super-grid-transformers-at-wustermark-campu-aa30fb62"
+      ],
+      "status": "candidate"
+    },
+    "entity:format": {
+      "sourceIds": [
+        "watermark-032a84ec"
+      ],
+      "status": "candidate"
+    },
+    "entity:top": {
+      "sourceIds": [
+        "watermark-032a84ec"
+      ],
+      "status": "candidate"
+    },
+    "entity:size": {
+      "sourceIds": [
+        "watermark-032a84ec"
+      ],
+      "status": "candidate"
+    },
+    "entity:nested": {
+      "sourceIds": [
+        "watermark-032a84ec"
+      ],
+      "status": "candidate"
+    },
+    "entity:schema": {
+      "sourceIds": [
+        "watermark-032a84ec"
+      ],
+      "status": "candidate"
+    },
+    "entity:preview": {
+      "sourceIds": [
+        "watermark-032a84ec"
+      ],
+      "status": "candidate"
+    },
+    "entity:server": {
+      "sourceIds": [
+        "windows-server-vulnerability-can-grant-system-privileges-with-just-a-malformed-p-a2a2bf88"
+      ],
+      "status": "candidate"
+    },
+    "entity:windows-server": {
+      "sourceIds": [
+        "windows-server-vulnerability-can-grant-system-privileges-with-just-a-malformed-p-a2a2bf88"
+      ],
+      "status": "candidate"
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473",
+  "sourceHash": "2f1ca4734c52cd6884ed23e1cec0357a0fcd8986c193bd9afb531a0ca89c8992",
+  "semanticHash": "095c7ba6d455ed2925d990993351bf866ec3f4cd6963fa7858886446b07cf12e",
+  "extractionHash": "8dfc61dd8b433757ab6c8308f30fd0680d458e5794ce0004b3bd5cfe7f6f082c",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "The Stratosphere Race: HAPS Move from Experiment to Commercial Reality",
+  "summary": "The Stratosphere Race: HAPS Move from Experiment to Commercial Reality Autonomous high-altitude platform stations are getting ready to bridge ground networks and LEO satellites. The post The Stratosphere Race: HAPS Move from Experiment to Commercial Reality appeared first on EE Times. Original: https://www.eetimes.com/the-stratosphere-race-haps-move-from-experiment-to-commercial-reality/",
+  "concepts": [
+    {
+      "id": "concept:commercial",
+      "name": "commercial",
+      "description": "Frequently referenced concept in The Stratosphere Race: HAPS Move from Experiment to Commercial Reality."
+    },
+    {
+      "id": "concept:experiment",
+      "name": "experiment",
+      "description": "Frequently referenced concept in The Stratosphere Race: HAPS Move from Experiment to Commercial Reality."
+    },
+    {
+      "id": "concept:from",
+      "name": "from",
+      "description": "Frequently referenced concept in The Stratosphere Race: HAPS Move from Experiment to Commercial Reality."
+    },
+    {
+      "id": "concept:haps",
+      "name": "haps",
+      "description": "Frequently referenced concept in The Stratosphere Race: HAPS Move from Experiment to Commercial Reality."
+    },
+    {
+      "id": "concept:move",
+      "name": "move",
+      "description": "Frequently referenced concept in The Stratosphere Race: HAPS Move from Experiment to Commercial Reality."
+    },
+    {
+      "id": "concept:race",
+      "name": "race",
+      "description": "Frequently referenced concept in The Stratosphere Race: HAPS Move from Experiment to Commercial Reality."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:stratosphere-race",
+      "name": "Stratosphere Race:",
+      "description": "Named entity mentioned in The Stratosphere Race: HAPS Move from Experiment to Commercial Reality."
+    },
+    {
+      "id": "entity:move",
+      "name": "Move",
+      "description": "Named entity mentioned in The Stratosphere Race: HAPS Move from Experiment to Commercial Reality."
+    },
+    {
+      "id": "entity:experiment",
+      "name": "Experiment",
+      "description": "Named entity mentioned in The Stratosphere Race: HAPS Move from Experiment to Commercial Reality."
+    },
+    {
+      "id": "entity:commercial-reality-autonomous",
+      "name": "Commercial Reality Autonomous",
+      "description": "Named entity mentioned in The Stratosphere Race: HAPS Move from Experiment to Commercial Reality."
+    },
+    {
+      "id": "entity:commercial-reality",
+      "name": "Commercial Reality",
+      "description": "Named entity mentioned in The Stratosphere Race: HAPS Move from Experiment to Commercial Reality."
+    },
+    {
+      "id": "entity:ee-times",
+      "name": "EE Times.",
+      "description": "Named entity mentioned in The Stratosphere Race: HAPS Move from Experiment to Commercial Reality."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473:1",
+      "text": "The Stratosphere Race: HAPS Move from Experiment to Commercial Reality Autonomous high-altitude platform stations are getting ready to bridge ground networks and LEO satellites.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473"
+    },
+    {
+      "id": "claim:the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473:2",
+      "text": "The post The Stratosphere Race: HAPS Move from Experiment to Commercial Reality appeared first on EE Times.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473"
+    },
+    {
+      "id": "claim:the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473:3",
+      "text": "Original: https://www.eetimes.com/the-stratosphere-race-haps-move-from-experiment-to-commercial-reality/",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "the-stratosphere-race-haps-move-from-experiment-to-commercial-reality-2f1ca473"
+    }
+  ],
+  "questions": [
+    "How does commercial relate to The Stratosphere Race: HAPS Move from Experiment to Commercial Reality?",
+    "How does experiment relate to The Stratosphere Race: HAPS Move from Experiment to Commercial Reality?",
+    "How does from relate to The Stratosphere Race: HAPS Move from Experiment to Commercial Reality?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.434Z"
+}

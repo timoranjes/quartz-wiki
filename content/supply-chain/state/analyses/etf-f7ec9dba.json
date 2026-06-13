@@ -1,0 +1,67 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "etf-f7ec9dba",
+  "sourceHash": "f7ec9dba171cc971c3a3f1d34551357a4c88c0d9cc45f5845062dea56f0519d9",
+  "semanticHash": "7a22649dec28492dd63a44da010f92c3d081ac6fb044f7115526b40819f01af5",
+  "extractionHash": "02b0767bfb9737c4962c4a955e493ea00f709e278ec4754af7aa6e0cb094f79f",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "国际金价高位震荡，黄金ETF资金大幅流出",
+  "summary": "国际金价高位震荡，黄金ETF资金大幅流出 5月以来，国际黄金市场持续承压，并在最后一周再次迎来回调。受国际金价高位震荡影响，国内黄金主题ETF规模也普遍出现缩水。同花顺iFinD数据显示，截至5月底，14只黄金主题ETF规模合计2793.09亿元，近1个月规模均出现下降，合计减少179.75亿元，其中，8只黄金主题商品型ETF因申赎出现净流出导致规模下降，合计减少83.62亿元。（经济参考报） Original: https://36kr.com/newsflashes/3835277097890944?f=rss",
+  "concepts": [
+    {
+      "id": "concept:2793",
+      "name": "2793",
+      "description": "Frequently referenced concept in 国际金价高位震荡，黄金ETF资金大幅流出."
+    },
+    {
+      "id": "concept:36kr",
+      "name": "36kr",
+      "description": "Frequently referenced concept in 国际金价高位震荡，黄金ETF资金大幅流出."
+    },
+    {
+      "id": "concept:3835277097890944",
+      "name": "3835277097890944",
+      "description": "Frequently referenced concept in 国际金价高位震荡，黄金ETF资金大幅流出."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in 国际金价高位震荡，黄金ETF资金大幅流出."
+    },
+    {
+      "id": "concept:ifind",
+      "name": "ifind",
+      "description": "Frequently referenced concept in 国际金价高位震荡，黄金ETF资金大幅流出."
+    },
+    {
+      "id": "concept:newsflashes",
+      "name": "newsflashes",
+      "description": "Frequently referenced concept in 国际金价高位震荡，黄金ETF资金大幅流出."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:original",
+      "name": "Original:",
+      "description": "Named entity mentioned in 国际金价高位震荡，黄金ETF资金大幅流出."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:etf-f7ec9dba:1",
+      "text": "国际金价高位震荡，黄金ETF资金大幅流出 5月以来，国际黄金市场持续承压，并在最后一周再次迎来回调。受国际金价高位震荡影响，国内黄金主题ETF规模也普遍出现缩水。同花顺iFinD数据显示，截至5月底，14只黄金主题ETF规模合计2793.09亿元，近1个月规模均出现下降，合计减少179.75亿元，其中，8只黄金主题商品型ETF因申赎出现净流出导致规模下降，合计减少83.62亿元。（经济参考报） Original: https://36kr.com/newsflashes/3835277097890944?f=rss",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "etf-f7ec9dba"
+    }
+  ],
+  "questions": [
+    "How does 2793 relate to 国际金价高位震荡，黄金ETF资金大幅流出?",
+    "How does 36kr relate to 国际金价高位震荡，黄金ETF资金大幅流出?",
+    "How does 3835277097890944 relate to 国际金价高位震荡，黄金ETF资金大幅流出?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.263Z"
+}

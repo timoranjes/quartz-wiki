@@ -1,0 +1,100 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1",
+  "sourceHash": "cc3c1bc142804de48f68484771e877dec630564e911034f74ab7af9458cf06f2",
+  "semanticHash": "c8b787f1cbc071314977a93143fef86766f3bf8cfbc371af09b16b9deb42c30e",
+  "extractionHash": "12cf4cc9812b949e3395ac8dc1ed420cfa97cdc9061c128ee825e462fa8867a4",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Qualcomm aims Snapdragon C laptop chip at the budget laptop segment, as manufacturers feel the DRAM squeeze — analysts warn sub $500 laptop market may disappear before 2028",
+  "summary": "Qualcomm aims Snapdragon C laptop chip at the budget laptop segment, as manufacturers feel the DRAM squeeze — analysts warn sub $500 laptop market may disappear before 2028 Qualcomm announced the Snapdragon C Platform on May 28th, ahead of Computex 2026 in Taipei. Original: https://www.tomshardware.com/laptops/qualcomm-aims-snapdragon-c-at-300-laptops-as-memory-costs-gut-the-budget-segment",
+  "concepts": [
+    {
+      "id": "concept:laptop",
+      "name": "laptop",
+      "description": "Frequently referenced concept in Qualcomm aims Snapdragon C laptop chip at the budget laptop segment, as manufacturers feel the DRAM squeeze — analysts warn sub $500 laptop market may disappear before 2028."
+    },
+    {
+      "id": "concept:qualcomm",
+      "name": "qualcomm",
+      "description": "Frequently referenced concept in Qualcomm aims Snapdragon C laptop chip at the budget laptop segment, as manufacturers feel the DRAM squeeze — analysts warn sub $500 laptop market may disappear before 2028."
+    },
+    {
+      "id": "concept:snapdragon",
+      "name": "snapdragon",
+      "description": "Frequently referenced concept in Qualcomm aims Snapdragon C laptop chip at the budget laptop segment, as manufacturers feel the DRAM squeeze — analysts warn sub $500 laptop market may disappear before 2028."
+    },
+    {
+      "id": "concept:2026",
+      "name": "2026",
+      "description": "Frequently referenced concept in Qualcomm aims Snapdragon C laptop chip at the budget laptop segment, as manufacturers feel the DRAM squeeze — analysts warn sub $500 laptop market may disappear before 2028."
+    },
+    {
+      "id": "concept:2028",
+      "name": "2028",
+      "description": "Frequently referenced concept in Qualcomm aims Snapdragon C laptop chip at the budget laptop segment, as manufacturers feel the DRAM squeeze — analysts warn sub $500 laptop market may disappear before 2028."
+    },
+    {
+      "id": "concept:28th",
+      "name": "28th",
+      "description": "Frequently referenced concept in Qualcomm aims Snapdragon C laptop chip at the budget laptop segment, as manufacturers feel the DRAM squeeze — analysts warn sub $500 laptop market may disappear before 2028."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:snapdragon",
+      "name": "Snapdragon",
+      "description": "Named entity mentioned in Qualcomm aims Snapdragon C laptop chip at the budget laptop segment, as manufacturers feel the DRAM squeeze — analysts warn sub $500 laptop market may disappear before 2028."
+    },
+    {
+      "id": "entity:qualcomm",
+      "name": "Qualcomm",
+      "description": "Named entity mentioned in Qualcomm aims Snapdragon C laptop chip at the budget laptop segment, as manufacturers feel the DRAM squeeze — analysts warn sub $500 laptop market may disappear before 2028."
+    },
+    {
+      "id": "entity:snapdragon-c-platform",
+      "name": "Snapdragon C Platform",
+      "description": "Named entity mentioned in Qualcomm aims Snapdragon C laptop chip at the budget laptop segment, as manufacturers feel the DRAM squeeze — analysts warn sub $500 laptop market may disappear before 2028."
+    },
+    {
+      "id": "entity:may",
+      "name": "May",
+      "description": "Named entity mentioned in Qualcomm aims Snapdragon C laptop chip at the budget laptop segment, as manufacturers feel the DRAM squeeze — analysts warn sub $500 laptop market may disappear before 2028."
+    },
+    {
+      "id": "entity:computex",
+      "name": "Computex",
+      "description": "Named entity mentioned in Qualcomm aims Snapdragon C laptop chip at the budget laptop segment, as manufacturers feel the DRAM squeeze — analysts warn sub $500 laptop market may disappear before 2028."
+    },
+    {
+      "id": "entity:taipei",
+      "name": "Taipei.",
+      "description": "Named entity mentioned in Qualcomm aims Snapdragon C laptop chip at the budget laptop segment, as manufacturers feel the DRAM squeeze — analysts warn sub $500 laptop market may disappear before 2028."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1:1",
+      "text": "Qualcomm aims Snapdragon C laptop chip at the budget laptop segment, as manufacturers feel the DRAM squeeze — analysts warn sub $500 laptop market may disappear before 2028 Qualcomm announced the Snapdragon C Platform on May 28th, ahead of Computex 2026 in Taipei.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1"
+    },
+    {
+      "id": "claim:qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1:2",
+      "text": "Original: https://www.tomshardware.com/laptops/qualcomm-aims-snapdragon-c-at-300-laptops-as-memory-costs-gut-the-budget-segment",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1"
+    }
+  ],
+  "questions": [
+    "How does laptop relate to Qualcomm aims Snapdragon C laptop chip at the budget laptop segment, as manufacturers feel the DRAM squeeze — analysts warn sub $500 laptop market may disappear before 2028?",
+    "How does qualcomm relate to Qualcomm aims Snapdragon C laptop chip at the budget laptop segment, as manufacturers feel the DRAM squeeze — analysts warn sub $500 laptop market may disappear before 2028?",
+    "How does snapdragon relate to Qualcomm aims Snapdragon C laptop chip at the budget laptop segment, as manufacturers feel the DRAM squeeze — analysts warn sub $500 laptop market may disappear before 2028?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.395Z"
+}

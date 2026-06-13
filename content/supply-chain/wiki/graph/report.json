@@ -1,0 +1,1146 @@
+{
+  "generatedAt": "2026-06-06T21:09:07.961Z",
+  "graphHash": "2eb34bccef1a9b4dbcfc2bf874ed79661cef51f9f8e0dd4ce70664d1edd0c2ec",
+  "overview": {
+    "nodes": 599,
+    "edges": 1894,
+    "pages": 608,
+    "communities": 15
+  },
+  "firstPartyOverview": {
+    "nodes": 599,
+    "edges": 1894,
+    "pages": 599,
+    "communities": 15
+  },
+  "sourceClassBreakdown": {
+    "first_party": {
+      "sources": 90,
+      "pages": 599,
+      "nodes": 599
+    },
+    "third_party": {
+      "sources": 0,
+      "pages": 0,
+      "nodes": 0
+    },
+    "resource": {
+      "sources": 0,
+      "pages": 0,
+      "nodes": 0
+    },
+    "generated": {
+      "sources": 0,
+      "pages": 0,
+      "nodes": 0
+    }
+  },
+  "warnings": [],
+  "benchmark": {
+    "generatedAt": "2026-06-06T21:09:05.543Z",
+    "stale": false,
+    "summary": {
+      "questionCount": 3,
+      "uniqueVisitedNodes": 24,
+      "finalContextTokens": 3123,
+      "naiveCorpusTokens": 8051,
+      "avgReduction": 0.612,
+      "reductionRatio": 0.612
+    },
+    "questionCount": 3,
+    "byClass": {
+      "first_party": {
+        "sourceCount": 90,
+        "pageCount": 599,
+        "nodeCount": 599,
+        "godNodeCount": 51,
+        "finalContextTokens": 3123,
+        "naiveCorpusTokens": 8051,
+        "reductionRatio": 0.612
+      },
+      "third_party": {
+        "sourceCount": 0,
+        "pageCount": 0,
+        "nodeCount": 0,
+        "godNodeCount": 0,
+        "finalContextTokens": 0,
+        "naiveCorpusTokens": 0,
+        "reductionRatio": 0
+      },
+      "resource": {
+        "sourceCount": 0,
+        "pageCount": 0,
+        "nodeCount": 0,
+        "godNodeCount": 0,
+        "finalContextTokens": 0,
+        "naiveCorpusTokens": 0,
+        "reductionRatio": 0
+      },
+      "generated": {
+        "sourceCount": 0,
+        "pageCount": 0,
+        "nodeCount": 0,
+        "godNodeCount": 0,
+        "finalContextTokens": 0,
+        "naiveCorpusTokens": 0,
+        "reductionRatio": 0
+      }
+    }
+  },
+  "godNodes": [
+    {
+      "nodeId": "entity:original",
+      "label": "Original:",
+      "pageId": "entity:original",
+      "degree": 204,
+      "bridgeScore": 7,
+      "surpriseReason": "degree 204, across 8 communities, 13.8σ above mean"
+    },
+    {
+      "nodeId": "concept:2026",
+      "label": "2026",
+      "pageId": "concept:2026",
+      "degree": 142,
+      "bridgeScore": 8,
+      "surpriseReason": "degree 142, across 9 communities, 9.3σ above mean"
+    },
+    {
+      "nodeId": "concept:https",
+      "label": "https",
+      "pageId": "concept:https",
+      "degree": 97,
+      "bridgeScore": 4,
+      "surpriseReason": "degree 97, across 5 communities, 6.1σ above mean"
+    },
+    {
+      "nodeId": "entity:ee-times",
+      "label": "EE Times.",
+      "pageId": "entity:ee-times",
+      "degree": 79,
+      "bridgeScore": 3,
+      "surpriseReason": "degree 79, across 4 communities, 4.8σ above mean"
+    },
+    {
+      "nodeId": "concept:original",
+      "label": "original",
+      "pageId": "concept:original",
+      "degree": 74,
+      "bridgeScore": 4,
+      "surpriseReason": "degree 74, across 5 communities, 4.4σ above mean"
+    },
+    {
+      "nodeId": "entity:computex",
+      "label": "Computex",
+      "pageId": "entity:computex",
+      "degree": 69,
+      "bridgeScore": 5,
+      "surpriseReason": "degree 69, across 6 communities, 4.0σ above mean"
+    },
+    {
+      "nodeId": "concept:2025",
+      "label": "2025",
+      "pageId": "concept:2025",
+      "degree": 63,
+      "bridgeScore": 3,
+      "surpriseReason": "degree 63, across 4 communities, 3.6σ above mean"
+    },
+    {
+      "nodeId": "concept:center",
+      "label": "center",
+      "pageId": "concept:center",
+      "degree": 61,
+      "bridgeScore": 1,
+      "surpriseReason": "degree 61, bridges 2 communities, 3.5σ above mean"
+    },
+    {
+      "nodeId": "concept:data",
+      "label": "data",
+      "pageId": "concept:data",
+      "degree": 60,
+      "bridgeScore": 3,
+      "surpriseReason": "degree 60, across 4 communities, 3.4σ above mean"
+    },
+    {
+      "nodeId": "concept:datacenterdynamics",
+      "label": "datacenterdynamics",
+      "pageId": "concept:datacenterdynamics",
+      "degree": 60,
+      "bridgeScore": 4,
+      "surpriseReason": "degree 60, across 5 communities, 3.4σ above mean"
+    },
+    {
+      "nodeId": "concept:36kr",
+      "label": "36kr",
+      "pageId": "concept:36kr",
+      "degree": 59,
+      "bridgeScore": 3,
+      "surpriseReason": "degree 59, across 4 communities, 3.3σ above mean"
+    },
+    {
+      "nodeId": "concept:supply",
+      "label": "supply",
+      "pageId": "concept:supply",
+      "degree": 53,
+      "bridgeScore": 3,
+      "surpriseReason": "degree 53, across 4 communities, 2.9σ above mean"
+    },
+    {
+      "nodeId": "entity:date",
+      "label": "Date:",
+      "pageId": "entity:date",
+      "degree": 53,
+      "bridgeScore": 4,
+      "surpriseReason": "degree 53, across 5 communities, 2.9σ above mean"
+    },
+    {
+      "nodeId": "concept:html",
+      "label": "html",
+      "pageId": "concept:html",
+      "degree": 44,
+      "bridgeScore": 1,
+      "surpriseReason": "degree 44, bridges 2 communities, 2.2σ above mean"
+    },
+    {
+      "nodeId": "concept:tmtpost",
+      "label": "tmtpost",
+      "pageId": "concept:tmtpost",
+      "degree": 40,
+      "bridgeScore": 1,
+      "surpriseReason": "degree 40, bridges 2 communities, 2.0σ above mean"
+    },
+    {
+      "nodeId": "concept:company",
+      "label": "company",
+      "pageId": "concept:company",
+      "degree": 36,
+      "bridgeScore": 2,
+      "surpriseReason": "degree 36, across 3 communities, 1.7σ above mean"
+    },
+    {
+      "nodeId": "concept:from",
+      "label": "from",
+      "pageId": "concept:from",
+      "degree": 32,
+      "bridgeScore": 3,
+      "surpriseReason": "degree 32, across 4 communities"
+    },
+    {
+      "nodeId": "concept:asus",
+      "label": "asus",
+      "pageId": "concept:asus",
+      "degree": 30,
+      "bridgeScore": 2,
+      "surpriseReason": "degree 30, across 3 communities"
+    },
+    {
+      "nodeId": "entity:taipei",
+      "label": "Taipei",
+      "pageId": "entity:taipei",
+      "degree": 30,
+      "bridgeScore": 4,
+      "surpriseReason": "degree 30, across 5 communities"
+    },
+    {
+      "nodeId": "concept:nvidia",
+      "label": "nvidia",
+      "pageId": "concept:nvidia",
+      "degree": 29,
+      "bridgeScore": 2,
+      "surpriseReason": "degree 29, across 3 communities"
+    }
+  ],
+  "bridgeNodes": [
+    {
+      "nodeId": "concept:2026",
+      "label": "2026",
+      "pageId": "concept:2026",
+      "degree": 142,
+      "bridgeScore": 8
+    },
+    {
+      "nodeId": "entity:original",
+      "label": "Original:",
+      "pageId": "entity:original",
+      "degree": 204,
+      "bridgeScore": 7
+    },
+    {
+      "nodeId": "entity:computex",
+      "label": "Computex",
+      "pageId": "entity:computex",
+      "degree": 69,
+      "bridgeScore": 5
+    },
+    {
+      "nodeId": "source:36-e13fd522",
+      "label": "前华为员工创业线控底盘，曾参编国标，获松禾、苏高新投资丨36氪首发",
+      "pageId": "source:36-e13fd522",
+      "degree": 58,
+      "bridgeScore": 4
+    },
+    {
+      "nodeId": "source:ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d",
+      "label": "AI-Driven Semiconductor Supply Chains: The 2026 Bottleneck Crisis Explained",
+      "pageId": "source:ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d",
+      "degree": 33,
+      "bridgeScore": 4
+    },
+    {
+      "nodeId": "source:sk-hynix-to-double-memory-wafer-capacity-within-five-years-chairman-says-ai-driv-005fac25",
+      "label": "SK hynix to double memory wafer capacity within five years, chairman says — AI-driven shortage will persist until at least 2030",
+      "pageId": "source:sk-hynix-to-double-memory-wafer-capacity-within-five-years-chairman-says-ai-driv-005fac25",
+      "degree": 19,
+      "bridgeScore": 4
+    },
+    {
+      "nodeId": "source:the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4",
+      "label": "The ‘techco’ trap: Why telcos fail the transformation test",
+      "pageId": "source:the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4",
+      "degree": 63,
+      "bridgeScore": 4
+    },
+    {
+      "nodeId": "concept:https",
+      "label": "https",
+      "pageId": "concept:https",
+      "degree": 97,
+      "bridgeScore": 4
+    }
+  ],
+  "thinCommunities": [],
+  "surprisingConnections": [
+    {
+      "id": "similar:008f238efbb8d561",
+      "sourceNodeId": "source:618-5754965c",
+      "sourceLabel": "华泰证券：618低价竞争降温 平台聚焦效率升级",
+      "targetNodeId": "source:9-4c0783bd",
+      "targetLabel": "韩国家庭一季度酒精饮料支出同比下降9%，创七年来最大降幅",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:618-5754965c",
+        "source:9-4c0783bd"
+      ],
+      "pathEdgeIds": [
+        "similar:008f238efbb8d561"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "华泰证券：618低价竞争降温 平台聚焦效率升级 -> 韩国家庭一季度酒精饮料支出同比下降9%，创七年来最大降幅",
+      "why": "it crosses communities community:2026-2 and community:36kr-3; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also appears in 4 group patterns",
+      "explanation": "华泰证券：618低价竞争降温 平台聚焦效率升级 connects to 韩国家庭一季度酒精饮料支出同比下降9%，创七年来最大降幅 because it crosses communities community:2026-2 and community:36kr-3; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also appears in 4 group patterns."
+    },
+    {
+      "id": "similar:03b72dcca4cc1fac",
+      "sourceNodeId": "source:police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b",
+      "sourceLabel": "Police seize £1.2m worth of equipment during raid of data center in Farnborough, UK",
+      "targetNodeId": "source:the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4",
+      "targetLabel": "The ‘techco’ trap: Why telcos fail the transformation test",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b",
+        "source:the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4"
+      ],
+      "pathEdgeIds": [
+        "similar:03b72dcca4cc1fac"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "Police seize £1.2m worth of equipment during raid of data center in Farnborough, UK -> The ‘techco’ trap: Why telcos fail the transformation test",
+      "why": "it crosses communities community:data-5 and community:2026-2; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 2 group patterns",
+      "explanation": "Police seize £1.2m worth of equipment during raid of data center in Farnborough, UK connects to The ‘techco’ trap: Why telcos fail the transformation test because it crosses communities community:data-5 and community:2026-2; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 2 group patterns."
+    },
+    {
+      "id": "similar:04a605dadfe98214",
+      "sourceNodeId": "source:2026q1-15db919f",
+      "sourceLabel": "2026Q1调味品市场回顾",
+      "targetNodeId": "source:the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4",
+      "targetLabel": "The ‘techco’ trap: Why telcos fail the transformation test",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:2026q1-15db919f",
+        "source:the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4"
+      ],
+      "pathEdgeIds": [
+        "similar:04a605dadfe98214"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "2026Q1调味品市场回顾 -> The ‘techco’ trap: Why telcos fail the transformation test",
+      "why": "it crosses communities community:36kr-3 and community:2026-2; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also appears in 2 group patterns",
+      "explanation": "2026Q1调味品市场回顾 connects to The ‘techco’ trap: Why telcos fail the transformation test because it crosses communities community:36kr-3 and community:2026-2; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also appears in 2 group patterns."
+    },
+    {
+      "id": "similar:068835cc0979d155",
+      "sourceNodeId": "source:618-5754965c",
+      "sourceLabel": "华泰证券：618低价竞争降温 平台聚焦效率升级",
+      "targetNodeId": "source:a-b43a7ff2",
+      "targetLabel": "“华融科创”完成A轮超亿元融资",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:618-5754965c",
+        "source:a-b43a7ff2"
+      ],
+      "pathEdgeIds": [
+        "similar:068835cc0979d155"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "华泰证券：618低价竞争降温 平台聚焦效率升级 -> “华融科创”完成A轮超亿元融资",
+      "why": "it crosses communities community:2026-2 and community:36kr-3; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also appears in 4 group patterns",
+      "explanation": "华泰证券：618低价竞争降温 平台聚焦效率升级 connects to “华融科创”完成A轮超亿元融资 because it crosses communities community:2026-2 and community:36kr-3; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also appears in 4 group patterns."
+    },
+    {
+      "id": "similar:08ff328b1b3a93b7",
+      "sourceNodeId": "source:etf-f7ec9dba",
+      "sourceLabel": "国际金价高位震荡，黄金ETF资金大幅流出",
+      "targetNodeId": "source:the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4",
+      "targetLabel": "The ‘techco’ trap: Why telcos fail the transformation test",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:etf-f7ec9dba",
+        "source:the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4"
+      ],
+      "pathEdgeIds": [
+        "similar:08ff328b1b3a93b7"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "国际金价高位震荡，黄金ETF资金大幅流出 -> The ‘techco’ trap: Why telcos fail the transformation test",
+      "why": "it crosses communities community:36kr-3 and community:2026-2; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 2 group patterns",
+      "explanation": "国际金价高位震荡，黄金ETF资金大幅流出 connects to The ‘techco’ trap: Why telcos fail the transformation test because it crosses communities community:36kr-3 and community:2026-2; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 2 group patterns."
+    },
+    {
+      "id": "similar:09739fd724db9462",
+      "sourceNodeId": "source:item-3ad4394b",
+      "sourceLabel": "一桩多码、服务费差一倍，新能源车充电也要“开盲盒”？",
+      "targetNodeId": "source:the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4",
+      "targetLabel": "The ‘techco’ trap: Why telcos fail the transformation test",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:item-3ad4394b",
+        "source:the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4"
+      ],
+      "pathEdgeIds": [
+        "similar:09739fd724db9462"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "一桩多码、服务费差一倍，新能源车充电也要“开盲盒”？ -> The ‘techco’ trap: Why telcos fail the transformation test",
+      "why": "it crosses communities community:36kr-3 and community:2026-2; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also appears in 2 group patterns",
+      "explanation": "一桩多码、服务费差一倍，新能源车充电也要“开盲盒”？ connects to The ‘techco’ trap: Why telcos fail the transformation test because it crosses communities community:36kr-3 and community:2026-2; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts.; it also appears in 2 group patterns."
+    },
+    {
+      "id": "similar:098df3a7694023f8",
+      "sourceNodeId": "source:36-e13fd522",
+      "sourceLabel": "前华为员工创业线控底盘，曾参编国标，获松禾、苏高新投资丨36氪首发",
+      "targetNodeId": "source:ai4s-36-12ae3127",
+      "targetLabel": "量坤科技获数亿元天使轮融资，AI4S急需量子级精度数据 | 36氪独家",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:36-e13fd522",
+        "source:ai4s-36-12ae3127"
+      ],
+      "pathEdgeIds": [
+        "similar:098df3a7694023f8"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "前华为员工创业线控底盘，曾参编国标，获松禾、苏高新投资丨36氪首发 -> 量坤科技获数亿元天使轮融资，AI4S急需量子级精度数据 | 36氪独家",
+      "why": "it crosses communities community:amis-1 and community:36kr-3; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 3 group patterns",
+      "explanation": "前华为员工创业线控底盘，曾参编国标，获松禾、苏高新投资丨36氪首发 connects to 量坤科技获数亿元天使轮融资，AI4S急需量子级精度数据 | 36氪独家 because it crosses communities community:amis-1 and community:36kr-3; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 3 group patterns."
+    },
+    {
+      "id": "similar:0a042f5cf08d9141",
+      "sourceNodeId": "source:data-decommissioning-in-data-centers-97bbac28",
+      "sourceLabel": "Data decommissioning in data centers",
+      "targetNodeId": "source:the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4",
+      "targetLabel": "The ‘techco’ trap: Why telcos fail the transformation test",
+      "relation": "semantically_similar_to",
+      "evidenceClass": "inferred",
+      "confidence": 0.96,
+      "pathNodeIds": [
+        "source:data-decommissioning-in-data-centers-97bbac28",
+        "source:the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4"
+      ],
+      "pathEdgeIds": [
+        "similar:0a042f5cf08d9141"
+      ],
+      "pathRelations": [
+        "semantically_similar_to"
+      ],
+      "pathEvidenceClasses": [
+        "inferred"
+      ],
+      "pathSummary": "Data decommissioning in data centers -> The ‘techco’ trap: Why telcos fail the transformation test",
+      "why": "it crosses communities community:000-acre-4 and community:2026-2; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 2 group patterns",
+      "explanation": "Data decommissioning in data centers connects to The ‘techco’ trap: Why telcos fail the transformation test because it crosses communities community:000-acre-4 and community:2026-2; it spans different canonical pages; a bridge node is involved; This link is inferred from shared concepts, shared entities.; it also appears in 2 group patterns."
+    }
+  ],
+  "groupPatterns": [
+    {
+      "id": "hyper:4c3885e7fd932013",
+      "label": "https",
+      "relation": "participate_in",
+      "nodeIds": [
+        "concept:https",
+        "source:2026q1-15db919f",
+        "source:23-55432ec3",
+        "source:420-a31db868",
+        "source:5-d5b57ca9",
+        "source:5-efa8066b",
+        "source:6-st-d96b6eb3",
+        "source:618-5754965c",
+        "source:618-ai-916e835e",
+        "source:7-1-ipo-windows-pc-d602dc24",
+        "source:75-1-5-youtube-9f063d27",
+        "source:8000-75e9b831",
+        "source:9-4c0783bd",
+        "source:a-b43a7ff2",
+        "source:agi-115a74ce",
+        "source:ai-19383e96",
+        "source:ai-1fb02f31",
+        "source:ai-7d3e6820",
+        "source:ai-fde95e3c",
+        "source:etf-f7ec9dba",
+        "source:item-2b1d1f82",
+        "source:item-344deb15",
+        "source:item-3ad4394b",
+        "source:item-7966b751",
+        "source:item-9f9f6dfb",
+        "source:item-d9b25e5a",
+        "source:lululemon-e981697e",
+        "source:oracle-database-aws-now-offered-in-20-global-regions-d78f0471",
+        "source:the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4",
+        "source:token-ai-05fbba82",
+        "source:watermark-032a84ec"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.96,
+      "sourcePageIds": [
+        "concept:https",
+        "source:2026q1-15db919f",
+        "source:23-55432ec3",
+        "source:420-a31db868",
+        "source:5-d5b57ca9",
+        "source:5-efa8066b",
+        "source:6-st-d96b6eb3",
+        "source:618-5754965c",
+        "source:618-ai-916e835e",
+        "source:7-1-ipo-windows-pc-d602dc24",
+        "source:75-1-5-youtube-9f063d27",
+        "source:8000-75e9b831",
+        "source:9-4c0783bd",
+        "source:a-b43a7ff2",
+        "source:agi-115a74ce",
+        "source:ai-19383e96",
+        "source:ai-1fb02f31",
+        "source:ai-7d3e6820",
+        "source:ai-fde95e3c",
+        "source:etf-f7ec9dba",
+        "source:item-2b1d1f82",
+        "source:item-344deb15",
+        "source:item-3ad4394b",
+        "source:item-7966b751",
+        "source:item-9f9f6dfb",
+        "source:item-d9b25e5a",
+        "source:lululemon-e981697e",
+        "source:oracle-database-aws-now-offered-in-20-global-regions-d78f0471",
+        "source:the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4",
+        "source:token-ai-05fbba82",
+        "source:watermark-032a84ec"
+      ],
+      "why": "30 source nodes converge on https through extracted mention edges."
+    },
+    {
+      "id": "hyper:26b51dc0f0247be2",
+      "label": "Original:",
+      "relation": "participate_in",
+      "nodeIds": [
+        "entity:original",
+        "source:00-token-c0fbba38",
+        "source:2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f",
+        "source:20-7a2207fa",
+        "source:36-e13fd522",
+        "source:6-4d647596",
+        "source:9-4c0783bd",
+        "source:ai4s-36-12ae3127",
+        "source:arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff",
+        "source:asus-world-first-oled-esports-monitor-can-hit-540hz-at-1080p-rog-strix-oled-mode-56f5dbe3",
+        "source:bambu-lab-launches-big-bed-slinger-a2l-company-s-h2s-lite-is-half-the-cost-of-h2-c7aa24dd",
+        "source:budget-smartphones-become-less-attractive-in-the-era-of-artificial-intelligence-ba9ca3b3",
+        "source:bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1",
+        "source:cryptominer-dmg-signs-loi-to-secure-50mw-ai-customer-in-canada-6ae4b022",
+        "source:data-decommissioning-in-data-centers-97bbac28",
+        "source:environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7",
+        "source:etf-f7ec9dba",
+        "source:gigabyte-debuts-fourth-gen-tandem-woled-and-multi-mode-mini-led-gaming-monitors--8734a69d",
+        "source:item-2b1d1f82",
+        "source:item-344deb15",
+        "source:oracle-database-aws-now-offered-in-20-global-regions-d78f0471",
+        "source:polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a",
+        "source:police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b",
+        "source:research-computing-infrastructure-report-2026-e3eb7982",
+        "source:stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81",
+        "source:the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4",
+        "source:uefa-and-uc3-select-alibaba-as-ai-and-cloud-partner-76cc147b",
+        "source:virtus-completes-installation-of-two-super-grid-transformers-at-wustermark-campu-aa30fb62",
+        "source:waves-776f17d7",
+        "source:windows-server-vulnerability-can-grant-system-privileges-with-just-a-malformed-p-a2a2bf88"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.96,
+      "sourcePageIds": [
+        "entity:original",
+        "source:00-token-c0fbba38",
+        "source:2-000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky-ccc0b06f",
+        "source:20-7a2207fa",
+        "source:36-e13fd522",
+        "source:6-4d647596",
+        "source:9-4c0783bd",
+        "source:ai4s-36-12ae3127",
+        "source:arcem-buys-land-in-joroinen-finland-for-500mw-data-center-campus-4a5805ff",
+        "source:asus-world-first-oled-esports-monitor-can-hit-540hz-at-1080p-rog-strix-oled-mode-56f5dbe3",
+        "source:bambu-lab-launches-big-bed-slinger-a2l-company-s-h2s-lite-is-half-the-cost-of-h2-c7aa24dd",
+        "source:budget-smartphones-become-less-attractive-in-the-era-of-artificial-intelligence-ba9ca3b3",
+        "source:bw-group-signs-deal-to-build-250mw-data-center-in-telemark-county-norway-cf1864b1",
+        "source:cryptominer-dmg-signs-loi-to-secure-50mw-ai-customer-in-canada-6ae4b022",
+        "source:data-decommissioning-in-data-centers-97bbac28",
+        "source:environmental-activist-erin-brockovich-launches-us-data-center-tracking-website-20eb12d7",
+        "source:etf-f7ec9dba",
+        "source:gigabyte-debuts-fourth-gen-tandem-woled-and-multi-mode-mini-led-gaming-monitors--8734a69d",
+        "source:item-2b1d1f82",
+        "source:item-344deb15",
+        "source:oracle-database-aws-now-offered-in-20-global-regions-d78f0471",
+        "source:polar-dc-raises-800m-senior-secured-bond-for-norway-data-center-development-5cfe477a",
+        "source:police-seize-1-2m-worth-of-equipment-during-raid-of-data-center-in-farnborough-u-5bac8c1b",
+        "source:research-computing-infrastructure-report-2026-e3eb7982",
+        "source:stockland-files-to-develop-another-data-center-in-melbourne-australia-2bc06e81",
+        "source:the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4",
+        "source:uefa-and-uc3-select-alibaba-as-ai-and-cloud-partner-76cc147b",
+        "source:virtus-completes-installation-of-two-super-grid-transformers-at-wustermark-campu-aa30fb62",
+        "source:waves-776f17d7",
+        "source:windows-server-vulnerability-can-grant-system-privileges-with-just-a-malformed-p-a2a2bf88"
+      ],
+      "why": "29 source nodes converge on Original: through extracted mention edges."
+    },
+    {
+      "id": "hyper:3cc349b6451eaec6",
+      "label": "original",
+      "relation": "participate_in",
+      "nodeIds": [
+        "concept:original",
+        "source:2026q1-15db919f",
+        "source:23-55432ec3",
+        "source:420-a31db868",
+        "source:5-d5b57ca9",
+        "source:5-efa8066b",
+        "source:6-st-d96b6eb3",
+        "source:618-5754965c",
+        "source:618-ai-916e835e",
+        "source:7-1-ipo-windows-pc-d602dc24",
+        "source:75-1-5-youtube-9f063d27",
+        "source:8000-75e9b831",
+        "source:9-4c0783bd",
+        "source:a-b43a7ff2",
+        "source:agi-115a74ce",
+        "source:ai-19383e96",
+        "source:ai-1fb02f31",
+        "source:ai-7d3e6820",
+        "source:ai-fde95e3c",
+        "source:item-2b1d1f82",
+        "source:item-344deb15",
+        "source:item-3ad4394b",
+        "source:item-7966b751",
+        "source:item-9f9f6dfb",
+        "source:item-d9b25e5a",
+        "source:lululemon-e981697e",
+        "source:the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4",
+        "source:token-ai-05fbba82"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.96,
+      "sourcePageIds": [
+        "concept:original",
+        "source:2026q1-15db919f",
+        "source:23-55432ec3",
+        "source:420-a31db868",
+        "source:5-d5b57ca9",
+        "source:5-efa8066b",
+        "source:6-st-d96b6eb3",
+        "source:618-5754965c",
+        "source:618-ai-916e835e",
+        "source:7-1-ipo-windows-pc-d602dc24",
+        "source:75-1-5-youtube-9f063d27",
+        "source:8000-75e9b831",
+        "source:9-4c0783bd",
+        "source:a-b43a7ff2",
+        "source:agi-115a74ce",
+        "source:ai-19383e96",
+        "source:ai-1fb02f31",
+        "source:ai-7d3e6820",
+        "source:ai-fde95e3c",
+        "source:item-2b1d1f82",
+        "source:item-344deb15",
+        "source:item-3ad4394b",
+        "source:item-7966b751",
+        "source:item-9f9f6dfb",
+        "source:item-d9b25e5a",
+        "source:lululemon-e981697e",
+        "source:the-techco-trap-why-telcos-fail-the-transformation-test-a57875a4",
+        "source:token-ai-05fbba82"
+      ],
+      "why": "27 source nodes converge on original through extracted mention edges."
+    },
+    {
+      "id": "hyper:00073009885fdf72",
+      "label": "2026",
+      "relation": "participate_in",
+      "nodeIds": [
+        "concept:2026",
+        "source:10-01-10-9b40249c",
+        "source:36-2026-ai-48760c87",
+        "source:36-e13fd522",
+        "source:6-4d647596",
+        "source:618-5754965c",
+        "source:8-1-6-sk-ipo-140-4ca3e792",
+        "source:access-tom-s-hardware-premium-s-computex-2026-coverage-for-free-sign-up-for-an-a-d1a4cabc",
+        "source:ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39",
+        "source:ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d",
+        "source:ai4s-36-12ae3127",
+        "source:amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5",
+        "source:hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7",
+        "source:inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da",
+        "source:item-2b1d1f82",
+        "source:jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56",
+        "source:qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1",
+        "source:research-computing-infrastructure-report-2026-e3eb7982",
+        "source:tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.96,
+      "sourcePageIds": [
+        "concept:2026",
+        "source:10-01-10-9b40249c",
+        "source:36-2026-ai-48760c87",
+        "source:36-e13fd522",
+        "source:6-4d647596",
+        "source:618-5754965c",
+        "source:8-1-6-sk-ipo-140-4ca3e792",
+        "source:access-tom-s-hardware-premium-s-computex-2026-coverage-for-free-sign-up-for-an-a-d1a4cabc",
+        "source:ai-data-center-optical-component-shortage-nvidia-s-4b-laser-lockup-pushes-rivals-07458e39",
+        "source:ai-driven-semiconductor-supply-chains-the-2026-bottleneck-crisis-explained-a53df27d",
+        "source:ai4s-36-12ae3127",
+        "source:amd-radeon-rx-9070-gre-review-thoroughly-midrange-4fdb76a5",
+        "source:hbm-memory-market-analysis-the-race-from-hbm4-to-hbf-between-sk-hynix-and-samsun-9c57a1e7",
+        "source:inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027-8e2744da",
+        "source:item-2b1d1f82",
+        "source:jensen-huang-says-nvidia-wants-to-reinvent-the-single-most-important-tool-of-hum-c78d7e56",
+        "source:qualcomm-aims-snapdragon-c-laptop-chip-at-the-budget-laptop-segment-as-manufactu-cc3c1bc1",
+        "source:research-computing-infrastructure-report-2026-e3eb7982",
+        "source:tom-s-hardware-unfiltered-computex-2026-day-0-peek-behind-the-curtain-to-see-how-339bcb93"
+      ],
+      "why": "18 source nodes converge on 2026 through extracted mention edges."
+    },
+    {
+      "id": "hyper:1eeb0872f64c9233",
+      "label": "html",
+      "relation": "participate_in",
+      "nodeIds": [
+        "concept:html",
+        "source:2026q1-15db919f",
+        "source:23-55432ec3",
+        "source:420-a31db868",
+        "source:5-d5b57ca9",
+        "source:618-ai-916e835e",
+        "source:7-1-ipo-windows-pc-d602dc24",
+        "source:75-1-5-youtube-9f063d27",
+        "source:8000-75e9b831",
+        "source:agi-115a74ce",
+        "source:ai-19383e96",
+        "source:ai-1fb02f31",
+        "source:ai-fde95e3c",
+        "source:item-3ad4394b",
+        "source:item-9f9f6dfb",
+        "source:item-d9b25e5a",
+        "source:lululemon-e981697e",
+        "source:token-ai-05fbba82"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.96,
+      "sourcePageIds": [
+        "concept:html",
+        "source:2026q1-15db919f",
+        "source:23-55432ec3",
+        "source:420-a31db868",
+        "source:5-d5b57ca9",
+        "source:618-ai-916e835e",
+        "source:7-1-ipo-windows-pc-d602dc24",
+        "source:75-1-5-youtube-9f063d27",
+        "source:8000-75e9b831",
+        "source:agi-115a74ce",
+        "source:ai-19383e96",
+        "source:ai-1fb02f31",
+        "source:ai-fde95e3c",
+        "source:item-3ad4394b",
+        "source:item-9f9f6dfb",
+        "source:item-d9b25e5a",
+        "source:lululemon-e981697e",
+        "source:token-ai-05fbba82"
+      ],
+      "why": "17 source nodes converge on html through extracted mention edges."
+    },
+    {
+      "id": "hyper:a6cc632396ff0aed",
+      "label": "36kr",
+      "relation": "participate_in",
+      "nodeIds": [
+        "concept:36kr",
+        "source:10-36-45a8a658",
+        "source:20-7a2207fa",
+        "source:36-e13fd522",
+        "source:5-efa8066b",
+        "source:6-st-d96b6eb3",
+        "source:618-5754965c",
+        "source:8-1-6-sk-ipo-140-4ca3e792",
+        "source:9-4c0783bd",
+        "source:a-b43a7ff2",
+        "source:ai-7d3e6820",
+        "source:ai4s-36-12ae3127",
+        "source:etf-f7ec9dba",
+        "source:item-2b1d1f82",
+        "source:item-344deb15",
+        "source:item-7966b751",
+        "source:item-f9bd8eb4"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.96,
+      "sourcePageIds": [
+        "concept:36kr",
+        "source:10-36-45a8a658",
+        "source:20-7a2207fa",
+        "source:36-e13fd522",
+        "source:5-efa8066b",
+        "source:6-st-d96b6eb3",
+        "source:618-5754965c",
+        "source:8-1-6-sk-ipo-140-4ca3e792",
+        "source:9-4c0783bd",
+        "source:a-b43a7ff2",
+        "source:ai-7d3e6820",
+        "source:ai4s-36-12ae3127",
+        "source:etf-f7ec9dba",
+        "source:item-2b1d1f82",
+        "source:item-344deb15",
+        "source:item-7966b751",
+        "source:item-f9bd8eb4"
+      ],
+      "why": "16 source nodes converge on 36kr through extracted mention edges."
+    },
+    {
+      "id": "hyper:5adaae50a2f89399",
+      "label": "tmtpost",
+      "relation": "participate_in",
+      "nodeIds": [
+        "concept:tmtpost",
+        "source:2026q1-15db919f",
+        "source:23-55432ec3",
+        "source:420-a31db868",
+        "source:5-d5b57ca9",
+        "source:618-ai-916e835e",
+        "source:75-1-5-youtube-9f063d27",
+        "source:8000-75e9b831",
+        "source:agi-115a74ce",
+        "source:ai-19383e96",
+        "source:ai-1fb02f31",
+        "source:ai-fde95e3c",
+        "source:item-3ad4394b",
+        "source:item-9f9f6dfb",
+        "source:item-d9b25e5a",
+        "source:lululemon-e981697e",
+        "source:token-ai-05fbba82"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.96,
+      "sourcePageIds": [
+        "concept:tmtpost",
+        "source:2026q1-15db919f",
+        "source:23-55432ec3",
+        "source:420-a31db868",
+        "source:5-d5b57ca9",
+        "source:618-ai-916e835e",
+        "source:75-1-5-youtube-9f063d27",
+        "source:8000-75e9b831",
+        "source:agi-115a74ce",
+        "source:ai-19383e96",
+        "source:ai-1fb02f31",
+        "source:ai-fde95e3c",
+        "source:item-3ad4394b",
+        "source:item-9f9f6dfb",
+        "source:item-d9b25e5a",
+        "source:lululemon-e981697e",
+        "source:token-ai-05fbba82"
+      ],
+      "why": "16 source nodes converge on tmtpost through extracted mention edges."
+    },
+    {
+      "id": "hyper:d87318aff8c7309b",
+      "label": "2025",
+      "relation": "participate_in",
+      "nodeIds": [
+        "concept:2025",
+        "source:10-36-45a8a658",
+        "source:2-5-aippy-ai-36-a52689fc",
+        "source:20-7a2207fa",
+        "source:36-2026-ai-48760c87",
+        "source:36-e13fd522",
+        "source:6-4d647596",
+        "source:aromemanpo-b-10-b85b6668",
+        "source:item-f9bd8eb4",
+        "source:semiconductor-industry-in-china-15ab2d27",
+        "source:waves-776f17d7"
+      ],
+      "evidenceClass": "extracted",
+      "confidence": 0.96,
+      "sourcePageIds": [
+        "concept:2025",
+        "source:10-36-45a8a658",
+        "source:2-5-aippy-ai-36-a52689fc",
+        "source:20-7a2207fa",
+        "source:36-2026-ai-48760c87",
+        "source:36-e13fd522",
+        "source:6-4d647596",
+        "source:aromemanpo-b-10-b85b6668",
+        "source:item-f9bd8eb4",
+        "source:semiconductor-industry-in-china-15ab2d27",
+        "source:waves-776f17d7"
+      ],
+      "why": "10 source nodes converge on 2025 through extracted mention edges."
+    }
+  ],
+  "suggestedQuestions": [
+    "Why does 2026 connect multiple communities in the vault?",
+    "Why does Original: connect multiple communities in the vault?",
+    "Why does Computex connect multiple communities in the vault?",
+    "What is the exact relationship between AI-Accelerated Software Security Vulnerability Discovery: Is Hardware Next? and Access Tom’s Hardware Premium’s Computex 2026 coverage for free — sign up for an account to read insider reports from the show?",
+    "What is the exact relationship between AI Data Center Optical Component Shortage: Nvidia's $4B Laser Lockup Pushes Rivals Past 2027 and Access Tom’s Hardware Premium’s Computex 2026 coverage for free — sign up for an account to read insider reports from the show?",
+    "What is the exact relationship between AI-Driven Semiconductor Supply Chains: The 2026 Bottleneck Crisis Explained and Access Tom’s Hardware Premium’s Computex 2026 coverage for free — sign up for an account to read insider reports from the show?"
+  ],
+  "communityPages": [
+    {
+      "id": "graph:community:amis-1",
+      "path": "graph/communities/amis-1.md",
+      "title": "Community: amis"
+    },
+    {
+      "id": "graph:community:2026-2",
+      "path": "graph/communities/2026-2.md",
+      "title": "Community: 2026"
+    },
+    {
+      "id": "graph:community:36kr-3",
+      "path": "graph/communities/36kr-3.md",
+      "title": "Community: 36kr"
+    },
+    {
+      "id": "graph:community:000-acre-4",
+      "path": "graph/communities/000-acre-4.md",
+      "title": "Community: 000-acre"
+    },
+    {
+      "id": "graph:community:data-5",
+      "path": "graph/communities/data-5.md",
+      "title": "Community: data"
+    },
+    {
+      "id": "graph:community:micro-led-6",
+      "path": "graph/communities/micro-led-6.md",
+      "title": "Community: micro-led"
+    },
+    {
+      "id": "graph:community:from-7",
+      "path": "graph/communities/from-7.md",
+      "title": "Community: from"
+    },
+    {
+      "id": "graph:community:hardware-8",
+      "path": "graph/communities/hardware-8.md",
+      "title": "Community: hardware"
+    },
+    {
+      "id": "graph:community:supply-9",
+      "path": "graph/communities/supply-9.md",
+      "title": "Community: supply"
+    },
+    {
+      "id": "graph:community:asus-10",
+      "path": "graph/communities/asus-10.md",
+      "title": "Community: asus"
+    },
+    {
+      "id": "graph:community:cost-11",
+      "path": "graph/communities/cost-11.md",
+      "title": "Community: cost"
+    },
+    {
+      "id": "graph:community:building-12",
+      "path": "graph/communities/building-12.md",
+      "title": "Community: building"
+    },
+    {
+      "id": "graph:community:thermal-13",
+      "path": "graph/communities/thermal-13.md",
+      "title": "Community: thermal"
+    },
+    {
+      "id": "graph:community:analog-14",
+      "path": "graph/communities/analog-14.md",
+      "title": "Community: analog"
+    },
+    {
+      "id": "graph:community:months-15",
+      "path": "graph/communities/months-15.md",
+      "title": "Community: months"
+    }
+  ],
+  "recentResearchSources": [],
+  "contradictions": [],
+  "communityCohesion": [
+    {
+      "id": "community:amis-1",
+      "label": "amis",
+      "nodeCount": 59,
+      "cohesion": 0
+    },
+    {
+      "id": "community:2026-2",
+      "label": "2026",
+      "nodeCount": 63,
+      "cohesion": 0
+    },
+    {
+      "id": "community:36kr-3",
+      "label": "36kr",
+      "nodeCount": 65,
+      "cohesion": 0
+    },
+    {
+      "id": "community:000-acre-4",
+      "label": "000-acre",
+      "nodeCount": 98,
+      "cohesion": 0
+    },
+    {
+      "id": "community:data-5",
+      "label": "data",
+      "nodeCount": 32,
+      "cohesion": 0
+    },
+    {
+      "id": "community:micro-led-6",
+      "label": "micro-led",
+      "nodeCount": 6,
+      "cohesion": 0
+    },
+    {
+      "id": "community:from-7",
+      "label": "from",
+      "nodeCount": 18,
+      "cohesion": 0
+    },
+    {
+      "id": "community:hardware-8",
+      "label": "hardware",
+      "nodeCount": 40,
+      "cohesion": 0
+    },
+    {
+      "id": "community:supply-9",
+      "label": "supply",
+      "nodeCount": 43,
+      "cohesion": 0
+    },
+    {
+      "id": "community:asus-10",
+      "label": "asus",
+      "nodeCount": 25,
+      "cohesion": 0
+    },
+    {
+      "id": "community:cost-11",
+      "label": "cost",
+      "nodeCount": 10,
+      "cohesion": 0
+    },
+    {
+      "id": "community:building-12",
+      "label": "building",
+      "nodeCount": 19,
+      "cohesion": 0
+    },
+    {
+      "id": "community:thermal-13",
+      "label": "thermal",
+      "nodeCount": 9,
+      "cohesion": 0
+    },
+    {
+      "id": "community:analog-14",
+      "label": "analog",
+      "nodeCount": 12,
+      "cohesion": 0
+    },
+    {
+      "id": "community:months-15",
+      "label": "months",
+      "nodeCount": 10,
+      "cohesion": 0
+    }
+  ],
+  "knowledgeGaps": {
+    "isolatedNodes": [],
+    "thinCommunityCount": 0,
+    "ambiguousEdgeRatio": 0.007391763463569166,
+    "warnings": []
+  }
+}

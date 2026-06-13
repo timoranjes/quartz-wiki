@@ -1,0 +1,98 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "save-78-on-nord-s-latest-complete-vpn-package-27-months-of-online-protection-for-c6a04757",
+  "sourceHash": "c6a047572a56b524d3cd1565d41edafaa29fa9031204ec5ef4e70ba0a2cd43bc",
+  "semanticHash": "38e818fb3f370ed46e96b0cf51fec437417c33623996e8c05751d58bed5cfb60",
+  "extractionHash": "e1072b4487c54462f83a6d1a76e0e56963c1088aaf008e4c006cbfd16a7953a8",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "Save 78% on Nord's latest Complete VPN package — 27 months of online protection for $107",
+  "summary": "Save 78% on Nord's latest Complete VPN package — 27 months of online protection for $107 Pick up 27 months of NordVPN coverage for just $107. Fast VPN connections, anti-virus protection, and a password manager for only $3.99 per month. Original: https://www.tomshardware.com/software/vpn/save-78-percent-on-nords-latest-complete-vpn-package-27-months-of-online-protection-for-usd107",
+  "concepts": [
+    {
+      "id": "concept:months",
+      "name": "months",
+      "description": "Frequently referenced concept in Save 78% on Nord's latest Complete VPN package — 27 months of online protection for $107."
+    },
+    {
+      "id": "concept:protection",
+      "name": "protection",
+      "description": "Frequently referenced concept in Save 78% on Nord's latest Complete VPN package — 27 months of online protection for $107."
+    },
+    {
+      "id": "concept:anti-virus",
+      "name": "anti-virus",
+      "description": "Frequently referenced concept in Save 78% on Nord's latest Complete VPN package — 27 months of online protection for $107."
+    },
+    {
+      "id": "concept:complete",
+      "name": "complete",
+      "description": "Frequently referenced concept in Save 78% on Nord's latest Complete VPN package — 27 months of online protection for $107."
+    },
+    {
+      "id": "concept:connections",
+      "name": "connections",
+      "description": "Frequently referenced concept in Save 78% on Nord's latest Complete VPN package — 27 months of online protection for $107."
+    },
+    {
+      "id": "concept:coverage",
+      "name": "coverage",
+      "description": "Frequently referenced concept in Save 78% on Nord's latest Complete VPN package — 27 months of online protection for $107."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:nord-s",
+      "name": "Nord's",
+      "description": "Named entity mentioned in Save 78% on Nord's latest Complete VPN package — 27 months of online protection for $107."
+    },
+    {
+      "id": "entity:complete",
+      "name": "Complete",
+      "description": "Named entity mentioned in Save 78% on Nord's latest Complete VPN package — 27 months of online protection for $107."
+    },
+    {
+      "id": "entity:pick",
+      "name": "Pick",
+      "description": "Named entity mentioned in Save 78% on Nord's latest Complete VPN package — 27 months of online protection for $107."
+    },
+    {
+      "id": "entity:nordvpn",
+      "name": "NordVPN",
+      "description": "Named entity mentioned in Save 78% on Nord's latest Complete VPN package — 27 months of online protection for $107."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:save-78-on-nord-s-latest-complete-vpn-package-27-months-of-online-protection-for-c6a04757:1",
+      "text": "Save 78% on Nord's latest Complete VPN package — 27 months of online protection for $107 Pick up 27 months of NordVPN coverage for just $107.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "save-78-on-nord-s-latest-complete-vpn-package-27-months-of-online-protection-for-c6a04757"
+    },
+    {
+      "id": "claim:save-78-on-nord-s-latest-complete-vpn-package-27-months-of-online-protection-for-c6a04757:2",
+      "text": "Fast VPN connections, anti-virus protection, and a password manager for only $3.99 per month.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "save-78-on-nord-s-latest-complete-vpn-package-27-months-of-online-protection-for-c6a04757"
+    },
+    {
+      "id": "claim:save-78-on-nord-s-latest-complete-vpn-package-27-months-of-online-protection-for-c6a04757:3",
+      "text": "Original: https://www.tomshardware.com/software/vpn/save-78-percent-on-nords-latest-complete-vpn-package-27-months-of-online-protection-for-usd107",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "save-78-on-nord-s-latest-complete-vpn-package-27-months-of-online-protection-for-c6a04757"
+    }
+  ],
+  "questions": [
+    "How does months relate to Save 78% on Nord's latest Complete VPN package — 27 months of online protection for $107?",
+    "How does protection relate to Save 78% on Nord's latest Complete VPN package — 27 months of online protection for $107?",
+    "How does anti-virus relate to Save 78% on Nord's latest Complete VPN package — 27 months of online protection for $107?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.426Z"
+}

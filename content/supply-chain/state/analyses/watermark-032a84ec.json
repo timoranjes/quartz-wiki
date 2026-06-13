@@ -1,0 +1,100 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "watermark-032a84ec",
+  "sourceHash": "032a84ec077bdcf5d8f595e75e9bb50bdf0f077caf702eff4546284c8a4c264b",
+  "semanticHash": "032a84ec077bdcf5d8f595e75e9bb50bdf0f077caf702eff4546284c8a4c264b",
+  "extractionHash": "e6ce3f59b6be093e69e330a1c3747d5747c5619b7f2f3e82777ac5d065cae50a",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": ".watermark",
+  "summary": ".watermark Format: JSON Top-level: object Size: 2 Nested depth: 3 ## Schema - processed_urls: object (634 keys) - last_run: string ## Preview json { \"processed_urls\": { \"fb27b7459a644945\": { \"title\": \"Building Fixed HW Implementations of Neural Networks (Yale, Cornell et al.)\", \"url\": \"https://semiengineering.com/building-fixed-hw-implementations-of-neural-networks-yale-cornell-et-al/\", \"source\": \"semi-engineering\", \"fetched\": \"2026-05-30T08:04:55.562279\" }, \"f25a0e78226b5fb1\": { \"title\": \"Moving Defect Detection And Classification To The Edge\", \"url\": \"https://semiengineering.com/moving-defect-detection-and-classification-to-the-edge/\", \"source\": \"semi-engineering\", \"fetched\": \"2026-05-30T08:04:55.562436\" }, \"64b19b28020c8dd1\": { \"title\": \"Chip Industry Week In Review\", \"url\": \"https://semiengineering.com/chip-industry-week-in-review-140/\", \"source\": \"semi-engineering\", \"fetched\": \"2026-05-30T08:04:55.562573\" }, \"ab1088b1ae9b81a4\": { \"title\": \"From Billions Of Violations To Actionable Insights: Calibre Vision AI\", \"url\": \"https://semiengineering.com/from-billions-of-violations-to-actionable-insights-calibre-vision-ai/\", \"source\": \"semi-engineering\", \"fetched\": \"2026-05-30T08:04:55.562720\" }, \"16fea5967e56bea9\": { \"title\": \"Swapping Out Chiplets: I/Os Vs. Compute\", \"url\": \"https://semiengineering.com/swapping-out-chiplets-i-os-vs-compute/\", \"source\": \"semi-engineering\", \"fetched\": \"2026-05-30T08:04:55.562845\" }, \"ad4e46ddb6aa13b9\": { \"title\": \"Toward Agentic Verification\", \"url\": \"https://semiengineering.com/toward-agentic-verification/\", \"source\": \"semi-engineering\", \"fetched\": \"2026-05-30T08:04:55.562966\" }, \"61fccfe8c07438dc\": { \"title\": \"Observability Is Essential For Modern Silicon\", …",
+  "concepts": [
+    {
+      "id": "concept:title",
+      "name": "title",
+      "description": "Frequently referenced concept in .watermark."
+    },
+    {
+      "id": "concept:2026-05-30t08",
+      "name": "2026-05-30t08",
+      "description": "Frequently referenced concept in .watermark."
+    },
+    {
+      "id": "concept:engineering",
+      "name": "engineering",
+      "description": "Frequently referenced concept in .watermark."
+    },
+    {
+      "id": "concept:fetched",
+      "name": "fetched",
+      "description": "Frequently referenced concept in .watermark."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in .watermark."
+    },
+    {
+      "id": "concept:semi",
+      "name": "semi",
+      "description": "Frequently referenced concept in .watermark."
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:format",
+      "name": "Format:",
+      "description": "Named entity mentioned in .watermark."
+    },
+    {
+      "id": "entity:top",
+      "name": "Top-",
+      "description": "Named entity mentioned in .watermark."
+    },
+    {
+      "id": "entity:size",
+      "name": "Size:",
+      "description": "Named entity mentioned in .watermark."
+    },
+    {
+      "id": "entity:nested",
+      "name": "Nested",
+      "description": "Named entity mentioned in .watermark."
+    },
+    {
+      "id": "entity:schema",
+      "name": "Schema -",
+      "description": "Named entity mentioned in .watermark."
+    },
+    {
+      "id": "entity:preview",
+      "name": "Preview",
+      "description": "Named entity mentioned in .watermark."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim:watermark-032a84ec:1",
+      "text": ".watermark Format: JSON Top-level: object Size: 2 Nested depth: 3 ## Schema - processed_urls: object (634 keys) - last_run: string ## Preview json { \"processed_urls\": { \"fb27b7459a644945\": { \"title\": \"Building Fixed HW Implementations of Neural Networks (Yale, Cornell et al.)\", \"url\": \"https://semiengineering.com/building-fixed-hw-implementations-of-neural-networks-yale-cornell-et-al/\", \"source\": \"semi-engineering\", \"fetched\": \"2026-05-30T08:04:55.562279\" }, \"f25a0e78226b5fb1\": { \"title\": \"Moving Defect Detection And Classification To The Edge\", \"url\": \"https://semiengineering.com/moving-defect-detection-and-classification-to-the-edge/\", \"source\": \"semi-engineering\", \"fetched\": \"2026-05-30T08:04:55.562436\" }, \"64b19b28020c8dd1\": { \"title\": \"Chip Industry Week In Review\", \"url\": \"https://semiengineering.com/chip-industry-week-in-review-140/\", \"source\": \"semi-engineering\", \"fetched\": \"2026-05-30T08:04:55.562573\" }, \"ab1088b1ae9b81a4\": { \"title\": \"From Billions Of Violations To Actionable Insights: Calibre Vision AI\", \"url\": \"https://semiengineering.com/from-billions-of-violations-to-actionable-insights-calibre-vision-ai/\", \"source\": \"semi-engineering\", \"fetched\": \"2026-05-30T08:04:55.562720\" }, \"16fea5967e56bea9\": { \"title\": \"Swapping Out Chiplets: I/Os Vs.",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "watermark-032a84ec"
+    },
+    {
+      "id": "claim:watermark-032a84ec:2",
+      "text": "Compute\", \"url\": \"https://semiengineering.com/swapping-out-chiplets-i-os-vs-compute/\", \"source\": \"semi-engineering\", \"fetched\": \"2026-05-30T08:04:55.562845\" }, \"ad4e46ddb6aa13b9\": { \"title\": \"Toward Agentic Verification\", \"url\": \"https://semiengineering.com/toward-agentic-verification/\", \"source\": \"semi-engineering\", \"fetched\": \"2026-05-30T08:04:55.562966\" }, \"61fccfe8c07438dc\": { \"title\": \"Observability Is Essential For Modern Silicon\", …",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "positive",
+      "citation": "watermark-032a84ec"
+    }
+  ],
+  "questions": [
+    "How does title relate to .watermark?",
+    "How does 2026-05-30t08 relate to .watermark?",
+    "How does engineering relate to .watermark?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.484Z"
+}

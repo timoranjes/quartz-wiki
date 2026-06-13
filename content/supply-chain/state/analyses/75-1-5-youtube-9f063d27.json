@@ -1,0 +1,61 @@
+{
+  "analysisVersion": 8,
+  "sourceId": "75-1-5-youtube-9f063d27",
+  "sourceHash": "9f063d2707bf6100a5cf738ca3fed5f7aba41b302ba559b8ba634bb2ef084172",
+  "semanticHash": "43df5dcb86a0ccdf0b70f92a4818fd5f4f35cb045713eb699bc23cb1352b86a6",
+  "extractionHash": "2774dff74941063962d133f4c91d31cd4aefe9a6d3f909f15c875588d498837a",
+  "schemaHash": "874431dbbfdec0b254a4aa1bf002900574c9b485735a883690c2becb5f717720",
+  "title": "75万美元成本狂揽1.5亿美元！YouTube“野路子”导演，两拳打懵好莱坞",
+  "summary": "75万美元成本狂揽1.5亿美元！YouTube“野路子”导演，两拳打懵好莱坞 两个YouTuber，干翻迪士尼。 Original: https://www.tmtpost.com/8010633.html",
+  "concepts": [
+    {
+      "id": "concept:8010633",
+      "name": "8010633",
+      "description": "Frequently referenced concept in 75万美元成本狂揽1.5亿美元！YouTube“野路子”导演，两拳打懵好莱坞."
+    },
+    {
+      "id": "concept:html",
+      "name": "html",
+      "description": "Frequently referenced concept in 75万美元成本狂揽1.5亿美元！YouTube“野路子”导演，两拳打懵好莱坞."
+    },
+    {
+      "id": "concept:https",
+      "name": "https",
+      "description": "Frequently referenced concept in 75万美元成本狂揽1.5亿美元！YouTube“野路子”导演，两拳打懵好莱坞."
+    },
+    {
+      "id": "concept:original",
+      "name": "original",
+      "description": "Frequently referenced concept in 75万美元成本狂揽1.5亿美元！YouTube“野路子”导演，两拳打懵好莱坞."
+    },
+    {
+      "id": "concept:tmtpost",
+      "name": "tmtpost",
+      "description": "Frequently referenced concept in 75万美元成本狂揽1.5亿美元！YouTube“野路子”导演，两拳打懵好莱坞."
+    },
+    {
+      "id": "concept:youtube",
+      "name": "youtube",
+      "description": "Frequently referenced concept in 75万美元成本狂揽1.5亿美元！YouTube“野路子”导演，两拳打懵好莱坞."
+    }
+  ],
+  "entities": [],
+  "claims": [
+    {
+      "id": "claim:75-1-5-youtube-9f063d27:1",
+      "text": "75万美元成本狂揽1.5亿美元！YouTube“野路子”导演，两拳打懵好莱坞 两个YouTuber，干翻迪士尼。 Original: https://www.tmtpost.com/8010633.html",
+      "confidence": 0.55,
+      "status": "extracted",
+      "polarity": "neutral",
+      "citation": "75-1-5-youtube-9f063d27"
+    }
+  ],
+  "questions": [
+    "How does 8010633 relate to 75万美元成本狂揽1.5亿美元！YouTube“野路子”导演，两拳打懵好莱坞?",
+    "How does html relate to 75万美元成本狂揽1.5亿美元！YouTube“野路子”导演，两拳打懵好莱坞?",
+    "How does https relate to 75万美元成本狂揽1.5亿美元！YouTube“野路子”导演，两拳打懵好莱坞?"
+  ],
+  "tags": [],
+  "rationales": [],
+  "producedAt": "2026-06-06T21:09:03.101Z"
+}
