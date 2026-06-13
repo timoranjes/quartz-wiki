@@ -27,12 +27,12 @@ AI server motherboards (particularly for NVIDIA B200 and H200 platforms) require
 
 ## Market Pressures
 
-| Material | Price Change (YoY) | Supply Status |
-|----------|-------------------|---------------|
-| Copper (LME) | +38% to $13,300/tonne; China domestic price surging toward ¥105,000/tonne (~$14,500) driven by new energy sector demand | Tight allocation, forcing downstream tech sector adjustments |
-| E-glass fiber cloth | Quota-based | 8–12 week lead times |
-| Low-loss resin systems | +22% | Allocation for top 5 customers |
-| BT resin (IC substrates) | +15% | Managed supply |
+| Material                 | Price Change (YoY)                                                                                                      | Supply Status                                                |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| Copper (LME)             | +38% to $13,300/tonne; China domestic price surging toward ¥105,000/tonne (~$14,500) driven by new energy sector demand | Tight allocation, forcing downstream tech sector adjustments |
+| E-glass fiber cloth      | Quota-based                                                                                                             | 8–12 week lead times                                         |
+| Low-loss resin systems   | +22%                                                                                                                    | Allocation for top 5 customers                               |
+| BT resin (IC substrates) | +15%                                                                                                                    | Managed supply                                               |
 
 ## Market Size
 
