@@ -1,7 +1,7 @@
 ---
 title: Anthropic
 created: 2026-06-01
-updated: 2026-06-02
+updated: 2026-06-15
 type: entity
 tags: [compute, overview, competitive-analysis]
 sources: [raw/articles/anthropic-raises-65bn-overtakes-openai-to-965bn-valuation-255d6e11b3bb4917.md, raw/articles/anthropic-冲击-1-万亿除了-pre-ipo还有哪些隐藏的claude-概念股-8569f0fead907f86.md, raw/articles/anthropic-files-for-ipo-claude-maker-races-openai-and-spacex-dca1c25de5f8c798.md]
@@ -37,6 +37,16 @@ Chinese market analysis has identified a "Claude concept stock" ecosystem (Claud
 - Claude competes directly with OpenAI's GPT series, Google's Gemini, and emerging Chinese models
 - The $965B valuation signals market confidence in Anthropic's ability to capture a significant share of the AI model market
 - Hyperscaler demand for Claude API access drives downstream compute infrastructure investment
+
+## Fable 5 Jailbreak & US Export Controls (June 2026)
+
+- **Claude Fable 5** (Anthropic's latest model) was **jailbroken** before US export controls were implemented
+- **David Sacks** (Trump adviser) publicly stated the US government warned Anthropic about the jailbreak, but CEO Dario Amodei **"refused" to fix the flaw** before export controls took effect
+- Anthropic defended its position by saying the jailbreak "isn't serious" — a Chinese group had reportedly accessed the model
+- The US subsequently **banned foreign governments, enterprises, and individuals from accessing Anthropic's latest AI models** — treating frontier AI models as national security assets under export control
+- **Supply chain significance:** This is the first time US export controls have been applied to **AI model access** (not just hardware/chips). It represents a major expansion of the technology control regime from physical semiconductors to intangible AI capabilities.
+- Implications for [[china-semiconductor-localization]]: Chinese entities that relied on Claude API access are now cut off from the most advanced model, accelerating the need for domestic alternatives (DeepSeek, MiniMax, etc.)
+- Signals that AI model providers are now de facto participants in the geopolitical technology control framework — their safety decisions have direct national security implications
 
 ## Relationships
 

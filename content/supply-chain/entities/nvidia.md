@@ -1,7 +1,7 @@
 ---
 title: NVIDIA
 created: 2026-05-29
-updated: 2026-06-13
+updated: 2026-06-15
 type: entity
 tags: [compute, bottleneck, capex-cycle]
 sources: [raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/techtimes-optical-component-shortage-2026.md, raw/articles/nvidias-long-awaited-n1n1x-soc-specs-leak-ahead-of-computex--f031d4fe18bbb91f.md, raw/articles/watch-nvidias-computex-2026-keynote-here-jensen-huang-takes--dc4884e078c91e98.md, raw/articles/microsoft-veteran-recalls-the-last-time-nvidia-and-arm-was-t-734413c22bff300e.md, raw/articles/computex-2026-day-zero-wrap-up-nvidia-launches-rtx-spark-sup-82b25ca627331cf5.md, raw/articles/nvidias-rtx-spark-could-caplitalize-where-qualcomms-arm-base-6ad137f86ca41c6f.md, raw/articles/nvidia-says-rtx-spark-chip-will-support-all-major-anti-cheat-6da85bf15ff0fcd3.md, raw/articles/8点1氪丨腾讯股价暴涨创2021年后单日最高涨幅预计今年安排约1100亿育儿补贴英伟达与微软合作推出统一技术栈-6a23307599ec2fe8.md, raw/articles/abb-expands-partnership-with-nvidia-db6f863f5cb83c10.md, raw/articles/google-signs-920m-monthly-compute-deal-with-spacex-companys--e52986c04b04b6c6.md]
@@ -103,6 +103,28 @@ NVIDIA and SK Hynix signed a multi-year co-development and supply agreement for 
 - GPU-accelerated storage acceleration — NVIDIA extending its platform beyond compute into data center storage infrastructure
 - Signals NVIDIA's platform strategy expanding from GPU → full data center stack (compute + networking + storage)
 - Implications for [[ai-data-center-infrastructure]]: storage I/O becoming a bottleneck layer that NVIDIA is addressing with GPU-accelerated solutions
+
+## RTX Pro 6000 Blackwell — Pricing Power Signal (June 2026)
+
+- NVIDIA raised RTX Pro 6000 Blackwell GPU pricing to **$13,250** — a **55% increase** over MSRP within one year
+- Partner offerings start at $11,359.99
+- Confirms extreme pricing power in professional/data center GPU segment — demand far outstrips supply
+- Consistent with the broader [[ai-supply-chain-bottlenecks]] narrative: GPU pricing reflects structural shortage, not cyclical markup
+
+## AMD Ryzen AI Halo — Edge AI Competition (June 2026)
+
+- AMD launched **Ryzen AI Halo** developer kit at **$3,999** — direct competitor to NVIDIA DGX Spark ($4,699)
+- Powered by Ryzen AI Max+ 395 processor with **128GB unified memory**
+- Undercuts DGX Spark by $700 while offering more memory — targets the same developer/edge AI workstation segment
+- Signals AMD mounting competitive pressure in edge/local AI inference — NVIDIA's DGX Spark monopoly in this segment is ending
+- Supply chain implication: competition for developer mindshare in local AI inference could pressure NVIDIA's pricing power at the edge
+
+## GPU Demand Signal — AI Cryptomining Parasitic Load (June 2026)
+
+- A preprint study identified an alleged **AI cryptomining network (Pearl)** consuming **320,000 RTX 3090-class GPUs** and **112 MW** of power while producing "zero useful AI computation"
+- GPU rental costs jumped **38%** coincident with this network's activity
+- While the study's claims are unverified, the scale illustrates how speculative/fraudulent GPU demand can exacerbate the legitimate AI compute shortage
+- Supply chain implication: parasitic GPU demand (crypto, fake AI mining) tightens effective supply for genuine AI workloads, contributing to the pricing power dynamics above
 
 ## Relationships
 

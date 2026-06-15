@@ -1,7 +1,7 @@
 ---
 title: SK Hynix
 created: 2026-05-29
-updated: 2026-06-13
+updated: 2026-06-15
 type: entity
 tags: [memory, hbm]
 sources: [raw/articles/bytedive-hbm-market-hbm4-hbf.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/供应商变股东存储芯片三巨头联手入股anthropicai供应链的权力结构正在重组-80b0813c97de5a7c.md, raw/articles/anthropic-raises-65bn-overtakes-openai-to-965bn-valuation-255d6e11b3bb4917.md, raw/articles/seven-hospitalized-after-toxic-gas-fire-at-sk-hynix-advanced-9ecbcfaa29f24313.md, raw/articles/sk-hyn...2067.md]
@@ -44,6 +44,18 @@ In a landmark restructuring of AI supply chain power dynamics, the three major H
 - SK Hynix CEO 郭鲁正 evaluating adoption of **Microsoft 365 CoPilot and ChatGPT** for internal workflows
 - Seeking balance between protecting industrial technology and expanding AI application
 - Signals even memory manufacturers are accelerating internal AI adoption — the AI transformation extends across the entire supply chain
+
+## HBM4E Sample Shipments (June 2026)
+
+- SK Hynix preparing to ship **HBM4E samples** to major customers as early as June 2026, no later than July
+- HBM4E planned for mass production in 2027 — customer validation must complete in H2 2026, making the current sampling timeline critical
+- Signals accelerated HBM roadmap: HBM4 in production (Feb 2026) → HBM4E samples (Jun 2026) → HBM4E mass production (2027)
+- Confirms SK Hynix maintaining 3–4 month lead over competitors in next-gen HBM development
+
+## Workforce Expansion
+
+- SK Hynix added **2,000+ employees** in 2025 — significant headcount growth reflecting the scale of capacity expansion and R&D investment underway
+- Supports the announced plan to double memory wafer capacity within 5 years
 
 ## Market Position
 

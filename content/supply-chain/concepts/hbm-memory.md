@@ -1,7 +1,7 @@
 ---
 title: HBM Memory
 created: 2026-05-29
-updated: 2026-06-13
+updated: 2026-06-15
 type: concept
 tags: [hbm, memory, bottleneck, supply-demand]
 sources: [raw/articles/bytedive-hbm-market-hbm4-hbf.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/供应商变股东存储芯片三巨头联手入股anthropicai供应链的权力结构正在重组-80b0813c97de5a7c.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/samsung-shows-first-hbm5-mockup-with-heat-path-block-cooling-33fafbe1ddad8412.md, raw/articles/9点1氪豆包推出付费后月活减少610万anthropic呼吁全球放缓ai开发警告ai自我改进风险罗永浩卸任锤子软件公司执-6957f1cc76adc611.md]
@@ -25,6 +25,7 @@ HBM is memory that sits directly adjacent to GPUs, dramatically increasing data 
 | HBM3 | In production | Base standard for AI training |
 | HBM3E | In production, sold out through 2026 | Higher bandwidth than HBM3 |
 | HBM4 | Mass production began Feb 2026 | 11.7Gbps (46% above JEDEC 8Gbps standard), ~$700/unit, 24–48 GB capacity |
+| HBM4E | Samples shipping Jun–Jul 2026, MP 2027 | Next enhancement of HBM4, [[sk-hynix]] leading customer validation |
 | HBF (future) | Target: early 2027 | NAND flash stacking, 8–16x capacity vs DRAM, 2.69x power efficiency improvement |
 
 ## HBM4 Technology Advances

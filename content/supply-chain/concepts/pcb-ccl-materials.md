@@ -1,7 +1,7 @@
 ---
 title: PCB and CCL Materials
 created: 2026-05-29
-updated: 2026-05-31
+updated: 2026-06-15
 type: concept
 tags: [pcb, ccl, materials, bottleneck, supply-demand]
 sources: [raw/articles/atlaspcb-taiwan-pcb-ccl-second-sourcing-2026.md, raw/articles/中富电路拟定增募资不超85亿元用于ai用pcb产线改扩建等项目-918317d03bbbdb45.md, raw/articles/nov-terraflow-partner-on-fiberglass-solutions-for-ai-data-ce-575b1bd4722351ca.md, raw/articles/铜价奔向105万背后-新能源吃铜铜也正在改变新能源的胃口-ed818e409ba9c630.md]
@@ -51,9 +51,18 @@ AI server motherboards (particularly for NVIDIA B200 and H200 platforms) require
 
 **CCL suppliers:** Mitsubishi Gas Chemical (MGC), Panasonic, AGC, EMC (Elite Material Co.), ITEQ
 **PCB manufacturers:** Unimicron, Zhen Ding Technology, Compeq Manufacturing
+**PCB equipment:** Han's Laser / 大族激光 (002008.SZ)
 
 **China AI PCB expansion:**
 - **中富电路 (Zhongfu Circuit, 300814.SZ):** Announced 8.5B RMB private placement (May 2026) for AI-use PCB production line expansion in Heshan, plus digital upgrade projects. Signals growing domestic China capacity for AI server PCBs, complementing Taiwan's dominant position.
+
+## Han's Laser (大族激光) — PCB Equipment Market Boom (June 2026)
+
+- **Han's Laser / 大族激光 (002008.SZ)** market capitalization surged by **79 billion RMB (~$11B)** — described as a "PCB 卖铲人" (PCB picks-and-shovels play)
+- The company is a leading supplier of laser processing equipment for PCB manufacturing — drilling, cutting, and structuring advanced multi-layer boards
+- Market cap explosion reflects the AI-driven PCB/CCL capex cycle: as AI server motherboards require 20+ layer ultra-low-loss PCBs, demand for precision laser processing equipment has surged
+- Confirms the "卖铲人" (picks-and-shovels) thesis: equipment suppliers benefit disproportionately from downstream capacity expansion booms, as PCB makers race to add AI-grade production lines
+- Supply chain implication: PCB equipment lead times likely extending as manufacturers like Han's Laser operate at high utilization — another bottleneck layer in the AI supply chain
 
 ## Impact
 

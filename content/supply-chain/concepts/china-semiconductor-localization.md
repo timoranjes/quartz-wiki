@@ -1,7 +1,7 @@
 ---
 title: China Semiconductor Localization
 created: 2026-05-29
-updated: 2026-06-13
+updated: 2026-06-15
 type: concept
 tags: [localization, export-controls, bottleneck]
 sources: [raw/articles/wikipedia-china-semiconductor-industry.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/tiktok-owner-bytedance-is-reportedly-developing-its-own-cust-13089b2d7ddab835.md, raw/articles/华为发布韬τ定律重构后摩尔时代的中国技术路径-9653afbd1253c669.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/edge-ai-daily-早报6月1日-abe98024bd263e34.md, raw/articles/us-closes-loophole-that-allowed-chinese-owned-subsidiaries-l-2baccdec109451b3.md, raw/articles/mainland-chinese-exhibitors-reportedly-locked-out-of-compute-fabcc678cf012315.md, raw/articles/36氪独家-火山引擎提升maas营收目标至全年150亿元seedance-20单月营收已超10亿元-6ecf7e73eb3e01e8.md, raw/articles/投资长鑫科技与宇树科技-险资耐心资本布棋新质生产力-babf6169ac95ef7d.md, raw/articles/36氪独家2026-年字节-ai-的四个关键命题-15b041f70c816c83.md, raw/articles/token大战中华为云选择了第三条路最前线-11bb6cc5c8b5d54c.md]
@@ -173,6 +173,23 @@ Supply chain implication: ByteDance's massive AI compute spend ($30-70B capex) c
 - GPU sales (H200) remain frozen under export controls, but CPUs are not restricted
 - Signals NVIDIA finding channels to maintain China revenue through non-restricted product categories
 - Implications: Chinese data centers may adopt Vera CPUs alongside domestic accelerators (昇腾, Biren), creating a hybrid compute stack that partially circumvents GPU export controls
+
+## US Export Controls Expand to AI Model Access (June 2026)
+
+- The US government **banned foreign governments, enterprises, and individuals from accessing Anthropic's latest AI models** (Claude Fable 5)
+- This follows a jailbreak incident where a Chinese group accessed the model before export controls took effect
+- **First time US export controls have been applied to AI model access** — not just hardware/chips — representing a major expansion of the technology control regime
+- See [[anthropic]] for full details on the Fable 5 jailbreak controversy
+- Implications: Chinese AI companies that relied on frontier Western model APIs (Claude, GPT) are now formally cut off, accelerating domestic model development (DeepSeek, MiniMax, 华为盘古, etc.)
+- Combined with existing chip export controls, this creates a **dual-layer containment**: China is restricted on both the hardware layer (GPUs, HBM, EDA tools) AND the model layer (frontier AI APIs)
+- Signals the US treating frontier AI capabilities as national security assets comparable to advanced semiconductors
+
+## Korea Power Semiconductor Investment (June 2026)
+
+- **South Korean government** launched the **"Super Innovation Economy Project"** (超级创新经济项目), investing **500 billion KRW (~$370M)** in next-generation **power semiconductors**
+- Power semiconductors (SiC, GaN) are critical for data center power management, EV charging, and renewable energy integration
+- Signals Korea diversifying semiconductor strategy beyond memory (HBM/DRAM) into power electronics — a segment where China is also investing heavily
+- Supply chain implication: Korea building domestic capability in [[silicon-carbide]] and power devices, potentially competing with Chinese SiC makers (三安光电, etc.) in the data center power supply chain
 
 ## Related
 
