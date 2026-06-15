@@ -1,7 +1,7 @@
 ---
 title: Optical Transceivers
 created: 2026-05-29
-updated: 2026-06-13
+updated: 2026-06-15
 type: concept
 tags: [optical, bottleneck, cpo, supply-demand]
 sources: [raw/articles/techtimes-optical-component-shortage-2026.md, raw/articles/华泰证券光模块功耗提升驱动液冷加速渗透-d4d1cddddd863554.md, raw/articles/lambda-offers-glimpse-into-nvidias-cpo-switch-enabling-more--af33bef83d3dc68c.md]
@@ -46,10 +46,18 @@ At the heart of the crisis is the **electro-absorption modulated laser (EML)**:
 
 ## Chinese Suppliers in Module Assembly
 
-- **Innolight** and **Eoptolink** (China-based) supply ~60% of NVIDIA's 800G module demand
+- **Innolight (中际旭创)** and **Eoptolink** (China-based) supply ~60% of NVIDIA's 800G module demand
 - 7 of the top 10 global optical module suppliers in 2024 were Chinese companies
 - However, export controls restrict access to epitaxial growth equipment (MOCVD, MBE) needed for EMLs and DSP chips
 - Critical components remain concentrated among Western and Japanese suppliers with significant pricing power
+
+## Innolight (中际旭创) Earnings Rumors (June 2026)
+
+- **Innolight (中际旭创, 300308.SZ)** reportedly responded to rumors of a **业绩暴雷 (earnings miss/disappointment)** — details not confirmed but the market reaction signals investor concern
+- Context: Innolight is the world's largest optical module supplier and a key beneficiary of the AI optical transceiver boom. Any earnings deceleration at Innolight would be a significant signal for the optical supply chain.
+- Possible causes: margin compression from capacity expansion costs, customer inventory adjustments, or pricing pressure from hyperscaler negotiations
+- Supply chain implication: If Innolight's growth is slowing, it could indicate either (a) temporary inventory correction in the optical module channel (bullish for later) or (b) peak demand in 800G modules before 1.6T transition (structural concern)
+- Requires monitoring — a single-quarter miss from the dominant module supplier is a leading indicator for the broader optical supply chain
 
 ## Liquid Cooling for Optical Modules (June 2026)
 
