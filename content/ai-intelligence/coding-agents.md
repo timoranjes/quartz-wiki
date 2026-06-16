@@ -48,8 +48,22 @@ Agents that work inside your editor with human-in-the-loop.
 - **Best open-source:** [[aider\|Aider]], [[opencode\|OpenCode]]
 - **Best IDE experience:** [[cursor\|Cursor]]
 - **Best for multi-model flexibility:** [[opencode\|OpenCode]] (plug in any provider)
-- **Best value:** [[aider\|Aider]] (free, works with cheap models)
+- **Best value:** [[aider|Aider]] (free, works with cheap models)
+
+## Labor Market Impact (June 2026)
+
+Despite rapid capability gains, coding agents have **not** caused mass software engineering layoffs:
+
+- **NY WARN Act disclosure** (March 2025): 160+ companies filed layoff notices in the first year — **not a single one** checked the "AI-related" box
+- **Narayanan & Kapoor analysis** (June 2026): Even in software engineering (uniquely suited to AI disruption), mass layoffs have not materialized. The real bottlenecks are not coding speed but:
+  1. **Deciding and specifying** what to build
+  2. **Verifying and being accountable** for what is delivered
+  3. **Deep human understanding** — of the codebase, the business, and the environment
+
+AI accelerates the "typing code into a computer" phase, but software engineering is fundamentally about specification, verification, and judgment — not typing. Other professions with more regulatory barriers are likely even more cushioned from displacement.
+
+Source: [Normal Tech (Narayanan & Kapoor)](https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers) via Simon Willison ^[raw/sources/2026-06-14-why-ai-hasnt-replaced-software-engineers-and-wont.md]
 
 ---
 
-*Last updated: 2026-06-04*
+*Last updated: 2026-06-17*

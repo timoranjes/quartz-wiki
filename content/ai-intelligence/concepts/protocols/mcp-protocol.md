@@ -1,7 +1,7 @@
 ---
 title: MCP (Model Context Protocol)
 created: 2026-06-01
-updated: "2026-06-13"
+updated: "2026-06-17"
 type: concept
 tags:
   - integration
@@ -119,6 +119,15 @@ Sources: [arXiv:2606.12834](https://arxiv.org/abs/2606.12834) ^[raw/papers/unkno
 - Models with strong retrieval scores score near-random on factual probes about their tools
 - Under realistic queries: performance collapses 50-64 percentage points
 - Implication: MCP servers with large tool catalogs may exceed what small models can effectively navigate
+
+## MCP Practical Limitations (June 2026)
+
+Real-world usage reveals that MCP servers may not expose all capabilities of the underlying service:
+
+- **Cloudflare MCP + [[claude-code]]**: Simon Willison used the Cloudflare MCP to configure WAF rules but found it **could not edit managed challenge rules** — had to switch to the Cloudflare API directly for write operations. Read-only or partial-write MCP servers are common; the protocol doesn't guarantee full API parity.
+- **Implication**: MCP is best understood as a *discovery and invocation* layer, not a complete replacement for direct API access. Agent harnesses should plan for API fallback when MCP servers lack write capabilities.
+
+Source: [Simon Willison](https://simonwillison.net/2026/Jun/16/captcha-on-at-least-one-ampersand/) ^[raw/sources/2026-06-16-cloudflare-captcha-on-at-least-one-ampersand.md]
 
 ## Related
 

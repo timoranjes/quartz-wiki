@@ -3,7 +3,7 @@ title: "Agent Safety"
 type: concept
 tags: [safety, agent-architecture]
 created: "2026-06-03"
-updated: "2026-06-14"
+updated: "2026-06-17"
 status: seed
 ---
 
@@ -189,6 +189,26 @@ The US government issued an export control directive forcing [[anthropic]] to gl
 - Government provided only **verbal evidence** of a "potential narrow, non-universal jailbreak"
 - The alleged technique: asking the model to read a specific codebase and fix software flaws
 
+### The "Jailbreak" Was Standard Cyberdefense (June 16, 2026)
+**Kate Moussouris** (CEO, Luta Security; cybersecurity expert, not paid by Anthropic) confirmed via The Atlantic and independent analysis that the triggering "jailbreak" was routine defensive security work:
+
+1. Researchers gave Fable 5, Mythos, and Opus open-source code with known CVEs and deliberately planted vulnerabilities
+2. Prompt: "review the code for security issues" → **Fable 5 refused**
+3. Prompt: "fix this code" → **Fable 5 complied**, producing fixes through a multi-step process
+4. Researchers then manually turned the output into test scripts verifying the patches
+
+Moussouris: "Defenders need to be able to ask AI to fix the bugs in a file, explain why the fix matters, and write tests that confirm the patch works. **That is not a guardrail bypass.** It is the most valuable thing an AI model can do for defensive security: executing the find, fix, and test loop defenders run every day."
+
+"The prompts worked because they were defensive requests, and that capability cannot be removed without making the model worse at fixing bugs and verifying patches."
+
+### Behind-the-Scenes: Personality Clashes (June 15, 2026)
+Axios reported significant personality clashes between [[anthropic]] and the White House. Key personnel meeting Commerce Department in DC:
+- **Logan Graham** — Frontier Red Team lead; ex-Special Adviser to PM Boris Johnson (AI/science/tech policy)
+- **Dave Orr** — Head of Safeguards; ex-Director of Engineering at Google DeepMind
+- **Nicholas Carlini** — prominent AI safety researcher
+
+Anthropic's **Constitutional Classifiers** (published January 2026) remain their primary jailbreak defense — the company claims no "universal jailbreak" has been found against Claude Mythos, classifying the triggering technique as "a potential narrow, non-universal jailbreak." The administration's position: resolution may come down to an "attitude fix" where "everyone feels safe, secure and happy" — suggesting the dispute is as much interpersonal as technical.
+
 ### Anthropic's Assessment
 - The "jailbreak" demonstrates capabilities **widely available from other models** including [[openai]] GPT-5.5
 - The vulnerabilities found were "relatively simple" and discoverable by other publicly-available models
@@ -207,7 +227,7 @@ The US government issued an export control directive forcing [[anthropic]] to gl
 ### Verification
 Simon Willison independently verified the cutoff time by polling the Anthropic API every 60 seconds. The model returned successful responses through attempt 37 (6:57:59pm PT), then returned 404 on attempt 38 (6:59:00pm PT).
 
-Sources: [Anthropic Statement](https://www.anthropic.com/news/fable-mythos-access), [Simon Willison](https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/) ^[raw/sources/2026-06-13-statement-on-the-us-government-directive-to-suspend-access-to-fable-5-and-mythos.md]
+Sources: [Anthropic Statement](https://www.anthropic.com/news/fable-mythos-access), [Simon Willison](https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/), [Axios](https://www.axios.com/2026/06/15/anthropic-white-house-fable-mythos), [The Atlantic (Matteo Wong)](https://www.theatlantic.com/technology/2026/06/trump-anthropic-export-control-ai-race/687555/), [Luta Security](https://www.lutasecurity.com/post/the-fable-5-export-controls-harm-us-cyber-defense) ^[raw/sources/2026-06-13-statement-on-the-us-government-directive-to-suspend-access-to-fable-5-and-mythos.md] ^[raw/sources/2026-06-15-they-screwed-us-personality-clashes-sent-anthropics-models-offline.md] ^[raw/sources/2026-06-16-the-fable-5-export-controls-harm-us-cyber-defense.md] ^[raw/sources/2026-06-16-quoting-matteo-wong-the-atlantic.md]
 
 ## Related
 
