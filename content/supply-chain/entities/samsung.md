@@ -1,10 +1,10 @@
 ---
 title: Samsung Electronics
 created: 2026-05-29
-updated: 2026-06-13
+updated: 2026-06-16
 type: entity
 tags: [memory, hbm, foundry]
-sources: [raw/articles/bytedive-hbm-market-hbm4-hbf.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/供应商变股东存储芯片三巨头联手入股anthropicai供应链的权力结构正在重组-80b0813c97de5a7c.md, raw/articles/anthropic-raises-65bn-overtakes-openai-to-965bn-valuation-255d6e11b3bb4917.md, raw/articles/samsung-shows-first-hbm5-mockup-with-heat-path-block-cooling-33fafbe1ddad8412.md]
+sources: [raw/articles/bytedive-hbm-market-hbm4-hbf.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/供应商变股东存储芯片三巨头联手入股anthropicai供应链的权力结构正在重组-80b0813c97de5a7c.md, raw/articles/anthropic-raises-65bn-overtakes-openai-to-965bn-valuation-255d6e11b3bb4917.md, raw/articles/samsung-shows-first-hbm5-mockup-with-heat-path-block-cooling-33fafbe1ddad8412.md, raw/articles/消息称三星晶圆代工首获马斯克neuralink芯片制造订单-63e7634131173ca5.md]
 confidence: high
 ---
 
@@ -45,6 +45,14 @@ Samsung joined SK Hynix and Micron in a joint investment in Anthropic as part of
 - Korean AI chip startup [[rebellions]] also partnering with Samsung for memory-centric AI chip designs
 - Samsung, like SK Hynix, positioning as more than a memory supplier — co-designing AI architectures with downstream chip startups
 - Diversifies Samsung's AI revenue beyond commodity HBM/DRAM into architecture IP and co-development
+
+## Foundry — Neuralink First Major Order (June 2026)
+
+- **Samsung Foundry** reportedly won its **first chip manufacturing order from Elon Musk's Neuralink**
+- Will produce Neuralink's "4th generation" brain-computer interface chip using **4nm process**
+- **Trial production started May 2026**, mass production targeted for **late 2027**
+- Significance: This is Samsung Foundry's first confirmed Neuralink contract — diversifies their foundry customer base beyond traditional semiconductor clients into the emerging brain-computer interface / medical device market
+- Demonstrates Samsung Foundry's competitiveness at 4nm for specialized, high-reliability applications beyond mobile and AI
 
 ## Relationships
 
