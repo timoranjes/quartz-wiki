@@ -1,10 +1,10 @@
 ---
 title: Embodied AI Robotics
 created: 2026-06-04
-updated: 2026-06-05
+updated: 2026-06-16
 type: concept
 tags: [components, bottleneck]
-sources: [raw/articles/深圳具身公司星尘智能完成超10亿b轮融资估值破百亿硬氪首发-a979f6a6b5ece892.md, raw/articles/36氪首发-浙大教授团队获财通商汤投资做高危场景具身机器人大脑-7e0eba9ec8abf818.md, raw/articles/机器人先挣钱还是先追求agi具身智能路线之争摆上台面-3487bc7ead04e0c0.md, raw/articles/硬氪独家-唐文斌原力灵机并购物流机器人公司并获智谱商汤阶跃等投资-c9807cc2067fbb87.md]
+sources: [raw/articles/深圳具身公司星尘智能完成超10亿b轮融资估值破百亿硬氪首发-a979f6a6b5ece892.md, raw/articles/36氪首发-浙大教授团队获财通商汤投资做高危场景具身机器人大脑-7e0eba9ec8abf818.md, raw/articles/机器人先挣钱还是先追求agi具身智能路线之争摆上台面-3487bc7ead04e0c0.md, raw/articles/硬氪独家-唐文斌原力灵机并购物流机器人公司并获智谱商汤阶跃等投资-c9807cc2067fbb87.md, raw/articles/with-46-billion-yuan-pouring-into-chinas-embodied-intelligen-05754d80ac946652.md, raw/articles/硬氪首发-海洋具身智能公司世航智能拿下创纪录10亿融资朱啸虎押注-7ca8dd2478dd73b6.md, raw/articles/均普智能联合博登上海交大正式发布全球首个面向真实机器人强化学习大规模数据集-ff97f0ef4d958d95.md, raw/articles/硬氪专访-智源研究院院长王仲远vla不会死但世界模型是未来-68f5013590847238.md]
 confidence: medium
 ---
 
@@ -50,13 +50,48 @@ Embodied AI — robots powered by AI models that interact with the physical worl
 - **Funding:** Backed by 智谱, 阶跃星辰, 商汤科技 (first time all four major Chinese LLM companies invested in same embodied AI startup), plus 华勤, 上汽恒旭 as strategic investors
 - Signals: embodied AI industry transitioning from "data deadlock" to closed-loop data-model-scenario integration; M&A consolidation accelerating (Skild AI also acquired Zebra Robotics around same time)
 
+## China Embodied AI: 46 Billion Yuan YTD2026 — Capital Concentration Intensifying (June 2026)
+
+- **46 billion yuan** poured into China's embodied intelligence sector YTD 2026
+- **Extreme capital concentration:** 70% of funding (~33 billion yuan) flowed into the **top 20 companies** — pyramid structure signals winner-take-most dynamics emerging
+- Confirms the sector is past the "hundred startups" phase and entering consolidation — capital concentrating around companies with demonstrated commercial traction
+
+### ShiHang Intelligence (世航智能) — Record 1B RMB Ocean Robotics Round
+
+- **ShiHang Intelligence (世航智能)** closed **1B+ RMB A-round** — the **largest single funding round globally in ocean robotics**
+- Investors include chip companies **Moore Threads (摩尔线程)** and **Kunlun Xin (昆仑芯)** via Shanghe Dongliang Fund, Singapore state investor Vertex Growth, and listed company Dayang Motor
+- GSR Ventures (金沙江创投 / 朱啸虎) followed for the 5th consecutive round
+- **Product:** Full-depth (0–10,000m) underwater robots with autonomous navigation, multi-robot coordination
+- **Orders:** Exceeded 1B RMB in H1 2026 alone; 1,000+ large vessel maintenance jobs completed
+- **"CangQiong CEORION" ocean embodied model:** Unified end-to-end architecture combining perception, task understanding, and action generation; 90%+ task success rate in simulation; 70%+ zero-shot adaptation to unseen environments
+- Significance: First major ocean robotics company backed by **chip company investors** — confirms the AI supply chain is extending into specialized robotics verticals; Moore Threads and Kunlun Xin see strategic value in embodied AI as a demand driver for their edge inference chips
+
+### Junpu Intelligence + SJTU — World's First Real-Robot RL Dataset (June 2026)
+
+- **Junpu Intelligence (均普智能)** partnered with **Boden (博登)** and **Shanghai Jiao Tong University** to release the **world's first large-scale reinforcement learning dataset for real-world robots**
+- Breaks the traditional limitation of only recording "success trajectories" — includes failure data, enabling robots to learn from mistakes
+- Provides scalable, reproducible, collaborative real-world data foundation for the global embodied AI community
+- Significance: Data scarcity is the primary bottleneck for embodied AI training; open real-world datasets accelerate the entire industry's progress toward deployment-ready models
+
+### BAAI World Models — Fifth Path for Embodied AI (June 2026)
+
+- **BAAI (北京智源人工智能研究院)** president Wang Zhongyuan outlined **four diverging world model approaches** and proposed a **fifth path**: unified latent space representation combining language and vision
+- Four existing approaches: (1) language-centric (VLM/VLA), (2) pixel-centric (Sora/video gen), (3) 3D structure-centric (World Labs Marble), (4) visual representation-centric (LeCun's JEPA)
+- BAAI's fifth path: all modalities compressed into unified latent space, then decoded into different outputs (video, actions, positions, forces) as needed
+- Wang compares world models to **"deep learning in 2012"** — data silos, unresolved routes, conflicting benchmarks; "ChatGPT moment" not yet arrived
+- Key requirements: physical law compliance, long-horizon consistency, causal reasoning, generalization across multiple scenarios
+- Timeline: 3+ years before world models become practical robot brains
+- Significance: World models represent the next frontier for embodied AI — moving from reactive VLA control to predictive physics understanding. The "2012 moment" analogy suggests we're pre-breakthrough, with massive upside but uncertain timelines.
+
 ## Supply Chain Implications
 
 - Embodied AI robots require significant edge compute — each unit is essentially a mobile AI inference node
 - Cable-driven vs. rigid transmission mechanisms represent different supply chain requirements: cable-driven needs precision tendon systems, motors, and control electronics; rigid needs gearboxes, harmonic drives
 - Mass production of humanoid/cable-driven robots will create new demand for sensors, actuators, and edge AI SoCs
 - If the sector scales, it adds a significant incremental demand vector for [[nvidia]]-class edge inference chips and potentially custom AI accelerators
+- **Chip company investment (Moore Threads, Kunlun Xin)** confirms edge AI inference chips are a direct supply chain beneficiary of embodied AI scaling
 - Insurance "patient capital" (险资耐心资本) is flowing into the sector, signaling long-term state-aligned commitment
+- **46B yuan YTD2026** with 70% concentration in top 20 → industry consolidation accelerating, creating larger entities with bigger compute procurement budgets
 
 ## Open Questions
 

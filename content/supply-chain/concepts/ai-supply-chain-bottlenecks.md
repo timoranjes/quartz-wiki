@@ -1,10 +1,10 @@
 ---
 title: AI Supply Chain Bottlenecks
 created: 2026-05-29
-updated: 2026-06-13
+updated: 2026-06-16
 type: concept
 tags: [bottleneck, overview, supply-demand]
-sources: [raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/memory-chip-shortage-makes-bare-metal-cloud-cheaper-than-on--edfcd0c4ac8be554.md, raw/articles/铜价奔向105万背后-新能源吃铜铜也正在改变新能源的胃口-ed818e409ba9c630.md, raw/articles/nikon-weaponizes-lower-prices-to-break-asmls-lithography-mon-d80faf94d9d9f30e.md, raw/articles/nikon-leveraging-arf-scanner-price-to-challenge-asml-860597fb09228073.md, raw/articles/32gb-of-ddr5-now-costs-375-minimum-ai-shortage-continues-to--330314b0df8fea84.md, raw/articles/counterfeit-gskill-and-v-color-ddr5-modules-hit-chinese-mark-cf70114c03127ac0.md]
+sources: [raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/memory-chip-shortage-makes-bare-metal-cloud-cheaper-than-on--edfcd0c4ac8be554.md, raw/articles/铜价奔向105万背后-新能源吃铜铜也正在改变新能源的胃口-ed818e409ba9c630.md, raw/articles/nikon-weaponizes-lower-prices-to-break-asmls-lithography-mon-d80faf94d9d9f30e.md, raw/articles/nikon-leveraging-arf-scanner-price-to-challenge-asml-860597fb09228073.md, raw/articles/32gb-of-ddr5-now-costs-375-minimum-ai-shortage-continues-to--330314b0df8fea84.md, raw/articles/counterfeit-gskill-and-v-color-ddr5-modules-hit-chinese-mark-cf70114c03127ac0.md, raw/articles/银河证券ai算力建设需求爆发推动存储长周期涨价hbm投片比重将持续提升-7d89e121abd27c79.md, raw/articles/中信证券硅片涨价如期落地上行周期才刚开始-15ba2e4282e8a5ed.md, raw/articles/电子布100涨价背后真正的瓶颈不是织机是配方-4712be44d5720b41.md, raw/articles/amd-takes-over-mext-to-address-growing-memory-constraints-in-5e7d88dd3d58339f.md]
 confidence: high
 ---
 
@@ -116,6 +116,16 @@ Nutanix CEO Rajiv Ramaswami reported that the ongoing memory chip shortage is dr
 - Called the hardware cost gap "unsustainable" and said it "cannot continue"
 - Confirms memory bottleneck is no longer contained to AI — it is now disrupting consumer electronics, gaming consoles, and any product that uses DRAM/NAND
 - Extends the memory famine narrative: even Microsoft-scale buyers acknowledge structural cost inflation is beyond cyclical norms
+
+## Materials Price Cascade — Silicon Wafers, E-Glass, HBM Capacity Migration (June 2026)
+
+Multiple upstream material layers confirming simultaneous price increases:
+
+- **Silicon wafers:** Q2 2026 price increases confirmed (CITIC Securities); heavily-doped and overseas lightly-doped tight; 2-year global supply shortage beginning — "upcycle just started"
+- **E-glass fabric (电子布):** 100% price doubling; true bottleneck is chemical formulation + certification, not loom capacity — structural, not cyclical constraint
+- **HBM consuming DRAM capacity:** HBM wafer starts rising from 18% (2025) → ~30% (2027) of total DRAM production (TrendForce via Galaxy Securities). Every point of DRAM capacity migrating to HBM tightens conventional DDR5 supply simultaneously
+- **AMD MEXT acquisition:** AMD buying memory tiering startup (flash-as-DRAM) — signals memory constraints severe enough to drive CPU/platform-level architectural innovation
+- Significance: The bottleneck is no longer concentrated in one layer — it's a **full-chain materials squeeze** from silicon wafers through E-glass through DRAM capacity allocation. Price increases at every layer compound downstream, making cost inflation structural across the entire semiconductor supply chain.
 
 ## Related
 

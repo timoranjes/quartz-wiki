@@ -1,10 +1,10 @@
 ---
 title: HBM Memory
 created: 2026-05-29
-updated: 2026-06-15
+updated: 2026-06-16
 type: concept
 tags: [hbm, memory, bottleneck, supply-demand]
-sources: [raw/articles/bytedive-hbm-market-hbm4-hbf.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/供应商变股东存储芯片三巨头联手入股anthropicai供应链的权力结构正在重组-80b0813c97de5a7c.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/samsung-shows-first-hbm5-mockup-with-heat-path-block-cooling-33fafbe1ddad8412.md, raw/articles/9点1氪豆包推出付费后月活减少610万anthropic呼吁全球放缓ai开发警告ai自我改进风险罗永浩卸任锤子软件公司执-6957f1cc76adc611.md]
+sources: [raw/articles/bytedive-hbm-market-hbm4-hbf.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/供应商变股东存储芯片三巨头联手入股anthropicai供应链的权力结构正在重组-80b0813c97de5a7c.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/samsung-shows-first-hbm5-mockup-with-heat-path-block-cooling-33fafbe1ddad8412.md, raw/articles/9点1氪豆包推出付费后月活减少610万anthropic呼吁全球放缓ai开发警告ai自我改进风险罗永浩卸任锤子软件公司执-6957f1cc76adc611.md, raw/articles/银河证券ai算力建设需求爆发推动存储长周期涨价hbm投片比重将持续提升-7d89e121abd27c79.md, raw/articles/amd-takes-over-mext-to-address-growing-memory-constraints-in-5e7d88dd3d58339f.md]
 confidence: high
 ---
 
@@ -105,6 +105,24 @@ While HBM dominates the AI accelerator memory layer, conventional DDR5 is also e
 - Called the hardware cost gap "unsustainable" and said it "cannot continue"
 - Confirms memory bottleneck is no longer contained to AI — it is now disrupting consumer electronics, gaming consoles, and any product that uses DRAM/NAND
 - Extends the [[ai-supply-chain-bottlenecks]] narrative: memory famine forcing even Microsoft-scale buyers to acknowledge structural cost inflation
+
+## HBM Capacity Share — Structural Shift in DRAM Industry (June 2026)
+
+- **Galaxy Securities (June 2026):** AI compute demand explosion driving long-cycle memory price increases; HBM wafer starts as share of total DRAM production rising sharply:
+  - HBM wafer starts: **18% of DRAM (2025) → ~30% by 2027** (TrendForce estimate)
+  - HBM bit supply share: **8% → ~13% by 2027**
+  - NVIDIA Rubin Ultra platform: each GPU configured with **384GB HBM** — further increasing per-GPU HBM consumption
+  - AI ASIC shipments also increasing, adding incremental HBM demand
+  - 3D stacked DRAM emerging as key technology path for edge AI, breaking through traditional memory bottlenecks
+- Significance: HBM is consuming an increasing share of the global DRAM production base — every percentage point of DRAM wafer capacity diverted to HBM reduces supply of conventional DDR5, reinforcing the memory bottleneck across all segments simultaneously
+- This confirms the long-cycle price increase thesis: memory pricing power persists not just from AI demand, but from the structural capacity migration toward HBM
+
+## AMD Acquires MEXT — Memory Tiering for Data Centers (June 2026)
+
+- **AMD** acquired **MEXT**, a startup with "Predictive Memory Engine" technology that offloads infrequently accessed data from DRAM to NAND flash storage
+- Technology enables **flash to appear as DRAM** to applications — memory tiering that addresses growing data center memory constraints without requiring additional DRAM capacity
+- Significance: As DRAM becomes increasingly expensive and scarce (diverted to HBM), data center operators are turning to tiered memory architectures that supplement DRAM with cheaper NAND — a workaround for the memory bottleneck
+- Supply chain implication: Memory tiering reduces the effective DRAM demand per server, but also signals that memory constraints are severe enough to drive architectural innovation at the CPU/platform level
 
 ## Related
 

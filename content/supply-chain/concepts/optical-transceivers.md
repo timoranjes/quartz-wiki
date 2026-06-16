@@ -1,10 +1,10 @@
 ---
 title: Optical Transceivers
 created: 2026-05-29
-updated: 2026-06-15
+updated: 2026-06-16
 type: concept
 tags: [optical, bottleneck, cpo, supply-demand]
-sources: [raw/articles/techtimes-optical-component-shortage-2026.md, raw/articles/华泰证券光模块功耗提升驱动液冷加速渗透-d4d1cddddd863554.md, raw/articles/lambda-offers-glimpse-into-nvidias-cpo-switch-enabling-more--af33bef83d3dc68c.md]
+sources: [raw/articles/techtimes-optical-component-shortage-2026.md, raw/articles/华泰证券光模块功耗提升驱动液冷加速渗透-d4d1cddddd863554.md, raw/articles/lambda-offers-glimpse-into-nvidias-cpo-switch-enabling-more--af33bef83d3dc68c.md, raw/articles/marvell-details-vision-of-optically-interconnected-data-cent-3288c9b4e4722efa.md]
 confidence: high
 ---
 
@@ -102,6 +102,15 @@ At the heart of the crisis is the **electro-absorption modulated laser (EML)**:
 - Chinese MCU maker targeting the optical module control/embedded processing market — a niche but growing segment as optical module production scales
 - Signals Chinese semiconductor companies developing specialized components for the optical supply chain, complementing the module assembly strength of Innolight/Eoptolink
 - Supply chain implication: China building domestic capability across the entire optical module stack — from MCUs (GigaDevice) to module assembly (Innolight) to fiber (long preform lead times remain the constraint)
+
+## Marvell's Optically-Interconnected Data Center Vision (June 2026)
+
+- **Marvell** detailed its vision for **optically-interconnected data centers spanning thousands of kilometers** — connecting devices across vast distances using new optical interconnect hardware
+- New interconnect products **sampling later in 2026**, enabling cloud service providers to **pool resources based on workload** across geographically distributed facilities
+- Key concept: optical interconnects allow CSPs to treat multiple data centers as a single pooled compute resource, dynamically allocating workloads across sites based on availability and demand
+- Supply chain implication: Expands the optical interconnect market from intra-DC (rack-to-rack) and metro (DC-to-DC within city) to **long-haul DC-to-DC** (thousands of km) — significantly increasing the total addressable market for optical components
+- Validates the "光进铜退" (optical advances, copper retreats) thesis at a macro scale: if DCs can be optically linked across continents, the geographic constraints on AI compute placement are fundamentally loosened
+- Marvell positioning as a key silicon provider for the optical interconnect stack (custom ASICs for optical networking), complementing the module/transceiver layer
 
 ## Timeline
 
