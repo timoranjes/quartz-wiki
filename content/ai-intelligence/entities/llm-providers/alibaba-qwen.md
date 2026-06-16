@@ -1,7 +1,7 @@
 ---
 title: Alibaba Qwen
 created: 2026-06-02
-updated: 2026-06-02
+updated: 2026-06-17
 type: provider
 tags: [provider, lab, cloud-platform, model, reasoning, coding, vision, audio, multimodal, open-weight, pricing, api, token-cost, timeline]
 sources: [raw/articles/llm-provider-alibaba-qwen-2026.md]
@@ -95,3 +95,5 @@ Rate limits range from 60 RPM (free tier) to 1,000+ RPM (token plan). Enterprise
 **Platform updates:** Model Studio PTU now supports [[deepseek]] V4 Pro deployment; token plan subscription packages compatible with mainstream AI toolchains; enhanced Agent Builder with visual workflow orchestration; 70M free token trial for new users.
 
 **Open-source:** Continued regular releases on Hugging Face under Apache 2.0, growing community of fine-tunes and derivatives, active research paper publications.
+
+**Local coding endorsement (June 16, 2026):** **Georgi Gerganov** (creator of llama.cpp) confirmed that **Qwen3.6-27B** is "a very capable local model for coding tasks." He has used it almost daily for 6 weeks on M2 Ultra and RTX 5090 for mundane coding tasks at ggml-org, using a lightweight harness (stripped pi agent: `pi -nc --offline` with a short system prompt). Significant endorsement for Qwen's open-weight models in the local-first coding agent space. ^[raw/sources/2026-06-16-quoting-georgi-gerganov.md]
