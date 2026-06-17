@@ -3,7 +3,7 @@ title: "Agent Safety"
 type: concept
 tags: [safety, agent-architecture]
 created: "2026-06-03"
-updated: "2026-06-17"
+updated: "2026-06-18"
 status: seed
 ---
 
@@ -229,6 +229,79 @@ Simon Willison independently verified the cutoff time by polling the Anthropic A
 
 Sources: [Anthropic Statement](https://www.anthropic.com/news/fable-mythos-access), [Simon Willison](https://simonwillison.net/2026/Jun/13/us-government-directive-to-suspend-access/), [Axios](https://www.axios.com/2026/06/15/anthropic-white-house-fable-mythos), [The Atlantic (Matteo Wong)](https://www.theatlantic.com/technology/2026/06/trump-anthropic-export-control-ai-race/687555/), [Luta Security](https://www.lutasecurity.com/post/the-fable-5-export-controls-harm-us-cyber-defense) ^[raw/sources/2026-06-13-statement-on-the-us-government-directive-to-suspend-access-to-fable-5-and-mythos.md] ^[raw/sources/2026-06-15-they-screwed-us-personality-clashes-sent-anthropics-models-offline.md] ^[raw/sources/2026-06-16-the-fable-5-export-controls-harm-us-cyber-defense.md] ^[raw/sources/2026-06-16-quoting-matteo-wong-the-atlantic.md]
 
+## Guardrail Denial-of-Service Attacks (June 2026)
+
+**"From Shield to Target"** (arXiv:2606.14517) reveals that LLM-based guardrails — the very reasoning capabilities that enable protection — introduce a novel **availability vulnerability**: attackers can trap guardrails in extended reasoning loops.
+
+### Attack Mechanism
+- Inject crafted data that forces the guardrail into extended reasoning chains
+- **Beam-search optimization** crafts natural-language payloads to maximize guardrail reasoning length
+- **Mechanism-aware structural mutations** exploit guardrails' schema-following nature (lower computational cost)
+
+### Impact
+- **13-63× token amplification** across diverse guardrail architectures, safety templates, and agent benchmarks
+- Payloads optimized on a single open-source surrogate **transfer to 8 leading model backbones** (Claude, GPT, Gemini, DeepSeek, Qwen)
+- End-to-end agent deployments: up to **148× latency amplification**
+- **A single poisoned document can saturate shared guardrail infrastructure**, starving co-located agents and paralyzing the entire system
+
+### Implications
+- Guardrail security must address **availability**, not just correctness
+- Cost-bounded, reasoning-robust guardrails are an urgent need
+- Shared guardrail infrastructure creates **cascading failure risk** — one poisoned input affects all co-located agents
+- Attacks generalize across model families, suggesting a structural vulnerability in reasoning-based safety
+
+Sources: [arXiv:2606.14517](https://arxiv.org/abs/2606.14517) ^[raw/papers/unknown-from-shield-to-target-denial-of-service-attacks-on-llm-based-agent-guardrails.md]
+
+## Execution Provenance: From Traces to Trust (June 2026)
+
+A comprehensive survey (arXiv:2606.04990) establishes **execution provenance** as the foundation for process-level accountability in trustworthy LLM agents.
+
+### Core Definitions
+- **Execution provenance**: The typed graph of an agent execution
+- **Evidence tracing**: Its projection onto evidence-support relations
+- Final-answer accuracy alone cannot explain: how output was produced, which evidence supported each claim, whether tool calls were justified, how memory influenced decisions, or where failures originated
+
+### Taxonomy
+Covers: trace sources, evidence and execution units, provenance relations, tracing granularity and timing, representation forms, and trust functions.
+
+### Key Methodological Directions
+- Provenance representation
+- Evidence attribution
+- Tool-use provenance
+- Runtime guardrails
+- Provenance-bearing memory
+- Observability and failure diagnosis
+
+### Implications
+Connects retrieval grounding, claim support, tool-use safety, memory lineage, observability, debugging, audit, and recovery within a **unified framework**. Agent systems need provenance-aware design to be auditable and recoverable.
+
+Sources: [arXiv:2606.04990](https://arxiv.org/abs/2606.04990) ^[raw/papers/unknown-from-agent-traces-to-trust-a-survey-of-evidence-tracing-and-execution-provenance.md]
+
+## CAPED: Privacy Defense for Mobile GUI Agents (June 2026)
+
+**CAPED** (arXiv:2606.12666) addresses **incidental visual privacy exposure** in screenshot-based mobile GUI agents — a previously unrecognized privacy boundary problem.
+
+### The Problem
+- Screenshot-based GUI agents operate smartphone apps through the visual interface
+- Every screen observation becomes a **privacy boundary** — screenshots may expose contacts, messages, photos, health data unrelated to the user's request
+- Text anonymization misses visual/inferential cues; generic privacy masking removes evidence the agent needs
+
+### CAPED's Approach
+- **Phone-side protection layer** before screenshots reach remote multimodal agent
+- Extracts task requirements, uses screen context as privacy prior
+- Parses visible UI elements, **selectively exposes** only content needed for current task
+- Masks incidental private content
+
+### Results (AndroidWorld)
+- Full CAPED reduces success-conditioned weighted seeded leakage from **0.766 → 0.268** (65% reduction)
+- Preserves high task utility
+- Demonstrates task-driven selective exposure can reduce incidental visual leakage
+
+### Implications
+GUI agent safety must address **privacy of bystander data** visible on screen, not just the agent's direct actions. This is a new attack surface unique to visual/GUI agents.
+
+Sources: [arXiv:2606.12666](https://arxiv.org/abs/2606.12666) ^[raw/papers/unknown-caped-context-aware-privacy-exposure-defense-for-mobile-gui-agents.md]
+
 ## Related
 
 - [[tool-use-pattern]]
@@ -238,3 +311,4 @@ Sources: [Anthropic Statement](https://www.anthropic.com/news/fable-mythos-acces
 - [[claude-code]] — Relentlessly proactive behavior, sandboxing implications
 - [[langchain]] — Containment Gap audit target
 - [[openai-agents-sdk]] — Containment Gap audit target
+- [[agent-memory]] — Memory poisoning, ForgetEval, long-term memory security
