@@ -1,7 +1,7 @@
 ---
 title: HBM Memory
 created: 2026-05-29
-updated: 2026-06-16
+updated: 2026-06-17
 type: concept
 tags: [hbm, memory, bottleneck, supply-demand]
 sources: [raw/articles/bytedive-hbm-market-hbm4-hbf.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/供应商变股东存储芯片三巨头联手入股anthropicai供应链的权力结构正在重组-80b0813c97de5a7c.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/samsung-shows-first-hbm5-mockup-with-heat-path-block-cooling-33fafbe1ddad8412.md, raw/articles/9点1氪豆包推出付费后月活减少610万anthropic呼吁全球放缓ai开发警告ai自我改进风险罗永浩卸任锤子软件公司执-6957f1cc76adc611.md, raw/articles/银河证券ai算力建设需求爆发推动存储长周期涨价hbm投片比重将持续提升-7d89e121abd27c79.md, raw/articles/amd-takes-over-mext-to-address-growing-memory-constraints-in-5e7d88dd3d58339f.md]
@@ -124,6 +124,15 @@ While HBM dominates the AI accelerator memory layer, conventional DDR5 is also e
 - Significance: As DRAM becomes increasingly expensive and scarce (diverted to HBM), data center operators are turning to tiered memory architectures that supplement DRAM with cheaper NAND — a workaround for the memory bottleneck
 - Supply chain implication: Memory tiering reduces the effective DRAM demand per server, but also signals that memory constraints are severe enough to drive architectural innovation at the CPU/platform level
 
+## NAND Supply Crisis — AI Data Centers Swallowing Consumer Supply (June 2026)
+
+- **Silicon Motion SVP Nelson Duann** stated publicly that **"the retail SSD market has almost disappeared"** — PC OEMs are now buying third-party SSD drives because direct NAND supply from manufacturers has dried up
+- Root cause: NAND makers are **prioritizing shipments to AI data centers** over consumer/PC channels
+- **PCIe 6.0 SSD controllers** for consumer SSDs are coming next year (Silicon Motion), but **severe NAND shortages will get even worse in 2027** as AI data center demand continues to absorb supply
+- Significance: The memory famine is no longer confined to HBM/DRAM — it has now extended to NAND flash. AI data centers are consuming NAND for high-speed storage (training data pipelines, checkpoint storage) at the expense of consumer SSD supply. This creates a **dual memory squeeze**: HBM consuming DRAM capacity + AI storage consuming NAND capacity, leaving both consumer DRAM and consumer NAND markets structurally undersupplied.
+- Combined with Xbox's 5x memory cost admission and AMD's MEXT acquisition (flash-as-DRAM tiering), the NAND crisis confirms that memory scarcity is the broadest bottleneck in the AI supply chain — affecting every memory technology simultaneously
+- See [[ai-supply-chain-bottlenecks]] for the full cascade analysis
+
 ## Related
 
 - [[hbm-competitive-landscape]]
@@ -131,3 +140,5 @@ While HBM dominates the AI accelerator memory layer, conventional DDR5 is also e
 - [[sk-hynix]]
 - [[samsung]]
 - [[micron]]
+- [[nvidia]]
+- [[pcb-ccl-materials]]

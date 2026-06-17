@@ -1,7 +1,7 @@
 ---
 title: China Semiconductor Localization
 created: 2026-05-29
-updated: 2026-06-15
+updated: 2026-06-17
 type: concept
 tags: [localization, export-controls, bottleneck]
 sources: [raw/articles/wikipedia-china-semiconductor-industry.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/tiktok-owner-bytedance-is-reportedly-developing-its-own-cust-13089b2d7ddab835.md, raw/articles/华为发布韬τ定律重构后摩尔时代的中国技术路径-9653afbd1253c669.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/edge-ai-daily-早报6月1日-abe98024bd263e34.md, raw/articles/us-closes-loophole-that-allowed-chinese-owned-subsidiaries-l-2baccdec109451b3.md, raw/articles/mainland-chinese-exhibitors-reportedly-locked-out-of-compute-fabcc678cf012315.md, raw/articles/36氪独家-火山引擎提升maas营收目标至全年150亿元seedance-20单月营收已超10亿元-6ecf7e73eb3e01e8.md, raw/articles/投资长鑫科技与宇树科技-险资耐心资本布棋新质生产力-babf6169ac95ef7d.md, raw/articles/36氪独家2026-年字节-ai-的四个关键命题-15b041f70c816c83.md, raw/articles/token大战中华为云选择了第三条路最前线-11bb6cc5c8b5d54c.md]
@@ -191,6 +191,28 @@ Supply chain implication: ByteDance's massive AI compute spend ($30-70B capex) c
 - Signals Korea diversifying semiconductor strategy beyond memory (HBM/DRAM) into power electronics — a segment where China is also investing heavily
 - Supply chain implication: Korea building domestic capability in [[silicon-carbide]] and power devices, potentially competing with Chinese SiC makers (三安光电, etc.) in the data center power supply chain
 
+## SMIC 7nm Teardown — Closing the Gap on Individual Metrics (June 2026)
+
+- **SemiAnalysis** published its first in-house teardown of SMIC's third-generation 7nm process (used in Huawei HiSilicon Kirin 9030)
+- **Minimum local metal pitch: 32.5nm** — beats Intel 18A on this specific metric
+- However, **overall transistor density lags Intel 18A by 38%**
+- Significance: China's leading domestic fab can match or exceed leading-edge on individual process parameters through aggressive multi-patterning workarounds, but the aggregate density gap remains substantial. This validates the incremental catch-up thesis: China is not leapfrogging but is narrowing the gap parameter-by-parameter.
+- See [[intel]] for full teardown comparison data
+
+## HKEX Tech 100 Index — AI Chip Companies Fast-Tracked (June 2026)
+
+- **Hong Kong Stock Exchange** added **智谱 (Zhipu AI), 壁仞科技 (Biren Technology), 天数智芯 (Tianshu Zhixin)** to the HKEX Tech 100 Index via fast-track inclusion mechanism
+- These are among China's leading AI chip and model companies seeking public market capital
+- Combined with 7 other regular additions (滴普科技, 汇聚科技, 禾赛-W, etc.), the index's "hard tech" composition is thickening
+- Significance: Chinese AI chip companies are increasingly turning to Hong Kong public markets for capital, as US IPO/VC routes are constrained by geopolitical tensions. Passive index flows will provide incremental capital to these names. Biren's inclusion is notable given earlier analysis suggesting it has "not yet crossed the inflection point" — public market capital may provide the runway needed to close the gap vs. Huawei's 昇腾 ecosystem.
+
+## DeepSeek 50B+ Yuan Financing Round (June 2026)
+
+- **DeepSeek** completed over **50 billion yuan (~$7 billion)** in financing — one of the largest single funding rounds for a Chinese AI company
+- Signals massive capital inflows into Chinese AI model development, driving upstream compute demand
+- Combined with the US export controls on model access (June 2026), DeepSeek's capitalization reinforces the thesis that China's AI ecosystem is bifurcating into a self-funded, domestically-oriented stack
+- Supply chain implication: DeepSeek's compute consumption will continue to drive demand for both NVIDIA GPUs (via approved channels) and domestic accelerators (昇腾, Biren, etc.)
+
 ## Related
 
 - [[ai-supply-chain-bottlenecks]]
@@ -198,3 +220,4 @@ Supply chain implication: ByteDance's massive AI compute spend ($30-70B capex) c
 - [[ymtc]]
 - [[cxmt]]
 - [[ai-data-center-infrastructure]]
+- [[intel]]

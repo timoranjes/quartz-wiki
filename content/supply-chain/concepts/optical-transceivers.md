@@ -1,7 +1,7 @@
 ---
 title: Optical Transceivers
 created: 2026-05-29
-updated: 2026-06-16
+updated: 2026-06-17
 type: concept
 tags: [optical, bottleneck, cpo, supply-demand]
 sources: [raw/articles/techtimes-optical-component-shortage-2026.md, raw/articles/华泰证券光模块功耗提升驱动液冷加速渗透-d4d1cddddd863554.md, raw/articles/lambda-offers-glimpse-into-nvidias-cpo-switch-enabling-more--af33bef83d3dc68c.md, raw/articles/marvell-details-vision-of-optically-interconnected-data-cent-3288c9b4e4722efa.md]
@@ -111,6 +111,18 @@ At the heart of the crisis is the **electro-absorption modulated laser (EML)**:
 - Supply chain implication: Expands the optical interconnect market from intra-DC (rack-to-rack) and metro (DC-to-DC within city) to **long-haul DC-to-DC** (thousands of km) — significantly increasing the total addressable market for optical components
 - Validates the "光进铜退" (optical advances, copper retreats) thesis at a macro scale: if DCs can be optically linked across continents, the geographic constraints on AI compute placement are fundamentally loosened
 - Marvell positioning as a key silicon provider for the optical interconnect stack (custom ASICs for optical networking), complementing the module/transceiver layer
+
+## Upstream Fiber Materials Price Surge — AI + Drones Driving Volume/Price Increases (June 2026)
+
+- **CITIC Construction Investment (中信建投)** published a research report on the **optical fiber supply chain** being driven by AI and drone demand
+- Key thesis: AI model training is shifting data center network architecture from traditional 3-tier converged to **full-mesh leaf-spine**, with traffic patterns moving from north-south to **east-west (GPU cluster internal)**. This dramatically increases per-rack and per-GPU fiber consumption.
+- **Drone expansion** is also making optical fiber a **consumable** (fiber used in drone tethering/data links)
+- Upstream materials expected to see **volume and price increases simultaneously (量价齐升)**:
+  - **Silicon tetrachloride (四氯化硅)** — fiber preform raw material
+  - **Organic silicon D4 (有机硅D4)** — coating/material precursor
+  - **Fiber coatings (光纤涂料)** — protective layers
+  - **Para-aramid (对位芳纶)** — strength member for fiber cables
+- Significance: This confirms the optical bottleneck is not just at the module/transceiver layer but extends all the way upstream to raw materials. The combination of AI data center buildout + drone consumption is creating structural demand growth across the entire fiber supply chain. See [[pcb-ccl-materials]] for parallel materials price surge patterns.
 
 ## Timeline
 
