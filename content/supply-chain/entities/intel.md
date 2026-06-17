@@ -1,7 +1,7 @@
 ---
 title: Intel
 created: 2026-06-03
-updated: 2026-06-11
+updated: 2026-06-17
 type: entity
 tags: [compute, foundry, capex-cycle, packaging]
 sources: [raw/articles/intel-xeon-6-computex-roundtable-interview-transcript-kira-b-5dfcda93d7df4012.md, raw/articles/intels-next-gen-lga1954-socket-will-support-nova-lake-razor--9c39e2173810a879.md, raw/articles/intel-addresses-arrow-lake-blunder-we-needed-to-build-back-o-019d77bdb973875e.md, raw/articles/intel-reportedly-no-longer-working-on-6-core-nova-lake-mobil-2c7d10ffc6e01d2d.md, raw/articles/using-graph-attention-for-virtual-metrology-in-semiconductor-3f3f87855ad3e2bf.md, raw/articles/google-reportedly-books-intel-for-packaging-more-than-3-mill-fc7d57d48a81ab71.md]
@@ -32,6 +32,28 @@ Intel is a diversified semiconductor company operating in CPUs, foundry services
   - LGA1954 socket will support Nova Lake, Razor Lake, and beyond — a multi-generational socket commitment (unusual for Intel)
   - 6-core Nova Lake mobile SKU reportedly canceled; Intel shifting budget mobile segment focus to Wildcat Lake Refresh instead
 - **Razor Lake:** Subsequent generation after Nova Lake, will share LGA1954 socket
+
+## 18A-P (Performance-Enhanced) Enters Risk Production (June 2026)
+
+- **18A-P** — the performance-enhanced variant of 18A — has entered **risk production**
+- Promises **9% performance improvement at iso-power** vs. baseline 18A
+- Cuts **thermal resistance by 40%** — significant for high-density AI accelerator packaging
+- Drop-in upgrade to 18A, laying groundwork for full production ramp in coming months
+- Significance: Intel iterating on 18A to improve yield and performance before customer tape-outs; the 40% thermal resistance reduction is particularly relevant for [[cowos-packaging]] and advanced packaging thermal constraints
+
+## Diamond Rapids — 9,324-Pin LGA Socket for AI Servers (June 2026)
+
+- Intel's next-generation data center processor **Diamond Rapids** will use a **gargantuan 9,324-pin LGA socket** (LGA9324-1)
+- Featured at Computex 2026 alongside AMD's SP7 socket for EPYC Venice
+- Both next-gen sockets support **16 DDR5 memory channels** — reflecting the memory bandwidth demands of AI server workloads
+- Significance: Socket size and pin count continue to escalate for AI server CPUs, driving PCB and substrate complexity increases. 16 DDR5 channels confirm memory bandwidth as a first-order design constraint for data center processors, parallel to the HBM bandwidth story at the GPU level. See [[pcb-ccl-materials]] for substrate implications.
+
+## SMIC 7nm vs. Intel 18A — SemiAnalysis Teardown (June 2026)
+
+- **SemiAnalysis** published its first teardown from a new in-house lab, focusing on SMIC's third-gen 7nm process (used in Huawei's Kirin 9030)
+- Key finding: SMIC's 7nm **minimum local metal pitch of 32.5nm beats Intel 18A** on this specific metric
+- However, SMIC 7nm **lags 38% on overall transistor density** vs. Intel 18A
+- Significance: Nuanced picture — China's best domestic fab can match or beat leading-edge on individual metrics (metal pitch) through multi-patterning workarounds, but the density gap remains substantial. This supports the thesis in [[china-semiconductor-localization]] that China is closing the gap incrementally but remains generations behind on overall capability.
 
 ## Strategic Challenges
 

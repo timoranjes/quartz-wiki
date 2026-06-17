@@ -1,7 +1,7 @@
 ---
 title: AI Data Center Infrastructure
 created: 2026-06-01
-updated: 2026-06-16
+updated: 2026-06-17
 type: concept
 tags: [compute, capex-cycle, bottleneck]
 sources: [raw/articles/softbank-to-spend-up-to-87-billion-on-french-ai-data-centers-fa26f7623145398e.md, raw/articles/lead-or-be-regulated-future-proofing-data-centers-through-re-87b8cf7e9fce73a6.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/coreweave-claims-to-have-first-nvidia-vera-rubin-nvl72-up-an-a9e2366701f46bad.md, raw/articles/supermicro-shows-off-vera-rubin-nvl72-rack-with-all-new-type-32aecf9e2098109e.md, raw/articles/siemens-nvidia-and-fluence-develop-reference-electrical-and--acc011b090d04fc8.md, raw/articles/how-we-used-gemini-to-build-google-io-2026-8558fcd3b2b6a033.md, raw/articles/ai-data-center-demand-larger-than-were-prepared-for-despite--5a3098734e2904a8.md, raw/articles/qts-looking-to-build-temporary-power-plant-to-support-test-o-e11044d4b97056fc.md, raw/articles/brookfield-ups-french-data-center-investment-by-10-billion-7337d711ae3a496a.md, raw/articles/豆包6月下旬正式付费并加速打通抖音电商丨36氪独家-e30eb205e0c9bb34.md, raw/articles/1-megawatt-racks-in-data-centers-f0cc6b7935adc4b5.md, raw/articles/coolit-designs-15kw-coldplate-to-future-proof-liquid-cooling-4c012ad8c3937390.md, raw/articles/google-signs-920m-monthly-compute-deal-with-spacex-companys--e52986c04b04b6c6.md, raw/articles/数智周报消息称deepseek计划在首轮融资中筹集约70亿美元估值高达590亿美元arm首席执行官存储芯片供应整体仍吃紧-75a0edff607543ce.md]
@@ -196,9 +196,24 @@ NVIDIA's next-generation Vera Rubin NVL72 platform is entering production deploy
 - **50MW "Project Taurus"** data center approved in Colorado — mid-scale DC projects continuing to advance despite regulatory headwinds elsewhere
 - Significance: APAC emerging as a parallel DC buildout theater to the US, with Singapore as the key hub. Grid obligation requirements may slow APAC DC expansion, mirroring the US regulatory bottleneck pattern.
 
+## GlobalFoundries OCI MSA — Open Standard for AI Scale-Up (June 2026)
+
+- **GlobalFoundries** announced it is the **first chipmaker to support OCI MSA** (Open Compute Interconnect - Mechanical, Structural, Architecture) open standard for AI scale-up networking
+- OCI MSA defines open mechanical and electrical interfaces for AI accelerator interconnect, enabling multi-vendor scale-up fabrics
+- Significance: This challenges NVIDIA's proprietary NVLink/NVSwitch dominance in AI scale-up networking. If OCI MSA gains adoption, it could enable heterogeneous AI accelerator clusters (mixing NVIDIA, AMD, custom ASICs) connected via standardized optical/electrical interfaces — fundamentally altering the AI data center architecture from single-vendor lock-in to multi-vendor interoperability.
+- Supply chain implication: Opens the AI scale-up interconnect market to broader semiconductor participation, potentially benefiting [[optical-transceivers]] suppliers and custom ASIC designers who were previously locked out of NVIDIA's proprietary ecosystem.
+
+## Microsoft Shareholder Lawsuit — AI Capex Scrutiny (June 2026)
+
+- **Microsoft shareholders** filed a **class-action lawsuit** alleging the company **misled investors about the financial impact of AI investment** and cloud spending disclosures
+- Claims: Microsoft understated the capital intensity and overestimated the near-term revenue returns from AI infrastructure buildout
+- Significance: This is the first major shareholder legal challenge specifically targeting AI capex disclosure practices. If successful, it could force hyperscalers to provide more granular disclosure on AI infrastructure ROI timelines, potentially cooling the "build now, monetize later" capex mentality.
+- Supply chain implication: Legal pressure on AI capex transparency could create short-term headwinds for GPU/memory/optical suppliers if hyperscalers slow or phase their AI infrastructure deployments more cautiously. However, the underlying compute demand drivers (model training, inference scaling) remain unchanged regardless of accounting treatment.
+
 ## Related
 
 - [[nvidia]]
 - [[hbm-memory]]
 - [[china-semiconductor-localization]]
 - [[ai-supply-chain-bottlenecks]]
+- [[optical-transceivers]]

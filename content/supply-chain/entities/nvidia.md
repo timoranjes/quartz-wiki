@@ -1,7 +1,7 @@
 ---
 title: NVIDIA
 created: 2026-05-29
-updated: 2026-06-15
+updated: 2026-06-17
 type: entity
 tags: [compute, bottleneck, capex-cycle]
 sources: [raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/techtimes-optical-component-shortage-2026.md, raw/articles/nvidias-long-awaited-n1n1x-soc-specs-leak-ahead-of-computex--f031d4fe18bbb91f.md, raw/articles/watch-nvidias-computex-2026-keynote-here-jensen-huang-takes--dc4884e078c91e98.md, raw/articles/microsoft-veteran-recalls-the-last-time-nvidia-and-arm-was-t-734413c22bff300e.md, raw/articles/computex-2026-day-zero-wrap-up-nvidia-launches-rtx-spark-sup-82b25ca627331cf5.md, raw/articles/nvidias-rtx-spark-could-caplitalize-where-qualcomms-arm-base-6ad137f86ca41c6f.md, raw/articles/nvidia-says-rtx-spark-chip-will-support-all-major-anti-cheat-6da85bf15ff0fcd3.md, raw/articles/8点1氪丨腾讯股价暴涨创2021年后单日最高涨幅预计今年安排约1100亿育儿补贴英伟达与微软合作推出统一技术栈-6a23307599ec2fe8.md, raw/articles/abb-expands-partnership-with-nvidia-db6f863f5cb83c10.md, raw/articles/google-signs-920m-monthly-compute-deal-with-spacex-companys--e52986c04b04b6c6.md]
@@ -125,6 +125,20 @@ NVIDIA and SK Hynix signed a multi-year co-development and supply agreement for 
 - GPU rental costs jumped **38%** coincident with this network's activity
 - While the study's claims are unverified, the scale illustrates how speculative/fraudulent GPU demand can exacerbate the legitimate AI compute shortage
 - Supply chain implication: parasitic GPU demand (crypto, fake AI mining) tightens effective supply for genuine AI workloads, contributing to the pricing power dynamics above
+
+## Qualcomm Eyeing Tenstorrent Acquisition — $8-10B (June 2026)
+
+- **Qualcomm** is in talks to acquire **Tenstorrent** (Jim Keller's AI chip company) for **$8-10 billion**
+- Tenstorrent develops **RISC-V-based AI accelerators and CPUs** — a direct competitor to NVIDIA's GPU-centric approach
+- Significance: If completed, this would be Qualcomm's largest-ever acquisition and marks a major strategic bet on AI compute beyond mobile. Jim Keller (legendary chip architect behind AMD Zen, Apple A-series, Tesla Autopilot) bringing RISC-V AI accelerators under Qualcomm's umbrella creates a potential **ARM+RISC-V AI compute coalition** challenging NVIDIA's CUDA moat.
+- Supply chain implication: Consolidation of AI chip startups under large platform companies (Qualcomm, AMD, Google) may reduce the number of independent AI accelerator options but increases the capital and manufacturing scale behind competing architectures. Long-term, this could pressure NVIDIA's pricing power if RISC-V-based AI accelerators achieve competitive performance-per-watt.
+
+## Google TPU — Five Generations of Training Supercomputers (June 2026)
+
+- Google and UC Berkeley published a technical paper detailing **five generations of TPU training supercomputers** (TPU v2 through Ironwood)
+- Paper examines architectural stability, scale, resilience, power efficiency, and sustainability across the TPU lineage
+- Significance: Google's TPU program represents the most mature custom AI silicon effort, now spanning nearly a decade of iterative development. The paper signals Google's intent to position TPU as a credible alternative to NVIDIA GPUs for large-scale training workloads.
+- Supply chain implication: If hyperscalers (Google, Amazon, Microsoft) successfully deploy custom silicon at scale, the addressable market for NVIDIA GPUs could face structural pressure from the demand side. However, NVIDIA's CUDA ecosystem and multi-vendor supply relationships (SK Hynix, TSMC CoWoS) remain significant competitive advantages.
 
 ## Relationships
 
