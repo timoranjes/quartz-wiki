@@ -3,7 +3,7 @@ title: "Tool Use Pattern"
 type: concept
 tags: [tool-use, agent-architecture]
 created: "2026-06-03"
-updated: "2026-06-13"
+updated: "2026-06-18"
 status: seed
 ---
 
@@ -95,6 +95,27 @@ Sources: [arXiv:2606.12451](https://arxiv.org/abs/2606.12451) ^[raw/papers/unkno
 - Android World experiments: consistent Task Success Rate improvements for downstream agents
 
 Sources: [arXiv:2606.12817](https://arxiv.org/abs/2606.12817) ^[raw/papers/unknown-teach-and-repeat-accurately-extracting-operational-knowledge-from-mobile-screen.md]
+
+## PASTE: Speculative Tool Execution (June 2026)
+
+**PASTE** (arXiv:2603.18897) addresses a fundamental inefficiency: today's serving systems serialize the generate-then-execute loop, leaving tool latency exposed on the task critical path.
+
+### Key Innovation
+- **Predicts concrete future tool invocations** from recurring agent patterns
+- **Executes tools speculatively** while the LLM is still generating
+- Isolates speculative results until confirmed by the LLM
+- Jointly schedules tool execution and returning LLM sessions to avoid shifting bottlenecks to GPU
+
+### Results
+- Across deep research, coding, and scientific-agent workloads:
+  - **43.5% reduction** in average task completion time
+  - **1.8× lower** observed tool latency
+- Works because many agent workflows have recurring patterns that make future tool calls predictable
+
+### Implications
+The sequential generate→execute loop is not architecturally necessary — **speculative execution** (borrowed from CPU design) applies to agent serving. This is particularly impactful for workloads with predictable tool patterns (deep research, multi-step coding, scientific workflows).
+
+Sources: [arXiv:2603.18897](https://arxiv.org/abs/2603.18897) ^[raw/papers/unknown-parallelizing-tool-execution-and-llm-generation-for-low-latency-agent-serving.md]
 
 ## Related
 

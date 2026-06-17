@@ -3,7 +3,7 @@ title: AI Engineering Culture
 type: concept
 tags: [automation, safety, productivity]
 created: "2026-06-07"
-updated: "2026-06-10"
+updated: "2026-06-18"
 status: drafted
 ---
 
@@ -39,6 +39,12 @@ The organizational and cultural dynamics that emerge when teams adopt AI-assiste
 ### Jevons Paradox for Software (June 2026)
 
 [[anthropic]] employee Andrej Karpathy observed that as working software increasingly comes "on a tap," Jevons paradox is kicking in — rather than reducing demand for software, cheaper/easier software creation is substantially *growing* total demand. Developers can now ask for explainers, visualizers, dashboards, bespoke single-use apps, 10x test suites, auto-optimized code, and giant research projects with custom HTML results. The implication: AI-assisted development doesn't reduce engineering headcount needs — it expands the universe of what gets built. ^[raw/sources/2026-06-09-quoting-andrej-karpathy.md]
+
+### The Economics of Code Production Turned Upside Down (June 2026)
+
+Charity Majors: "What happened in 2025 was this: **the economics of code production were turned upside down**. Instead of being very hard, time-consuming, and expensive to generate code, it became effectively free and instant. Lines of code went from being treasured, reused, cared for and carefully curated, to being disposable and regenerable, practically overnight."
+
+The implication: AI doesn't just make coding faster — it fundamentally changes the **economic value of code itself**. When code is disposable, the scarce resource shifts from code production to code comprehension, verification, and system design. ^[raw/sources/2026-06-17-quoting-charity-majors.md]
 
 ## Organizational Design Challenge
 
