@@ -1,7 +1,7 @@
 ---
 title: Open Source Comparison
 created: 2026-06-01
-updated: 2026-06-02
+updated: 2026-06-19
 type: comparison
 tags:
   - open-source
@@ -36,6 +36,7 @@ confidence: high
 | Mistral | Small 4, Codestral | Apache 2.0 | ✅ Unrestricted | Top 20 on HF |
 | Microsoft | Phi-3.5 variants | MIT | ✅ Unrestricted | Top 30 on HF |
 | Moonshot | Kimi K2 | Modified MIT | ✅ Unrestricted | Top 15 on HF |
+| Zhipu AI | GLM-5.2 | MIT | ✅ Unrestricted | 753B MoE, #1 open weights |
 | Zhipu AI | GLM-4.5 | MIT | ✅ Unrestricted | Top 40 on HF |
 | Together AI | Hosted variants | Various | Varies | Platform |
 | NVIDIA | Nematron-5-22B | Community | ✅ Yes | Growing |

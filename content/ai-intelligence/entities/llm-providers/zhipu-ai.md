@@ -2,14 +2,14 @@
 domain: llm-providers
 type: provider
 title: Zhipu AI (GLM)
-sources: [raw/articles/llm-provider-zhipu-ai-2026.md]
+sources: [raw/articles/llm-provider-zhipu-ai-2026.md, raw/sources/2026-06-17-glm-52-is-probably-the-most-powerful-text-only-open-weights-llm.md]
 tags:
   - provider/china
   - provider/generative-ai
   - open-source
 aliases: Zhipu Ai
 created: 2026-06-01
-updated: 2026-06-02
+updated: 2026-06-19
 ---
 # Zhipu AI (Z.ai)
 
@@ -32,6 +32,7 @@ One of China's "Six AI Tigers." Spun out of Tsinghua's academic research group �
 
 | Model | Release | License | Parameters | Key Features |
 |-------|---------|---------|------------|--------------|
+| **GLM-5.2** | Jun 2026 | MIT | 753B MoE (40B active) | 1M context, #1 open weights (AI Intelligence Index v4.1: 51), #2 Code Arena WebDev |
 | **GLM-5** | Feb 2026 | Proprietary | 744B MoE (40B active) | 28.5T tokens, 200K context, Huawei Ascend |
 | **GLM-5.1** | Apr 2026 | MIT | — | AI coding agents run autonomously for hours |
 | **GLM-4.7** | Dec 2025 | — | — | Strong coding; outperforms Gemini 3.0 Pro in some benchmarks |
@@ -66,7 +67,7 @@ Key strategic advantage — trains and runs on domestic Chinese chips:
 - GLM-4.5 open weights on Hugging Face (MIT License)
 
 ## Pricing (API)
-GLM-4-Flash offers a generous free tier. GLM-4-Plus: ~¥0.05/1K tokens (input and output). GLM-5 pricing at enterprise tier. MIT-licensed models (GLM-4.5, GLM-5.1) available for commercial use without licensing fees.
+GLM-4-Flash offers a generous free tier. GLM-4-Plus: ~¥0.05/1K tokens (input and output). GLM-5.2 via OpenRouter: $1.40/$4.40 per million tokens. MIT-licensed models (GLM-4.5, GLM-5.1, GLM-5.2) available for commercial use without licensing fees.
 
 ## Global Expansion
 
@@ -99,13 +100,13 @@ GLM-4-Flash offers a generous free tier. GLM-4-Plus: ~¥0.05/1K tokens (input an
 - US Entity List placement (Jun 2025) restricts access to advanced US semiconductors
 - Post-IPO share price volatility (23% single-day drop in Feb 2026)
 - Revenue (~$43M) modest relative to IPO valuation (~$6.8B)
-- Balancing open-source strategy with commercial monetization
+- GLM-5.2 is notably token-hungry (43K output tokens per task vs 24-37K for peers)- Balancing open-source strategy with commercial monetization
 - Regulatory environment: Chinese AI regulations evolving
 - Competition from well-funded Chinese peers (DeepSeek, MiniMax, Moonshot)
 - International brand recognition lags behind OpenAI, Anthropic, Google
 
 ## Recent Developments
-- Apr 2026: GLM-5.1 released (MIT License); shares rose 11.5%
+- Jun 2026: GLM-5.2 released (MIT, 753B MoE, 40B active, 1M context) — #1 open weights on AI Intelligence Index- Apr 2026: GLM-5.1 released (MIT License); shares rose 11.5%
 - Feb 2026: GLM-5 released (744B MoE, 40B active, 200K context)
 - Feb 2026: Shares dropped 23% amid broader market concerns
 - Jan 2026: IPO on HKEX (2513.HK); raised ~$558M at ~$6.8B valuation
@@ -115,4 +116,4 @@ GLM-4-Flash offers a generous free tier. GLM-4-Plus: ~¥0.05/1K tokens (input an
 ## Competitive Positioning
 Among China's Six AI Tigers: Z.ai ranks #3 by IDC (2024 LLM player). Differentiates through hardware independence, open-weight strategy, and comprehensive platform. Competes globally with OpenAI (GPT), Anthropic (Claude), Google (Gemini), Meta (Llama). In China, competes with DeepSeek, Qwen, MiniMax, Moonshot, Baichuan.
 
-[[deepseek]] · [[alibaba-qwen]] · [[minimax]] · [[moonshot-ai]] · [[stepfun]] · [[baichuan]]
+[[deepseek]] · [[alibaba-qwen]] · [[minimax]] · [[moonshot-ai]] · [[stepfun]] · [[baichuan]] · [[open-weight-licensing]] · [[frontier-models]]
