@@ -128,3 +128,15 @@ Embodied AI — robots powered by AI models that interact with the physical worl
 - 82.7% revenue from mainland China; 60% from repeat customers
 - Raised ¥283M across 4 pre-IPO rounds; investors include 普洛斯, 科沃斯, IDG, 赛富, 洪泰
 - Supply chain implication: AGILEX's IPO validates the "controller-first" model for robotics — the highest-value component in the robot supply chain is the intelligence layer (controller + software), not the mechanical body. This mirrors the semiconductor industry where design/IP commands higher margins than manufacturing.
+
+## Zhiyuan Robotics (智元机器人) Chief Scientist — Real Scaling Law Is in Deployment Loops (June 2026)
+
+- **罗剑岚 (Luo Jianlan)** — Chief Scientist of Zhiyuan Robotics (智元机器人), ex-Google X/DeepMind, ex-Berkeley PhD under Sergey Levine — argues that embodied AI **cannot simply copy LLM-style Scaling Laws**
+- Key thesis: Current "embodied foundation models" are mostly mid-training/fine-tuning, not true pre-training — high-quality real-robot interaction data remains scarce
+- **Real Scaling Law moment** = when deployment scale reaches a point where new-scenario adaptation cost continuously drops and data flywheel stabilizes — NOT just stacking parameters or data
+- Three technical pillars at Zhiyuan:
+  1. **SOP (Scalable Online Post-training):** Infrastructure for large-scale robot online post-training — low-latency data回流, cloud compute, training scheduling, model updates
+  2. **LWD (Learning at Deployment):** Robots continuously evolve in real scenarios (convenience stores, warehouses) rather than being fixed at factory
+  3. **τ0-WM World Model:** Uses video prediction not as end product but as a way to learn physical dynamics and evaluate action consequences before execution
+- Timeline: **12-18 months** for the industry to determine who can run the "deployment → data → iteration" flywheel in semi-structured environments
+- Supply chain implication: The emphasis on deployment-scale data loops means robots need persistent connectivity, edge compute, and data infrastructure — adding incremental demand for edge AI chips and networking. The "wooden barrel" analogy (all boards must be long enough) suggests supply chain bottlenecks can emerge at any layer: sensors, actuators, edge compute, or connectivity.
