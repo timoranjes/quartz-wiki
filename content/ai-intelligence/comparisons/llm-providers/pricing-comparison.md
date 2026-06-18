@@ -1,7 +1,7 @@
 ---
 title: Pricing Comparison
 created: 2026-06-01
-updated: 2026-06-02
+updated: 2026-06-19
 type: comparison
 tags:
   - pricing
@@ -51,6 +51,7 @@ All prices in USD per million tokens. Cache hit prices shown where available.
 | Moonshot | Kimi K2 | — | $1.00 | $4.00 | 256K |
 | MiniMax | M2.5 | — | $0.35 | $1.40 | 204K |
 | StepFun | Step-3.7-Flash | — | $0.50 | $2.00 | 128K |
+| Zhipu AI | GLM-5.2 | — | $1.40 | $4.40 | 1M |
 | Zhipu AI | GLM-5 | — | $0.80 | $3.20 | 128K |
 
 ### Cost Leader Analysis
