@@ -1,7 +1,7 @@
 ---
 title: Intel
 created: 2026-06-03
-updated: 2026-06-17
+updated: 2026-06-18
 type: entity
 tags: [compute, foundry, capex-cycle, packaging]
 sources: [raw/articles/intel-xeon-6-computex-roundtable-interview-transcript-kira-b-5dfcda93d7df4012.md, raw/articles/intels-next-gen-lga1954-socket-will-support-nova-lake-razor--9c39e2173810a879.md, raw/articles/intel-addresses-arrow-lake-blunder-we-needed-to-build-back-o-019d77bdb973875e.md, raw/articles/intel-reportedly-no-longer-working-on-6-core-nova-lake-mobil-2c7d10ffc6e01d2d.md, raw/articles/using-graph-attention-for-virtual-metrology-in-semiconductor-3f3f87855ad3e2bf.md, raw/articles/google-reportedly-books-intel-for-packaging-more-than-3-mill-fc7d57d48a81ab71.md]
@@ -73,3 +73,13 @@ Intel is a diversified semiconductor company operating in CPUs, foundry services
 - [[tsmc]]
 - [[ai-supply-chain-bottlenecks]]
 - [[china-semiconductor-localization]]
+
+## Global Fab Roadmap — Arizona, Ohio, Ireland, and 14A Deadlines (June 2026)
+
+- **Tom's Hardware** published an in-depth analysis of Intel's fab construction roadmap across four major sites:
+  - **Arizona:** Existing mega-site, expanding with next-gen fab capacity
+  - **Ohio:** New mega-site construction, planned as Intel's largest future manufacturing campus
+  - **Ireland:** European manufacturing hub, leveraging EU CHIPS Act funding
+  - **14A process node:** Two critical deadlines determining when Intel's next-next-generation node reaches production readiness
+- Significance: Intel's foundry ambitions require simultaneous multi-continent fab construction at unprecedented scale. The 14A timeline is the key variable — if Intel can deliver 14A on schedule, it regains process leadership; delays would further erode foundry customer confidence.
+- Supply chain implication: Intel's fab construction drives demand for semiconductor equipment (lithography, etch, deposition) across all major suppliers — competing with [[tsmc]]'s own expansion for equipment slot availability. The CHIPS Act funding dependency introduces political risk to the timeline.

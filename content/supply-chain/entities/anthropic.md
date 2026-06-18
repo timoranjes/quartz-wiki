@@ -1,7 +1,7 @@
 ---
 title: Anthropic
 created: 2026-06-01
-updated: 2026-06-15
+updated: 2026-06-18
 type: entity
 tags: [compute, overview, competitive-analysis]
 sources: [raw/articles/anthropic-raises-65bn-overtakes-openai-to-965bn-valuation-255d6e11b3bb4917.md, raw/articles/anthropic-冲击-1-万亿除了-pre-ipo还有哪些隐藏的claude-概念股-8569f0fead907f86.md, raw/articles/anthropic-files-for-ipo-claude-maker-races-openai-and-spacex-dca1c25de5f8c798.md]
@@ -53,6 +53,13 @@ Chinese market analysis has identified a "Claude concept stock" ecosystem (Claud
 - HBM suppliers as investors: [[micron]], [[samsung]], [[sk-hynix]]
 - Competes with OpenAI for AI model market leadership
 - Major consumer of AI compute infrastructure (data centers, GPUs, networking)
+
+## Microsoft Azure Core CTO Joins Anthropic (June 2026)
+
+- **Marcus Fontoura**, CTO of Microsoft Azure Core, left Microsoft to join Anthropic
+- Goal: "help build the next generation of AI systems"
+- Significance: Continues the pattern of senior hyperscaler infrastructure talent flowing to AI labs. Anthropic is building out its infrastructure expertise by recruiting from the companies that operate the world's largest cloud platforms — signals Anthropic's intent to build more of its own compute infrastructure rather than relying solely on cloud providers.
+- Supply chain implication: As AI labs internalize more infrastructure expertise, they may become more direct participants in data center design, GPU cluster architecture, and supply chain decisions — potentially changing the dynamics of how compute is procured and deployed.
 
 ## Related
 
