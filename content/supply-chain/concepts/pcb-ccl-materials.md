@@ -1,7 +1,7 @@
 ---
 title: PCB and CCL Materials
 created: 2026-05-29
-updated: 2026-06-16
+updated: 2026-06-18
 type: concept
 tags: [pcb, ccl, materials, bottleneck, supply-demand]
 sources: [raw/articles/atlaspcb-taiwan-pcb-ccl-second-sourcing-2026.md, raw/articles/中富电路拟定增募资不超85亿元用于ai用pcb产线改扩建等项目-918317d03bbbdb45.md, raw/articles/nov-terraflow-partner-on-fiberglass-solutions-for-ai-data-ce-575b1bd4722351ca.md, raw/articles/铜价奔向105万背后-新能源吃铜铜也正在改变新能源的胃口-ed818e409ba9c630.md, raw/articles/电子布100涨价背后真正的瓶颈不是织机是配方-4712be44d5720b41.md, raw/articles/中信证券硅片涨价如期落地上行周期才刚开始-15ba2e4282e8a5ed.md]
@@ -89,3 +89,12 @@ AI server motherboards (particularly for NVIDIA B200 and H200 platforms) require
 ## Related
 
 - [[ai-supply-chain-bottlenecks]]
+
+## PCB Sector Super-Cycle Confirmed — Index +116% YTD (June 2026)
+
+- **国证PCB主题指数 (CITIC PCB Theme Index)** has surged **+116.03% YTD** as of June 17, 2026 — making PCB the hottest A-share investment theme
+- **深南电路 (Shennan Circuits)** hit daily limit up at ¥444.27, market cap broke through **¥300 billion** — YTD gain of 92.42%
+- Multiple PCB stocks hitting daily limit: 科翔股份, 南亚新材, among others
+- **PCB-focused funds** generating 100%+ returns YTD
+- Significance: Confirms the AI-driven PCB/CCL capex super-cycle is now fully reflected in equity markets. The combination of AI server motherboards (20+ layer ultra-low-loss boards), E-glass fabric price doubling, silicon wafer price increases, and copper price surges has created a multi-layer material cost cascade that is driving massive revenue and profit expansion for PCB manufacturers.
+- Supply chain implication: PCB makers are in a pricing sweet spot — demand from AI server buildout is structurally strong, while material cost increases can be passed through to customers (hyperscalers) who are themselves in a capex boom

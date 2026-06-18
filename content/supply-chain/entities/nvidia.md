@@ -1,7 +1,7 @@
 ---
 title: NVIDIA
 created: 2026-05-29
-updated: 2026-06-17
+updated: 2026-06-18
 type: entity
 tags: [compute, bottleneck, capex-cycle]
 sources: [raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/techtimes-optical-component-shortage-2026.md, raw/articles/nvidias-long-awaited-n1n1x-soc-specs-leak-ahead-of-computex--f031d4fe18bbb91f.md, raw/articles/watch-nvidias-computex-2026-keynote-here-jensen-huang-takes--dc4884e078c91e98.md, raw/articles/microsoft-veteran-recalls-the-last-time-nvidia-and-arm-was-t-734413c22bff300e.md, raw/articles/computex-2026-day-zero-wrap-up-nvidia-launches-rtx-spark-sup-82b25ca627331cf5.md, raw/articles/nvidias-rtx-spark-could-caplitalize-where-qualcomms-arm-base-6ad137f86ca41c6f.md, raw/articles/nvidia-says-rtx-spark-chip-will-support-all-major-anti-cheat-6da85bf15ff0fcd3.md, raw/articles/8点1氪丨腾讯股价暴涨创2021年后单日最高涨幅预计今年安排约1100亿育儿补贴英伟达与微软合作推出统一技术栈-6a23307599ec2fe8.md, raw/articles/abb-expands-partnership-with-nvidia-db6f863f5cb83c10.md, raw/articles/google-signs-920m-monthly-compute-deal-with-spacex-companys--e52986c04b04b6c6.md]
@@ -146,6 +146,21 @@ NVIDIA and SK Hynix signed a multi-year co-development and supply agreement for 
 - Largest driver of demand for [[hbm-memory]]
 - Securing supply from [[lumentum]], [[coherent]], [[corning]]
 - HBM4 supply from [[sk-hynix]], [[samsung]] for Rubin platform
+
+## $25B Corporate Bond Sale — First in Five Years (June 2026)
+
+- **NVIDIA** plans to raise **$25 billion** through a corporate bond sale — its **first bond issuance in five years**
+- Significance: NVIDIA is tapping debt markets to fund its supply chain expansion and capex commitments, signaling that internal cash flow alone is insufficient to fund the scale of supply lockups and capacity investments required
+- The bond sale likely funds: HBM supply commitments, CoWoS capacity prepayments, optical component lockups, and data center platform development
+- Supply chain implication: NVIDIA's willingness to take on debt confirms the intensity of the supply chain capital requirements — even the most profitable chip company in the world needs external financing to secure its supply chain
+
+## NVIDIA Driving Consumer PCIe 6.0 Roadmap via RTX Spark (June 2026)
+
+- **Silicon Motion (SMI)** confirmed that **NVIDIA — not AMD or Intel — is driving its consumer PCIe 6.0 roadmap**
+- The driver is NVIDIA's **RTX Spark agentic AI platform** for client PCs, which creates "a hunger for storage bandwidth"
+- Significance: NVIDIA's platform influence extends beyond data center GPUs into client PC architecture — RTX Spark's agentic AI workloads require significantly higher storage I/O than conventional PC use cases
+- PCIe 6.0 doubles bandwidth over PCIe 5.0 (64 GT/s vs 32 GT/s) — necessary for AI agents that continuously read/write large context windows from storage
+- Supply chain implication: NVIDIA's ecosystem influence is pulling forward PCIe 6.0 adoption in the consumer segment, benefiting SSD controller makers (SMI), NAND suppliers, and motherboard manufacturers who align with NVIDIA's platform roadmap
 
 ## Related
 

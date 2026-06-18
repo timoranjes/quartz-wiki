@@ -1,7 +1,7 @@
 ---
 title: China Semiconductor Localization
 created: 2026-05-29
-updated: 2026-06-17
+updated: 2026-06-18
 type: concept
 tags: [localization, export-controls, bottleneck]
 sources: [raw/articles/wikipedia-china-semiconductor-industry.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/tiktok-owner-bytedance-is-reportedly-developing-its-own-cust-13089b2d7ddab835.md, raw/articles/华为发布韬τ定律重构后摩尔时代的中国技术路径-9653afbd1253c669.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/edge-ai-daily-早报6月1日-abe98024bd263e34.md, raw/articles/us-closes-loophole-that-allowed-chinese-owned-subsidiaries-l-2baccdec109451b3.md, raw/articles/mainland-chinese-exhibitors-reportedly-locked-out-of-compute-fabcc678cf012315.md, raw/articles/36氪独家-火山引擎提升maas营收目标至全年150亿元seedance-20单月营收已超10亿元-6ecf7e73eb3e01e8.md, raw/articles/投资长鑫科技与宇树科技-险资耐心资本布棋新质生产力-babf6169ac95ef7d.md, raw/articles/36氪独家2026-年字节-ai-的四个关键命题-15b041f70c816c83.md, raw/articles/token大战中华为云选择了第三条路最前线-11bb6cc5c8b5d54c.md]
@@ -221,3 +221,24 @@ Supply chain implication: ByteDance's massive AI compute spend ($30-70B capex) c
 - [[cxmt]]
 - [[ai-data-center-infrastructure]]
 - [[intel]]
+
+## Chinese Memory Brands Adopt Domestic CXMT/YMTC DDR5 — Western OEMs Following (June 2026)
+
+- **Gloway (光威) and KingBank** — Chinese memory module brands — now using **domestic CXMT and YMTC chips** for DDR5 production, replacing Samsung/Micron/SK Hynix
+- **Corsair, HP, and Dell** already adopting these China-produced DDR5 chips
+- Significance: First confirmed large-scale commercial adoption of Chinese DRAM by global OEMs — moves from "domestic alternative" to "validated supply chain participant"
+- Combined with [[cxmt]] IPO approval, signals Chinese DRAM reaching commercial maturity for mainstream DDR5
+
+## DeepSeek + CXMT Entity List Pending — White House Hesitates (June 2026)
+
+- **DeepSeek and CXMT** both tagged as supporting Chinese military/intelligence operations, set for US Entity List addition
+- **White House holding off** to avoid escalating trade tensions with Beijing
+- Signal: Entity List expansion continues to face diplomatic calibration — even clear national security cases are being weighed against broader US-China relationship management
+- Implications for [[cxmt]]: Entity List would restrict access to US-origin EDA tools and equipment, potentially constraining technology development
+
+## SSE Creates Specific Listing Standard for AI LLM Companies (June 2026)
+
+- **Shanghai Stock Exchange (上交所)** published specific guidelines for **AI large model companies** to list on the **STAR Market (科创板) under the 5th listing standard** — designed for companies that haven't yet reached significant revenue thresholds
+- **智谱 (Zhipu AI) and MiniMax** — both preparing "回A" (return to A-share) listings — directly benefit from this regulatory accommodation
+- Significance: China's capital markets are being structurally reformed to accommodate AI companies that burn cash for years before generating revenue — mirrors the NASDAQ model that enabled US tech companies to list pre-profit
+- Combined with HKEX Tech 100 fast-track inclusions, Chinese AI companies now have dual capital market access (Hong Kong + STAR Market)

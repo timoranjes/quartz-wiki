@@ -1,7 +1,7 @@
 ---
 title: Optical Transceivers
 created: 2026-05-29
-updated: 2026-06-17
+updated: 2026-06-18
 type: concept
 tags: [optical, bottleneck, cpo, supply-demand]
 sources: [raw/articles/techtimes-optical-component-shortage-2026.md, raw/articles/华泰证券光模块功耗提升驱动液冷加速渗透-d4d1cddddd863554.md, raw/articles/lambda-offers-glimpse-into-nvidias-cpo-switch-enabling-more--af33bef83d3dc68c.md, raw/articles/marvell-details-vision-of-optically-interconnected-data-cent-3288c9b4e4722efa.md]
@@ -136,3 +136,11 @@ At the heart of the crisis is the **electro-absorption modulated laser (EML)**:
 - [[lumentum]]
 - [[corning]]
 - [[nvidia]]
+
+## Nokia $30M Optics Manufacturing Expansion — Pennsylvania (June 2026)
+
+- **Nokia** investing **$30 million** to expand optics manufacturing at its **Allentown, Pennsylvania** facility
+- Workforce set to **double** at the site
+- Optics described as a **key growth driver** for Nokia
+- Significance: Confirms the optical networking equipment market is booming beyond just transceivers/modules — the entire optical infrastructure stack (switches, routers, transport equipment) is seeing manufacturing expansion. Nokia's decision to invest in US-based optics manufacturing also aligns with the localization/resilience trend in AI infrastructure supply chains.
+- Supply chain implication: Optical networking equipment lead times may begin to ease as manufacturing capacity expands, but the expansion itself signals sustained demand growth through 2027+

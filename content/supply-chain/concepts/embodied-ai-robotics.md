@@ -1,7 +1,7 @@
 ---
 title: Embodied AI Robotics
 created: 2026-06-04
-updated: 2026-06-16
+updated: 2026-06-18
 type: concept
 tags: [components, bottleneck]
 sources: [raw/articles/深圳具身公司星尘智能完成超10亿b轮融资估值破百亿硬氪首发-a979f6a6b5ece892.md, raw/articles/36氪首发-浙大教授团队获财通商汤投资做高危场景具身机器人大脑-7e0eba9ec8abf818.md, raw/articles/机器人先挣钱还是先追求agi具身智能路线之争摆上台面-3487bc7ead04e0c0.md, raw/articles/硬氪独家-唐文斌原力灵机并购物流机器人公司并获智谱商汤阶跃等投资-c9807cc2067fbb87.md, raw/articles/with-46-billion-yuan-pouring-into-chinas-embodied-intelligen-05754d80ac946652.md, raw/articles/硬氪首发-海洋具身智能公司世航智能拿下创纪录10亿融资朱啸虎押注-7ca8dd2478dd73b6.md, raw/articles/均普智能联合博登上海交大正式发布全球首个面向真实机器人强化学习大规模数据集-ff97f0ef4d958d95.md, raw/articles/硬氪专访-智源研究院院长王仲远vla不会死但世界模型是未来-68f5013590847238.md]
@@ -104,3 +104,27 @@ Embodied AI — robots powered by AI models that interact with the physical worl
 
 - [[ai-data-center-infrastructure]]
 - [[china-semiconductor-localization]]
+
+## Physis (逆矩阵科技) — $100M+ World Model Funding (June 2026)
+
+- **Physis Technology (逆矩阵科技)** completed **$100M+ seed++ round** — following a $10M+ seed round just two months prior (March 2026)
+- Investors: 经纬创投, 五源资本, 光合创投, 蚂蚁集团 (strategic), 高瓴创投, 燕缘创投
+- Founded by Peking University researchers 陈博远 and 吉嘉铭
+- Released **Physis-v0.1** — a general-purpose world foundation model emphasizing: physical correctness, long-horizon consistency, action causality, cross-scenario generalization
+- Key thesis: **"One For All"** — single pre-trained model serving embodied AI, industrial simulation, game physics, scientific prediction
+- Founder's timeline: **18-24 months** for world foundation model capability breakthrough; **36 months** for real-world deployment
+- Founder compares trajectory to "GPT-3 → ChatGPT" path for language models
+- Plans to release flagship model by end of 2026, with open-source slices and technical reports
+- Supply chain implication: World models are compute-intensive (massive pre-training runs) — Physis's rapid funding signals sustained demand for AI training infrastructure. The "18-month window" thesis suggests urgency in compute procurement, supporting the broader AI capex cycle narrative.
+
+## AGILEX Robotics (仙工智能) — HK IPO at HK$11.2B Valuation (June 2026)
+
+- **AGILEX Robotics (仙工智能, 06106.HK)** began IPO subscription June 15, 2026 at HK$101.60/share, implying **HK$11.2 billion** market cap
+- Listing via **18C special technology company** mechanism on HKEX; expected listing June 24
+- **Core insight:** AGILEX's moat is not the robot itself but the **robot controller** — #1 globally by sales volume (24.8% global market share, 45.2% China share per CIC Consulting)
+- Revenue: ¥249M (2023) → ¥339M (2024) → ¥442M (2025), 33.2% CAGR
+- Business mix: 67.9% from whole robots (38.4% gross margin), 19.3% from controllers (79.8% margin), 5.3% from software (89.3% margin)
+- Strategy: Use the world-leading "brain" (controller) to attract customers, then sell whole robots for volume — high-margin controllers subsidize the platform
+- 82.7% revenue from mainland China; 60% from repeat customers
+- Raised ¥283M across 4 pre-IPO rounds; investors include 普洛斯, 科沃斯, IDG, 赛富, 洪泰
+- Supply chain implication: AGILEX's IPO validates the "controller-first" model for robotics — the highest-value component in the robot supply chain is the intelligence layer (controller + software), not the mechanical body. This mirrors the semiconductor industry where design/IP commands higher margins than manufacturing.
