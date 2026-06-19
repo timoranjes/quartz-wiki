@@ -1,7 +1,7 @@
 ---
 title: "Financial Reasoning Benchmarks"
 created: 2026-06-04
-updated: 2026-06-04
+updated: 2026-06-20
 type: entity
 status: drafted
 tags: ["finance/benchmark", "evaluation", "reasoning"]
@@ -30,6 +30,21 @@ Benchmarks designed to evaluate LLMs on financial knowledge, reasoning, and deci
 - **BloombergGPT Evaluation** — proprietary financial language tasks
 - **LLM-as-Financial-Analyst** — end-to-end research report generation
 - **Regulatory Compliance Benchmark** — rule extraction and application
+
+### AgentFinVQA: Auditable Financial Chart QA (June 2026)
+
+**AgentFinVQA** (arXiv:2606.19782) addresses a gap: financial chart QA in regulated settings requires **auditability** and **on-premise deployability**, not just accuracy.
+
+**Architecture**: Multi-agent pipeline decomposes each query into planning, OCR, legend grounding, visual inspection, and verification — recording every step in a traceable **Model Evaluation Packet (MEP)** per sample.
+
+**Results on FinMME:**
+- **+7.68 pp** over zero-shot baseline with proprietary backbone (Gemini-3 Flash: 71.24% vs. 63.56%)
+- **+4.84 pp** with open-weights Qwen3.6-27B-FP8 served locally
+- Verifier verdict serves as confidence signal: **68.2% vs. 55.6%** exact accuracy on confirmed vs. revised answers
+- Enables human-in-the-loop review routing
+- Error analysis: question misunderstanding, legend confusion, and extraction error account for ~2/3 of failures
+
+**Key insight**: Auditable, on-premise financial chart QA is practical. Open-weights systems keep most accuracy gains while enabling full data residency.
 
 ## Model Performance Trends
 
