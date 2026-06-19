@@ -1,7 +1,7 @@
 ---
 title: CXMT (长鑫科技)
 created: 2026-06-13
-updated: 2026-06-18
+updated: 2026-06-19
 type: entity
 tags: [memory, localization, supply-demand]
 sources: [raw/articles/长鑫科技集团股份有限公司ipo审核状态变更为注册生效-c83d4f431b4baae2.md, raw/articles/投资长鑫科技与宇树科技-险资耐心资本布棋新质生产力-babf6169ac95ef7d.md, raw/articles/chinese-memory-brands-ditch-samsung-and-micron-for-homegrown-9ffd626437da9120.md, raw/articles/deepseek-was-set-to-be-added-to-us-entity-list-for-supportin-d4467a57544be0c9.md]
@@ -44,6 +44,14 @@ CXMT is China's leading domestic DRAM manufacturer and the centerpiece of China'
 - However, the **White House has held off** on including them in order to avoid escalating trade tensions with Beijing
 - Significance: The Entity List designation would restrict CXMT's access to US-origin technology, EDA tools, and equipment — potentially constraining its technology development and capacity expansion plans
 - The White House's hesitation signals a calibration between technology control and diplomatic considerations — CXMT's commercial adoption by Western OEMs (Corsair, HP, Dell) may complicate the enforcement calculus
+
+## SMI SVP: Chinese DRAM/SSD Makers Have Structural Advantage (June 2026)
+
+- **Silicon Motion (SMI) SVP** stated that Chinese makers of DRAM modules and SSDs have a **"serious advantage" over American and Taiwanese suppliers**
+- Key argument: **state guidance secures local DRAM and SSD supply** while the Big Three (Samsung, SK Hynix, Micron) chase AI/HBM margins
+- CCP directives can serve as a "lifebuoy" for Chinese DRAM module and SSD producers — domestic memory makers may be **obliged to support the module industry** even when market economics would favor shifting capacity to higher-margin HBM/enterprise products
+- Significance: This reveals a structural bifurcation in the memory industry — the Big Three are allocating capital and wafer capacity toward AI-driven HBM and enterprise DDR5 (higher margins), while Chinese producers backed by state guidance are capturing the mainstream consumer/enterprise DDR5 and NAND SSD segments. The Big Three's rational profit-maximizing behavior (chasing AI margins) is creating a vacuum in mainstream memory that Chinese producers are filling with state support.
+- Supply chain implication: CXMT and YMTC may gain sustained market share in mainstream DDR5/NAND even without achieving technology parity, because the Big Three are voluntarily ceding these segments to focus on HBM and advanced node memory. This is a demand-side tailwind for Chinese memory localization that operates independently of technology breakthroughs.
 
 ## Strategic Significance
 

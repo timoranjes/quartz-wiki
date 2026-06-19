@@ -1,7 +1,7 @@
 ---
 title: AI Data Center Infrastructure
 created: 2026-06-01
-updated: 2026-06-18
+updated: 2026-06-19
 type: concept
 tags: [compute, capex-cycle, bottleneck]
 sources: [raw/articles/softbank-to-spend-up-to-87-billion-on-french-ai-data-centers-fa26f7623145398e.md, raw/articles/lead-or-be-regulated-future-proofing-data-centers-through-re-87b8cf7e9fce73a6.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/coreweave-claims-to-have-first-nvidia-vera-rubin-nvl72-up-an-a9e2366701f46bad.md, raw/articles/supermicro-shows-off-vera-rubin-nvl72-rack-with-all-new-type-32aecf9e2098109e.md, raw/articles/siemens-nvidia-and-fluence-develop-reference-electrical-and--acc011b090d04fc8.md, raw/articles/how-we-used-gemini-to-build-google-io-2026-8558fcd3b2b6a033.md, raw/articles/ai-data-center-demand-larger-than-were-prepared-for-despite--5a3098734e2904a8.md, raw/articles/qts-looking-to-build-temporary-power-plant-to-support-test-o-e11044d4b97056fc.md, raw/articles/brookfield-ups-french-data-center-investment-by-10-billion-7337d711ae3a496a.md, raw/articles/豆包6月下旬正式付费并加速打通抖音电商丨36氪独家-e30eb205e0c9bb34.md, raw/articles/1-megawatt-racks-in-data-centers-f0cc6b7935adc4b5.md, raw/articles/coolit-designs-15kw-coldplate-to-future-proof-liquid-cooling-4c012ad8c3937390.md, raw/articles/google-signs-920m-monthly-compute-deal-with-spacex-companys--e52986c04b04b6c6.md, raw/articles/数智周报消息称deepseek计划在首轮融资中筹集约70亿美元估值高达590亿美元arm首席执行官存储芯片供应整体仍吃紧-75a0edff607543ce.md]
@@ -234,3 +234,16 @@ NVIDIA's next-generation Vera Rubin NVL72 platform is entering production deploy
 - **Circe Energy** secured **2GW of natural gas capacity** for a West Texas data center campus, delivery scheduled 2026-2030 — confirms the gas-powered DC model continuing at massive scale in Texas
 - **UK Ofgem** considering **power curtailment rules for data centers** during grid stress — exploring voluntary flexibility arrangements. Signals regulatory tightening on DC power consumption in the UK, potentially constraining AI DC expansion in Europe's second-largest economy
 - **Hydra Host** raised **$100M in Series A** funding — new DC developer entering the market with significant capital
+
+## Google "Brazos" Open-Source Liquid-to-Air Cooling Sidecar (June 2026)
+
+- **Google** unveiled **"Brazos"** — a new open-source **liquid-to-air cooling sidecar** designed for air-cooled data center environments
+- Developed under the **Open Compute Project (OCP)** framework for sidecar cooling designs
+- Significance: This represents a bridge technology for the many existing air-cooled data centers that cannot be immediately converted to full liquid cooling. Liquid-to-air sidecars allow DC operators to leverage existing liquid cooling infrastructure (from nearby liquid-cooled racks) to cool adjacent air-cooled environments, extending the useful life of legacy DC assets during the AI compute buildout.
+- Supply chain implication: Confirms the liquid cooling transition is multi-speed — full liquid-cooled DCs for new AI clusters, but sidecar solutions for retrofitting existing facilities. This broadens the addressable market for liquid cooling components beyond just new-build hyperscale DCs.
+
+## Tim Cook: AI-Driven Memory Price Increases "Unavoidable" (June 2026)
+
+- **Apple CEO Tim Cook** warned that AI-driven price increases for **DRAM and NAND memory** are **"unavoidable"** and that Apple can no longer "shield" its customers — calling the situation "unsustainable"
+- Significance: This is a rare public acknowledgment from a major OEM that AI demand is directly driving up consumer electronics costs through memory price inflation. Apple's scale as one of the world's largest memory purchasers means its pricing pressure signals genuine supply tightness in DRAM/NAND markets.
+- Supply chain implication: Confirms the memory pricing power thesis — AI-driven HBM demand is pulling up prices across all memory segments (HBM, enterprise DDR5, consumer DDR5, NAND), benefiting [[sk-hynix]], [[samsung]], [[micron]], and increasingly [[cxmt]]/YMTC as they capture mainstream segments. The "unsustainable" language suggests memory price increases may accelerate further if supply doesn't respond.

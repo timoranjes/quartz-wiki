@@ -1,7 +1,7 @@
 ---
 title: Intel
 created: 2026-06-03
-updated: 2026-06-18
+updated: 2026-06-19
 type: entity
 tags: [compute, foundry, capex-cycle, packaging]
 sources: [raw/articles/intel-xeon-6-computex-roundtable-interview-transcript-kira-b-5dfcda93d7df4012.md, raw/articles/intels-next-gen-lga1954-socket-will-support-nova-lake-razor--9c39e2173810a879.md, raw/articles/intel-addresses-arrow-lake-blunder-we-needed-to-build-back-o-019d77bdb973875e.md, raw/articles/intel-reportedly-no-longer-working-on-6-core-nova-lake-mobil-2c7d10ffc6e01d2d.md, raw/articles/using-graph-attention-for-virtual-metrology-in-semiconductor-3f3f87855ad3e2bf.md, raw/articles/google-reportedly-books-intel-for-packaging-more-than-3-mill-fc7d57d48a81ab71.md]
@@ -83,3 +83,17 @@ Intel is a diversified semiconductor company operating in CPUs, foundry services
   - **14A process node:** Two critical deadlines determining when Intel's next-next-generation node reaches production readiness
 - Significance: Intel's foundry ambitions require simultaneous multi-continent fab construction at unprecedented scale. The 14A timeline is the key variable — if Intel can deliver 14A on schedule, it regains process leadership; delays would further erode foundry customer confidence.
 - Supply chain implication: Intel's fab construction drives demand for semiconductor equipment (lithography, etch, deposition) across all major suppliers — competing with [[tsmc]]'s own expansion for equipment slot availability. The CHIPS Act funding dependency introduces political risk to the timeline.
+
+## VLSI 2026: Intel 18A Platform Momentum (June 2026)
+
+- **VLSI 2026 conference** — Intel presented results demonstrating **18A platform momentum from devices to routed designs**
+- Key themes: higher performance, **backside power delivery** (PowerVia), and new materials integration
+- Significance: VLSI is a premier semiconductor conference — Intel's presence with concrete 18A results signals the process is maturing from risk production toward customer-ready PDK. Backside power delivery is a differentiating feature for AI accelerator designs that need dense power routing.
+- See [[cowos-packaging]] for advanced packaging integration with 18A dies
+
+## Apple–Intel Foundry Deal Rumor (June 2026)
+
+- **President Trump** claimed Apple has agreed to work with Intel to "design and build" chips in the United States
+- **Neither Apple nor Intel confirmed the deal** — Intel share price surged 8%+ on the news
+- Significance: If validated, this would be a landmark foundry customer win for Intel — Apple is the most prestigious fabless chip company and its validation would restore confidence in Intel's foundry capabilities. However, the lack of confirmation from either party makes this highly speculative.
+- Supply chain implication: An Apple–Intel foundry deal would reshape the competitive dynamics between Intel Foundry and [[tsmc]], potentially redirecting equipment slot priorities and capacity allocation across the global semiconductor supply chain

@@ -1,7 +1,7 @@
 ---
 title: CoWoS Packaging
 created: 2026-05-29
-updated: 2026-05-29
+updated: 2026-06-19
 type: concept
 tags: [cowos, packaging, bottleneck]
 sources: [raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md]
@@ -42,3 +42,24 @@ TSMC and its OSAT partners are racing to expand packaging capacity. However, the
 - [[ai-supply-chain-bottlenecks]]
 - [[tsmc]]
 - [[hbm-memory]]
+
+## Advanced Packaging Technology Trends (June 2026)
+
+### Hybrid Bonding — Billions of Bumps
+
+- **Hybrid bonding** is enabling **unprecedented connection density** in multi-die architectures — building billions of inter-die connections
+- Unlike traditional microbump bonding, hybrid bonding creates direct copper-to-copper connections without solder, enabling much finer pitch (sub-10μm) and significantly higher I/O density
+- Significance: Hybrid bonding is the key enabler for next-generation [[chiplet]] architectures where 10+ dies must be interconnected with massive bandwidth. This is the technology that will underpin future CoWoS-L and CoWoS-S evolution beyond current reticle-limited interposer sizes.
+
+### Multi-Die TSV/Bump Planning Automation
+
+- New EDA tools are emerging to **automate bump and TSV (Through-Silicon Via) planning** for multi-die designs — managing **millions of interconnects** while improving productivity
+- Key challenge: as die count per package increases (8+ dies in AI accelerator packages), manual planning of bump maps and TSV placement becomes infeasible
+- Supply chain implication: Automation tools reduce the design-to-production cycle time for advanced packages, potentially easing one constraint on CoWoS capacity expansion — the design engineering bottleneck
+
+### 310mm Panel-Level Packaging for AI
+
+- **Automated 310mm panel-level packaging** is being developed to accelerate AI chip production
+- Key advantages: **higher throughput, reduced cycle time, and lower cost per package** vs. traditional wafer-level packaging
+- Enables integration of increasingly complex multi-die architectures at scale
+- Significance: Panel-level packaging is a potential alternative to wafer-level CoWoS for certain applications. If it achieves production maturity, it could significantly expand total advanced packaging capacity by leveraging larger panel substrates (310mm vs. 300mm wafers), addressing the CoWoS bottleneck from a different angle than TSMC's incremental capacity expansion.
