@@ -1,7 +1,7 @@
 ---
 title: Optical Transceivers
 created: 2026-05-29
-updated: 2026-06-18
+updated: 2026-06-19
 type: concept
 tags: [optical, bottleneck, cpo, supply-demand]
 sources: [raw/articles/techtimes-optical-component-shortage-2026.md, raw/articles/华泰证券光模块功耗提升驱动液冷加速渗透-d4d1cddddd863554.md, raw/articles/lambda-offers-glimpse-into-nvidias-cpo-switch-enabling-more--af33bef83d3dc68c.md, raw/articles/marvell-details-vision-of-optically-interconnected-data-cent-3288c9b4e4722efa.md]
@@ -144,3 +144,11 @@ At the heart of the crisis is the **electro-absorption modulated laser (EML)**:
 - Optics described as a **key growth driver** for Nokia
 - Significance: Confirms the optical networking equipment market is booming beyond just transceivers/modules — the entire optical infrastructure stack (switches, routers, transport equipment) is seeing manufacturing expansion. Nokia's decision to invest in US-based optics manufacturing also aligns with the localization/resilience trend in AI infrastructure supply chains.
 - Supply chain implication: Optical networking equipment lead times may begin to ease as manufacturing capacity expands, but the expansion itself signals sustained demand growth through 2027+
+
+## On-Chip Photonics Manufacturability Challenges (June 2026)
+
+- **Semiconductor Engineering** published analysis on the challenge of making **on-chip photonics manufacturable at scale**
+- Core thesis: AI systems are pulling optics closer to logic (co-packaged optics, on-chip waveguides), but **scalable manufacturing will require front-end fabrication, packaging, thermal management, materials, and test to evolve together**
+- Key challenge: silicon photonics integration into advanced CMOS fabs requires process modifications that conflict with existing high-volume logic manufacturing flows. Thermal management of on-chip lasers, yield testing of optical I/O, and packaging of fiber-to-chip interfaces are all unsolved at scale.
+- Significance: This validates the CPO timeline uncertainty noted in the [[optical-transceivers]] bottleneck analysis. While CPO is the structural solution to the EML/transceiver shortage, the manufacturing ecosystem for on-chip photonics is not yet ready for high-volume production — meaning the pluggable transceiver market will remain the dominant form factor through 2027+ even as CPO advances in R&D.
+- Supply chain implication: The gap between CPO R&D demos and manufacturable high-volume production creates a window where traditional pluggable optical modules (and their supply chain constraints) persist longer than some forecasts assume

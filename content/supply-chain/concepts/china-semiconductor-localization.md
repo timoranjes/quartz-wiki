@@ -1,7 +1,7 @@
 ---
 title: China Semiconductor Localization
 created: 2026-05-29
-updated: 2026-06-18
+updated: 2026-06-19
 type: concept
 tags: [localization, export-controls, bottleneck]
 sources: [raw/articles/wikipedia-china-semiconductor-industry.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/tiktok-owner-bytedance-is-reportedly-developing-its-own-cust-13089b2d7ddab835.md, raw/articles/华为发布韬τ定律重构后摩尔时代的中国技术路径-9653afbd1253c669.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/edge-ai-daily-早报6月1日-abe98024bd263e34.md, raw/articles/us-closes-loophole-that-allowed-chinese-owned-subsidiaries-l-2baccdec109451b3.md, raw/articles/mainland-chinese-exhibitors-reportedly-locked-out-of-compute-fabcc678cf012315.md, raw/articles/36氪独家-火山引擎提升maas营收目标至全年150亿元seedance-20单月营收已超10亿元-6ecf7e73eb3e01e8.md, raw/articles/投资长鑫科技与宇树科技-险资耐心资本布棋新质生产力-babf6169ac95ef7d.md, raw/articles/36氪独家2026-年字节-ai-的四个关键命题-15b041f70c816c83.md, raw/articles/token大战中华为云选择了第三条路最前线-11bb6cc5c8b5d54c.md]
@@ -242,3 +242,10 @@ Supply chain implication: ByteDance's massive AI compute spend ($30-70B capex) c
 - **智谱 (Zhipu AI) and MiniMax** — both preparing "回A" (return to A-share) listings — directly benefit from this regulatory accommodation
 - Significance: China's capital markets are being structurally reformed to accommodate AI companies that burn cash for years before generating revenue — mirrors the NASDAQ model that enabled US tech companies to list pre-profit
 - Combined with HKEX Tech 100 fast-track inclusions, Chinese AI companies now have dual capital market access (Hong Kong + STAR Market)
+
+## Chinese DRAM/SSD Makers Gain Structural Advantage from State Guidance (June 2026)
+
+- **Silicon Motion (SMI) SVP** stated Chinese DRAM module and SSD makers have a **"serious advantage"** over American and Taiwanese suppliers
+- Core mechanism: **state guidance secures local DRAM and SSD supply chains** while the Big Three memory makers (Samsung, SK Hynix, Micron) shift capacity toward higher-margin AI/HBM products
+- CCP directives can serve as a "lifebuoy" — domestic memory makers may be **obliged to support the module industry** even when market economics would favor HBM/enterprise allocation
+- Significance: This is a structural demand-side tailwind for [[cxmt]] and YMTC that operates independently of technology breakthroughs. The Big Three's rational profit-maximizing behavior (chasing AI/HBM margins) is creating a vacuum in mainstream DDR5/NAND that Chinese producers are filling with state backing. Combined with Western OEM adoption (Corsair, HP, Dell using Chinese DDR5), this signals a durable market share shift in mainstream memory segments.
