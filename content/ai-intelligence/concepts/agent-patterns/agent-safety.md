@@ -3,7 +3,7 @@ title: "Agent Safety"
 type: concept
 tags: [safety, agent-architecture]
 created: "2026-06-03"
-updated: "2026-06-18"
+updated: "2026-06-20"
 status: seed
 ---
 
@@ -301,6 +301,42 @@ Sources: [arXiv:2606.04990](https://arxiv.org/abs/2606.04990) ^[raw/papers/unkno
 GUI agent safety must address **privacy of bystander data** visible on screen, not just the agent's direct actions. This is a new attack surface unique to visual/GUI agents.
 
 Sources: [arXiv:2606.12666](https://arxiv.org/abs/2606.12666) ^[raw/papers/unknown-caped-context-aware-privacy-exposure-defense-for-mobile-gui-agents.md]
+
+## Runtime Governance Architectures for Production Agents (June 2026)
+
+Two complementary papers establish a reference architecture and policy language for governing production AI agents.
+
+### Five-Plane Reference Architecture (arXiv:2606.12320)
+
+Enterprise security was built to govern data boundaries (access control, DLP, perimeter inspection). Production AI agents dissolve this assumption — risk moves **inside the workflow**, into sequences of individually-permitted actions that may transform a business process no one authorized.
+
+**Four composable primitives:**
+1. **Five-plane decomposition** — a reasoning plane (adjudicates intent) + four enforcement planes (network, identity, endpoint, data) that realize the decision
+2. **Stop-anywhere mediation** — ability to interrupt agent execution at any point
+3. **Composite principals with capability attenuation** — authority that attenuates through delegation chains
+4. **Audit as structured evidence substrate** — tamper-evident audit trail
+
+**Six interruption primitives** generalize allow/deny. Four correctness invariants are defined. Reference implementation demonstrates: attenuation correctness and evidence reconstructability on every trial, adjudication in single-digit microseconds.
+
+**Scope:** governs delegated action, not model behavior.
+
+### AgenticRei: Deontic Policies (arXiv:2606.19464)
+
+Current policy engines (XACML, Rego, Cedar) only address the **permit/prohibit** subset of governance. They cannot express:
+- **Obligations** — what agents must do after certain actions (e.g., notify the CISO)
+- **Dispensations** — under what conditions a standing obligation may be waived
+- **Meta-policy conflict resolution** — which rules take precedence when policies conflict
+- **Ontological reasoning** — over domain class hierarchies (healthcare, cybersecurity, data privacy)
+
+**AgenticRei** realizes all of these using a deontic policy language built on the Rei framework, expressed as OWL and evaluated at runtime by a high-performance logic engine **entirely outside the LLM**. The same pipeline governs both tool invocations and agent-to-agent messages. Composes naturally with A2A frameworks.
+
+### Implications
+- Production agent safety requires **runtime governance** beyond static access control
+- The permit/prohibit model is insufficient — obligations and dispensations are essential
+- Policy evaluation should happen **outside the LLM** for determinism and auditability
+- These architectures govern **delegated action sequences**, not model behavior
+
+Sources: [arXiv:2606.12320](https://arxiv.org/abs/2606.12320) ^[raw/papers/unknown-a-five-plane-reference-architecture-for-runtime-governance-of-production-ai-agen.md] ^[raw/papers/unknown-deontic-policies-for-runtime-governance-of-agentic-ai-systems.md]
 
 ## Related
 

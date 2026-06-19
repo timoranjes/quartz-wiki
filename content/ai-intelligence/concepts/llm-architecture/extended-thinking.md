@@ -1,7 +1,7 @@
 ---
 title: Extended Thinking / Reasoning Mode
 created: 2026-06-01
-updated: "2026-06-13"
+updated: "2026-06-20"
 type: concept
 tags:
   - reasoning
@@ -106,6 +106,28 @@ Probing **partial traces** at intermediate checkpoints can extract current answe
 - Complements other efficiency methods (can stack with confidence-weighted sampling)
 
 Sources: [arXiv:2606.12935](https://arxiv.org/abs/2606.12935) ^[raw/papers/unknown-mars-margin-adversarial-risk-controlled-stopping-for-parallel-llm-test-time-scal.md]
+
+## SEVRA: Selective Verification for Budget-Aware Reasoning (June 2026)
+
+**SEVRA** (Selective Verification for Reasoning Allocation, arXiv:2606.19808) addresses test-time reasoning as a **deployment allocation problem**, not a new-verifier problem.
+
+### Key Insight
+Extra reasoning is not uniformly valuable — it can repair failed attempts, waste compute on already-correct answers, or introduce harmful answer changes. The question is: **when should you verify vs. when should you just think longer?**
+
+### Method
+- Serving-layer controller decides whether to preserve a frozen solver's initial answer or invoke active verification
+- Trains **recoverability-aware gates** from serving-visible attempt state
+- Using frozen Qwen3-4B solver on MathFive:
+  - Selective verification: **76.3% accuracy** vs. 75.5% for always verifying
+  - **26.8% reduction** in post-generation tokens
+  - Harmful flips reduced from **2.2% → 1.0%**
+- However, an 8,192-token initial solve reaches 76.0% with **28% fewer total tokens** — showing selective recovery is useful but not always the best cost frontier
+- On GSM: selective policy verifies only 3.0% of examples, improves 93.4% → 94.5%, reduces verification tokens by **91.2%**
+
+### Deployment Rule
+**Tune the initial budget first, then use selective recovery** when explicit checks, bounded retries, auditability, or regression-risk control matter. Self-Consistency@5 on CommonsenseQA improves accuracy at ~5× the realized token cost — always-on verification hurts.
+
+Sources: [arXiv:2606.19808](https://arxiv.org/abs/2606.19808) ^[raw/papers/unknown-think-again-or-think-longer-selective-verification-for-budget-aware-reasoning.md]
 
 ## Related
 

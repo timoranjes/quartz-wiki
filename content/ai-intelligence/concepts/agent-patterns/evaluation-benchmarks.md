@@ -3,7 +3,7 @@ title: "Evaluation Benchmarks"
 type: concept
 tags: [evaluation, benchmark]
 created: "2026-06-03"
-updated: "2026-06-13"
+updated: "2026-06-20"
 status: seed
 ---
 
@@ -74,6 +74,14 @@ Benchmarks measure agent capability across dimensions: reasoning, tool use, code
 - **Key finding**: Learnable harness controller (HarnessBridge) matches/surpasses strong specialized harnesses while reducing token usage and trajectory length
 - **Also evaluated on**: [[swe-bench]] Verified
 - **Source**: [arXiv:2606.12882](https://arxiv.org/abs/2606.12882)
+
+### ORAgentBench: Operations Research Agent Evaluation (June 2026)
+- **Purpose**: Evaluate autonomous agents on end-to-end operations research tasks
+- **Scale**: 107 human-reviewed tasks across diverse operational scenarios, each with isolated environment, natural-language brief, multi-file data, config artifacts, and submission schema
+- **Method**: Agents must write and run solution code, evaluated by hidden validators for schema validity, hard-constraint feasibility, and normalized objective quality
+- **Key finding**: Best agent passes only **35.51%** of all tasks, **20.59%** of hard tasks. Errors dominated by strategic weaknesses: missed operational rules, brittle formulations, weak feasible-solution construction, insufficient solution improvement
+- **Implication**: Current agents remain far from reliable OR practice — progress requires moving beyond plausible optimization code toward dependable, high-quality operational decision-making
+- **Source**: [arXiv:2606.19787](https://arxiv.org/abs/2606.19787)
 
 ## Related
 

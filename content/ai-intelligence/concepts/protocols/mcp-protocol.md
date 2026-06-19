@@ -1,7 +1,7 @@
 ---
 title: MCP (Model Context Protocol)
 created: 2026-06-01
-updated: "2026-06-17"
+updated: "2026-06-20"
 type: concept
 tags:
   - integration
@@ -105,6 +105,32 @@ MCP is an open standard for connecting LLMs to external tools, data sources, and
 MCP provides the tool interface; A2A enables agent-to-agent coordination. Together they allow scientific agents to be constructed from contracts that preserve scientist judgment while automating implementation.
 
 Sources: [arXiv:2606.12834](https://arxiv.org/abs/2606.12834) ^[raw/papers/unknown-fantastic-scientific-agents-and-how-to-build-them-agentbuild-for-rietveld-refine.md]
+
+## MCP Runtime Fault Taxonomy (June 2026)
+
+**"A Taxonomy of Runtime Faults in Model Context Protocol Servers"** (arXiv:2606.05339) provides the first empirical classification of MCP server failures.
+
+### Methodology
+- Analyzed **837 MCP-specific runtime fault threads** from **473 actively maintained** MCP server GitHub repositories
+- Bottom-up open coding procedure → **11 top-level categories, 27 subcategories, 73 leaf fault types**
+- External validity: surveyed **55 MCP server developers** — average 20 of 27 subcategories experienced, no category unobserved
+
+### Fault Categories (top-level)
+- **Protocol interactions** — handshake failures, version mismatches, transport errors
+- **Tool invocations** — parameter validation failures, execution timeouts, partial results
+- **Schema enforcement** — accepted-but-not-enforced config params, unintended defaults
+- **State management** — session corruption, stale caches, race conditions
+- **Model-provider integration** — API key rotation failures, rate limit mishandling
+- **Security validation** — auth bypass, privilege escalation via tool chaining
+- **Timeouts / cancellations** — in-progress operation abandonment, orphaned resources
+
+### Implications
+- MCP reliability is not just a theoretical concern — widespread across the ecosystem
+- Configuration params that are "accepted but not enforced" are a recurrent failure pattern
+- Agent harnesses should implement **runtime fault detection and fallback** for MCP tool calls
+- Taxonomy can guide MCP server testing and agent-side error handling strategies
+
+Sources: [arXiv:2606.05339](https://arxiv.org/abs/2606.05339) ^[raw/papers/unknown-a-taxonomy-of-runtime-faults-in-model-context-protocol-servers.md]
 
 ## MCP Evaluation Challenges (June 2026)
 
