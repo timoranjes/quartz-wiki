@@ -1,7 +1,7 @@
 ---
 title: Intel
 created: 2026-06-03
-updated: 2026-06-19
+updated: 2026-06-20
 type: entity
 tags: [compute, foundry, capex-cycle, packaging]
 sources: [raw/articles/intel-xeon-6-computex-roundtable-interview-transcript-kira-b-5dfcda93d7df4012.md, raw/articles/intels-next-gen-lga1954-socket-will-support-nova-lake-razor--9c39e2173810a879.md, raw/articles/intel-addresses-arrow-lake-blunder-we-needed-to-build-back-o-019d77bdb973875e.md, raw/articles/intel-reportedly-no-longer-working-on-6-core-nova-lake-mobil-2c7d10ffc6e01d2d.md, raw/articles/using-graph-attention-for-virtual-metrology-in-semiconductor-3f3f87855ad3e2bf.md, raw/articles/google-reportedly-books-intel-for-packaging-more-than-3-mill-fc7d57d48a81ab71.md]
@@ -67,6 +67,13 @@ Intel is a diversified semiconductor company operating in CPUs, foundry services
 - Foundry competitor to [[tsmc]] and [[samsung]]
 - CPU competitor to AMD (not yet in wiki) and ARM ecosystem
 - Research partner with Arizona State University on AI-driven manufacturing metrology
+
+## Seok-Hee Lee Hired to Lead Intel Foundry Advanced Packaging (June 2026)
+
+- Intel appointed **Seok-Hee Lee**, former CEO of [[sk-hynix]] and SK On, as executive vice president of Intel Foundry
+- Lee will lead Intel Foundry's advanced packaging division, which Intel is establishing as a "focused business with dedicated leadership"
+- Significance: This is a high-profile recruitment from a direct memory competitor (SK Hynix dominates HBM supply). Lee brings deep expertise in advanced packaging from the memory side — SK Hynix's HBM packaging leadership is world-class. Intel is signaling that advanced packaging will be a standalone strategic pillar of its foundry business, not just a supporting function
+- Supply chain implication: Intel's packaging ambitions (competing with [[tsmc]]'s CoWoS) gain credibility with a leader who has overseen one of the world's most advanced packaging operations. This could accelerate Intel's ability to offer competitive advanced packaging services to external foundry customers
 
 ## Related
 

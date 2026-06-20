@@ -1,7 +1,7 @@
 ---
 title: NVIDIA
 created: 2026-05-29
-updated: 2026-06-18
+updated: 2026-06-20
 type: entity
 tags: [compute, bottleneck, capex-cycle]
 sources: [raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/techtimes-optical-component-shortage-2026.md, raw/articles/nvidias-long-awaited-n1n1x-soc-specs-leak-ahead-of-computex--f031d4fe18bbb91f.md, raw/articles/watch-nvidias-computex-2026-keynote-here-jensen-huang-takes--dc4884e078c91e98.md, raw/articles/microsoft-veteran-recalls-the-last-time-nvidia-and-arm-was-t-734413c22bff300e.md, raw/articles/computex-2026-day-zero-wrap-up-nvidia-launches-rtx-spark-sup-82b25ca627331cf5.md, raw/articles/nvidias-rtx-spark-could-caplitalize-where-qualcomms-arm-base-6ad137f86ca41c6f.md, raw/articles/nvidia-says-rtx-spark-chip-will-support-all-major-anti-cheat-6da85bf15ff0fcd3.md, raw/articles/8点1氪丨腾讯股价暴涨创2021年后单日最高涨幅预计今年安排约1100亿育儿补贴英伟达与微软合作推出统一技术栈-6a23307599ec2fe8.md, raw/articles/abb-expands-partnership-with-nvidia-db6f863f5cb83c10.md, raw/articles/google-signs-920m-monthly-compute-deal-with-spacex-companys--e52986c04b04b6c6.md]
@@ -172,3 +172,10 @@ NVIDIA and SK Hynix signed a multi-year co-development and supply agreement for 
 - [[anthropic]]
 - [[china-semiconductor-localization]]
 - [[ai-data-center-infrastructure]]
+
+## Amazon Trainium — Emerging Merchant AI Accelerator Competitor (June 2026)
+
+- **Amazon** reportedly planning to sell **Trainium AI accelerators** to external data centers, expanding beyond internal AWS usage
+- Significance: Transforms AWS from a GPU consumer into a direct competitor in the merchant AI accelerator market. Trainium offers lower-cost alternative to NVIDIA GPUs for training workloads, validated at hyperscale within AWS
+- Supply chain implication: If Trainium gains external traction, it diversifies the AI accelerator supply base. However, Trainium depends on [[tsmc]] for manufacturing and competes for the same [[cowos-packaging]] capacity — the bottleneck simply shifts from GPU design to foundry/packaging allocation
+- See [[ai-data-center-infrastructure]] for full details on the Trainium external sales report
