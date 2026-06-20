@@ -1,7 +1,7 @@
 ---
 title: AI Data Center Infrastructure
 created: 2026-06-01
-updated: 2026-06-19
+updated: 2026-06-20
 type: concept
 tags: [compute, capex-cycle, bottleneck]
 sources: [raw/articles/softbank-to-spend-up-to-87-billion-on-french-ai-data-centers-fa26f7623145398e.md, raw/articles/lead-or-be-regulated-future-proofing-data-centers-through-re-87b8cf7e9fce73a6.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/coreweave-claims-to-have-first-nvidia-vera-rubin-nvl72-up-an-a9e2366701f46bad.md, raw/articles/supermicro-shows-off-vera-rubin-nvl72-rack-with-all-new-type-32aecf9e2098109e.md, raw/articles/siemens-nvidia-and-fluence-develop-reference-electrical-and--acc011b090d04fc8.md, raw/articles/how-we-used-gemini-to-build-google-io-2026-8558fcd3b2b6a033.md, raw/articles/ai-data-center-demand-larger-than-were-prepared-for-despite--5a3098734e2904a8.md, raw/articles/qts-looking-to-build-temporary-power-plant-to-support-test-o-e11044d4b97056fc.md, raw/articles/brookfield-ups-french-data-center-investment-by-10-billion-7337d711ae3a496a.md, raw/articles/豆包6月下旬正式付费并加速打通抖音电商丨36氪独家-e30eb205e0c9bb34.md, raw/articles/1-megawatt-racks-in-data-centers-f0cc6b7935adc4b5.md, raw/articles/coolit-designs-15kw-coldplate-to-future-proof-liquid-cooling-4c012ad8c3937390.md, raw/articles/google-signs-920m-monthly-compute-deal-with-spacex-companys--e52986c04b04b6c6.md, raw/articles/数智周报消息称deepseek计划在首轮融资中筹集约70亿美元估值高达590亿美元arm首席执行官存储芯片供应整体仍吃紧-75a0edff607543ce.md]
@@ -247,3 +247,16 @@ NVIDIA's next-generation Vera Rubin NVL72 platform is entering production deploy
 - **Apple CEO Tim Cook** warned that AI-driven price increases for **DRAM and NAND memory** are **"unavoidable"** and that Apple can no longer "shield" its customers — calling the situation "unsustainable"
 - Significance: This is a rare public acknowledgment from a major OEM that AI demand is directly driving up consumer electronics costs through memory price inflation. Apple's scale as one of the world's largest memory purchasers means its pricing pressure signals genuine supply tightness in DRAM/NAND markets.
 - Supply chain implication: Confirms the memory pricing power thesis — AI-driven HBM demand is pulling up prices across all memory segments (HBM, enterprise DDR5, consumer DDR5, NAND), benefiting [[sk-hynix]], [[samsung]], [[micron]], and increasingly [[cxmt]]/YMTC as they capture mainstream segments. The "unsustainable" language suggests memory price increases may accelerate further if supply doesn't respond.
+
+## FERC Orders Grid Operators to Fast-Track AI Data Center Applications (June 2026)
+
+- **FERC** (US Federal Energy Regulatory Commission) will order grid operators to **fast-track AI data center connections** within **90 days**, conditional on projects either **generating their own power** or **reducing demand during peak hours**
+- Significance: This is the most direct federal intervention to date to resolve the grid interconnection bottleneck that has delayed AI data center builds. The 90-day mandate is aggressive — typical interconnection queues take years.
+- Supply chain implication: If implemented, this could materially accelerate AI data center deployment timelines, increasing near-term demand for GPUs, HBM, optical components, and cooling infrastructure. The "bring your own power" condition reinforces the trend toward on-site generation (natural gas, solar, nuclear SMRs) as a prerequisite for AI DC siting. See [[ai-supply-chain-bottlenecks]] for the broader power constraint context.
+
+## Amazon Trainium — Selling AI Chips to External Data Centers (June 2026)
+
+- **Amazon** is reportedly planning to sell its **Trainium AI accelerators** to external data centers — expanding beyond internal AWS usage
+- This would position Amazon as a direct competitor to [[nvidia]] in the merchant AI accelerator market
+- Significance: Amazon's Trainium has been an internal AWS differentiator (cost-effective alternative to NVIDIA GPUs for AWS customers). Selling externally transforms AWS from a GPU consumer into a GPU competitor, challenging NVIDIA's dominance in the merchant AI chip market
+- Supply chain implication: If Trainium achieves competitive performance at lower cost, it could diversify the AI accelerator supply base, reducing NVIDIA's pricing power. However, Trainium depends on [[tsmc]] for manufacturing and would compete for the same CoWoS packaging capacity — the bottleneck simply shifts from GPU design to foundry/packaging allocation

@@ -1,7 +1,7 @@
 ---
 title: China Semiconductor Localization
 created: 2026-05-29
-updated: 2026-06-19
+updated: 2026-06-20
 type: concept
 tags: [localization, export-controls, bottleneck]
 sources: [raw/articles/wikipedia-china-semiconductor-industry.md, raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/tiktok-owner-bytedance-is-reportedly-developing-its-own-cust-13089b2d7ddab835.md, raw/articles/华为发布韬τ定律重构后摩尔时代的中国技术路径-9653afbd1253c669.md, raw/articles/数智周报华为发表半导体韬定律5年内冲刺等效14nm制程minimax将a股上市宇树科技冲刺科创板anthropic融资6-b7f2a636989c6ab0.md, raw/articles/140万亿token之后中国正在修建算力高铁-3eaff11f9d79d7ef.md, raw/articles/edge-ai-daily-早报6月1日-abe98024bd263e34.md, raw/articles/us-closes-loophole-that-allowed-chinese-owned-subsidiaries-l-2baccdec109451b3.md, raw/articles/mainland-chinese-exhibitors-reportedly-locked-out-of-compute-fabcc678cf012315.md, raw/articles/36氪独家-火山引擎提升maas营收目标至全年150亿元seedance-20单月营收已超10亿元-6ecf7e73eb3e01e8.md, raw/articles/投资长鑫科技与宇树科技-险资耐心资本布棋新质生产力-babf6169ac95ef7d.md, raw/articles/36氪独家2026-年字节-ai-的四个关键命题-15b041f70c816c83.md, raw/articles/token大战中华为云选择了第三条路最前线-11bb6cc5c8b5d54c.md]
@@ -183,6 +183,21 @@ Supply chain implication: ByteDance's massive AI compute spend ($30-70B capex) c
 - Implications: Chinese AI companies that relied on frontier Western model APIs (Claude, GPT) are now formally cut off, accelerating domestic model development (DeepSeek, MiniMax, 华为盘古, etc.)
 - Combined with existing chip export controls, this creates a **dual-layer containment**: China is restricted on both the hardware layer (GPUs, HBM, EDA tools) AND the model layer (frontier AI APIs)
 - Signals the US treating frontier AI capabilities as national security assets comparable to advanced semiconductors
+
+## ASML Denies EUV Shipment to China — Commerce Secretary Lutnick Concerns (June 2026)
+
+- **US Commerce Secretary Lutnick** expressed concerns to ASML executives that China may possess an EUV lithography system
+- **ASML categorically denied** shipping any EUV scanners to the PRC, calling the rumors "inaccurate and damaging to our reputation"
+- Significance: This is the first public allegation at the Commerce Secretary level that China may have obtained EUV technology through non-standard channels. Even if unconfirmed, it signals that US authorities are actively investigating potential EUV export control circumvention
+- If China somehow acquired EUV capability (through third parties, illicit channels, or domestic breakthrough), it would fundamentally alter the timeline for [[china-semiconductor-localization]] — EUV is the critical missing piece for sub-7nm domestic production
+- The denial from ASML (which has strong incentives to maintain export compliance) adds credibility to the position that China does not yet have operational EUV, but the US government's concern indicates active intelligence efforts on this front
+
+## Z.ai CEO on China's AI Model Timeline (June 2026)
+
+- **Elon Musk** estimated that Chinese AI firms would reach "Fable 5-class" (Mythos-level) capability by **Q1 2027**
+- **Jie Tang (唐杰)**, CEO of **Z.ai** (北京智谱华章), responded that China will achieve this milestone sooner — "it won't take that long" — without providing a concrete timeline
+- Significance: Public timeline claims from Chinese AI leadership signal confidence in domestic model development despite the dual-layer containment (hardware + model API restrictions). Z.ai (智谱) is already one of China's leading model providers, with GLM models competing at the API layer
+- Supply chain implication: If Chinese model capability approaches frontier levels, the compute demand for training and inference will intensify, further straining domestic accelerator supply (昇腾, Biren) and driving continued investment in localized silicon
 
 ## Korea Power Semiconductor Investment (June 2026)
 

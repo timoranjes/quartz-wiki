@@ -1,7 +1,7 @@
 ---
 title: TSMC
 created: 2026-05-29
-updated: 2026-06-13
+updated: 2026-06-20
 type: entity
 tags: [foundry, packaging, capex-cycle]
 sources: [raw/articles/informedclearly-semiconductor-bottleneck-2026.md, raw/articles/fusionww-ai-bottleneck-cowos-hbm.md, raw/articles/energy-efficient-compute-is-most-important-attribute-for-cus-796c5d9bec6f0c58.md, raw/articles/tsmc-defends-transistor-scaling-amid-huaweis-hers-law-propos-c0bd77c82eefcf4c.md, raw/articles/tsmc-ceo-cc-wei-says-it-will-be-a-long-time-before-we-can-me-8cfb30fb296f1a33.md]
@@ -63,3 +63,16 @@ TSMC is the world's largest contract chipmaker and the dominant player in advanc
 - [[ai-supply-chain-bottlenecks]]
 - [[nvidia]]
 - [[hbm-memory]]
+
+## imec + ASML + TSMC: 2D Material Transistors at 50nm Pitch (June 2026)
+
+- **Imec, ASML, and TSMC** jointly fabricated complementary (n-type + p-type) transistors with atomically thin **2D material channels** on a single **300mm wafer** at **50nm pitch**
+- This is the first demonstration of full CMOS functionality with 2D materials at a commercially relevant wafer size and pitch
+- Significance: 2D materials (such as transition metal dichalcogenides) offer superior electrostatic control at sub-3nm nodes where silicon channel thickness becomes a fundamental limitation. This breakthrough moves post-silicon transistors from research lab to 300mm fab-scale demonstration
+- Supply chain implication: If 2D transistors reach production (likely late 2020s/early 2030s), it would require new materials supply chains (2D semiconductor precursors, specialized deposition equipment) and could reshape the lithography and etch equipment landscape. The imec-ASML-TSMC collaboration confirms that the industry's leading-edge triad is already co-investing in the post-silicon roadmap
+
+## Taiwan's Centrality in the Global Semiconductor Supply Chain (June 2026)
+
+- **EE Times** analysis: "All Semiconductor Roads Lead to Taiwan" — Taiwan has become the linchpin of the global semiconductor supply chain despite its small geographic size
+- Taiwan controls the majority of advanced logic fabrication (TSMC), advanced packaging (CoWoS), and a growing share of OSAT capacity
+- Significance: Concentration risk continues to be the single most discussed vulnerability in the AI supply chain. Every major AI accelerator design depends on Taiwanese manufacturing, creating a structural bottleneck that no amount of US/European fab investment can quickly resolve

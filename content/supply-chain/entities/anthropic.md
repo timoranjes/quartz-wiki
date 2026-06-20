@@ -1,7 +1,7 @@
 ---
 title: Anthropic
 created: 2026-06-01
-updated: 2026-06-18
+updated: 2026-06-20
 type: entity
 tags: [compute, overview, competitive-analysis]
 sources: [raw/articles/anthropic-raises-65bn-overtakes-openai-to-965bn-valuation-255d6e11b3bb4917.md, raw/articles/anthropic-冲击-1-万亿除了-pre-ipo还有哪些隐藏的claude-概念股-8569f0fead907f86.md, raw/articles/anthropic-files-for-ipo-claude-maker-races-openai-and-spacex-dca1c25de5f8c798.md]
@@ -53,6 +53,12 @@ Chinese market analysis has identified a "Claude concept stock" ecosystem (Claud
 - HBM suppliers as investors: [[micron]], [[samsung]], [[sk-hynix]]
 - Competes with OpenAI for AI model market leadership
 - Major consumer of AI compute infrastructure (data centers, GPUs, networking)
+
+## John Hopfield Joins Anthropic (June 2026)
+
+- **John Jumper** (约翰·江珀), 2024 Nobel Prize in Chemistry co-laureate (with Demis Hassabis and David Baker for protein structure prediction via AlphaFold), announced he is leaving Google DeepMind to join Anthropic
+- Significance: Hopfield is one of the most respected figures in computational biology and neural network theory (the Hopfield network, 1982, is foundational to modern associative memory and energy-based models). His move from DeepMind to Anthropic signals Anthropic's ambition to expand beyond language models into scientific AI and multi-modal reasoning
+- The recruitment of a Nobel laureate from DeepMind also underscores the intensifying talent competition between AI labs — similar to the hyperscaler infrastructure talent flow (e.g., Marcus Fontoura from Azure to Anthropic)
 
 ## Microsoft Azure Core CTO Joins Anthropic (June 2026)
 
