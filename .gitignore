@@ -1,5 +1,9 @@
 node_modules/
 public/
-.quartz/cache/
+.quartz/
 *.log
 .DS_Store
+# Pipeline / staging dirs — never publish
+content/*/state/
+content/*/raw/
+content/*/wiki/
