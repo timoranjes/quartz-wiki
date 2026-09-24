@@ -33,19 +33,10 @@ last_updated: 2026-05-29
 |------|------|---------|
 | [[hbm-competitive-landscape]] | hbm, competitive-analysis, memory | 2 |
 
-## Raw Sources
-
-| File | Topic | Size |
-|------|-------|------|
-| raw/articles/informedclearly-semiconductor-bottleneck-2026.md | Supply chain crisis overview | 8.6KB |
-| raw/articles/fusionww-ai-bottleneck-cowos-hbm.md | CoWoS/HBM/advanced node bottlenecks | 4.8KB |
-| raw/articles/bytedive-hbm-market-hbm4-hbf.md | HBM market analysis, HBM4/HBF | 3.7KB |
-| raw/articles/techtimes-optical-component-shortage-2026.md | Optical transceiver shortage | 3.7KB |
-| raw/articles/atlaspcb-taiwan-pcb-ccl-second-sourcing-2026.md | PCB/CCL supply chain | 2.5KB |
-| raw/articles/wikipedia-china-semiconductor-industry.md | China semiconductor industry | 2.1KB |
-
 ## Stats
 
-- **Total pages:** 14 (6 concepts, 7 entities, 1 comparison)
-- **Total raw sources:** 6 articles (25.4KB)
-- **Last updated:** 2026-05-29
+- **Total pages:** 27 (9 concepts, 17 entities, 1 comparison)
+- **Last updated:** 2026-09-24
+
+*Raw source dumps and pipeline state are kept in the authoring vault, not published here.*
+

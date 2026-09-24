@@ -19,19 +19,19 @@ A living reference of the latest AI models, autonomous coding tools, and agent f
   </div>
   <div class="stat-card green">
     <span class="stat-card-icon">⚡</span>
-    <div class="stat-card-value">10</div>
+    <div class="stat-card-value">11</div>
     <div class="stat-card-label">Coding Agents</div>
     <div class="stat-card-sublabel">Autonomous dev tools</div>
   </div>
   <div class="stat-card purple">
     <span class="stat-card-icon">🔗</span>
-    <div class="stat-card-value">7</div>
+    <div class="stat-card-value">9</div>
     <div class="stat-card-label">Agent Frameworks</div>
     <div class="stat-card-sublabel">Multi-agent orchestration</div>
   </div>
   <div class="stat-card amber">
     <span class="stat-card-icon">📊</span>
-    <div class="stat-card-value">126</div>
+    <div class="stat-card-value">108</div>
     <div class="stat-card-label">Total Pages</div>
     <div class="stat-card-sublabel">Knowledge base size</div>
   </div>
@@ -183,4 +183,52 @@ Multi-agent orchestration platforms for building complex AI workflows.
 
 ---
 
-*Last updated: 2026-06-05 · 126 pages · 18 providers + 10 coding agents + 7 frameworks*
+## Classic Reference Set
+
+The May 2026 agent-engineering reference set, migrated here when the standalone `wiki-ai-agents` site was retired. Kept alongside the current research as the foundational pattern vocabulary.
+
+<div class="section-card">
+  <div class="section-card-header">
+    <span class="section-card-title">📚 Agent Patterns (Classic)</span>
+    <span class="section-card-count">12 pages</span>
+  </div>
+  <div class="tag-cloud">
+    <a href="concepts/agent-patterns/react-pattern-classic">ReAct</a>
+    <a href="concepts/agent-patterns/planning-pattern-classic">Planning</a>
+    <a href="concepts/agent-patterns/reflection-pattern-classic">Reflection</a>
+    <a href="concepts/agent-patterns/prompt-chaining-classic">Prompt Chaining</a>
+    <a href="concepts/agent-patterns/routing-classic">Routing</a>
+    <a href="concepts/agent-patterns/tool-use-pattern-classic">Tool Use</a>
+    <a href="concepts/agent-patterns/function-calling-classic">Function Calling</a>
+    <a href="concepts/agent-patterns/orchestrator-workers-classic">Orchestrator-Workers</a>
+    <a href="concepts/agent-patterns/evaluation-classic">Evaluation</a>
+    <a href="concepts/evaluation/swe-bench-classic">SWE-bench</a>
+    <a href="concepts/evaluation/persona2web-benchmark">Persona2Web</a>
+    <a href="concepts/evaluation/setupx-framework">SetupX</a>
+  </div>
+</div>
+
+<div class="section-card">
+  <div class="section-card-header">
+    <span class="section-card-title">🔗 Frameworks & Protocols (Classic)</span>
+    <span class="section-card-count">12 pages</span>
+  </div>
+  <div class="tag-cloud">
+    <a href="entities/agent-frameworks/langchain-classic">LangChain</a>
+    <a href="entities/agent-frameworks/langgraph">LangGraph</a>
+    <a href="entities/agent-frameworks/crewai-classic">CrewAI</a>
+    <a href="entities/agent-frameworks/autogen-classic">AutoGen</a>
+    <a href="entities/agent-frameworks/llamaindex-classic">LlamaIndex</a>
+    <a href="entities/agent-frameworks/openai-agents-sdk-classic">OpenAI Agents SDK</a>
+    <a href="entities/agent-frameworks/google-adk">Google ADK</a>
+    <a href="entities/protocols/mcp-classic">MCP</a>
+    <a href="entities/llm-providers/anthropic-classic">Anthropic</a>
+    <a href="comparisons/agent-frameworks/langchain-vs-crewai">LangChain vs CrewAI</a>
+    <a href="comparisons/agent-frameworks/single-vs-multi-agent-classic">Single vs Multi-Agent</a>
+    <a href="concepts/coding-agents-classic">Coding Agents</a>
+  </div>
+</div>
+
+---
+
+*Last updated: 2026-09-24 · 108 pages · 18 providers + 11 coding agents + 9 frameworks*
